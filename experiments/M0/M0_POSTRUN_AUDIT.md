@@ -72,7 +72,7 @@ Each symbol has 26 immutable Memory entries: 25 resolved with reflections and on
 
 The complete frozen source bundle is stored at `agent_outputs/formal_m0_complete_bundle.tar.gz` (19573036 bytes; SHA256 `0eb31fe83731da254e7d90e7104881b96d42028b3410ba5663b5a59ca8f83864`; 4051 source files); browsable inputs, analysis-ready files, tables, metrics, Memory, provenance, and validation are kept alongside it. `SHA256SUMS` is generated after all archive content is finalized.
 
-Public repository verification status: `pending_publication_verification`. The recorded verification metadata is in `provenance/remote_verification.json` when publication has completed.
+Public repository verification status: `passed`. The recorded verification metadata is in `provenance/remote_verification.json` when publication has completed.
 
 The RMB figure is conditional on the explicit ¥7.20/USD reporting assumption; the underlying usage calculation is exact in USD under the official DeepSeek prices. M0 is a 2024H1 baseline and does not establish long-term profitability or generalize to other regimes. Results are preserved regardless of benchmark-relative performance.
 

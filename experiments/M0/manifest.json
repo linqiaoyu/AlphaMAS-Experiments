@@ -49,6 +49,25 @@
     "retrieval": "clone the repository, verify SHA256SUMS, then extract with tar -xzf"
   },
   "remote_verification": {
-    "status": "pending_publication_verification"
+    "status": "passed",
+    "repository": "https://github.com/linqiaoyu/AlphaMAS-Experiments",
+    "branch": "main",
+    "verified_commit": "c43f5c6205654950939d920ea479b4d47223698d",
+    "verified_at_utc": "2026-08-12T16:02:15Z",
+    "verification_source": "fresh shallow clone from the public GitHub repository",
+    "checks": {
+      "repository_visibility": "public",
+      "clean_clone": true,
+      "sha256sums_status": "passed",
+      "sha256sum_file_count": 122,
+      "raw_bundle_gzip_integrity": "passed",
+      "raw_bundle_member_file_count": 4051,
+      "raw_bundle_expected_member_file_count": 4051,
+      "raw_bundle_size_bytes": 19573036,
+      "raw_bundle_sha256": "0eb31fe83731da254e7d90e7104881b96d42028b3410ba5663b5a59ca8f83864",
+      "secret_value_matches": 0,
+      "suspicious_credential_filenames": 0
+    },
+    "verification_scope": "The verified publication contains the complete frozen Formal M0 bundle and all analytical artefacts. The follow-up commit adds only this verification metadata plus regenerated manifest, report, and checksum metadata."
   }
 }
