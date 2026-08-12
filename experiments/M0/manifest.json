@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "archive_type": "AlphaMAS public experiment archive",
+  "experiment_id": "M0_original_prompt_2024H1",
+  "formal_protocol": "formal_m0",
+  "source_repository": "https://github.com/linqiaoyu/AlphaMAS",
+  "public_archive_repository": "https://github.com/linqiaoyu/AlphaMAS-Experiments",
+  "source_branch": "baseline-m0",
+  "frozen_source_commit": "2535896c8b1070b19c06fa6a936663babb4356f7",
+  "successful_run_id": "20260812T082530978211Z_2535896c",
+  "original_interrupted_run_id": "20260811T210814251902Z_2535896c",
+  "memory_lineage_id": "20260811T210814251902Z_2535896c",
+  "resume_relationship": "success run resumed original run using the exact lineage-scoped DecisionCache identity",
+  "scope": {
+    "symbols": [
+      "AAPL",
+      "AMZN",
+      "JPM"
+    ],
+    "benchmark": "SPY",
+    "decision_count": 78,
+    "decisions_per_symbol": 26
+  },
+  "identities": {
+    "graph_config_sha256": "5b1b6e1c132c13f9830b377ba9d54bf0c792b087e9917af5f0ada9cc895d661e",
+    "backtest_protocol_sha256": "bb08f3e169d32ff44a40988933fd8e58638596f5a1a04f3d0e1e22d8e4b116d7",
+    "implementation_identity": "2535896c8b1070b19c06fa6a936663babb4356f7",
+    "uv_lock_sha256": "beec81b017ae7608e7ff8a529476ed637163af7004efb7c7111a8bd081ae5d29",
+    "snapshot_sha256": {
+      "AAPL": "5428fc2c672f3b68c7c3e83b4a22bd5b7330c95a8b4194695762539d9d8a5af3",
+      "AMZN": "c4b5c747d75ba658c6f6833348783e3f8a8c571380c930de20cf9fb7dd6b1444",
+      "JPM": "74cf77b77b0a83ce8e6246578d4da30bf7622558e8973bda71344b99b9dfd6fc",
+      "SPY": "22e6996ebf963787f40d54bfc59e1ca088fa698cb82b639768504dbdbb2d25ac"
+    },
+    "memory_manifest_sha256": "15ebc649a4ecc18688c248a09d6139a52bc6378ef7ed7a4e03b19124e0bb476e"
+  },
+  "archive_policy": {
+    "external_full_datasets_mirrored": false,
+    "experiment_specific_frozen_inputs_preserved": true,
+    "complete_raw_formal_bundle": "agent_outputs/formal_m0_complete_bundle.tar.gz",
+    "bundle_contents": "complete original and resumed run trees, runtime DecisionCache, frozen inputs, reports, Memory, trading outputs, benchmarks, analysis-ready outputs and validation"
+  },
+  "archive": {
+    "path": "agent_outputs/formal_m0_complete_bundle.tar.gz",
+    "format": "gzip-compressed tar archive",
+    "size_bytes": 19573036,
+    "sha256": "0eb31fe83731da254e7d90e7104881b96d42028b3410ba5663b5a59ca8f83864",
+    "source_bundle_file_count": 4051,
+    "retrieval": "clone the repository, verify SHA256SUMS, then extract with tar -xzf"
+  },
+  "remote_verification": {
+    "status": "pending_publication_verification"
+  }
+}

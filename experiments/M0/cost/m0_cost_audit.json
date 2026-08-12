@@ -1,0 +1,54 @@
+{
+  "experiment_id": "M0_original_prompt_2024H1",
+  "run_id": "20260812T082530978211Z_2535896c",
+  "lineage": {
+    "original_run_id": "20260811T210814251902Z_2535896c",
+    "resumed_run_id": "20260812T082530978211Z_2535896c",
+    "cache_origin_cases": 39,
+    "live_request_cases": 39,
+    "deduplication_rule": "Each provider usage row is billed once by case_id + origin_run_id + usage_source + agent_node + provider + model. cache_origin rows are preserved original requests, not additional resumed requests."
+  },
+  "model": "deepseek-v4-flash",
+  "provider": "deepseek",
+  "pricing": {
+    "currency": "USD",
+    "source": "DeepSeek official Models & Pricing documentation",
+    "source_url": "https://api-docs.deepseek.com/quick_start/pricing",
+    "retrieval_date": "2026-08-12",
+    "effective_date": "current official page at retrieval",
+    "cache_hit_input_usd_per_million": 0.0028,
+    "cache_miss_input_usd_per_million": 0.14,
+    "output_usd_per_million": 0.28,
+    "billing_unit": "USD per 1,000,000 tokens",
+    "formula": "USD = cache_hit_tokens/1e6*0.0028 + uncached_prompt_tokens/1e6*0.14 + completion_tokens/1e6*0.28"
+  },
+  "reporting_conversion": {
+    "rmb_per_usd": 7.2,
+    "source": "frozen reporting assumption; used only to express the exact USD calculation in RMB",
+    "formula": "RMB = USD * 7.20"
+  },
+  "total": {
+    "unique_billed_requests": 2262,
+    "cache_hit_prompt_tokens": 5221632,
+    "uncached_prompt_tokens": 16508830,
+    "completion_tokens": 2912553,
+    "reasoning_tokens": null,
+    "reasoning_tokens_available": false,
+    "total_tokens": 24643015,
+    "cost_usd": 3.1413716096,
+    "cost_rmb": 22.617875589120004,
+    "cache_hit_token_share": 0.24029088751081315,
+    "uncached_token_share": 0.7597091124891868,
+    "estimated_prompt_cache_saving_usd": 0.7164079104000001,
+    "estimated_prompt_cache_saving_rmb": 5.158136954880001,
+    "estimated_prompt_cache_saving_basis": "Compare observed cached-input pricing with pricing every input token as cache-miss; output cost unchanged.",
+    "mean_cost_per_weekly_decision_rmb": 0.289972763963077,
+    "median_cost_per_weekly_decision_rmb": 0.29001980448000003,
+    "min_cost_per_weekly_decision_rmb": 0.24330394368000002,
+    "max_cost_per_weekly_decision_rmb": 0.33599821248000006
+  },
+  "source_counts": {
+    "cache_origin": 1131,
+    "live_request": 1131
+  }
+}

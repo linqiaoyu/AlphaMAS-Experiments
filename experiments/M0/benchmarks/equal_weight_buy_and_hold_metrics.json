@@ -1,0 +1,18 @@
+{
+  "cumulative_return": 0.2695731389318463,
+  "annualized_return": 0.6242738335949538,
+  "annualized_volatility": 0.1411829969668058,
+  "sharpe_ratio": 3.508875055440767,
+  "sortino_ratio": 6.11624469267813,
+  "maximum_drawdown": 0.06169899290583136,
+  "calmar_ratio": 10.118055485083158,
+  "construction": "mean of individually normalized AAPL, AMZN, JPM Buy & Hold daily equity curves",
+  "symbols": [
+    "AAPL",
+    "AMZN",
+    "JPM"
+  ],
+  "weight_per_symbol": 0.3333333333333333,
+  "session_count": 125,
+  "metric_definitions_source": "formal M0 artifact_schema.json and tradingagents.backtesting.metrics.compute_metrics"
+}

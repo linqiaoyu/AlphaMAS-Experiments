@@ -1,0 +1,14 @@
+{
+  "generated_at_utc": "2026-08-12T16:00:05.192411+00:00",
+  "method": "read-only derived analysis from frozen Formal M0 artefacts",
+  "new_llm_calls": 0,
+  "new_paid_api_calls": 0,
+  "m0_rerun": false,
+  "resume_executed_by_audit": false,
+  "force_executed": false,
+  "m1_started": false,
+  "finmultitime_processed": false,
+  "qwen_vlm_run": false,
+  "agentic_rl_started": false,
+  "m2_m3_run": false
+}

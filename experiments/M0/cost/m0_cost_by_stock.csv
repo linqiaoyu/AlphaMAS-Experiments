@@ -1,0 +1,4 @@
+symbol,unique_billed_requests,cache_hit_prompt_tokens,uncached_prompt_tokens,completion_tokens,reasoning_tokens,reasoning_tokens_available,total_tokens,cost_usd,cost_rmb
+AAPL,755,1752320,5578686,989810,,False,8320816,1.063069336,7.654099219200001
+AMZN,752,1738368,5413296,954387,,False,8106051,1.0299572304000002,7.415692058880001
+JPM,755,1730944,5516848,968356,,False,8216148,1.0483450432,7.548084311040001

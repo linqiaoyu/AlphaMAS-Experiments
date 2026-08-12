@@ -1,0 +1,3 @@
+order_id,symbol,created_at,intended_execution_session,target_weight,current_weight,side,status,reason
+4a0c7acf2a282a3c3ef816d720e8e01e,JPM,2024-01-19T21:00:00+00:00,2024-01-22,1.0,0.0,BUY,filled,target weight changed
+d6980a78bce40dfc5a6a98de750d82b8,JPM,2024-04-12T20:00:00+00:00,2024-04-15,0.0,0.9937479610639955,SELL,filled,target weight changed

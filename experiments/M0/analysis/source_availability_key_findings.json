@@ -1,0 +1,26 @@
+{
+  "historical_news": {
+    "case_count_with_yfinance_get_news_unavailable": 78,
+    "rows_unavailable": 474,
+    "global_news_rows_unavailable": 314
+  },
+  "fundamentals": {
+    "case_count_with_blocked_fundamental_sources": 78
+  },
+  "social_live_only": {
+    "case_count_with_blocked_social_sources": 78,
+    "blocked_rows": 312
+  },
+  "macro": {
+    "case_count_with_blocked_macro_sources": 78
+  },
+  "approximation": {
+    "rows": 788,
+    "cases": 78
+  },
+  "status_totals": {
+    "blocked": 1881,
+    "unavailable": 807,
+    "used": 1690
+  }
+}

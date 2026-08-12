@@ -1,0 +1,4 @@
+order_id,symbol,created_at,intended_execution_session,target_weight,current_weight,side,status,reason
+743ceb433ee6cb2fd64858e2dfae2142,AMZN,2024-02-16T21:00:00+00:00,2024-02-20,1.0,0.0,BUY,filled,target weight changed
+ac773a50ab28aa7510b61c43e9d5b115,AMZN,2024-03-28T20:00:00+00:00,2024-04-01,0.0,1.0,SELL,filled,target weight changed
+3ddec7ac0e43285f1ac1350d65233686,AMZN,2024-04-05T20:00:00+00:00,2024-04-08,1.0,0.0,BUY,filled,target weight changed

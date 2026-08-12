@@ -1,0 +1,24 @@
+source,capability,status,analyst,row_count,case_count,stock_count,decision_week_count,approximation_flag
+stocktwits,LIVE_ONLY,blocked,Social/Sentiment Analyst,156,78,3,26,False
+reddit,LIVE_ONLY,blocked,Social/Sentiment Analyst,156,78,3,26,False
+polymarket,LIVE_ONLY,blocked,Shared macro/context,78,78,3,26,False
+fred,LIVE_ONLY,blocked,Shared macro/context,78,78,3,26,False
+yfinance.ticker_info,LIVE_ONLY,blocked,Market Analyst,78,78,3,26,False
+yfinance.financial_statements,LIVE_ONLY,blocked,Fundamentals Analyst,78,78,3,26,False
+yfinance.insider_transactions,LIVE_ONLY,blocked,Shared/unspecified,78,78,3,26,False
+decision_memory,POINT_IN_TIME,unavailable,Memory / portfolio context,4,4,3,2,False
+yfinance.ticker_info.identity,LIVE_ONLY,blocked,Market Analyst,78,78,3,26,False
+yfinance.get_stock_data,POINT_IN_TIME,used,Market Analyst,78,78,3,26,False
+yfinance.ohlcv_cache,POINT_IN_TIME,used,Market Analyst,772,78,3,26,False
+yfinance.get_indicators,POINT_IN_TIME,used,Market Analyst,693,78,3,26,False
+yfinance.get_news,APPROXIMATE,unavailable,News Analyst,474,78,3,26,True
+fred.get_macro_indicators,LIVE_ONLY,blocked,Shared macro/context,389,78,3,26,False
+polymarket.get_prediction_markets,LIVE_ONLY,blocked,Shared macro/context,193,78,3,26,False
+yfinance.get_global_news,APPROXIMATE,unavailable,News Analyst,314,78,3,26,True
+yfinance.get_fundamentals,LIVE_ONLY,blocked,Fundamentals Analyst,78,78,3,26,False
+yfinance.get_balance_sheet,LIVE_ONLY,blocked,Fundamentals Analyst,147,78,3,26,False
+yfinance.get_cashflow,LIVE_ONLY,blocked,Fundamentals Analyst,147,78,3,26,False
+yfinance.get_income_statement,LIVE_ONLY,blocked,Fundamentals Analyst,147,78,3,26,False
+decision_memory,POINT_IN_TIME,used,Memory / portfolio context,74,74,3,25,False
+decision_memory.outcome_prices,POINT_IN_TIME,used,Memory / portfolio context,73,59,3,20,False
+decision_memory.outcome_prices,POINT_IN_TIME,unavailable,Memory / portfolio context,15,15,3,5,False

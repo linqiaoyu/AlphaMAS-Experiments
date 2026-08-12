@@ -1,0 +1,11 @@
+{
+  "metric_scope": "M0 equal-weight aggregate minus equal-weight Buy & Hold",
+  "m0_cumulative_return": 0.13896787299155555,
+  "equal_weight_buy_and_hold_cumulative_return": 0.2695731389318463,
+  "m0_aggregate_excess_return_vs_equal_weight_bh": -0.13060526594029076,
+  "sharpe_difference": -0.7199938463608717,
+  "sortino_difference": -1.3623337832147318,
+  "maximum_drawdown_difference": -0.011608530484904511,
+  "calmar_difference": -4.074899922863933,
+  "definition": "all differences are M0 minus equal-weight Buy & Hold"
+}

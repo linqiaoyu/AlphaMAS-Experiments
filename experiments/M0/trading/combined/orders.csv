@@ -1,0 +1,7 @@
+account_symbol,order_id,symbol,created_at,intended_execution_session,target_weight,current_weight,side,status,reason
+AAPL,e9d37b952ec1c0ce9615f0a7e41c3028,AAPL,2024-05-24T20:00:00+00:00,2024-05-28,1.0,0.0,BUY,filled,target weight changed
+AMZN,743ceb433ee6cb2fd64858e2dfae2142,AMZN,2024-02-16T21:00:00+00:00,2024-02-20,1.0,0.0,BUY,filled,target weight changed
+AMZN,ac773a50ab28aa7510b61c43e9d5b115,AMZN,2024-03-28T20:00:00+00:00,2024-04-01,0.0,1.0,SELL,filled,target weight changed
+AMZN,3ddec7ac0e43285f1ac1350d65233686,AMZN,2024-04-05T20:00:00+00:00,2024-04-08,1.0,0.0,BUY,filled,target weight changed
+JPM,4a0c7acf2a282a3c3ef816d720e8e01e,JPM,2024-01-19T21:00:00+00:00,2024-01-22,1.0,0.0,BUY,filled,target weight changed
+JPM,d6980a78bce40dfc5a6a98de750d82b8,JPM,2024-04-12T20:00:00+00:00,2024-04-15,0.0,0.9937479610639955,SELL,filled,target weight changed
