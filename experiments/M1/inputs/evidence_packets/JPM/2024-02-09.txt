@@ -4,7 +4,7 @@ Decision session: 2024-02-09
 
 [TEXT]
 Status: UNAVAILABLE
-Missingness reason: no FinMultiTime news member for target symbol
+Missingness reason: No sp500_news/JPM.jsonl member exists; no external or cross-symbol replacement is permitted.
 
 [TABLE]
 Status: AVAILABLE

@@ -19,8 +19,8 @@
     "NOT_APPLICABLE": 26,
     "PENDING": 0
   },
-  "evidence_contract_sha256": "13563ba0c829addde44d602cf8b9ac0e2879d8091832ee120a5caefa4c843ab3",
-  "evidence_contract_version": "M1-FINMULTITIME-v1.0.1",
+  "evidence_contract_sha256": "46f6a05f12a7c402936178748c55dab099c8754d99fa1a0c41faf525cd37ae08",
+  "evidence_contract_version": "M1-FINMULTITIME-v1.0.2",
   "exact_model_revision": "89644892e4d85e24eaac8bacfd4f463576704203",
   "generation_settings": {
     "batch_size": 1,
@@ -139,6 +139,7 @@
   "model": "Qwen3-VL-2B-Instruct",
   "model_repo_id": "Qwen/Qwen3-VL-2B-Instruct",
   "offline_preprocessing_only": true,
+  "pre_formal_correctness_erratum": "Qwen canonical caption reused unchanged; only contract wrapper provenance updated",
   "prohibited_content": [
     "external market knowledge",
     "company-specific factual knowledge not visible in the chart",

@@ -9,8 +9,9 @@ Complete upstream datasets are not mirrored here. Only experiment-specific froze
 ## Experiments
 
 - [Formal M0](experiments/M0/README.md): `M0_original_prompt_2024H1`
+- [Corrected pre-formal M1 inputs](experiments/M1/README.md): FinMultiTime 78-case input freeze; Formal M1 not run
 
-The directory layout is reusable for future `M1`, `M2`, and `M3` experiments. No M1/M2/M3 data is present in this initial archive.
+The directory layout is reusable for future `M1`, `M2`, and `M3` experiments. The M1 directory contains only the corrected pre-formal input bundle and provenance; it does not contain a Formal M1 result.
 
 ## Reproducibility
 

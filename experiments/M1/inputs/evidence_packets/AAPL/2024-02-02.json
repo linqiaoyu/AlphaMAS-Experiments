@@ -112,9 +112,9 @@
     "status": "AVAILABLE"
   },
   "TEXT": {
-    "evidence_age_calendar_days": 48,
+    "evidence_age_calendar_days": null,
     "provenance_hash_reference": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-    "reason": "no PIT-safe article inside fixed 30-calendar-day lookback",
+    "reason": "AAPL formal-use rows show clustered headline/URL/body corruption in the raw member; the entire symbol TEXT modality is frozen unavailable.",
     "records": [],
     "selection_rule": "frozen bounded TEXT selection; Date < decision session; deterministic order",
     "source_identity": "sp500_news/AAPL.jsonl",
@@ -137,15 +137,15 @@
     },
     "through_session": "2024-02-02"
   },
-  "agent_text": "=== FINMULTITIME EVIDENCE ===\nSymbol: AAPL\nDecision session: 2024-02-02\n\n[TEXT]\nStatus: UNAVAILABLE\nMissingness reason: no PIT-safe article inside fixed 30-calendar-day lookback\n\n[TABLE]\nStatus: AVAILABLE\nSource: financial_reports/aapl/condensed_consolidated_balance_sheets.json;financial_reports/aapl/condensed_consolidated_statement_of_cash_flows.json\nAssets: value=352583000000; unit=USD; form=10-K; fy=2023; fp=FY; period_start=; period_end=2023-09-30; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-11-03; accession=0000320193-23-000106; provenance=703fb92c5726d6d5d83c0f1702b721fd31175346fcdcb5883f38dc4f20350cf2\nLiabilities: value=290437000000; unit=USD; form=10-K; fy=2023; fp=FY; period_start=; period_end=2023-09-30; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-11-03; accession=0000320193-23-000106; provenance=11c3925b16479d166cfbeed425adeb93a99381bc4204461a1ee88553c1cd04fb\nStockholdersEquity: value=62146000000; unit=USD; form=10-K; fy=2023; fp=FY; period_start=; period_end=2023-09-30; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-11-03; accession=0000320193-23-000106; provenance=36aa0dd70cff59ad31b079a9af735c922856d339169c43e2a8fd90224a79edaa\nNetCashProvidedByUsedInOperatingActivities: value=110543000000; unit=USD; form=10-K; fy=2023; fp=FY; period_start=2022-09-25; period_end=2023-09-30; period_duration_days=371; period_duration_class=annual; filed_date=2023-11-03; accession=0000320193-23-000106; provenance=0606ff8c17f3a219496eee917fc96ec9bdb42bb1f445a5688099b5dd77217c9a\nNetCashProvidedByUsedInInvestingActivities: value=3705000000; unit=USD; form=10-K; fy=2023; fp=FY; period_start=2022-09-25; period_end=2023-09-30; period_duration_days=371; period_duration_class=annual; filed_date=2023-11-03; accession=0000320193-23-000106; provenance=c2fef5adef053426776e0d3f8ef3ce70c662b2fcef27aca18af4dd9b591e209b\nNetCashProvidedByUsedInFinancingActivities: value=-108488000000; unit=USD; form=10-K; fy=2023; fp=FY; period_start=2022-09-25; period_end=2023-09-30; period_duration_days=371; period_duration_class=annual; filed_date=2023-11-03; accession=0000320193-23-000106; provenance=bcc21cfc9440de6339623ee347518628d1be3a29583d6837f82ae8287080f8f8\n\n[TIME_SERIES]\nStatus: AVAILABLE\nThrough session: 2024-02-02\nSource: S&P500_time_series/aapl.csv\ncumulative_return_5d: -0.034143993339703194\ncumulative_return_20d: 0.021659076976044522\ncumulative_return_60d: 0.0383019537493674\nrealised_volatility_20d_annualised: 0.2110678550356714\nhigh_low_range_20d: 0.09556489823650716\ndrawdown_from_60d_peak: -0.06188479458775753\nrelative_volume_vs_20d_mean: 1.8451738951036334\nProvenance: abde77c502ac8890c275f7b247d8c5de6b886881ebb34689576681c54b10fa1c\n\n[IMAGE]\nStatus: UNAVAILABLE\nMissingness reason: no completed image with inferred period end strictly before decision\n=== END FINMULTITIME EVIDENCE ===\n",
+  "agent_text": "=== FINMULTITIME EVIDENCE ===\nSymbol: AAPL\nDecision session: 2024-02-02\n\n[TEXT]\nStatus: UNAVAILABLE\nMissingness reason: AAPL formal-use rows show clustered headline/URL/body corruption in the raw member; the entire symbol TEXT modality is frozen unavailable.\n\n[TABLE]\nStatus: AVAILABLE\nSource: financial_reports/aapl/condensed_consolidated_balance_sheets.json;financial_reports/aapl/condensed_consolidated_statement_of_cash_flows.json\nAssets: value=352583000000; unit=USD; form=10-K; fy=2023; fp=FY; period_start=; period_end=2023-09-30; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-11-03; accession=0000320193-23-000106; provenance=703fb92c5726d6d5d83c0f1702b721fd31175346fcdcb5883f38dc4f20350cf2\nLiabilities: value=290437000000; unit=USD; form=10-K; fy=2023; fp=FY; period_start=; period_end=2023-09-30; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-11-03; accession=0000320193-23-000106; provenance=11c3925b16479d166cfbeed425adeb93a99381bc4204461a1ee88553c1cd04fb\nStockholdersEquity: value=62146000000; unit=USD; form=10-K; fy=2023; fp=FY; period_start=; period_end=2023-09-30; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-11-03; accession=0000320193-23-000106; provenance=36aa0dd70cff59ad31b079a9af735c922856d339169c43e2a8fd90224a79edaa\nNetCashProvidedByUsedInOperatingActivities: value=110543000000; unit=USD; form=10-K; fy=2023; fp=FY; period_start=2022-09-25; period_end=2023-09-30; period_duration_days=371; period_duration_class=annual; filed_date=2023-11-03; accession=0000320193-23-000106; provenance=0606ff8c17f3a219496eee917fc96ec9bdb42bb1f445a5688099b5dd77217c9a\nNetCashProvidedByUsedInInvestingActivities: value=3705000000; unit=USD; form=10-K; fy=2023; fp=FY; period_start=2022-09-25; period_end=2023-09-30; period_duration_days=371; period_duration_class=annual; filed_date=2023-11-03; accession=0000320193-23-000106; provenance=c2fef5adef053426776e0d3f8ef3ce70c662b2fcef27aca18af4dd9b591e209b\nNetCashProvidedByUsedInFinancingActivities: value=-108488000000; unit=USD; form=10-K; fy=2023; fp=FY; period_start=2022-09-25; period_end=2023-09-30; period_duration_days=371; period_duration_class=annual; filed_date=2023-11-03; accession=0000320193-23-000106; provenance=bcc21cfc9440de6339623ee347518628d1be3a29583d6837f82ae8287080f8f8\n\n[TIME_SERIES]\nStatus: AVAILABLE\nThrough session: 2024-02-02\nSource: S&P500_time_series/aapl.csv\ncumulative_return_5d: -0.034143993339703194\ncumulative_return_20d: 0.021659076976044522\ncumulative_return_60d: 0.0383019537493674\nrealised_volatility_20d_annualised: 0.2110678550356714\nhigh_low_range_20d: 0.09556489823650716\ndrawdown_from_60d_peak: -0.06188479458775753\nrelative_volume_vs_20d_mean: 1.8451738951036334\nProvenance: abde77c502ac8890c275f7b247d8c5de6b886881ebb34689576681c54b10fa1c\n\n[IMAGE]\nStatus: UNAVAILABLE\nMissingness reason: no completed image with inferred period end strictly before decision\n=== END FINMULTITIME EVIDENCE ===\n",
   "case_id": "AAPL:2024-02-02",
   "character_counts": {
-    "complete": 2915,
+    "complete": 2996,
     "fundamentals": 2083,
     "market": 586,
-    "news": 97
+    "news": 178
   },
-  "contract_version": "M1-FINMULTITIME-v1.0.1",
+  "contract_version": "M1-FINMULTITIME-v1.0.2",
   "dataset_id": "finmultitime_3stocks_2024h1_v1",
   "decision_session": "2024-02-02",
   "decision_time": "2024-02-02T21:00:00+00:00",
@@ -169,7 +169,7 @@
       "sections": [
         "TEXT"
       ],
-      "text": "Status: UNAVAILABLE\nMissingness reason: no PIT-safe article inside fixed 30-calendar-day lookback"
+      "text": "Status: UNAVAILABLE\nMissingness reason: AAPL formal-use rows show clustered headline/URL/body corruption in the raw member; the entire symbol TEXT modality is frozen unavailable."
     },
     "social_analyst": {
       "sections": [],
@@ -187,7 +187,7 @@
     "social_analyst": "NO_FINMULTITIME_EVIDENCE"
   },
   "source_provenance": {
-    "contract_sha256": "13563ba0c829addde44d602cf8b9ac0e2879d8091832ee120a5caefa4c843ab3",
+    "contract_sha256": "46f6a05f12a7c402936178748c55dab099c8754d99fa1a0c41faf525cd37ae08",
     "frozen_m0_base_sha": "2535896c8b1070b19c06fa6a936663babb4356f7",
     "preprocessed_case_path": "cases/AAPL/2024-02-02.json",
     "qwen": null,

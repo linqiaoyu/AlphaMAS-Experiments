@@ -1,8 +1,8 @@
 {
   "contract": {
-    "sha256": "13563ba0c829addde44d602cf8b9ac0e2879d8091832ee120a5caefa4c843ab3",
+    "sha256": "46f6a05f12a7c402936178748c55dab099c8754d99fa1a0c41faf525cd37ae08",
     "source": "docs/m1/m1_evidence_contract.json",
-    "version": "M1-FINMULTITIME-v1.0.1"
+    "version": "M1-FINMULTITIME-v1.0.2"
   },
   "dataset": {
     "dataset_id": "finmultitime_3stocks_2024h1_v1",
@@ -16,10 +16,10 @@
   },
   "frozen_source_code": {
     "frozen_m0_base_sha": "2535896c8b1070b19c06fa6a936663babb4356f7",
-    "m1_source_commit_sha": "0b06a3ab62aef2c22a71c7f62771971378552717",
-    "m1_source_parent_sha": "0e9ebcb2d3b293d4f4071951e5d897428a2e1d20",
+    "m1_source_commit_sha": "a5ba0ea",
+    "m1_source_parent_sha": "2617dafe0f6a690113f10fe1c0d4775810a576ac",
     "packet_generation_source_path": "scripts/finmultitime/build_m1_evidence_packets.py",
-    "packet_generation_source_sha256": "85c4bfffcbad42e02dd70adfb90462bccc19d6cf35b671f9643893ed33bc092b"
+    "packet_generation_source_sha256": "33490c8cf536a4ee9936b4a052107f691aa0b989368514c4c2d5ec9d6645512a"
   },
   "packets": {
     "count": 78,
@@ -30,12 +30,12 @@
       "text_hash_mismatches": 0
     },
     "manifest_path": "manifests/evidence_packet_manifest.json",
-    "manifest_sha256": "b52feb5798cc444ed4f458e3a2bbecbc0810bceb7d65e88014748fafb8a7ed2a"
+    "manifest_sha256": "05f10129b430475bad3d5dee9dfceffba463f8a99cdd3f087ff4b755a869d63d"
   },
   "qwen": {
     "aws_environment_freeze_sha256": "cd011c2953457c399573319dd8067bede1d3c635061846fc420266010d19d7e2",
     "caption_manifest_path": "qwen/caption_manifest.json",
-    "caption_manifest_sha256": "50d85fdf08e98ef31fb0408cfafa9a0d4d2a26b4151816bff64755b42a589373",
+    "caption_manifest_sha256": "ec6d93944ac072f1330bf7f52ceafc8053e42ccaa38220703d92f774595ebf65",
     "captioning_code_sha": "4ce6af13c6dd82218d1bb9a2600fdbf7f108bc8c",
     "images_and_captions": {
       "AMZN": {

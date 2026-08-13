@@ -144,7 +144,7 @@
     "market": 977,
     "news": 97
   },
-  "contract_version": "M1-FINMULTITIME-v1.0.1",
+  "contract_version": "M1-FINMULTITIME-v1.0.2",
   "dataset_id": "finmultitime_3stocks_2024h1_v1",
   "decision_session": "2024-05-31",
   "decision_time": "2024-05-31T20:00:00+00:00",
@@ -186,12 +186,12 @@
     "social_analyst": "NO_FINMULTITIME_EVIDENCE"
   },
   "source_provenance": {
-    "contract_sha256": "13563ba0c829addde44d602cf8b9ac0e2879d8091832ee120a5caefa4c843ab3",
+    "contract_sha256": "46f6a05f12a7c402936178748c55dab099c8754d99fa1a0c41faf525cd37ae08",
     "frozen_m0_base_sha": "2535896c8b1070b19c06fa6a936663babb4356f7",
     "preprocessed_case_path": "cases/AMZN/2024-05-31.json",
     "qwen": {
       "aws_environment_freeze_sha256": "cd011c2953457c399573319dd8067bede1d3c635061846fc420266010d19d7e2",
-      "caption_manifest_sha256": "50d85fdf08e98ef31fb0408cfafa9a0d4d2a26b4151816bff64755b42a589373",
+      "caption_manifest_sha256": "ec6d93944ac072f1330bf7f52ceafc8053e42ccaa38220703d92f774595ebf65",
       "captioning_code_sha": "4ce6af13c6dd82218d1bb9a2600fdbf7f108bc8c",
       "model_repo_id": "Qwen/Qwen3-VL-2B-Instruct",
       "model_revision": "89644892e4d85e24eaac8bacfd4f463576704203",

@@ -4,7 +4,7 @@ Decision session: 2024-04-05
 
 [TEXT]
 Status: UNAVAILABLE
-Missingness reason: no PIT-safe article inside fixed 30-calendar-day lookback
+Missingness reason: AAPL formal-use rows show clustered headline/URL/body corruption in the raw member; the entire symbol TEXT modality is frozen unavailable.
 
 [TABLE]
 Status: AVAILABLE

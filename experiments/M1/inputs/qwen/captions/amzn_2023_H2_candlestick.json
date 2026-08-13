@@ -7,8 +7,8 @@
   "caption_status": "GENERATED",
   "captioning_code_sha": "4ce6af13c6dd82218d1bb9a2600fdbf7f108bc8c",
   "duration_seconds": 3.502541,
-  "evidence_contract_sha256": "13563ba0c829addde44d602cf8b9ac0e2879d8091832ee120a5caefa4c843ab3",
-  "evidence_contract_version": "M1-FINMULTITIME-v1.0.1",
+  "evidence_contract_sha256": "46f6a05f12a7c402936178748c55dab099c8754d99fa1a0c41faf525cd37ae08",
+  "evidence_contract_version": "M1-FINMULTITIME-v1.0.2",
   "generation_settings": {
     "batch_size": 1,
     "cuda_seed": 0,

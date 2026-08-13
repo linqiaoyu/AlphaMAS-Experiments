@@ -24,8 +24,8 @@
       "symbol": "JPM"
     }
   ],
-  "evidence_contract_sha256": "13563ba0c829addde44d602cf8b9ac0e2879d8091832ee120a5caefa4c843ab3",
-  "evidence_contract_version": "M1-FINMULTITIME-v1.0.1",
+  "evidence_contract_sha256": "46f6a05f12a7c402936178748c55dab099c8754d99fa1a0c41faf525cd37ae08",
+  "evidence_contract_version": "M1-FINMULTITIME-v1.0.2",
   "first_valid_output_policy_confirmed": true,
   "formal_case_reference_counts": {
     "AMZN": 26,
@@ -39,6 +39,7 @@
   "multiple_outputs_cherry_picked": false,
   "official_caption_policy": "first_complete_correctness_valid_output",
   "package_freeze_sha256": "e4b16b0179dab01f2d541b31986de6ff4a658c61b4d60c3222c30fd76778afc2",
+  "pre_formal_correctness_erratum": "Qwen canonical caption reused unchanged; only contract wrapper provenance updated",
   "processing_order": [
     "AMZN",
     "JPM"

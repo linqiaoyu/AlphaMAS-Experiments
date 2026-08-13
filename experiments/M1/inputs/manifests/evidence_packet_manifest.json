@@ -1,5 +1,5 @@
 {
-  "contract_version": "M1-FINMULTITIME-v1.0.1",
+  "contract_version": "M1-FINMULTITIME-v1.0.2",
   "dataset_id": "finmultitime_3stocks_2024h1_v1",
   "packet_count": 78,
   "packets": [
@@ -7,58 +7,58 @@
       "caption_sha256": null,
       "case_id": "AAPL:2024-01-05",
       "character_counts": {
-        "complete": 12694,
+        "complete": 2999,
         "fundamentals": 2083,
         "market": 589,
-        "news": 9873
+        "news": 178
       },
       "decision_session": "2024-01-05",
       "json_path": "evidence_packets/AAPL/2024-01-05.json",
-      "json_sha256": "29acc7c246d2362fa14a3eef730966bed1e6599418cc16e3563b83caa0b6a0e2",
+      "json_sha256": "fa645f18040da61765076d3531a8a1bb1b6fdb80f5dd0a009241ddb04e296049",
       "modality_statuses": {
         "IMAGE": "UNAVAILABLE",
         "TABLE": "AVAILABLE",
-        "TEXT": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
         "TIME_SERIES": "AVAILABLE"
       },
       "symbol": "AAPL",
       "text_path": "evidence_packets/AAPL/2024-01-05.txt",
-      "text_sha256": "862292627eb6eba6bd57550317016fc6671b21faeb10d50e190564d22cb107ae"
+      "text_sha256": "192835015846c13c94db70105de20fc677145c6a5da08d7a68b5086bb1695c36"
     },
     {
       "caption_sha256": null,
       "case_id": "AAPL:2024-01-12",
       "character_counts": {
-        "complete": 12690,
+        "complete": 2995,
         "fundamentals": 2083,
         "market": 585,
-        "news": 9873
+        "news": 178
       },
       "decision_session": "2024-01-12",
       "json_path": "evidence_packets/AAPL/2024-01-12.json",
-      "json_sha256": "fce738bf182ca3fc507e8cc1d1e02d76f7d9ab73f1e50dd1bbdf3f8d2e97ceb9",
+      "json_sha256": "90ef8aa834f7756b478f769af9f5445f689db31f2b487223b7743fade1184c33",
       "modality_statuses": {
         "IMAGE": "UNAVAILABLE",
         "TABLE": "AVAILABLE",
-        "TEXT": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
         "TIME_SERIES": "AVAILABLE"
       },
       "symbol": "AAPL",
       "text_path": "evidence_packets/AAPL/2024-01-12.txt",
-      "text_sha256": "210f26f5b5cef07658e9e8486a228b211d4f9a63923937f18217cf9d61f795ca"
+      "text_sha256": "c60dda8395a5d1e66a8fe5d8b79162813ed39b93a699ad1c128f0ad97baf94d2"
     },
     {
       "caption_sha256": null,
       "case_id": "AAPL:2024-01-19",
       "character_counts": {
-        "complete": 2914,
+        "complete": 2995,
         "fundamentals": 2083,
         "market": 585,
-        "news": 97
+        "news": 178
       },
       "decision_session": "2024-01-19",
       "json_path": "evidence_packets/AAPL/2024-01-19.json",
-      "json_sha256": "aeda295614513b27a7d1edd1098820841238a781ab57a77edd770952e847d350",
+      "json_sha256": "d2edb60b46b737d65806e10be5a62b79cd73652137c26a135bf7f8c8d200350a",
       "modality_statuses": {
         "IMAGE": "UNAVAILABLE",
         "TABLE": "AVAILABLE",
@@ -67,20 +67,20 @@
       },
       "symbol": "AAPL",
       "text_path": "evidence_packets/AAPL/2024-01-19.txt",
-      "text_sha256": "e27da5d8bd454db59b2557df29571fc38e3aebfc8e09262d8190a1b0a246656a"
+      "text_sha256": "b6fac9e99dbb96761f68d63e09ce38d77aab4b9d05fc2dc853e3a61f4fcdd848"
     },
     {
       "caption_sha256": null,
       "case_id": "AAPL:2024-01-26",
       "character_counts": {
-        "complete": 2916,
+        "complete": 2997,
         "fundamentals": 2083,
         "market": 587,
-        "news": 97
+        "news": 178
       },
       "decision_session": "2024-01-26",
       "json_path": "evidence_packets/AAPL/2024-01-26.json",
-      "json_sha256": "593cd3e4a4cf3197dea8bfa348af13048f6507bb20b110a0a64590530c83f0f9",
+      "json_sha256": "6a917758673c3a9b561538fcc4e65364a97a0bf77203f6bc6d7d71b6c8d36586",
       "modality_statuses": {
         "IMAGE": "UNAVAILABLE",
         "TABLE": "AVAILABLE",
@@ -89,20 +89,20 @@
       },
       "symbol": "AAPL",
       "text_path": "evidence_packets/AAPL/2024-01-26.txt",
-      "text_sha256": "a8b238ca171d567b35f55d6df021785381f842000e35ffde8dceade56ab9f978"
+      "text_sha256": "02819b488639ef70638d77399f4fd9bf5b023018591471816126902cb4ede051"
     },
     {
       "caption_sha256": null,
       "case_id": "AAPL:2024-02-02",
       "character_counts": {
-        "complete": 2915,
+        "complete": 2996,
         "fundamentals": 2083,
         "market": 586,
-        "news": 97
+        "news": 178
       },
       "decision_session": "2024-02-02",
       "json_path": "evidence_packets/AAPL/2024-02-02.json",
-      "json_sha256": "ce300e79c473889a851c9cfe32dd18582c70a3787e220a73cfafda7c65131caa",
+      "json_sha256": "47a555eb4c9b3319a3074f95f524d5d1ae7a2f00dde6f273c38554e00a63f929",
       "modality_statuses": {
         "IMAGE": "UNAVAILABLE",
         "TABLE": "AVAILABLE",
@@ -111,20 +111,20 @@
       },
       "symbol": "AAPL",
       "text_path": "evidence_packets/AAPL/2024-02-02.txt",
-      "text_sha256": "a71105ebeab8171501bc36307ee364c2aca1fdbd1b2261a1e8cc8014d0975464"
+      "text_sha256": "a96e7e0859b1ac6f6cb8801fd66f6257bc423b8734a50b0b0ce1e05239dcb191"
     },
     {
       "caption_sha256": null,
       "case_id": "AAPL:2024-02-09",
       "character_counts": {
-        "complete": 2921,
+        "complete": 3002,
         "fundamentals": 2087,
         "market": 588,
-        "news": 97
+        "news": 178
       },
       "decision_session": "2024-02-09",
       "json_path": "evidence_packets/AAPL/2024-02-09.json",
-      "json_sha256": "1ab7f82d861c5af8f42c41682290a2ba9a8ba7c64e6693bf37f6c2b98e6f5dab",
+      "json_sha256": "1d0de77386be63c7d09025a525787826a0a5b74c8660a243451defccc7451716",
       "modality_statuses": {
         "IMAGE": "UNAVAILABLE",
         "TABLE": "AVAILABLE",
@@ -133,20 +133,20 @@
       },
       "symbol": "AAPL",
       "text_path": "evidence_packets/AAPL/2024-02-09.txt",
-      "text_sha256": "38a3d7c0d6109025e1408e2ca313c05aa430a51545dfbd4cf0ec340100b82102"
+      "text_sha256": "7b09a4ed0b860539394f5a56983eed5fc94d36508e505c0ed758cd5b65e5475a"
     },
     {
       "caption_sha256": null,
       "case_id": "AAPL:2024-02-16",
       "character_counts": {
-        "complete": 2922,
+        "complete": 3003,
         "fundamentals": 2087,
         "market": 589,
-        "news": 97
+        "news": 178
       },
       "decision_session": "2024-02-16",
       "json_path": "evidence_packets/AAPL/2024-02-16.json",
-      "json_sha256": "41642efa6fcf640ef275c4356c4e518ae0d480187eabd7ca3992d95e10db6871",
+      "json_sha256": "e58ad1a42c19c69e7dc97cccf9208c45956c29a37cd9fee3f44f34a0a36258ad",
       "modality_statuses": {
         "IMAGE": "UNAVAILABLE",
         "TABLE": "AVAILABLE",
@@ -155,20 +155,20 @@
       },
       "symbol": "AAPL",
       "text_path": "evidence_packets/AAPL/2024-02-16.txt",
-      "text_sha256": "92c102d1d8930dc4e81aef7f9d9e38de9a8c3f6c79d679935aee2b0638f2ef40"
+      "text_sha256": "6b42d2bf5c74da1e02e389e0bf49d248c3576abd9e293a68ea74b1bc53c20f32"
     },
     {
       "caption_sha256": null,
       "case_id": "AAPL:2024-02-23",
       "character_counts": {
-        "complete": 2924,
+        "complete": 3005,
         "fundamentals": 2087,
         "market": 591,
-        "news": 97
+        "news": 178
       },
       "decision_session": "2024-02-23",
       "json_path": "evidence_packets/AAPL/2024-02-23.json",
-      "json_sha256": "fc4672d355e09c486a298f126c24ddefe20fa4f34ec01faca1ad5d25123af8f9",
+      "json_sha256": "edcf1faa0b02e1d574a36fd4f5c07fbc497e464f57d2ab2b42c59e7687240f17",
       "modality_statuses": {
         "IMAGE": "UNAVAILABLE",
         "TABLE": "AVAILABLE",
@@ -177,20 +177,20 @@
       },
       "symbol": "AAPL",
       "text_path": "evidence_packets/AAPL/2024-02-23.txt",
-      "text_sha256": "3a2c0fb884267546ff33280e65aef2d8bf75fdae5f56c6bdae7434572ea21cf9"
+      "text_sha256": "33e80e6cd7735deea4f8447adb404587f45d01e539838fdc7a5f49b6407c2e05"
     },
     {
       "caption_sha256": null,
       "case_id": "AAPL:2024-03-01",
       "character_counts": {
-        "complete": 2924,
+        "complete": 3005,
         "fundamentals": 2087,
         "market": 591,
-        "news": 97
+        "news": 178
       },
       "decision_session": "2024-03-01",
       "json_path": "evidence_packets/AAPL/2024-03-01.json",
-      "json_sha256": "594dec40c641564932daeb1c200e9e3abd2f9581ffe0178acf00291c07834aac",
+      "json_sha256": "b9dc093bc5f8c0c6670f9b2c18d4dd3d7a2c72cc0abcdd6dac844702f0ec4796",
       "modality_statuses": {
         "IMAGE": "UNAVAILABLE",
         "TABLE": "AVAILABLE",
@@ -199,20 +199,20 @@
       },
       "symbol": "AAPL",
       "text_path": "evidence_packets/AAPL/2024-03-01.txt",
-      "text_sha256": "418490ab227b2aef2701588c634b69aa9099af05cd498a6196c6f0a7543a4025"
+      "text_sha256": "36678d69f96acd7cbd64b708ba99fb02af911100a958f8564c543dbc28e3c560"
     },
     {
       "caption_sha256": null,
       "case_id": "AAPL:2024-03-08",
       "character_counts": {
-        "complete": 2921,
+        "complete": 3002,
         "fundamentals": 2087,
         "market": 588,
-        "news": 97
+        "news": 178
       },
       "decision_session": "2024-03-08",
       "json_path": "evidence_packets/AAPL/2024-03-08.json",
-      "json_sha256": "21e5f499cf0154fab78d8c75a8e0b820f1c63438a95dc9ca229b599fb13ef89e",
+      "json_sha256": "b117c135651425b4f888cc8ed0987e15b1c67b4f39d5f452e1b4ee6196d8aa9f",
       "modality_statuses": {
         "IMAGE": "UNAVAILABLE",
         "TABLE": "AVAILABLE",
@@ -221,20 +221,20 @@
       },
       "symbol": "AAPL",
       "text_path": "evidence_packets/AAPL/2024-03-08.txt",
-      "text_sha256": "069abbc9f33edf27274c708ffbcc5927b74b9a3477a73dc18bc9407bcf9dd4b0"
+      "text_sha256": "15736b7b837b7a4e8166c747c581a988447876da1bbb7000729f0c0db704b0f6"
     },
     {
       "caption_sha256": null,
       "case_id": "AAPL:2024-03-15",
       "character_counts": {
-        "complete": 2916,
+        "complete": 2997,
         "fundamentals": 2087,
         "market": 583,
-        "news": 97
+        "news": 178
       },
       "decision_session": "2024-03-15",
       "json_path": "evidence_packets/AAPL/2024-03-15.json",
-      "json_sha256": "c71f199dbe1b9a5239df0886bff3a681bd299693f2934c7446156cfa4eff7ad8",
+      "json_sha256": "35613b10f00f9378fefafac95548de6e0bcbd9fa267c0dbdb8b91a61701e6d29",
       "modality_statuses": {
         "IMAGE": "UNAVAILABLE",
         "TABLE": "AVAILABLE",
@@ -243,20 +243,20 @@
       },
       "symbol": "AAPL",
       "text_path": "evidence_packets/AAPL/2024-03-15.txt",
-      "text_sha256": "a12e770b021e215f7c31db7aae14592f17f82fc1f920d46cbdadc34cd1df1292"
+      "text_sha256": "e496500f9930f6c54512de8b402022654945fdf11cf12af7da920b985cc317ee"
     },
     {
       "caption_sha256": null,
       "case_id": "AAPL:2024-03-22",
       "character_counts": {
-        "complete": 2920,
+        "complete": 3001,
         "fundamentals": 2087,
         "market": 587,
-        "news": 97
+        "news": 178
       },
       "decision_session": "2024-03-22",
       "json_path": "evidence_packets/AAPL/2024-03-22.json",
-      "json_sha256": "ba32c2d20b30e452a96404755bf66da43ad8414ced37158f960cfd73aaa57a21",
+      "json_sha256": "0a7d04ff4c5391525aa81c07051e4f2df38ae3080a9e05d79656e4860a6a6a56",
       "modality_statuses": {
         "IMAGE": "UNAVAILABLE",
         "TABLE": "AVAILABLE",
@@ -265,20 +265,20 @@
       },
       "symbol": "AAPL",
       "text_path": "evidence_packets/AAPL/2024-03-22.txt",
-      "text_sha256": "1cf4e7a08e0344e5daf5354b48f4a7e8f39c9aac20bb9f6b09125b4cdebffd94"
+      "text_sha256": "a923e3f7c9810e11275fc6e7db359973665c8fe2a783d26105afd4b616a22194"
     },
     {
       "caption_sha256": null,
       "case_id": "AAPL:2024-03-28",
       "character_counts": {
-        "complete": 2920,
+        "complete": 3001,
         "fundamentals": 2087,
         "market": 587,
-        "news": 97
+        "news": 178
       },
       "decision_session": "2024-03-28",
       "json_path": "evidence_packets/AAPL/2024-03-28.json",
-      "json_sha256": "e29417f86ef0a356268cb468f5d3ecc213a0b8f2d8af4681b6b79ae144fc4240",
+      "json_sha256": "fb1d2cec0c021943b86ea3582305f575fee22952a0dbbcbd140eddb3b5e47e70",
       "modality_statuses": {
         "IMAGE": "UNAVAILABLE",
         "TABLE": "AVAILABLE",
@@ -287,20 +287,20 @@
       },
       "symbol": "AAPL",
       "text_path": "evidence_packets/AAPL/2024-03-28.txt",
-      "text_sha256": "6ded0723c5398d828b4563a0bd244995ede1c205ad8bca74058fe94ff05c8976"
+      "text_sha256": "82de34dcc1981acbfb6b69e177e8276452599be6ebc28a36bde7c73f7d622344"
     },
     {
       "caption_sha256": null,
       "case_id": "AAPL:2024-04-05",
       "character_counts": {
-        "complete": 2920,
+        "complete": 3001,
         "fundamentals": 2087,
         "market": 587,
-        "news": 97
+        "news": 178
       },
       "decision_session": "2024-04-05",
       "json_path": "evidence_packets/AAPL/2024-04-05.json",
-      "json_sha256": "1062a71ce528d717f1a777870d20a1fe260873684d7eb0a06fe4defefe6909dd",
+      "json_sha256": "4d9db9c2911b663f05b9f66023919fc0e98340123499742cfcc92c4e345ff131",
       "modality_statuses": {
         "IMAGE": "UNAVAILABLE",
         "TABLE": "AVAILABLE",
@@ -309,20 +309,20 @@
       },
       "symbol": "AAPL",
       "text_path": "evidence_packets/AAPL/2024-04-05.txt",
-      "text_sha256": "23a9f56f936d52848e6e57173e9b62d4a3131b745e2763e9896ca4dd97c1a399"
+      "text_sha256": "bf5844407149226f87a325cc6813080787c87e2d0cb88f5097f84d7bacd203cf"
     },
     {
       "caption_sha256": null,
       "case_id": "AAPL:2024-04-12",
       "character_counts": {
-        "complete": 2917,
+        "complete": 2998,
         "fundamentals": 2087,
         "market": 584,
-        "news": 97
+        "news": 178
       },
       "decision_session": "2024-04-12",
       "json_path": "evidence_packets/AAPL/2024-04-12.json",
-      "json_sha256": "6b91a25d2cff15a6d75b7bec5d75d19786467587cb3ce3439a32b10fa261e52b",
+      "json_sha256": "6f28d27588f007a03d72ce6da1e842eda64d75acdf888f45747cd9781a071552",
       "modality_statuses": {
         "IMAGE": "UNAVAILABLE",
         "TABLE": "AVAILABLE",
@@ -331,20 +331,20 @@
       },
       "symbol": "AAPL",
       "text_path": "evidence_packets/AAPL/2024-04-12.txt",
-      "text_sha256": "efea085a8af5ededb9987f9c8b243620792b9b4e979d736df2885b72ec32810d"
+      "text_sha256": "0229656f7065aa0849d84d1010a556bfc34905e11703b061186a3e3483b91a0b"
     },
     {
       "caption_sha256": null,
       "case_id": "AAPL:2024-04-19",
       "character_counts": {
-        "complete": 2921,
+        "complete": 3002,
         "fundamentals": 2087,
         "market": 588,
-        "news": 97
+        "news": 178
       },
       "decision_session": "2024-04-19",
       "json_path": "evidence_packets/AAPL/2024-04-19.json",
-      "json_sha256": "d01bc32abd0eab9b008ba0d01415597412c4aedbc70b4ca3e74ca9bdc80af151",
+      "json_sha256": "93cc7bbf6f03eb889ccffd2c03859bcfe08f9bfc8789c0ba3b1069732344f0dd",
       "modality_statuses": {
         "IMAGE": "UNAVAILABLE",
         "TABLE": "AVAILABLE",
@@ -353,20 +353,20 @@
       },
       "symbol": "AAPL",
       "text_path": "evidence_packets/AAPL/2024-04-19.txt",
-      "text_sha256": "e45fbb210b03487e858450bfbf70b51f5f4f645e4a1f3d00e49a0b1b5fe92486"
+      "text_sha256": "9c7066ea2632faf05ab98b8609da9f006ac3018e44eb6b17f3a242ece06f98a9"
     },
     {
       "caption_sha256": null,
       "case_id": "AAPL:2024-04-26",
       "character_counts": {
-        "complete": 2921,
+        "complete": 3002,
         "fundamentals": 2087,
         "market": 588,
-        "news": 97
+        "news": 178
       },
       "decision_session": "2024-04-26",
       "json_path": "evidence_packets/AAPL/2024-04-26.json",
-      "json_sha256": "c26afe6453768bfe10628ce13d59c702016fd4fc55bd881562c95d5e284c44e6",
+      "json_sha256": "3aff0a4fcdf500a02c3a2a174c09feeff1dc148e7d678bd78da51316173799d5",
       "modality_statuses": {
         "IMAGE": "UNAVAILABLE",
         "TABLE": "AVAILABLE",
@@ -375,20 +375,20 @@
       },
       "symbol": "AAPL",
       "text_path": "evidence_packets/AAPL/2024-04-26.txt",
-      "text_sha256": "0893c32d3bbec6bbc2c5596b415cae652f90ba0e99ba0c7d35fbcd32ddd15f7d"
+      "text_sha256": "87bf3b4dc7aac5c0cc12e1a887931237820c3346fd0ace84aec69243c5ece9ed"
     },
     {
       "caption_sha256": null,
       "case_id": "AAPL:2024-05-03",
       "character_counts": {
-        "complete": 2917,
+        "complete": 2998,
         "fundamentals": 2087,
         "market": 584,
-        "news": 97
+        "news": 178
       },
       "decision_session": "2024-05-03",
       "json_path": "evidence_packets/AAPL/2024-05-03.json",
-      "json_sha256": "47147f737886bcbf1377224911668a7e5b6a55dfb0e74a818c9219c08e04d890",
+      "json_sha256": "063b0db06b5bff1586a4486b178478e2680c5bfd3bcbae7cc55674a0eff12f49",
       "modality_statuses": {
         "IMAGE": "UNAVAILABLE",
         "TABLE": "AVAILABLE",
@@ -397,20 +397,20 @@
       },
       "symbol": "AAPL",
       "text_path": "evidence_packets/AAPL/2024-05-03.txt",
-      "text_sha256": "55239feefef653116ffb6ab03f177e24367dde43d723229ee994805e3170ae7a"
+      "text_sha256": "05ba83075df729ab69eebcf584dbf8f4f83dbea2eea0de49661932e51ab9edf0"
     },
     {
       "caption_sha256": null,
       "case_id": "AAPL:2024-05-10",
       "character_counts": {
-        "complete": 2944,
+        "complete": 3025,
         "fundamentals": 2108,
         "market": 590,
-        "news": 97
+        "news": 178
       },
       "decision_session": "2024-05-10",
       "json_path": "evidence_packets/AAPL/2024-05-10.json",
-      "json_sha256": "a5402353a8bc34e7ef67187be335a779b99bb6bd515928b94a85b7ef359efa99",
+      "json_sha256": "5ed0166f3a72a86bba9b8a8e74bfaf610ffd275ba00e58ba7ce5a1c70e79cb2a",
       "modality_statuses": {
         "IMAGE": "UNAVAILABLE",
         "TABLE": "AVAILABLE",
@@ -419,20 +419,20 @@
       },
       "symbol": "AAPL",
       "text_path": "evidence_packets/AAPL/2024-05-10.txt",
-      "text_sha256": "c0fdb15eeb109e03a5989b6c81c5798620283b9d8fdbfc5a7cd204f5646dfdce"
+      "text_sha256": "346fc0b49a49b28bea2682f7ff988ebd2810177b58033c321ee3d83f8fbe0289"
     },
     {
       "caption_sha256": null,
       "case_id": "AAPL:2024-05-17",
       "character_counts": {
-        "complete": 2920,
+        "complete": 3001,
         "fundamentals": 2108,
         "market": 566,
-        "news": 97
+        "news": 178
       },
       "decision_session": "2024-05-17",
       "json_path": "evidence_packets/AAPL/2024-05-17.json",
-      "json_sha256": "578e9a6a5c57d28f0c3cc474e8a460c0be8417d487ca3870c6c1c06b6e7dde59",
+      "json_sha256": "bbe79d002e5b34f13a0af06ddf23ae01174da00956883f99e849ea3954609621",
       "modality_statuses": {
         "IMAGE": "UNAVAILABLE",
         "TABLE": "AVAILABLE",
@@ -441,20 +441,20 @@
       },
       "symbol": "AAPL",
       "text_path": "evidence_packets/AAPL/2024-05-17.txt",
-      "text_sha256": "2c309c99e0d16dcec215a3e7d6a70db0a2e1749ac17da2bfdcd62e53e41f1b08"
+      "text_sha256": "81f29ab30676556da1fcbad5898d172c51b8bb97bfed48d645d9d76569cbaf1f"
     },
     {
       "caption_sha256": null,
       "case_id": "AAPL:2024-05-24",
       "character_counts": {
-        "complete": 2941,
+        "complete": 3022,
         "fundamentals": 2108,
         "market": 587,
-        "news": 97
+        "news": 178
       },
       "decision_session": "2024-05-24",
       "json_path": "evidence_packets/AAPL/2024-05-24.json",
-      "json_sha256": "320de8e5b95160c07ec785796e9db5689750df8f108d9dc66d9af1ad9ef11450",
+      "json_sha256": "174d16a3864af0b3e39c393105577894a4915fe5c0b9219d27722e8f507f24c0",
       "modality_statuses": {
         "IMAGE": "UNAVAILABLE",
         "TABLE": "AVAILABLE",
@@ -463,20 +463,20 @@
       },
       "symbol": "AAPL",
       "text_path": "evidence_packets/AAPL/2024-05-24.txt",
-      "text_sha256": "dc2f3afbc1bc95429c0c7af8f7ec2be996463162ca718af6d784d09c286356a9"
+      "text_sha256": "0556f63638e966678b2e13063440eb503ffb4063f702b10013eb9bf035752070"
     },
     {
       "caption_sha256": null,
       "case_id": "AAPL:2024-05-31",
       "character_counts": {
-        "complete": 2941,
+        "complete": 3022,
         "fundamentals": 2108,
         "market": 587,
-        "news": 97
+        "news": 178
       },
       "decision_session": "2024-05-31",
       "json_path": "evidence_packets/AAPL/2024-05-31.json",
-      "json_sha256": "51f52cc91a4caf12d9be8e8fd3ef193cd6e7b3e5219e04a8379123db81289157",
+      "json_sha256": "19e27af43f1ea97dbcbeb1dd01300f664ae024905cec3a1cfa7068ce337592d6",
       "modality_statuses": {
         "IMAGE": "UNAVAILABLE",
         "TABLE": "AVAILABLE",
@@ -485,20 +485,20 @@
       },
       "symbol": "AAPL",
       "text_path": "evidence_packets/AAPL/2024-05-31.txt",
-      "text_sha256": "0ba93e82ceced4984c4357cfb11313479b7ff41f6780b42d031e68db8c9fec3d"
+      "text_sha256": "31bb61060aaca842c9a780e8dc3947bcf15a89efedf9017481facd7a93ab7898"
     },
     {
       "caption_sha256": null,
       "case_id": "AAPL:2024-06-07",
       "character_counts": {
-        "complete": 2922,
+        "complete": 3003,
         "fundamentals": 2108,
         "market": 568,
-        "news": 97
+        "news": 178
       },
       "decision_session": "2024-06-07",
       "json_path": "evidence_packets/AAPL/2024-06-07.json",
-      "json_sha256": "ebb322e30c4edfd17bbcf9301486fddd08f71dccb04d3f5f3db100674f893bc3",
+      "json_sha256": "9cffe89d617e7e4ac40931ea272cc087925f2a094b82948b7148b4b42d41a35c",
       "modality_statuses": {
         "IMAGE": "UNAVAILABLE",
         "TABLE": "AVAILABLE",
@@ -507,20 +507,20 @@
       },
       "symbol": "AAPL",
       "text_path": "evidence_packets/AAPL/2024-06-07.txt",
-      "text_sha256": "d4ce8734d2d55e13bb2521cfb5c75fa6cf696a29b327fc7ea566757f6c7ddae0"
+      "text_sha256": "5be809c8d8e5c27491970ce1f4bd5526b3e1e2690cb32f24bf7bdead917e7fef"
     },
     {
       "caption_sha256": null,
       "case_id": "AAPL:2024-06-14",
       "character_counts": {
-        "complete": 2937,
+        "complete": 3018,
         "fundamentals": 2108,
         "market": 583,
-        "news": 97
+        "news": 178
       },
       "decision_session": "2024-06-14",
       "json_path": "evidence_packets/AAPL/2024-06-14.json",
-      "json_sha256": "e16bdedcd682723526940a06f12b667dae0741e5687d422f3b0dc7a903867ed9",
+      "json_sha256": "144bde0f3ff7f21d62e142c6e07b284a173a741eea461398bdbb7a58d49da38a",
       "modality_statuses": {
         "IMAGE": "UNAVAILABLE",
         "TABLE": "AVAILABLE",
@@ -529,20 +529,20 @@
       },
       "symbol": "AAPL",
       "text_path": "evidence_packets/AAPL/2024-06-14.txt",
-      "text_sha256": "0c16eb8f8bcc5c26a1b885e04cb545fc933b2299221714d40c37d2ee7ef63c55"
+      "text_sha256": "26f188f45b9ef95411cb5476ae5ecf767b436459c04f6cc612c6abb6841c682e"
     },
     {
       "caption_sha256": null,
       "case_id": "AAPL:2024-06-21",
       "character_counts": {
-        "complete": 2936,
+        "complete": 3017,
         "fundamentals": 2108,
         "market": 582,
-        "news": 97
+        "news": 178
       },
       "decision_session": "2024-06-21",
       "json_path": "evidence_packets/AAPL/2024-06-21.json",
-      "json_sha256": "457270eb5c11a4c8345d0855766e5e021625d8bba5f28e32db561abd2cbdabd6",
+      "json_sha256": "f2532622ec67558c732ae6cc62f6e046ac054231920e54ef7be3dcfb8eb5f6c7",
       "modality_statuses": {
         "IMAGE": "UNAVAILABLE",
         "TABLE": "AVAILABLE",
@@ -551,20 +551,20 @@
       },
       "symbol": "AAPL",
       "text_path": "evidence_packets/AAPL/2024-06-21.txt",
-      "text_sha256": "413ea16f71d927a81b1f0408d97dc81c5dacfd88aa337c4b7f14dfb25f9f99fd"
+      "text_sha256": "bc236d3a46f5268769aa8a121641b53da54f8e15240aee1e031ec9df5bda1935"
     },
     {
       "caption_sha256": null,
       "case_id": "AAPL:2024-06-28",
       "character_counts": {
-        "complete": 2940,
+        "complete": 3021,
         "fundamentals": 2108,
         "market": 586,
-        "news": 97
+        "news": 178
       },
       "decision_session": "2024-06-28",
       "json_path": "evidence_packets/AAPL/2024-06-28.json",
-      "json_sha256": "5d729d9f3f54806c4e36b4e9782d92038cf630bec816645cf97d553351def2c9",
+      "json_sha256": "308a29052cf4a138ab8d6dc990ba0ca73505ec9b69ec0658347e6673b51d6903",
       "modality_statuses": {
         "IMAGE": "UNAVAILABLE",
         "TABLE": "AVAILABLE",
@@ -573,7 +573,7 @@
       },
       "symbol": "AAPL",
       "text_path": "evidence_packets/AAPL/2024-06-28.txt",
-      "text_sha256": "b04a1cff0439dbc2f875266519f2df24cf70b198c6505277d6b517b62052dc73"
+      "text_sha256": "05ffa649b0b688c1b62229325eb3ee2ad260d998544cb69167459a330fd3abe0"
     },
     {
       "caption_sha256": "131c2904cd82c850f94b00cc58e2b97b2ef69c7e805fa562ef2c8f2e00a568fe",
@@ -586,7 +586,7 @@
       },
       "decision_session": "2024-01-05",
       "json_path": "evidence_packets/AMZN/2024-01-05.json",
-      "json_sha256": "df1b2b3c125bfa1e2df8a7cb7f276b0b7dee6904cc3879d4bee680c3fc66d7d0",
+      "json_sha256": "5adbc63d9e2fde7921fd9b4030fd8060c17d98b5198d535551396eda0f129c70",
       "modality_statuses": {
         "IMAGE": "AVAILABLE",
         "TABLE": "AVAILABLE",
@@ -608,7 +608,7 @@
       },
       "decision_session": "2024-01-12",
       "json_path": "evidence_packets/AMZN/2024-01-12.json",
-      "json_sha256": "f87ce21e143442781039a2b6ccbe62f8a09ff84e4a451ad362973cd7d92741bb",
+      "json_sha256": "ad79218055a771ba344707864fc6a37a21ce047e633bec2cb4a3c0f04828fc58",
       "modality_statuses": {
         "IMAGE": "AVAILABLE",
         "TABLE": "AVAILABLE",
@@ -630,7 +630,7 @@
       },
       "decision_session": "2024-01-19",
       "json_path": "evidence_packets/AMZN/2024-01-19.json",
-      "json_sha256": "eb5725c1f7585673c6428282dbca40e7919acb9f5a5fb8e8f4eeb466930a4d5a",
+      "json_sha256": "41195030c14ca57af7822c6f794ead57a255f9a1ae8def59b2d0e03d9925ac6b",
       "modality_statuses": {
         "IMAGE": "AVAILABLE",
         "TABLE": "AVAILABLE",
@@ -652,7 +652,7 @@
       },
       "decision_session": "2024-01-26",
       "json_path": "evidence_packets/AMZN/2024-01-26.json",
-      "json_sha256": "175473188fb3f116195400727436c5bf1c122c63128e903e21549167a4305fa3",
+      "json_sha256": "93cf0ef242f7680b6974ac4e354a464afb9616bacd60ce176825c5dfb44f5365",
       "modality_statuses": {
         "IMAGE": "AVAILABLE",
         "TABLE": "AVAILABLE",
@@ -674,7 +674,7 @@
       },
       "decision_session": "2024-02-02",
       "json_path": "evidence_packets/AMZN/2024-02-02.json",
-      "json_sha256": "623d440d9fb2179fa06e83b4be2eccfb41f6e38a97f78f8a2490482fd61c37dc",
+      "json_sha256": "1ae780eea3133f05c4282e7d8f9036ed58e26fc7156ad372448e8fc1796dc78f",
       "modality_statuses": {
         "IMAGE": "AVAILABLE",
         "TABLE": "AVAILABLE",
@@ -696,7 +696,7 @@
       },
       "decision_session": "2024-02-09",
       "json_path": "evidence_packets/AMZN/2024-02-09.json",
-      "json_sha256": "e5b64fbece50b79c61321965bf7a72f389e7c9724c9d8ed4fa106aba80d203fa",
+      "json_sha256": "675705cd5a95a7f82204f7463fdcf32c4fbcd83462ad83fa29b71b881495b954",
       "modality_statuses": {
         "IMAGE": "AVAILABLE",
         "TABLE": "AVAILABLE",
@@ -718,7 +718,7 @@
       },
       "decision_session": "2024-02-16",
       "json_path": "evidence_packets/AMZN/2024-02-16.json",
-      "json_sha256": "1f2f8f94d67d9629267b4431d1ce95c23d1dd7f5f493664cee51f52cf75d958b",
+      "json_sha256": "72bd8ab094813ee09c3b5ffd52ab240044483b7d44da53343107aa595c1c3463",
       "modality_statuses": {
         "IMAGE": "AVAILABLE",
         "TABLE": "AVAILABLE",
@@ -740,7 +740,7 @@
       },
       "decision_session": "2024-02-23",
       "json_path": "evidence_packets/AMZN/2024-02-23.json",
-      "json_sha256": "4ac30f942789e4f2de824a227b558a8a03f59e7f48449791dbae11da9698777c",
+      "json_sha256": "0f40fc6ffabc6b8702908e04467ebb49393c143684420ea0cbed34ab89bff2f5",
       "modality_statuses": {
         "IMAGE": "AVAILABLE",
         "TABLE": "AVAILABLE",
@@ -762,7 +762,7 @@
       },
       "decision_session": "2024-03-01",
       "json_path": "evidence_packets/AMZN/2024-03-01.json",
-      "json_sha256": "7123687af7a43a2c18ddf0f67e23c440c5db7e0b85e3eb5df9ed094b60181a37",
+      "json_sha256": "b1d6e5922ee54a90d57d604620ed08ac35e15d299c5e6689bab7cd566c8b2a3e",
       "modality_statuses": {
         "IMAGE": "AVAILABLE",
         "TABLE": "AVAILABLE",
@@ -784,7 +784,7 @@
       },
       "decision_session": "2024-03-08",
       "json_path": "evidence_packets/AMZN/2024-03-08.json",
-      "json_sha256": "9da5276503db41ba7e5a95bc7a3c76f98d61a74105efa972b2aaa33faba86fea",
+      "json_sha256": "4d94b5fffe3f77ea0a46fc108e3c46a8c5462f3d5fe465be6397732bd40bae98",
       "modality_statuses": {
         "IMAGE": "AVAILABLE",
         "TABLE": "AVAILABLE",
@@ -806,7 +806,7 @@
       },
       "decision_session": "2024-03-15",
       "json_path": "evidence_packets/AMZN/2024-03-15.json",
-      "json_sha256": "0916726e2c910f247deff5e5b705133bd71b7960ac5b5035aa95cc02a2708d39",
+      "json_sha256": "39ab0ef7b2795799f217707a82fa1a8984aa37f1a5d29cd2a00b0c42c27815cf",
       "modality_statuses": {
         "IMAGE": "AVAILABLE",
         "TABLE": "AVAILABLE",
@@ -828,7 +828,7 @@
       },
       "decision_session": "2024-03-22",
       "json_path": "evidence_packets/AMZN/2024-03-22.json",
-      "json_sha256": "7ecbb8babe35480c7d84cbae5468c03c2e52fffb2d54d966ddf27854dbd1091e",
+      "json_sha256": "0247bee7a62332059822490bb59a2e19197befa73cd943c507757d720938389b",
       "modality_statuses": {
         "IMAGE": "AVAILABLE",
         "TABLE": "AVAILABLE",
@@ -850,7 +850,7 @@
       },
       "decision_session": "2024-03-28",
       "json_path": "evidence_packets/AMZN/2024-03-28.json",
-      "json_sha256": "5189d1c9256087e74b206a0e50200dd5363a9392844e1064d0ebb2496fa2e51b",
+      "json_sha256": "a3874e67d88d74da9ec1061d0d943959a1330109920a2fa31df699cbe7f9a199",
       "modality_statuses": {
         "IMAGE": "AVAILABLE",
         "TABLE": "AVAILABLE",
@@ -872,7 +872,7 @@
       },
       "decision_session": "2024-04-05",
       "json_path": "evidence_packets/AMZN/2024-04-05.json",
-      "json_sha256": "38b842887ade5a6bff15100ae51349749d5476a5ce795bed5544bb3bb55160d6",
+      "json_sha256": "9a566d7084514fb33155dc710ef483551c7fe255d2a71db40fb02b31539d2792",
       "modality_statuses": {
         "IMAGE": "AVAILABLE",
         "TABLE": "AVAILABLE",
@@ -894,7 +894,7 @@
       },
       "decision_session": "2024-04-12",
       "json_path": "evidence_packets/AMZN/2024-04-12.json",
-      "json_sha256": "ee225039b5dfe21cb6b9c134caa91b0e935770fe44e40cb47b8f821b7581021c",
+      "json_sha256": "9dbe71efa372486312f8a753b38302ef5828e9ea12ed82582dc1a960bc5a2f36",
       "modality_statuses": {
         "IMAGE": "AVAILABLE",
         "TABLE": "AVAILABLE",
@@ -916,7 +916,7 @@
       },
       "decision_session": "2024-04-19",
       "json_path": "evidence_packets/AMZN/2024-04-19.json",
-      "json_sha256": "4d914e2e27bf770eee697949c39991bce8726c5bf18c533e42ea00bfb6822bb9",
+      "json_sha256": "5f706f81173366f1fc6a00d156a834067cd15e093071880175103326d26fc836",
       "modality_statuses": {
         "IMAGE": "AVAILABLE",
         "TABLE": "AVAILABLE",
@@ -938,7 +938,7 @@
       },
       "decision_session": "2024-04-26",
       "json_path": "evidence_packets/AMZN/2024-04-26.json",
-      "json_sha256": "c1e48257a47ac081142cb80a0dcd77ce1a237a8d07debda21d11d1d7dc5215eb",
+      "json_sha256": "d7c960de5c142fdb09c63bc339e4819c3810cf01ccadd3aad31e28e2153ac646",
       "modality_statuses": {
         "IMAGE": "AVAILABLE",
         "TABLE": "AVAILABLE",
@@ -960,7 +960,7 @@
       },
       "decision_session": "2024-05-03",
       "json_path": "evidence_packets/AMZN/2024-05-03.json",
-      "json_sha256": "5eeb19c70691ee71f290cbb3837ac2492228fc7c09e9cbb504fb85c303aff8f5",
+      "json_sha256": "5c9c136178c821c52bc6dd535fed3ca94681686dbdc0fde5b7ce12fe6d3205e4",
       "modality_statuses": {
         "IMAGE": "AVAILABLE",
         "TABLE": "AVAILABLE",
@@ -982,7 +982,7 @@
       },
       "decision_session": "2024-05-10",
       "json_path": "evidence_packets/AMZN/2024-05-10.json",
-      "json_sha256": "09696fe548af3722ed50541ba5e3b7afdef7b7ba1f978c497e132378c05d74eb",
+      "json_sha256": "88d5b780172ebce369cc38eeda2285a467f155255ef776d67e66e3afacfbda24",
       "modality_statuses": {
         "IMAGE": "AVAILABLE",
         "TABLE": "AVAILABLE",
@@ -1004,7 +1004,7 @@
       },
       "decision_session": "2024-05-17",
       "json_path": "evidence_packets/AMZN/2024-05-17.json",
-      "json_sha256": "b59207d93070e891c43dbdd39acf6d5339072700306a151a55523b89531c752b",
+      "json_sha256": "eccd834d28f1e280b835ac1988c25248eab1e1d7e980946f31c06a17f155d5c9",
       "modality_statuses": {
         "IMAGE": "AVAILABLE",
         "TABLE": "AVAILABLE",
@@ -1026,7 +1026,7 @@
       },
       "decision_session": "2024-05-24",
       "json_path": "evidence_packets/AMZN/2024-05-24.json",
-      "json_sha256": "2f6e4085e607583b1884d724b07ef1466e506b6b2befdd40ba8629a658461f2a",
+      "json_sha256": "30d754edbd27f855d783802565ba3e21860c3464ec8461eb349af81743f08dd9",
       "modality_statuses": {
         "IMAGE": "AVAILABLE",
         "TABLE": "AVAILABLE",
@@ -1048,7 +1048,7 @@
       },
       "decision_session": "2024-05-31",
       "json_path": "evidence_packets/AMZN/2024-05-31.json",
-      "json_sha256": "cbfe82f93d5c9cbee91261e0d24bdd3c46ec748ef9c20aceb4ae5d98aed8a45f",
+      "json_sha256": "8052e0d21f3bbe8099d64fceb57d08c70d5e0f2465acc1ba97c0757c52ffc6e7",
       "modality_statuses": {
         "IMAGE": "AVAILABLE",
         "TABLE": "AVAILABLE",
@@ -1070,7 +1070,7 @@
       },
       "decision_session": "2024-06-07",
       "json_path": "evidence_packets/AMZN/2024-06-07.json",
-      "json_sha256": "c2e0ff537c8f0e2e0addaf02c1748393088e3c322dac1fd853a58f6d0451e2fe",
+      "json_sha256": "8ddd3cd7e43288e69a8e7c3633d3eeba9b7d23b66b4948bf55a16041d8851ea5",
       "modality_statuses": {
         "IMAGE": "AVAILABLE",
         "TABLE": "AVAILABLE",
@@ -1092,7 +1092,7 @@
       },
       "decision_session": "2024-06-14",
       "json_path": "evidence_packets/AMZN/2024-06-14.json",
-      "json_sha256": "0609a42240708a5652ea7eac274f1542003ded1a311f02d832c6e8c5535b084d",
+      "json_sha256": "1b31645962a1cab910029c8b8ce5e4b6667cbd0d58925f735d70a8e42912a3a6",
       "modality_statuses": {
         "IMAGE": "AVAILABLE",
         "TABLE": "AVAILABLE",
@@ -1114,7 +1114,7 @@
       },
       "decision_session": "2024-06-21",
       "json_path": "evidence_packets/AMZN/2024-06-21.json",
-      "json_sha256": "77f22ccbb832d4a1134fbdf3fc60169172ed52aa102640538184a894cc7709a6",
+      "json_sha256": "8b6c0c6fc6fba865791676e41556ae0fad1d2e7f56c6591c128c95a54895ea99",
       "modality_statuses": {
         "IMAGE": "AVAILABLE",
         "TABLE": "AVAILABLE",
@@ -1136,7 +1136,7 @@
       },
       "decision_session": "2024-06-28",
       "json_path": "evidence_packets/AMZN/2024-06-28.json",
-      "json_sha256": "dcdac363267fb0806d42a5109816de4c4872839bbda5a91702880e12f96749ac",
+      "json_sha256": "47caf683d2bb4b1be7a091008d2cf2bdc8c8b0992e566fb1967176cbfc34b699",
       "modality_statuses": {
         "IMAGE": "AVAILABLE",
         "TABLE": "AVAILABLE",
@@ -1151,14 +1151,14 @@
       "caption_sha256": "44e980fa7768c0cf36961d6c42ea769157e4b989d02b60b37618256028b04d70",
       "case_id": "JPM:2024-01-05",
       "character_counts": {
-        "complete": 3308,
+        "complete": 3355,
         "fundamentals": 2111,
         "market": 964,
-        "news": 85
+        "news": 132
       },
       "decision_session": "2024-01-05",
       "json_path": "evidence_packets/JPM/2024-01-05.json",
-      "json_sha256": "cf070e43c34f2f407d16c7ebbda0c441ab14e7c52769bcabd1f38797ce72a276",
+      "json_sha256": "bd690a20f2b7530adfe2d9cb5a1e4c6a65815c9088ba14ead2639c8c05fd617a",
       "modality_statuses": {
         "IMAGE": "AVAILABLE",
         "TABLE": "AVAILABLE",
@@ -1167,20 +1167,20 @@
       },
       "symbol": "JPM",
       "text_path": "evidence_packets/JPM/2024-01-05.txt",
-      "text_sha256": "c019fc25e99a16ea7e4f51b5a1864ce200eb7286e16ad3b6bc55ad05710c3859"
+      "text_sha256": "7e3200d663fd021665d067a71990283428fdbaf48b7df2be07c38d2a14d15ca9"
     },
     {
       "caption_sha256": "44e980fa7768c0cf36961d6c42ea769157e4b989d02b60b37618256028b04d70",
       "case_id": "JPM:2024-01-12",
       "character_counts": {
-        "complete": 3327,
+        "complete": 3374,
         "fundamentals": 2111,
         "market": 983,
-        "news": 85
+        "news": 132
       },
       "decision_session": "2024-01-12",
       "json_path": "evidence_packets/JPM/2024-01-12.json",
-      "json_sha256": "4e1d78dcef625bbbae39bbcf46e18c237953beca964354f50ea85c293d42881e",
+      "json_sha256": "62b0e66577fb243581b5af4ac67d6a9f55ab61a2ea27c25f4a7b8157a840d2d2",
       "modality_statuses": {
         "IMAGE": "AVAILABLE",
         "TABLE": "AVAILABLE",
@@ -1189,20 +1189,20 @@
       },
       "symbol": "JPM",
       "text_path": "evidence_packets/JPM/2024-01-12.txt",
-      "text_sha256": "7a885202c27cc1284dfe7d3839c9754463affd8623b1b9c7a6ade018fbe0cbee"
+      "text_sha256": "35e324f3cd930a6fbda6b06295ab160fbd5ea365c61eeb8961d2de472e5f11b4"
     },
     {
       "caption_sha256": "44e980fa7768c0cf36961d6c42ea769157e4b989d02b60b37618256028b04d70",
       "case_id": "JPM:2024-01-19",
       "character_counts": {
-        "complete": 3327,
+        "complete": 3374,
         "fundamentals": 2111,
         "market": 983,
-        "news": 85
+        "news": 132
       },
       "decision_session": "2024-01-19",
       "json_path": "evidence_packets/JPM/2024-01-19.json",
-      "json_sha256": "bfe063456847082ac6a1d5fadf8a22d343475e61a3b60e604d2f30ff5d370550",
+      "json_sha256": "13ab8c8286a309d1fd9b8825baceb05a3f60bd2d909183223b0f28dde4d66c2f",
       "modality_statuses": {
         "IMAGE": "AVAILABLE",
         "TABLE": "AVAILABLE",
@@ -1211,20 +1211,20 @@
       },
       "symbol": "JPM",
       "text_path": "evidence_packets/JPM/2024-01-19.txt",
-      "text_sha256": "a822952821971ff64067be8a26ab7aac90d21595491658489f3876d77ca6985d"
+      "text_sha256": "0eb147bde40bac8ecf93da81dd8faafc11be193b3012a96b452172078e8ec734"
     },
     {
       "caption_sha256": "44e980fa7768c0cf36961d6c42ea769157e4b989d02b60b37618256028b04d70",
       "case_id": "JPM:2024-01-26",
       "character_counts": {
-        "complete": 3325,
+        "complete": 3372,
         "fundamentals": 2111,
         "market": 981,
-        "news": 85
+        "news": 132
       },
       "decision_session": "2024-01-26",
       "json_path": "evidence_packets/JPM/2024-01-26.json",
-      "json_sha256": "c205280b9af489a76c95501751651a733ef3409fc627e386e980efd18a84d1bf",
+      "json_sha256": "1d9ca5b522766e6847548fdcab37385d0fe87514f2b528c41b1c7142cdde28eb",
       "modality_statuses": {
         "IMAGE": "AVAILABLE",
         "TABLE": "AVAILABLE",
@@ -1233,20 +1233,20 @@
       },
       "symbol": "JPM",
       "text_path": "evidence_packets/JPM/2024-01-26.txt",
-      "text_sha256": "6aa776daf11f5a0c860d5193c56734b397ac2e019c7537748fa90fa1bc8c0b41"
+      "text_sha256": "4c995b97497cf2fe734a9f5a594d5e9f74d687b3612b100287e1a3d8ff13b92e"
     },
     {
       "caption_sha256": "44e980fa7768c0cf36961d6c42ea769157e4b989d02b60b37618256028b04d70",
       "case_id": "JPM:2024-02-02",
       "character_counts": {
-        "complete": 3327,
+        "complete": 3374,
         "fundamentals": 2111,
         "market": 983,
-        "news": 85
+        "news": 132
       },
       "decision_session": "2024-02-02",
       "json_path": "evidence_packets/JPM/2024-02-02.json",
-      "json_sha256": "9f8bff90928b1a71d3babe26da84f8c015dd1326b8c4fb185b60aeb5bcd8e704",
+      "json_sha256": "20bbcf6d235c3a7fd009245d8119adf9cb79c3ad5f0bd93a3b7cc2fff01a2be0",
       "modality_statuses": {
         "IMAGE": "AVAILABLE",
         "TABLE": "AVAILABLE",
@@ -1255,20 +1255,20 @@
       },
       "symbol": "JPM",
       "text_path": "evidence_packets/JPM/2024-02-02.txt",
-      "text_sha256": "1142e2ade8e442cb1d2eac7b6712c1579bb175b7b7a8419041fbb6796fd90cd6"
+      "text_sha256": "3edbba297ef1d0e3571bf2fea8081a87b36b693be5f136fa8ad01ba7b43c1cb2"
     },
     {
       "caption_sha256": "44e980fa7768c0cf36961d6c42ea769157e4b989d02b60b37618256028b04d70",
       "case_id": "JPM:2024-02-09",
       "character_counts": {
-        "complete": 3328,
+        "complete": 3375,
         "fundamentals": 2111,
         "market": 984,
-        "news": 85
+        "news": 132
       },
       "decision_session": "2024-02-09",
       "json_path": "evidence_packets/JPM/2024-02-09.json",
-      "json_sha256": "6dccff3b592e47ea6a88c10d0aca41b9f53675d5f85c5f827786db7b1d1b3207",
+      "json_sha256": "32eb4a1f3d536a84b5cbfc9df4547232677645c60d5a10b28ff01fdc78227c3c",
       "modality_statuses": {
         "IMAGE": "AVAILABLE",
         "TABLE": "AVAILABLE",
@@ -1277,20 +1277,20 @@
       },
       "symbol": "JPM",
       "text_path": "evidence_packets/JPM/2024-02-09.txt",
-      "text_sha256": "030e8c5afcf8234f251b32d053731746781bc65106a25e072fea6053cc32afe3"
+      "text_sha256": "442fa5ec11f00a979fa293e285a5e4d9f8246e281708ae586f10bc2457a6939c"
     },
     {
       "caption_sha256": "44e980fa7768c0cf36961d6c42ea769157e4b989d02b60b37618256028b04d70",
       "case_id": "JPM:2024-02-16",
       "character_counts": {
-        "complete": 3327,
+        "complete": 3374,
         "fundamentals": 2111,
         "market": 983,
-        "news": 85
+        "news": 132
       },
       "decision_session": "2024-02-16",
       "json_path": "evidence_packets/JPM/2024-02-16.json",
-      "json_sha256": "beb94d715361880dc614ce2ed3d2cd000ffed103631d3968b0ff1828bbfda373",
+      "json_sha256": "247152aa0ee18f9b09d955e537449c9338b425fa44f8dced972eefb27db578c4",
       "modality_statuses": {
         "IMAGE": "AVAILABLE",
         "TABLE": "AVAILABLE",
@@ -1299,20 +1299,20 @@
       },
       "symbol": "JPM",
       "text_path": "evidence_packets/JPM/2024-02-16.txt",
-      "text_sha256": "4e9c99e604b73fa520b215ef1fe93bd971736420c3b78f911952ff1ae4bc52f8"
+      "text_sha256": "213cbcc89f6569f777aa7e13835cb0e05f343b72a1684488237217eb82506107"
     },
     {
       "caption_sha256": "44e980fa7768c0cf36961d6c42ea769157e4b989d02b60b37618256028b04d70",
       "case_id": "JPM:2024-02-23",
       "character_counts": {
-        "complete": 3278,
+        "complete": 3325,
         "fundamentals": 2083,
         "market": 962,
-        "news": 85
+        "news": 132
       },
       "decision_session": "2024-02-23",
       "json_path": "evidence_packets/JPM/2024-02-23.json",
-      "json_sha256": "d998adab07aa24a26d7b3e0e0d34d048776b171442b12901657703efe19a7237",
+      "json_sha256": "a165260c10ee7f2b1117c8a51f6821f2e74b7670e2ca62ef8af6f6a744565aa5",
       "modality_statuses": {
         "IMAGE": "AVAILABLE",
         "TABLE": "AVAILABLE",
@@ -1321,20 +1321,20 @@
       },
       "symbol": "JPM",
       "text_path": "evidence_packets/JPM/2024-02-23.txt",
-      "text_sha256": "5a184d2b869a3526172ba73c45c50285d135607741b2fee2375659baa9925338"
+      "text_sha256": "7e48fb7981a7da157fa1abc51476a732f6532f412d2e67d62b27da4c58011b64"
     },
     {
       "caption_sha256": "44e980fa7768c0cf36961d6c42ea769157e4b989d02b60b37618256028b04d70",
       "case_id": "JPM:2024-03-01",
       "character_counts": {
-        "complete": 3296,
+        "complete": 3343,
         "fundamentals": 2083,
         "market": 980,
-        "news": 85
+        "news": 132
       },
       "decision_session": "2024-03-01",
       "json_path": "evidence_packets/JPM/2024-03-01.json",
-      "json_sha256": "11d43bc58ae8a3e48f46b59d0592a197ab945bd37b6e650a925dfe3214fee380",
+      "json_sha256": "c78d3cbc294dceb3bc35b1bd57da1be3f6754f968b5cdbb126beffb5a55b69d8",
       "modality_statuses": {
         "IMAGE": "AVAILABLE",
         "TABLE": "AVAILABLE",
@@ -1343,20 +1343,20 @@
       },
       "symbol": "JPM",
       "text_path": "evidence_packets/JPM/2024-03-01.txt",
-      "text_sha256": "c5cb8f4aa35c78e06fe445e78bd9da783c446e98f4053d9fd8c5ec33b0cf48c6"
+      "text_sha256": "172c95c5d2910bfa940b43a39d3fb4b63b5386486739b9ecc47f2b667763b8e7"
     },
     {
       "caption_sha256": "44e980fa7768c0cf36961d6c42ea769157e4b989d02b60b37618256028b04d70",
       "case_id": "JPM:2024-03-08",
       "character_counts": {
-        "complete": 3298,
+        "complete": 3345,
         "fundamentals": 2083,
         "market": 982,
-        "news": 85
+        "news": 132
       },
       "decision_session": "2024-03-08",
       "json_path": "evidence_packets/JPM/2024-03-08.json",
-      "json_sha256": "95b46c20327fe9595c6b0727194f07c0e9a886dcf7f75afcbf8eab6c11829ff7",
+      "json_sha256": "251890c390a73111d31595940417bdd42886b5b3beb64d2d46c8f1496303e5bc",
       "modality_statuses": {
         "IMAGE": "AVAILABLE",
         "TABLE": "AVAILABLE",
@@ -1365,20 +1365,20 @@
       },
       "symbol": "JPM",
       "text_path": "evidence_packets/JPM/2024-03-08.txt",
-      "text_sha256": "588bc94ee627bb024d7a4f8866f0dd7a9c81a8d200f3e343a48154601b73246c"
+      "text_sha256": "4a478b8ff6c3a2dacceeeb8da5ad3bcb72d6ccd41dce1403c18b18e62cdf1195"
     },
     {
       "caption_sha256": "44e980fa7768c0cf36961d6c42ea769157e4b989d02b60b37618256028b04d70",
       "case_id": "JPM:2024-03-15",
       "character_counts": {
-        "complete": 3296,
+        "complete": 3343,
         "fundamentals": 2083,
         "market": 980,
-        "news": 85
+        "news": 132
       },
       "decision_session": "2024-03-15",
       "json_path": "evidence_packets/JPM/2024-03-15.json",
-      "json_sha256": "a41061417e8accff5e95e198a955d32d06f6fe5b69dffb2da6d07d0ed643e406",
+      "json_sha256": "8fc28cc608973719413a0f6f010b2cf5675ab936d1d969c61597385d844aa55a",
       "modality_statuses": {
         "IMAGE": "AVAILABLE",
         "TABLE": "AVAILABLE",
@@ -1387,20 +1387,20 @@
       },
       "symbol": "JPM",
       "text_path": "evidence_packets/JPM/2024-03-15.txt",
-      "text_sha256": "76c87eff1c19376eaa381577109ddb51483659c5ee4dccfaa692573868d2782b"
+      "text_sha256": "721075eaa4d18ffde54a758d1534201ff2cd35a3e4375510649d6a55daceaaed"
     },
     {
       "caption_sha256": "44e980fa7768c0cf36961d6c42ea769157e4b989d02b60b37618256028b04d70",
       "case_id": "JPM:2024-03-22",
       "character_counts": {
-        "complete": 3296,
+        "complete": 3343,
         "fundamentals": 2083,
         "market": 980,
-        "news": 85
+        "news": 132
       },
       "decision_session": "2024-03-22",
       "json_path": "evidence_packets/JPM/2024-03-22.json",
-      "json_sha256": "8faeecfdc32b760572d592307e9dddd67031c1066c2208850a394c4ec6e4f1fa",
+      "json_sha256": "f2a0a132d667d55f9afa3064be14ac2e57f9767f43836794b56868362bdf7706",
       "modality_statuses": {
         "IMAGE": "AVAILABLE",
         "TABLE": "AVAILABLE",
@@ -1409,20 +1409,20 @@
       },
       "symbol": "JPM",
       "text_path": "evidence_packets/JPM/2024-03-22.txt",
-      "text_sha256": "6426182fef36ca688e7db2f620fd65524f5d32d3659899444020f469b314e5ef"
+      "text_sha256": "5852a93d11dae31319fb776623f424379044775a3afd38d4cade7ee769eeb47c"
     },
     {
       "caption_sha256": "44e980fa7768c0cf36961d6c42ea769157e4b989d02b60b37618256028b04d70",
       "case_id": "JPM:2024-03-28",
       "character_counts": {
-        "complete": 3281,
+        "complete": 3328,
         "fundamentals": 2083,
         "market": 965,
-        "news": 85
+        "news": 132
       },
       "decision_session": "2024-03-28",
       "json_path": "evidence_packets/JPM/2024-03-28.json",
-      "json_sha256": "40406c08dc996cee77247c408724403b9e2c98d9650faa97de6ec72052efd71a",
+      "json_sha256": "45f65aed40957e33dc1f5c9a9debfc512b9069f1e396b2247b8bf00291d87ad0",
       "modality_statuses": {
         "IMAGE": "AVAILABLE",
         "TABLE": "AVAILABLE",
@@ -1431,20 +1431,20 @@
       },
       "symbol": "JPM",
       "text_path": "evidence_packets/JPM/2024-03-28.txt",
-      "text_sha256": "4a48032cb0d856a9a322cd7b2980ca4244340e83ba6eb28ccc95d360b1327770"
+      "text_sha256": "9ce7a4baab6ceefeacaecffb1e53b2a296f7b81809332ab0cfd14cf9e60ece3a"
     },
     {
       "caption_sha256": "44e980fa7768c0cf36961d6c42ea769157e4b989d02b60b37618256028b04d70",
       "case_id": "JPM:2024-04-05",
       "character_counts": {
-        "complete": 3300,
+        "complete": 3347,
         "fundamentals": 2083,
         "market": 984,
-        "news": 85
+        "news": 132
       },
       "decision_session": "2024-04-05",
       "json_path": "evidence_packets/JPM/2024-04-05.json",
-      "json_sha256": "f27b03924f1a433a27893f4087f90d671f6aebd099a88a0b91d445068a34aa7e",
+      "json_sha256": "5db2a85e31280346941021b2d214c988521bf4249217acd7ed6575421977edee",
       "modality_statuses": {
         "IMAGE": "AVAILABLE",
         "TABLE": "AVAILABLE",
@@ -1453,20 +1453,20 @@
       },
       "symbol": "JPM",
       "text_path": "evidence_packets/JPM/2024-04-05.txt",
-      "text_sha256": "c95f975a91a02fd1ba46bc2e391a3c3d00fde154444ccb5768fa5301799850ba"
+      "text_sha256": "a3f0ebc37b6f3863319b93f9b7f10601c6c5311e31c257c3b47c06dc9e637fca"
     },
     {
       "caption_sha256": "44e980fa7768c0cf36961d6c42ea769157e4b989d02b60b37618256028b04d70",
       "case_id": "JPM:2024-04-12",
       "character_counts": {
-        "complete": 3299,
+        "complete": 3346,
         "fundamentals": 2083,
         "market": 983,
-        "news": 85
+        "news": 132
       },
       "decision_session": "2024-04-12",
       "json_path": "evidence_packets/JPM/2024-04-12.json",
-      "json_sha256": "fb62946f242ca9e5b76ac25d4bd6a72408933fac4323c14153add6fa9495a683",
+      "json_sha256": "b6122c30718c975a44330a2889c4fda533f0e994bd43a5868e0c3dc05fd67cd4",
       "modality_statuses": {
         "IMAGE": "AVAILABLE",
         "TABLE": "AVAILABLE",
@@ -1475,20 +1475,20 @@
       },
       "symbol": "JPM",
       "text_path": "evidence_packets/JPM/2024-04-12.txt",
-      "text_sha256": "d902c04998b9da3fe1bb31c24d1f0b78bdf6f200704e598c07c90fbda030fc4a"
+      "text_sha256": "e28bf47f7ff9c9f277625c9972a98de52c72736aa388d360dfa148ea63ef06bf"
     },
     {
       "caption_sha256": "44e980fa7768c0cf36961d6c42ea769157e4b989d02b60b37618256028b04d70",
       "case_id": "JPM:2024-04-19",
       "character_counts": {
-        "complete": 3300,
+        "complete": 3347,
         "fundamentals": 2083,
         "market": 984,
-        "news": 85
+        "news": 132
       },
       "decision_session": "2024-04-19",
       "json_path": "evidence_packets/JPM/2024-04-19.json",
-      "json_sha256": "6dff1d833908bebb1cae81d1b038e0a44f64ddea83dab0b23d5706aa33a58d47",
+      "json_sha256": "4a9916427b84bdd7987bea96be79510b5869d674c5c1fafafb1a1319224b4654",
       "modality_statuses": {
         "IMAGE": "AVAILABLE",
         "TABLE": "AVAILABLE",
@@ -1497,20 +1497,20 @@
       },
       "symbol": "JPM",
       "text_path": "evidence_packets/JPM/2024-04-19.txt",
-      "text_sha256": "203438a56685a237569c97a22d5e6acb75f4dbed48f3c7ac6c4b55d7fe683e87"
+      "text_sha256": "807d733773d4636adc6d40b1df86b95cae2a13110515fdf6098ce69951fff677"
     },
     {
       "caption_sha256": "44e980fa7768c0cf36961d6c42ea769157e4b989d02b60b37618256028b04d70",
       "case_id": "JPM:2024-04-26",
       "character_counts": {
-        "complete": 3298,
+        "complete": 3345,
         "fundamentals": 2083,
         "market": 982,
-        "news": 85
+        "news": 132
       },
       "decision_session": "2024-04-26",
       "json_path": "evidence_packets/JPM/2024-04-26.json",
-      "json_sha256": "efe69ac1af9c12a08938a2105049cb7abbd24462cf5542913ceaa8a5fd94fd2f",
+      "json_sha256": "4360a3941175478ece58f5f39b2dad80fc805e8cdd9dcdff1938dfb0338e0a13",
       "modality_statuses": {
         "IMAGE": "AVAILABLE",
         "TABLE": "AVAILABLE",
@@ -1519,20 +1519,20 @@
       },
       "symbol": "JPM",
       "text_path": "evidence_packets/JPM/2024-04-26.txt",
-      "text_sha256": "bbcfadd7ee8ebe4fb179f97b623a7dea83f58701d4874ec7c5937b316ad8d169"
+      "text_sha256": "bee9cb96c7336477646f59ae220567775adafd3ab0a3b5d118f30532f27d5327"
     },
     {
       "caption_sha256": "44e980fa7768c0cf36961d6c42ea769157e4b989d02b60b37618256028b04d70",
       "case_id": "JPM:2024-05-03",
       "character_counts": {
-        "complete": 3307,
+        "complete": 3354,
         "fundamentals": 2092,
         "market": 982,
-        "news": 85
+        "news": 132
       },
       "decision_session": "2024-05-03",
       "json_path": "evidence_packets/JPM/2024-05-03.json",
-      "json_sha256": "e1256b005e96bc2fa4e1fc582a0f87d56c916838180ad4da7b602f16db6254e2",
+      "json_sha256": "c6c4a8773ac39544ad92d1e7f89b96fe5ea78b89bbb3ea12584d008485adeefc",
       "modality_statuses": {
         "IMAGE": "AVAILABLE",
         "TABLE": "AVAILABLE",
@@ -1541,20 +1541,20 @@
       },
       "symbol": "JPM",
       "text_path": "evidence_packets/JPM/2024-05-03.txt",
-      "text_sha256": "dc6a554299ab4328b01ba01125fc228d977d70837f07a4d349ee00426a82df96"
+      "text_sha256": "4e8dae74b92138de94f4781ea1e2a67cf696522be91aff6b9d9342afaa75a509"
     },
     {
       "caption_sha256": "44e980fa7768c0cf36961d6c42ea769157e4b989d02b60b37618256028b04d70",
       "case_id": "JPM:2024-05-10",
       "character_counts": {
-        "complete": 3309,
+        "complete": 3356,
         "fundamentals": 2092,
         "market": 984,
-        "news": 85
+        "news": 132
       },
       "decision_session": "2024-05-10",
       "json_path": "evidence_packets/JPM/2024-05-10.json",
-      "json_sha256": "d4fe0e27b95fa9e339e0782b67d4b29da41453144c30ccdfe76cc3b4788b7f39",
+      "json_sha256": "02ebc1dfdccfd0260083a8f301783523a932cd97ef581fea175ce0e6e02715bf",
       "modality_statuses": {
         "IMAGE": "AVAILABLE",
         "TABLE": "AVAILABLE",
@@ -1563,20 +1563,20 @@
       },
       "symbol": "JPM",
       "text_path": "evidence_packets/JPM/2024-05-10.txt",
-      "text_sha256": "68074d76eae5e9d2e7f298deccb13acf4e70888c5c2ffc15383ad3f65a27c886"
+      "text_sha256": "e30acfeb30250105a2d7d7ed656d9a9f4d243ddbb8a25bab7975617dc59e4d1b"
     },
     {
       "caption_sha256": "44e980fa7768c0cf36961d6c42ea769157e4b989d02b60b37618256028b04d70",
       "case_id": "JPM:2024-05-17",
       "character_counts": {
-        "complete": 3290,
+        "complete": 3337,
         "fundamentals": 2092,
         "market": 965,
-        "news": 85
+        "news": 132
       },
       "decision_session": "2024-05-17",
       "json_path": "evidence_packets/JPM/2024-05-17.json",
-      "json_sha256": "473e4715260c550adbfc379c0fb7261161a1d233213879029ea36da7b32634d9",
+      "json_sha256": "ffdde49fbd513692a8e303d2db446cb0cf47538cef9c591ade9c915b9bf22fc2",
       "modality_statuses": {
         "IMAGE": "AVAILABLE",
         "TABLE": "AVAILABLE",
@@ -1585,20 +1585,20 @@
       },
       "symbol": "JPM",
       "text_path": "evidence_packets/JPM/2024-05-17.txt",
-      "text_sha256": "f2a2e66bb17ee1c37f9d676dbbfcdee945b74d1cd11eaec4848ed5bc2a128157"
+      "text_sha256": "2be9b4b78ca1c1c88eea54f39c304e6449f407efe7661b7dfc1b64db33f57f18"
     },
     {
       "caption_sha256": "44e980fa7768c0cf36961d6c42ea769157e4b989d02b60b37618256028b04d70",
       "case_id": "JPM:2024-05-24",
       "character_counts": {
-        "complete": 3311,
+        "complete": 3358,
         "fundamentals": 2092,
         "market": 986,
-        "news": 85
+        "news": 132
       },
       "decision_session": "2024-05-24",
       "json_path": "evidence_packets/JPM/2024-05-24.json",
-      "json_sha256": "dc21aaf3f2d79241ddb9eeed596ce5506d4ad4dc5eb7df86b85f9feaab72d0da",
+      "json_sha256": "852a0faa05f8e525b4cef79b781b53f511b63289d7da8453ba5c2965fb7c6273",
       "modality_statuses": {
         "IMAGE": "AVAILABLE",
         "TABLE": "AVAILABLE",
@@ -1607,20 +1607,20 @@
       },
       "symbol": "JPM",
       "text_path": "evidence_packets/JPM/2024-05-24.txt",
-      "text_sha256": "70d76efcff8b9dac5783e1656b23c94fc42effb015e7a3942598dea2bb1e76fe"
+      "text_sha256": "76cd69fe457952a55599f136544b07110b9bf6d5d41b3ad83835afcb187c2e17"
     },
     {
       "caption_sha256": "44e980fa7768c0cf36961d6c42ea769157e4b989d02b60b37618256028b04d70",
       "case_id": "JPM:2024-05-31",
       "character_counts": {
-        "complete": 3307,
+        "complete": 3354,
         "fundamentals": 2092,
         "market": 982,
-        "news": 85
+        "news": 132
       },
       "decision_session": "2024-05-31",
       "json_path": "evidence_packets/JPM/2024-05-31.json",
-      "json_sha256": "6f7abbb8509ed565c41b79c33e38519209c355b661d156fd38d9671d78d717c8",
+      "json_sha256": "bfeb72f999b805be30342c35944f9bdb4eac2a69b4de69349fc28ee779d27eb6",
       "modality_statuses": {
         "IMAGE": "AVAILABLE",
         "TABLE": "AVAILABLE",
@@ -1629,20 +1629,20 @@
       },
       "symbol": "JPM",
       "text_path": "evidence_packets/JPM/2024-05-31.txt",
-      "text_sha256": "143172a72ee8ce6aee066c38f2943e8c3a97233fe25fa344d8ceeb9d31c9c538"
+      "text_sha256": "5a96a9806fa67898b2a2b85aa872626e1283aa1041672b76e566c6250e16eb7b"
     },
     {
       "caption_sha256": "44e980fa7768c0cf36961d6c42ea769157e4b989d02b60b37618256028b04d70",
       "case_id": "JPM:2024-06-07",
       "character_counts": {
-        "complete": 3310,
+        "complete": 3357,
         "fundamentals": 2092,
         "market": 985,
-        "news": 85
+        "news": 132
       },
       "decision_session": "2024-06-07",
       "json_path": "evidence_packets/JPM/2024-06-07.json",
-      "json_sha256": "59acbf3954b9485dc66605d14e8e98d28097c7a02c1dbab3a564413386c962d2",
+      "json_sha256": "5e8732fa041706df794f61395a0695ce1da08e8504dd8e658358d0e3d75beade",
       "modality_statuses": {
         "IMAGE": "AVAILABLE",
         "TABLE": "AVAILABLE",
@@ -1651,20 +1651,20 @@
       },
       "symbol": "JPM",
       "text_path": "evidence_packets/JPM/2024-06-07.txt",
-      "text_sha256": "a7561033669e69e5795dd6f53aa18d636114335728c1f0292eed8abd085748cd"
+      "text_sha256": "4000e15274191a56f88483075aa07438e3aa5edb8c48b1d33f6797be7dcc404c"
     },
     {
       "caption_sha256": "44e980fa7768c0cf36961d6c42ea769157e4b989d02b60b37618256028b04d70",
       "case_id": "JPM:2024-06-14",
       "character_counts": {
-        "complete": 3309,
+        "complete": 3356,
         "fundamentals": 2092,
         "market": 984,
-        "news": 85
+        "news": 132
       },
       "decision_session": "2024-06-14",
       "json_path": "evidence_packets/JPM/2024-06-14.json",
-      "json_sha256": "9a1d945b55412af211b8acaf85f4ba676078a417af85f95af4056b663b2d66c1",
+      "json_sha256": "c67e17ccc44530331a60a90e3883b0dc74f7144139abf07f01d37efa0578cf43",
       "modality_statuses": {
         "IMAGE": "AVAILABLE",
         "TABLE": "AVAILABLE",
@@ -1673,20 +1673,20 @@
       },
       "symbol": "JPM",
       "text_path": "evidence_packets/JPM/2024-06-14.txt",
-      "text_sha256": "ab6e8aaae36d7fa99096cb78b90f29acec6a9ce9c433dfbfcb25f59053a19015"
+      "text_sha256": "9f949e2943c7c0a219b167e5f18d4f591f52ed72faf32b57edca86ed4ed30c43"
     },
     {
       "caption_sha256": "44e980fa7768c0cf36961d6c42ea769157e4b989d02b60b37618256028b04d70",
       "case_id": "JPM:2024-06-21",
       "character_counts": {
-        "complete": 3309,
+        "complete": 3356,
         "fundamentals": 2092,
         "market": 984,
-        "news": 85
+        "news": 132
       },
       "decision_session": "2024-06-21",
       "json_path": "evidence_packets/JPM/2024-06-21.json",
-      "json_sha256": "fbf8a12cb43c4260b4e9c54eadd5bd7f14a67a1ac14d6f258ab4280bccc9182c",
+      "json_sha256": "3377cd53a3f9a7d24e28bee4f60da2d0f475240b95979497d2947ecc2eb10cc2",
       "modality_statuses": {
         "IMAGE": "AVAILABLE",
         "TABLE": "AVAILABLE",
@@ -1695,20 +1695,20 @@
       },
       "symbol": "JPM",
       "text_path": "evidence_packets/JPM/2024-06-21.txt",
-      "text_sha256": "5376565984a48cbf106f03b34ceef71c6094c216cc942f8ebfcb90a05c82891d"
+      "text_sha256": "88278b8a2b79e47ef20b5d8e63fb94b79b52a443c54d712e9832b655b6d202f2"
     },
     {
       "caption_sha256": "44e980fa7768c0cf36961d6c42ea769157e4b989d02b60b37618256028b04d70",
       "case_id": "JPM:2024-06-28",
       "character_counts": {
-        "complete": 3310,
+        "complete": 3357,
         "fundamentals": 2092,
         "market": 985,
-        "news": 85
+        "news": 132
       },
       "decision_session": "2024-06-28",
       "json_path": "evidence_packets/JPM/2024-06-28.json",
-      "json_sha256": "05714841e9802d436d6168e2b17dbb1c25d42c8a33090d05503a6bca435c8601",
+      "json_sha256": "a219d79e6cba434871a601ab7a5c4116238e172154a3d224e0b18b4d8c0132c1",
       "modality_statuses": {
         "IMAGE": "AVAILABLE",
         "TABLE": "AVAILABLE",
@@ -1717,7 +1717,7 @@
       },
       "symbol": "JPM",
       "text_path": "evidence_packets/JPM/2024-06-28.txt",
-      "text_sha256": "6e89ecd45064f687545421ebda08f677f9b0819c27fa67ce9c8993de0af1ec80"
+      "text_sha256": "329db34eb0926c6fb550d055602667e5e9e0cff2a1e348461e0bd185f93aeb9a"
     }
   ],
   "record_type": "m1_finmultitime_evidence_packet_manifest",

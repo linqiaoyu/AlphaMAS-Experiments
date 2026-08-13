@@ -10,7 +10,7 @@
       "period_start": "2023-07-01",
       "processed_path": "image/amzn_2023_H2_candlestick.png",
       "sha256": "215c01f8a03dc55719558644992b14c28d8b9f604d44e3504ef7df0f99997bb8",
-      "source_path": "UPSTREAM_FINMULTITIME_DATASET_NOT_ARCHIVED/image/image/S&P500_image_a/amzn/amzn_2023_H2_candlestick.png"
+      "source_path": "/Volumes/Jackson/Dataset/FinMultiTime/image/image/S&P500_image_a/amzn/amzn_2023_H2_candlestick.png"
     },
     "evidence_age_calendar_days": 12,
     "reason": "window end inferred from YYYY_H1/H2 filename convention",
@@ -595,7 +595,7 @@
     "image_evidence_age_calendar_days": 12,
     "image_staleness_threshold_rule": "none beyond strict inferred window-end gate",
     "latest_included_session": "2024-01-12",
-    "packet_version": "M1-FINMULTITIME-v1.0.1",
+    "packet_version": "M1-FINMULTITIME-v1.0.2",
     "routed_fundamentals_analyst_chars": 2508,
     "routed_market_analyst_chars": 584,
     "routed_news_analyst_chars": 8841,
@@ -603,7 +603,7 @@
     "selected_filing_date": "Assets=2023-10-27;NetCashProvidedByUsedInFinancingActivities=2023-10-27;NetCashProvidedByUsedInInvestingActivities=2023-10-27;NetCashProvidedByUsedInOperatingActivities=2023-10-27;StockholdersEquity=2023-10-27",
     "selected_image": "amzn_2023_H2_candlestick.png",
     "selected_image_period_start": "2023-07-01",
-    "selected_image_source_identity": "UPSTREAM_FINMULTITIME_DATASET_NOT_ARCHIVED/image/image/S&P500_image_a/amzn/amzn_2023_H2_candlestick.png",
+    "selected_image_source_identity": "/Volumes/Jackson/Dataset/FinMultiTime/image/image/S&P500_image_a/amzn/amzn_2023_H2_candlestick.png",
     "selected_image_window_end": "2023-12-31",
     "selected_news_count": 8,
     "selected_news_latest_date": "2023-12-16",
@@ -628,7 +628,7 @@
     "time_series_summary_fields": "cumulative_return_20d;cumulative_return_5d;cumulative_return_60d;drawdown_from_60d_peak;high_low_range_20d;realised_volatility_20d_annualised;relative_volume_vs_20d_mean",
     "time_series_summary_values": "{\"cumulative_return_20d\":0.03883363962315167,\"cumulative_return_5d\":0.06458268568755265,\"cumulative_return_60d\":0.17608575098148593,\"drawdown_from_60d_peak\":-0.0036086969005325598,\"high_low_range_20d\":0.09107945046327726,\"realised_volatility_20d_annualised\":0.22054214664128904,\"relative_volume_vs_20d_mean\":0.8532870658056391}"
   },
-  "contract_version": "M1-FINMULTITIME-v1.0.1",
+  "contract_version": "M1-FINMULTITIME-v1.0.2",
   "dataset_id": "finmultitime_3stocks_2024h1_v1",
   "decision_close_ny": "2024-01-12T16:00:00-05:00",
   "decision_session": "2024-01-12",
