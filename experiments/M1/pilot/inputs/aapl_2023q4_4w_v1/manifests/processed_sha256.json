@@ -1,0 +1,67 @@
+{
+  "files": [
+    {
+      "bytes": 791,
+      "path": "README.md",
+      "sha256": "2c8240dc2a51b60b5be7d1e33d0de4d43c8e35943e0cbe817380169814ba56ec"
+    },
+    {
+      "bytes": 12964,
+      "path": "evidence_packets/AAPL/2023-10-06.json",
+      "sha256": "dc36d56068da1326d2e2739a748a68d943022e456aa51762d2bb9d9113723d55"
+    },
+    {
+      "bytes": 3022,
+      "path": "evidence_packets/AAPL/2023-10-06.txt",
+      "sha256": "6edba507fca23d812a574d026e17594835cd98d49abc3bb502f8338db15c3635"
+    },
+    {
+      "bytes": 12967,
+      "path": "evidence_packets/AAPL/2023-10-13.json",
+      "sha256": "c01bec9d7b3d274f072eaec45b0203408b698b8de38842bb2ef1efeccbb00ce4"
+    },
+    {
+      "bytes": 3023,
+      "path": "evidence_packets/AAPL/2023-10-13.txt",
+      "sha256": "dfc4f06d74762510bc0592cc815022dbd824cd4d593efca0062f09d0b62c3fcf"
+    },
+    {
+      "bytes": 12964,
+      "path": "evidence_packets/AAPL/2023-10-20.json",
+      "sha256": "01de6a8f39148d415eb555e51d86496acfe01fcae1c0e674aea8dfeea14808cf"
+    },
+    {
+      "bytes": 3022,
+      "path": "evidence_packets/AAPL/2023-10-20.txt",
+      "sha256": "daffac6d371899d36a5749fc437b131e7e9b8acee1a9f23a7c28c3b0f1b2df8d"
+    },
+    {
+      "bytes": 12970,
+      "path": "evidence_packets/AAPL/2023-10-27.json",
+      "sha256": "225c75ed70079f9d93fb95282a43658dc11620c88463ae0699575904fa5ec70f"
+    },
+    {
+      "bytes": 3024,
+      "path": "evidence_packets/AAPL/2023-10-27.txt",
+      "sha256": "15541003a8fe4918735fada88d774f894ba2f8aa0666c50e35eeb7e3baa74385"
+    },
+    {
+      "bytes": 4812,
+      "path": "manifests/evidence_packet_manifest.json",
+      "sha256": "ea38129127446348a28bb5c1d52897125674ac55908a3b5dc09c3242dfc46645"
+    },
+    {
+      "bytes": 1586,
+      "path": "manifests/pilot_validation.json",
+      "sha256": "b4670d819988ed02274f634170f066ed872541d6457a292154c11f4e60a77ee9"
+    },
+    {
+      "bytes": 3537,
+      "path": "manifests/source_provenance.json",
+      "sha256": "c09f45476818792efadaff9fad388901a07a5ecc35331468140211fc5900e84c"
+    }
+  ],
+  "hash_algorithm": "SHA-256",
+  "hash_scope": "all pilot research files except manifest and checksum inventories",
+  "schema_version": "1.0"
+}

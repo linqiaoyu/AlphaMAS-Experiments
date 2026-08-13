@@ -1,0 +1,56 @@
+{
+  "bundle_scope": "PILOT",
+  "dataset_id": "finmultitime_m1_pilot_aapl_2023q4_4w_v1",
+  "deterministic_build": {
+    "json_hash_mismatches": 0,
+    "packets_compared": 4,
+    "status": "PASS",
+    "text_hash_mismatches": 0
+  },
+  "evidence_contract_sha256": "46f6a05f12a7c402936178748c55dab099c8754d99fa1a0c41faf525cd37ae08",
+  "final_evidence_packet_count": 4,
+  "final_evidence_packet_manifest": {
+    "path": "manifests/evidence_packet_manifest.json",
+    "sha256": "ea38129127446348a28bb5c1d52897125674ac55908a3b5dc09c3242dfc46645"
+  },
+  "formal_case_count": 0,
+  "formal_eligible": false,
+  "frozen_evidence_contract_version": "M1-FINMULTITIME-v1.0.2",
+  "input_bundle_checksums": {
+    "hash_algorithm": "SHA-256",
+    "path": "manifests/input_bundle_checksums.json"
+  },
+  "input_bundle_frozen": true,
+  "input_bundle_manifest": {
+    "path": "manifests/input_bundle_manifest.json",
+    "sha256": "04bf120b83b56593a9e1aef582f2962710fa01e8aa4b7c088a7ccc01f77db24c"
+  },
+  "pilot_case_count": 4,
+  "pilot_only": true,
+  "pilot_sessions": [
+    "2023-10-06",
+    "2023-10-13",
+    "2023-10-20",
+    "2023-10-27"
+  ],
+  "processed_checksums": {
+    "file_count": 12,
+    "path": "manifests/processed_sha256.json",
+    "sha256": "31b298caad4272d40deb9f95d18c56f7b4af5a075867b81ef70d44d7a2622225"
+  },
+  "record_type": "frozen_m1_pilot_input_bundle",
+  "schema_version": "1.0",
+  "source_provenance": {
+    "path": "manifests/source_provenance.json",
+    "sha256": "c09f45476818792efadaff9fad388901a07a5ecc35331468140211fc5900e84c"
+  },
+  "status": {
+    "formal_eligible": false,
+    "formal_m1_run": false,
+    "input_bundle_frozen": true,
+    "pilot_only": true
+  },
+  "target_symbols": [
+    "AAPL"
+  ]
+}

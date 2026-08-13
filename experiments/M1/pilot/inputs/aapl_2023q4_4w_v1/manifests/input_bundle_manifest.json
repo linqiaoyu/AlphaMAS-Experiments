@@ -1,0 +1,71 @@
+{
+  "bundle_scope": "PILOT",
+  "contract": {
+    "sha256": "46f6a05f12a7c402936178748c55dab099c8754d99fa1a0c41faf525cd37ae08",
+    "source": "docs/m1/m1_evidence_contract.json",
+    "version": "M1-FINMULTITIME-v1.0.2"
+  },
+  "dataset": {
+    "case_count": 4,
+    "dataset_id": "finmultitime_m1_pilot_aapl_2023q4_4w_v1",
+    "pilot_sessions": [
+      "2023-10-06",
+      "2023-10-13",
+      "2023-10-20",
+      "2023-10-27"
+    ],
+    "symbols": [
+      "AAPL"
+    ]
+  },
+  "deterministic_build": {
+    "json_hash_mismatches": 0,
+    "packets_compared": 4,
+    "status": "PASS",
+    "text_hash_mismatches": 0
+  },
+  "formal_eligible": false,
+  "frozen_source_code": {
+    "frozen_m0_base_sha": "2535896c8b1070b19c06fa6a936663babb4356f7",
+    "frozen_selection_source_path": "scripts/finmultitime/design_m1_contract.py",
+    "frozen_selection_source_sha256": "f5b4a02d987646b760d4bfa9bedd3bd00e4984e0f774bca259c51e7c8f6af184",
+    "pilot_builder_path": "scripts/finmultitime/build_m1_pilot_inputs.py",
+    "pilot_builder_sha256": "c77035158b901996a37bf419ca943cebd0f63408e8f9e79b0b6665acbeed6913",
+    "source_commit_sha": "21481e5eb1c7b04ba80f9314ad6054b69f100fea"
+  },
+  "packets": {
+    "count": 4,
+    "deterministic_build": {
+      "json_hash_mismatches": 0,
+      "packets_compared": 4,
+      "status": "PASS",
+      "text_hash_mismatches": 0
+    },
+    "manifest_path": "manifests/evidence_packet_manifest.json",
+    "manifest_sha256": "ea38129127446348a28bb5c1d52897125674ac55908a3b5dc09c3242dfc46645"
+  },
+  "pilot_only": true,
+  "processed_checksums": {
+    "file_count": 12,
+    "path": "manifests/processed_sha256.json",
+    "sha256": "31b298caad4272d40deb9f95d18c56f7b4af5a075867b81ef70d44d7a2622225"
+  },
+  "record_type": "frozen_m1_pilot_input_bundle_manifest",
+  "schema_version": "1.0",
+  "source_provenance": {
+    "path": "manifests/source_provenance.json",
+    "sha256": "c09f45476818792efadaff9fad388901a07a5ecc35331468140211fc5900e84c"
+  },
+  "status": {
+    "formal_eligible": false,
+    "formal_m1_run": false,
+    "input_bundle_frozen": true,
+    "pilot_only": true
+  },
+  "validation": {
+    "PIT_violations": 0,
+    "future_field_violations": 0,
+    "path": "manifests/pilot_validation.json",
+    "sha256": "b4670d819988ed02274f634170f066ed872541d6457a292154c11f4e60a77ee9"
+  }
+}

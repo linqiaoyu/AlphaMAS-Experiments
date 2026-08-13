@@ -1,0 +1,82 @@
+{
+  "AAPL": {
+    "IMAGE": {
+      "formal_expected_coverage": "UNAVAILABLE",
+      "policy": "AAPL remains UNAVAILABLE under frozen image audit",
+      "raw_file_count": 0
+    },
+    "TABLE": [
+      {
+        "member": "financial_reports/aapl/condensed_consolidated_balance_sheets.json",
+        "member_compressed_size": 1057454,
+        "member_crc32": "b6be3a85",
+        "member_uncompressed_size": 28865544,
+        "outer_archive": "table/SP500_tabular.zip",
+        "outer_archive_path": "/Volumes/Jackson/Dataset/FinMultiTime/table/SP500_tabular.zip",
+        "sha256": "a974b912aa33b731bff446adde1d84cd09e0315f0c4b83a47c8f38ebbe09455e",
+        "source_kind": "zip_member"
+      },
+      {
+        "member": "financial_reports/aapl/condensed_consolidated_statement_of_cash_flows.json",
+        "member_compressed_size": 609267,
+        "member_crc32": "2cb63378",
+        "member_uncompressed_size": 17187108,
+        "outer_archive": "table/SP500_tabular.zip",
+        "outer_archive_path": "/Volumes/Jackson/Dataset/FinMultiTime/table/SP500_tabular.zip",
+        "sha256": "f95d982b0d619d121b18d0a926698a851922ded8d0af420e272d55d8b8c7b06f",
+        "source_kind": "zip_member"
+      },
+      {
+        "member": "financial_reports/aapl/condensed_consolidated_statement_of_equity.json",
+        "member_compressed_size": 289479,
+        "member_crc32": "0ab2853c",
+        "member_uncompressed_size": 7381452,
+        "outer_archive": "table/SP500_tabular.zip",
+        "outer_archive_path": "/Volumes/Jackson/Dataset/FinMultiTime/table/SP500_tabular.zip",
+        "sha256": "d07dd7e7adf6d3a437a431c73c28750299ac2a0bea7a0dd485c81aa2b1496ae9",
+        "source_kind": "zip_member"
+      }
+    ],
+    "TEXT": {
+      "member": "sp500_news/AAPL.jsonl",
+      "member_compressed_size": 11219489,
+      "member_crc32": "32db6c07",
+      "member_uncompressed_size": 40535030,
+      "outer_archive": "text/sp500_news.zip",
+      "outer_archive_path": "/Volumes/Jackson/Dataset/FinMultiTime/text/sp500_news.zip",
+      "sha256": "d464056a2c668bda7f76936fbe78171e94b2b2b6388fd53efb3ca918e9af4659",
+      "source_kind": "zip_member"
+    },
+    "TIME_SERIES": {
+      "member": "S&P500_time_series/aapl.csv",
+      "member_compressed_size": 245431,
+      "member_crc32": "0f57d755",
+      "member_uncompressed_size": 751946,
+      "outer_archive": "time_series/S&P500_time_series.zip",
+      "outer_archive_path": "/Volumes/Jackson/Dataset/FinMultiTime/time_series/S&P500_time_series.zip",
+      "sha256": "80524d21ca03e539cf5792ce2f446a5913ae26955b1981a4061929635a01f444",
+      "source_kind": "zip_member"
+    }
+  },
+  "bundle_scope": "PILOT",
+  "contract_sha256": "46f6a05f12a7c402936178748c55dab099c8754d99fa1a0c41faf525cd37ae08",
+  "contract_version": "M1-FINMULTITIME-v1.0.2",
+  "formal_eligible": false,
+  "formal_source_manifest": "data/processed/finmultitime_3stocks_2024h1_v1/manifests/source_manifest.json",
+  "formal_source_manifest_sha256": "3cceb48674c1ab93ed4417b3ca4899b677a0e57a054333342e309871c27c2c01",
+  "image_policy": {
+    "caption_status": "NOT_APPLICABLE",
+    "qwen_calls": 0,
+    "status": "UNAVAILABLE",
+    "symbol": "AAPL"
+  },
+  "pilot_only": true,
+  "raw_finmultitime_read_only": true,
+  "record_type": "m1_pilot_source_provenance",
+  "text_policy": {
+    "audit_status": "VERIFIED_MISMATCH",
+    "reason": "AAPL formal-use rows show clustered headline/URL/body corruption in the raw member; the entire symbol TEXT modality is frozen unavailable.",
+    "status": "UNAVAILABLE",
+    "symbol": "AAPL"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "bundle_scope": "PILOT",
+  "contract_version": "M1-FINMULTITIME-v1.0.2",
+  "dataset_id": "finmultitime_m1_pilot_aapl_2023q4_4w_v1",
+  "formal_eligible": false,
+  "packet_count": 4,
+  "packet_status": "PILOT_FROZEN",
+  "packets": [
+    {
+      "case_id": "AAPL:2023-10-06",
+      "decision_session": "2023-10-06",
+      "formal_eligible": false,
+      "json_path": "evidence_packets/AAPL/2023-10-06.json",
+      "json_sha256": "dc36d56068da1326d2e2739a748a68d943022e456aa51762d2bb9d9113723d55",
+      "modality_statuses": {
+        "IMAGE": "UNAVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "packet_status": "PILOT_FROZEN",
+      "pilot_only": true,
+      "route_sha256": {
+        "fundamentals_analyst": "622649a1bfaf360bce69b3244cd3181d20160419c1742b44a415f0f6aea23d8c",
+        "market_analyst": "e159ed647d1163140f0b3c52ce7a1b68a74818d851e247c7fdc86cd9af61ff47",
+        "news_analyst": "fd7b94722bb5b7383fe50de8554482d09565a568d665c7d1dcecfcb041c49954",
+        "social_analyst": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "symbol": "AAPL",
+      "text_path": "evidence_packets/AAPL/2023-10-06.txt",
+      "text_sha256": "6edba507fca23d812a574d026e17594835cd98d49abc3bb502f8338db15c3635"
+    },
+    {
+      "case_id": "AAPL:2023-10-13",
+      "decision_session": "2023-10-13",
+      "formal_eligible": false,
+      "json_path": "evidence_packets/AAPL/2023-10-13.json",
+      "json_sha256": "c01bec9d7b3d274f072eaec45b0203408b698b8de38842bb2ef1efeccbb00ce4",
+      "modality_statuses": {
+        "IMAGE": "UNAVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "packet_status": "PILOT_FROZEN",
+      "pilot_only": true,
+      "route_sha256": {
+        "fundamentals_analyst": "622649a1bfaf360bce69b3244cd3181d20160419c1742b44a415f0f6aea23d8c",
+        "market_analyst": "df8c7859b745a88c4cdafd060067c905b125dbf97310cddfbf5cc699c16e0b53",
+        "news_analyst": "fd7b94722bb5b7383fe50de8554482d09565a568d665c7d1dcecfcb041c49954",
+        "social_analyst": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "symbol": "AAPL",
+      "text_path": "evidence_packets/AAPL/2023-10-13.txt",
+      "text_sha256": "dfc4f06d74762510bc0592cc815022dbd824cd4d593efca0062f09d0b62c3fcf"
+    },
+    {
+      "case_id": "AAPL:2023-10-20",
+      "decision_session": "2023-10-20",
+      "formal_eligible": false,
+      "json_path": "evidence_packets/AAPL/2023-10-20.json",
+      "json_sha256": "01de6a8f39148d415eb555e51d86496acfe01fcae1c0e674aea8dfeea14808cf",
+      "modality_statuses": {
+        "IMAGE": "UNAVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "packet_status": "PILOT_FROZEN",
+      "pilot_only": true,
+      "route_sha256": {
+        "fundamentals_analyst": "622649a1bfaf360bce69b3244cd3181d20160419c1742b44a415f0f6aea23d8c",
+        "market_analyst": "67e88f65dde6b4dd6cce12d35a86f5fe26c34e9ab33dc3bceded7e11cd38f2ab",
+        "news_analyst": "fd7b94722bb5b7383fe50de8554482d09565a568d665c7d1dcecfcb041c49954",
+        "social_analyst": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "symbol": "AAPL",
+      "text_path": "evidence_packets/AAPL/2023-10-20.txt",
+      "text_sha256": "daffac6d371899d36a5749fc437b131e7e9b8acee1a9f23a7c28c3b0f1b2df8d"
+    },
+    {
+      "case_id": "AAPL:2023-10-27",
+      "decision_session": "2023-10-27",
+      "formal_eligible": false,
+      "json_path": "evidence_packets/AAPL/2023-10-27.json",
+      "json_sha256": "225c75ed70079f9d93fb95282a43658dc11620c88463ae0699575904fa5ec70f",
+      "modality_statuses": {
+        "IMAGE": "UNAVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "packet_status": "PILOT_FROZEN",
+      "pilot_only": true,
+      "route_sha256": {
+        "fundamentals_analyst": "622649a1bfaf360bce69b3244cd3181d20160419c1742b44a415f0f6aea23d8c",
+        "market_analyst": "31eb9767e21c32d0700a87b7b27de06a655bb6deb64549b48353d05de125a173",
+        "news_analyst": "fd7b94722bb5b7383fe50de8554482d09565a568d665c7d1dcecfcb041c49954",
+        "social_analyst": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "symbol": "AAPL",
+      "text_path": "evidence_packets/AAPL/2023-10-27.txt",
+      "text_sha256": "15541003a8fe4918735fada88d774f894ba2f8aa0666c50e35eeb7e3baa74385"
+    }
+  ],
+  "pilot_only": true,
+  "pilot_sessions": [
+    "2023-10-06",
+    "2023-10-13",
+    "2023-10-20",
+    "2023-10-27"
+  ],
+  "record_type": "m1_finmultitime_pilot_packet_manifest",
+  "schema_version": "1.0",
+  "symbols": [
+    "AAPL"
+  ]
+}

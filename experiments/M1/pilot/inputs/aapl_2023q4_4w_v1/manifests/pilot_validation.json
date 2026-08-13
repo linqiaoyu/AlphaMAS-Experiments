@@ -1,0 +1,60 @@
+{
+  "PIT_violations": 0,
+  "agent_runs": 0,
+  "bundle_scope": "PILOT",
+  "case_count": 4,
+  "cases": [
+    {
+      "IMAGE": "UNAVAILABLE",
+      "TABLE": "AVAILABLE",
+      "TEXT": "UNAVAILABLE",
+      "TIME_SERIES": "AVAILABLE",
+      "case_id": "AAPL:2023-10-06",
+      "future_field_violations": 0,
+      "selected_time_series_rows": 61,
+      "table_pit_violations": 0,
+      "time_series_pit_violations": 0
+    },
+    {
+      "IMAGE": "UNAVAILABLE",
+      "TABLE": "AVAILABLE",
+      "TEXT": "UNAVAILABLE",
+      "TIME_SERIES": "AVAILABLE",
+      "case_id": "AAPL:2023-10-13",
+      "future_field_violations": 0,
+      "selected_time_series_rows": 61,
+      "table_pit_violations": 0,
+      "time_series_pit_violations": 0
+    },
+    {
+      "IMAGE": "UNAVAILABLE",
+      "TABLE": "AVAILABLE",
+      "TEXT": "UNAVAILABLE",
+      "TIME_SERIES": "AVAILABLE",
+      "case_id": "AAPL:2023-10-20",
+      "future_field_violations": 0,
+      "selected_time_series_rows": 61,
+      "table_pit_violations": 0,
+      "time_series_pit_violations": 0
+    },
+    {
+      "IMAGE": "UNAVAILABLE",
+      "TABLE": "AVAILABLE",
+      "TEXT": "UNAVAILABLE",
+      "TIME_SERIES": "AVAILABLE",
+      "case_id": "AAPL:2023-10-27",
+      "future_field_violations": 0,
+      "selected_time_series_rows": 61,
+      "table_pit_violations": 0,
+      "time_series_pit_violations": 0
+    }
+  ],
+  "deepseek_calls": 0,
+  "formal_eligible": false,
+  "future_field_violations": 0,
+  "packet_count": 4,
+  "paid_api_calls": 0,
+  "pilot_only": true,
+  "qwen_calls": 0,
+  "record_type": "m1_pilot_input_validation"
+}
