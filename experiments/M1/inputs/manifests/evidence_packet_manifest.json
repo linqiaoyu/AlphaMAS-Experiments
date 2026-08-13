@@ -1,0 +1,1725 @@
+{
+  "contract_version": "M1-FINMULTITIME-v1.0.1",
+  "dataset_id": "finmultitime_3stocks_2024h1_v1",
+  "packet_count": 78,
+  "packets": [
+    {
+      "caption_sha256": null,
+      "case_id": "AAPL:2024-01-05",
+      "character_counts": {
+        "complete": 12694,
+        "fundamentals": 2083,
+        "market": 589,
+        "news": 9873
+      },
+      "decision_session": "2024-01-05",
+      "json_path": "evidence_packets/AAPL/2024-01-05.json",
+      "json_sha256": "29acc7c246d2362fa14a3eef730966bed1e6599418cc16e3563b83caa0b6a0e2",
+      "modality_statuses": {
+        "IMAGE": "UNAVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "AVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "AAPL",
+      "text_path": "evidence_packets/AAPL/2024-01-05.txt",
+      "text_sha256": "862292627eb6eba6bd57550317016fc6671b21faeb10d50e190564d22cb107ae"
+    },
+    {
+      "caption_sha256": null,
+      "case_id": "AAPL:2024-01-12",
+      "character_counts": {
+        "complete": 12690,
+        "fundamentals": 2083,
+        "market": 585,
+        "news": 9873
+      },
+      "decision_session": "2024-01-12",
+      "json_path": "evidence_packets/AAPL/2024-01-12.json",
+      "json_sha256": "fce738bf182ca3fc507e8cc1d1e02d76f7d9ab73f1e50dd1bbdf3f8d2e97ceb9",
+      "modality_statuses": {
+        "IMAGE": "UNAVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "AVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "AAPL",
+      "text_path": "evidence_packets/AAPL/2024-01-12.txt",
+      "text_sha256": "210f26f5b5cef07658e9e8486a228b211d4f9a63923937f18217cf9d61f795ca"
+    },
+    {
+      "caption_sha256": null,
+      "case_id": "AAPL:2024-01-19",
+      "character_counts": {
+        "complete": 2914,
+        "fundamentals": 2083,
+        "market": 585,
+        "news": 97
+      },
+      "decision_session": "2024-01-19",
+      "json_path": "evidence_packets/AAPL/2024-01-19.json",
+      "json_sha256": "aeda295614513b27a7d1edd1098820841238a781ab57a77edd770952e847d350",
+      "modality_statuses": {
+        "IMAGE": "UNAVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "AAPL",
+      "text_path": "evidence_packets/AAPL/2024-01-19.txt",
+      "text_sha256": "e27da5d8bd454db59b2557df29571fc38e3aebfc8e09262d8190a1b0a246656a"
+    },
+    {
+      "caption_sha256": null,
+      "case_id": "AAPL:2024-01-26",
+      "character_counts": {
+        "complete": 2916,
+        "fundamentals": 2083,
+        "market": 587,
+        "news": 97
+      },
+      "decision_session": "2024-01-26",
+      "json_path": "evidence_packets/AAPL/2024-01-26.json",
+      "json_sha256": "593cd3e4a4cf3197dea8bfa348af13048f6507bb20b110a0a64590530c83f0f9",
+      "modality_statuses": {
+        "IMAGE": "UNAVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "AAPL",
+      "text_path": "evidence_packets/AAPL/2024-01-26.txt",
+      "text_sha256": "a8b238ca171d567b35f55d6df021785381f842000e35ffde8dceade56ab9f978"
+    },
+    {
+      "caption_sha256": null,
+      "case_id": "AAPL:2024-02-02",
+      "character_counts": {
+        "complete": 2915,
+        "fundamentals": 2083,
+        "market": 586,
+        "news": 97
+      },
+      "decision_session": "2024-02-02",
+      "json_path": "evidence_packets/AAPL/2024-02-02.json",
+      "json_sha256": "ce300e79c473889a851c9cfe32dd18582c70a3787e220a73cfafda7c65131caa",
+      "modality_statuses": {
+        "IMAGE": "UNAVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "AAPL",
+      "text_path": "evidence_packets/AAPL/2024-02-02.txt",
+      "text_sha256": "a71105ebeab8171501bc36307ee364c2aca1fdbd1b2261a1e8cc8014d0975464"
+    },
+    {
+      "caption_sha256": null,
+      "case_id": "AAPL:2024-02-09",
+      "character_counts": {
+        "complete": 2921,
+        "fundamentals": 2087,
+        "market": 588,
+        "news": 97
+      },
+      "decision_session": "2024-02-09",
+      "json_path": "evidence_packets/AAPL/2024-02-09.json",
+      "json_sha256": "1ab7f82d861c5af8f42c41682290a2ba9a8ba7c64e6693bf37f6c2b98e6f5dab",
+      "modality_statuses": {
+        "IMAGE": "UNAVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "AAPL",
+      "text_path": "evidence_packets/AAPL/2024-02-09.txt",
+      "text_sha256": "38a3d7c0d6109025e1408e2ca313c05aa430a51545dfbd4cf0ec340100b82102"
+    },
+    {
+      "caption_sha256": null,
+      "case_id": "AAPL:2024-02-16",
+      "character_counts": {
+        "complete": 2922,
+        "fundamentals": 2087,
+        "market": 589,
+        "news": 97
+      },
+      "decision_session": "2024-02-16",
+      "json_path": "evidence_packets/AAPL/2024-02-16.json",
+      "json_sha256": "41642efa6fcf640ef275c4356c4e518ae0d480187eabd7ca3992d95e10db6871",
+      "modality_statuses": {
+        "IMAGE": "UNAVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "AAPL",
+      "text_path": "evidence_packets/AAPL/2024-02-16.txt",
+      "text_sha256": "92c102d1d8930dc4e81aef7f9d9e38de9a8c3f6c79d679935aee2b0638f2ef40"
+    },
+    {
+      "caption_sha256": null,
+      "case_id": "AAPL:2024-02-23",
+      "character_counts": {
+        "complete": 2924,
+        "fundamentals": 2087,
+        "market": 591,
+        "news": 97
+      },
+      "decision_session": "2024-02-23",
+      "json_path": "evidence_packets/AAPL/2024-02-23.json",
+      "json_sha256": "fc4672d355e09c486a298f126c24ddefe20fa4f34ec01faca1ad5d25123af8f9",
+      "modality_statuses": {
+        "IMAGE": "UNAVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "AAPL",
+      "text_path": "evidence_packets/AAPL/2024-02-23.txt",
+      "text_sha256": "3a2c0fb884267546ff33280e65aef2d8bf75fdae5f56c6bdae7434572ea21cf9"
+    },
+    {
+      "caption_sha256": null,
+      "case_id": "AAPL:2024-03-01",
+      "character_counts": {
+        "complete": 2924,
+        "fundamentals": 2087,
+        "market": 591,
+        "news": 97
+      },
+      "decision_session": "2024-03-01",
+      "json_path": "evidence_packets/AAPL/2024-03-01.json",
+      "json_sha256": "594dec40c641564932daeb1c200e9e3abd2f9581ffe0178acf00291c07834aac",
+      "modality_statuses": {
+        "IMAGE": "UNAVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "AAPL",
+      "text_path": "evidence_packets/AAPL/2024-03-01.txt",
+      "text_sha256": "418490ab227b2aef2701588c634b69aa9099af05cd498a6196c6f0a7543a4025"
+    },
+    {
+      "caption_sha256": null,
+      "case_id": "AAPL:2024-03-08",
+      "character_counts": {
+        "complete": 2921,
+        "fundamentals": 2087,
+        "market": 588,
+        "news": 97
+      },
+      "decision_session": "2024-03-08",
+      "json_path": "evidence_packets/AAPL/2024-03-08.json",
+      "json_sha256": "21e5f499cf0154fab78d8c75a8e0b820f1c63438a95dc9ca229b599fb13ef89e",
+      "modality_statuses": {
+        "IMAGE": "UNAVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "AAPL",
+      "text_path": "evidence_packets/AAPL/2024-03-08.txt",
+      "text_sha256": "069abbc9f33edf27274c708ffbcc5927b74b9a3477a73dc18bc9407bcf9dd4b0"
+    },
+    {
+      "caption_sha256": null,
+      "case_id": "AAPL:2024-03-15",
+      "character_counts": {
+        "complete": 2916,
+        "fundamentals": 2087,
+        "market": 583,
+        "news": 97
+      },
+      "decision_session": "2024-03-15",
+      "json_path": "evidence_packets/AAPL/2024-03-15.json",
+      "json_sha256": "c71f199dbe1b9a5239df0886bff3a681bd299693f2934c7446156cfa4eff7ad8",
+      "modality_statuses": {
+        "IMAGE": "UNAVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "AAPL",
+      "text_path": "evidence_packets/AAPL/2024-03-15.txt",
+      "text_sha256": "a12e770b021e215f7c31db7aae14592f17f82fc1f920d46cbdadc34cd1df1292"
+    },
+    {
+      "caption_sha256": null,
+      "case_id": "AAPL:2024-03-22",
+      "character_counts": {
+        "complete": 2920,
+        "fundamentals": 2087,
+        "market": 587,
+        "news": 97
+      },
+      "decision_session": "2024-03-22",
+      "json_path": "evidence_packets/AAPL/2024-03-22.json",
+      "json_sha256": "ba32c2d20b30e452a96404755bf66da43ad8414ced37158f960cfd73aaa57a21",
+      "modality_statuses": {
+        "IMAGE": "UNAVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "AAPL",
+      "text_path": "evidence_packets/AAPL/2024-03-22.txt",
+      "text_sha256": "1cf4e7a08e0344e5daf5354b48f4a7e8f39c9aac20bb9f6b09125b4cdebffd94"
+    },
+    {
+      "caption_sha256": null,
+      "case_id": "AAPL:2024-03-28",
+      "character_counts": {
+        "complete": 2920,
+        "fundamentals": 2087,
+        "market": 587,
+        "news": 97
+      },
+      "decision_session": "2024-03-28",
+      "json_path": "evidence_packets/AAPL/2024-03-28.json",
+      "json_sha256": "e29417f86ef0a356268cb468f5d3ecc213a0b8f2d8af4681b6b79ae144fc4240",
+      "modality_statuses": {
+        "IMAGE": "UNAVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "AAPL",
+      "text_path": "evidence_packets/AAPL/2024-03-28.txt",
+      "text_sha256": "6ded0723c5398d828b4563a0bd244995ede1c205ad8bca74058fe94ff05c8976"
+    },
+    {
+      "caption_sha256": null,
+      "case_id": "AAPL:2024-04-05",
+      "character_counts": {
+        "complete": 2920,
+        "fundamentals": 2087,
+        "market": 587,
+        "news": 97
+      },
+      "decision_session": "2024-04-05",
+      "json_path": "evidence_packets/AAPL/2024-04-05.json",
+      "json_sha256": "1062a71ce528d717f1a777870d20a1fe260873684d7eb0a06fe4defefe6909dd",
+      "modality_statuses": {
+        "IMAGE": "UNAVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "AAPL",
+      "text_path": "evidence_packets/AAPL/2024-04-05.txt",
+      "text_sha256": "23a9f56f936d52848e6e57173e9b62d4a3131b745e2763e9896ca4dd97c1a399"
+    },
+    {
+      "caption_sha256": null,
+      "case_id": "AAPL:2024-04-12",
+      "character_counts": {
+        "complete": 2917,
+        "fundamentals": 2087,
+        "market": 584,
+        "news": 97
+      },
+      "decision_session": "2024-04-12",
+      "json_path": "evidence_packets/AAPL/2024-04-12.json",
+      "json_sha256": "6b91a25d2cff15a6d75b7bec5d75d19786467587cb3ce3439a32b10fa261e52b",
+      "modality_statuses": {
+        "IMAGE": "UNAVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "AAPL",
+      "text_path": "evidence_packets/AAPL/2024-04-12.txt",
+      "text_sha256": "efea085a8af5ededb9987f9c8b243620792b9b4e979d736df2885b72ec32810d"
+    },
+    {
+      "caption_sha256": null,
+      "case_id": "AAPL:2024-04-19",
+      "character_counts": {
+        "complete": 2921,
+        "fundamentals": 2087,
+        "market": 588,
+        "news": 97
+      },
+      "decision_session": "2024-04-19",
+      "json_path": "evidence_packets/AAPL/2024-04-19.json",
+      "json_sha256": "d01bc32abd0eab9b008ba0d01415597412c4aedbc70b4ca3e74ca9bdc80af151",
+      "modality_statuses": {
+        "IMAGE": "UNAVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "AAPL",
+      "text_path": "evidence_packets/AAPL/2024-04-19.txt",
+      "text_sha256": "e45fbb210b03487e858450bfbf70b51f5f4f645e4a1f3d00e49a0b1b5fe92486"
+    },
+    {
+      "caption_sha256": null,
+      "case_id": "AAPL:2024-04-26",
+      "character_counts": {
+        "complete": 2921,
+        "fundamentals": 2087,
+        "market": 588,
+        "news": 97
+      },
+      "decision_session": "2024-04-26",
+      "json_path": "evidence_packets/AAPL/2024-04-26.json",
+      "json_sha256": "c26afe6453768bfe10628ce13d59c702016fd4fc55bd881562c95d5e284c44e6",
+      "modality_statuses": {
+        "IMAGE": "UNAVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "AAPL",
+      "text_path": "evidence_packets/AAPL/2024-04-26.txt",
+      "text_sha256": "0893c32d3bbec6bbc2c5596b415cae652f90ba0e99ba0c7d35fbcd32ddd15f7d"
+    },
+    {
+      "caption_sha256": null,
+      "case_id": "AAPL:2024-05-03",
+      "character_counts": {
+        "complete": 2917,
+        "fundamentals": 2087,
+        "market": 584,
+        "news": 97
+      },
+      "decision_session": "2024-05-03",
+      "json_path": "evidence_packets/AAPL/2024-05-03.json",
+      "json_sha256": "47147f737886bcbf1377224911668a7e5b6a55dfb0e74a818c9219c08e04d890",
+      "modality_statuses": {
+        "IMAGE": "UNAVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "AAPL",
+      "text_path": "evidence_packets/AAPL/2024-05-03.txt",
+      "text_sha256": "55239feefef653116ffb6ab03f177e24367dde43d723229ee994805e3170ae7a"
+    },
+    {
+      "caption_sha256": null,
+      "case_id": "AAPL:2024-05-10",
+      "character_counts": {
+        "complete": 2944,
+        "fundamentals": 2108,
+        "market": 590,
+        "news": 97
+      },
+      "decision_session": "2024-05-10",
+      "json_path": "evidence_packets/AAPL/2024-05-10.json",
+      "json_sha256": "a5402353a8bc34e7ef67187be335a779b99bb6bd515928b94a85b7ef359efa99",
+      "modality_statuses": {
+        "IMAGE": "UNAVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "AAPL",
+      "text_path": "evidence_packets/AAPL/2024-05-10.txt",
+      "text_sha256": "c0fdb15eeb109e03a5989b6c81c5798620283b9d8fdbfc5a7cd204f5646dfdce"
+    },
+    {
+      "caption_sha256": null,
+      "case_id": "AAPL:2024-05-17",
+      "character_counts": {
+        "complete": 2920,
+        "fundamentals": 2108,
+        "market": 566,
+        "news": 97
+      },
+      "decision_session": "2024-05-17",
+      "json_path": "evidence_packets/AAPL/2024-05-17.json",
+      "json_sha256": "578e9a6a5c57d28f0c3cc474e8a460c0be8417d487ca3870c6c1c06b6e7dde59",
+      "modality_statuses": {
+        "IMAGE": "UNAVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "AAPL",
+      "text_path": "evidence_packets/AAPL/2024-05-17.txt",
+      "text_sha256": "2c309c99e0d16dcec215a3e7d6a70db0a2e1749ac17da2bfdcd62e53e41f1b08"
+    },
+    {
+      "caption_sha256": null,
+      "case_id": "AAPL:2024-05-24",
+      "character_counts": {
+        "complete": 2941,
+        "fundamentals": 2108,
+        "market": 587,
+        "news": 97
+      },
+      "decision_session": "2024-05-24",
+      "json_path": "evidence_packets/AAPL/2024-05-24.json",
+      "json_sha256": "320de8e5b95160c07ec785796e9db5689750df8f108d9dc66d9af1ad9ef11450",
+      "modality_statuses": {
+        "IMAGE": "UNAVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "AAPL",
+      "text_path": "evidence_packets/AAPL/2024-05-24.txt",
+      "text_sha256": "dc2f3afbc1bc95429c0c7af8f7ec2be996463162ca718af6d784d09c286356a9"
+    },
+    {
+      "caption_sha256": null,
+      "case_id": "AAPL:2024-05-31",
+      "character_counts": {
+        "complete": 2941,
+        "fundamentals": 2108,
+        "market": 587,
+        "news": 97
+      },
+      "decision_session": "2024-05-31",
+      "json_path": "evidence_packets/AAPL/2024-05-31.json",
+      "json_sha256": "51f52cc91a4caf12d9be8e8fd3ef193cd6e7b3e5219e04a8379123db81289157",
+      "modality_statuses": {
+        "IMAGE": "UNAVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "AAPL",
+      "text_path": "evidence_packets/AAPL/2024-05-31.txt",
+      "text_sha256": "0ba93e82ceced4984c4357cfb11313479b7ff41f6780b42d031e68db8c9fec3d"
+    },
+    {
+      "caption_sha256": null,
+      "case_id": "AAPL:2024-06-07",
+      "character_counts": {
+        "complete": 2922,
+        "fundamentals": 2108,
+        "market": 568,
+        "news": 97
+      },
+      "decision_session": "2024-06-07",
+      "json_path": "evidence_packets/AAPL/2024-06-07.json",
+      "json_sha256": "ebb322e30c4edfd17bbcf9301486fddd08f71dccb04d3f5f3db100674f893bc3",
+      "modality_statuses": {
+        "IMAGE": "UNAVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "AAPL",
+      "text_path": "evidence_packets/AAPL/2024-06-07.txt",
+      "text_sha256": "d4ce8734d2d55e13bb2521cfb5c75fa6cf696a29b327fc7ea566757f6c7ddae0"
+    },
+    {
+      "caption_sha256": null,
+      "case_id": "AAPL:2024-06-14",
+      "character_counts": {
+        "complete": 2937,
+        "fundamentals": 2108,
+        "market": 583,
+        "news": 97
+      },
+      "decision_session": "2024-06-14",
+      "json_path": "evidence_packets/AAPL/2024-06-14.json",
+      "json_sha256": "e16bdedcd682723526940a06f12b667dae0741e5687d422f3b0dc7a903867ed9",
+      "modality_statuses": {
+        "IMAGE": "UNAVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "AAPL",
+      "text_path": "evidence_packets/AAPL/2024-06-14.txt",
+      "text_sha256": "0c16eb8f8bcc5c26a1b885e04cb545fc933b2299221714d40c37d2ee7ef63c55"
+    },
+    {
+      "caption_sha256": null,
+      "case_id": "AAPL:2024-06-21",
+      "character_counts": {
+        "complete": 2936,
+        "fundamentals": 2108,
+        "market": 582,
+        "news": 97
+      },
+      "decision_session": "2024-06-21",
+      "json_path": "evidence_packets/AAPL/2024-06-21.json",
+      "json_sha256": "457270eb5c11a4c8345d0855766e5e021625d8bba5f28e32db561abd2cbdabd6",
+      "modality_statuses": {
+        "IMAGE": "UNAVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "AAPL",
+      "text_path": "evidence_packets/AAPL/2024-06-21.txt",
+      "text_sha256": "413ea16f71d927a81b1f0408d97dc81c5dacfd88aa337c4b7f14dfb25f9f99fd"
+    },
+    {
+      "caption_sha256": null,
+      "case_id": "AAPL:2024-06-28",
+      "character_counts": {
+        "complete": 2940,
+        "fundamentals": 2108,
+        "market": 586,
+        "news": 97
+      },
+      "decision_session": "2024-06-28",
+      "json_path": "evidence_packets/AAPL/2024-06-28.json",
+      "json_sha256": "5d729d9f3f54806c4e36b4e9782d92038cf630bec816645cf97d553351def2c9",
+      "modality_statuses": {
+        "IMAGE": "UNAVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "AAPL",
+      "text_path": "evidence_packets/AAPL/2024-06-28.txt",
+      "text_sha256": "b04a1cff0439dbc2f875266519f2df24cf70b198c6505277d6b517b62052dc73"
+    },
+    {
+      "caption_sha256": "131c2904cd82c850f94b00cc58e2b97b2ef69c7e805fa562ef2c8f2e00a568fe",
+      "case_id": "AMZN:2024-01-05",
+      "character_counts": {
+        "complete": 12927,
+        "fundamentals": 1832,
+        "market": 977,
+        "news": 9969
+      },
+      "decision_session": "2024-01-05",
+      "json_path": "evidence_packets/AMZN/2024-01-05.json",
+      "json_sha256": "df1b2b3c125bfa1e2df8a7cb7f276b0b7dee6904cc3879d4bee680c3fc66d7d0",
+      "modality_statuses": {
+        "IMAGE": "AVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "AVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "AMZN",
+      "text_path": "evidence_packets/AMZN/2024-01-05.txt",
+      "text_sha256": "170d09ef42e2d2e22b3898eef6e709a72d679f56cdc291ad36084bc5680d84f4"
+    },
+    {
+      "caption_sha256": "131c2904cd82c850f94b00cc58e2b97b2ef69c7e805fa562ef2c8f2e00a568fe",
+      "case_id": "AMZN:2024-01-12",
+      "character_counts": {
+        "complete": 12929,
+        "fundamentals": 1832,
+        "market": 979,
+        "news": 9969
+      },
+      "decision_session": "2024-01-12",
+      "json_path": "evidence_packets/AMZN/2024-01-12.json",
+      "json_sha256": "f87ce21e143442781039a2b6ccbe62f8a09ff84e4a451ad362973cd7d92741bb",
+      "modality_statuses": {
+        "IMAGE": "AVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "AVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "AMZN",
+      "text_path": "evidence_packets/AMZN/2024-01-12.txt",
+      "text_sha256": "2bcae0255348fc73dfaecfa39c07cf43fee97b86706ed0e70be284d5fccc5790"
+    },
+    {
+      "caption_sha256": "131c2904cd82c850f94b00cc58e2b97b2ef69c7e805fa562ef2c8f2e00a568fe",
+      "case_id": "AMZN:2024-01-19",
+      "character_counts": {
+        "complete": 3040,
+        "fundamentals": 1832,
+        "market": 962,
+        "news": 97
+      },
+      "decision_session": "2024-01-19",
+      "json_path": "evidence_packets/AMZN/2024-01-19.json",
+      "json_sha256": "eb5725c1f7585673c6428282dbca40e7919acb9f5a5fb8e8f4eeb466930a4d5a",
+      "modality_statuses": {
+        "IMAGE": "AVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "AMZN",
+      "text_path": "evidence_packets/AMZN/2024-01-19.txt",
+      "text_sha256": "9d4fcaf7f2936a79e617821705d14efe9bc03789477803ea85af146943057405"
+    },
+    {
+      "caption_sha256": "131c2904cd82c850f94b00cc58e2b97b2ef69c7e805fa562ef2c8f2e00a568fe",
+      "case_id": "AMZN:2024-01-26",
+      "character_counts": {
+        "complete": 3038,
+        "fundamentals": 1832,
+        "market": 960,
+        "news": 97
+      },
+      "decision_session": "2024-01-26",
+      "json_path": "evidence_packets/AMZN/2024-01-26.json",
+      "json_sha256": "175473188fb3f116195400727436c5bf1c122c63128e903e21549167a4305fa3",
+      "modality_statuses": {
+        "IMAGE": "AVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "AMZN",
+      "text_path": "evidence_packets/AMZN/2024-01-26.txt",
+      "text_sha256": "a310c2e55f6a65daff57038c8715a54accf59922c69de218f5268e178839b3f5"
+    },
+    {
+      "caption_sha256": "131c2904cd82c850f94b00cc58e2b97b2ef69c7e805fa562ef2c8f2e00a568fe",
+      "case_id": "AMZN:2024-02-02",
+      "character_counts": {
+        "complete": 3037,
+        "fundamentals": 1832,
+        "market": 959,
+        "news": 97
+      },
+      "decision_session": "2024-02-02",
+      "json_path": "evidence_packets/AMZN/2024-02-02.json",
+      "json_sha256": "623d440d9fb2179fa06e83b4be2eccfb41f6e38a97f78f8a2490482fd61c37dc",
+      "modality_statuses": {
+        "IMAGE": "AVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "AMZN",
+      "text_path": "evidence_packets/AMZN/2024-02-02.txt",
+      "text_sha256": "0b568b1789898b181351b369dafa35580a1cfaef03b8f059fbb41ad3b3e4b7fe"
+    },
+    {
+      "caption_sha256": "131c2904cd82c850f94b00cc58e2b97b2ef69c7e805fa562ef2c8f2e00a568fe",
+      "case_id": "AMZN:2024-02-09",
+      "character_counts": {
+        "complete": 3011,
+        "fundamentals": 1806,
+        "market": 959,
+        "news": 97
+      },
+      "decision_session": "2024-02-09",
+      "json_path": "evidence_packets/AMZN/2024-02-09.json",
+      "json_sha256": "e5b64fbece50b79c61321965bf7a72f389e7c9724c9d8ed4fa106aba80d203fa",
+      "modality_statuses": {
+        "IMAGE": "AVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "AMZN",
+      "text_path": "evidence_packets/AMZN/2024-02-09.txt",
+      "text_sha256": "c4f6b4d9b860fbf6c5e58b0513267ac342e1c63d434800225c5e6cbd8a512a10"
+    },
+    {
+      "caption_sha256": "131c2904cd82c850f94b00cc58e2b97b2ef69c7e805fa562ef2c8f2e00a568fe",
+      "case_id": "AMZN:2024-02-16",
+      "character_counts": {
+        "complete": 3027,
+        "fundamentals": 1806,
+        "market": 975,
+        "news": 97
+      },
+      "decision_session": "2024-02-16",
+      "json_path": "evidence_packets/AMZN/2024-02-16.json",
+      "json_sha256": "1f2f8f94d67d9629267b4431d1ce95c23d1dd7f5f493664cee51f52cf75d958b",
+      "modality_statuses": {
+        "IMAGE": "AVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "AMZN",
+      "text_path": "evidence_packets/AMZN/2024-02-16.txt",
+      "text_sha256": "7e431bcafec4d5e9e6e1cbb43b42c60e31a55f856cfd71dc66a2dc48e6d85787"
+    },
+    {
+      "caption_sha256": "131c2904cd82c850f94b00cc58e2b97b2ef69c7e805fa562ef2c8f2e00a568fe",
+      "case_id": "AMZN:2024-02-23",
+      "character_counts": {
+        "complete": 3011,
+        "fundamentals": 1806,
+        "market": 959,
+        "news": 97
+      },
+      "decision_session": "2024-02-23",
+      "json_path": "evidence_packets/AMZN/2024-02-23.json",
+      "json_sha256": "4ac30f942789e4f2de824a227b558a8a03f59e7f48449791dbae11da9698777c",
+      "modality_statuses": {
+        "IMAGE": "AVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "AMZN",
+      "text_path": "evidence_packets/AMZN/2024-02-23.txt",
+      "text_sha256": "78f155a668d7bd3deee1f81d4109718ced14c5f14c553ade8b83ed95d155ea32"
+    },
+    {
+      "caption_sha256": "131c2904cd82c850f94b00cc58e2b97b2ef69c7e805fa562ef2c8f2e00a568fe",
+      "case_id": "AMZN:2024-03-01",
+      "character_counts": {
+        "complete": 3010,
+        "fundamentals": 1806,
+        "market": 958,
+        "news": 97
+      },
+      "decision_session": "2024-03-01",
+      "json_path": "evidence_packets/AMZN/2024-03-01.json",
+      "json_sha256": "7123687af7a43a2c18ddf0f67e23c440c5db7e0b85e3eb5df9ed094b60181a37",
+      "modality_statuses": {
+        "IMAGE": "AVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "AMZN",
+      "text_path": "evidence_packets/AMZN/2024-03-01.txt",
+      "text_sha256": "3127b59c7feaaaac0730aed43350a344903ec989b10753cd12951508a1e6a7df"
+    },
+    {
+      "caption_sha256": "131c2904cd82c850f94b00cc58e2b97b2ef69c7e805fa562ef2c8f2e00a568fe",
+      "case_id": "AMZN:2024-03-08",
+      "character_counts": {
+        "complete": 3031,
+        "fundamentals": 1806,
+        "market": 979,
+        "news": 97
+      },
+      "decision_session": "2024-03-08",
+      "json_path": "evidence_packets/AMZN/2024-03-08.json",
+      "json_sha256": "9da5276503db41ba7e5a95bc7a3c76f98d61a74105efa972b2aaa33faba86fea",
+      "modality_statuses": {
+        "IMAGE": "AVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "AMZN",
+      "text_path": "evidence_packets/AMZN/2024-03-08.txt",
+      "text_sha256": "d40d27a23136003ce483715907686d92670b8cf2e687725f3f1d531d9723fe96"
+    },
+    {
+      "caption_sha256": "131c2904cd82c850f94b00cc58e2b97b2ef69c7e805fa562ef2c8f2e00a568fe",
+      "case_id": "AMZN:2024-03-15",
+      "character_counts": {
+        "complete": 3032,
+        "fundamentals": 1806,
+        "market": 980,
+        "news": 97
+      },
+      "decision_session": "2024-03-15",
+      "json_path": "evidence_packets/AMZN/2024-03-15.json",
+      "json_sha256": "0916726e2c910f247deff5e5b705133bd71b7960ac5b5035aa95cc02a2708d39",
+      "modality_statuses": {
+        "IMAGE": "AVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "AMZN",
+      "text_path": "evidence_packets/AMZN/2024-03-15.txt",
+      "text_sha256": "06eb039588eea44bcb244c28f557ec3ee7dd841045a23edb40b4ad3bb8c82927"
+    },
+    {
+      "caption_sha256": "131c2904cd82c850f94b00cc58e2b97b2ef69c7e805fa562ef2c8f2e00a568fe",
+      "case_id": "AMZN:2024-03-22",
+      "character_counts": {
+        "complete": 3011,
+        "fundamentals": 1806,
+        "market": 959,
+        "news": 97
+      },
+      "decision_session": "2024-03-22",
+      "json_path": "evidence_packets/AMZN/2024-03-22.json",
+      "json_sha256": "7ecbb8babe35480c7d84cbae5468c03c2e52fffb2d54d966ddf27854dbd1091e",
+      "modality_statuses": {
+        "IMAGE": "AVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "AMZN",
+      "text_path": "evidence_packets/AMZN/2024-03-22.txt",
+      "text_sha256": "dbe633d348026c0399b6c6ff84fe4c139c2b97856c7811fcad47678f03c7bb7a"
+    },
+    {
+      "caption_sha256": "131c2904cd82c850f94b00cc58e2b97b2ef69c7e805fa562ef2c8f2e00a568fe",
+      "case_id": "AMZN:2024-03-28",
+      "character_counts": {
+        "complete": 3013,
+        "fundamentals": 1806,
+        "market": 961,
+        "news": 97
+      },
+      "decision_session": "2024-03-28",
+      "json_path": "evidence_packets/AMZN/2024-03-28.json",
+      "json_sha256": "5189d1c9256087e74b206a0e50200dd5363a9392844e1064d0ebb2496fa2e51b",
+      "modality_statuses": {
+        "IMAGE": "AVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "AMZN",
+      "text_path": "evidence_packets/AMZN/2024-03-28.txt",
+      "text_sha256": "bc22bdaaec346160f276cb0a3233b06342f9d23c7fdf8ce3ae605cc2d6e17b51"
+    },
+    {
+      "caption_sha256": "131c2904cd82c850f94b00cc58e2b97b2ef69c7e805fa562ef2c8f2e00a568fe",
+      "case_id": "AMZN:2024-04-05",
+      "character_counts": {
+        "complete": 3013,
+        "fundamentals": 1806,
+        "market": 961,
+        "news": 97
+      },
+      "decision_session": "2024-04-05",
+      "json_path": "evidence_packets/AMZN/2024-04-05.json",
+      "json_sha256": "38b842887ade5a6bff15100ae51349749d5476a5ce795bed5544bb3bb55160d6",
+      "modality_statuses": {
+        "IMAGE": "AVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "AMZN",
+      "text_path": "evidence_packets/AMZN/2024-04-05.txt",
+      "text_sha256": "3ec5dddbb0c4b00ec48066cb94ae684b5b2326bc9ca37802522626281f5b3587"
+    },
+    {
+      "caption_sha256": "131c2904cd82c850f94b00cc58e2b97b2ef69c7e805fa562ef2c8f2e00a568fe",
+      "case_id": "AMZN:2024-04-12",
+      "character_counts": {
+        "complete": 3031,
+        "fundamentals": 1806,
+        "market": 979,
+        "news": 97
+      },
+      "decision_session": "2024-04-12",
+      "json_path": "evidence_packets/AMZN/2024-04-12.json",
+      "json_sha256": "ee225039b5dfe21cb6b9c134caa91b0e935770fe44e40cb47b8f821b7581021c",
+      "modality_statuses": {
+        "IMAGE": "AVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "AMZN",
+      "text_path": "evidence_packets/AMZN/2024-04-12.txt",
+      "text_sha256": "06cc2b03498ad8e622b9925640f725091e43ba77e0471195ee56f14f34f62c94"
+    },
+    {
+      "caption_sha256": "131c2904cd82c850f94b00cc58e2b97b2ef69c7e805fa562ef2c8f2e00a568fe",
+      "case_id": "AMZN:2024-04-19",
+      "character_counts": {
+        "complete": 3034,
+        "fundamentals": 1806,
+        "market": 982,
+        "news": 97
+      },
+      "decision_session": "2024-04-19",
+      "json_path": "evidence_packets/AMZN/2024-04-19.json",
+      "json_sha256": "4d914e2e27bf770eee697949c39991bce8726c5bf18c533e42ea00bfb6822bb9",
+      "modality_statuses": {
+        "IMAGE": "AVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "AMZN",
+      "text_path": "evidence_packets/AMZN/2024-04-19.txt",
+      "text_sha256": "d34f8b5f2082cf44873f79e10201f108a614a92180da1134706cb8d2e54f7284"
+    },
+    {
+      "caption_sha256": "131c2904cd82c850f94b00cc58e2b97b2ef69c7e805fa562ef2c8f2e00a568fe",
+      "case_id": "AMZN:2024-04-26",
+      "character_counts": {
+        "complete": 3032,
+        "fundamentals": 1806,
+        "market": 980,
+        "news": 97
+      },
+      "decision_session": "2024-04-26",
+      "json_path": "evidence_packets/AMZN/2024-04-26.json",
+      "json_sha256": "c1e48257a47ac081142cb80a0dcd77ce1a237a8d07debda21d11d1d7dc5215eb",
+      "modality_statuses": {
+        "IMAGE": "AVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "AMZN",
+      "text_path": "evidence_packets/AMZN/2024-04-26.txt",
+      "text_sha256": "3a56fdf48fb2d6e9fc1576a87d34e7ee7c78a841d47b26c7fbd75823d2ba6c67"
+    },
+    {
+      "caption_sha256": "131c2904cd82c850f94b00cc58e2b97b2ef69c7e805fa562ef2c8f2e00a568fe",
+      "case_id": "AMZN:2024-05-03",
+      "character_counts": {
+        "complete": 3037,
+        "fundamentals": 1811,
+        "market": 980,
+        "news": 97
+      },
+      "decision_session": "2024-05-03",
+      "json_path": "evidence_packets/AMZN/2024-05-03.json",
+      "json_sha256": "5eeb19c70691ee71f290cbb3837ac2492228fc7c09e9cbb504fb85c303aff8f5",
+      "modality_statuses": {
+        "IMAGE": "AVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "AMZN",
+      "text_path": "evidence_packets/AMZN/2024-05-03.txt",
+      "text_sha256": "22930a400e6d78cc3395c743eb8072a291fce9756e956485eb45f9122afb4a8e"
+    },
+    {
+      "caption_sha256": "131c2904cd82c850f94b00cc58e2b97b2ef69c7e805fa562ef2c8f2e00a568fe",
+      "case_id": "AMZN:2024-05-10",
+      "character_counts": {
+        "complete": 3037,
+        "fundamentals": 1811,
+        "market": 980,
+        "news": 97
+      },
+      "decision_session": "2024-05-10",
+      "json_path": "evidence_packets/AMZN/2024-05-10.json",
+      "json_sha256": "09696fe548af3722ed50541ba5e3b7afdef7b7ba1f978c497e132378c05d74eb",
+      "modality_statuses": {
+        "IMAGE": "AVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "AMZN",
+      "text_path": "evidence_packets/AMZN/2024-05-10.txt",
+      "text_sha256": "9fdbe5b273315bd66cffc9dc37fcb7efd480598db2f7ff98eacb6bfe269fb958"
+    },
+    {
+      "caption_sha256": "131c2904cd82c850f94b00cc58e2b97b2ef69c7e805fa562ef2c8f2e00a568fe",
+      "case_id": "AMZN:2024-05-17",
+      "character_counts": {
+        "complete": 3034,
+        "fundamentals": 1811,
+        "market": 977,
+        "news": 97
+      },
+      "decision_session": "2024-05-17",
+      "json_path": "evidence_packets/AMZN/2024-05-17.json",
+      "json_sha256": "b59207d93070e891c43dbdd39acf6d5339072700306a151a55523b89531c752b",
+      "modality_statuses": {
+        "IMAGE": "AVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "AMZN",
+      "text_path": "evidence_packets/AMZN/2024-05-17.txt",
+      "text_sha256": "cb0a539931d8e7ef9d55c83edb478fed6448a04ab6920e7705dc7a56df88deb3"
+    },
+    {
+      "caption_sha256": "131c2904cd82c850f94b00cc58e2b97b2ef69c7e805fa562ef2c8f2e00a568fe",
+      "case_id": "AMZN:2024-05-24",
+      "character_counts": {
+        "complete": 3037,
+        "fundamentals": 1811,
+        "market": 980,
+        "news": 97
+      },
+      "decision_session": "2024-05-24",
+      "json_path": "evidence_packets/AMZN/2024-05-24.json",
+      "json_sha256": "2f6e4085e607583b1884d724b07ef1466e506b6b2befdd40ba8629a658461f2a",
+      "modality_statuses": {
+        "IMAGE": "AVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "AMZN",
+      "text_path": "evidence_packets/AMZN/2024-05-24.txt",
+      "text_sha256": "5f56697daf5f56dd33285b8569d465732ba4d0bd2426f2bbe3134857619dda31"
+    },
+    {
+      "caption_sha256": "131c2904cd82c850f94b00cc58e2b97b2ef69c7e805fa562ef2c8f2e00a568fe",
+      "case_id": "AMZN:2024-05-31",
+      "character_counts": {
+        "complete": 3034,
+        "fundamentals": 1811,
+        "market": 977,
+        "news": 97
+      },
+      "decision_session": "2024-05-31",
+      "json_path": "evidence_packets/AMZN/2024-05-31.json",
+      "json_sha256": "cbfe82f93d5c9cbee91261e0d24bdd3c46ec748ef9c20aceb4ae5d98aed8a45f",
+      "modality_statuses": {
+        "IMAGE": "AVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "AMZN",
+      "text_path": "evidence_packets/AMZN/2024-05-31.txt",
+      "text_sha256": "47d49af3b407c7c596eda300ab6300da781d5fe6a8ad5e628837929558e24587"
+    },
+    {
+      "caption_sha256": "131c2904cd82c850f94b00cc58e2b97b2ef69c7e805fa562ef2c8f2e00a568fe",
+      "case_id": "AMZN:2024-06-07",
+      "character_counts": {
+        "complete": 3039,
+        "fundamentals": 1811,
+        "market": 982,
+        "news": 97
+      },
+      "decision_session": "2024-06-07",
+      "json_path": "evidence_packets/AMZN/2024-06-07.json",
+      "json_sha256": "c2e0ff537c8f0e2e0addaf02c1748393088e3c322dac1fd853a58f6d0451e2fe",
+      "modality_statuses": {
+        "IMAGE": "AVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "AMZN",
+      "text_path": "evidence_packets/AMZN/2024-06-07.txt",
+      "text_sha256": "a6078c7776a285887eba8cd26279dcede1fdaaf1d5b64e976233460978fd88a8"
+    },
+    {
+      "caption_sha256": "131c2904cd82c850f94b00cc58e2b97b2ef69c7e805fa562ef2c8f2e00a568fe",
+      "case_id": "AMZN:2024-06-14",
+      "character_counts": {
+        "complete": 3040,
+        "fundamentals": 1811,
+        "market": 983,
+        "news": 97
+      },
+      "decision_session": "2024-06-14",
+      "json_path": "evidence_packets/AMZN/2024-06-14.json",
+      "json_sha256": "0609a42240708a5652ea7eac274f1542003ded1a311f02d832c6e8c5535b084d",
+      "modality_statuses": {
+        "IMAGE": "AVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "AMZN",
+      "text_path": "evidence_packets/AMZN/2024-06-14.txt",
+      "text_sha256": "03e446bdc3e52c16ebace74d45dba370c766d203003ef437eda18ebaa1a251a7"
+    },
+    {
+      "caption_sha256": "131c2904cd82c850f94b00cc58e2b97b2ef69c7e805fa562ef2c8f2e00a568fe",
+      "case_id": "AMZN:2024-06-21",
+      "character_counts": {
+        "complete": 3037,
+        "fundamentals": 1811,
+        "market": 980,
+        "news": 97
+      },
+      "decision_session": "2024-06-21",
+      "json_path": "evidence_packets/AMZN/2024-06-21.json",
+      "json_sha256": "77f22ccbb832d4a1134fbdf3fc60169172ed52aa102640538184a894cc7709a6",
+      "modality_statuses": {
+        "IMAGE": "AVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "AMZN",
+      "text_path": "evidence_packets/AMZN/2024-06-21.txt",
+      "text_sha256": "f66b106d506c5be01bf3625a9b2a03b06d9bf3e5ff4854cf6e6ffc092258255a"
+    },
+    {
+      "caption_sha256": "131c2904cd82c850f94b00cc58e2b97b2ef69c7e805fa562ef2c8f2e00a568fe",
+      "case_id": "AMZN:2024-06-28",
+      "character_counts": {
+        "complete": 3035,
+        "fundamentals": 1811,
+        "market": 978,
+        "news": 97
+      },
+      "decision_session": "2024-06-28",
+      "json_path": "evidence_packets/AMZN/2024-06-28.json",
+      "json_sha256": "dcdac363267fb0806d42a5109816de4c4872839bbda5a91702880e12f96749ac",
+      "modality_statuses": {
+        "IMAGE": "AVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "AMZN",
+      "text_path": "evidence_packets/AMZN/2024-06-28.txt",
+      "text_sha256": "07ef313281af89b23481bb0ceab8893f85e765ee6ef91edb2d9702fc1f8f929f"
+    },
+    {
+      "caption_sha256": "44e980fa7768c0cf36961d6c42ea769157e4b989d02b60b37618256028b04d70",
+      "case_id": "JPM:2024-01-05",
+      "character_counts": {
+        "complete": 3308,
+        "fundamentals": 2111,
+        "market": 964,
+        "news": 85
+      },
+      "decision_session": "2024-01-05",
+      "json_path": "evidence_packets/JPM/2024-01-05.json",
+      "json_sha256": "cf070e43c34f2f407d16c7ebbda0c441ab14e7c52769bcabd1f38797ce72a276",
+      "modality_statuses": {
+        "IMAGE": "AVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "JPM",
+      "text_path": "evidence_packets/JPM/2024-01-05.txt",
+      "text_sha256": "c019fc25e99a16ea7e4f51b5a1864ce200eb7286e16ad3b6bc55ad05710c3859"
+    },
+    {
+      "caption_sha256": "44e980fa7768c0cf36961d6c42ea769157e4b989d02b60b37618256028b04d70",
+      "case_id": "JPM:2024-01-12",
+      "character_counts": {
+        "complete": 3327,
+        "fundamentals": 2111,
+        "market": 983,
+        "news": 85
+      },
+      "decision_session": "2024-01-12",
+      "json_path": "evidence_packets/JPM/2024-01-12.json",
+      "json_sha256": "4e1d78dcef625bbbae39bbcf46e18c237953beca964354f50ea85c293d42881e",
+      "modality_statuses": {
+        "IMAGE": "AVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "JPM",
+      "text_path": "evidence_packets/JPM/2024-01-12.txt",
+      "text_sha256": "7a885202c27cc1284dfe7d3839c9754463affd8623b1b9c7a6ade018fbe0cbee"
+    },
+    {
+      "caption_sha256": "44e980fa7768c0cf36961d6c42ea769157e4b989d02b60b37618256028b04d70",
+      "case_id": "JPM:2024-01-19",
+      "character_counts": {
+        "complete": 3327,
+        "fundamentals": 2111,
+        "market": 983,
+        "news": 85
+      },
+      "decision_session": "2024-01-19",
+      "json_path": "evidence_packets/JPM/2024-01-19.json",
+      "json_sha256": "bfe063456847082ac6a1d5fadf8a22d343475e61a3b60e604d2f30ff5d370550",
+      "modality_statuses": {
+        "IMAGE": "AVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "JPM",
+      "text_path": "evidence_packets/JPM/2024-01-19.txt",
+      "text_sha256": "a822952821971ff64067be8a26ab7aac90d21595491658489f3876d77ca6985d"
+    },
+    {
+      "caption_sha256": "44e980fa7768c0cf36961d6c42ea769157e4b989d02b60b37618256028b04d70",
+      "case_id": "JPM:2024-01-26",
+      "character_counts": {
+        "complete": 3325,
+        "fundamentals": 2111,
+        "market": 981,
+        "news": 85
+      },
+      "decision_session": "2024-01-26",
+      "json_path": "evidence_packets/JPM/2024-01-26.json",
+      "json_sha256": "c205280b9af489a76c95501751651a733ef3409fc627e386e980efd18a84d1bf",
+      "modality_statuses": {
+        "IMAGE": "AVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "JPM",
+      "text_path": "evidence_packets/JPM/2024-01-26.txt",
+      "text_sha256": "6aa776daf11f5a0c860d5193c56734b397ac2e019c7537748fa90fa1bc8c0b41"
+    },
+    {
+      "caption_sha256": "44e980fa7768c0cf36961d6c42ea769157e4b989d02b60b37618256028b04d70",
+      "case_id": "JPM:2024-02-02",
+      "character_counts": {
+        "complete": 3327,
+        "fundamentals": 2111,
+        "market": 983,
+        "news": 85
+      },
+      "decision_session": "2024-02-02",
+      "json_path": "evidence_packets/JPM/2024-02-02.json",
+      "json_sha256": "9f8bff90928b1a71d3babe26da84f8c015dd1326b8c4fb185b60aeb5bcd8e704",
+      "modality_statuses": {
+        "IMAGE": "AVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "JPM",
+      "text_path": "evidence_packets/JPM/2024-02-02.txt",
+      "text_sha256": "1142e2ade8e442cb1d2eac7b6712c1579bb175b7b7a8419041fbb6796fd90cd6"
+    },
+    {
+      "caption_sha256": "44e980fa7768c0cf36961d6c42ea769157e4b989d02b60b37618256028b04d70",
+      "case_id": "JPM:2024-02-09",
+      "character_counts": {
+        "complete": 3328,
+        "fundamentals": 2111,
+        "market": 984,
+        "news": 85
+      },
+      "decision_session": "2024-02-09",
+      "json_path": "evidence_packets/JPM/2024-02-09.json",
+      "json_sha256": "6dccff3b592e47ea6a88c10d0aca41b9f53675d5f85c5f827786db7b1d1b3207",
+      "modality_statuses": {
+        "IMAGE": "AVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "JPM",
+      "text_path": "evidence_packets/JPM/2024-02-09.txt",
+      "text_sha256": "030e8c5afcf8234f251b32d053731746781bc65106a25e072fea6053cc32afe3"
+    },
+    {
+      "caption_sha256": "44e980fa7768c0cf36961d6c42ea769157e4b989d02b60b37618256028b04d70",
+      "case_id": "JPM:2024-02-16",
+      "character_counts": {
+        "complete": 3327,
+        "fundamentals": 2111,
+        "market": 983,
+        "news": 85
+      },
+      "decision_session": "2024-02-16",
+      "json_path": "evidence_packets/JPM/2024-02-16.json",
+      "json_sha256": "beb94d715361880dc614ce2ed3d2cd000ffed103631d3968b0ff1828bbfda373",
+      "modality_statuses": {
+        "IMAGE": "AVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "JPM",
+      "text_path": "evidence_packets/JPM/2024-02-16.txt",
+      "text_sha256": "4e9c99e604b73fa520b215ef1fe93bd971736420c3b78f911952ff1ae4bc52f8"
+    },
+    {
+      "caption_sha256": "44e980fa7768c0cf36961d6c42ea769157e4b989d02b60b37618256028b04d70",
+      "case_id": "JPM:2024-02-23",
+      "character_counts": {
+        "complete": 3278,
+        "fundamentals": 2083,
+        "market": 962,
+        "news": 85
+      },
+      "decision_session": "2024-02-23",
+      "json_path": "evidence_packets/JPM/2024-02-23.json",
+      "json_sha256": "d998adab07aa24a26d7b3e0e0d34d048776b171442b12901657703efe19a7237",
+      "modality_statuses": {
+        "IMAGE": "AVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "JPM",
+      "text_path": "evidence_packets/JPM/2024-02-23.txt",
+      "text_sha256": "5a184d2b869a3526172ba73c45c50285d135607741b2fee2375659baa9925338"
+    },
+    {
+      "caption_sha256": "44e980fa7768c0cf36961d6c42ea769157e4b989d02b60b37618256028b04d70",
+      "case_id": "JPM:2024-03-01",
+      "character_counts": {
+        "complete": 3296,
+        "fundamentals": 2083,
+        "market": 980,
+        "news": 85
+      },
+      "decision_session": "2024-03-01",
+      "json_path": "evidence_packets/JPM/2024-03-01.json",
+      "json_sha256": "11d43bc58ae8a3e48f46b59d0592a197ab945bd37b6e650a925dfe3214fee380",
+      "modality_statuses": {
+        "IMAGE": "AVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "JPM",
+      "text_path": "evidence_packets/JPM/2024-03-01.txt",
+      "text_sha256": "c5cb8f4aa35c78e06fe445e78bd9da783c446e98f4053d9fd8c5ec33b0cf48c6"
+    },
+    {
+      "caption_sha256": "44e980fa7768c0cf36961d6c42ea769157e4b989d02b60b37618256028b04d70",
+      "case_id": "JPM:2024-03-08",
+      "character_counts": {
+        "complete": 3298,
+        "fundamentals": 2083,
+        "market": 982,
+        "news": 85
+      },
+      "decision_session": "2024-03-08",
+      "json_path": "evidence_packets/JPM/2024-03-08.json",
+      "json_sha256": "95b46c20327fe9595c6b0727194f07c0e9a886dcf7f75afcbf8eab6c11829ff7",
+      "modality_statuses": {
+        "IMAGE": "AVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "JPM",
+      "text_path": "evidence_packets/JPM/2024-03-08.txt",
+      "text_sha256": "588bc94ee627bb024d7a4f8866f0dd7a9c81a8d200f3e343a48154601b73246c"
+    },
+    {
+      "caption_sha256": "44e980fa7768c0cf36961d6c42ea769157e4b989d02b60b37618256028b04d70",
+      "case_id": "JPM:2024-03-15",
+      "character_counts": {
+        "complete": 3296,
+        "fundamentals": 2083,
+        "market": 980,
+        "news": 85
+      },
+      "decision_session": "2024-03-15",
+      "json_path": "evidence_packets/JPM/2024-03-15.json",
+      "json_sha256": "a41061417e8accff5e95e198a955d32d06f6fe5b69dffb2da6d07d0ed643e406",
+      "modality_statuses": {
+        "IMAGE": "AVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "JPM",
+      "text_path": "evidence_packets/JPM/2024-03-15.txt",
+      "text_sha256": "76c87eff1c19376eaa381577109ddb51483659c5ee4dccfaa692573868d2782b"
+    },
+    {
+      "caption_sha256": "44e980fa7768c0cf36961d6c42ea769157e4b989d02b60b37618256028b04d70",
+      "case_id": "JPM:2024-03-22",
+      "character_counts": {
+        "complete": 3296,
+        "fundamentals": 2083,
+        "market": 980,
+        "news": 85
+      },
+      "decision_session": "2024-03-22",
+      "json_path": "evidence_packets/JPM/2024-03-22.json",
+      "json_sha256": "8faeecfdc32b760572d592307e9dddd67031c1066c2208850a394c4ec6e4f1fa",
+      "modality_statuses": {
+        "IMAGE": "AVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "JPM",
+      "text_path": "evidence_packets/JPM/2024-03-22.txt",
+      "text_sha256": "6426182fef36ca688e7db2f620fd65524f5d32d3659899444020f469b314e5ef"
+    },
+    {
+      "caption_sha256": "44e980fa7768c0cf36961d6c42ea769157e4b989d02b60b37618256028b04d70",
+      "case_id": "JPM:2024-03-28",
+      "character_counts": {
+        "complete": 3281,
+        "fundamentals": 2083,
+        "market": 965,
+        "news": 85
+      },
+      "decision_session": "2024-03-28",
+      "json_path": "evidence_packets/JPM/2024-03-28.json",
+      "json_sha256": "40406c08dc996cee77247c408724403b9e2c98d9650faa97de6ec72052efd71a",
+      "modality_statuses": {
+        "IMAGE": "AVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "JPM",
+      "text_path": "evidence_packets/JPM/2024-03-28.txt",
+      "text_sha256": "4a48032cb0d856a9a322cd7b2980ca4244340e83ba6eb28ccc95d360b1327770"
+    },
+    {
+      "caption_sha256": "44e980fa7768c0cf36961d6c42ea769157e4b989d02b60b37618256028b04d70",
+      "case_id": "JPM:2024-04-05",
+      "character_counts": {
+        "complete": 3300,
+        "fundamentals": 2083,
+        "market": 984,
+        "news": 85
+      },
+      "decision_session": "2024-04-05",
+      "json_path": "evidence_packets/JPM/2024-04-05.json",
+      "json_sha256": "f27b03924f1a433a27893f4087f90d671f6aebd099a88a0b91d445068a34aa7e",
+      "modality_statuses": {
+        "IMAGE": "AVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "JPM",
+      "text_path": "evidence_packets/JPM/2024-04-05.txt",
+      "text_sha256": "c95f975a91a02fd1ba46bc2e391a3c3d00fde154444ccb5768fa5301799850ba"
+    },
+    {
+      "caption_sha256": "44e980fa7768c0cf36961d6c42ea769157e4b989d02b60b37618256028b04d70",
+      "case_id": "JPM:2024-04-12",
+      "character_counts": {
+        "complete": 3299,
+        "fundamentals": 2083,
+        "market": 983,
+        "news": 85
+      },
+      "decision_session": "2024-04-12",
+      "json_path": "evidence_packets/JPM/2024-04-12.json",
+      "json_sha256": "fb62946f242ca9e5b76ac25d4bd6a72408933fac4323c14153add6fa9495a683",
+      "modality_statuses": {
+        "IMAGE": "AVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "JPM",
+      "text_path": "evidence_packets/JPM/2024-04-12.txt",
+      "text_sha256": "d902c04998b9da3fe1bb31c24d1f0b78bdf6f200704e598c07c90fbda030fc4a"
+    },
+    {
+      "caption_sha256": "44e980fa7768c0cf36961d6c42ea769157e4b989d02b60b37618256028b04d70",
+      "case_id": "JPM:2024-04-19",
+      "character_counts": {
+        "complete": 3300,
+        "fundamentals": 2083,
+        "market": 984,
+        "news": 85
+      },
+      "decision_session": "2024-04-19",
+      "json_path": "evidence_packets/JPM/2024-04-19.json",
+      "json_sha256": "6dff1d833908bebb1cae81d1b038e0a44f64ddea83dab0b23d5706aa33a58d47",
+      "modality_statuses": {
+        "IMAGE": "AVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "JPM",
+      "text_path": "evidence_packets/JPM/2024-04-19.txt",
+      "text_sha256": "203438a56685a237569c97a22d5e6acb75f4dbed48f3c7ac6c4b55d7fe683e87"
+    },
+    {
+      "caption_sha256": "44e980fa7768c0cf36961d6c42ea769157e4b989d02b60b37618256028b04d70",
+      "case_id": "JPM:2024-04-26",
+      "character_counts": {
+        "complete": 3298,
+        "fundamentals": 2083,
+        "market": 982,
+        "news": 85
+      },
+      "decision_session": "2024-04-26",
+      "json_path": "evidence_packets/JPM/2024-04-26.json",
+      "json_sha256": "efe69ac1af9c12a08938a2105049cb7abbd24462cf5542913ceaa8a5fd94fd2f",
+      "modality_statuses": {
+        "IMAGE": "AVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "JPM",
+      "text_path": "evidence_packets/JPM/2024-04-26.txt",
+      "text_sha256": "bbcfadd7ee8ebe4fb179f97b623a7dea83f58701d4874ec7c5937b316ad8d169"
+    },
+    {
+      "caption_sha256": "44e980fa7768c0cf36961d6c42ea769157e4b989d02b60b37618256028b04d70",
+      "case_id": "JPM:2024-05-03",
+      "character_counts": {
+        "complete": 3307,
+        "fundamentals": 2092,
+        "market": 982,
+        "news": 85
+      },
+      "decision_session": "2024-05-03",
+      "json_path": "evidence_packets/JPM/2024-05-03.json",
+      "json_sha256": "e1256b005e96bc2fa4e1fc582a0f87d56c916838180ad4da7b602f16db6254e2",
+      "modality_statuses": {
+        "IMAGE": "AVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "JPM",
+      "text_path": "evidence_packets/JPM/2024-05-03.txt",
+      "text_sha256": "dc6a554299ab4328b01ba01125fc228d977d70837f07a4d349ee00426a82df96"
+    },
+    {
+      "caption_sha256": "44e980fa7768c0cf36961d6c42ea769157e4b989d02b60b37618256028b04d70",
+      "case_id": "JPM:2024-05-10",
+      "character_counts": {
+        "complete": 3309,
+        "fundamentals": 2092,
+        "market": 984,
+        "news": 85
+      },
+      "decision_session": "2024-05-10",
+      "json_path": "evidence_packets/JPM/2024-05-10.json",
+      "json_sha256": "d4fe0e27b95fa9e339e0782b67d4b29da41453144c30ccdfe76cc3b4788b7f39",
+      "modality_statuses": {
+        "IMAGE": "AVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "JPM",
+      "text_path": "evidence_packets/JPM/2024-05-10.txt",
+      "text_sha256": "68074d76eae5e9d2e7f298deccb13acf4e70888c5c2ffc15383ad3f65a27c886"
+    },
+    {
+      "caption_sha256": "44e980fa7768c0cf36961d6c42ea769157e4b989d02b60b37618256028b04d70",
+      "case_id": "JPM:2024-05-17",
+      "character_counts": {
+        "complete": 3290,
+        "fundamentals": 2092,
+        "market": 965,
+        "news": 85
+      },
+      "decision_session": "2024-05-17",
+      "json_path": "evidence_packets/JPM/2024-05-17.json",
+      "json_sha256": "473e4715260c550adbfc379c0fb7261161a1d233213879029ea36da7b32634d9",
+      "modality_statuses": {
+        "IMAGE": "AVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "JPM",
+      "text_path": "evidence_packets/JPM/2024-05-17.txt",
+      "text_sha256": "f2a2e66bb17ee1c37f9d676dbbfcdee945b74d1cd11eaec4848ed5bc2a128157"
+    },
+    {
+      "caption_sha256": "44e980fa7768c0cf36961d6c42ea769157e4b989d02b60b37618256028b04d70",
+      "case_id": "JPM:2024-05-24",
+      "character_counts": {
+        "complete": 3311,
+        "fundamentals": 2092,
+        "market": 986,
+        "news": 85
+      },
+      "decision_session": "2024-05-24",
+      "json_path": "evidence_packets/JPM/2024-05-24.json",
+      "json_sha256": "dc21aaf3f2d79241ddb9eeed596ce5506d4ad4dc5eb7df86b85f9feaab72d0da",
+      "modality_statuses": {
+        "IMAGE": "AVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "JPM",
+      "text_path": "evidence_packets/JPM/2024-05-24.txt",
+      "text_sha256": "70d76efcff8b9dac5783e1656b23c94fc42effb015e7a3942598dea2bb1e76fe"
+    },
+    {
+      "caption_sha256": "44e980fa7768c0cf36961d6c42ea769157e4b989d02b60b37618256028b04d70",
+      "case_id": "JPM:2024-05-31",
+      "character_counts": {
+        "complete": 3307,
+        "fundamentals": 2092,
+        "market": 982,
+        "news": 85
+      },
+      "decision_session": "2024-05-31",
+      "json_path": "evidence_packets/JPM/2024-05-31.json",
+      "json_sha256": "6f7abbb8509ed565c41b79c33e38519209c355b661d156fd38d9671d78d717c8",
+      "modality_statuses": {
+        "IMAGE": "AVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "JPM",
+      "text_path": "evidence_packets/JPM/2024-05-31.txt",
+      "text_sha256": "143172a72ee8ce6aee066c38f2943e8c3a97233fe25fa344d8ceeb9d31c9c538"
+    },
+    {
+      "caption_sha256": "44e980fa7768c0cf36961d6c42ea769157e4b989d02b60b37618256028b04d70",
+      "case_id": "JPM:2024-06-07",
+      "character_counts": {
+        "complete": 3310,
+        "fundamentals": 2092,
+        "market": 985,
+        "news": 85
+      },
+      "decision_session": "2024-06-07",
+      "json_path": "evidence_packets/JPM/2024-06-07.json",
+      "json_sha256": "59acbf3954b9485dc66605d14e8e98d28097c7a02c1dbab3a564413386c962d2",
+      "modality_statuses": {
+        "IMAGE": "AVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "JPM",
+      "text_path": "evidence_packets/JPM/2024-06-07.txt",
+      "text_sha256": "a7561033669e69e5795dd6f53aa18d636114335728c1f0292eed8abd085748cd"
+    },
+    {
+      "caption_sha256": "44e980fa7768c0cf36961d6c42ea769157e4b989d02b60b37618256028b04d70",
+      "case_id": "JPM:2024-06-14",
+      "character_counts": {
+        "complete": 3309,
+        "fundamentals": 2092,
+        "market": 984,
+        "news": 85
+      },
+      "decision_session": "2024-06-14",
+      "json_path": "evidence_packets/JPM/2024-06-14.json",
+      "json_sha256": "9a1d945b55412af211b8acaf85f4ba676078a417af85f95af4056b663b2d66c1",
+      "modality_statuses": {
+        "IMAGE": "AVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "JPM",
+      "text_path": "evidence_packets/JPM/2024-06-14.txt",
+      "text_sha256": "ab6e8aaae36d7fa99096cb78b90f29acec6a9ce9c433dfbfcb25f59053a19015"
+    },
+    {
+      "caption_sha256": "44e980fa7768c0cf36961d6c42ea769157e4b989d02b60b37618256028b04d70",
+      "case_id": "JPM:2024-06-21",
+      "character_counts": {
+        "complete": 3309,
+        "fundamentals": 2092,
+        "market": 984,
+        "news": 85
+      },
+      "decision_session": "2024-06-21",
+      "json_path": "evidence_packets/JPM/2024-06-21.json",
+      "json_sha256": "fbf8a12cb43c4260b4e9c54eadd5bd7f14a67a1ac14d6f258ab4280bccc9182c",
+      "modality_statuses": {
+        "IMAGE": "AVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "JPM",
+      "text_path": "evidence_packets/JPM/2024-06-21.txt",
+      "text_sha256": "5376565984a48cbf106f03b34ceef71c6094c216cc942f8ebfcb90a05c82891d"
+    },
+    {
+      "caption_sha256": "44e980fa7768c0cf36961d6c42ea769157e4b989d02b60b37618256028b04d70",
+      "case_id": "JPM:2024-06-28",
+      "character_counts": {
+        "complete": 3310,
+        "fundamentals": 2092,
+        "market": 985,
+        "news": 85
+      },
+      "decision_session": "2024-06-28",
+      "json_path": "evidence_packets/JPM/2024-06-28.json",
+      "json_sha256": "05714841e9802d436d6168e2b17dbb1c25d42c8a33090d05503a6bca435c8601",
+      "modality_statuses": {
+        "IMAGE": "AVAILABLE",
+        "TABLE": "AVAILABLE",
+        "TEXT": "UNAVAILABLE",
+        "TIME_SERIES": "AVAILABLE"
+      },
+      "symbol": "JPM",
+      "text_path": "evidence_packets/JPM/2024-06-28.txt",
+      "text_sha256": "6e89ecd45064f687545421ebda08f677f9b0819c27fa67ce9c8993de0af1ec80"
+    }
+  ],
+  "record_type": "m1_finmultitime_evidence_packet_manifest",
+  "schema_version": "1.0"
+}

@@ -1,0 +1,52 @@
+{
+  "aws_environment_freeze_sha256": "cd011c2953457c399573319dd8067bede1d3c635061846fc420266010d19d7e2",
+  "caption_status": "GENERATED",
+  "captioning_code_sha": "4ce6af13c6dd82218d1bb9a2600fdbf7f108bc8c",
+  "captions": [
+    {
+      "canonical_caption_sha256": "131c2904cd82c850f94b00cc58e2b97b2ef69c7e805fa562ef2c8f2e00a568fe",
+      "caption_ref": "qwen/captions/amzn_2023_H2_candlestick.json",
+      "formal_case_reference_count": 26,
+      "image_filename": "amzn_2023_H2_candlestick.png",
+      "image_sha256": "215c01f8a03dc55719558644992b14c28d8b9f604d44e3504ef7df0f99997bb8",
+      "processing_order": 1,
+      "raw_output_sha256": "4e04f57d03a7e5aa40d14607c239bd7568cf9459d1d49901efc603db22f6dbad",
+      "symbol": "AMZN"
+    },
+    {
+      "canonical_caption_sha256": "44e980fa7768c0cf36961d6c42ea769157e4b989d02b60b37618256028b04d70",
+      "caption_ref": "qwen/captions/jpm_2023_H2_candlestick.json",
+      "formal_case_reference_count": 26,
+      "image_filename": "jpm_2023_H2_candlestick.png",
+      "image_sha256": "b9e218ab002a8bfd6c0cbf86dd53abe9bcfeda4744a785754cb1b9173cc85611",
+      "processing_order": 2,
+      "raw_output_sha256": "cae5f4770733aad115a913a2008f3c50e18daaa947e4ba5736330075e474b878",
+      "symbol": "JPM"
+    }
+  ],
+  "evidence_contract_sha256": "13563ba0c829addde44d602cf8b9ac0e2879d8091832ee120a5caefa4c843ab3",
+  "evidence_contract_version": "M1-FINMULTITIME-v1.0.1",
+  "first_valid_output_policy_confirmed": true,
+  "formal_case_reference_counts": {
+    "AMZN": 26,
+    "GENERATED": 52,
+    "JPM": 26,
+    "NOT_APPLICABLE": 26,
+    "PENDING": 0
+  },
+  "model_repo_id": "Qwen/Qwen3-VL-2B-Instruct",
+  "model_revision": "89644892e4d85e24eaac8bacfd4f463576704203",
+  "multiple_outputs_cherry_picked": false,
+  "official_caption_policy": "first_complete_correctness_valid_output",
+  "package_freeze_sha256": "e4b16b0179dab01f2d541b31986de6ff4a658c61b4d60c3222c30fd76778afc2",
+  "processing_order": [
+    "AMZN",
+    "JPM"
+  ],
+  "prompt_sha256": "284c6e52763796a47f7d30fd2e44cfe68d9211db6831d89ec5ed436920c34df9",
+  "record_type": "frozen_qwen_caption_manifest",
+  "schema_sha256": "bf8f04330ffb1bd8468b9bf01eb96bec6b35bb4bad29c8e3f1ad6c47cf0ca8e4",
+  "schema_version": "1.0",
+  "unique_formal_images": 2,
+  "unique_official_captions": 2
+}

@@ -1,0 +1,197 @@
+{
+  "IMAGE": {
+    "canonical_caption": null,
+    "caption_sha256": null,
+    "caption_status": "NOT_APPLICABLE",
+    "chart_period": null,
+    "evidence_age_calendar_days": null,
+    "image_sha256": null,
+    "inferred_period_end": null,
+    "provenance_hash_reference": "",
+    "reason": "no completed image with inferred period end strictly before decision",
+    "source_identity": "",
+    "status": "UNAVAILABLE"
+  },
+  "TABLE": {
+    "facts": {
+      "Assets": {
+        "accession": "0000320193-24-000069",
+        "filed_date": "2024-05-03",
+        "form": "10-Q",
+        "fp": "Q2",
+        "fy": 2024,
+        "period_duration_class": "point_in_time",
+        "period_duration_days": null,
+        "period_end": "2024-03-30",
+        "period_start": "",
+        "provenance_hash_reference": "cba252b96f0085bd9e2cafde217a9e50e871879768adb0c58ef075d88aae2c69",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 337411000000
+      },
+      "Liabilities": {
+        "accession": "0000320193-24-000069",
+        "filed_date": "2024-05-03",
+        "form": "10-Q",
+        "fp": "Q2",
+        "fy": 2024,
+        "period_duration_class": "point_in_time",
+        "period_duration_days": null,
+        "period_end": "2024-03-30",
+        "period_start": "",
+        "provenance_hash_reference": "36b48c3c5ef87f365f656d78017043ec6da3d1fa7faf7076c8c8c14393b53a00",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 263217000000
+      },
+      "NetCashProvidedByUsedInFinancingActivities": {
+        "accession": "0000320193-24-000069",
+        "filed_date": "2024-05-03",
+        "form": "10-Q",
+        "fp": "Q2",
+        "fy": 2024,
+        "period_duration_class": "year_to_date_6m",
+        "period_duration_days": 182,
+        "period_end": "2024-03-30",
+        "period_start": "2023-10-01",
+        "provenance_hash_reference": "f933a8c210b6c4944b1e0d64c554c598f729e72a5a33dc7211fc326427ff752a",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": -61018000000
+      },
+      "NetCashProvidedByUsedInInvestingActivities": {
+        "accession": "0000320193-24-000069",
+        "filed_date": "2024-05-03",
+        "form": "10-Q",
+        "fp": "Q2",
+        "fy": 2024,
+        "period_duration_class": "year_to_date_6m",
+        "period_duration_days": 182,
+        "period_end": "2024-03-30",
+        "period_start": "2023-10-01",
+        "provenance_hash_reference": "9bd3cf75524877c2b648657373f595c073df39a17c9df87b5433dc67d27bf327",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 1617000000
+      },
+      "NetCashProvidedByUsedInOperatingActivities": {
+        "accession": "0000320193-24-000069",
+        "filed_date": "2024-05-03",
+        "form": "10-Q",
+        "fp": "Q2",
+        "fy": 2024,
+        "period_duration_class": "year_to_date_6m",
+        "period_duration_days": 182,
+        "period_end": "2024-03-30",
+        "period_start": "2023-10-01",
+        "provenance_hash_reference": "123ff8cb4903973fe21f35d3b3ce990a91ecf0e8f2e33fee3b0e2f2c8cff8301",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 62585000000
+      },
+      "StockholdersEquity": {
+        "accession": "0000320193-24-000069",
+        "filed_date": "2024-05-03",
+        "form": "10-Q",
+        "fp": "Q2",
+        "fy": 2024,
+        "period_duration_class": "point_in_time",
+        "period_duration_days": null,
+        "period_end": "2024-03-30",
+        "period_start": "",
+        "provenance_hash_reference": "8adf9d7079a89b218208d382a2360dd7d647ee7814c358bbfc78d02dfff531fd",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 74194000000
+      }
+    },
+    "provenance_hash_reference": "db5192da26592d3daa2900c2baa026b95c00c164142dc252287ee1069567c932",
+    "reason": "",
+    "selection_rule": "frozen six-concept TABLE selection; filed_date < decision session",
+    "source_identity": "financial_reports/aapl/condensed_consolidated_balance_sheets.json;financial_reports/aapl/condensed_consolidated_statement_of_cash_flows.json",
+    "status": "AVAILABLE"
+  },
+  "TEXT": {
+    "evidence_age_calendar_days": 181,
+    "provenance_hash_reference": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "reason": "no PIT-safe article inside fixed 30-calendar-day lookback",
+    "records": [],
+    "selection_rule": "frozen bounded TEXT selection; Date < decision session; deterministic order",
+    "source_identity": "sp500_news/AAPL.jsonl",
+    "status": "UNAVAILABLE"
+  },
+  "TIME_SERIES": {
+    "provenance_hash_reference": "de71255147daa1d064ec9f69c314d2bfa5053d966b50135abc3e71eed6007ac4",
+    "reason": "",
+    "selection_rule": "frozen descriptive summaries from 61 completed source rows; session <= decision",
+    "source_identity": "S&P500_time_series/aapl.csv",
+    "status": "AVAILABLE",
+    "summaries": {
+      "cumulative_return_20d": 0.11931098221889602,
+      "cumulative_return_5d": 0.07923205627052421,
+      "cumulative_return_60d": 0.19090065312446836,
+      "drawdown_from_60d_peak": -0.008168421088738831,
+      "high_low_range_20d": 0.1798745916544231,
+      "realised_volatility_20d_annualised": 0.3079216638627782,
+      "relative_volume_vs_20d_mean": 1.042849391472774
+    },
+    "through_session": "2024-06-14"
+  },
+  "agent_text": "=== FINMULTITIME EVIDENCE ===\nSymbol: AAPL\nDecision session: 2024-06-14\n\n[TEXT]\nStatus: UNAVAILABLE\nMissingness reason: no PIT-safe article inside fixed 30-calendar-day lookback\n\n[TABLE]\nStatus: AVAILABLE\nSource: financial_reports/aapl/condensed_consolidated_balance_sheets.json;financial_reports/aapl/condensed_consolidated_statement_of_cash_flows.json\nAssets: value=337411000000; unit=USD; form=10-Q; fy=2024; fp=Q2; period_start=; period_end=2024-03-30; period_duration_days=None; period_duration_class=point_in_time; filed_date=2024-05-03; accession=0000320193-24-000069; provenance=cba252b96f0085bd9e2cafde217a9e50e871879768adb0c58ef075d88aae2c69\nLiabilities: value=263217000000; unit=USD; form=10-Q; fy=2024; fp=Q2; period_start=; period_end=2024-03-30; period_duration_days=None; period_duration_class=point_in_time; filed_date=2024-05-03; accession=0000320193-24-000069; provenance=36b48c3c5ef87f365f656d78017043ec6da3d1fa7faf7076c8c8c14393b53a00\nStockholdersEquity: value=74194000000; unit=USD; form=10-Q; fy=2024; fp=Q2; period_start=; period_end=2024-03-30; period_duration_days=None; period_duration_class=point_in_time; filed_date=2024-05-03; accession=0000320193-24-000069; provenance=8adf9d7079a89b218208d382a2360dd7d647ee7814c358bbfc78d02dfff531fd\nNetCashProvidedByUsedInOperatingActivities: value=62585000000; unit=USD; form=10-Q; fy=2024; fp=Q2; period_start=2023-10-01; period_end=2024-03-30; period_duration_days=182; period_duration_class=year_to_date_6m; filed_date=2024-05-03; accession=0000320193-24-000069; provenance=123ff8cb4903973fe21f35d3b3ce990a91ecf0e8f2e33fee3b0e2f2c8cff8301\nNetCashProvidedByUsedInInvestingActivities: value=1617000000; unit=USD; form=10-Q; fy=2024; fp=Q2; period_start=2023-10-01; period_end=2024-03-30; period_duration_days=182; period_duration_class=year_to_date_6m; filed_date=2024-05-03; accession=0000320193-24-000069; provenance=9bd3cf75524877c2b648657373f595c073df39a17c9df87b5433dc67d27bf327\nNetCashProvidedByUsedInFinancingActivities: value=-61018000000; unit=USD; form=10-Q; fy=2024; fp=Q2; period_start=2023-10-01; period_end=2024-03-30; period_duration_days=182; period_duration_class=year_to_date_6m; filed_date=2024-05-03; accession=0000320193-24-000069; provenance=f933a8c210b6c4944b1e0d64c554c598f729e72a5a33dc7211fc326427ff752a\n\n[TIME_SERIES]\nStatus: AVAILABLE\nThrough session: 2024-06-14\nSource: S&P500_time_series/aapl.csv\ncumulative_return_5d: 0.07923205627052421\ncumulative_return_20d: 0.11931098221889602\ncumulative_return_60d: 0.19090065312446836\nrealised_volatility_20d_annualised: 0.3079216638627782\nhigh_low_range_20d: 0.1798745916544231\ndrawdown_from_60d_peak: -0.008168421088738831\nrelative_volume_vs_20d_mean: 1.042849391472774\nProvenance: de71255147daa1d064ec9f69c314d2bfa5053d966b50135abc3e71eed6007ac4\n\n[IMAGE]\nStatus: UNAVAILABLE\nMissingness reason: no completed image with inferred period end strictly before decision\n=== END FINMULTITIME EVIDENCE ===\n",
+  "case_id": "AAPL:2024-06-14",
+  "character_counts": {
+    "complete": 2937,
+    "fundamentals": 2108,
+    "market": 583,
+    "news": 97
+  },
+  "contract_version": "M1-FINMULTITIME-v1.0.1",
+  "dataset_id": "finmultitime_3stocks_2024h1_v1",
+  "decision_session": "2024-06-14",
+  "decision_time": "2024-06-14T20:00:00+00:00",
+  "packet_status": "FINAL_FROZEN",
+  "record_type": "m1_finmultitime_evidence_packet",
+  "routed_projections": {
+    "fundamentals_analyst": {
+      "sections": [
+        "TABLE"
+      ],
+      "text": "Status: AVAILABLE\nSource: financial_reports/aapl/condensed_consolidated_balance_sheets.json;financial_reports/aapl/condensed_consolidated_statement_of_cash_flows.json\nAssets: value=337411000000; unit=USD; form=10-Q; fy=2024; fp=Q2; period_start=; period_end=2024-03-30; period_duration_days=None; period_duration_class=point_in_time; filed_date=2024-05-03; accession=0000320193-24-000069; provenance=cba252b96f0085bd9e2cafde217a9e50e871879768adb0c58ef075d88aae2c69\nLiabilities: value=263217000000; unit=USD; form=10-Q; fy=2024; fp=Q2; period_start=; period_end=2024-03-30; period_duration_days=None; period_duration_class=point_in_time; filed_date=2024-05-03; accession=0000320193-24-000069; provenance=36b48c3c5ef87f365f656d78017043ec6da3d1fa7faf7076c8c8c14393b53a00\nStockholdersEquity: value=74194000000; unit=USD; form=10-Q; fy=2024; fp=Q2; period_start=; period_end=2024-03-30; period_duration_days=None; period_duration_class=point_in_time; filed_date=2024-05-03; accession=0000320193-24-000069; provenance=8adf9d7079a89b218208d382a2360dd7d647ee7814c358bbfc78d02dfff531fd\nNetCashProvidedByUsedInOperatingActivities: value=62585000000; unit=USD; form=10-Q; fy=2024; fp=Q2; period_start=2023-10-01; period_end=2024-03-30; period_duration_days=182; period_duration_class=year_to_date_6m; filed_date=2024-05-03; accession=0000320193-24-000069; provenance=123ff8cb4903973fe21f35d3b3ce990a91ecf0e8f2e33fee3b0e2f2c8cff8301\nNetCashProvidedByUsedInInvestingActivities: value=1617000000; unit=USD; form=10-Q; fy=2024; fp=Q2; period_start=2023-10-01; period_end=2024-03-30; period_duration_days=182; period_duration_class=year_to_date_6m; filed_date=2024-05-03; accession=0000320193-24-000069; provenance=9bd3cf75524877c2b648657373f595c073df39a17c9df87b5433dc67d27bf327\nNetCashProvidedByUsedInFinancingActivities: value=-61018000000; unit=USD; form=10-Q; fy=2024; fp=Q2; period_start=2023-10-01; period_end=2024-03-30; period_duration_days=182; period_duration_class=year_to_date_6m; filed_date=2024-05-03; accession=0000320193-24-000069; provenance=f933a8c210b6c4944b1e0d64c554c598f729e72a5a33dc7211fc326427ff752a"
+    },
+    "market_analyst": {
+      "sections": [
+        "TIME_SERIES",
+        "IMAGE"
+      ],
+      "text": "Status: AVAILABLE\nThrough session: 2024-06-14\nSource: S&P500_time_series/aapl.csv\ncumulative_return_5d: 0.07923205627052421\ncumulative_return_20d: 0.11931098221889602\ncumulative_return_60d: 0.19090065312446836\nrealised_volatility_20d_annualised: 0.3079216638627782\nhigh_low_range_20d: 0.1798745916544231\ndrawdown_from_60d_peak: -0.008168421088738831\nrelative_volume_vs_20d_mean: 1.042849391472774\nProvenance: de71255147daa1d064ec9f69c314d2bfa5053d966b50135abc3e71eed6007ac4\n\nStatus: UNAVAILABLE\nMissingness reason: no completed image with inferred period end strictly before decision"
+    },
+    "news_analyst": {
+      "sections": [
+        "TEXT"
+      ],
+      "text": "Status: UNAVAILABLE\nMissingness reason: no PIT-safe article inside fixed 30-calendar-day lookback"
+    },
+    "social_analyst": {
+      "sections": [],
+      "text": ""
+    }
+  },
+  "routing": {
+    "modality_to_analyst": {
+      "IMAGE": "Market Analyst",
+      "TABLE": "Fundamentals Analyst",
+      "TEXT": "News Analyst",
+      "TIME_SERIES": "Market Analyst"
+    },
+    "raw_packet_direct_injection": false,
+    "social_analyst": "NO_FINMULTITIME_EVIDENCE"
+  },
+  "source_provenance": {
+    "contract_sha256": "13563ba0c829addde44d602cf8b9ac0e2879d8091832ee120a5caefa4c843ab3",
+    "frozen_m0_base_sha": "2535896c8b1070b19c06fa6a936663babb4356f7",
+    "preprocessed_case_path": "cases/AAPL/2024-06-14.json",
+    "qwen": null,
+    "source_hash_reference": "936c0bdb1620a561e426b92ea522d45110cedfb595f1e3d3de69b7bab125d085"
+  },
+  "symbol": "AAPL"
+}

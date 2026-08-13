@@ -1,0 +1,40 @@
+=== FINMULTITIME EVIDENCE ===
+Symbol: AMZN
+Decision session: 2024-06-07
+
+[TEXT]
+Status: UNAVAILABLE
+Missingness reason: no PIT-safe article inside fixed 30-calendar-day lookback
+
+[TABLE]
+Status: AVAILABLE
+Source: financial_reports/amzn/condensed_consolidated_balance_sheets.json;financial_reports/amzn/condensed_consolidated_statement_of_cash_flows.json
+Assets: value=530969000000; unit=USD; form=10-Q; fy=2024; fp=Q1; period_start=; period_end=2024-03-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2024-05-01; accession=0001018724-24-000083; provenance=aeb8877dd37a86cab9e9d52e136c7cd34247c2c5ad9165934cdba3fb22501a09
+Liabilities: UNAVAILABLE
+StockholdersEquity: value=216661000000; unit=USD; form=10-Q; fy=2024; fp=Q1; period_start=; period_end=2024-03-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2024-05-01; accession=0001018724-24-000083; provenance=81fe52fba45367880009bdde192447fa28ce5a851dc57775fcbb041794086c9b
+NetCashProvidedByUsedInOperatingActivities: value=18989000000; unit=USD; form=10-Q; fy=2024; fp=Q1; period_start=2024-01-01; period_end=2024-03-31; period_duration_days=91; period_duration_class=quarterly; filed_date=2024-05-01; accession=0001018724-24-000083; provenance=3731cfee772c0a51185dbf62e77efdb15b7be1eadc8bc4d01202035120dd73b9
+NetCashProvidedByUsedInInvestingActivities: value=-17862000000; unit=USD; form=10-Q; fy=2024; fp=Q1; period_start=2024-01-01; period_end=2024-03-31; period_duration_days=91; period_duration_class=quarterly; filed_date=2024-05-01; accession=0001018724-24-000083; provenance=b56cdbd41edf055dffd276bbc8f71875219e58d62d4889d85cbf2bc85641eace
+NetCashProvidedByUsedInFinancingActivities: value=-1256000000; unit=USD; form=10-Q; fy=2024; fp=Q1; period_start=2024-01-01; period_end=2024-03-31; period_duration_days=91; period_duration_class=quarterly; filed_date=2024-05-01; accession=0001018724-24-000083; provenance=9bd4280fabe04706001cf28c5d46d8086945a9e0bb792bab834e25b5ce66fc72
+
+[TIME_SERIES]
+Status: AVAILABLE
+Through session: 2024-06-07
+Source: S&P500_time_series/amzn.csv
+cumulative_return_5d: 0.044547724447928205
+cumulative_return_20d: -0.027440617141119672
+cumulative_return_60d: 0.04383782057198671
+realised_volatility_20d_annualised: 0.15236908939258825
+high_low_range_20d: 0.09213783126676645
+drawdown_from_60d_peak: -0.027440617141119672
+relative_volume_vs_20d_mean: 0.7669316343869685
+Provenance: b215597408ea28691b123e7f8e25f8e3373889ba2b5c45cbf749e139bcd100aa
+
+[IMAGE]
+Status: AVAILABLE
+Chart period: 2023-H2
+Inferred period end: 2023-12-31
+Evidence age (calendar days): 159
+Source: image/amzn_2023_H2_candlestick.png
+Canonical caption: {"candlestick_structure":"mostly green and red","confidence":"high","momentum_visual":"increasing","notable_gap_or_reversal":"none","other_visible_pattern":"none","support_resistance_visual":"none","trend":"upward","volatility_visual":"moderate","volume_visual":"none"}
+Caption provenance: qwen/captions/amzn_2023_H2_candlestick.json
+=== END FINMULTITIME EVIDENCE ===

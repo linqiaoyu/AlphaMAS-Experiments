@@ -1,0 +1,254 @@
+{
+  "IMAGE": {
+    "canonical_caption": null,
+    "caption_sha256": null,
+    "caption_status": "NOT_APPLICABLE",
+    "chart_period": null,
+    "evidence_age_calendar_days": null,
+    "image_sha256": null,
+    "inferred_period_end": null,
+    "provenance_hash_reference": "",
+    "reason": "no completed image with inferred period end strictly before decision",
+    "source_identity": "",
+    "status": "UNAVAILABLE"
+  },
+  "TABLE": {
+    "facts": {
+      "Assets": {
+        "accession": "0000320193-23-000106",
+        "filed_date": "2023-11-03",
+        "form": "10-K",
+        "fp": "FY",
+        "fy": 2023,
+        "period_duration_class": "point_in_time",
+        "period_duration_days": null,
+        "period_end": "2023-09-30",
+        "period_start": "",
+        "provenance_hash_reference": "703fb92c5726d6d5d83c0f1702b721fd31175346fcdcb5883f38dc4f20350cf2",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 352583000000
+      },
+      "Liabilities": {
+        "accession": "0000320193-23-000106",
+        "filed_date": "2023-11-03",
+        "form": "10-K",
+        "fp": "FY",
+        "fy": 2023,
+        "period_duration_class": "point_in_time",
+        "period_duration_days": null,
+        "period_end": "2023-09-30",
+        "period_start": "",
+        "provenance_hash_reference": "11c3925b16479d166cfbeed425adeb93a99381bc4204461a1ee88553c1cd04fb",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 290437000000
+      },
+      "NetCashProvidedByUsedInFinancingActivities": {
+        "accession": "0000320193-23-000106",
+        "filed_date": "2023-11-03",
+        "form": "10-K",
+        "fp": "FY",
+        "fy": 2023,
+        "period_duration_class": "annual",
+        "period_duration_days": 371,
+        "period_end": "2023-09-30",
+        "period_start": "2022-09-25",
+        "provenance_hash_reference": "bcc21cfc9440de6339623ee347518628d1be3a29583d6837f82ae8287080f8f8",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": -108488000000
+      },
+      "NetCashProvidedByUsedInInvestingActivities": {
+        "accession": "0000320193-23-000106",
+        "filed_date": "2023-11-03",
+        "form": "10-K",
+        "fp": "FY",
+        "fy": 2023,
+        "period_duration_class": "annual",
+        "period_duration_days": 371,
+        "period_end": "2023-09-30",
+        "period_start": "2022-09-25",
+        "provenance_hash_reference": "c2fef5adef053426776e0d3f8ef3ce70c662b2fcef27aca18af4dd9b591e209b",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 3705000000
+      },
+      "NetCashProvidedByUsedInOperatingActivities": {
+        "accession": "0000320193-23-000106",
+        "filed_date": "2023-11-03",
+        "form": "10-K",
+        "fp": "FY",
+        "fy": 2023,
+        "period_duration_class": "annual",
+        "period_duration_days": 371,
+        "period_end": "2023-09-30",
+        "period_start": "2022-09-25",
+        "provenance_hash_reference": "0606ff8c17f3a219496eee917fc96ec9bdb42bb1f445a5688099b5dd77217c9a",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 110543000000
+      },
+      "StockholdersEquity": {
+        "accession": "0000320193-23-000106",
+        "filed_date": "2023-11-03",
+        "form": "10-K",
+        "fp": "FY",
+        "fy": 2023,
+        "period_duration_class": "point_in_time",
+        "period_duration_days": null,
+        "period_end": "2023-09-30",
+        "period_start": "",
+        "provenance_hash_reference": "36aa0dd70cff59ad31b079a9af735c922856d339169c43e2a8fd90224a79edaa",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 62146000000
+      }
+    },
+    "provenance_hash_reference": "8a51482e576f4a4e823e9a96f671434b1903e866c1f5cf6f4688e3987f3436d4",
+    "reason": "",
+    "selection_rule": "frozen six-concept TABLE selection; filed_date < decision session",
+    "source_identity": "financial_reports/aapl/condensed_consolidated_balance_sheets.json;financial_reports/aapl/condensed_consolidated_statement_of_cash_flows.json",
+    "status": "AVAILABLE"
+  },
+  "TEXT": {
+    "evidence_age_calendar_days": 27,
+    "provenance_hash_reference": "aa76e06b72507a315793828444f942f878e7d503b4783df0d69c25e7d763f8b5",
+    "reason": "",
+    "records": [
+      {
+        "article_date": "2023-12-16",
+        "body": "Hubspot, Inc.HUBS reported revenues of $89.1 million, showcasing a year-over-year increase of 37.1% in second-quarter 2017. The figure surpassed the Zacks Consensus Estimate of $86 million as well as the guided range of $85-$86 million. The company posted adjusted profit of 7 cents per share against a loss of 7 cents per share in the year-ago quarter. Notably, including stock-based compensation, loss per share came in at 26 cents. The Zacks Consensus Estimate was pegged at a loss of 37 cents. The year-over-year growth in revenues can be primarily attributed to the growing customer base. HubSpot's stock has gained 49.2% year to date, substantially outperforming the 19.4% rally of the industry it belongs to. Quarter Details Total customers increased 40% year over year to 34,326. Marketing customers increased 30% to 26,560. Average subscription revenue per customer was up 6.6% year over ye…",
+        "provenance_hash_reference": "6f634f5b15ee13e1f0a8c90cddd78466821c828c175b021f5d1af5e3bb3fb6fe",
+        "source": "https://www.nasdaq.com/articles/2-top-warren-buffett-stocks-to-buy-right-now-14",
+        "title": "2 Top Warren Buffett Stocks to Buy Right Now"
+      },
+      {
+        "article_date": "2023-12-16",
+        "body": "The NASDAQ 100 After Hours Indicator is down -1.04 to 5,890.16. The total After hours volume is currently 40,597,207 shares traded. The following are the most active stocks for the after hours session : Nabors Industries Ltd. ( NBR ) is unchanged at $7.46, with 3,761,075 shares traded. As reported by Zacks, the current mean recommendation for NBR is in the \"buy range\". Star Bulk Carriers Corp. ( SBLK ) is -0.37 at $9.60, with 3,065,980 shares traded.SBLK is scheduled to provide an earnings report on 8/8/2017, for the fiscal quarter ending Jun2017. The consensus earnings per share forecast is -0.1 per share, which represents a -73 percent increase over the EPS one Year Ago Freeport-McMoran, Inc. ( FCX ) is +0.02 at $14.39, with 2,436,936 shares traded. Over the last four weeks they have had 3 up revisions for the earnings forecast, for the fiscal quarter ending Mar 2018. The consensus EP…",
+        "provenance_hash_reference": "3333e96841525e4be5980d448fe3543e7195eb5484c3ec217f25427054dfa19b",
+        "source": "https://www.nasdaq.com/articles/3-artificial-intelligence-ai-stocks-for-2024-and-beyond",
+        "title": "3 Artificial Intelligence (AI) Stocks for 2024 (and Beyond)"
+      },
+      {
+        "article_date": "2023-12-16",
+        "body": "Westchester Capital Management, Inc. New Purchases: MCHP , SDY , VZ , Added Positions:PFE, AGN, WM, ZBH, MSFT, CVS, SYF, DIS, CSCO, BRK.B, Reduced Positions:MCD, CAT, GLD, Sold Out:SPY, For the details of Westchester Capital Management, Inc.'s stock buys and sells, go to http://www.gurufocus.com/StockBuy.php?GuruName=Westchester+Capital+Management%2C+Inc. These are the top 5 holdings of Westchester Capital Management, Inc. Apple Inc ( AAPL ) - 79,397 shares, 5.21% of the total portfolio. Shares added by 1.07% Berkshire Hathaway Inc (BRK.B) - 66,429 shares, 5.13% of the total portfolio. Shares added by 2.38% AbbVie Inc ( ABBV ) - 147,343 shares, 4.87% of the total portfolio. Shares added by 1.73% Bank of New York Mellon Corp ( BK ) - 189,076 shares, 4.4% of the total portfolio. Shares added by 1.96% Microsoft Corp ( MSFT ) - 132,418 shares, 4.16% of the total portfolio. Shares added by 3…",
+        "provenance_hash_reference": "5f2daaae54dc2f3d543a46a6d1bbb422b4521aafd2e2962fd58fa6090282b74e",
+        "source": "https://www.nasdaq.com/articles/3-outstanding-stocks-to-buy-if-interest-rates-fall-next-year",
+        "title": "3 Outstanding Stocks to Buy if Interest Rates Fall Next Year"
+      },
+      {
+        "article_date": "2023-12-16",
+        "body": "Tirschwell & Loewy Inc New Purchases: NVRO , Added Positions: ROST , SBUX , IP, STT, ADI, DXCM, DHR, RTN, PAYX, PODD, Reduced Positions:CGNX, OXY, IDXX, BF.B, BIIB, GIS, JNJ, COP, SLB, VZ, Sold Out:GWW, WFC, For the details of TIRSCHWELL & LOEWY INC's stock buys and sells, go to http://www.gurufocus.com/StockBuy.php?GuruName=TIRSCHWELL+%26+LOEWY+INC These are the top 5 holdings of TIRSCHWELL & LOEWY INC Cognex Corp ( CGNX ) - 399,580 shares, 5.9% of the total portfolio. Shares reduced by 6.58% Tiffany & Co ( TIF ) - 352,736 shares, 5.76% of the total portfolio. Shares reduced by 0.64% Johnson & Johnson ( JNJ ) - 198,623 shares, 4.57% of the total portfolio. Shares reduced by 1.14% Analog Devices Inc ( ADI ) - 328,315 shares, 4.44% of the total portfolio. Shares added by 2.73% IDEXX Laboratories Inc ( IDXX ) - 154,000 shares, 4.32% of the total portfolio. Shares reduced by 4.78% New Purc…",
+        "provenance_hash_reference": "edcdab63623fb448fdf4ed6e09cec3cc23ced07eb71ee4dedeb7ce47b6a9f9a9",
+        "source": "https://www.nasdaq.com/articles/3-stocks-you-can-confidently-buy-after-a-market-downturn-9",
+        "title": "3 Stocks You Can Confidently Buy After a Market Downturn"
+      },
+      {
+        "article_date": "2023-12-16",
+        "body": "Applied Optoelectronics, Inc. (AAOI) just released its second-quarter fiscal 2017 financial results, posting earnings of $1.54 per share and revenues of $117.4 million. Currently, AAOI is down a whopping 29.38% to $69.20 per share in trading shortly after its earnings report was released. Applied Optoelectronics: Beat earnings estimates . The company posted earnings of $1.54 per share, defeating the Wall Street Consensus Estimate of $1.32 per share. Beat revenue estimates . The company saw revenue figures of $117.4 million, which is up 112% year-over-year, beating our consensus estimate of $115.64 million. Applied Optoelectronics is calling for revenues between $107 million and $115 million during the third-quarter of fiscal 2017. This range falls below our Zacks Consensus Estimate for the quarter of $122.93 million, which is a large part of the reason the stock lost over 25% after hour…",
+        "provenance_hash_reference": "6961288fd42fbb1ad72f500824391de368a89df35801c1d361185832e8b34c12",
+        "source": "https://www.nasdaq.com/articles/49.1-of-warren-buffetts-%24373-billion-portfolio-is-invested-in-3-artificial-intelligence-ai",
+        "title": "49.1% of Warren Buffett's $373 Billion Portfolio Is Invested in 3 Artificial Intelligence (AI) Stocks"
+      },
+      {
+        "article_date": "2023-12-16",
+        "body": "The Dow Jones industrial average continues to hit highs while the S&P 500 and Nasdaq take a breather. [ibd-display-video id=2067944 width=50 float=left autostart=true]That could help new buy opportunities to take shape. Two ETFs with big weightings in PayPal ( PYPL ) and Apple ( AAPL ) are poised near buy points. First Trust US Equity Opportunities ( FPX ) is pulling back near its 50-day moving average , after marking a record high last week. It gained about 3% from an early July bounce off the support line to the peak. The fund tracks the IPOX-100 U.S. Index, which is a market-cap-weighted index of the 100 biggest and most liquid U.S. initial public offerings. The index sets a 10% cap on weightings in all constituents and is reconstituted quarterly. [ibdchart symbol=\"FPX\" type=\"daily\" size=\"threequarter\" position=\"leftchart\" /] FPX, which turned 11 in April, has gathered $858.2 million…",
+        "provenance_hash_reference": "097f8929c639d3d650508e81157edb10008b48a7c7d0fca6163daf9c6a1feacd",
+        "source": "https://www.nasdaq.com/articles/aapl-quantitative-stock-analysis-10",
+        "title": "AAPL Quantitative Stock Analysis"
+      },
+      {
+        "article_date": "2023-12-16",
+        "body": "Dominion Energy Inc . D reported second-quarter 2017 operating earnings of 67 per share, beating the Zacks Consensus Estimate of 66 by a penny. Earnings were within management's guidance range of 60-70 cents per share. However, operating earnings decreased 5.6% from 71 cents earned a year ago. The year-over-year increase is primarily due to reduction of Cove Point import contract revenues and the absence of a farm-out transaction. GAAP earnings were 62 cents per share compared with 73 cents in the year-ago quarter. The difference between GAAP and operating earnings was due to transition and integration costs associated with the Dominion Energy Questar combination. Dominion Energy Inc. Price, Consensus and EPS Surprise Dominion Energy Inc. Price, Consensus and EPS Surprise | Dominion Energy Inc. Quote Total Revenue Dominion's total revenue came in at $2,811 million, lagging the Zacks Con…",
+        "provenance_hash_reference": "cedaa51b71c121b1cfc06a8295ca9fb4a8480ec2a7ec8d2cafc27e646a646c4a",
+        "source": "https://www.nasdaq.com/articles/after-hours-most-active-for-dec-18-2023-%3A-pacb-aapl-vtip-edap-ftnt-amzn-hpe-skt-vz-mrk-bvn",
+        "title": "After Hours Most Active for Dec 18, 2023 : PACB, AAPL, VTIP, EDAP, FTNT, AMZN, HPE, SKT, VZ, MRK, BVN, PFE"
+      },
+      {
+        "article_date": "2023-12-16",
+        "body": "American Financial Group, Inc. 's AFG second-quarter 2017 net operating earnings per share (EPS) of $1.61 surpassed the Zacks Consensus Estimate of $1.30 by 23.9%. Further, the bottom line improved about 25.8% year over year. This year-over-year growth in the bottom line can be attributed to higher operating earnings in both Specialty Property and Casualty (P&C) Insurance Segment and Annuity Segment. American Financial Group, Inc. Price, Consensus and EPS Surprise American Financial Group, Inc. Price, Consensus and EPS Surprise | American Financial Group, Inc. Quote Behind the Headlines Total operating revenue of $1.6 billion rose 6.7% year over year. The top-line growth can be attributed to higher net investment income and P&C insurance net earned premiums. The top line outpaced the Zacks Consensus Estimate of $1.2 billion. Net investment income of $460 million grew 8.7% year over year…",
+        "provenance_hash_reference": "b35641d9e48f0ef26334eaa320b1d081980a210b6191e53b09afd375e557a204",
+        "source": "https://www.nasdaq.com/articles/apple-to-halt-sale-of-watch-series-9-and-ultra-2",
+        "title": "Apple To Halt Sale Of Watch Series 9 And Ultra 2"
+      }
+    ],
+    "selection_rule": "frozen bounded TEXT selection; Date < decision session; deterministic order",
+    "source_identity": "sp500_news/AAPL.jsonl",
+    "status": "AVAILABLE"
+  },
+  "TIME_SERIES": {
+    "provenance_hash_reference": "a6334efd69a83f81ea03661e52fd1d619efdce8e179c7c79310e4181449888e8",
+    "reason": "",
+    "selection_rule": "frozen descriptive summaries from 61 completed source rows; session <= decision",
+    "source_identity": "S&P500_time_series/aapl.csv",
+    "status": "AVAILABLE",
+    "summaries": {
+      "cumulative_return_20d": -0.06082041984851205,
+      "cumulative_return_5d": 0.026161853801270674,
+      "cumulative_return_60d": 0.0508887892042067,
+      "drawdown_from_60d_peak": -0.06153154398485272,
+      "high_low_range_20d": 0.10795364767084425,
+      "realised_volatility_20d_annualised": 0.1730608383586414,
+      "relative_volume_vs_20d_mean": 0.7192790261339689
+    },
+    "through_session": "2024-01-12"
+  },
+  "agent_text": "=== FINMULTITIME EVIDENCE ===\nSymbol: AAPL\nDecision session: 2024-01-12\n\n[TEXT]\nStatus: AVAILABLE\nEvidence age (calendar days): 27\nSource: sp500_news/AAPL.jsonl\nArticle 1 date: 2023-12-16\nArticle 1 title: 2 Top Warren Buffett Stocks to Buy Right Now\nArticle 1 source: https://www.nasdaq.com/articles/2-top-warren-buffett-stocks-to-buy-right-now-14\nArticle 1 text: Hubspot, Inc.HUBS reported revenues of $89.1 million, showcasing a year-over-year increase of 37.1% in second-quarter 2017. The figure surpassed the Zacks Consensus Estimate of $86 million as well as the guided range of $85-$86 million. The company posted adjusted profit of 7 cents per share against a loss of 7 cents per share in the year-ago quarter. Notably, including stock-based compensation, loss per share came in at 26 cents. The Zacks Consensus Estimate was pegged at a loss of 37 cents. The year-over-year growth in revenues can be primarily attributed to the growing customer base. HubSpot's stock has gained 49.2% year to date, substantially outperforming the 19.4% rally of the industry it belongs to. Quarter Details Total customers increased 40% year over year to 34,326. Marketing customers increased 30% to 26,560. Average subscription revenue per customer was up 6.6% year over ye…\nArticle 1 provenance: 6f634f5b15ee13e1f0a8c90cddd78466821c828c175b021f5d1af5e3bb3fb6fe\nArticle 2 date: 2023-12-16\nArticle 2 title: 3 Artificial Intelligence (AI) Stocks for 2024 (and Beyond)\nArticle 2 source: https://www.nasdaq.com/articles/3-artificial-intelligence-ai-stocks-for-2024-and-beyond\nArticle 2 text: The NASDAQ 100 After Hours Indicator is down -1.04 to 5,890.16. The total After hours volume is currently 40,597,207 shares traded. The following are the most active stocks for the after hours session : Nabors Industries Ltd. ( NBR ) is unchanged at $7.46, with 3,761,075 shares traded. As reported by Zacks, the current mean recommendation for NBR is in the \"buy range\". Star Bulk Carriers Corp. ( SBLK ) is -0.37 at $9.60, with 3,065,980 shares traded.SBLK is scheduled to provide an earnings report on 8/8/2017, for the fiscal quarter ending Jun2017. The consensus earnings per share forecast is -0.1 per share, which represents a -73 percent increase over the EPS one Year Ago Freeport-McMoran, Inc. ( FCX ) is +0.02 at $14.39, with 2,436,936 shares traded. Over the last four weeks they have had 3 up revisions for the earnings forecast, for the fiscal quarter ending Mar 2018. The consensus EP…\nArticle 2 provenance: 3333e96841525e4be5980d448fe3543e7195eb5484c3ec217f25427054dfa19b\nArticle 3 date: 2023-12-16\nArticle 3 title: 3 Outstanding Stocks to Buy if Interest Rates Fall Next Year\nArticle 3 source: https://www.nasdaq.com/articles/3-outstanding-stocks-to-buy-if-interest-rates-fall-next-year\nArticle 3 text: Westchester Capital Management, Inc. New Purchases: MCHP , SDY , VZ , Added Positions:PFE, AGN, WM, ZBH, MSFT, CVS, SYF, DIS, CSCO, BRK.B, Reduced Positions:MCD, CAT, GLD, Sold Out:SPY, For the details of Westchester Capital Management, Inc.'s stock buys and sells, go to http://www.gurufocus.com/StockBuy.php?GuruName=Westchester+Capital+Management%2C+Inc. These are the top 5 holdings of Westchester Capital Management, Inc. Apple Inc ( AAPL ) - 79,397 shares, 5.21% of the total portfolio. Shares added by 1.07% Berkshire Hathaway Inc (BRK.B) - 66,429 shares, 5.13% of the total portfolio. Shares added by 2.38% AbbVie Inc ( ABBV ) - 147,343 shares, 4.87% of the total portfolio. Shares added by 1.73% Bank of New York Mellon Corp ( BK ) - 189,076 shares, 4.4% of the total portfolio. Shares added by 1.96% Microsoft Corp ( MSFT ) - 132,418 shares, 4.16% of the total portfolio. Shares added by 3…\nArticle 3 provenance: 5f2daaae54dc2f3d543a46a6d1bbb422b4521aafd2e2962fd58fa6090282b74e\nArticle 4 date: 2023-12-16\nArticle 4 title: 3 Stocks You Can Confidently Buy After a Market Downturn\nArticle 4 source: https://www.nasdaq.com/articles/3-stocks-you-can-confidently-buy-after-a-market-downturn-9\nArticle 4 text: Tirschwell & Loewy Inc New Purchases: NVRO , Added Positions: ROST , SBUX , IP, STT, ADI, DXCM, DHR, RTN, PAYX, PODD, Reduced Positions:CGNX, OXY, IDXX, BF.B, BIIB, GIS, JNJ, COP, SLB, VZ, Sold Out:GWW, WFC, For the details of TIRSCHWELL & LOEWY INC's stock buys and sells, go to http://www.gurufocus.com/StockBuy.php?GuruName=TIRSCHWELL+%26+LOEWY+INC These are the top 5 holdings of TIRSCHWELL & LOEWY INC Cognex Corp ( CGNX ) - 399,580 shares, 5.9% of the total portfolio. Shares reduced by 6.58% Tiffany & Co ( TIF ) - 352,736 shares, 5.76% of the total portfolio. Shares reduced by 0.64% Johnson & Johnson ( JNJ ) - 198,623 shares, 4.57% of the total portfolio. Shares reduced by 1.14% Analog Devices Inc ( ADI ) - 328,315 shares, 4.44% of the total portfolio. Shares added by 2.73% IDEXX Laboratories Inc ( IDXX ) - 154,000 shares, 4.32% of the total portfolio. Shares reduced by 4.78% New Purc…\nArticle 4 provenance: edcdab63623fb448fdf4ed6e09cec3cc23ced07eb71ee4dedeb7ce47b6a9f9a9\nArticle 5 date: 2023-12-16\nArticle 5 title: 49.1% of Warren Buffett's $373 Billion Portfolio Is Invested in 3 Artificial Intelligence (AI) Stocks\nArticle 5 source: https://www.nasdaq.com/articles/49.1-of-warren-buffetts-%24373-billion-portfolio-is-invested-in-3-artificial-intelligence-ai\nArticle 5 text: Applied Optoelectronics, Inc. (AAOI) just released its second-quarter fiscal 2017 financial results, posting earnings of $1.54 per share and revenues of $117.4 million. Currently, AAOI is down a whopping 29.38% to $69.20 per share in trading shortly after its earnings report was released. Applied Optoelectronics: Beat earnings estimates . The company posted earnings of $1.54 per share, defeating the Wall Street Consensus Estimate of $1.32 per share. Beat revenue estimates . The company saw revenue figures of $117.4 million, which is up 112% year-over-year, beating our consensus estimate of $115.64 million. Applied Optoelectronics is calling for revenues between $107 million and $115 million during the third-quarter of fiscal 2017. This range falls below our Zacks Consensus Estimate for the quarter of $122.93 million, which is a large part of the reason the stock lost over 25% after hour…\nArticle 5 provenance: 6961288fd42fbb1ad72f500824391de368a89df35801c1d361185832e8b34c12\nArticle 6 date: 2023-12-16\nArticle 6 title: AAPL Quantitative Stock Analysis\nArticle 6 source: https://www.nasdaq.com/articles/aapl-quantitative-stock-analysis-10\nArticle 6 text: The Dow Jones industrial average continues to hit highs while the S&P 500 and Nasdaq take a breather. [ibd-display-video id=2067944 width=50 float=left autostart=true]That could help new buy opportunities to take shape. Two ETFs with big weightings in PayPal ( PYPL ) and Apple ( AAPL ) are poised near buy points. First Trust US Equity Opportunities ( FPX ) is pulling back near its 50-day moving average , after marking a record high last week. It gained about 3% from an early July bounce off the support line to the peak. The fund tracks the IPOX-100 U.S. Index, which is a market-cap-weighted index of the 100 biggest and most liquid U.S. initial public offerings. The index sets a 10% cap on weightings in all constituents and is reconstituted quarterly. [ibdchart symbol=\"FPX\" type=\"daily\" size=\"threequarter\" position=\"leftchart\" /] FPX, which turned 11 in April, has gathered $858.2 million…\nArticle 6 provenance: 097f8929c639d3d650508e81157edb10008b48a7c7d0fca6163daf9c6a1feacd\nArticle 7 date: 2023-12-16\nArticle 7 title: After Hours Most Active for Dec 18, 2023 : PACB, AAPL, VTIP, EDAP, FTNT, AMZN, HPE, SKT, VZ, MRK, BVN, PFE\nArticle 7 source: https://www.nasdaq.com/articles/after-hours-most-active-for-dec-18-2023-%3A-pacb-aapl-vtip-edap-ftnt-amzn-hpe-skt-vz-mrk-bvn\nArticle 7 text: Dominion Energy Inc . D reported second-quarter 2017 operating earnings of 67 per share, beating the Zacks Consensus Estimate of 66 by a penny. Earnings were within management's guidance range of 60-70 cents per share. However, operating earnings decreased 5.6% from 71 cents earned a year ago. The year-over-year increase is primarily due to reduction of Cove Point import contract revenues and the absence of a farm-out transaction. GAAP earnings were 62 cents per share compared with 73 cents in the year-ago quarter. The difference between GAAP and operating earnings was due to transition and integration costs associated with the Dominion Energy Questar combination. Dominion Energy Inc. Price, Consensus and EPS Surprise Dominion Energy Inc. Price, Consensus and EPS Surprise | Dominion Energy Inc. Quote Total Revenue Dominion's total revenue came in at $2,811 million, lagging the Zacks Con…\nArticle 7 provenance: cedaa51b71c121b1cfc06a8295ca9fb4a8480ec2a7ec8d2cafc27e646a646c4a\nArticle 8 date: 2023-12-16\nArticle 8 title: Apple To Halt Sale Of Watch Series 9 And Ultra 2\nArticle 8 source: https://www.nasdaq.com/articles/apple-to-halt-sale-of-watch-series-9-and-ultra-2\nArticle 8 text: American Financial Group, Inc. 's AFG second-quarter 2017 net operating earnings per share (EPS) of $1.61 surpassed the Zacks Consensus Estimate of $1.30 by 23.9%. Further, the bottom line improved about 25.8% year over year. This year-over-year growth in the bottom line can be attributed to higher operating earnings in both Specialty Property and Casualty (P&C) Insurance Segment and Annuity Segment. American Financial Group, Inc. Price, Consensus and EPS Surprise American Financial Group, Inc. Price, Consensus and EPS Surprise | American Financial Group, Inc. Quote Behind the Headlines Total operating revenue of $1.6 billion rose 6.7% year over year. The top-line growth can be attributed to higher net investment income and P&C insurance net earned premiums. The top line outpaced the Zacks Consensus Estimate of $1.2 billion. Net investment income of $460 million grew 8.7% year over year…\nArticle 8 provenance: b35641d9e48f0ef26334eaa320b1d081980a210b6191e53b09afd375e557a204\n\n[TABLE]\nStatus: AVAILABLE\nSource: financial_reports/aapl/condensed_consolidated_balance_sheets.json;financial_reports/aapl/condensed_consolidated_statement_of_cash_flows.json\nAssets: value=352583000000; unit=USD; form=10-K; fy=2023; fp=FY; period_start=; period_end=2023-09-30; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-11-03; accession=0000320193-23-000106; provenance=703fb92c5726d6d5d83c0f1702b721fd31175346fcdcb5883f38dc4f20350cf2\nLiabilities: value=290437000000; unit=USD; form=10-K; fy=2023; fp=FY; period_start=; period_end=2023-09-30; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-11-03; accession=0000320193-23-000106; provenance=11c3925b16479d166cfbeed425adeb93a99381bc4204461a1ee88553c1cd04fb\nStockholdersEquity: value=62146000000; unit=USD; form=10-K; fy=2023; fp=FY; period_start=; period_end=2023-09-30; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-11-03; accession=0000320193-23-000106; provenance=36aa0dd70cff59ad31b079a9af735c922856d339169c43e2a8fd90224a79edaa\nNetCashProvidedByUsedInOperatingActivities: value=110543000000; unit=USD; form=10-K; fy=2023; fp=FY; period_start=2022-09-25; period_end=2023-09-30; period_duration_days=371; period_duration_class=annual; filed_date=2023-11-03; accession=0000320193-23-000106; provenance=0606ff8c17f3a219496eee917fc96ec9bdb42bb1f445a5688099b5dd77217c9a\nNetCashProvidedByUsedInInvestingActivities: value=3705000000; unit=USD; form=10-K; fy=2023; fp=FY; period_start=2022-09-25; period_end=2023-09-30; period_duration_days=371; period_duration_class=annual; filed_date=2023-11-03; accession=0000320193-23-000106; provenance=c2fef5adef053426776e0d3f8ef3ce70c662b2fcef27aca18af4dd9b591e209b\nNetCashProvidedByUsedInFinancingActivities: value=-108488000000; unit=USD; form=10-K; fy=2023; fp=FY; period_start=2022-09-25; period_end=2023-09-30; period_duration_days=371; period_duration_class=annual; filed_date=2023-11-03; accession=0000320193-23-000106; provenance=bcc21cfc9440de6339623ee347518628d1be3a29583d6837f82ae8287080f8f8\n\n[TIME_SERIES]\nStatus: AVAILABLE\nThrough session: 2024-01-12\nSource: S&P500_time_series/aapl.csv\ncumulative_return_5d: 0.026161853801270674\ncumulative_return_20d: -0.06082041984851205\ncumulative_return_60d: 0.0508887892042067\nrealised_volatility_20d_annualised: 0.1730608383586414\nhigh_low_range_20d: 0.10795364767084425\ndrawdown_from_60d_peak: -0.06153154398485272\nrelative_volume_vs_20d_mean: 0.7192790261339689\nProvenance: a6334efd69a83f81ea03661e52fd1d619efdce8e179c7c79310e4181449888e8\n\n[IMAGE]\nStatus: UNAVAILABLE\nMissingness reason: no completed image with inferred period end strictly before decision\n=== END FINMULTITIME EVIDENCE ===\n",
+  "case_id": "AAPL:2024-01-12",
+  "character_counts": {
+    "complete": 12690,
+    "fundamentals": 2083,
+    "market": 585,
+    "news": 9873
+  },
+  "contract_version": "M1-FINMULTITIME-v1.0.1",
+  "dataset_id": "finmultitime_3stocks_2024h1_v1",
+  "decision_session": "2024-01-12",
+  "decision_time": "2024-01-12T21:00:00+00:00",
+  "packet_status": "FINAL_FROZEN",
+  "record_type": "m1_finmultitime_evidence_packet",
+  "routed_projections": {
+    "fundamentals_analyst": {
+      "sections": [
+        "TABLE"
+      ],
+      "text": "Status: AVAILABLE\nSource: financial_reports/aapl/condensed_consolidated_balance_sheets.json;financial_reports/aapl/condensed_consolidated_statement_of_cash_flows.json\nAssets: value=352583000000; unit=USD; form=10-K; fy=2023; fp=FY; period_start=; period_end=2023-09-30; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-11-03; accession=0000320193-23-000106; provenance=703fb92c5726d6d5d83c0f1702b721fd31175346fcdcb5883f38dc4f20350cf2\nLiabilities: value=290437000000; unit=USD; form=10-K; fy=2023; fp=FY; period_start=; period_end=2023-09-30; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-11-03; accession=0000320193-23-000106; provenance=11c3925b16479d166cfbeed425adeb93a99381bc4204461a1ee88553c1cd04fb\nStockholdersEquity: value=62146000000; unit=USD; form=10-K; fy=2023; fp=FY; period_start=; period_end=2023-09-30; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-11-03; accession=0000320193-23-000106; provenance=36aa0dd70cff59ad31b079a9af735c922856d339169c43e2a8fd90224a79edaa\nNetCashProvidedByUsedInOperatingActivities: value=110543000000; unit=USD; form=10-K; fy=2023; fp=FY; period_start=2022-09-25; period_end=2023-09-30; period_duration_days=371; period_duration_class=annual; filed_date=2023-11-03; accession=0000320193-23-000106; provenance=0606ff8c17f3a219496eee917fc96ec9bdb42bb1f445a5688099b5dd77217c9a\nNetCashProvidedByUsedInInvestingActivities: value=3705000000; unit=USD; form=10-K; fy=2023; fp=FY; period_start=2022-09-25; period_end=2023-09-30; period_duration_days=371; period_duration_class=annual; filed_date=2023-11-03; accession=0000320193-23-000106; provenance=c2fef5adef053426776e0d3f8ef3ce70c662b2fcef27aca18af4dd9b591e209b\nNetCashProvidedByUsedInFinancingActivities: value=-108488000000; unit=USD; form=10-K; fy=2023; fp=FY; period_start=2022-09-25; period_end=2023-09-30; period_duration_days=371; period_duration_class=annual; filed_date=2023-11-03; accession=0000320193-23-000106; provenance=bcc21cfc9440de6339623ee347518628d1be3a29583d6837f82ae8287080f8f8"
+    },
+    "market_analyst": {
+      "sections": [
+        "TIME_SERIES",
+        "IMAGE"
+      ],
+      "text": "Status: AVAILABLE\nThrough session: 2024-01-12\nSource: S&P500_time_series/aapl.csv\ncumulative_return_5d: 0.026161853801270674\ncumulative_return_20d: -0.06082041984851205\ncumulative_return_60d: 0.0508887892042067\nrealised_volatility_20d_annualised: 0.1730608383586414\nhigh_low_range_20d: 0.10795364767084425\ndrawdown_from_60d_peak: -0.06153154398485272\nrelative_volume_vs_20d_mean: 0.7192790261339689\nProvenance: a6334efd69a83f81ea03661e52fd1d619efdce8e179c7c79310e4181449888e8\n\nStatus: UNAVAILABLE\nMissingness reason: no completed image with inferred period end strictly before decision"
+    },
+    "news_analyst": {
+      "sections": [
+        "TEXT"
+      ],
+      "text": "Status: AVAILABLE\nEvidence age (calendar days): 27\nSource: sp500_news/AAPL.jsonl\nArticle 1 date: 2023-12-16\nArticle 1 title: 2 Top Warren Buffett Stocks to Buy Right Now\nArticle 1 source: https://www.nasdaq.com/articles/2-top-warren-buffett-stocks-to-buy-right-now-14\nArticle 1 text: Hubspot, Inc.HUBS reported revenues of $89.1 million, showcasing a year-over-year increase of 37.1% in second-quarter 2017. The figure surpassed the Zacks Consensus Estimate of $86 million as well as the guided range of $85-$86 million. The company posted adjusted profit of 7 cents per share against a loss of 7 cents per share in the year-ago quarter. Notably, including stock-based compensation, loss per share came in at 26 cents. The Zacks Consensus Estimate was pegged at a loss of 37 cents. The year-over-year growth in revenues can be primarily attributed to the growing customer base. HubSpot's stock has gained 49.2% year to date, substantially outperforming the 19.4% rally of the industry it belongs to. Quarter Details Total customers increased 40% year over year to 34,326. Marketing customers increased 30% to 26,560. Average subscription revenue per customer was up 6.6% year over ye…\nArticle 1 provenance: 6f634f5b15ee13e1f0a8c90cddd78466821c828c175b021f5d1af5e3bb3fb6fe\nArticle 2 date: 2023-12-16\nArticle 2 title: 3 Artificial Intelligence (AI) Stocks for 2024 (and Beyond)\nArticle 2 source: https://www.nasdaq.com/articles/3-artificial-intelligence-ai-stocks-for-2024-and-beyond\nArticle 2 text: The NASDAQ 100 After Hours Indicator is down -1.04 to 5,890.16. The total After hours volume is currently 40,597,207 shares traded. The following are the most active stocks for the after hours session : Nabors Industries Ltd. ( NBR ) is unchanged at $7.46, with 3,761,075 shares traded. As reported by Zacks, the current mean recommendation for NBR is in the \"buy range\". Star Bulk Carriers Corp. ( SBLK ) is -0.37 at $9.60, with 3,065,980 shares traded.SBLK is scheduled to provide an earnings report on 8/8/2017, for the fiscal quarter ending Jun2017. The consensus earnings per share forecast is -0.1 per share, which represents a -73 percent increase over the EPS one Year Ago Freeport-McMoran, Inc. ( FCX ) is +0.02 at $14.39, with 2,436,936 shares traded. Over the last four weeks they have had 3 up revisions for the earnings forecast, for the fiscal quarter ending Mar 2018. The consensus EP…\nArticle 2 provenance: 3333e96841525e4be5980d448fe3543e7195eb5484c3ec217f25427054dfa19b\nArticle 3 date: 2023-12-16\nArticle 3 title: 3 Outstanding Stocks to Buy if Interest Rates Fall Next Year\nArticle 3 source: https://www.nasdaq.com/articles/3-outstanding-stocks-to-buy-if-interest-rates-fall-next-year\nArticle 3 text: Westchester Capital Management, Inc. New Purchases: MCHP , SDY , VZ , Added Positions:PFE, AGN, WM, ZBH, MSFT, CVS, SYF, DIS, CSCO, BRK.B, Reduced Positions:MCD, CAT, GLD, Sold Out:SPY, For the details of Westchester Capital Management, Inc.'s stock buys and sells, go to http://www.gurufocus.com/StockBuy.php?GuruName=Westchester+Capital+Management%2C+Inc. These are the top 5 holdings of Westchester Capital Management, Inc. Apple Inc ( AAPL ) - 79,397 shares, 5.21% of the total portfolio. Shares added by 1.07% Berkshire Hathaway Inc (BRK.B) - 66,429 shares, 5.13% of the total portfolio. Shares added by 2.38% AbbVie Inc ( ABBV ) - 147,343 shares, 4.87% of the total portfolio. Shares added by 1.73% Bank of New York Mellon Corp ( BK ) - 189,076 shares, 4.4% of the total portfolio. Shares added by 1.96% Microsoft Corp ( MSFT ) - 132,418 shares, 4.16% of the total portfolio. Shares added by 3…\nArticle 3 provenance: 5f2daaae54dc2f3d543a46a6d1bbb422b4521aafd2e2962fd58fa6090282b74e\nArticle 4 date: 2023-12-16\nArticle 4 title: 3 Stocks You Can Confidently Buy After a Market Downturn\nArticle 4 source: https://www.nasdaq.com/articles/3-stocks-you-can-confidently-buy-after-a-market-downturn-9\nArticle 4 text: Tirschwell & Loewy Inc New Purchases: NVRO , Added Positions: ROST , SBUX , IP, STT, ADI, DXCM, DHR, RTN, PAYX, PODD, Reduced Positions:CGNX, OXY, IDXX, BF.B, BIIB, GIS, JNJ, COP, SLB, VZ, Sold Out:GWW, WFC, For the details of TIRSCHWELL & LOEWY INC's stock buys and sells, go to http://www.gurufocus.com/StockBuy.php?GuruName=TIRSCHWELL+%26+LOEWY+INC These are the top 5 holdings of TIRSCHWELL & LOEWY INC Cognex Corp ( CGNX ) - 399,580 shares, 5.9% of the total portfolio. Shares reduced by 6.58% Tiffany & Co ( TIF ) - 352,736 shares, 5.76% of the total portfolio. Shares reduced by 0.64% Johnson & Johnson ( JNJ ) - 198,623 shares, 4.57% of the total portfolio. Shares reduced by 1.14% Analog Devices Inc ( ADI ) - 328,315 shares, 4.44% of the total portfolio. Shares added by 2.73% IDEXX Laboratories Inc ( IDXX ) - 154,000 shares, 4.32% of the total portfolio. Shares reduced by 4.78% New Purc…\nArticle 4 provenance: edcdab63623fb448fdf4ed6e09cec3cc23ced07eb71ee4dedeb7ce47b6a9f9a9\nArticle 5 date: 2023-12-16\nArticle 5 title: 49.1% of Warren Buffett's $373 Billion Portfolio Is Invested in 3 Artificial Intelligence (AI) Stocks\nArticle 5 source: https://www.nasdaq.com/articles/49.1-of-warren-buffetts-%24373-billion-portfolio-is-invested-in-3-artificial-intelligence-ai\nArticle 5 text: Applied Optoelectronics, Inc. (AAOI) just released its second-quarter fiscal 2017 financial results, posting earnings of $1.54 per share and revenues of $117.4 million. Currently, AAOI is down a whopping 29.38% to $69.20 per share in trading shortly after its earnings report was released. Applied Optoelectronics: Beat earnings estimates . The company posted earnings of $1.54 per share, defeating the Wall Street Consensus Estimate of $1.32 per share. Beat revenue estimates . The company saw revenue figures of $117.4 million, which is up 112% year-over-year, beating our consensus estimate of $115.64 million. Applied Optoelectronics is calling for revenues between $107 million and $115 million during the third-quarter of fiscal 2017. This range falls below our Zacks Consensus Estimate for the quarter of $122.93 million, which is a large part of the reason the stock lost over 25% after hour…\nArticle 5 provenance: 6961288fd42fbb1ad72f500824391de368a89df35801c1d361185832e8b34c12\nArticle 6 date: 2023-12-16\nArticle 6 title: AAPL Quantitative Stock Analysis\nArticle 6 source: https://www.nasdaq.com/articles/aapl-quantitative-stock-analysis-10\nArticle 6 text: The Dow Jones industrial average continues to hit highs while the S&P 500 and Nasdaq take a breather. [ibd-display-video id=2067944 width=50 float=left autostart=true]That could help new buy opportunities to take shape. Two ETFs with big weightings in PayPal ( PYPL ) and Apple ( AAPL ) are poised near buy points. First Trust US Equity Opportunities ( FPX ) is pulling back near its 50-day moving average , after marking a record high last week. It gained about 3% from an early July bounce off the support line to the peak. The fund tracks the IPOX-100 U.S. Index, which is a market-cap-weighted index of the 100 biggest and most liquid U.S. initial public offerings. The index sets a 10% cap on weightings in all constituents and is reconstituted quarterly. [ibdchart symbol=\"FPX\" type=\"daily\" size=\"threequarter\" position=\"leftchart\" /] FPX, which turned 11 in April, has gathered $858.2 million…\nArticle 6 provenance: 097f8929c639d3d650508e81157edb10008b48a7c7d0fca6163daf9c6a1feacd\nArticle 7 date: 2023-12-16\nArticle 7 title: After Hours Most Active for Dec 18, 2023 : PACB, AAPL, VTIP, EDAP, FTNT, AMZN, HPE, SKT, VZ, MRK, BVN, PFE\nArticle 7 source: https://www.nasdaq.com/articles/after-hours-most-active-for-dec-18-2023-%3A-pacb-aapl-vtip-edap-ftnt-amzn-hpe-skt-vz-mrk-bvn\nArticle 7 text: Dominion Energy Inc . D reported second-quarter 2017 operating earnings of 67 per share, beating the Zacks Consensus Estimate of 66 by a penny. Earnings were within management's guidance range of 60-70 cents per share. However, operating earnings decreased 5.6% from 71 cents earned a year ago. The year-over-year increase is primarily due to reduction of Cove Point import contract revenues and the absence of a farm-out transaction. GAAP earnings were 62 cents per share compared with 73 cents in the year-ago quarter. The difference between GAAP and operating earnings was due to transition and integration costs associated with the Dominion Energy Questar combination. Dominion Energy Inc. Price, Consensus and EPS Surprise Dominion Energy Inc. Price, Consensus and EPS Surprise | Dominion Energy Inc. Quote Total Revenue Dominion's total revenue came in at $2,811 million, lagging the Zacks Con…\nArticle 7 provenance: cedaa51b71c121b1cfc06a8295ca9fb4a8480ec2a7ec8d2cafc27e646a646c4a\nArticle 8 date: 2023-12-16\nArticle 8 title: Apple To Halt Sale Of Watch Series 9 And Ultra 2\nArticle 8 source: https://www.nasdaq.com/articles/apple-to-halt-sale-of-watch-series-9-and-ultra-2\nArticle 8 text: American Financial Group, Inc. 's AFG second-quarter 2017 net operating earnings per share (EPS) of $1.61 surpassed the Zacks Consensus Estimate of $1.30 by 23.9%. Further, the bottom line improved about 25.8% year over year. This year-over-year growth in the bottom line can be attributed to higher operating earnings in both Specialty Property and Casualty (P&C) Insurance Segment and Annuity Segment. American Financial Group, Inc. Price, Consensus and EPS Surprise American Financial Group, Inc. Price, Consensus and EPS Surprise | American Financial Group, Inc. Quote Behind the Headlines Total operating revenue of $1.6 billion rose 6.7% year over year. The top-line growth can be attributed to higher net investment income and P&C insurance net earned premiums. The top line outpaced the Zacks Consensus Estimate of $1.2 billion. Net investment income of $460 million grew 8.7% year over year…\nArticle 8 provenance: b35641d9e48f0ef26334eaa320b1d081980a210b6191e53b09afd375e557a204"
+    },
+    "social_analyst": {
+      "sections": [],
+      "text": ""
+    }
+  },
+  "routing": {
+    "modality_to_analyst": {
+      "IMAGE": "Market Analyst",
+      "TABLE": "Fundamentals Analyst",
+      "TEXT": "News Analyst",
+      "TIME_SERIES": "Market Analyst"
+    },
+    "raw_packet_direct_injection": false,
+    "social_analyst": "NO_FINMULTITIME_EVIDENCE"
+  },
+  "source_provenance": {
+    "contract_sha256": "13563ba0c829addde44d602cf8b9ac0e2879d8091832ee120a5caefa4c843ab3",
+    "frozen_m0_base_sha": "2535896c8b1070b19c06fa6a936663babb4356f7",
+    "preprocessed_case_path": "cases/AAPL/2024-01-12.json",
+    "qwen": null,
+    "source_hash_reference": "c02bc2089a918102f3d8023a0778f43c4d66b639598031e236fe0a6c00cc0788"
+  },
+  "symbol": "AAPL"
+}

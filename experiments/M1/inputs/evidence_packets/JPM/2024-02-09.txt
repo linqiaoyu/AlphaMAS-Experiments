@@ -1,0 +1,40 @@
+=== FINMULTITIME EVIDENCE ===
+Symbol: JPM
+Decision session: 2024-02-09
+
+[TEXT]
+Status: UNAVAILABLE
+Missingness reason: no FinMultiTime news member for target symbol
+
+[TABLE]
+Status: AVAILABLE
+Source: financial_reports/jpm/condensed_consolidated_balance_sheets.json;financial_reports/jpm/condensed_consolidated_statement_of_cash_flows.json
+Assets: value=3898333000000; unit=USD; form=10-Q; fy=2023; fp=Q3; period_start=; period_end=2023-09-30; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-11-01; accession=0000019617-23-000524; provenance=4e96ceea5af62046492fd2a503075c807f74794c2fbacce9b87a1e424837c4a5
+Liabilities: value=3580962000000; unit=USD; form=10-Q; fy=2023; fp=Q3; period_start=; period_end=2023-09-30; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-11-01; accession=0000019617-23-000524; provenance=4599ef560fef4095eceed7a79f7b01d750b8108c97e5b6337dd1ad1d85aabea0
+StockholdersEquity: value=317371000000; unit=USD; form=10-Q; fy=2023; fp=Q3; period_start=; period_end=2023-09-30; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-11-01; accession=0000019617-23-000524; provenance=45433a7c9ae8df6214b0408ef40c6ead0517d9e99658335d041c640c239a3aed
+NetCashProvidedByUsedInOperatingActivities: value=-47257000000; unit=USD; form=10-Q; fy=2023; fp=Q3; period_start=2023-01-01; period_end=2023-09-30; period_duration_days=273; period_duration_class=year_to_date_9m; filed_date=2023-11-01; accession=0000019617-23-000524; provenance=9470e25b2392acf86d6cd5ca87110dc3f5e37f870008ed8fdb273ed14af8c5d9
+NetCashProvidedByUsedInInvestingActivities: value=-12239000000; unit=USD; form=10-Q; fy=2023; fp=Q3; period_start=2023-01-01; period_end=2023-09-30; period_duration_days=273; period_duration_class=year_to_date_9m; filed_date=2023-11-01; accession=0000019617-23-000524; provenance=4442cafef1c457008dc733e70fccb0ee78e3f08af7cfbedbc4ff98c3b5346f0d
+NetCashProvidedByUsedInFinancingActivities: value=10326000000; unit=USD; form=10-Q; fy=2023; fp=Q3; period_start=2023-01-01; period_end=2023-09-30; period_duration_days=273; period_duration_class=year_to_date_9m; filed_date=2023-11-01; accession=0000019617-23-000524; provenance=964f1af55f9aacef7e89c24824bd7b7616273f24c0ea119aa96803fa98da3648
+
+[TIME_SERIES]
+Status: AVAILABLE
+Through session: 2024-02-09
+Source: S&P500_time_series/jpm.csv
+cumulative_return_5d: 0.0016024593932026931
+cumulative_return_20d: 0.02765683890462589
+cumulative_return_60d: 0.20791036873614344
+realised_volatility_20d_annualised: 0.13383447144910057
+high_low_range_20d: 0.08521012632323077
+drawdown_from_60d_peak: -0.007148332942083613
+relative_volume_vs_20d_mean: 0.6149436372470268
+Provenance: 809c83df911f2a1d1635bc4108bc58f9a02d590c16d14dc2dc07f2b5aee17373
+
+[IMAGE]
+Status: AVAILABLE
+Chart period: 2023-H2
+Inferred period end: 2023-12-31
+Evidence age (calendar days): 40
+Source: image/jpm_2023_H2_candlestick.png
+Canonical caption: {"candlestick_structure":"mostly green, with some red","confidence":"high","momentum_visual":"increasing","notable_gap_or_reversal":"none","other_visible_pattern":"none","support_resistance_visual":"none","trend":"upward","volatility_visual":"moderate","volume_visual":"none"}
+Caption provenance: qwen/captions/jpm_2023_H2_candlestick.json
+=== END FINMULTITIME EVIDENCE ===

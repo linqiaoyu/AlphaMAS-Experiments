@@ -1,0 +1,205 @@
+{
+  "IMAGE": {
+    "canonical_caption": {
+      "candlestick_structure": "mostly green and red",
+      "confidence": "high",
+      "momentum_visual": "increasing",
+      "notable_gap_or_reversal": "none",
+      "other_visible_pattern": "none",
+      "support_resistance_visual": "none",
+      "trend": "upward",
+      "volatility_visual": "moderate",
+      "volume_visual": "none"
+    },
+    "caption_sha256": "131c2904cd82c850f94b00cc58e2b97b2ef69c7e805fa562ef2c8f2e00a568fe",
+    "caption_status": "GENERATED",
+    "chart_period": "2023-H2",
+    "evidence_age_calendar_days": 173,
+    "image_sha256": "215c01f8a03dc55719558644992b14c28d8b9f604d44e3504ef7df0f99997bb8",
+    "inferred_period_end": "2023-12-31",
+    "provenance_hash_reference": "qwen/captions/amzn_2023_H2_candlestick.json",
+    "reason": "",
+    "source_identity": "image/amzn_2023_H2_candlestick.png",
+    "status": "AVAILABLE"
+  },
+  "TABLE": {
+    "facts": {
+      "Assets": {
+        "accession": "0001018724-24-000083",
+        "filed_date": "2024-05-01",
+        "form": "10-Q",
+        "fp": "Q1",
+        "fy": 2024,
+        "period_duration_class": "point_in_time",
+        "period_duration_days": null,
+        "period_end": "2024-03-31",
+        "period_start": "",
+        "provenance_hash_reference": "aeb8877dd37a86cab9e9d52e136c7cd34247c2c5ad9165934cdba3fb22501a09",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 530969000000
+      },
+      "Liabilities": {
+        "reason": "no canonical PIT-safe selected fact",
+        "status": "UNAVAILABLE"
+      },
+      "NetCashProvidedByUsedInFinancingActivities": {
+        "accession": "0001018724-24-000083",
+        "filed_date": "2024-05-01",
+        "form": "10-Q",
+        "fp": "Q1",
+        "fy": 2024,
+        "period_duration_class": "quarterly",
+        "period_duration_days": 91,
+        "period_end": "2024-03-31",
+        "period_start": "2024-01-01",
+        "provenance_hash_reference": "9bd4280fabe04706001cf28c5d46d8086945a9e0bb792bab834e25b5ce66fc72",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": -1256000000
+      },
+      "NetCashProvidedByUsedInInvestingActivities": {
+        "accession": "0001018724-24-000083",
+        "filed_date": "2024-05-01",
+        "form": "10-Q",
+        "fp": "Q1",
+        "fy": 2024,
+        "period_duration_class": "quarterly",
+        "period_duration_days": 91,
+        "period_end": "2024-03-31",
+        "period_start": "2024-01-01",
+        "provenance_hash_reference": "b56cdbd41edf055dffd276bbc8f71875219e58d62d4889d85cbf2bc85641eace",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": -17862000000
+      },
+      "NetCashProvidedByUsedInOperatingActivities": {
+        "accession": "0001018724-24-000083",
+        "filed_date": "2024-05-01",
+        "form": "10-Q",
+        "fp": "Q1",
+        "fy": 2024,
+        "period_duration_class": "quarterly",
+        "period_duration_days": 91,
+        "period_end": "2024-03-31",
+        "period_start": "2024-01-01",
+        "provenance_hash_reference": "3731cfee772c0a51185dbf62e77efdb15b7be1eadc8bc4d01202035120dd73b9",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 18989000000
+      },
+      "StockholdersEquity": {
+        "accession": "0001018724-24-000083",
+        "filed_date": "2024-05-01",
+        "form": "10-Q",
+        "fp": "Q1",
+        "fy": 2024,
+        "period_duration_class": "point_in_time",
+        "period_duration_days": null,
+        "period_end": "2024-03-31",
+        "period_start": "",
+        "provenance_hash_reference": "81fe52fba45367880009bdde192447fa28ce5a851dc57775fcbb041794086c9b",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 216661000000
+      }
+    },
+    "provenance_hash_reference": "264b9d4566ce9191c311819c3435e56c25b719ae48d3154cf0793c6a6bda062f",
+    "reason": "",
+    "selection_rule": "frozen six-concept TABLE selection; filed_date < decision session",
+    "source_identity": "financial_reports/amzn/condensed_consolidated_balance_sheets.json;financial_reports/amzn/condensed_consolidated_statement_of_cash_flows.json",
+    "status": "AVAILABLE"
+  },
+  "TEXT": {
+    "evidence_age_calendar_days": 188,
+    "provenance_hash_reference": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "reason": "no PIT-safe article inside fixed 30-calendar-day lookback",
+    "records": [],
+    "selection_rule": "frozen bounded TEXT selection; Date < decision session; deterministic order",
+    "source_identity": "sp500_news/AMZN.jsonl",
+    "status": "UNAVAILABLE"
+  },
+  "TIME_SERIES": {
+    "provenance_hash_reference": "853ea734a4e123612bbbb54332319f6551fe5ccf601e619ef785a7f67722d2c3",
+    "reason": "",
+    "selection_rule": "frozen descriptive summaries from 61 completed source rows; session <= decision",
+    "source_identity": "S&P500_time_series/amzn.csv",
+    "status": "AVAILABLE",
+    "summaries": {
+      "cumulative_return_20d": 0.03249056293123398,
+      "cumulative_return_5d": 0.028558994438921292,
+      "cumulative_return_60d": 0.06045989116538375,
+      "drawdown_from_60d_peak": -0.0022163491764923826,
+      "high_low_range_20d": 0.08862945933669075,
+      "realised_volatility_20d_annualised": 0.18001948926284883,
+      "relative_volume_vs_20d_mean": 2.187693008224119
+    },
+    "through_session": "2024-06-21"
+  },
+  "agent_text": "=== FINMULTITIME EVIDENCE ===\nSymbol: AMZN\nDecision session: 2024-06-21\n\n[TEXT]\nStatus: UNAVAILABLE\nMissingness reason: no PIT-safe article inside fixed 30-calendar-day lookback\n\n[TABLE]\nStatus: AVAILABLE\nSource: financial_reports/amzn/condensed_consolidated_balance_sheets.json;financial_reports/amzn/condensed_consolidated_statement_of_cash_flows.json\nAssets: value=530969000000; unit=USD; form=10-Q; fy=2024; fp=Q1; period_start=; period_end=2024-03-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2024-05-01; accession=0001018724-24-000083; provenance=aeb8877dd37a86cab9e9d52e136c7cd34247c2c5ad9165934cdba3fb22501a09\nLiabilities: UNAVAILABLE\nStockholdersEquity: value=216661000000; unit=USD; form=10-Q; fy=2024; fp=Q1; period_start=; period_end=2024-03-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2024-05-01; accession=0001018724-24-000083; provenance=81fe52fba45367880009bdde192447fa28ce5a851dc57775fcbb041794086c9b\nNetCashProvidedByUsedInOperatingActivities: value=18989000000; unit=USD; form=10-Q; fy=2024; fp=Q1; period_start=2024-01-01; period_end=2024-03-31; period_duration_days=91; period_duration_class=quarterly; filed_date=2024-05-01; accession=0001018724-24-000083; provenance=3731cfee772c0a51185dbf62e77efdb15b7be1eadc8bc4d01202035120dd73b9\nNetCashProvidedByUsedInInvestingActivities: value=-17862000000; unit=USD; form=10-Q; fy=2024; fp=Q1; period_start=2024-01-01; period_end=2024-03-31; period_duration_days=91; period_duration_class=quarterly; filed_date=2024-05-01; accession=0001018724-24-000083; provenance=b56cdbd41edf055dffd276bbc8f71875219e58d62d4889d85cbf2bc85641eace\nNetCashProvidedByUsedInFinancingActivities: value=-1256000000; unit=USD; form=10-Q; fy=2024; fp=Q1; period_start=2024-01-01; period_end=2024-03-31; period_duration_days=91; period_duration_class=quarterly; filed_date=2024-05-01; accession=0001018724-24-000083; provenance=9bd4280fabe04706001cf28c5d46d8086945a9e0bb792bab834e25b5ce66fc72\n\n[TIME_SERIES]\nStatus: AVAILABLE\nThrough session: 2024-06-21\nSource: S&P500_time_series/amzn.csv\ncumulative_return_5d: 0.028558994438921292\ncumulative_return_20d: 0.03249056293123398\ncumulative_return_60d: 0.06045989116538375\nrealised_volatility_20d_annualised: 0.18001948926284883\nhigh_low_range_20d: 0.08862945933669075\ndrawdown_from_60d_peak: -0.0022163491764923826\nrelative_volume_vs_20d_mean: 2.187693008224119\nProvenance: 853ea734a4e123612bbbb54332319f6551fe5ccf601e619ef785a7f67722d2c3\n\n[IMAGE]\nStatus: AVAILABLE\nChart period: 2023-H2\nInferred period end: 2023-12-31\nEvidence age (calendar days): 173\nSource: image/amzn_2023_H2_candlestick.png\nCanonical caption: {\"candlestick_structure\":\"mostly green and red\",\"confidence\":\"high\",\"momentum_visual\":\"increasing\",\"notable_gap_or_reversal\":\"none\",\"other_visible_pattern\":\"none\",\"support_resistance_visual\":\"none\",\"trend\":\"upward\",\"volatility_visual\":\"moderate\",\"volume_visual\":\"none\"}\nCaption provenance: qwen/captions/amzn_2023_H2_candlestick.json\n=== END FINMULTITIME EVIDENCE ===\n",
+  "case_id": "AMZN:2024-06-21",
+  "character_counts": {
+    "complete": 3037,
+    "fundamentals": 1811,
+    "market": 980,
+    "news": 97
+  },
+  "contract_version": "M1-FINMULTITIME-v1.0.1",
+  "dataset_id": "finmultitime_3stocks_2024h1_v1",
+  "decision_session": "2024-06-21",
+  "decision_time": "2024-06-21T20:00:00+00:00",
+  "packet_status": "FINAL_FROZEN",
+  "record_type": "m1_finmultitime_evidence_packet",
+  "routed_projections": {
+    "fundamentals_analyst": {
+      "sections": [
+        "TABLE"
+      ],
+      "text": "Status: AVAILABLE\nSource: financial_reports/amzn/condensed_consolidated_balance_sheets.json;financial_reports/amzn/condensed_consolidated_statement_of_cash_flows.json\nAssets: value=530969000000; unit=USD; form=10-Q; fy=2024; fp=Q1; period_start=; period_end=2024-03-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2024-05-01; accession=0001018724-24-000083; provenance=aeb8877dd37a86cab9e9d52e136c7cd34247c2c5ad9165934cdba3fb22501a09\nLiabilities: UNAVAILABLE\nStockholdersEquity: value=216661000000; unit=USD; form=10-Q; fy=2024; fp=Q1; period_start=; period_end=2024-03-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2024-05-01; accession=0001018724-24-000083; provenance=81fe52fba45367880009bdde192447fa28ce5a851dc57775fcbb041794086c9b\nNetCashProvidedByUsedInOperatingActivities: value=18989000000; unit=USD; form=10-Q; fy=2024; fp=Q1; period_start=2024-01-01; period_end=2024-03-31; period_duration_days=91; period_duration_class=quarterly; filed_date=2024-05-01; accession=0001018724-24-000083; provenance=3731cfee772c0a51185dbf62e77efdb15b7be1eadc8bc4d01202035120dd73b9\nNetCashProvidedByUsedInInvestingActivities: value=-17862000000; unit=USD; form=10-Q; fy=2024; fp=Q1; period_start=2024-01-01; period_end=2024-03-31; period_duration_days=91; period_duration_class=quarterly; filed_date=2024-05-01; accession=0001018724-24-000083; provenance=b56cdbd41edf055dffd276bbc8f71875219e58d62d4889d85cbf2bc85641eace\nNetCashProvidedByUsedInFinancingActivities: value=-1256000000; unit=USD; form=10-Q; fy=2024; fp=Q1; period_start=2024-01-01; period_end=2024-03-31; period_duration_days=91; period_duration_class=quarterly; filed_date=2024-05-01; accession=0001018724-24-000083; provenance=9bd4280fabe04706001cf28c5d46d8086945a9e0bb792bab834e25b5ce66fc72"
+    },
+    "market_analyst": {
+      "sections": [
+        "TIME_SERIES",
+        "IMAGE"
+      ],
+      "text": "Status: AVAILABLE\nThrough session: 2024-06-21\nSource: S&P500_time_series/amzn.csv\ncumulative_return_5d: 0.028558994438921292\ncumulative_return_20d: 0.03249056293123398\ncumulative_return_60d: 0.06045989116538375\nrealised_volatility_20d_annualised: 0.18001948926284883\nhigh_low_range_20d: 0.08862945933669075\ndrawdown_from_60d_peak: -0.0022163491764923826\nrelative_volume_vs_20d_mean: 2.187693008224119\nProvenance: 853ea734a4e123612bbbb54332319f6551fe5ccf601e619ef785a7f67722d2c3\n\nStatus: AVAILABLE\nChart period: 2023-H2\nInferred period end: 2023-12-31\nEvidence age (calendar days): 173\nSource: image/amzn_2023_H2_candlestick.png\nCanonical caption: {\"candlestick_structure\":\"mostly green and red\",\"confidence\":\"high\",\"momentum_visual\":\"increasing\",\"notable_gap_or_reversal\":\"none\",\"other_visible_pattern\":\"none\",\"support_resistance_visual\":\"none\",\"trend\":\"upward\",\"volatility_visual\":\"moderate\",\"volume_visual\":\"none\"}\nCaption provenance: qwen/captions/amzn_2023_H2_candlestick.json"
+    },
+    "news_analyst": {
+      "sections": [
+        "TEXT"
+      ],
+      "text": "Status: UNAVAILABLE\nMissingness reason: no PIT-safe article inside fixed 30-calendar-day lookback"
+    },
+    "social_analyst": {
+      "sections": [],
+      "text": ""
+    }
+  },
+  "routing": {
+    "modality_to_analyst": {
+      "IMAGE": "Market Analyst",
+      "TABLE": "Fundamentals Analyst",
+      "TEXT": "News Analyst",
+      "TIME_SERIES": "Market Analyst"
+    },
+    "raw_packet_direct_injection": false,
+    "social_analyst": "NO_FINMULTITIME_EVIDENCE"
+  },
+  "source_provenance": {
+    "contract_sha256": "13563ba0c829addde44d602cf8b9ac0e2879d8091832ee120a5caefa4c843ab3",
+    "frozen_m0_base_sha": "2535896c8b1070b19c06fa6a936663babb4356f7",
+    "preprocessed_case_path": "cases/AMZN/2024-06-21.json",
+    "qwen": {
+      "aws_environment_freeze_sha256": "cd011c2953457c399573319dd8067bede1d3c635061846fc420266010d19d7e2",
+      "caption_manifest_sha256": "50d85fdf08e98ef31fb0408cfafa9a0d4d2a26b4151816bff64755b42a589373",
+      "captioning_code_sha": "4ce6af13c6dd82218d1bb9a2600fdbf7f108bc8c",
+      "model_repo_id": "Qwen/Qwen3-VL-2B-Instruct",
+      "model_revision": "89644892e4d85e24eaac8bacfd4f463576704203",
+      "package_freeze_sha256": "e4b16b0179dab01f2d541b31986de6ff4a658c61b4d60c3222c30fd76778afc2",
+      "prompt_sha256": "284c6e52763796a47f7d30fd2e44cfe68d9211db6831d89ec5ed436920c34df9",
+      "schema_sha256": "bf8f04330ffb1bd8468b9bf01eb96bec6b35bb4bad29c8e3f1ad6c47cf0ca8e4"
+    },
+    "source_hash_reference": "6ebc370f6a16abf31cce584d84c7941384dd27b0e3ca4633be271345dde7f853"
+  },
+  "symbol": "AMZN"
+}

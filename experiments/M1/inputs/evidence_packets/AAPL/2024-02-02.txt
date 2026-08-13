@@ -1,0 +1,35 @@
+=== FINMULTITIME EVIDENCE ===
+Symbol: AAPL
+Decision session: 2024-02-02
+
+[TEXT]
+Status: UNAVAILABLE
+Missingness reason: no PIT-safe article inside fixed 30-calendar-day lookback
+
+[TABLE]
+Status: AVAILABLE
+Source: financial_reports/aapl/condensed_consolidated_balance_sheets.json;financial_reports/aapl/condensed_consolidated_statement_of_cash_flows.json
+Assets: value=352583000000; unit=USD; form=10-K; fy=2023; fp=FY; period_start=; period_end=2023-09-30; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-11-03; accession=0000320193-23-000106; provenance=703fb92c5726d6d5d83c0f1702b721fd31175346fcdcb5883f38dc4f20350cf2
+Liabilities: value=290437000000; unit=USD; form=10-K; fy=2023; fp=FY; period_start=; period_end=2023-09-30; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-11-03; accession=0000320193-23-000106; provenance=11c3925b16479d166cfbeed425adeb93a99381bc4204461a1ee88553c1cd04fb
+StockholdersEquity: value=62146000000; unit=USD; form=10-K; fy=2023; fp=FY; period_start=; period_end=2023-09-30; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-11-03; accession=0000320193-23-000106; provenance=36aa0dd70cff59ad31b079a9af735c922856d339169c43e2a8fd90224a79edaa
+NetCashProvidedByUsedInOperatingActivities: value=110543000000; unit=USD; form=10-K; fy=2023; fp=FY; period_start=2022-09-25; period_end=2023-09-30; period_duration_days=371; period_duration_class=annual; filed_date=2023-11-03; accession=0000320193-23-000106; provenance=0606ff8c17f3a219496eee917fc96ec9bdb42bb1f445a5688099b5dd77217c9a
+NetCashProvidedByUsedInInvestingActivities: value=3705000000; unit=USD; form=10-K; fy=2023; fp=FY; period_start=2022-09-25; period_end=2023-09-30; period_duration_days=371; period_duration_class=annual; filed_date=2023-11-03; accession=0000320193-23-000106; provenance=c2fef5adef053426776e0d3f8ef3ce70c662b2fcef27aca18af4dd9b591e209b
+NetCashProvidedByUsedInFinancingActivities: value=-108488000000; unit=USD; form=10-K; fy=2023; fp=FY; period_start=2022-09-25; period_end=2023-09-30; period_duration_days=371; period_duration_class=annual; filed_date=2023-11-03; accession=0000320193-23-000106; provenance=bcc21cfc9440de6339623ee347518628d1be3a29583d6837f82ae8287080f8f8
+
+[TIME_SERIES]
+Status: AVAILABLE
+Through session: 2024-02-02
+Source: S&P500_time_series/aapl.csv
+cumulative_return_5d: -0.034143993339703194
+cumulative_return_20d: 0.021659076976044522
+cumulative_return_60d: 0.0383019537493674
+realised_volatility_20d_annualised: 0.2110678550356714
+high_low_range_20d: 0.09556489823650716
+drawdown_from_60d_peak: -0.06188479458775753
+relative_volume_vs_20d_mean: 1.8451738951036334
+Provenance: abde77c502ac8890c275f7b247d8c5de6b886881ebb34689576681c54b10fa1c
+
+[IMAGE]
+Status: UNAVAILABLE
+Missingness reason: no completed image with inferred period end strictly before decision
+=== END FINMULTITIME EVIDENCE ===

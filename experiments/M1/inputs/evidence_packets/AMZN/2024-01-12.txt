@@ -1,0 +1,81 @@
+=== FINMULTITIME EVIDENCE ===
+Symbol: AMZN
+Decision session: 2024-01-12
+
+[TEXT]
+Status: AVAILABLE
+Evidence age (calendar days): 27
+Source: sp500_news/AMZN.jsonl
+Article 1 date: 2023-12-16
+Article 1 title: 2 Reasons to Buy Amazon Stock Like There's No Tomorrow
+Article 1 source: https://www.nasdaq.com/articles/2-reasons-to-buy-amazon-stock-like-theres-no-tomorrow
+Article 1 text: After suffering a 50% drop in its stock in 2022, Amazon (NASDAQ: AMZN) has delivered an impressive turnaround this year. Last year, high inflation and rising interest rates curbed consumer discretionary spending and caused significant declines in Amazon's e-commerce segments. However, in 2023, the company pulled its retail business back to profitability while delivering multiple quarters of impressive earnings. As a result, Amazon's stock is up around 80% since Jan. 1. The company is on a promising growth trajectory with a recovering retail business and an expanding position in artificial intelligence (AI). Now is an excellent time to learn more about this tech giant and potentially invest before it's too late. Here are two reasons to buy Amazon's stock like there's no tomorrow. 1. Amazon's comeback this year proves it's one of the most reliable investments over the long term In 2022, A…
+Article 1 provenance: a2f9113f502b4c3bed9b8d537c306b1d32b4e7a9340da49503fb8f2a4d1e9956
+Article 2 date: 2023-12-16
+Article 2 title: 2 Top Artificial Intelligence Stocks That Could Make You Richer in 2024
+Article 2 source: https://www.nasdaq.com/articles/2-top-artificial-intelligence-stocks-that-could-make-you-richer-in-2024
+Article 2 text: Like many new technologies, generative artificial intelligence (AI) has become a bit of a hype cycle, and investor excitement is beginning to overshadow fundamentals. But like every hype cycle in the past, this one will mature. And the AI companies with the strongest business models will stand the test of time. Let's explore some reasons why Nvidia (NASDAQ: NVDA) and Amazon (NASDAQ: AMZN) look to be among the best in an increasingly competitive field, and could make excellent buys in 2024. 1. Nvidia If you liken the artificial intelligence boom to the California Gold Rush, Nvidia would sell the picks and shovels instead of mining for gold. This strategy gives the company a massive market opportunity and shields it from rising competition in the more consumer/client-focused side of the industry. And despite its market cap of $1.21 trillion, investors aren't too late to bet on the chip ma…
+Article 2 provenance: c96ab507937129d1d15ce48e662b7ae425c1f6fc9e1fb84b7878530be3dc1204
+Article 3 date: 2023-12-16
+Article 3 title: 2 Top Stocks to Buy During a Bull Market (and It's Not Even Close)
+Article 3 source: https://www.nasdaq.com/articles/2-top-stocks-to-buy-during-a-bull-market-and-its-not-even-close
+Article 3 text: The S&P 500 peaked in January 2022, with subsequent declines triggering a bear market. Analysts typically define a bear market as a 20% drop from recent highs, with a bull market not achieved again until stocks gain what they lost and surpass the previous high. Data by YCharts The chart above shows a bear market that is inching closer to a bull market as the S&P 500 nears its January 2022 high. As a result, now is an excellent time to get familiar with some of the best stocks to buy in a bull market and be ready to strike when the time is right. Here are two top stocks to buy during the next bull market. 1. Amazon Like the S&P 500, Amazon's (NASDAQ: AMZN) stock price has yet to surpass its previous high. The company hit $186 per share in July 2021 but remains about 20% below that. However, recent developments indicate shares could soar in the coming years as it becomes a crucial growth …
+Article 3 provenance: 4cf697bc4a51d51975e7e6cf473e7060a74521af717e084b88355af49954a091
+Article 4 date: 2023-12-16
+Article 4 title: 3 FAANG Stocks With 30% to 53% Upside in 2024, According to a Trio of Wall Street Analysts
+Article 4 source: https://www.nasdaq.com/articles/3-faang-stocks-with-30-to-53-upside-in-2024-according-to-a-trio-of-wall-street-analysts
+Article 4 text: Though volatility is inherent on Wall Street, things have been especially erratic over the past four years. The COVID-19 crash, 2022 bear market, and investment euphoria of 2021 all whipsawed equities. When uncertainty becomes the norm, both professional and everyday investors tend to seek out the safety of companies that offer a history of outperformance. For the past decade, it's the FAANG stocks that have fit the bill. Image source: Getty Images. When I say "FAANG," I'm referring to: Facebook, which is now a subsidiary of Meta Platforms (NASDAQ: META) Apple (NASDAQ: AAPL) Amazon (NASDAQ: AMZN) Netflix (NASDAQ: NFLX) Google, which is now a subsidiary of Alphabet (NASDAQ: GOOGL) (NASDAQ: GOOG) On top of running circles around the benchmark S&P 500 over the trailing decade, the FAANG stocks bring clearly identifiable, and often sustainable, competitive advantages to the table. For examp…
+Article 4 provenance: 189466e3ff91582799719f03359b2c3ed5a5ae614be7c135b72fc7acd0d11f4f
+Article 5 date: 2023-12-16
+Article 5 title: 3 "Magnificent Seven" Artificial Intelligence (AI) Stocks Will Leapfrog Apple to Join the $3 Trillion Club, According to 1 Wall Street Analyst
+Article 5 source: https://www.nasdaq.com/articles/3-magnificent-seven-artificial-intelligence-ai-stocks-will-leapfrog-apple-to-join-the-%243
+Article 5 text: After turning in a dismal performance last year, the stock market has come roaring back, within striking distance of a new bull market. Helping fuel the market recovery is the viral excitement surrounding artificial intelligence (AI). The list of this year's best performers is littered with companies best positioned to benefit from these next-generation algorithms. This includes the companies that make up the so-called "Magnificent Seven" stocks (as of market close on Wednesday): Nvidia: Up 229% Meta Platforms: Up 178% Tesla: Up 94% Amazon (NASDAQ: AMZN): Up 77% Microsoft (NASDAQ: MSFT): Up 56% Apple: Up 52% Alphabet (NASDAQ: GOOG) (NASDAQ: GOOGL): Up 50% Of these, Apple deserves special mention as the first publicly traded stock on U.S. markets to reach a market cap of $1 trillion and $2 trillion, respectively, and is currently the only one worth more than $3 trillion dollars. Despite …
+Article 5 provenance: de83099bf27228a8737df9d4f3a34f4d9bff73c8c7dbbe0a10e49dbc4ebbabb1
+Article 6 date: 2023-12-16
+Article 6 title: 3 Reasons Amazon Stock Could Extend Its Rally in 2024
+Article 6 source: https://www.nasdaq.com/articles/3-reasons-amazon-stock-could-extend-its-rally-in-2024
+Article 6 text: If you're an Amazon (NASDAQ: AMZN) investor, you're likely feeling cheery this holiday season. Share prices of the tech giant have soared 76% through mid-December, easily beating the 23% rally in the S&P 500 this year. It might seem outlandish to think Amazon stock will have another strong year after outperforming at that fantastic level in 2023, but don't discount that real possibility. There are at least three good reasons to believe you haven't missed the market-beating gains from Amazon stock just yet. 1. Services matter for Amazon's margins Many tech companies, including Apple, are shifting away from a focus on selling products and moving toward marketing services. Services have higher profit margins, after all. Compare Microsoft's 42%-plus operating margin to Apple's 30% figure for some illustration of that difference. And services provide more stable income because they tend to b…
+Article 6 provenance: 584bd2170c1271940c2fc32c02f7ae6576bdbbe7bcd5977a2abd05ce6ad49913
+Article 7 date: 2023-12-16
+Article 7 title: 3 Top Ranked Stocks for a Year End Rally
+Article 7 source: https://www.nasdaq.com/articles/3-top-ranked-stocks-for-a-year-end-rally
+Article 7 text: It’s no secret that the last two weeks of the year are one of the seasonally strongest periods of the year, that’s why its deemed the Santa Claus rally. What better way to take advantage of the bullish drift than to pick up some top Zacks Rank stocks. Here I will share three such stocks that enjoy upward trending earnings revisions and strong relative price momentum.  Image Source: Zacks Investment Research Duolingo If you have sought out language education of any sort, you have probably heard of Duolingo DUOL. Duolingo went public in mid-2021, and after a challenging initial 12 months has gone on an incredible run in 2023. Since the start of the year DUOL has rallied 236% and currently hovers at its all-time high.  Image Source: Zacks Investment Research Analysts have revised earnings estimates considerably higher over the last two months, giving Duolingo a Zacks Rank #1 (Strong Buy) r…
+Article 7 provenance: 7a29069a25fce8c2c6f09f2f957ba384b4badf0266f6658ca814c6b265479d1e
+Article 8 date: 2023-12-16
+Article 8 title: 4 ETF Areas & Stocks to Win on Upbeat November Retail Sales
+Article 8 source: https://www.nasdaq.com/articles/4-etf-areas-stocks-to-win-on-upbeat-november-retail-sales
+Article 8 text: Retail Sales in the United States increased 4.1% year-on-year in November 2023, marking the strongest annual growth since February, following a downwardly revised 2.2% gain in October. Sales rose 0.3% sequentially in November, stronger than the 0.2% decline in October and better than the Dow Jones estimate for a decrease of 0.1%, as quoted on CNBC. Sales remained solid despite a 2.9% slide in receipts at gas stations, as energy prices broadly slumped during the month. Barring autos, sales rose 0.2%, again better than the forecast for no change. Stripping out autos and gas, sales rose 0.6%. Below we highlight a few areas and the related ETFs that may benefit handsomely. Winning Areas Motor Vehicle & Parts Dealers Sales of this category gained 0.5% sequentially in June and up 6.1% year over year. First Trust S-Network Future Vehicles & Technology ETF CARZ follows the S-Network Electric & …
+Article 8 provenance: bed0d307576a6ff0d8e347dd52d14f4119f5268e96553facb58cbcadc23d5859
+
+[TABLE]
+Status: AVAILABLE
+Source: financial_reports/amzn/condensed_consolidated_balance_sheets.json;financial_reports/amzn/condensed_consolidated_statement_of_cash_flows.json
+Assets: value=486883000000; unit=USD; form=10-Q; fy=2023; fp=Q3; period_start=; period_end=2023-09-30; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-10-27; accession=0001018724-23-000018; provenance=a0deb876c8e8bba35883431aada419192e68d13fc92b6abf8dbd8ecbb3e75adb
+Liabilities: UNAVAILABLE
+StockholdersEquity: value=182973000000; unit=USD; form=10-Q; fy=2023; fp=Q3; period_start=; period_end=2023-09-30; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-10-27; accession=0001018724-23-000018; provenance=3635fb5dfd67d3abb8fc317fd19904d26fefa67285fce1bcdae95a689d9abdef
+NetCashProvidedByUsedInOperatingActivities: value=42481000000; unit=USD; form=10-Q; fy=2023; fp=Q3; period_start=2023-01-01; period_end=2023-09-30; period_duration_days=273; period_duration_class=year_to_date_9m; filed_date=2023-10-27; accession=0001018724-23-000018; provenance=dd23db98ce723c665793b5ad78765fda07b02f6e1241e9c3b6f1a54e9c5f0985
+NetCashProvidedByUsedInInvestingActivities: value=-37232000000; unit=USD; form=10-Q; fy=2023; fp=Q3; period_start=2023-01-01; period_end=2023-09-30; period_duration_days=273; period_duration_class=year_to_date_9m; filed_date=2023-10-27; accession=0001018724-23-000018; provenance=53f70f26333f7e5805a8cacecf4982a012eabc2ab9574c695b0998ec47031e3e
+NetCashProvidedByUsedInFinancingActivities: value=-9133000000; unit=USD; form=10-Q; fy=2023; fp=Q3; period_start=2023-01-01; period_end=2023-09-30; period_duration_days=273; period_duration_class=year_to_date_9m; filed_date=2023-10-27; accession=0001018724-23-000018; provenance=5e067aef7dbf80864039a6992a6b757b685d4571f3170fb2a75047bf9144f921
+
+[TIME_SERIES]
+Status: AVAILABLE
+Through session: 2024-01-12
+Source: S&P500_time_series/amzn.csv
+cumulative_return_5d: 0.06458268568755265
+cumulative_return_20d: 0.03883363962315167
+cumulative_return_60d: 0.17608575098148593
+realised_volatility_20d_annualised: 0.22054214664128904
+high_low_range_20d: 0.09107945046327726
+drawdown_from_60d_peak: -0.0036086969005325598
+relative_volume_vs_20d_mean: 0.8532870658056391
+Provenance: d7838321d007e15d5d95d2c5f3fd163fe7f2f21ba18ceec88f5a2d7a6c630118
+
+[IMAGE]
+Status: AVAILABLE
+Chart period: 2023-H2
+Inferred period end: 2023-12-31
+Evidence age (calendar days): 12
+Source: image/amzn_2023_H2_candlestick.png
+Canonical caption: {"candlestick_structure":"mostly green and red","confidence":"high","momentum_visual":"increasing","notable_gap_or_reversal":"none","other_visible_pattern":"none","support_resistance_visual":"none","trend":"upward","volatility_visual":"moderate","volume_visual":"none"}
+Caption provenance: qwen/captions/amzn_2023_H2_candlestick.json
+=== END FINMULTITIME EVIDENCE ===
