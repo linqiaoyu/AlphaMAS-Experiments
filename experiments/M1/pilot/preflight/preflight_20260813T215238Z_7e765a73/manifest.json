@@ -1,0 +1,13 @@
+{
+  "schema_version": "m1-pilot-preflight-archive-manifest-v1",
+  "classification": "PILOT_PREFLIGHT_ONLY_NO_AGENT_NO_PERFORMANCE_RESULT",
+  "preflight_id": "preflight_20260813T215238Z_7e765a73",
+  "status": "PASSED_BEFORE_AGENT_RUN",
+  "source_sha": "7e765a731e2751105034d78dfae0c21c3695580a",
+  "graph_config_sha256": "0b707807d747afba827e6bf76b6f182a7a596ee42ccdb3ee5d861ae67dbf2488",
+  "bundle_identity": "bd8dfafdbeb259fc8bac7ee3cdbfeebdc13f8abde8b1b420e494fa4ae8651ba3",
+  "files": {
+    "README.md": "b0b36b2248c244847ed17af8b45b4c001b041f0d0144e278f55b553ec8051d2c",
+    "preflight_success_report.json": "7080728f96b40b25b926e67b2f24f68fe4c87df08b8efe08991daac6cfa2a24f"
+  }
+}

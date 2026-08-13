@@ -1,0 +1,143 @@
+{
+  "schema_version": "m1-real-agent-pilot-preflight-success-v1",
+  "classification": "PILOT_PREFLIGHT_ONLY_NO_AGENT_NO_PERFORMANCE_RESULT",
+  "preflight_id": "preflight_20260813T215238Z_7e765a73",
+  "status": "PASSED_BEFORE_AGENT_RUN",
+  "verdict": "M1 PILOT PREFLIGHT PASSED — FINMULTITIME OPERATIONAL PATH PROPAGATION FIXED AND REAL-AGENT PILOT READY",
+  "completed_at_utc": "2026-08-13T21:52:38Z",
+  "source": {
+    "repository": "https://github.com/linqiaoyu/AlphaMAS",
+    "branch": "baseline-m1",
+    "starting_sha": "6eef9fde003358c93da34ddae48c31f6ab5cd50c",
+    "correction_sha": "7e765a731e2751105034d78dfae0c21c3695580a",
+    "origin_sha": "7e765a731e2751105034d78dfae0c21c3695580a",
+    "working_tree_clean": true
+  },
+  "previous_blocked_preflight": {
+    "path": "experiments/M1/pilot/runs/preflight_20260813T213731Z_6eef9fde",
+    "retained_unchanged": true,
+    "agent_cases": 0,
+    "deepseek_requests": 0,
+    "estimated_cost_rmb": 0.0
+  },
+  "propagation": {
+    "backtest_config_input_root": "/Users/yulinqiao/Desktop/AlphaMAS-Experiments/experiments/M1/pilot/inputs/aapl_2023q4_4w_v1",
+    "resolved_graph_input_root": "/Users/yulinqiao/Desktop/AlphaMAS-Experiments/experiments/M1/pilot/inputs/aapl_2023q4_4w_v1",
+    "paths_match": true,
+    "graph_config_sha256": "0b707807d747afba827e6bf76b6f182a7a596ee42ccdb3ee5d861ae67dbf2488",
+    "graph_hash_recomputed_after_fix": true,
+    "provider_construction_blocked": true
+  },
+  "research_identity_checks": {
+    "same_bundle_different_path_same_graph_sha": true,
+    "different_bundle_identity_different_graph_sha": true,
+    "different_archive_commit_different_graph_sha": true,
+    "pilot_vs_formal_different_graph_sha": true,
+    "operational_path_in_memory_namespace": false
+  },
+  "pilot_store": {
+    "startup": "PASS",
+    "bundle_scope": "PILOT",
+    "bundle_identity": "bd8dfafdbeb259fc8bac7ee3cdbfeebdc13f8abde8b1b420e494fa4ae8651ba3",
+    "packet_manifest_sha256": "ea38129127446348a28bb5c1d52897125674ac55908a3b5dc09c3242dfc46645",
+    "archive_commit": "376a214a9cbd0a650b7e5ac96d6275ae7cb5974a",
+    "packet_count": 4
+  },
+  "formal_regression": {
+    "startup": "PASS",
+    "bundle_scope": "FORMAL",
+    "bundle_identity": "30596a54788101873f1c88bdf653df7f12ac3b4861a7058b6a36df0861274121",
+    "packet_count": 78,
+    "counts_by_symbol": {
+      "AAPL": 26,
+      "AMZN": 26,
+      "JPM": 26
+    },
+    "formal_runtime_pilot_bundle": "EXPECTED_FAIL",
+    "pilot_runtime_formal_bundle": "EXPECTED_FAIL"
+  },
+  "cases": [
+    {
+      "date": "2023-10-06",
+      "status": "REACHABLE_NOT_EXECUTED",
+      "packet_sha256": "dc36d56068da1326d2e2739a748a68d943022e456aa51762d2bb9d9113723d55",
+      "news_route_sha256": "fd7b94722bb5b7383fe50de8554482d09565a568d665c7d1dcecfcb041c49954",
+      "fundamentals_route_sha256": "622649a1bfaf360bce69b3244cd3181d20160419c1742b44a415f0f6aea23d8c",
+      "market_route_sha256": "e159ed647d1163140f0b3c52ce7a1b68a74818d851e247c7fdc86cd9af61ff47",
+      "social_route": "NONE"
+    },
+    {
+      "date": "2023-10-13",
+      "status": "REACHABLE_NOT_EXECUTED",
+      "packet_sha256": "c01bec9d7b3d274f072eaec45b0203408b698b8de38842bb2ef1efeccbb00ce4",
+      "news_route_sha256": "fd7b94722bb5b7383fe50de8554482d09565a568d665c7d1dcecfcb041c49954",
+      "fundamentals_route_sha256": "622649a1bfaf360bce69b3244cd3181d20160419c1742b44a415f0f6aea23d8c",
+      "market_route_sha256": "df8c7859b745a88c4cdafd060067c905b125dbf97310cddfbf5cc699c16e0b53",
+      "social_route": "NONE"
+    },
+    {
+      "date": "2023-10-20",
+      "status": "REACHABLE_NOT_EXECUTED",
+      "packet_sha256": "01de6a8f39148d415eb555e51d86496acfe01fcae1c0e674aea8dfeea14808cf",
+      "news_route_sha256": "fd7b94722bb5b7383fe50de8554482d09565a568d665c7d1dcecfcb041c49954",
+      "fundamentals_route_sha256": "622649a1bfaf360bce69b3244cd3181d20160419c1742b44a415f0f6aea23d8c",
+      "market_route_sha256": "67e88f65dde6b4dd6cce12d35a86f5fe26c34e9ab33dc3bceded7e11cd38f2ab",
+      "social_route": "NONE"
+    },
+    {
+      "date": "2023-10-27",
+      "status": "REACHABLE_NOT_EXECUTED",
+      "packet_sha256": "225c75ed70079f9d93fb95282a43658dc11620c88463ae0699575904fa5ec70f",
+      "news_route_sha256": "fd7b94722bb5b7383fe50de8554482d09565a568d665c7d1dcecfcb041c49954",
+      "fundamentals_route_sha256": "622649a1bfaf360bce69b3244cd3181d20160419c1742b44a415f0f6aea23d8c",
+      "market_route_sha256": "31eb9767e21c32d0700a87b7b27de06a655bb6deb64549b48353d05de125a173",
+      "social_route": "NONE"
+    }
+  ],
+  "future_pilot_namespace": {
+    "experiment_id": "M1_pilot_aapl_2023q4_4w_v1",
+    "memory_lifecycle": "independent_fresh",
+    "decision_cache_present": false,
+    "memory_trajectory_present": false,
+    "result_root_present": false,
+    "blocked_preflight_contains_agent_trajectory": false
+  },
+  "validation": {
+    "python": "3.12.10",
+    "uv_lock_check": "PASS",
+    "targeted_tests": "80 passed",
+    "full_pytest": "832 passed, 2 skipped, 19 warnings in 22.49s",
+    "ruff": "PASS",
+    "python_compilation": "PASS",
+    "json_parsing": "PASS",
+    "git_diff_check": "PASS"
+  },
+  "coverage": {
+    "cases_attempted": 0,
+    "cases_successful": 0,
+    "cases_failed": 0,
+    "cases_not_attempted": 4,
+    "deepseek_requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0,
+    "estimated_cost_rmb": 0.0
+  },
+  "research_boundaries": {
+    "formal_inputs_modified": false,
+    "pilot_inputs_modified": false,
+    "contract_modified": false,
+    "qwen_calls": 0,
+    "paid_api_calls": 0,
+    "agent_cases": 0,
+    "pilot_trajectory_started": false,
+    "formal_m1_run": false,
+    "trader_modified": false,
+    "memory_algorithm_modified": false,
+    "execution_modified": false,
+    "metrics_modified": false,
+    "raw_finmultitime_accessed": false,
+    "aws_resources_created": 0,
+    "m2_or_rl_started": false
+  }
+}
