@@ -1,0 +1,57 @@
+{
+  "schema_version": "m1-pilot-market-snapshot-v1",
+  "snapshot_kind": "pilot_execution_market_snapshot",
+  "source": {
+    "provider": "validated_local_snapshot_recanonicalized",
+    "source_run": "stage3b_aapl_2023q4_4w/runs/20260811T161908812581Z_2535896c",
+    "source_manifest_sha256": "84922cc27ca91ec0166b1dd78ad8409898b3a978af0b70302d41a948f4631e88",
+    "auto_adjust": false,
+    "corporate_actions": true
+  },
+  "calendar": "XNYS",
+  "requested_start": "2022-10-05",
+  "requested_end": "2023-11-03",
+  "warmup_sessions": 252,
+  "first_decision_session": "2023-10-06",
+  "final_valuation_session": "2023-11-03",
+  "symbols": {
+    "AAPL": {
+      "path": "AAPL.csv",
+      "sha256": "caa3295b3779b02ae1608d9feb3932d30a22b8d7ac06fbf364dc8dff4255d23d",
+      "row_count": 273,
+      "first_session": "2022-10-05",
+      "last_session": "2023-11-03",
+      "missing_xnys_sessions": [],
+      "duplicate_sessions": 0,
+      "canonical_columns": [
+        "Date",
+        "Open",
+        "High",
+        "Low",
+        "Close",
+        "Volume",
+        "Dividends",
+        "Stock Splits"
+      ]
+    },
+    "SPY": {
+      "path": "SPY.csv",
+      "sha256": "26479dfd28d99d22887ada997e7fb09d98aa431964cb048c150a87261a7bd3a7",
+      "row_count": 273,
+      "first_session": "2022-10-05",
+      "last_session": "2023-11-03",
+      "missing_xnys_sessions": [],
+      "duplicate_sessions": 0,
+      "canonical_columns": [
+        "Date",
+        "Open",
+        "High",
+        "Low",
+        "Close",
+        "Volume",
+        "Dividends",
+        "Stock Splits"
+      ]
+    }
+  }
+}

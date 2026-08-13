@@ -1,0 +1,63 @@
+{
+  "source_sha": "7e765a731e2751105034d78dfae0c21c3695580a",
+  "worktree_clean": true,
+  "python": "Python 3.12.10",
+  "source": "/Users/yulinqiao/Desktop/AlphaMAS-Experiments/experiments/M1/pilot/inputs/aapl_2023q4_4w_v1",
+  "bundle_scope": "PILOT",
+  "bundle_identity": "bd8dfafdbeb259fc8bac7ee3cdbfeebdc13f8abde8b1b420e494fa4ae8651ba3",
+  "packet_count": 4,
+  "market_input_identity": {
+    "AAPL": "caa3295b3779b02ae1608d9feb3932d30a22b8d7ac06fbf364dc8dff4255d23d",
+    "SPY": "26479dfd28d99d22887ada997e7fb09d98aa431964cb048c150a87261a7bd3a7"
+  },
+  "schedule": [
+    {
+      "week_start": "2023-10-02",
+      "decision_session": "2023-10-06",
+      "decision_close_utc": "2023-10-06T20:00:00+00:00",
+      "decision_close_ny": "2023-10-06T16:00:00-04:00",
+      "execution_session": "2023-10-09",
+      "execution_open_utc": "2023-10-09T13:30:00+00:00",
+      "execution_open_ny": "2023-10-09T09:30:00-04:00"
+    },
+    {
+      "week_start": "2023-10-09",
+      "decision_session": "2023-10-13",
+      "decision_close_utc": "2023-10-13T20:00:00+00:00",
+      "decision_close_ny": "2023-10-13T16:00:00-04:00",
+      "execution_session": "2023-10-16",
+      "execution_open_utc": "2023-10-16T13:30:00+00:00",
+      "execution_open_ny": "2023-10-16T09:30:00-04:00"
+    },
+    {
+      "week_start": "2023-10-16",
+      "decision_session": "2023-10-20",
+      "decision_close_utc": "2023-10-20T20:00:00+00:00",
+      "decision_close_ny": "2023-10-20T16:00:00-04:00",
+      "execution_session": "2023-10-23",
+      "execution_open_utc": "2023-10-23T13:30:00+00:00",
+      "execution_open_ny": "2023-10-23T09:30:00-04:00"
+    },
+    {
+      "week_start": "2023-10-23",
+      "decision_session": "2023-10-27",
+      "decision_close_utc": "2023-10-27T20:00:00+00:00",
+      "decision_close_ny": "2023-10-27T16:00:00-04:00",
+      "execution_session": "2023-10-30",
+      "execution_open_utc": "2023-10-30T13:30:00+00:00",
+      "execution_open_ny": "2023-10-30T09:30:00-04:00"
+    }
+  ],
+  "warmup": {
+    "count": 252,
+    "first": "2022-10-05",
+    "last": "2023-10-05"
+  },
+  "graph_config_sha256": "0b707807d747afba827e6bf76b6f182a7a596ee42ccdb3ee5d861ae67dbf2488",
+  "backtest_protocol_sha256": "f656a831ad62952ade77a958b2a0a15cce9b1280ff3a0997d373c2dabe42d620",
+  "deepseek_credential_available": true,
+  "fresh_decision_cache": true,
+  "fresh_memory_lineage": true,
+  "fresh_result_namespace": true,
+  "paid_requests": 0
+}

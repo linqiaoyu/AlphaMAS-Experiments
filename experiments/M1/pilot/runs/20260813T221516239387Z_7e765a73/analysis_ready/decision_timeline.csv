@@ -1,0 +1,5 @@
+symbol,decision_session,decision_time_utc,action,status,reason,target_weight,portfolio_weight_before,equity_at_decision,rebalance_status,execution_session,order_status,raw_open_price,fill_price,fill_quantity,commission,slippage_cost,total_transaction_cost,position_after,cache_status
+AAPL,2023-10-06,2023-10-06T20:00:00+00:00,HOLD,success,TradingAgents structured decision,0.0,0.0,100000.0,noop,,,,,,,,,,miss
+AAPL,2023-10-13,2023-10-13T20:00:00+00:00,HOLD,success,TradingAgents structured decision,0.0,0.0,100000.0,noop,,,,,,,,,,miss
+AAPL,2023-10-20,2023-10-20T20:00:00+00:00,HOLD,success,TradingAgents structured decision,0.0,0.0,100000.0,noop,,,,,,,,,,miss
+AAPL,2023-10-27,2023-10-27T20:00:00+00:00,HOLD,success,TradingAgents structured decision,0.0,0.0,100000.0,noop,,,,,,,,,,miss

@@ -1,0 +1,106 @@
+{
+  "experiment_id": "M1_pilot_aapl_2023q4_4w_v1",
+  "symbols": [
+    "AAPL"
+  ],
+  "protocol_mode": "custom",
+  "decision_sessions": 4,
+  "decision_weeks": 4,
+  "expected_paid_agent_cases": 4,
+  "estimated_cases": 4,
+  "planned_cases": 4,
+  "requires_llm": true,
+  "data_source": "snapshot",
+  "snapshot_required": true,
+  "snapshot_dir_supplied": true,
+  "snapshot_requirement": "snapshot required for execution",
+  "research_depth": "medium",
+  "debate_rounds": 3,
+  "risk_rounds": 3,
+  "llm_provider": "deepseek",
+  "quick_model": "deepseek-v4-flash",
+  "deep_model": "deepseek-v4-flash",
+  "thinking_mode": "disabled",
+  "temperature": 0.0,
+  "selected_analysts": [
+    "market",
+    "social",
+    "news",
+    "fundamentals"
+  ],
+  "key_dates": {
+    "first_decision": "2023-10-06",
+    "good_friday_week_decision": null,
+    "last_decision": "2023-10-27",
+    "first_execution": "2023-10-09",
+    "last_execution": "2023-10-30",
+    "final_valuation": "2023-11-03"
+  },
+  "warmup": {
+    "configured_warmup_sessions": 252,
+    "actual_warmup_sessions": 252,
+    "warmup_first_session": "2022-10-05",
+    "warmup_last_session": "2023-10-05",
+    "first_decision_session": "2023-10-06"
+  },
+  "will_execute": null,
+  "do_not_execute_paid_agent_cases": false,
+  "output_path": "results/backtests/M1_pilot_aapl_2023q4_4w_v1",
+  "schedule": [
+    {
+      "week_start": "2023-10-02",
+      "decision_session": "2023-10-06",
+      "decision_close_utc": "2023-10-06T20:00:00+00:00",
+      "decision_close_ny": "2023-10-06T16:00:00-04:00",
+      "execution_session": "2023-10-09",
+      "execution_open_utc": "2023-10-09T13:30:00+00:00",
+      "execution_open_ny": "2023-10-09T09:30:00-04:00"
+    },
+    {
+      "week_start": "2023-10-09",
+      "decision_session": "2023-10-13",
+      "decision_close_utc": "2023-10-13T20:00:00+00:00",
+      "decision_close_ny": "2023-10-13T16:00:00-04:00",
+      "execution_session": "2023-10-16",
+      "execution_open_utc": "2023-10-16T13:30:00+00:00",
+      "execution_open_ny": "2023-10-16T09:30:00-04:00"
+    },
+    {
+      "week_start": "2023-10-16",
+      "decision_session": "2023-10-20",
+      "decision_close_utc": "2023-10-20T20:00:00+00:00",
+      "decision_close_ny": "2023-10-20T16:00:00-04:00",
+      "execution_session": "2023-10-23",
+      "execution_open_utc": "2023-10-23T13:30:00+00:00",
+      "execution_open_ny": "2023-10-23T09:30:00-04:00"
+    },
+    {
+      "week_start": "2023-10-23",
+      "decision_session": "2023-10-27",
+      "decision_close_utc": "2023-10-27T20:00:00+00:00",
+      "decision_close_ny": "2023-10-27T16:00:00-04:00",
+      "execution_session": "2023-10-30",
+      "execution_open_utc": "2023-10-30T13:30:00+00:00",
+      "execution_open_ny": "2023-10-30T09:30:00-04:00"
+    }
+  ],
+  "run_id": "20260813T221516239387Z_7e765a73",
+  "git_sha": "7e765a731e2751105034d78dfae0c21c3695580a",
+  "started_at": "2026-08-13T22:15:16.262151+00:00",
+  "artifact_schema_version": "1.3",
+  "graph_config_sha256": "0b707807d747afba827e6bf76b6f182a7a596ee42ccdb3ee5d861ae67dbf2488",
+  "backtest_protocol_sha256": "f656a831ad62952ade77a958b2a0a15cce9b1280ff3a0997d373c2dabe42d620",
+  "implementation_identity": "7e765a731e2751105034d78dfae0c21c3695580a",
+  "market_input_identity": {
+    "AAPL": "caa3295b3779b02ae1608d9feb3932d30a22b8d7ac06fbf364dc8dff4255d23d",
+    "SPY": "26479dfd28d99d22887ada997e7fb09d98aa431964cb048c150a87261a7bd3a7"
+  },
+  "memory_lineage_id": "20260813T221516239387Z_7e765a73",
+  "memory_lifecycle": "independent_fresh",
+  "memory_resumed_from_run_id": null,
+  "resume_semantics": "replay from the latest incomplete run using its exact memory lineage and lineage-scoped DecisionCache identity",
+  "runtime_paths": {
+    "decision_cache": "results/backtests/M1_pilot_aapl_2023q4_4w_v1/runtime/decision_cache",
+    "memory": "results/backtests/M1_pilot_aapl_2023q4_4w_v1/runtime/memory"
+  }
+}

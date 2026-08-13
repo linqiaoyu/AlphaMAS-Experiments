@@ -1,0 +1,13 @@
+{
+  "experiment_id": "M1_pilot_aapl_2023q4_4w_v1",
+  "run_id": "20260813T221516239387Z_7e765a73",
+  "status": "failed",
+  "started_at": "2026-08-13T22:15:16.262151+00:00",
+  "completed_at": "2026-08-13T22:37:42.210709+00:00",
+  "memory_lineage_id": "20260813T221516239387Z_7e765a73",
+  "memory_lifecycle": "independent_fresh",
+  "memory_resumed_from_run_id": null,
+  "error_type": "ValueError",
+  "error_message": "cannot archive complete final experiment Memory: AAPL: FileNotFoundError: [Errno 2] No such file or directory: 'results/backtests/M1_pilot_aapl_2023q4_4w_v1/runtime/memory/historical_memory/M1_pilot_aapl_2023q4_4w_v1/0b707807d747afba827e6bf76b6f182a7a596ee42ccdb3ee5d861ae67dbf2488/20260813T221516239387Z_7e765a73/AAPL.md'",
+  "traceback": "Traceback (most recent call last):\n  File \"/Users/yulinqiao/Desktop/FTIPFinal/AlphaMAS/scripts/run_weekly_backtest.py\", line 896, in execute\n    manifest[\"memory_archive\"] = archive_final_experiment_memory(\n                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/yulinqiao/Desktop/FTIPFinal/AlphaMAS/tradingagents/backtesting/memory_archive.py\", line 142, in archive_final_experiment_memory\n    raise ValueError(\nValueError: cannot archive complete final experiment Memory: AAPL: FileNotFoundError: [Errno 2] No such file or directory: 'results/backtests/M1_pilot_aapl_2023q4_4w_v1/runtime/memory/historical_memory/M1_pilot_aapl_2023q4_4w_v1/0b707807d747afba827e6bf76b6f182a7a596ee42ccdb3ee5d861ae67dbf2488/20260813T221516239387Z_7e765a73/AAPL.md'\n"
+}

@@ -1,0 +1,2 @@
+fill_id,order_id,symbol,execution_time,raw_open_price,slippage_bps,fill_price,quantity,notional,commission,cash_after,position_after,slippage_cost,total_transaction_cost
+52c0f617f4dbfd33eeda2d281b4a215d,e18c89ce8f62cb20c1f1b664c2133fc6,AAPL,2023-10-09T13:30:00+00:00,176.8099976,5.0,176.8984025988,565.0137226744198,99950.02498750624,49.97501249375312,0.0,565.0137226744198,49.95003747501647,99.9250499687696

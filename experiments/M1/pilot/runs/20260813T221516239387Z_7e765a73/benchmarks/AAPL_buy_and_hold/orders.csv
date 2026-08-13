@@ -1,0 +1,2 @@
+order_id,symbol,created_at,intended_execution_session,target_weight,current_weight,side,status,reason
+e18c89ce8f62cb20c1f1b664c2133fc6,AAPL,2023-10-06T20:00:00+00:00,2023-10-09,1.0,0.0,BUY,filled,target weight changed

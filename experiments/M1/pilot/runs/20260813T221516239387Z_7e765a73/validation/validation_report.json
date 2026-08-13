@@ -1,0 +1,53 @@
+{
+  "status": "passed",
+  "checks": {
+    "first_decision_is_2024_01_05": null,
+    "good_friday_week_is_2024_03_28": null,
+    "last_decision_is_2024_06_28": null,
+    "first_execution_is_2024_01_08": null,
+    "last_execution_is_2024_07_01": null,
+    "final_valuation_is_2024_07_05": null,
+    "decision_count": true,
+    "decisions_per_symbol": {
+      "AAPL": 4
+    },
+    "no_same_bar_execution": true,
+    "no_future_market_data_visible": true,
+    "no_negative_cash": true,
+    "no_short_position": true,
+    "no_duplicate_fill": true,
+    "daily_equity_complete": true,
+    "benchmark_sessions_aligned": true,
+    "aggregate_sessions_aligned": true,
+    "dividend_accounting_consistent": true,
+    "portfolio_pnl_identity": true,
+    "split_accounting_tested_offline": true,
+    "metrics_finite_or_null": true,
+    "artifact_input_checksums_valid": true,
+    "configured_warmup_sessions_honored": true,
+    "agent_decisions_successful": true,
+    "no_paid_llm_call": null,
+    "snapshot_replay_deterministic": null
+  },
+  "market_history_visibility_errors": [],
+  "portfolio_pnl_identity_errors": [],
+  "tolerance": {
+    "floating_point": 1e-12,
+    "portfolio_pnl_identity_absolute": 1e-08
+  },
+  "snapshot_hashes": {
+    "AAPL": "caa3295b3779b02ae1608d9feb3932d30a22b8d7ac06fbf364dc8dff4255d23d",
+    "SPY": "26479dfd28d99d22887ada997e7fb09d98aa431964cb048c150a87261a7bd3a7"
+  },
+  "result_hashes": {
+    "AAPL": {
+      "decisions.csv": "e5767d4ce4e5a58e01b54c55e7554bde46075c40ddab63d9e9bbc970abafb42c",
+      "orders.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "fills.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "daily_equity.csv": "8cc8cc39dc6e4ba2e4ff1a481f9ee07d34fa67d910d52e55c94e80ff1962c9b1",
+      "corporate_action_events.csv": "9fba46b23dd6301e627b91675edcb5148fb42fd27026720608fdefa2c05dcaa0",
+      "metrics.json": "02da64fd4f84e5ba84f8cefe327d76ae02eba5cbd9404ff533c5678e6c4946b3"
+    }
+  },
+  "replay_result_hashes": null
+}

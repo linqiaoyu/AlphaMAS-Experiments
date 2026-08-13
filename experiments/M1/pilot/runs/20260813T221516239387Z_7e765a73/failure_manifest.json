@@ -1,0 +1,145 @@
+{
+  "schema_version": "m1-pilot-failed-attempt-v1",
+  "classification": "PILOT_ATTEMPT_PRESERVED_BLOCKED_CORRECTNESS_REVIEW",
+  "official_successful_pilot": false,
+  "formal_m1_result": false,
+  "performance_claim": false,
+  "experiment_id": "M1_pilot_aapl_2023q4_4w_v1",
+  "run_id": "20260813T221516239387Z_7e765a73",
+  "memory_lineage_id": "20260813T221516239387Z_7e765a73",
+  "source": {
+    "repository": "https://github.com/linqiaoyu/AlphaMAS",
+    "branch": "baseline-m1",
+    "sha": "7e765a731e2751105034d78dfae0c21c3695580a",
+    "worktree_clean_before_run": true,
+    "source_changed_during_run": false
+  },
+  "experiment_repository": {
+    "repository": "https://github.com/linqiaoyu/AlphaMAS-Experiments",
+    "pilot_input_archive_commit": "376a214a9cbd0a650b7e5ac96d6275ae7cb5974a",
+    "formal_input_tree": "55333b7502d1184eb3fe90743c5d2337e69033ab",
+    "formal_input_tree_list_sha256": "eeae76f3d0960abb4642c951a7b2500c9cfffba881f49aac2ff0b33f055de5f7"
+  },
+  "identity": {
+    "graph_config_sha256": "0b707807d747afba827e6bf76b6f182a7a596ee42ccdb3ee5d861ae67dbf2488",
+    "backtest_protocol_sha256": "f656a831ad62952ade77a958b2a0a15cce9b1280ff3a0997d373c2dabe42d620",
+    "bundle_scope": "PILOT",
+    "bundle_identity": "bd8dfafdbeb259fc8bac7ee3cdbfeebdc13f8abde8b1b420e494fa4ae8651ba3",
+    "packet_manifest_sha256": "ea38129127446348a28bb5c1d52897125674ac55908a3b5dc09c3242dfc46645",
+    "contract_version": "M1-FINMULTITIME-v1.0.2",
+    "contract_sha256": "46f6a05f12a7c402936178748c55dab099c8754d99fa1a0c41faf525cd37ae08",
+    "market_input_identity": {
+      "AAPL": "caa3295b3779b02ae1608d9feb3932d30a22b8d7ac06fbf364dc8dff4255d23d",
+      "SPY": "26479dfd28d99d22887ada997e7fb09d98aa431964cb048c150a87261a7bd3a7"
+    }
+  },
+  "schedule": {
+    "decision_sessions": ["2023-10-06", "2023-10-13", "2023-10-20", "2023-10-27"],
+    "execution_sessions": ["2023-10-09", "2023-10-16", "2023-10-23", "2023-10-30"],
+    "final_valuation_session": "2023-11-03",
+    "warmup_sessions": 252,
+    "warmup_first_session": "2022-10-05",
+    "warmup_last_session": "2023-10-05"
+  },
+  "cases": [
+    {
+      "date": "2023-10-06",
+      "status": "success",
+      "action": "HOLD",
+      "cache_status": "miss",
+      "packet_sha256": "dc36d56068da1326d2e2739a748a68d943022e456aa51762d2bb9d9113723d55",
+      "news_route_sha256": "fd7b94722bb5b7383fe50de8554482d09565a568d665c7d1dcecfcb041c49954",
+      "fundamentals_route_sha256": "622649a1bfaf360bce69b3244cd3181d20160419c1742b44a415f0f6aea23d8c",
+      "market_route_sha256": "e159ed647d1163140f0b3c52ce7a1b68a74818d851e247c7fdc86cd9af61ff47",
+      "social_route": "NO_FINMULTITIME_ROUTE",
+      "llm_requests": 28,
+      "wall_clock_seconds": 328.1540395000011,
+      "memory_before": "0 pending",
+      "memory_matured": 0,
+      "outcome_visible_from": null,
+      "reflection_visible": false
+    },
+    {
+      "date": "2023-10-13",
+      "status": "success",
+      "action": "HOLD",
+      "cache_status": "miss",
+      "packet_sha256": "c01bec9d7b3d274f072eaec45b0203408b698b8de38842bb2ef1efeccbb00ce4",
+      "news_route_sha256": "fd7b94722bb5b7383fe50de8554482d09565a568d665c7d1dcecfcb041c49954",
+      "fundamentals_route_sha256": "622649a1bfaf360bce69b3244cd3181d20160419c1742b44a415f0f6aea23d8c",
+      "market_route_sha256": "df8c7859b745a88c4cdafd060067c905b125dbf97310cddfbf5cc699c16e0b53",
+      "social_route": "NO_FINMULTITIME_ROUTE",
+      "llm_requests": 30,
+      "wall_clock_seconds": 344.7050200830017,
+      "memory_before": "1 pending",
+      "memory_matured": 1,
+      "outcome_visible_from": "2023-10-13T20:00:00+00:00",
+      "reflection_visible": true
+    },
+    {
+      "date": "2023-10-20",
+      "status": "success",
+      "action": "HOLD",
+      "cache_status": "miss",
+      "packet_sha256": "01de6a8f39148d415eb555e51d86496acfe01fcae1c0e674aea8dfeea14808cf",
+      "news_route_sha256": "fd7b94722bb5b7383fe50de8554482d09565a568d665c7d1dcecfcb041c49954",
+      "fundamentals_route_sha256": "622649a1bfaf360bce69b3244cd3181d20160419c1742b44a415f0f6aea23d8c",
+      "market_route_sha256": "67e88f65dde6b4dd6cce12d35a86f5fe26c34e9ab33dc3bceded7e11cd38f2ab",
+      "social_route": "NO_FINMULTITIME_ROUTE",
+      "llm_requests": 30,
+      "wall_clock_seconds": 333.3265847500006,
+      "memory_before": "1 pending",
+      "memory_matured": 1,
+      "outcome_visible_from": "2023-10-20T20:00:00+00:00",
+      "reflection_visible": true
+    },
+    {
+      "date": "2023-10-27",
+      "status": "success",
+      "action": "HOLD",
+      "cache_status": "miss",
+      "packet_sha256": "225c75ed70079f9d93fb95282a43658dc11620c88463ae0699575904fa5ec70f",
+      "news_route_sha256": "fd7b94722bb5b7383fe50de8554482d09565a568d665c7d1dcecfcb041c49954",
+      "fundamentals_route_sha256": "622649a1bfaf360bce69b3244cd3181d20160419c1742b44a415f0f6aea23d8c",
+      "market_route_sha256": "31eb9767e21c32d0700a87b7b27de06a655bb6deb64549b48353d05de125a173",
+      "social_route": "NO_FINMULTITIME_ROUTE",
+      "llm_requests": 30,
+      "wall_clock_seconds": 337.94067470900336,
+      "memory_before": "1 pending",
+      "memory_matured": 1,
+      "outcome_visible_from": "2023-10-27T20:00:00+00:00",
+      "reflection_visible": true
+    }
+  ],
+  "llm_usage": {
+    "request_count": 118,
+    "prompt_tokens": 1243522,
+    "cache_hit_prompt_tokens": 380160,
+    "uncached_prompt_tokens": 863362,
+    "completion_tokens": 152694,
+    "total_tokens": 1396216
+  },
+  "observed_structure": {
+    "analyst_reports_per_case": 4,
+    "research_debate_rounds_per_case": 3,
+    "risk_debate_rounds_per_case": 3,
+    "trader_output_per_case": true,
+    "portfolio_manager_output_per_case": true,
+    "m0_historical_safe_sources_present": true,
+    "pit_or_memory_leakage_observed": false
+  },
+  "failure": {
+    "phase": "final_memory_artifact_publication",
+    "error_type": "ValueError",
+    "message": "cannot archive complete final experiment Memory: AAPL: FileNotFoundError: runtime Memory exists under finmultitime-pilot-bd8dfafdbeb259fc but archive helper searched the pre-M1 namespace",
+    "source_fix_applied": false,
+    "resume_started": false,
+    "formal_m1_started": false
+  },
+  "infrastructure": {
+    "aws_resources_created": 0,
+    "raw_finmultitime_accessed": false,
+    "qwen_calls": 0,
+    "m2_or_rl_started": false
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "case_id": "AAPL:2023-10-20",
+  "cache_key": "1866f685ef37280663f5057b572a02e3f0a06ceda56306bda81cfd262c983a93",
+  "cache_status": "miss",
+  "wall_clock_seconds": 333.3265847500006,
+  "report_path": "strategy/cases/AAPL/2023-10-20/reports",
+  "source_audit_path": "strategy/cases/AAPL/2023-10-20/source_audit.json"
+}
