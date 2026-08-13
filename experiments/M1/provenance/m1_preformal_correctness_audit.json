@@ -129,7 +129,7 @@
     }
   },
   "overall_status": "PASS",
-  "processed_root": "/Users/yulinqiao/Desktop/FTIPFinal/AlphaMAS/data/processed/finmultitime_3stocks_2024h1_v1",
+  "processed_root": "AlphaMAS/data/processed/finmultitime_3stocks_2024h1_v1",
   "report_id": "M1-Pre-Formal-Correctness-Audit",
   "source_integrity_audit_sha256": "abcc33b4e68a85ca7aceae3ab268f91b957ca931466257bb55b1e20fa3c5f397"
 }

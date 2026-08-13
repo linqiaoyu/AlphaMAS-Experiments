@@ -13,7 +13,7 @@
   "freeze_date": "2026-08-13",
   "source_parent_sha": "2617dafe0f6a690113f10fe1c0d4775810a576ac",
   "frozen_m0_base_sha": "2535896c8b1070b19c06fa6a936663babb4356f7",
-  "raw_finmultitime_root": "/Volumes/Jackson/Dataset/FinMultiTime",
+  "raw_finmultitime_root": "FinMultiTime",
   "source_data_identities": {
     "news": "text/sp500_news.zip",
     "table": "table/SP500_tabular.zip",
@@ -24,7 +24,7 @@
       "sha256": "f0f84e5e7b80e8d94ee33d5b380fb4fb3824352aaddd653f336dce851cee68ef",
       "exists_before_contract_generation": true
     },
-    "m0_snapshot": "/Users/yulinqiao/Desktop/FTIPFinal/AlphaMAS/results/backtests/M0_original_prompt_2024H1/runs/20260812T082530978211Z_2535896c/inputs"
+    "m0_snapshot": "AlphaMAS/results/backtests/M0_original_prompt_2024H1/runs/20260812T082530978211Z_2535896c/inputs"
   },
   "artifacts": {
     "M1_EVIDENCE_CONTRACT.md": {

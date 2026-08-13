@@ -10,7 +10,7 @@
       "period_start": "2023-07-01",
       "processed_path": "image/jpm_2023_H2_candlestick.png",
       "sha256": "b9e218ab002a8bfd6c0cbf86dd53abe9bcfeda4744a785754cb1b9173cc85611",
-      "source_path": "/Volumes/Jackson/Dataset/FinMultiTime/image/image/S&P500_image_j/jpm/jpm_2023_H2_candlestick.png"
+      "source_path": "FinMultiTime/image/image/S&P500_image_j/jpm/jpm_2023_H2_candlestick.png"
     },
     "evidence_age_calendar_days": 173,
     "reason": "window end inferred from YYYY_H1/H2 filename convention",
@@ -498,7 +498,7 @@
     "selected_filing_date": "Assets=2024-05-01;Liabilities=2024-05-01;NetCashProvidedByUsedInFinancingActivities=2024-05-01;NetCashProvidedByUsedInInvestingActivities=2024-05-01;NetCashProvidedByUsedInOperatingActivities=2024-05-01;StockholdersEquity=2024-05-01",
     "selected_image": "jpm_2023_H2_candlestick.png",
     "selected_image_period_start": "2023-07-01",
-    "selected_image_source_identity": "/Volumes/Jackson/Dataset/FinMultiTime/image/image/S&P500_image_j/jpm/jpm_2023_H2_candlestick.png",
+    "selected_image_source_identity": "FinMultiTime/image/image/S&P500_image_j/jpm/jpm_2023_H2_candlestick.png",
     "selected_image_window_end": "2023-12-31",
     "selected_news_count": 0,
     "selected_news_latest_date": "",

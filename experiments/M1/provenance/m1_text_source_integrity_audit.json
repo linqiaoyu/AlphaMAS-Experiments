@@ -124,7 +124,7 @@
     },
     "previous_source_manifest": "experiments/M1/inputs/manifests/source_manifest.json",
     "raw_source_read_only": true,
-    "root": "/Volumes/Jackson/Dataset/FinMultiTime"
+    "root": "FinMultiTime"
   },
   "record_status_counts": {
     "VERIFIED_MATCH": 8,

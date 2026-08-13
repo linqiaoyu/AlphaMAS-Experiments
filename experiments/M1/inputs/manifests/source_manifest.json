@@ -1,5 +1,5 @@
 {
-  "raw_source_root": "/Volumes/Jackson/Dataset/FinMultiTime",
+  "raw_source_root": "FinMultiTime",
   "records": [
     {
       "available": true,
@@ -9,7 +9,7 @@
         "member_crc32": "32db6c07",
         "member_uncompressed_size": 40535030,
         "outer_archive": "text/sp500_news.zip",
-        "outer_archive_path": "/Volumes/Jackson/Dataset/FinMultiTime/text/sp500_news.zip",
+        "outer_archive_path": "FinMultiTime/text/sp500_news.zip",
         "sha256": "d464056a2c668bda7f76936fbe78171e94b2b2b6388fd53efb3ca918e9af4659",
         "source_kind": "zip_member"
       },
@@ -23,7 +23,7 @@
         "member_crc32": "0f57d755",
         "member_uncompressed_size": 751946,
         "outer_archive": "time_series/S&P500_time_series.zip",
-        "outer_archive_path": "/Volumes/Jackson/Dataset/FinMultiTime/time_series/S&P500_time_series.zip",
+        "outer_archive_path": "FinMultiTime/time_series/S&P500_time_series.zip",
         "sha256": "80524d21ca03e539cf5792ce2f446a5913ae26955b1981a4061929635a01f444",
         "source_kind": "zip_member"
       },
@@ -38,7 +38,7 @@
           "member_crc32": "b6be3a85",
           "member_uncompressed_size": 28865544,
           "outer_archive": "table/SP500_tabular.zip",
-          "outer_archive_path": "/Volumes/Jackson/Dataset/FinMultiTime/table/SP500_tabular.zip",
+          "outer_archive_path": "FinMultiTime/table/SP500_tabular.zip",
           "sha256": "a974b912aa33b731bff446adde1d84cd09e0315f0c4b83a47c8f38ebbe09455e",
           "source_kind": "zip_member"
         },
@@ -48,7 +48,7 @@
           "member_crc32": "2cb63378",
           "member_uncompressed_size": 17187108,
           "outer_archive": "table/SP500_tabular.zip",
-          "outer_archive_path": "/Volumes/Jackson/Dataset/FinMultiTime/table/SP500_tabular.zip",
+          "outer_archive_path": "FinMultiTime/table/SP500_tabular.zip",
           "sha256": "f95d982b0d619d121b18d0a926698a851922ded8d0af420e272d55d8b8c7b06f",
           "source_kind": "zip_member"
         },
@@ -58,7 +58,7 @@
           "member_crc32": "0ab2853c",
           "member_uncompressed_size": 7381452,
           "outer_archive": "table/SP500_tabular.zip",
-          "outer_archive_path": "/Volumes/Jackson/Dataset/FinMultiTime/table/SP500_tabular.zip",
+          "outer_archive_path": "FinMultiTime/table/SP500_tabular.zip",
           "sha256": "d07dd7e7adf6d3a437a431c73c28750299ac2a0bea7a0dd485c81aa2b1496ae9",
           "source_kind": "zip_member"
         }
@@ -74,7 +74,7 @@
         "member_crc32": "f2606117",
         "member_uncompressed_size": 28833382,
         "outer_archive": "text/sp500_news.zip",
-        "outer_archive_path": "/Volumes/Jackson/Dataset/FinMultiTime/text/sp500_news.zip",
+        "outer_archive_path": "FinMultiTime/text/sp500_news.zip",
         "sha256": "979ef8da28eb4df2de58fb9c6ef8ae1777c064901fd2519cd6d1136c36c81f08",
         "source_kind": "zip_member"
       },
@@ -88,7 +88,7 @@
         "member_crc32": "bcbc709c",
         "member_uncompressed_size": 731674,
         "outer_archive": "time_series/S&P500_time_series.zip",
-        "outer_archive_path": "/Volumes/Jackson/Dataset/FinMultiTime/time_series/S&P500_time_series.zip",
+        "outer_archive_path": "FinMultiTime/time_series/S&P500_time_series.zip",
         "sha256": "94c6920879cc6c6f6c6bb0e5a355f73ecae21e318ab502d6db7a7386098881f7",
         "source_kind": "zip_member"
       },
@@ -103,7 +103,7 @@
           "member_crc32": "259edcfa",
           "member_uncompressed_size": 15446678,
           "outer_archive": "table/SP500_tabular.zip",
-          "outer_archive_path": "/Volumes/Jackson/Dataset/FinMultiTime/table/SP500_tabular.zip",
+          "outer_archive_path": "FinMultiTime/table/SP500_tabular.zip",
           "sha256": "3054b9bb09a2a60b4a1d3f5c929adf0f0fd522ecefa3ff2a3823aa563f48be81",
           "source_kind": "zip_member"
         },
@@ -113,7 +113,7 @@
           "member_crc32": "8a8f44f4",
           "member_uncompressed_size": 16811314,
           "outer_archive": "table/SP500_tabular.zip",
-          "outer_archive_path": "/Volumes/Jackson/Dataset/FinMultiTime/table/SP500_tabular.zip",
+          "outer_archive_path": "FinMultiTime/table/SP500_tabular.zip",
           "sha256": "d89b43e71cf6d31ed9fcbc78f0a929d5ee30b514d7c0ea85f95d48bfaa2ece36",
           "source_kind": "zip_member"
         },
@@ -123,7 +123,7 @@
           "member_crc32": "d58da32c",
           "member_uncompressed_size": 3783234,
           "outer_archive": "table/SP500_tabular.zip",
-          "outer_archive_path": "/Volumes/Jackson/Dataset/FinMultiTime/table/SP500_tabular.zip",
+          "outer_archive_path": "FinMultiTime/table/SP500_tabular.zip",
           "sha256": "44a0b49620d401cdd46ca4a50a863a59866fccab21c85ed1b893222cbddd0b40",
           "source_kind": "zip_member"
         }
@@ -144,7 +144,7 @@
         "member_crc32": "0d9b541a",
         "member_uncompressed_size": 739556,
         "outer_archive": "time_series/S&P500_time_series.zip",
-        "outer_archive_path": "/Volumes/Jackson/Dataset/FinMultiTime/time_series/S&P500_time_series.zip",
+        "outer_archive_path": "FinMultiTime/time_series/S&P500_time_series.zip",
         "sha256": "9abcaa67e5341c382c3223db0e0fa25ea47b426d7f12083cacdfe59b2c5b2746",
         "source_kind": "zip_member"
       },
@@ -159,7 +159,7 @@
           "member_crc32": "f8b874ce",
           "member_uncompressed_size": 1463193,
           "outer_archive": "table/SP500_tabular.zip",
-          "outer_archive_path": "/Volumes/Jackson/Dataset/FinMultiTime/table/SP500_tabular.zip",
+          "outer_archive_path": "FinMultiTime/table/SP500_tabular.zip",
           "sha256": "ae9a6a88d70783c4ab7a87791e89323b0cf2b976211cb85d0492ce2df9952450",
           "source_kind": "zip_member"
         },
@@ -169,7 +169,7 @@
           "member_crc32": "cf47e847",
           "member_uncompressed_size": 1494277,
           "outer_archive": "table/SP500_tabular.zip",
-          "outer_archive_path": "/Volumes/Jackson/Dataset/FinMultiTime/table/SP500_tabular.zip",
+          "outer_archive_path": "FinMultiTime/table/SP500_tabular.zip",
           "sha256": "390379bf7e0609a3f0964cf06fb9ca4103017e527344a5a2a86850b94f5fbea9",
           "source_kind": "zip_member"
         },
@@ -179,7 +179,7 @@
           "member_crc32": "ee171bf2",
           "member_uncompressed_size": 564245,
           "outer_archive": "table/SP500_tabular.zip",
-          "outer_archive_path": "/Volumes/Jackson/Dataset/FinMultiTime/table/SP500_tabular.zip",
+          "outer_archive_path": "FinMultiTime/table/SP500_tabular.zip",
           "sha256": "1ad0eaaaa4f4148ee5dabef10a4a1381066a89ad113db0a21a651cfc385a7b58",
           "source_kind": "zip_member"
         }
@@ -191,7 +191,7 @@
       "file": {
         "bytes": 45042,
         "filename": "amzn_2023_H2_candlestick.png",
-        "path": "/Volumes/Jackson/Dataset/FinMultiTime/image/image/S&P500_image_a/amzn/amzn_2023_H2_candlestick.png",
+        "path": "FinMultiTime/image/image/S&P500_image_a/amzn/amzn_2023_H2_candlestick.png",
         "sha256": "215c01f8a03dc55719558644992b14c28d8b9f604d44e3504ef7df0f99997bb8",
         "source_kind": "file"
       },
@@ -202,7 +202,7 @@
       "file": {
         "bytes": 43796,
         "filename": "jpm_2023_H2_candlestick.png",
-        "path": "/Volumes/Jackson/Dataset/FinMultiTime/image/image/S&P500_image_j/jpm/jpm_2023_H2_candlestick.png",
+        "path": "FinMultiTime/image/image/S&P500_image_j/jpm/jpm_2023_H2_candlestick.png",
         "sha256": "b9e218ab002a8bfd6c0cbf86dd53abe9bcfeda4744a785754cb1b9173cc85611",
         "source_kind": "file"
       },

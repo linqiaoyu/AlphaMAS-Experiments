@@ -353,20 +353,20 @@
       "m0_prompt_tokens_median": 9609,
       "m0_prompt_tokens_max": 25309,
       "raw_dataset_read_only": true,
-      "m0_snapshot_reference": "/Users/yulinqiao/Desktop/FTIPFinal/AlphaMAS/results/backtests/M0_original_prompt_2024H1/runs/20260812T082530978211Z_2535896c/inputs",
+      "m0_snapshot_reference": "AlphaMAS/results/backtests/M0_original_prompt_2024H1/runs/20260812T082530978211Z_2535896c/inputs",
       "formal_case_count": 78
     }
   },
   "provenance": {
     "hash_algorithm": "SHA-256",
-    "raw_source_path": "/Volumes/Jackson/Dataset/FinMultiTime",
+    "raw_source_path": "FinMultiTime",
     "source_members": [
       "text/sp500_news.zip",
       "table/SP500_tabular.zip",
       "time_series/S&P500_time_series.zip",
       "image/image/S&P500_image_*"
     ],
-    "m0_snapshot_reference": "/Users/yulinqiao/Desktop/FTIPFinal/AlphaMAS/results/backtests/M0_original_prompt_2024H1/runs/20260812T082530978211Z_2535896c/inputs",
+    "m0_snapshot_reference": "AlphaMAS/results/backtests/M0_original_prompt_2024H1/runs/20260812T082530978211Z_2535896c/inputs",
     "availability_fields": {
       "TEXT": "Date (calendar date only)",
       "TABLE": "filed (calendar date only)",
