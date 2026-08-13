@@ -1,0 +1,135 @@
+{
+  "schema_version": "m1-real-agent-pilot-preflight-failure-v1",
+  "classification": "PILOT_ONLY_NOT_FORMAL_NOT_FOR_PERFORMANCE",
+  "verdict": "M1 REAL-AGENT PILOT BLOCKED — CORRECTNESS REVIEW REQUIRED",
+  "status": "BLOCKED_BEFORE_AGENT_RUN",
+  "started_at_utc": "2026-08-13T21:37:31Z",
+  "source": {
+    "repository": "https://github.com/linqiaoyu/AlphaMAS",
+    "branch": "baseline-m1",
+    "sha": "6eef9fde003358c93da34ddae48c31f6ab5cd50c",
+    "origin_sha": "6eef9fde003358c93da34ddae48c31f6ab5cd50c",
+    "working_tree_clean": true,
+    "changed_during_preflight": false
+  },
+  "experiment_repository_preflight": {
+    "repository": "https://github.com/linqiaoyu/AlphaMAS-Experiments",
+    "branch": "main",
+    "starting_sha": "376a214a9cbd0a650b7e5ac96d6275ae7cb5974a",
+    "starting_origin_sha": "376a214a9cbd0a650b7e5ac96d6275ae7cb5974a",
+    "starting_working_tree_clean": true,
+    "formal_input_git_tree": "55333b7502d1184eb3fe90743c5d2337e69033ab",
+    "formal_input_file_count": 252
+  },
+  "pilot_identity": {
+    "experiment_id": "M1_pilot_aapl_2023q4_4w_v1",
+    "pilot_run_id": "preflight_20260813T213731Z_6eef9fde",
+    "memory_lineage_id": null,
+    "graph_config_sha256": "0b707807d747afba827e6bf76b6f182a7a596ee42ccdb3ee5d861ae67dbf2488",
+    "pilot_archive_commit": "376a214a9cbd0a650b7e5ac96d6275ae7cb5974a",
+    "bundle_scope": "PILOT",
+    "bundle_identity": "bd8dfafdbeb259fc8bac7ee3cdbfeebdc13f8abde8b1b420e494fa4ae8651ba3",
+    "packet_manifest_sha256": "ea38129127446348a28bb5c1d52897125674ac55908a3b5dc09c3242dfc46645",
+    "contract_version": "M1-FINMULTITIME-v1.0.2",
+    "contract_sha256": "46f6a05f12a7c402936178748c55dab099c8754d99fa1a0c41faf525cd37ae08",
+    "checked_in_pilot_config_sha256": "82c7599c1bc3ec5acf3945f6a1de61f72b9a6e3260d6861da270e7edc6c04475",
+    "operational_resolved_config_sha256": "4a4125b05014989df9987116caaa50f665104403328b66a6119b9411e3c924f8",
+    "uv_lock_sha256": "beec81b017ae7608e7ff8a529476ed637163af7004efb7c7111a8bd081ae5d29"
+  },
+  "environment": {
+    "python": "3.12.10",
+    "uv_lock_check": "PASS",
+    "deepseek_credential_available_to_runtime": true,
+    "credential_value_logged": false
+  },
+  "deterministic_preflight": {
+    "pilot_harness_tests": "6 passed",
+    "pilot_runtime_pilot_bundle": "PASS",
+    "formal_runtime_pilot_bundle": "EXPECTED_FAIL",
+    "pilot_runtime_formal_bundle": "EXPECTED_FAIL",
+    "bundle_packet_count": 4,
+    "exact_schedule": [
+      "2023-10-06",
+      "2023-10-13",
+      "2023-10-20",
+      "2023-10-27"
+    ],
+    "modality_status": {
+      "TEXT": "UNAVAILABLE",
+      "TABLE": "AVAILABLE",
+      "TIME_SERIES": "AVAILABLE",
+      "IMAGE": "UNAVAILABLE"
+    },
+    "social_route": "NO_FINMULTITIME_ROUTE",
+    "pilot_result_namespace_was_fresh": true,
+    "behavior_or_execution_config_differences": 0,
+    "paid_llm_calls": 0
+  },
+  "cases": [
+    {
+      "date": "2023-10-06",
+      "status": "NOT_ATTEMPTED",
+      "packet_sha256": "dc36d56068da1326d2e2739a748a68d943022e456aa51762d2bb9d9113723d55",
+      "news_route_sha256": "fd7b94722bb5b7383fe50de8554482d09565a568d665c7d1dcecfcb041c49954",
+      "fundamentals_route_sha256": "622649a1bfaf360bce69b3244cd3181d20160419c1742b44a415f0f6aea23d8c",
+      "market_route_sha256": "e159ed647d1163140f0b3c52ce7a1b68a74818d851e247c7fdc86cd9af61ff47"
+    },
+    {
+      "date": "2023-10-13",
+      "status": "NOT_ATTEMPTED",
+      "packet_sha256": "c01bec9d7b3d274f072eaec45b0203408b698b8de38842bb2ef1efeccbb00ce4",
+      "news_route_sha256": "fd7b94722bb5b7383fe50de8554482d09565a568d665c7d1dcecfcb041c49954",
+      "fundamentals_route_sha256": "622649a1bfaf360bce69b3244cd3181d20160419c1742b44a415f0f6aea23d8c",
+      "market_route_sha256": "df8c7859b745a88c4cdafd060067c905b125dbf97310cddfbf5cc699c16e0b53"
+    },
+    {
+      "date": "2023-10-20",
+      "status": "NOT_ATTEMPTED",
+      "packet_sha256": "01de6a8f39148d415eb555e51d86496acfe01fcae1c0e674aea8dfeea14808cf",
+      "news_route_sha256": "fd7b94722bb5b7383fe50de8554482d09565a568d665c7d1dcecfcb041c49954",
+      "fundamentals_route_sha256": "622649a1bfaf360bce69b3244cd3181d20160419c1742b44a415f0f6aea23d8c",
+      "market_route_sha256": "67e88f65dde6b4dd6cce12d35a86f5fe26c34e9ab33dc3bceded7e11cd38f2ab"
+    },
+    {
+      "date": "2023-10-27",
+      "status": "NOT_ATTEMPTED",
+      "packet_sha256": "225c75ed70079f9d93fb95282a43658dc11620c88463ae0699575904fa5ec70f",
+      "news_route_sha256": "fd7b94722bb5b7383fe50de8554482d09565a568d665c7d1dcecfcb041c49954",
+      "fundamentals_route_sha256": "622649a1bfaf360bce69b3244cd3181d20160419c1742b44a415f0f6aea23d8c",
+      "market_route_sha256": "31eb9767e21c32d0700a87b7b27de06a655bb6deb64549b48353d05de125a173"
+    }
+  ],
+  "blocking_failure": {
+    "phase": "PHASE_C_DETERMINISTIC_DRY_PREFLIGHT",
+    "component": "tradingagents.backtesting.config.resolve_graph_config",
+    "input_root_in_backtest_config": "/Users/yulinqiao/Desktop/AlphaMAS-Experiments/experiments/M1/pilot/inputs/aapl_2023q4_4w_v1",
+    "input_root_in_resolved_graph_config": null,
+    "startup_error_type": "FrozenEvidenceError",
+    "startup_error_message": "FinMultiTime evidence is enabled but finmultitime_input_root is missing",
+    "correctness_fix_required": true,
+    "source_fix_applied_in_this_task": false
+  },
+  "coverage": {
+    "cases_attempted": 0,
+    "cases_successful": 0,
+    "cases_failed": 0,
+    "cases_not_attempted": 4,
+    "deepseek_requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0,
+    "estimated_cost_rmb": 0.0
+  },
+  "research_boundaries": {
+    "pilot_results_used_to_tune_m1": false,
+    "formal_m1_run": false,
+    "formal_m1_inputs_modified": false,
+    "trader_modified": false,
+    "memory_algorithm_modified": false,
+    "execution_modified": false,
+    "m2_or_rl_started": false,
+    "aws_resources_created": 0,
+    "raw_finmultitime_accessed": false,
+    "qwen_calls": 0
+  }
+}

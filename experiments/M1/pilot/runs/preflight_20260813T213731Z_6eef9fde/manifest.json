@@ -1,0 +1,13 @@
+{
+  "schema_version": "m1-pilot-archive-manifest-v1",
+  "classification": "PILOT_ONLY_NOT_FORMAL_NOT_FOR_PERFORMANCE",
+  "run_id": "preflight_20260813T213731Z_6eef9fde",
+  "status": "BLOCKED_BEFORE_AGENT_RUN",
+  "source_sha": "6eef9fde003358c93da34ddae48c31f6ab5cd50c",
+  "graph_config_sha256": "0b707807d747afba827e6bf76b6f182a7a596ee42ccdb3ee5d861ae67dbf2488",
+  "bundle_identity": "bd8dfafdbeb259fc8bac7ee3cdbfeebdc13f8abde8b1b420e494fa4ae8651ba3",
+  "files": {
+    "README.md": "f5f13704793d8f696363817f2005e07ae94486497a8261f4d9a5b7639a4d4be4",
+    "preflight_failure_report.json": "de43863f8fca7baeeb4ddf9e2a4b88216e68bf76691be51072c0ce7dd88a22ff"
+  }
+}
