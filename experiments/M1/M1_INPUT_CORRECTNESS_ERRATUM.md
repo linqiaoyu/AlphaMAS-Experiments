@@ -1,8 +1,10 @@
 # M1 input correctness erratum
 
 This archive supersedes the earlier M1 input freeze at archive commit
-`4feb0a1` while preserving that commit in Git history. The correction was
-completed before Formal M1 and no Formal M1 result is represented here.
+`4feb0a1e29143e04d64306505b49d3393b6c8b9d`; its verification commit was
+`dbcfb4f02f73ec3f499c944b9b04c74129ddbf9e`. Both remain in Git history. The
+correction was completed before Formal M1 and no Formal M1 result is
+represented here.
 
 ## Correction
 
@@ -14,8 +16,9 @@ member is absent. No article was fetched, replaced, or cross-filled.
 
 The corrected contract is `M1-FINMULTITIME-v1.0.2`, superseding
 `M1-FINMULTITIME-v1.0.1`. The contract and source correction are recorded in
-the AlphaMAS source repository at commit `a5ba0ea`; the final bundle-manifest
-documentation is at `7b905ed`.
+the AlphaMAS source repository at commit
+`a5ba0ea439fa5ef635ed64be138a5db91a119509`; the final bundle-manifest
+documentation is at `7b905ed4d0b756dd5faff9f3a3ac7d00c50560a8`.
 
 ## Corrected bundle
 
