@@ -1,0 +1,5 @@
+account_symbol,session,symbol,type,value,quantity_eligible,cash_effect
+AAPL,2024-02-09,AAPL,dividend,0.24,0.0,0.0
+AAPL,2024-05-10,AAPL,dividend,0.25,569.6856444355603,142.42141110889008
+JPM,2024-04-04,JPM,dividend,1.15,571.5761279089289,657.3125470952682
+JPM,2024-07-05,JPM,dividend,1.15,0.0,0.0
