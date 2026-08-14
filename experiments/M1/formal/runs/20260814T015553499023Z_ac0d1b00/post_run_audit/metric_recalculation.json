@@ -1,0 +1,46 @@
+{
+  "annualization_factor": 252,
+  "max_abs_difference_vs_emitted": 0.0,
+  "risk_free_rate": 0.0,
+  "series": {
+    "AAPL": {
+      "annualized_return": 0.6800749696851716,
+      "annualized_volatility": 0.18977348698231122,
+      "calmar_ratio": 11.331053831552325,
+      "cumulative_return": 0.29085068064816744,
+      "maximum_drawdown": 0.060018686681325484,
+      "sharpe_ratio": 2.82886433216841,
+      "sortino_ratio": 6.528733368620798
+    },
+    "AMZN": {
+      "annualized_return": 0.13869868997272228,
+      "annualized_volatility": 0.16429260644989097,
+      "calmar_ratio": 1.8657358448160453,
+      "cumulative_return": 0.06599881386039463,
+      "maximum_drawdown": 0.07433993957831553,
+      "sharpe_ratio": 0.8719635316134495,
+      "sortino_ratio": 1.372773654157586
+    },
+    "JPM": {
+      "annualized_return": 0.2934808678141554,
+      "annualized_volatility": 0.08090008797385762,
+      "calmar_ratio": 13.778404361616445,
+      "cumulative_return": 0.13499257510856055,
+      "maximum_drawdown": 0.02130006204722279,
+      "sharpe_ratio": 3.222518237398254,
+      "sortino_ratio": 6.214018484212176
+    },
+    "equal_weight_aggregate": {
+      "annualized_return": 0.3614244895920886,
+      "annualized_volatility": 0.09389212570791425,
+      "calmar_ratio": 8.170376725672126,
+      "cumulative_return": 0.16394735653904102,
+      "maximum_drawdown": 0.04423596386399875,
+      "sharpe_ratio": 3.3343894210747673,
+      "sortino_ratio": 6.29394578780447
+    }
+  },
+  "sortino_definition": "mean(excess return) / sqrt(mean(min(excess return, 0)^2)) * sqrt(252)",
+  "statement": "All strategy and aggregate metrics recomputed from archived daily equity curves match the emitted metrics within floating-point tolerance.",
+  "status": "passed"
+}

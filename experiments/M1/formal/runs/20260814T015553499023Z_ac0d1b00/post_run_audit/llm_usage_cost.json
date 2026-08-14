@@ -1,0 +1,31 @@
+{
+  "billing_note": "Conditional calculated API cost under archived pricing; provider billing was not queried.",
+  "cost_rmb": 24.31666605312,
+  "cost_usd": {
+    "cache_hit": 0.0202922496,
+    "cache_miss": 2.48359804,
+    "completion": 0.87342444,
+    "total": 3.3773147296
+  },
+  "model": "deepseek-v4-flash",
+  "pricing_assumption": {
+    "cache_hit_usd_per_million": 0.0028,
+    "cache_miss_usd_per_million": 0.14,
+    "completion_usd_per_million": 0.28,
+    "provenance": "Frozen pricing provenance carried by the M0 audit; audit performed without provider access.",
+    "usd_to_rmb": 7.2
+  },
+  "provider": "deepseek",
+  "status": "passed",
+  "token_totals": {
+    "completion_tokens": 3119373,
+    "prompt_cache_hit_tokens": 7247232,
+    "prompt_cache_miss_tokens": 17739986,
+    "prompt_tokens": 24987218,
+    "total_tokens": 28106591
+  },
+  "unique_cases": 78,
+  "usage_source_counts": {
+    "live_request": 2316
+  }
+}

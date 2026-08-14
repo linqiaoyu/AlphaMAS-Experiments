@@ -1,0 +1,45 @@
+{
+  "aggregate": {
+    "case_count": 78,
+    "decision_counts": {
+      "BUY": 8,
+      "HOLD": 65,
+      "SELL": 5,
+      "noop_rebalance": 74
+    },
+    "decision_rows": 78,
+    "failure_records": 0,
+    "filled_trades": 4
+  },
+  "coverage_statement": "26/26 decisions per symbol; 78/78 total; zero decision failures; all case artifacts complete.",
+  "status": "passed",
+  "symbols": {
+    "AAPL": {
+      "agent_case_artifacts": 26,
+      "case_directories": 26,
+      "daily_equity_rows": 125,
+      "decision_failures": 0,
+      "decision_rows": 26,
+      "missing_artifacts": [],
+      "missing_cases": []
+    },
+    "AMZN": {
+      "agent_case_artifacts": 26,
+      "case_directories": 26,
+      "daily_equity_rows": 125,
+      "decision_failures": 0,
+      "decision_rows": 26,
+      "missing_artifacts": [],
+      "missing_cases": []
+    },
+    "JPM": {
+      "agent_case_artifacts": 26,
+      "case_directories": 26,
+      "daily_equity_rows": 125,
+      "decision_failures": 0,
+      "decision_rows": 26,
+      "missing_artifacts": [],
+      "missing_cases": []
+    }
+  }
+}

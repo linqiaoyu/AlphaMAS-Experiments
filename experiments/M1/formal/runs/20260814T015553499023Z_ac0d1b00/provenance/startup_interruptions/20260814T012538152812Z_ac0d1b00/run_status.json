@@ -1,0 +1,9 @@
+{
+  "experiment_id": "M1_finmultitime_prompt_2024H1",
+  "run_id": "20260814T012538152812Z_ac0d1b00",
+  "status": "running",
+  "started_at": "2026-08-14T01:25:38.171567+00:00",
+  "memory_lineage_id": "20260814T012538152812Z_ac0d1b00",
+  "memory_lifecycle": "independent_fresh",
+  "memory_resumed_from_run_id": null
+}

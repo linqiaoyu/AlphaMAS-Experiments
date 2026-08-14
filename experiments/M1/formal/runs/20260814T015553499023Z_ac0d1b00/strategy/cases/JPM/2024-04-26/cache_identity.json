@@ -1,0 +1,55 @@
+{
+  "cache_key": "3cb4a2a0a8e88ce994ec4a04aa8a3a3dde0d3b155ba918a58fd83ea2ca471c1d",
+  "identity": {
+    "experiment_id": "M1_finmultitime_prompt_2024H1",
+    "symbol": "JPM",
+    "decision_time_utc": "2024-04-26T20:00:00+00:00",
+    "strategy_id": "tradingagents",
+    "selected_analysts": [
+      "market",
+      "social",
+      "news",
+      "fundamentals"
+    ],
+    "research_depth": "medium",
+    "debate_rounds": 3,
+    "risk_rounds": 3,
+    "quick_model": "deepseek-v4-flash",
+    "deep_model": "deepseek-v4-flash",
+    "provider": "deepseek",
+    "thinking_mode": "disabled",
+    "temperature": 0.0,
+    "output_language": "English",
+    "data_vendor_config": {
+      "core_stock_apis": "yfinance",
+      "technical_indicators": "yfinance",
+      "fundamental_data": "yfinance",
+      "news_data": "yfinance",
+      "macro_data": "fred",
+      "prediction_markets": "polymarket"
+    },
+    "tool_vendor_config": {},
+    "point_in_time": true,
+    "memory_mode": "experiment",
+    "memory_lineage_id": "20260814T012538152812Z_ac0d1b00",
+    "holding_horizon_sessions": 5,
+    "graph_config_sha256": "3d1038214801fd967a29b93485793183dd4d3cd82d2c4020d03ca5fe018b0d88",
+    "git_commit_sha": "ac0d1b006d8019748702fda38399a4316befb9b0",
+    "prompt_config_version": "weekly-backtest-v1",
+    "portfolio_state_hash": "30687a29bdeaeea469b43667307dbc05b7c018fbb050b2d43ebff518d18dd6b4",
+    "market_history_sha256": "a3f490b10bb56773db417036c906a2bc4133892aeceed62e92ae6b01d1400edf",
+    "memory_namespace_version": "experiment-v3-run-lineage",
+    "finmultitime_evidence_enabled": true,
+    "finmultitime_bundle_scope": "FORMAL",
+    "finmultitime_input_bundle_identity": "30596a54788101873f1c88bdf653df7f12ac3b4861a7058b6a36df0861274121",
+    "finmultitime_contract_sha256": "46f6a05f12a7c402936178748c55dab099c8754d99fa1a0c41faf525cd37ae08",
+    "finmultitime_case_id": "JPM:2024-04-26",
+    "finmultitime_packet_json_sha256": "4360a3941175478ece58f5f39b2dad80fc805e8cdd9dcdff1938dfb0338e0a13",
+    "finmultitime_route_sha256": {
+      "news": "4af0fa82ef7ef2da6f34d1fad468ef636881884749a45f28bd389cf2459a01ef",
+      "fundamentals": "96f7bc0bce21a3d75caf50ae8774b5fcb19c3e704603fc2a05a8e8a7ff7f2ec6",
+      "market": "10078b2b79d1db93b3d9f81d320c3138f172af4efdc18a7415d0e597fd57b9bb"
+    },
+    "decision_prefix_sha256": "c57927d5909651093764e16c0c0663d37adea7d8d1fc2a1523af466a9b6bbb84"
+  }
+}

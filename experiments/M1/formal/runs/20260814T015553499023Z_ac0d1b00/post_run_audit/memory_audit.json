@@ -1,0 +1,39 @@
+{
+  "final_memory_archive": {
+    "checksum_valid": true,
+    "complete": true,
+    "manifest_present": true,
+    "runtime_provenance_copied": true
+  },
+  "graph_config_sha256": "3d1038214801fd967a29b93485793183dd4d3cd82d2c4020d03ca5fe018b0d88",
+  "lineage": "20260814T012538152812Z_ac0d1b00",
+  "namespace": "finmultitime-formal-30596a5478810187",
+  "statement": "Each symbol has 26 immutable Memory entries, 25 resolved and one final pending entry; every resolved entry becomes visible at the exact next weekly decision after five XNYS sessions.",
+  "status": "passed",
+  "symbols": {
+    "AAPL": {
+      "duplicate_entries": 0,
+      "entries": 26,
+      "maturity_mismatches": 0,
+      "pending_entries": 1,
+      "premature_entries": 0,
+      "resolved_entries": 25
+    },
+    "AMZN": {
+      "duplicate_entries": 0,
+      "entries": 26,
+      "maturity_mismatches": 0,
+      "pending_entries": 1,
+      "premature_entries": 0,
+      "resolved_entries": 25
+    },
+    "JPM": {
+      "duplicate_entries": 0,
+      "entries": 26,
+      "maturity_mismatches": 0,
+      "pending_entries": 1,
+      "premature_entries": 0,
+      "resolved_entries": 25
+    }
+  }
+}

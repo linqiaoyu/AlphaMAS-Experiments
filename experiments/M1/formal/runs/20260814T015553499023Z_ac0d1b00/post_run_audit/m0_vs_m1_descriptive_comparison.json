@@ -1,0 +1,41 @@
+{
+  "comparison_type": "descriptive_only",
+  "frozen_equal_weight_buy_and_hold": {
+    "annualized_return": 0.6242738335949538,
+    "annualized_volatility": 0.14118299696680586,
+    "calmar_ratio": 10.118055485083158,
+    "cumulative_return": 0.2695731389318463,
+    "maximum_drawdown": 0.06169899290583136,
+    "sharpe_ratio": 3.508875055440773,
+    "sortino_ratio": 6.11624469267813
+  },
+  "interpretation": "M1 is descriptively different from the frozen M0 baseline in this 2024H1 sample. These figures are not a claim of superiority, profitability, generalization, or statistical significance.",
+  "m0_frozen_equal_weight_aggregate": {
+    "annualized_return": 0.30270445659315715,
+    "annualized_volatility": 0.09652554256556926,
+    "calmar_ratio": 6.043155562219225,
+    "cumulative_return": 0.13896787299155555,
+    "maximum_drawdown": 0.05009046242092685,
+    "sharpe_ratio": 2.788881209079895,
+    "sortino_ratio": 4.753910909463398
+  },
+  "m1_formal_equal_weight_aggregate": {
+    "annualized_return": 0.3614244895920886,
+    "annualized_volatility": 0.09389212570791425,
+    "calmar_ratio": 8.170376725672126,
+    "cumulative_return": 0.16394735653904102,
+    "maximum_drawdown": 0.04423596386399875,
+    "sharpe_ratio": 3.3343894210747673,
+    "sortino_ratio": 6.29394578780447
+  },
+  "m1_minus_m0": {
+    "annualized_return": 0.05872003299893147,
+    "annualized_volatility": -0.002633416857655016,
+    "calmar_ratio": 2.1272211634529015,
+    "cumulative_return": 0.02497948354748547,
+    "maximum_drawdown": -0.0058544985569281005,
+    "sharpe_ratio": 0.5455082119948722,
+    "sortino_ratio": 1.5400348783410713
+  },
+  "status": "passed"
+}

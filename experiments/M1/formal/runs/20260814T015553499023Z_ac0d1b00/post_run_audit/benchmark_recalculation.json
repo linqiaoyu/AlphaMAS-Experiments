@@ -1,0 +1,53 @@
+{
+  "construction": "Equal-weight Buy & Hold is the mean of the three normalized AAPL/AMZN/JPM benchmark equity curves; SPY is independently preserved.",
+  "max_abs_difference_vs_emitted": 0.0,
+  "series": {
+    "AAPL": {
+      "annualized_return": 0.5596397779888815,
+      "annualized_volatility": 0.24435494959791104,
+      "calmar_ratio": 3.6483137747224452,
+      "cumulative_return": 0.24445791046925902,
+      "maximum_drawdown": 0.1533968327687104,
+      "sharpe_ratio": 1.9401485738253195,
+      "sortino_ratio": 3.4955923234873088
+    },
+    "AMZN": {
+      "annualized_return": 0.8724863616212715,
+      "annualized_volatility": 0.24672274554633106,
+      "calmar_ratio": 10.724544656628112,
+      "cumulative_return": 0.3615929018079702,
+      "maximum_drawdown": 0.08135416370167725,
+      "sharpe_ratio": 2.6664859598691377,
+      "sortino_ratio": 4.857451490870816
+    },
+    "JPM": {
+      "annualized_return": 0.4550479380999133,
+      "annualized_volatility": 0.18966207717853176,
+      "calmar_ratio": 4.77955412682962,
+      "cumulative_return": 0.2026686045183097,
+      "maximum_drawdown": 0.09520719423293911,
+      "sharpe_ratio": 2.0741142794864187,
+      "sortino_ratio": 2.8376572709257397
+    },
+    "SPY": {
+      "annualized_return": 0.4240932841095133,
+      "annualized_volatility": 0.10536971485879763,
+      "calmar_ratio": 7.945357738206884,
+      "cumulative_return": 0.1900101348956349,
+      "maximum_drawdown": 0.05337623529148017,
+      "sharpe_ratio": 3.409774618680459,
+      "sortino_ratio": 5.6112885827799
+    },
+    "equal_weight_buy_and_hold": {
+      "annualized_return": 0.6242738335949538,
+      "annualized_volatility": 0.14118299696680586,
+      "calmar_ratio": 10.118055485083158,
+      "cumulative_return": 0.2695731389318463,
+      "maximum_drawdown": 0.06169899290583136,
+      "sharpe_ratio": 3.508875055440773,
+      "sortino_ratio": 6.11624469267813
+    }
+  },
+  "statement": "Benchmark curves and metrics recompute from archived benchmark daily equity; the equal-weight benchmark return is 26.95731389318463%.",
+  "status": "passed"
+}

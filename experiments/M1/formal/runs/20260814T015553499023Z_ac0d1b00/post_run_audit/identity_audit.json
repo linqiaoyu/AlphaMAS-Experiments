@@ -1,0 +1,59 @@
+{
+  "backtest_protocol_sha256": "7b08d3d1c0b677fe52e394ccf4faf20fc24fceed0181b926afdfa892d6dcbc8d",
+  "checks": {
+    "branch_unchanged": true,
+    "graph_identity_consistent": true,
+    "input_identity_consistent": true,
+    "lineage_consistent": true,
+    "market_identity_consistent": true,
+    "no_unapproved_rerun_or_force": true,
+    "protocol_identity_consistent": true,
+    "required_source_sha": true,
+    "run_success": true
+  },
+  "decision_count": 78,
+  "decision_dates": {
+    "first": "2024-01-05",
+    "last": "2024-06-28"
+  },
+  "evidence_contract_sha256": "46f6a05f12a7c402936178748c55dab099c8754d99fa1a0c41faf525cd37ae08",
+  "evidence_contract_version": "M1-FINMULTITIME-v1.0.2",
+  "execution_dates": {
+    "first": "2024-01-08",
+    "last": "2024-07-01"
+  },
+  "experiment_id": "M1_finmultitime_prompt_2024H1",
+  "final_valuation_date": "2024-07-05",
+  "finmultitime_archive_commit": "3750fa50224ba46ab1d4bf5511cb5e8fa514445b",
+  "frozen_m0_source_sha": "2535896c8b1070b19c06fa6a936663babb4356f7",
+  "graph_config_sha256": "3d1038214801fd967a29b93485793183dd4d3cd82d2c4020d03ca5fe018b0d88",
+  "input_bundle_identity": "30596a54788101873f1c88bdf653df7f12ac3b4861a7058b6a36df0861274121",
+  "market_snapshot_sha256": {
+    "AAPL": "5428fc2c672f3b68c7c3e83b4a22bd5b7330c95a8b4194695762539d9d8a5af3",
+    "AMZN": "c4b5c747d75ba658c6f6833348783e3f8a8c571380c930de20cf9fb7dd6b1444",
+    "JPM": "74cf77b77b0a83ce8e6246578d4da30bf7622558e8973bda71344b99b9dfd6fc",
+    "SPY": "22e6996ebf963787f40d54bfc59e1ca088fa698cb82b639768504dbdbb2d25ac"
+  },
+  "memory_lineage": "20260814T012538152812Z_ac0d1b00",
+  "official_run_id": "20260814T015553499023Z_ac0d1b00",
+  "official_run_status": "success",
+  "packet_manifest_sha256": "05f10129b430475bad3d5dee9dfceffba463f8a99cdd3f087ff4b755a869d63d",
+  "source_branch": "baseline-m1",
+  "source_git_sha": "ac0d1b006d8019748702fda38399a4316befb9b0",
+  "status": "passed",
+  "symbols": [
+    "AAPL",
+    "AMZN",
+    "JPM"
+  ],
+  "wrapper_chain": [
+    "20260814T012538152812Z_ac0d1b00",
+    "20260814T014003575028Z_ac0d1b00",
+    "20260814T015553499023Z_ac0d1b00"
+  ],
+  "wrapper_lifecycles": {
+    "20260814T012538152812Z_ac0d1b00": "independent_fresh",
+    "20260814T014003575028Z_ac0d1b00": "resume",
+    "20260814T015553499023Z_ac0d1b00": "resume"
+  }
+}

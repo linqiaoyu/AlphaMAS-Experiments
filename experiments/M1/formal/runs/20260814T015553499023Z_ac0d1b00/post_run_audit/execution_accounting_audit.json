@@ -1,0 +1,36 @@
+{
+  "reconciliation": {
+    "aggregate_transaction_cost": 412.7017827850267,
+    "commission_difference": 0.0,
+    "fill_costs_to_daily_equity": true,
+    "slippage_difference": 0.0,
+    "transaction_cost_difference": 0.0
+  },
+  "status": "passed",
+  "symbols": {
+    "AAPL": {
+      "commission": 49.97501249375313,
+      "fills": 1,
+      "slippage": 49.95003747501398,
+      "transaction_cost": 99.9250499687671
+    },
+    "AMZN": {
+      "commission": 49.97501249375312,
+      "fills": 1,
+      "slippage": 49.95003747501663,
+      "transaction_cost": 99.92504996876974
+    },
+    "JPM": {
+      "commission": 106.42420957417373,
+      "fills": 2,
+      "slippage": 106.42747327331615,
+      "transaction_cost": 212.85168284748988
+    },
+    "equal_weight_aggregate": {
+      "commission": 206.37423456167997,
+      "fills": 4,
+      "slippage": 206.32754822334675,
+      "transaction_cost": 412.7017827850267
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "archive_path": "experiments/M1/formal/runs/20260814T015553499023Z_ac0d1b00",
+  "boundaries": {
+    "baseline_m1_rerun": false,
+    "deepseek_or_agent_invoked_by_audit": false,
+    "frozen_inputs_modified": false,
+    "m0_snapshot_modified": false,
+    "m2_or_rl_started": false,
+    "new_llm_calls": false,
+    "new_paid_api_calls": false,
+    "reports_memory_decisioncache_modified": false,
+    "resume_or_force_invoked_by_audit": false,
+    "source_branch_modified": false,
+    "source_sha_modified": false
+  },
+  "checksum_inventory": {
+    "excluded_from_inventory": [
+      "formal_result_manifest.json",
+      "sha256_inventory.json"
+    ],
+    "exclusion_reason": "The manifest records the inventory hash and the inventory cannot hash itself without circularity.",
+    "file_count": 3256,
+    "hash_in_manifest": true,
+    "path": "sha256_inventory.json",
+    "sha256": "d93ab9cd8800f73b5c4a202031fccbd2f81f330cfc5545920f2643bb9c6d8289"
+  },
+  "experiment_id": "M1_finmultitime_prompt_2024H1",
+  "inputs": {
+    "contract_sha256": "46f6a05f12a7c402936178748c55dab099c8754d99fa1a0c41faf525cd37ae08",
+    "contract_version": "M1-FINMULTITIME-v1.0.2",
+    "finmultitime_archive_commit": "3750fa50224ba46ab1d4bf5511cb5e8fa514445b",
+    "input_bundle_identity": "30596a54788101873f1c88bdf653df7f12ac3b4861a7058b6a36df0861274121",
+    "market_snapshot_sha256": {
+      "AAPL": "5428fc2c672f3b68c7c3e83b4a22bd5b7330c95a8b4194695762539d9d8a5af3",
+      "AMZN": "c4b5c747d75ba658c6f6833348783e3f8a8c571380c930de20cf9fb7dd6b1444",
+      "JPM": "74cf77b77b0a83ce8e6246578d4da30bf7622558e8973bda71344b99b9dfd6fc",
+      "SPY": "22e6996ebf963787f40d54bfc59e1ca088fa698cb82b639768504dbdbb2d25ac"
+    },
+    "packet_manifest_sha256": "05f10129b430475bad3d5dee9dfceffba463f8a99cdd3f087ff4b755a869d63d"
+  },
+  "lineage": {
+    "official_run_id": "20260814T015553499023Z_ac0d1b00",
+    "original_memory_run_id": "20260814T012538152812Z_ac0d1b00",
+    "startup_resume_run_id": "20260814T014003575028Z_ac0d1b00"
+  },
+  "official_run_id": "20260814T015553499023Z_ac0d1b00",
+  "protocol": {
+    "backtest_protocol_sha256": "7b08d3d1c0b677fe52e394ccf4faf20fc24fceed0181b926afdfa892d6dcbc8d",
+    "graph_config_sha256": "3d1038214801fd967a29b93485793183dd4d3cd82d2c4020d03ca5fe018b0d88"
+  },
+  "provenance": {
+    "decisioncache_path": "provenance/runtime/decision_cache",
+    "runtime_memory_path": "provenance/runtime/memory",
+    "startup_interruptions_path": "provenance/startup_interruptions"
+  },
+  "research_frozen": true,
+  "result": {
+    "decision_count": 78,
+    "decision_failures": 0,
+    "equal_weight_buy_and_hold_cumulative_return": 0.2695731389318463,
+    "final_valuation_date": "2024-07-05",
+    "strategy_equal_weight_cumulative_return": 0.16394735653904102,
+    "symbols": [
+      "AAPL",
+      "AMZN",
+      "JPM"
+    ]
+  },
+  "schema_version": "M1-formal-result-manifest-v1",
+  "source": {
+    "branch": "baseline-m1",
+    "frozen_m0_source_sha": "2535896c8b1070b19c06fa6a936663babb4356f7",
+    "git_sha": "ac0d1b006d8019748702fda38399a4316befb9b0"
+  },
+  "verdict": "PASSED"
+}

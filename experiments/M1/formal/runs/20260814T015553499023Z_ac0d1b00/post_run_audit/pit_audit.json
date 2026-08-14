@@ -1,0 +1,10 @@
+{
+  "decision_rows_checked": 78,
+  "duplicate_decision_rows": 0,
+  "execution_data_source": "snapshot",
+  "future_visibility_violations": 0,
+  "point_in_time": true,
+  "statement": "Every decision metadata record is bounded by its decision session and decision timestamp; zero PIT violations were found.",
+  "status": "passed",
+  "unexpected_data_source_violations": 0
+}

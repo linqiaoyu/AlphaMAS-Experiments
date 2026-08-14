@@ -1,0 +1,55 @@
+{
+  "cache_key": "10e2e4eaeb02970016b6e256cc23469dc3e7f72750f0efa63eccb368836722b2",
+  "identity": {
+    "experiment_id": "M1_finmultitime_prompt_2024H1",
+    "symbol": "AMZN",
+    "decision_time_utc": "2024-04-05T20:00:00+00:00",
+    "strategy_id": "tradingagents",
+    "selected_analysts": [
+      "market",
+      "social",
+      "news",
+      "fundamentals"
+    ],
+    "research_depth": "medium",
+    "debate_rounds": 3,
+    "risk_rounds": 3,
+    "quick_model": "deepseek-v4-flash",
+    "deep_model": "deepseek-v4-flash",
+    "provider": "deepseek",
+    "thinking_mode": "disabled",
+    "temperature": 0.0,
+    "output_language": "English",
+    "data_vendor_config": {
+      "core_stock_apis": "yfinance",
+      "technical_indicators": "yfinance",
+      "fundamental_data": "yfinance",
+      "news_data": "yfinance",
+      "macro_data": "fred",
+      "prediction_markets": "polymarket"
+    },
+    "tool_vendor_config": {},
+    "point_in_time": true,
+    "memory_mode": "experiment",
+    "memory_lineage_id": "20260814T012538152812Z_ac0d1b00",
+    "holding_horizon_sessions": 5,
+    "graph_config_sha256": "3d1038214801fd967a29b93485793183dd4d3cd82d2c4020d03ca5fe018b0d88",
+    "git_commit_sha": "ac0d1b006d8019748702fda38399a4316befb9b0",
+    "prompt_config_version": "weekly-backtest-v1",
+    "portfolio_state_hash": "2cb0f59e83c6642c064e417e7648d003a0a3a123b929479d1b08fce0ce5e1f6e",
+    "market_history_sha256": "4104811dad9a0fc7343d1fad4ea10dbb056b8f020fefc39d6824c60d0119de31",
+    "memory_namespace_version": "experiment-v3-run-lineage",
+    "finmultitime_evidence_enabled": true,
+    "finmultitime_bundle_scope": "FORMAL",
+    "finmultitime_input_bundle_identity": "30596a54788101873f1c88bdf653df7f12ac3b4861a7058b6a36df0861274121",
+    "finmultitime_contract_sha256": "46f6a05f12a7c402936178748c55dab099c8754d99fa1a0c41faf525cd37ae08",
+    "finmultitime_case_id": "AMZN:2024-04-05",
+    "finmultitime_packet_json_sha256": "9a566d7084514fb33155dc710ef483551c7fe255d2a71db40fb02b31539d2792",
+    "finmultitime_route_sha256": {
+      "news": "a88fc4cb0f763e82b0a2135b163a387c3790f9ac7297eae214ecbba6c2f4e110",
+      "fundamentals": "9155010cf779c7e58eeab00bd0b0f3cdb65e524f0e74e9b133f4bcdd63be3e9e",
+      "market": "cf75955d72739ba293dd973151644c33166b411fd344d4c9bc6b6ff772ff079d"
+    },
+    "decision_prefix_sha256": "4187286e9a460f515a7dcef5a63d0d510aacbc9daca3c7e9c4357cb54df78258"
+  }
+}

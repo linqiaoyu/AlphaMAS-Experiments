@@ -1,0 +1,98 @@
+{
+  "status": "passed",
+  "checks": {
+    "first_decision_is_2024_01_05": true,
+    "good_friday_week_is_2024_03_28": true,
+    "last_decision_is_2024_06_28": true,
+    "first_execution_is_2024_01_08": true,
+    "last_execution_is_2024_07_01": true,
+    "final_valuation_is_2024_07_05": true,
+    "decision_count": true,
+    "decisions_per_symbol": {
+      "AAPL": 26,
+      "AMZN": 26,
+      "JPM": 26
+    },
+    "no_same_bar_execution": true,
+    "no_future_market_data_visible": true,
+    "no_negative_cash": true,
+    "no_short_position": true,
+    "no_duplicate_fill": true,
+    "daily_equity_complete": true,
+    "benchmark_sessions_aligned": true,
+    "aggregate_sessions_aligned": true,
+    "dividend_accounting_consistent": true,
+    "portfolio_pnl_identity": true,
+    "split_accounting_tested_offline": true,
+    "metrics_finite_or_null": true,
+    "artifact_input_checksums_valid": true,
+    "configured_warmup_sessions_honored": true,
+    "agent_decisions_successful": true,
+    "no_paid_llm_call": null,
+    "snapshot_replay_deterministic": null
+  },
+  "market_history_visibility_errors": [],
+  "portfolio_pnl_identity_errors": [],
+  "tolerance": {
+    "floating_point": 1e-12,
+    "portfolio_pnl_identity_absolute": 1e-08
+  },
+  "snapshot_hashes": {
+    "AAPL": "5428fc2c672f3b68c7c3e83b4a22bd5b7330c95a8b4194695762539d9d8a5af3",
+    "AMZN": "c4b5c747d75ba658c6f6833348783e3f8a8c571380c930de20cf9fb7dd6b1444",
+    "JPM": "74cf77b77b0a83ce8e6246578d4da30bf7622558e8973bda71344b99b9dfd6fc",
+    "SPY": "22e6996ebf963787f40d54bfc59e1ca088fa698cb82b639768504dbdbb2d25ac"
+  },
+  "result_hashes": {
+    "AAPL": {
+      "decisions.csv": "bc7db86762d1b8adc8ca4d33821887cbce7e6f812aa2ba8ab68a39bf0984fae0",
+      "orders.csv": "8bef81c41d6ffefb01e9d1a58518745f4a61c5441806686c35d8b93072b01838",
+      "fills.csv": "a41f47dca4efe8a94523a630bf0e2d6bc21fd93c4c22aa2e51eae6fb3f22eec3",
+      "daily_equity.csv": "a6e1fbb876f1e04fd8c3d73be3100aa4e76bf8e1536083b022ef6436b9ab48fc",
+      "corporate_action_events.csv": "2665dc5d6ac6aacd0c248a807ab83987700c80a0e366fce94a048f715d443f7c",
+      "metrics.json": "63788d52d7690243ef357ec39cb2e042bf322e3b6764a7fa04b8b30e3b7c99bd"
+    },
+    "AMZN": {
+      "decisions.csv": "0726fe92fec27fb9958afc3c1d1ef8839705d1c7b468c0251d77510f8d26f977",
+      "orders.csv": "30a8f1867145cdce44c4c882d965706ceaa310c64e1809cb8c4d035a4e541d7b",
+      "fills.csv": "d03f10eedb9213ccbf56b8fa88f146469b5de56037e9901ec3ef022afdc9f0b3",
+      "daily_equity.csv": "1865fcff58eac799e21da72bdfd79e445a8c237fd5880ff5c7b1f0a410622e93",
+      "corporate_action_events.csv": "9fba46b23dd6301e627b91675edcb5148fb42fd27026720608fdefa2c05dcaa0",
+      "metrics.json": "0ea3dda5cdf06d5dc1fcaf1a06bd934867c6e8c1dcb2a2d8e232a17b172e5c9f"
+    },
+    "JPM": {
+      "decisions.csv": "b5cfcf53cf39ba5b6ad7813342b97dfe1f4d07ea93d04fd689dce75f48d4f758",
+      "orders.csv": "ee26dac83fbf09a27cac44d6519a063180d402cd38e6aa7c36866e173f88fd80",
+      "fills.csv": "2441ba3ad4656a1ff39c195afc7ed15880e898d002f61e121a9021f6879c8cdc",
+      "daily_equity.csv": "9e9b5a7e33ed2a59568376277a5e9a1fdf6d7a65e535b302390bc6884f659df0",
+      "corporate_action_events.csv": "89d01e57404d192a47774542f43897472ad2408321fac737224b6e2c52c91d2e",
+      "metrics.json": "8db60efd6819d9629cb11bcd8813b72d71064f6bddb91b4f05a990d4b1312faf"
+    }
+  },
+  "replay_result_hashes": null,
+  "artifact_bundle": {
+    "status": "passed",
+    "artifact_schema_version": "1.3",
+    "checks": {
+      "required_files_exist": true,
+      "json_documents_valid": true,
+      "artifact_metadata_valid": true,
+      "analysis_ready_schemas_valid": true,
+      "market_snapshot_sha256_valid": true,
+      "graph_config_sha256_present_and_consistent": true,
+      "memory_lineage_provenance_consistent": true,
+      "final_memory_archive_complete_and_valid": true,
+      "agent_case_artifacts_complete": true,
+      "validation_report_passed": true,
+      "run_status_valid": true
+    },
+    "missing_files": [],
+    "invalid_json": [],
+    "schema_errors": [],
+    "checksum_errors": [],
+    "lineage_errors": [],
+    "memory_archive_errors": [],
+    "memory_archive_checksum_errors": [],
+    "agent_artifact_errors": []
+  }
+}
