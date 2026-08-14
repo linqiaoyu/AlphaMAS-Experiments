@@ -1,0 +1,10 @@
+{
+  "experiment_id": "M1_pilot_aapl_2023q4_4w_v1",
+  "run_id": "20260813T233409151461Z_2e842979",
+  "status": "success",
+  "started_at": "2026-08-13T23:34:09.173690+00:00",
+  "completed_at": "2026-08-13T23:54:48.290694+00:00",
+  "memory_lineage_id": "20260813T233409151461Z_2e842979",
+  "memory_lifecycle": "independent_fresh",
+  "memory_resumed_from_run_id": null
+}

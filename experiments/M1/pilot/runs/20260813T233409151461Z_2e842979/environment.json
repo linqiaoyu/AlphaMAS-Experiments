@@ -1,0 +1,13 @@
+{
+  "python_version": "3.12.10",
+  "platform": "macOS-26.6.1-arm64-arm-64bit",
+  "git_sha": "2e842979c6247cb5f19ed7c57c80f51c0dbdc039",
+  "git_dirty": false,
+  "dependency_versions": {
+    "pandas": "2.3.3",
+    "numpy": "2.5.2",
+    "exchange-calendars": "4.13.2",
+    "yfinance": "1.5.2",
+    "tradingagents": "0.3.1"
+  }
+}

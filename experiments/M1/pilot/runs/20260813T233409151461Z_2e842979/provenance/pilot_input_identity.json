@@ -1,0 +1,25 @@
+{
+  "bundle_scope": "PILOT",
+  "pilot_only": true,
+  "formal_eligible": false,
+  "case_count": 4,
+  "symbol": "AAPL",
+  "contract_version": "M1-FINMULTITIME-v1.0.2",
+  "contract_sha256": "46f6a05f12a7c402936178748c55dab099c8754d99fa1a0c41faf525cd37ae08",
+  "packet_manifest_sha256": "ea38129127446348a28bb5c1d52897125674ac55908a3b5dc09c3242dfc46645",
+  "input_bundle_identity": "bd8dfafdbeb259fc8bac7ee3cdbfeebdc13f8abde8b1b420e494fa4ae8651ba3",
+  "archive_commit": "376a214a9cbd0a650b7e5ac96d6275ae7cb5974a",
+  "sessions": ["2023-10-06", "2023-10-13", "2023-10-20", "2023-10-27"],
+  "coverage": {
+    "TEXT": "UNAVAILABLE",
+    "TABLE": "AVAILABLE",
+    "TIME_SERIES": "AVAILABLE",
+    "IMAGE": "UNAVAILABLE"
+  },
+  "routes": {
+    "news": "TEXT",
+    "fundamentals": "TABLE",
+    "market": ["TIME_SERIES", "IMAGE"],
+    "social": "NO_FINMULTITIME_ROUTE"
+  }
+}

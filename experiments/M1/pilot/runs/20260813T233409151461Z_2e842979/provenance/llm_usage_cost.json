@@ -1,0 +1,27 @@
+{
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "thinking": "disabled",
+  "pricing_basis": {
+    "currency": "RMB",
+    "input_cache_hit_rmb_per_million": 0.02,
+    "input_cache_miss_rmb_per_million": 1.0,
+    "output_rmb_per_million": 2.0,
+    "source": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing"
+  },
+  "per_case": {
+    "2023-10-06": {"request_count": 28, "prompt_cache_hit_tokens": 100480, "prompt_cache_miss_tokens": 217614, "completion_tokens": 40860, "total_tokens": 358954, "estimated_rmb": 0.3013436},
+    "2023-10-13": {"request_count": 30, "prompt_cache_hit_tokens": 100608, "prompt_cache_miss_tokens": 209346, "completion_tokens": 37721, "total_tokens": 347675, "estimated_rmb": 0.28680016},
+    "2023-10-20": {"request_count": 30, "prompt_cache_hit_tokens": 101120, "prompt_cache_miss_tokens": 207133, "completion_tokens": 36524, "total_tokens": 344777, "estimated_rmb": 0.2822034},
+    "2023-10-27": {"request_count": 30, "prompt_cache_hit_tokens": 105472, "prompt_cache_miss_tokens": 200463, "completion_tokens": 36641, "total_tokens": 342576, "estimated_rmb": 0.27585444}
+  },
+  "aggregate": {
+    "request_count": 118,
+    "prompt_cache_hit_tokens": 407680,
+    "prompt_cache_miss_tokens": 834556,
+    "completion_tokens": 151746,
+    "total_tokens": 1393982,
+    "estimated_rmb_total": 1.1462016,
+    "estimated_rmb_per_decision": 0.2865504
+  }
+}

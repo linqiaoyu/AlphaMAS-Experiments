@@ -1,0 +1,99 @@
+{
+  "symbol": "AAPL",
+  "decision_session": "2023-10-06",
+  "decision_time_utc": "2023-10-06T20:00:00+00:00",
+  "action": "HOLD",
+  "target_weight": 0.0,
+  "status": "success",
+  "reason": "TradingAgents structured decision",
+  "strategy_id": "tradingagents",
+  "experiment_id": "M1_pilot_aapl_2023q4_4w_v1",
+  "raw_signal": "HOLD",
+  "metadata": {
+    "wall_clock_seconds": 330.5693577080019,
+    "run_context": {
+      "mode": "historical",
+      "as_of": "2023-10-06T20:00:00+00:00"
+    },
+    "market_history_visibility": {
+      "first_session": "2022-10-05",
+      "last_session": "2023-10-06",
+      "last_observation_time_utc": "2023-10-06T20:00:00+00:00",
+      "row_count": 253,
+      "sha256": "5f6e44258360447ebe99f1c19391c42a78e6e670fe3c6d004a169f59ab3f430a"
+    },
+    "report_path": "strategy/cases/AAPL/2023-10-06/reports",
+    "source_audit_path": "strategy/cases/AAPL/2023-10-06/source_audit.json",
+    "cache_key": "b6913edfb34c25befc1028a43c2080140b7e3ad0e71c522fed27bd032d72c0fc",
+    "cache_status": "miss",
+    "model_config": {
+      "llm_provider": "deepseek",
+      "quick_think_llm": "deepseek-v4-flash",
+      "deep_think_llm": "deepseek-v4-flash",
+      "backend_url": null,
+      "deepseek_thinking": "disabled",
+      "temperature": 0.0,
+      "llm_max_retries": null,
+      "selected_analysts": [
+        "market",
+        "social",
+        "news",
+        "fundamentals"
+      ],
+      "output_language": "English",
+      "research_depth": "medium",
+      "max_debate_rounds": 3,
+      "max_risk_discuss_rounds": 3,
+      "max_recur_limit": 100,
+      "news_article_limit": 20,
+      "global_news_article_limit": 10,
+      "global_news_lookback_days": 7,
+      "global_news_queries": [
+        "Federal Reserve interest rates inflation",
+        "S&P 500 earnings GDP economic outlook",
+        "geopolitical risk trade war sanctions",
+        "ECB Bank of England BOJ central bank policy",
+        "oil commodities supply chain energy"
+      ],
+      "data_vendors": {
+        "core_stock_apis": "yfinance",
+        "technical_indicators": "yfinance",
+        "fundamental_data": "yfinance",
+        "news_data": "yfinance",
+        "macro_data": "fred",
+        "prediction_markets": "polymarket"
+      },
+      "tool_vendors": {},
+      "benchmark_ticker": null,
+      "benchmark_map": {
+        ".NS": "^NSEI",
+        ".BO": "^BSESN",
+        ".T": "^N225",
+        ".HK": "^HSI",
+        ".L": "^FTSE",
+        ".TO": "^GSPTSE",
+        ".AX": "^AXJO",
+        ".SS": "000001.SS",
+        ".SZ": "399001.SZ",
+        "": "SPY"
+      },
+      "memory_mode": "experiment",
+      "memory_log_max_entries": null,
+      "memory_holding_horizon_sessions": 5,
+      "memory_outcome_price_mode": "adjusted_close",
+      "checkpoint_enabled": false,
+      "point_in_time": true,
+      "execution_data_source": "snapshot",
+      "finmultitime_evidence_enabled": true,
+      "finmultitime_expected_contract_version": "M1-FINMULTITIME-v1.0.2",
+      "finmultitime_expected_contract_sha256": "46f6a05f12a7c402936178748c55dab099c8754d99fa1a0c41faf525cd37ae08",
+      "finmultitime_expected_packet_manifest_sha256": "ea38129127446348a28bb5c1d52897125674ac55908a3b5dc09c3242dfc46645",
+      "finmultitime_expected_input_bundle_identity": "bd8dfafdbeb259fc8bac7ee3cdbfeebdc13f8abde8b1b420e494fa4ae8651ba3",
+      "finmultitime_bundle_scope": "PILOT",
+      "finmultitime_archive_commit": "376a214a9cbd0a650b7e5ac96d6275ae7cb5974a",
+      "finmultitime_verify_full_bundle_on_start": true,
+      "graph_config_sha256": "0b707807d747afba827e6bf76b6f182a7a596ee42ccdb3ee5d861ae67dbf2488"
+    },
+    "decision_prefix_sha256": "12174bea7513895204879e64958486ac888c62aabaf7a79b961ccb5179e4e59f"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "runtime_memory_path": "results/backtests/M1_pilot_aapl_2023q4_4w_v1/runtime/memory/historical_memory/finmultitime-pilot-bd8dfafdbeb259fc/M1_pilot_aapl_2023q4_4w_v1/0b707807d747afba827e6bf76b6f182a7a596ee42ccdb3ee5d861ae67dbf2488/20260813T233409151461Z_2e842979/AAPL.md",
+  "archived_memory_path": "memory/symbols/AAPL.md",
+  "runtime_memory_sha256": "9ef845aaa087ef64a35904506ee7675f3ccb3afcb6eb2b8edcc0b9dc8b0579e2",
+  "archived_memory_sha256": "9ef845aaa087ef64a35904506ee7675f3ccb3afcb6eb2b8edcc0b9dc8b0579e2",
+  "byte_equal": true,
+  "memory_archive_validator": "PASS"
+}
