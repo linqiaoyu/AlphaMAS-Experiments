@@ -1,0 +1,862 @@
+{
+  "alphamas_source_starting_sha": "06b30f05749c53c8122d3997595aad556cbf0136",
+  "case_counts": {
+    "TRAIN": 56,
+    "VALIDATION": 16,
+    "total": 72
+  },
+  "case_ids": [
+    "AAPL:2023-05-05",
+    "AAPL:2023-05-12",
+    "AAPL:2023-05-19",
+    "AAPL:2023-05-26",
+    "AAPL:2023-06-02",
+    "AAPL:2023-06-09",
+    "AAPL:2023-06-16",
+    "AAPL:2023-06-30",
+    "AAPL:2023-07-07",
+    "AEMD:2023-05-05",
+    "AEMD:2023-05-12",
+    "AEMD:2023-05-19",
+    "AEMD:2023-05-26",
+    "AEMD:2023-06-02",
+    "AEMD:2023-06-09",
+    "AEMD:2023-06-16",
+    "AEMD:2023-06-30",
+    "AEMD:2023-07-07",
+    "AGI:2023-05-05",
+    "AGI:2023-05-12",
+    "AGI:2023-05-19",
+    "AGI:2023-05-26",
+    "AGI:2023-06-02",
+    "AGI:2023-06-09",
+    "AGI:2023-06-16",
+    "AGI:2023-06-30",
+    "AGI:2023-07-07",
+    "AMZN:2023-05-05",
+    "AMZN:2023-05-12",
+    "AMZN:2023-05-19",
+    "AMZN:2023-05-26",
+    "AMZN:2023-06-02",
+    "AMZN:2023-06-09",
+    "AMZN:2023-06-16",
+    "AMZN:2023-06-30",
+    "AMZN:2023-07-07",
+    "ARR:2023-05-05",
+    "ARR:2023-05-12",
+    "ARR:2023-05-19",
+    "ARR:2023-05-26",
+    "ARR:2023-06-02",
+    "ARR:2023-06-09",
+    "ARR:2023-06-16",
+    "ARR:2023-06-30",
+    "ARR:2023-07-07",
+    "EML:2023-05-05",
+    "EML:2023-05-12",
+    "EML:2023-05-19",
+    "EML:2023-05-26",
+    "EML:2023-06-02",
+    "EML:2023-06-09",
+    "EML:2023-06-16",
+    "EML:2023-06-30",
+    "EML:2023-07-07",
+    "JBSS:2023-05-05",
+    "JBSS:2023-05-12",
+    "JBSS:2023-05-19",
+    "JBSS:2023-05-26",
+    "JBSS:2023-06-02",
+    "JBSS:2023-06-09",
+    "JBSS:2023-06-16",
+    "JBSS:2023-06-30",
+    "JBSS:2023-07-07",
+    "JPM:2023-05-05",
+    "JPM:2023-05-12",
+    "JPM:2023-05-19",
+    "JPM:2023-05-26",
+    "JPM:2023-06-02",
+    "JPM:2023-06-09",
+    "JPM:2023-06-16",
+    "JPM:2023-06-30",
+    "JPM:2023-07-07"
+  ],
+  "created_at_utc": "2026-08-14T23:35:34.949383+00:00",
+  "development_only": true,
+  "files": [
+    {
+      "first_session": "2023-05-05",
+      "last_session": "2023-07-14",
+      "path": "inputs/market_snapshot/AAPL.csv",
+      "required_field_completeness": true,
+      "row_count": 45,
+      "sha256": "1743d50ccaf9a5922812469dced2360f94770fd427faa896be3f29b92c61a9a3",
+      "symbol": "AAPL"
+    },
+    {
+      "first_session": "2023-05-05",
+      "last_session": "2023-07-14",
+      "path": "inputs/market_snapshot/AEMD.csv",
+      "required_field_completeness": true,
+      "row_count": 45,
+      "sha256": "b0f40f89fb414138e7403fa0879df029e99ed2de97c9b8dfe7615f32d9756cec",
+      "symbol": "AEMD"
+    },
+    {
+      "first_session": "2023-05-05",
+      "last_session": "2023-07-14",
+      "path": "inputs/market_snapshot/AGI.csv",
+      "required_field_completeness": true,
+      "row_count": 45,
+      "sha256": "e22edfcebebf1ed10095935d0a40aede2ff57536d4e43783a6b57898a2878c1b",
+      "symbol": "AGI"
+    },
+    {
+      "first_session": "2023-05-05",
+      "last_session": "2023-07-14",
+      "path": "inputs/market_snapshot/AMZN.csv",
+      "required_field_completeness": true,
+      "row_count": 45,
+      "sha256": "e7f320405fa7977c465320eaa93f9eb828bf35537f579bb28cf7be0fe5ff10f8",
+      "symbol": "AMZN"
+    },
+    {
+      "first_session": "2023-05-05",
+      "last_session": "2023-07-14",
+      "path": "inputs/market_snapshot/ARR.csv",
+      "required_field_completeness": true,
+      "row_count": 45,
+      "sha256": "94df067c678214cf2395ea411b87febd2a327616ee21dbcc2211be4973e5c8c5",
+      "symbol": "ARR"
+    },
+    {
+      "first_session": "2023-05-05",
+      "last_session": "2023-07-14",
+      "path": "inputs/market_snapshot/EML.csv",
+      "required_field_completeness": true,
+      "row_count": 45,
+      "sha256": "c635f23482aa530ef28bace97047f9dddc820f8cb5280a72693dfc4bdd3e0fcf",
+      "symbol": "EML"
+    },
+    {
+      "first_session": "2023-05-05",
+      "last_session": "2023-07-14",
+      "path": "inputs/market_snapshot/JBSS.csv",
+      "required_field_completeness": true,
+      "row_count": 45,
+      "sha256": "9450cbbfcb729977c03e3295aafdc45b8f35b25394af5179f045b80ccae25934",
+      "symbol": "JBSS"
+    },
+    {
+      "first_session": "2023-05-05",
+      "last_session": "2023-07-14",
+      "path": "inputs/market_snapshot/JPM.csv",
+      "required_field_completeness": true,
+      "row_count": 45,
+      "sha256": "6d0ebcbb9feb8b8989c4f51846ad84c334b448854f236c77e0818291e9ff4529",
+      "symbol": "JPM"
+    }
+  ],
+  "formal_2024_rows_included": false,
+  "formal_eligible": false,
+  "holdout_rows_included": false,
+  "identity_payload": {
+    "case_population": [
+      {
+        "case_id": "AAPL:2023-05-05",
+        "decision_session": "2023-05-05",
+        "maturity_session": "2023-05-12",
+        "split_role": "TRAIN",
+        "symbol": "AAPL"
+      },
+      {
+        "case_id": "AAPL:2023-05-12",
+        "decision_session": "2023-05-12",
+        "maturity_session": "2023-05-19",
+        "split_role": "TRAIN",
+        "symbol": "AAPL"
+      },
+      {
+        "case_id": "AAPL:2023-05-19",
+        "decision_session": "2023-05-19",
+        "maturity_session": "2023-05-26",
+        "split_role": "TRAIN",
+        "symbol": "AAPL"
+      },
+      {
+        "case_id": "AAPL:2023-05-26",
+        "decision_session": "2023-05-26",
+        "maturity_session": "2023-06-05",
+        "split_role": "TRAIN",
+        "symbol": "AAPL"
+      },
+      {
+        "case_id": "AAPL:2023-06-02",
+        "decision_session": "2023-06-02",
+        "maturity_session": "2023-06-09",
+        "split_role": "TRAIN",
+        "symbol": "AAPL"
+      },
+      {
+        "case_id": "AAPL:2023-06-09",
+        "decision_session": "2023-06-09",
+        "maturity_session": "2023-06-16",
+        "split_role": "TRAIN",
+        "symbol": "AAPL"
+      },
+      {
+        "case_id": "AAPL:2023-06-16",
+        "decision_session": "2023-06-16",
+        "maturity_session": "2023-06-26",
+        "split_role": "TRAIN",
+        "symbol": "AAPL"
+      },
+      {
+        "case_id": "AAPL:2023-06-30",
+        "decision_session": "2023-06-30",
+        "maturity_session": "2023-07-10",
+        "split_role": "VALIDATION",
+        "symbol": "AAPL"
+      },
+      {
+        "case_id": "AAPL:2023-07-07",
+        "decision_session": "2023-07-07",
+        "maturity_session": "2023-07-14",
+        "split_role": "VALIDATION",
+        "symbol": "AAPL"
+      },
+      {
+        "case_id": "AEMD:2023-05-05",
+        "decision_session": "2023-05-05",
+        "maturity_session": "2023-05-12",
+        "split_role": "TRAIN",
+        "symbol": "AEMD"
+      },
+      {
+        "case_id": "AEMD:2023-05-12",
+        "decision_session": "2023-05-12",
+        "maturity_session": "2023-05-19",
+        "split_role": "TRAIN",
+        "symbol": "AEMD"
+      },
+      {
+        "case_id": "AEMD:2023-05-19",
+        "decision_session": "2023-05-19",
+        "maturity_session": "2023-05-26",
+        "split_role": "TRAIN",
+        "symbol": "AEMD"
+      },
+      {
+        "case_id": "AEMD:2023-05-26",
+        "decision_session": "2023-05-26",
+        "maturity_session": "2023-06-05",
+        "split_role": "TRAIN",
+        "symbol": "AEMD"
+      },
+      {
+        "case_id": "AEMD:2023-06-02",
+        "decision_session": "2023-06-02",
+        "maturity_session": "2023-06-09",
+        "split_role": "TRAIN",
+        "symbol": "AEMD"
+      },
+      {
+        "case_id": "AEMD:2023-06-09",
+        "decision_session": "2023-06-09",
+        "maturity_session": "2023-06-16",
+        "split_role": "TRAIN",
+        "symbol": "AEMD"
+      },
+      {
+        "case_id": "AEMD:2023-06-16",
+        "decision_session": "2023-06-16",
+        "maturity_session": "2023-06-26",
+        "split_role": "TRAIN",
+        "symbol": "AEMD"
+      },
+      {
+        "case_id": "AEMD:2023-06-30",
+        "decision_session": "2023-06-30",
+        "maturity_session": "2023-07-10",
+        "split_role": "VALIDATION",
+        "symbol": "AEMD"
+      },
+      {
+        "case_id": "AEMD:2023-07-07",
+        "decision_session": "2023-07-07",
+        "maturity_session": "2023-07-14",
+        "split_role": "VALIDATION",
+        "symbol": "AEMD"
+      },
+      {
+        "case_id": "AGI:2023-05-05",
+        "decision_session": "2023-05-05",
+        "maturity_session": "2023-05-12",
+        "split_role": "TRAIN",
+        "symbol": "AGI"
+      },
+      {
+        "case_id": "AGI:2023-05-12",
+        "decision_session": "2023-05-12",
+        "maturity_session": "2023-05-19",
+        "split_role": "TRAIN",
+        "symbol": "AGI"
+      },
+      {
+        "case_id": "AGI:2023-05-19",
+        "decision_session": "2023-05-19",
+        "maturity_session": "2023-05-26",
+        "split_role": "TRAIN",
+        "symbol": "AGI"
+      },
+      {
+        "case_id": "AGI:2023-05-26",
+        "decision_session": "2023-05-26",
+        "maturity_session": "2023-06-05",
+        "split_role": "TRAIN",
+        "symbol": "AGI"
+      },
+      {
+        "case_id": "AGI:2023-06-02",
+        "decision_session": "2023-06-02",
+        "maturity_session": "2023-06-09",
+        "split_role": "TRAIN",
+        "symbol": "AGI"
+      },
+      {
+        "case_id": "AGI:2023-06-09",
+        "decision_session": "2023-06-09",
+        "maturity_session": "2023-06-16",
+        "split_role": "TRAIN",
+        "symbol": "AGI"
+      },
+      {
+        "case_id": "AGI:2023-06-16",
+        "decision_session": "2023-06-16",
+        "maturity_session": "2023-06-26",
+        "split_role": "TRAIN",
+        "symbol": "AGI"
+      },
+      {
+        "case_id": "AGI:2023-06-30",
+        "decision_session": "2023-06-30",
+        "maturity_session": "2023-07-10",
+        "split_role": "VALIDATION",
+        "symbol": "AGI"
+      },
+      {
+        "case_id": "AGI:2023-07-07",
+        "decision_session": "2023-07-07",
+        "maturity_session": "2023-07-14",
+        "split_role": "VALIDATION",
+        "symbol": "AGI"
+      },
+      {
+        "case_id": "AMZN:2023-05-05",
+        "decision_session": "2023-05-05",
+        "maturity_session": "2023-05-12",
+        "split_role": "TRAIN",
+        "symbol": "AMZN"
+      },
+      {
+        "case_id": "AMZN:2023-05-12",
+        "decision_session": "2023-05-12",
+        "maturity_session": "2023-05-19",
+        "split_role": "TRAIN",
+        "symbol": "AMZN"
+      },
+      {
+        "case_id": "AMZN:2023-05-19",
+        "decision_session": "2023-05-19",
+        "maturity_session": "2023-05-26",
+        "split_role": "TRAIN",
+        "symbol": "AMZN"
+      },
+      {
+        "case_id": "AMZN:2023-05-26",
+        "decision_session": "2023-05-26",
+        "maturity_session": "2023-06-05",
+        "split_role": "TRAIN",
+        "symbol": "AMZN"
+      },
+      {
+        "case_id": "AMZN:2023-06-02",
+        "decision_session": "2023-06-02",
+        "maturity_session": "2023-06-09",
+        "split_role": "TRAIN",
+        "symbol": "AMZN"
+      },
+      {
+        "case_id": "AMZN:2023-06-09",
+        "decision_session": "2023-06-09",
+        "maturity_session": "2023-06-16",
+        "split_role": "TRAIN",
+        "symbol": "AMZN"
+      },
+      {
+        "case_id": "AMZN:2023-06-16",
+        "decision_session": "2023-06-16",
+        "maturity_session": "2023-06-26",
+        "split_role": "TRAIN",
+        "symbol": "AMZN"
+      },
+      {
+        "case_id": "AMZN:2023-06-30",
+        "decision_session": "2023-06-30",
+        "maturity_session": "2023-07-10",
+        "split_role": "VALIDATION",
+        "symbol": "AMZN"
+      },
+      {
+        "case_id": "AMZN:2023-07-07",
+        "decision_session": "2023-07-07",
+        "maturity_session": "2023-07-14",
+        "split_role": "VALIDATION",
+        "symbol": "AMZN"
+      },
+      {
+        "case_id": "ARR:2023-05-05",
+        "decision_session": "2023-05-05",
+        "maturity_session": "2023-05-12",
+        "split_role": "TRAIN",
+        "symbol": "ARR"
+      },
+      {
+        "case_id": "ARR:2023-05-12",
+        "decision_session": "2023-05-12",
+        "maturity_session": "2023-05-19",
+        "split_role": "TRAIN",
+        "symbol": "ARR"
+      },
+      {
+        "case_id": "ARR:2023-05-19",
+        "decision_session": "2023-05-19",
+        "maturity_session": "2023-05-26",
+        "split_role": "TRAIN",
+        "symbol": "ARR"
+      },
+      {
+        "case_id": "ARR:2023-05-26",
+        "decision_session": "2023-05-26",
+        "maturity_session": "2023-06-05",
+        "split_role": "TRAIN",
+        "symbol": "ARR"
+      },
+      {
+        "case_id": "ARR:2023-06-02",
+        "decision_session": "2023-06-02",
+        "maturity_session": "2023-06-09",
+        "split_role": "TRAIN",
+        "symbol": "ARR"
+      },
+      {
+        "case_id": "ARR:2023-06-09",
+        "decision_session": "2023-06-09",
+        "maturity_session": "2023-06-16",
+        "split_role": "TRAIN",
+        "symbol": "ARR"
+      },
+      {
+        "case_id": "ARR:2023-06-16",
+        "decision_session": "2023-06-16",
+        "maturity_session": "2023-06-26",
+        "split_role": "TRAIN",
+        "symbol": "ARR"
+      },
+      {
+        "case_id": "ARR:2023-06-30",
+        "decision_session": "2023-06-30",
+        "maturity_session": "2023-07-10",
+        "split_role": "VALIDATION",
+        "symbol": "ARR"
+      },
+      {
+        "case_id": "ARR:2023-07-07",
+        "decision_session": "2023-07-07",
+        "maturity_session": "2023-07-14",
+        "split_role": "VALIDATION",
+        "symbol": "ARR"
+      },
+      {
+        "case_id": "EML:2023-05-05",
+        "decision_session": "2023-05-05",
+        "maturity_session": "2023-05-12",
+        "split_role": "TRAIN",
+        "symbol": "EML"
+      },
+      {
+        "case_id": "EML:2023-05-12",
+        "decision_session": "2023-05-12",
+        "maturity_session": "2023-05-19",
+        "split_role": "TRAIN",
+        "symbol": "EML"
+      },
+      {
+        "case_id": "EML:2023-05-19",
+        "decision_session": "2023-05-19",
+        "maturity_session": "2023-05-26",
+        "split_role": "TRAIN",
+        "symbol": "EML"
+      },
+      {
+        "case_id": "EML:2023-05-26",
+        "decision_session": "2023-05-26",
+        "maturity_session": "2023-06-05",
+        "split_role": "TRAIN",
+        "symbol": "EML"
+      },
+      {
+        "case_id": "EML:2023-06-02",
+        "decision_session": "2023-06-02",
+        "maturity_session": "2023-06-09",
+        "split_role": "TRAIN",
+        "symbol": "EML"
+      },
+      {
+        "case_id": "EML:2023-06-09",
+        "decision_session": "2023-06-09",
+        "maturity_session": "2023-06-16",
+        "split_role": "TRAIN",
+        "symbol": "EML"
+      },
+      {
+        "case_id": "EML:2023-06-16",
+        "decision_session": "2023-06-16",
+        "maturity_session": "2023-06-26",
+        "split_role": "TRAIN",
+        "symbol": "EML"
+      },
+      {
+        "case_id": "EML:2023-06-30",
+        "decision_session": "2023-06-30",
+        "maturity_session": "2023-07-10",
+        "split_role": "VALIDATION",
+        "symbol": "EML"
+      },
+      {
+        "case_id": "EML:2023-07-07",
+        "decision_session": "2023-07-07",
+        "maturity_session": "2023-07-14",
+        "split_role": "VALIDATION",
+        "symbol": "EML"
+      },
+      {
+        "case_id": "JBSS:2023-05-05",
+        "decision_session": "2023-05-05",
+        "maturity_session": "2023-05-12",
+        "split_role": "TRAIN",
+        "symbol": "JBSS"
+      },
+      {
+        "case_id": "JBSS:2023-05-12",
+        "decision_session": "2023-05-12",
+        "maturity_session": "2023-05-19",
+        "split_role": "TRAIN",
+        "symbol": "JBSS"
+      },
+      {
+        "case_id": "JBSS:2023-05-19",
+        "decision_session": "2023-05-19",
+        "maturity_session": "2023-05-26",
+        "split_role": "TRAIN",
+        "symbol": "JBSS"
+      },
+      {
+        "case_id": "JBSS:2023-05-26",
+        "decision_session": "2023-05-26",
+        "maturity_session": "2023-06-05",
+        "split_role": "TRAIN",
+        "symbol": "JBSS"
+      },
+      {
+        "case_id": "JBSS:2023-06-02",
+        "decision_session": "2023-06-02",
+        "maturity_session": "2023-06-09",
+        "split_role": "TRAIN",
+        "symbol": "JBSS"
+      },
+      {
+        "case_id": "JBSS:2023-06-09",
+        "decision_session": "2023-06-09",
+        "maturity_session": "2023-06-16",
+        "split_role": "TRAIN",
+        "symbol": "JBSS"
+      },
+      {
+        "case_id": "JBSS:2023-06-16",
+        "decision_session": "2023-06-16",
+        "maturity_session": "2023-06-26",
+        "split_role": "TRAIN",
+        "symbol": "JBSS"
+      },
+      {
+        "case_id": "JBSS:2023-06-30",
+        "decision_session": "2023-06-30",
+        "maturity_session": "2023-07-10",
+        "split_role": "VALIDATION",
+        "symbol": "JBSS"
+      },
+      {
+        "case_id": "JBSS:2023-07-07",
+        "decision_session": "2023-07-07",
+        "maturity_session": "2023-07-14",
+        "split_role": "VALIDATION",
+        "symbol": "JBSS"
+      },
+      {
+        "case_id": "JPM:2023-05-05",
+        "decision_session": "2023-05-05",
+        "maturity_session": "2023-05-12",
+        "split_role": "TRAIN",
+        "symbol": "JPM"
+      },
+      {
+        "case_id": "JPM:2023-05-12",
+        "decision_session": "2023-05-12",
+        "maturity_session": "2023-05-19",
+        "split_role": "TRAIN",
+        "symbol": "JPM"
+      },
+      {
+        "case_id": "JPM:2023-05-19",
+        "decision_session": "2023-05-19",
+        "maturity_session": "2023-05-26",
+        "split_role": "TRAIN",
+        "symbol": "JPM"
+      },
+      {
+        "case_id": "JPM:2023-05-26",
+        "decision_session": "2023-05-26",
+        "maturity_session": "2023-06-05",
+        "split_role": "TRAIN",
+        "symbol": "JPM"
+      },
+      {
+        "case_id": "JPM:2023-06-02",
+        "decision_session": "2023-06-02",
+        "maturity_session": "2023-06-09",
+        "split_role": "TRAIN",
+        "symbol": "JPM"
+      },
+      {
+        "case_id": "JPM:2023-06-09",
+        "decision_session": "2023-06-09",
+        "maturity_session": "2023-06-16",
+        "split_role": "TRAIN",
+        "symbol": "JPM"
+      },
+      {
+        "case_id": "JPM:2023-06-16",
+        "decision_session": "2023-06-16",
+        "maturity_session": "2023-06-26",
+        "split_role": "TRAIN",
+        "symbol": "JPM"
+      },
+      {
+        "case_id": "JPM:2023-06-30",
+        "decision_session": "2023-06-30",
+        "maturity_session": "2023-07-10",
+        "split_role": "VALIDATION",
+        "symbol": "JPM"
+      },
+      {
+        "case_id": "JPM:2023-07-07",
+        "decision_session": "2023-07-07",
+        "maturity_session": "2023-07-14",
+        "split_role": "VALIDATION",
+        "symbol": "JPM"
+      }
+    ],
+    "files": [
+      {
+        "first_session": "2023-05-05",
+        "last_session": "2023-07-14",
+        "path": "inputs/market_snapshot/AAPL.csv",
+        "row_count": 45,
+        "sha256": "1743d50ccaf9a5922812469dced2360f94770fd427faa896be3f29b92c61a9a3",
+        "symbol": "AAPL"
+      },
+      {
+        "first_session": "2023-05-05",
+        "last_session": "2023-07-14",
+        "path": "inputs/market_snapshot/AEMD.csv",
+        "row_count": 45,
+        "sha256": "b0f40f89fb414138e7403fa0879df029e99ed2de97c9b8dfe7615f32d9756cec",
+        "symbol": "AEMD"
+      },
+      {
+        "first_session": "2023-05-05",
+        "last_session": "2023-07-14",
+        "path": "inputs/market_snapshot/AGI.csv",
+        "row_count": 45,
+        "sha256": "e22edfcebebf1ed10095935d0a40aede2ff57536d4e43783a6b57898a2878c1b",
+        "symbol": "AGI"
+      },
+      {
+        "first_session": "2023-05-05",
+        "last_session": "2023-07-14",
+        "path": "inputs/market_snapshot/AMZN.csv",
+        "row_count": 45,
+        "sha256": "e7f320405fa7977c465320eaa93f9eb828bf35537f579bb28cf7be0fe5ff10f8",
+        "symbol": "AMZN"
+      },
+      {
+        "first_session": "2023-05-05",
+        "last_session": "2023-07-14",
+        "path": "inputs/market_snapshot/ARR.csv",
+        "row_count": 45,
+        "sha256": "94df067c678214cf2395ea411b87febd2a327616ee21dbcc2211be4973e5c8c5",
+        "symbol": "ARR"
+      },
+      {
+        "first_session": "2023-05-05",
+        "last_session": "2023-07-14",
+        "path": "inputs/market_snapshot/EML.csv",
+        "row_count": 45,
+        "sha256": "c635f23482aa530ef28bace97047f9dddc820f8cb5280a72693dfc4bdd3e0fcf",
+        "symbol": "EML"
+      },
+      {
+        "first_session": "2023-05-05",
+        "last_session": "2023-07-14",
+        "path": "inputs/market_snapshot/JBSS.csv",
+        "row_count": 45,
+        "sha256": "9450cbbfcb729977c03e3295aafdc45b8f35b25394af5179f045b80ccae25934",
+        "symbol": "JBSS"
+      },
+      {
+        "first_session": "2023-05-05",
+        "last_session": "2023-07-14",
+        "path": "inputs/market_snapshot/JPM.csv",
+        "row_count": 45,
+        "sha256": "6d0ebcbb9feb8b8989c4f51846ad84c334b448854f236c77e0818291e9ff4529",
+        "symbol": "JPM"
+      }
+    ],
+    "normalisation": {
+      "corporate_actions": "explicit Dividends and Stock Splits",
+      "path": "tradingagents.backtesting.data.YFinanceDataProvider.load -> normalize_ohlcv",
+      "prices": "raw unadjusted Open/Close",
+      "serialization": "UTF-8 CSV, LF, %.10g",
+      "timezone": "timezone removed and session label normalized"
+    },
+    "provider": {
+      "family": "yfinance",
+      "query": {
+        "actions": true,
+        "auto_adjust": false,
+        "end_exclusive_plus_one_day": true,
+        "progress": false
+      },
+      "version": "1.5.2"
+    },
+    "record_type": "M2_REWARD_MARKET_SNAPSHOT_IDENTITY_V1",
+    "state_templates": {
+      "CASH": {
+        "average_entry_price": 0.0,
+        "cash": 100000.0,
+        "open_position_commission": 0.0,
+        "quantity": 0.0
+      },
+      "LONG": {
+        "average_entry_price": "frozen raw decision-session Close",
+        "cash": 0.0,
+        "open_position_commission": 0.0,
+        "quantity": "100000 / frozen raw decision-session Close"
+      },
+      "execution_attribution": "E0 recomputed after next-session corporate actions at execution open",
+      "normalised_decision_time_equity_usd": 100000.0
+    }
+  },
+  "latest_retained_session": "2023-07-14",
+  "market_snapshot_is_agent_evidence": false,
+  "materializer_script_sha256": "4de939c70caa54b6892ffb5d9ca7334b76c6cb77003c847a16c3696404673f13",
+  "normalisation_semantics": {
+    "corporate_actions": "explicit Dividends and Stock Splits",
+    "path": "tradingagents.backtesting.data.YFinanceDataProvider.load -> normalize_ohlcv",
+    "prices": "raw unadjusted Open/Close",
+    "serialization": "UTF-8 CSV, LF, %.10g",
+    "timezone": "timezone removed and session label normalized"
+  },
+  "pilot_rows_included": false,
+  "queries": [
+    {
+      "requested_end_inclusive": "2023-07-14",
+      "requested_start": "2023-05-05",
+      "symbol": "AAPL"
+    },
+    {
+      "requested_end_inclusive": "2023-07-14",
+      "requested_start": "2023-05-05",
+      "symbol": "AEMD"
+    },
+    {
+      "requested_end_inclusive": "2023-07-14",
+      "requested_start": "2023-05-05",
+      "symbol": "AGI"
+    },
+    {
+      "requested_end_inclusive": "2023-07-14",
+      "requested_start": "2023-05-05",
+      "symbol": "AMZN"
+    },
+    {
+      "requested_end_inclusive": "2023-07-14",
+      "requested_start": "2023-05-05",
+      "symbol": "ARR"
+    },
+    {
+      "requested_end_inclusive": "2023-07-14",
+      "requested_start": "2023-05-05",
+      "symbol": "EML"
+    },
+    {
+      "requested_end_inclusive": "2023-07-14",
+      "requested_start": "2023-05-05",
+      "symbol": "JBSS"
+    },
+    {
+      "requested_end_inclusive": "2023-07-14",
+      "requested_start": "2023-05-05",
+      "symbol": "JPM"
+    }
+  ],
+  "record_type": "M2_REWARD_MARKET_SNAPSHOT_V1",
+  "reward_contract_lineage_sha": "06b30f05749c53c8122d3997595aad556cbf0136",
+  "reward_market_snapshot_identity_sha256": "3afc723888666e0ca3a12219a57dc577d6cf3953717da731b774634f4aff1445",
+  "source_provider": "yfinance",
+  "source_provider_version": "1.5.2",
+  "source_query_semantics": {
+    "actions": true,
+    "auto_adjust": false,
+    "end_exclusive_plus_one_day": true,
+    "progress": false
+  },
+  "split_contract_sha": "8574067d039f6288042ec85cebc4517f3c3da49c",
+  "state_templates": {
+    "CASH": {
+      "average_entry_price": 0.0,
+      "cash": 100000.0,
+      "open_position_commission": 0.0,
+      "quantity": 0.0
+    },
+    "LONG": {
+      "average_entry_price": "frozen raw decision-session Close",
+      "cash": 0.0,
+      "open_position_commission": 0.0,
+      "quantity": "100000 / frozen raw decision-session Close"
+    },
+    "execution_attribution": "E0 recomputed after next-session corporate actions at execution open",
+    "normalised_decision_time_equity_usd": 100000.0
+  },
+  "symbol_count": 8,
+  "symbols": [
+    "AAPL",
+    "AEMD",
+    "AGI",
+    "AMZN",
+    "ARR",
+    "EML",
+    "JBSS",
+    "JPM"
+  ],
+  "task_id": "M2-04"
+}

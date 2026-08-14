@@ -1,0 +1,16 @@
+{
+  "files": {
+    "README.md": "432c7b1d89c8b0fe543c0f7c54a6a8bf7be2c495ff7e25a29cbcf9adb749ff80",
+    "inputs/market_snapshot/AAPL.csv": "1743d50ccaf9a5922812469dced2360f94770fd427faa896be3f29b92c61a9a3",
+    "inputs/market_snapshot/AEMD.csv": "b0f40f89fb414138e7403fa0879df029e99ed2de97c9b8dfe7615f32d9756cec",
+    "inputs/market_snapshot/AGI.csv": "e22edfcebebf1ed10095935d0a40aede2ff57536d4e43783a6b57898a2878c1b",
+    "inputs/market_snapshot/AMZN.csv": "e7f320405fa7977c465320eaa93f9eb828bf35537f579bb28cf7be0fe5ff10f8",
+    "inputs/market_snapshot/ARR.csv": "94df067c678214cf2395ea411b87febd2a327616ee21dbcc2211be4973e5c8c5",
+    "inputs/market_snapshot/EML.csv": "c635f23482aa530ef28bace97047f9dddc820f8cb5280a72693dfc4bdd3e0fcf",
+    "inputs/market_snapshot/JBSS.csv": "9450cbbfcb729977c03e3295aafdc45b8f35b25394af5179f045b80ccae25934",
+    "inputs/market_snapshot/JPM.csv": "6d0ebcbb9feb8b8989c4f51846ad84c334b448854f236c77e0818291e9ff4529",
+    "manifests/market_snapshot_manifest.json": "078405d080f2805f52ad07f0091f6d7ec89520f0cb85c28574f876d31139dc66"
+  },
+  "record_type": "M2_REWARD_MARKET_SNAPSHOT_PHASE_A_SHA256_V1",
+  "reward_market_snapshot_identity_sha256": "3afc723888666e0ca3a12219a57dc577d6cf3953717da731b774634f4aff1445"
+}
