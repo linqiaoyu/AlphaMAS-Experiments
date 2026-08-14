@@ -1,0 +1,12 @@
+{
+  "files": {
+    "manifests/analysis_plan.json": "1e0d1f999ed259f5facb3b0dd8002b6a6e0a7d3eafdca708338b8ba07462e030",
+    "results/reward_candidate_summary.json": "cc7412dcc6db0c5ce1947cd870f47a2c1950b542183aca278ff8cb2ae69b0a94",
+    "results/reward_cross_symbol_summary.csv": "351f8ee2978623990889b742eb04431dd77411bd4e8ba9c3516efbbcc527acec",
+    "results/reward_outcomes.csv": "86723a9acc4c512cde2bf570107ece94b037bf634b24d1a7c1559a9fa18d7711",
+    "results/reward_selection.json": "13f421e43957a9a35d8d3673e55f7e4ebf8ef22f7919317d78d0a251c9cccb01",
+    "results/reward_state_analysis.csv": "ea4cac13bd30cbfac9d47ec2da1d95ea74246d5b2ab951d4d67da38def28172c"
+  },
+  "market_snapshot_mutated_after_phase_a": false,
+  "record_type": "M2_REWARD_STUDY_FINAL_SHA256_V1"
+}

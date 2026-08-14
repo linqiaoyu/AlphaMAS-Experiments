@@ -1,0 +1,33 @@
+{
+  "constants": {
+    "ACTION_SPREAD_EPSILON": 1e-06,
+    "BEST_ACTION_TIE_TOLERANCE": 1e-12,
+    "NONDEGENERACY_OVERALL_MIN": 0.25,
+    "NONDEGENERACY_VALIDATION_MIN": 0.1,
+    "NOOP_NEUTRALITY_TOLERANCE": 1e-12,
+    "R3_MAX_P99_SCALE_MULTIPLIER_VS_R2": 2.0,
+    "R3_MAX_SINGLE_SYMBOL_CHANGE_SHARE": 0.5,
+    "R3_MIN_BEST_SET_CHANGES": 8,
+    "R3_MIN_VALIDATION_CHANGES": 1
+  },
+  "protected_data": {
+    "E2E_PILOT": false,
+    "FINAL_HOLDOUT": false,
+    "FORMAL_2024H1": false
+  },
+  "record_type": "M2_REWARD_ANALYSIS_PLAN_V1",
+  "selection_hierarchy": [
+    "Require finite/correct rewards and R2/R3 no-op neutrality.",
+    "Require overall spread fraction >= 0.25 and VALIDATION >= 0.10.",
+    "R3 outranks R2 only when every pre-registered R3 added-value criterion passes.",
+    "Otherwise select correctness-valid, non-degenerate R2 by simplicity/local-credit tie-break.",
+    "R1 is fallback only when both R2 and R3 fail correctness or non-degeneracy.",
+    "Block if no unique candidate is resolved."
+  ],
+  "selection_rule_version": "M2_REWARD_SELECTION_HIERARCHY_V1",
+  "statistics": {
+    "quantile_interpolation": "linear",
+    "standard_deviation_ddof": 0
+  },
+  "task_id": "M2-04"
+}

@@ -1,0 +1,397 @@
+{
+  "R1_ABSOLUTE_NET_LOG_RETURN": {
+    "distributions": {
+      "OVERALL": {
+        "count": 432,
+        "extreme_to_median_ratio": 144.66930690879994,
+        "finite_rate": 1.0,
+        "max": 0.14470548629582053,
+        "mean": 0.003837892981262436,
+        "median": 0.0,
+        "median_absolute_reward": 0.0010002500833645618,
+        "min": -0.10533936710171851,
+        "p05": -0.03280286575347739,
+        "p25": -0.0010002500833645618,
+        "p75": 0.002376626363766003,
+        "p95": 0.048499993644723585,
+        "p95_absolute_reward": 0.061074509353920725,
+        "p99": 0.1264417831133202,
+        "p99_absolute_reward": 0.1264417831133202,
+        "std": 0.02939847153027025
+      },
+      "TRAIN": {
+        "count": 336,
+        "extreme_to_median_ratio": 144.66930690879994,
+        "finite_rate": 1.0,
+        "max": 0.14470548629582053,
+        "mean": 0.003636899431517273,
+        "median": 0.0,
+        "median_absolute_reward": 0.0010002500833645618,
+        "min": -0.10533936710171851,
+        "p05": -0.04130378753170233,
+        "p25": -0.0010002500833645618,
+        "p75": 0.004652684120275593,
+        "p95": 0.04795267156342723,
+        "p95_absolute_reward": 0.060624621816434854,
+        "p99": 0.09237332013101507,
+        "p99_absolute_reward": 0.10498945457256281,
+        "std": 0.028369426295921565
+      },
+      "VALIDATION": {
+        "count": 96,
+        "extreme_to_median_ratio": 126.72001507141742,
+        "finite_rate": 1.0,
+        "max": 0.1267517056391438,
+        "mean": 0.004541370405370508,
+        "median": 0.0,
+        "median_absolute_reward": 0.0010002500833645618,
+        "min": -0.05318401420826036,
+        "p05": -0.03235297821599156,
+        "p25": -0.0010002500833645896,
+        "p75": 0.0,
+        "p95": 0.09676747074313917,
+        "p95_absolute_reward": 0.09676747074313917,
+        "p99": 0.1267517056391438,
+        "p99_absolute_reward": 0.1267517056391438,
+        "std": 0.03273673904426935
+      }
+    },
+    "gate_1_correctness": true,
+    "gate_2_semantic_suitability": false,
+    "gate_3_non_degeneracy": true,
+    "gate_4_stability": true,
+    "market_drift_on_noop": {
+      "CASH": {
+        "count": 144,
+        "max_absolute_reward": 0.0,
+        "median_absolute_reward": 0.0
+      },
+      "LONG": {
+        "count": 144,
+        "max_absolute_reward": 0.14470548629582053,
+        "median_absolute_reward": 0.020968788157744857
+      }
+    },
+    "no_op": {
+      "count": 288,
+      "fraction": 0.6666666666666666,
+      "max_absolute_reward": 0.14470548629582053,
+      "median_absolute_reward": 0.0
+    },
+    "non_trivial_spread_fraction": {
+      "OVERALL": 1.0,
+      "TRAIN": 1.0,
+      "VALIDATION": 1.0
+    },
+    "per_symbol_non_trivial_spread_fraction": {
+      "AAPL": 1.0,
+      "AEMD": 1.0,
+      "AGI": 1.0,
+      "AMZN": 1.0,
+      "ARR": 1.0,
+      "EML": 1.0,
+      "JBSS": 1.0,
+      "JPM": 1.0
+    }
+  },
+  "R2_HOLD_RELATIVE_LOG_ADVANTAGE": {
+    "distributions": {
+      "OVERALL": {
+        "count": 432,
+        "extreme_to_median_ratio": null,
+        "finite_rate": 1.0,
+        "max": 0.14370573621251828,
+        "mean": -0.00033333336111108667,
+        "median": 0.0,
+        "median_absolute_reward": 0.0,
+        "min": -0.14570573637918496,
+        "p05": -0.03491370042525352,
+        "p25": 0.0,
+        "p75": 0.0,
+        "p95": 0.03291370025858689,
+        "p95_absolute_reward": 0.05025794036916558,
+        "p99": 0.0905176100009014,
+        "p99_absolute_reward": 0.10471936705005191,
+        "std": 0.024245711085529087
+      },
+      "TRAIN": {
+        "count": 336,
+        "extreme_to_median_ratio": null,
+        "finite_rate": 1.0,
+        "max": 0.14370573621251828,
+        "mean": -0.000333333361111086,
+        "median": 0.0,
+        "median_absolute_reward": 0.0,
+        "min": -0.14570573637918496,
+        "p05": -0.031891443667062924,
+        "p25": 0.0,
+        "p75": 0.0,
+        "p95": 0.029891443500396294,
+        "p95_absolute_reward": 0.048952921646791846,
+        "p99": 0.08684323887481665,
+        "p99_absolute_reward": 0.0998513380828165,
+        "std": 0.023390874735510707
+      },
+      "VALIDATION": {
+        "count": 96,
+        "extreme_to_median_ratio": null,
+        "finite_rate": 1.0,
+        "max": 0.12575195555584182,
+        "mean": -0.00033333336111108824,
+        "median": 0.0,
+        "median_absolute_reward": 0.0,
+        "min": -0.12775195572250844,
+        "p05": -0.03421993503593791,
+        "p25": 0.0,
+        "p75": 0.0,
+        "p95": 0.032219934869271424,
+        "p95_absolute_reward": 0.051684014083260385,
+        "p99": 0.09797925433899005,
+        "p99_absolute_reward": 0.12585195556417514,
+        "std": 0.027025537997790724
+      }
+    },
+    "gate_1_correctness": true,
+    "gate_2_semantic_suitability": true,
+    "gate_3_non_degeneracy": true,
+    "gate_4_stability": true,
+    "market_drift_on_noop": {
+      "CASH": {
+        "count": 144,
+        "max_absolute_reward": 0.0,
+        "median_absolute_reward": 0.0
+      },
+      "LONG": {
+        "count": 144,
+        "max_absolute_reward": 0.0,
+        "median_absolute_reward": 0.0
+      }
+    },
+    "no_op": {
+      "count": 288,
+      "fraction": 0.6666666666666666,
+      "max_absolute_reward": 0.0,
+      "median_absolute_reward": 0.0
+    },
+    "non_trivial_spread_fraction": {
+      "OVERALL": 1.0,
+      "TRAIN": 1.0,
+      "VALIDATION": 1.0
+    },
+    "per_symbol_non_trivial_spread_fraction": {
+      "AAPL": 1.0,
+      "AEMD": 1.0,
+      "AGI": 1.0,
+      "AMZN": 1.0,
+      "ARR": 1.0,
+      "EML": 1.0,
+      "JBSS": 1.0,
+      "JPM": 1.0
+    }
+  },
+  "R3_HOLD_RELATIVE_DRAWDOWN_UTILITY": {
+    "distributions": {
+      "OVERALL": {
+        "count": 432,
+        "extreme_to_median_ratio": null,
+        "finite_rate": 1.0,
+        "max": 0.14370573621251828,
+        "mean": -0.004964567106350126,
+        "median": 0.0,
+        "median_absolute_reward": 0.0,
+        "min": -0.21115610587070066,
+        "p05": -0.05762084391339735,
+        "p25": 0.0,
+        "p75": 0.0,
+        "p95": 0.02762938686807785,
+        "p95_absolute_reward": 0.06585843180857656,
+        "p99": 0.05745033427539386,
+        "p99_absolute_reward": 0.1265967215814921,
+        "std": 0.029803435731765304
+      },
+      "TRAIN": {
+        "count": 336,
+        "extreme_to_median_ratio": null,
+        "finite_rate": 1.0,
+        "max": 0.14370573621251828,
+        "mean": -0.004861284988207711,
+        "median": 0.0,
+        "median_absolute_reward": 0.0,
+        "min": -0.21115610587070066,
+        "p05": -0.05750942093141614,
+        "p25": 0.0,
+        "p75": 0.0,
+        "p95": 0.027038953836982602,
+        "p95_absolute_reward": 0.06571613821404175,
+        "p99": 0.05716981331311286,
+        "p99_absolute_reward": 0.13681761643018947,
+        "std": 0.029936537506774805
+      },
+      "VALIDATION": {
+        "count": 96,
+        "extreme_to_median_ratio": null,
+        "finite_rate": 1.0,
+        "max": 0.09233524102707646,
+        "mean": -0.00532605451984858,
+        "median": 0.0,
+        "median_absolute_reward": 0.0,
+        "min": -0.12775195572250844,
+        "p05": -0.055869004168835154,
+        "p25": 0.0,
+        "p75": 0.0,
+        "p95": 0.028547162928884966,
+        "p95_absolute_reward": 0.06596569109111639,
+        "p99": 0.05324157539086774,
+        "p99_absolute_reward": 0.11788704987637431,
+        "std": 0.029329959689911873
+      }
+    },
+    "gate_1_correctness": true,
+    "gate_2_semantic_suitability": true,
+    "gate_3_non_degeneracy": true,
+    "gate_4_stability": true,
+    "market_drift_on_noop": {
+      "CASH": {
+        "count": 144,
+        "max_absolute_reward": 0.0,
+        "median_absolute_reward": 0.0
+      },
+      "LONG": {
+        "count": 144,
+        "max_absolute_reward": 0.0,
+        "median_absolute_reward": 0.0
+      }
+    },
+    "no_op": {
+      "count": 288,
+      "fraction": 0.6666666666666666,
+      "max_absolute_reward": 0.0,
+      "median_absolute_reward": 0.0
+    },
+    "non_trivial_spread_fraction": {
+      "OVERALL": 1.0,
+      "TRAIN": 1.0,
+      "VALIDATION": 1.0
+    },
+    "per_symbol_non_trivial_spread_fraction": {
+      "AAPL": 1.0,
+      "AEMD": 1.0,
+      "AGI": 1.0,
+      "AMZN": 1.0,
+      "ARR": 1.0,
+      "EML": 1.0,
+      "JBSS": 1.0,
+      "JPM": 1.0
+    }
+  },
+  "R3_added_value": {
+    "all_added_value_conditions_met": true,
+    "best_set_change_count": 11,
+    "best_set_change_minimum_met": true,
+    "best_set_changes_by_symbol": {
+      "AAPL": 3,
+      "AEMD": 0,
+      "AGI": 2,
+      "AMZN": 2,
+      "ARR": 1,
+      "EML": 0,
+      "JBSS": 2,
+      "JPM": 1
+    },
+    "correctness": true,
+    "cross_asset_distribution_met": true,
+    "largest_single_symbol_change_share": 0.2727272727272727,
+    "non_degeneracy": true,
+    "p99_absolute_scale_ratio_vs_R2": 1.208914121119388,
+    "penalty_activation_by_role": {
+      "TRAIN": 0.15476190476190477,
+      "VALIDATION": 0.15625
+    },
+    "penalty_activation_by_symbol": {
+      "AAPL": 0.16666666666666666,
+      "AEMD": 0.12962962962962962,
+      "AGI": 0.16666666666666666,
+      "AMZN": 0.16666666666666666,
+      "ARR": 0.16666666666666666,
+      "EML": 0.12962962962962962,
+      "JBSS": 0.16666666666666666,
+      "JPM": 0.14814814814814814
+    },
+    "penalty_activation_count": 67,
+    "penalty_activation_fraction": 0.1550925925925926,
+    "penalty_nonzero_mean": 0.02986108922303381,
+    "penalty_nonzero_median": 0.02210032669966097,
+    "penalty_nonzero_p95": 0.06795138863547635,
+    "scale_stability_met": true,
+    "validation_best_set_change_count": 1,
+    "validation_minimum_met": true
+  },
+  "transaction_costs": {
+    "commission": {
+      "count": 432,
+      "extreme_to_median_ratio": null,
+      "finite_rate": 1.0,
+      "max": 51.48939393939395,
+      "mean": 16.66147386826726,
+      "median": 0.0,
+      "median_absolute_reward": 0.0,
+      "min": 0.0,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p75": 49.97500000000001,
+      "p95": 50.097332580332406,
+      "p95_absolute_reward": 50.097332580332406,
+      "p99": 50.68256471405836,
+      "p99_absolute_reward": 50.68256471405836,
+      "std": 23.563670106672625
+    },
+    "no_op_actions": 288,
+    "reward_by_switching": {
+      "NO_OP": {
+        "R2": 0.0,
+        "R3": 0.0
+      },
+      "TRADED": {
+        "R2": -0.0010000000833332602,
+        "R3": -0.014893701319050379
+      }
+    },
+    "slippage": {
+      "count": 432,
+      "extreme_to_median_ratio": null,
+      "finite_rate": 1.0,
+      "max": 51.51515151513912,
+      "mean": 16.661479601820204,
+      "median": 0.0,
+      "median_absolute_reward": 0.0,
+      "min": 0.0,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p75": 49.95003747500422,
+      "p95": 50.122393777212125,
+      "p95_absolute_reward": 50.122393777212125,
+      "p99": 50.70791867338367,
+      "p99_absolute_reward": 50.70791867338367,
+      "std": 23.563686747018654
+    },
+    "total_cost": {
+      "count": 432,
+      "extreme_to_median_ratio": null,
+      "finite_rate": 1.0,
+      "max": 103.00454545453306,
+      "mean": 33.32295347008747,
+      "median": 0.0,
+      "median_absolute_reward": 0.0,
+      "min": 0.0,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p75": 99.92504996875692,
+      "p95": 100.21972635754453,
+      "p95_absolute_reward": 100.21972635754453,
+      "p99": 101.39048338744203,
+      "p99_absolute_reward": 101.39048338744203,
+      "std": 47.12735464464787
+    },
+    "traded_actions": 144
+  }
+}
