@@ -1,0 +1,21 @@
+{
+  "config_path": "configs/backtest_m1_2024h1.json",
+  "config_sha256": "febfcd8102ea1b383504ad4ba0330a55e7a44f80e5a9257d2fdc9df59d42bc4c",
+  "experiment_id": "M1_finmultitime_prompt_2024H1",
+  "protocol_mode": "formal_m1",
+  "symbols": ["AAPL", "AMZN", "JPM"],
+  "calendar": "XNYS",
+  "decision_weeks": 26,
+  "expected_agent_decisions": 78,
+  "first_decision": "2024-01-05",
+  "good_friday_week_decision": "2024-03-28",
+  "last_decision": "2024-06-28",
+  "first_execution": "2024-01-08",
+  "last_execution": "2024-07-01",
+  "final_valuation": "2024-07-05",
+  "data_source": "snapshot",
+  "operational_input_root_tracked": false,
+  "operational_input_root_excluded_from_graph_and_protocol_identity": true,
+  "validation": "passed"
+}
+

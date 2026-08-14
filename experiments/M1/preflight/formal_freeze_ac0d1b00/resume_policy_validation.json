@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "single_intended_run_semantics": true,
+  "same_lineage_resume": true,
+  "valid_prefix_decision_cache_replay": true,
+  "first_incomplete_case_is_first_new_inference": true,
+  "operational_root_relocation_same_graph_and_protocol": true,
+  "different_source_cannot_resume": true,
+  "different_protocol_cannot_resume": true,
+  "different_market_input_cannot_resume": true,
+  "different_formal_bundle_cannot_resume": true,
+  "different_contract_cannot_resume": true,
+  "different_packet_manifest_cannot_resume": true,
+  "latest_run_status_resolved_run_identity_consistency_required": true,
+  "official_force_policy": "FORBIDDEN"
+}
+

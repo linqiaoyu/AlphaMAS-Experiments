@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "m0_namespace_component": null,
+  "m1_pilot_namespace_component": "finmultitime-pilot-bd8dfafdbeb259fc",
+  "m1_formal_namespace_component": "finmultitime-formal-30596a5478810187",
+  "namespace_collision": false,
+  "symbols": ["AAPL", "AMZN", "JPM"],
+  "archived_paths": ["memory/symbols/AAPL.md", "memory/symbols/AMZN.md", "memory/symbols/JPM.md"],
+  "sha256_size_utf8_lineage_graph_bundle_namespace_validation": "passed",
+  "memory_archive_validator": "passed",
+  "complete_artifact_validator": "passed",
+  "graph_constructed_through_frozen_store_startup": true,
+  "packets_loaded_before_provider_creation": 78,
+  "provider_creation_intercepted": true,
+  "provider_requests": 0
+}
+

@@ -1,0 +1,13 @@
+{
+  "candidate_sha": "ac0d1b006d8019748702fda38399a4316befb9b0",
+  "pytest": {"collected": 874, "passed": 872, "skipped": 2, "warnings": 19, "subtests": 0, "failed": 0, "duration_seconds": 23.32, "completed_normally": true},
+  "targeted_ruff": "passed",
+  "repository_ruff": {
+    "finding_count": 7,
+    "classification": "STYLE_ONLY",
+    "possible_correctness": 0,
+    "codes": {"B007": 1, "E402": 2, "F401": 2, "I001": 2},
+    "files": ["scripts/finmultitime/audit_m1_preformal_bundle.py", "scripts/finmultitime/audit_m1_text_integrity.py", "scripts/finmultitime/preprocess_m1_inputs.py"]
+  }
+}
+

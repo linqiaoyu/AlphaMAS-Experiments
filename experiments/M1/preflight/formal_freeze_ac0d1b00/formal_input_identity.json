@@ -1,0 +1,22 @@
+{
+  "bundle_scope": "FORMAL",
+  "contract_version": "M1-FINMULTITIME-v1.0.2",
+  "contract_sha256": "46f6a05f12a7c402936178748c55dab099c8754d99fa1a0c41faf525cd37ae08",
+  "packet_manifest_sha256": "05f10129b430475bad3d5dee9dfceffba463f8a99cdd3f087ff4b755a869d63d",
+  "input_bundle_identity": "30596a54788101873f1c88bdf653df7f12ac3b4861a7058b6a36df0861274121",
+  "archive_commit": "3750fa50224ba46ab1d4bf5511cb5e8fa514445b",
+  "full_bundle_verification": "passed",
+  "packet_count": 78,
+  "symbol_counts": {"AAPL": 26, "AMZN": 26, "JPM": 26},
+  "exact_lookup": {"passed": 78, "failed": 0},
+  "route_mismatches": 0,
+  "social_route": "NO_FINMULTITIME_ROUTE",
+  "availability": {
+    "TEXT": {"AVAILABLE": 2, "UNAVAILABLE": 76},
+    "TABLE": {"AVAILABLE": 78, "UNAVAILABLE": 0},
+    "TIME_SERIES": {"AVAILABLE": 78, "UNAVAILABLE": 0},
+    "IMAGE": {"AVAILABLE": 52, "UNAVAILABLE": 26}
+  },
+  "formal_input_evidence_changed": false
+}
+

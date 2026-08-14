@@ -1,0 +1,27 @@
+{
+  "m0_sha": "2535896c8b1070b19c06fa6a936663babb4356f7",
+  "m1_sha": "ac0d1b006d8019748702fda38399a4316befb9b0",
+  "changed_path_count": 92,
+  "formal_config_protocol_differences_after_intended_fields_removed": 0,
+  "scientific_difference": "M0 validated historical-safe system + frozen FinMultiTime evidence augmentation",
+  "changed_source_file_classification": {
+    "formal_m1_fail_closed_support": ["configs/backtest_m1_2024h1.json", "scripts/run_weekly_backtest.py", "tradingagents/backtesting/config.py", "tradingagents/default_config.py"],
+    "pilot_formal_isolation": ["configs/m1_pilot_aapl_2023q4.json", "scripts/finmultitime/build_m1_pilot_inputs.py"],
+    "m1_data_audit_and_correctness_validation": ["scripts/finmultitime/audit_finmultitime.py", "scripts/finmultitime/audit_m0_m1_controlled_difference.py", "scripts/finmultitime/audit_m1_preformal_bundle.py", "scripts/finmultitime/audit_m1_text_integrity.py", "scripts/finmultitime/text_source_integrity.py"],
+    "evidence_contract_and_packet_creation": ["scripts/finmultitime/design_m1_contract.py", "scripts/finmultitime/build_m1_evidence_packets.py"],
+    "preprocessing": ["scripts/finmultitime/preprocess_m1_inputs.py"],
+    "qwen_offline_preprocessing": ["scripts/finmultitime/generate_qwen_synthetic_chart.py", "scripts/finmultitime/integrate_frozen_qwen_captions.py", "scripts/finmultitime/run_qwen_caption.py"],
+    "runtime_validation": ["scripts/finmultitime/probe_m1_pilot_runtime.py", "scripts/finmultitime/probe_m1_runtime_integration.py"],
+    "frozen_evidence_runtime_adapter": ["tradingagents/evidence/__init__.py", "tradingagents/evidence/finmultitime.py", "tradingagents/evidence/prompt.py"],
+    "analyst_local_augmentation": ["tradingagents/agents/analysts/fundamentals_analyst.py", "tradingagents/agents/analysts/market_analyst.py", "tradingagents/agents/analysts/news_analyst.py", "tradingagents/graph/setup.py"],
+    "cache_and_provenance_identity": ["tradingagents/backtesting/strategies.py", "tradingagents/runtime/run_context.py", "tradingagents/graph/trading_graph.py"],
+    "memory_namespace_isolation": ["tradingagents/agents/utils/memory_namespace.py", "tradingagents/backtesting/memory_archive.py"],
+    "artifact_publication_validation": ["tradingagents/backtesting/artifacts.py"],
+    "safe_resume_identity": ["tradingagents/backtesting/memory_lineage.py"],
+    "tests": ["scripts/pytest_interpreter_guard.py", "tests/backtesting/test_analysis_artifacts.py", "tests/backtesting/test_m0_contract.py", "tests/backtesting/test_m1_formal_contract.py", "tests/backtesting/test_memory_namespace.py", "tests/conftest.py", "tests/test_m1_evidence_contract_design.py", "tests/test_m1_evidence_packets.py", "tests/test_m1_pilot_harness.py", "tests/test_m1_preprocessing.py", "tests/test_m1_provenance_identity.py", "tests/test_m1_qwen_caption.py", "tests/test_m1_runtime_evidence.py", "tests/test_pytest_interpreter_guard.py"]
+  },
+  "unchanged_scientific_components": ["Prompt Trader", "Memory reward logic", "Memory reflection logic", "5-session outcome horizon", "execution engine", "portfolio accounting", "metrics", "transaction cost model", "fractional-share policy", "position sizing", "BUY/HOLD/SELL mapping", "market execution prices", "DeepSeek model", "temperature", "debate rounds", "risk rounds"],
+  "unintended_research_variable_changes": 0,
+  "status": "passed"
+}
+
