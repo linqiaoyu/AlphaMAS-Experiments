@@ -1,0 +1,21 @@
+{
+  "billing_currency": "CNY",
+  "conservative_fallback": "all input tokens are priced as cache miss when the provider split is incomplete",
+  "input_cache_hit_price": "0.02",
+  "input_cache_miss_price": "1.00",
+  "m2_07_prices": {
+    "input_cache_hit_price": "0.02",
+    "input_cache_miss_price": "1.00",
+    "output_price": "2.00"
+  },
+  "model": "deepseek-v4-flash",
+  "output_price": "2.00",
+  "pricing_drift": false,
+  "pricing_source": "https://api-docs.deepseek.com/quick_start/pricing",
+  "retrieval_timestamp": "2026-08-15T17:46:20Z",
+  "schema_version": "M2-DEEPSEEK-PRICING-v1",
+  "selected_tier_changed": false,
+  "source_authority": "official DeepSeek API documentation",
+  "task_id": "M2-08",
+  "unit": "per_1m_tokens"
+}
