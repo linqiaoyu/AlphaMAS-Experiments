@@ -1,0 +1,69 @@
+{
+  "aws": {
+    "batch_size": 1,
+    "existing_environment_only": true,
+    "incremental_compute_cost_ceiling_usd": 3.0,
+    "maximum_runtime_minutes": 90,
+    "new_resources_allowed": false
+  },
+  "candidate_dimensions": [
+    256,
+    512,
+    1024
+  ],
+  "custom_instruction": false,
+  "dimension_selector": "smallest candidate satisfying every threshold in every TRAIN view",
+  "encoder": {
+    "fine_tuned": false,
+    "inference_dtype": "float32",
+    "maximum_sequence_length": 32768,
+    "padding_side": "left",
+    "repository": "Qwen/Qwen3-Embedding-0.6B",
+    "resolution_timestamp_utc": "2026-08-15T23:29:16Z",
+    "resolved_revision_sha": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
+    "trainable": false,
+    "truncation_allowed": false
+  },
+  "fidelity_thresholds": {
+    "cosine_mae_maximum": 0.02,
+    "mean_top5_overlap_minimum": 0.8,
+    "spearman_minimum": 0.98
+  },
+  "learnable_payload": [
+    "research_manager.investment_plan",
+    "prompt_trader.rendered_proposal",
+    "prompt_trader.normalized_action",
+    "future runtime endogenous portfolio state"
+  ],
+  "manager_trader_agreement": "dot(z_RM, z_PT)",
+  "manager_trader_residual": "z_PT - z_RM",
+  "metadata_direct_features": false,
+  "non_learnable_metadata": "every actor_visible_state field other than the explicitly listed learnable payload",
+  "performance_used": false,
+  "portfolio_state_formula": "[is_cash, is_long, ln(close_price / average_entry_price) if long else 0, current_drawdown]",
+  "prompt_action_order": [
+    "BUY",
+    "HOLD",
+    "SELL"
+  ],
+  "reference_dimension": 1024,
+  "representation_contract": "M2-SEMANTIC-STATE-v1",
+  "representation_runner_sha": "cb3a540f87e6daad13665132ac910c484252f636",
+  "reward_used": false,
+  "schema_version": "M2-SEMANTIC-STATE-PLAN-v1",
+  "semantic_base_formula": "concat(z_RM, z_PT, z_PT - z_RM, dot(z_RM, z_PT), prompt_action_onehot)",
+  "source_corpus": {
+    "contract": "M2-SEMANTIC-HANDOFF-v1",
+    "identity_sha256": "cc1fea692489a5b5791cae1fd96386bfbcf1f0a07f2ea3e22637dd3c43533a43",
+    "train_cases": 56,
+    "validation_cases": 16
+  },
+  "split_role_direct_feature": false,
+  "starting_experiments_sha": "d7ba1a3d8a77ede15be82c1b700abd5092066526",
+  "starting_source_sha": "070b4f30743db2e3ad8b7a5af55b2e808a6b1550",
+  "symbol_direct_feature": false,
+  "task_id": "M2-09",
+  "train_only_selection": true,
+  "two_channel_encoding": true,
+  "validation_used_for_selection": false
+}
