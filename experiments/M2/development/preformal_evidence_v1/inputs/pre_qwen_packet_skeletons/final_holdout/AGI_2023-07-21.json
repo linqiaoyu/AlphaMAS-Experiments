@@ -1,0 +1,191 @@
+{
+  "available_for_training": false,
+  "available_for_validation": false,
+  "case_id": "AGI:2023-07-21",
+  "dataset_id": "m2_preformal_evidence_v1",
+  "decision_session": "2023-07-21",
+  "decision_time": "2023-07-21T20:00:00+00:00",
+  "engineering_only": false,
+  "final_packet_status": "PENDING_QWEN",
+  "performance_for_selection": false,
+  "pit_cutoff": "2023-07-21",
+  "protected": true,
+  "role": "FINAL_HOLDOUT",
+  "routing": {
+    "modality_to_analyst": {
+      "IMAGE": "Market Analyst",
+      "TABLE": "Fundamentals Analyst",
+      "TEXT": "News Analyst",
+      "TIME_SERIES": "Market Analyst"
+    },
+    "social_analyst": "NO_FINMULTITIME_SPECIFIC_EVIDENCE"
+  },
+  "schema_version": "1.0",
+  "sections": {
+    "IMAGE": {
+      "bytes": 44796,
+      "caption_status": "PENDING",
+      "filename": "agi_2023_H1_candlestick.png",
+      "image_sha256": "88e4d13673a4574aaa10b91ea6a161eecbd26a3cc888a594e88c9605ba77baf8",
+      "inferred_period": "2023-H1",
+      "inferred_period_end": "2023-06-30",
+      "reason": "window end inferred from YYYY_H1/H2 filename convention",
+      "source_path": "/Volumes/Jackson/Dataset/FinMultiTime/image/image/S&P500_image_a/agi/agi_2023_H1_candlestick.png",
+      "status": "AVAILABLE"
+    },
+    "TABLE": {
+      "facts": {
+        "Assets": null,
+        "Liabilities": null,
+        "NetCashProvidedByUsedInFinancingActivities": null,
+        "NetCashProvidedByUsedInInvestingActivities": null,
+        "NetCashProvidedByUsedInOperatingActivities": null,
+        "StockholdersEquity": null
+      },
+      "latest_safe_filed_date": null,
+      "reason": "no PIT-safe selected facts",
+      "same_day_ambiguous_rejected_count": 0,
+      "source_members": [],
+      "status": "UNAVAILABLE",
+      "unavailable_concepts": [
+        "Assets",
+        "Liabilities",
+        "StockholdersEquity",
+        "NetCashProvidedByUsedInOperatingActivities",
+        "NetCashProvidedByUsedInInvestingActivities",
+        "NetCashProvidedByUsedInFinancingActivities"
+      ]
+    },
+    "TEXT": {
+      "latest_safe_date": "2023-07-13",
+      "reason": "",
+      "same_day_ambiguous_rejected": [],
+      "selected_record_hashes": [
+        "e146800ce59d946c8f303a5e5eadd76f5a059657fb6585712ae67f3ee52f4888",
+        "0b198a033374efad7473a87d55f4323b27d0aed08f79bbf40fa3ddb54dcb6821",
+        "383f94fccdc78f3893e10ba4f5c6364ceb880af303df2648f9d6b850cdc0fe8c"
+      ],
+      "selected_records": [
+        {
+          "body": "In recent trading, shares of Alamos Gold Inc (Symbol: AGI) have crossed above the average analyst 12-month target price of $12.22, changing hands for $12.68/share. When a stock reaches the target an analyst has set, the analyst logically has two ways to react: downgrade on valuation, or, re-adjust their target price to a higher level. Analyst reaction may also depend on the fundamental business developments that may be responsible for driving the stock price higher — if things are looking up for the company, perhaps it is time for that target price to be raised. There are 11 different analyst targets within the Zacks coverage universe contributing to that average for Alamos Gold Inc , but the average is just that — a mathematical average. There are analysts with lower targets than the average, including one looking for a price of $8.08. And then on the other side of the spectrum one ana…",
+          "date": "2023-07-13",
+          "duplicate_provenance": [],
+          "record_hash": "e146800ce59d946c8f303a5e5eadd76f5a059657fb6585712ae67f3ee52f4888",
+          "source_index": 8,
+          "source_stock_symbol": "AGI",
+          "title": "AGI Crosses Above Average Analyst Target",
+          "url": "https://www.nasdaq.com/articles/agi-crosses-above-average-analyst-target-0"
+        },
+        {
+          "body": "Investors in Alamos Gold Inc (Symbol: AGI) saw new options become available this week, for the August 18th expiration. At Stock Options Channel, our YieldBoost formula has looked up and down the AGI options chain for the new August 18th contracts and identified one put and one call contract of particular interest. The put contract at the $11.00 strike price has a current bid of 20 cents. If an investor was to sell-to-open that put contract, they are committing to purchase the stock at $11.00, but will also collect the premium, putting the cost basis of the shares at $10.80 (before broker commissions). To an investor already interested in purchasing shares of AGI, that could represent an attractive alternative to paying $11.66/share today. Because the $11.00 strike represents an approximate 6% discount to the current trading price of the stock (in other words it is out-of-the-money by th…",
+          "date": "2023-07-07",
+          "duplicate_provenance": [],
+          "record_hash": "0b198a033374efad7473a87d55f4323b27d0aed08f79bbf40fa3ddb54dcb6821",
+          "source_index": 9,
+          "source_stock_symbol": "AGI",
+          "title": "First Week of August 18th Options Trading For Alamos Gold (AGI)",
+          "url": "https://www.nasdaq.com/articles/first-week-of-august-18th-options-trading-for-alamos-gold-agi"
+        },
+        {
+          "body": "In trading on Tuesday, shares of Alamos Gold Inc (Symbol: AGI) entered into oversold territory, changing hands as low as $11.41 per share. We define oversold territory using the Relative Strength Index, or RSI, which is a technical analysis indicator used to measure momentum on a scale of zero to 100. A stock is considered to be oversold if the RSI reading falls below 30. In the case of Alamos Gold Inc, the RSI reading has hit 29.8 — by comparison, the universe of metals and mining stocks covered by Metals Channel currently has an average RSI of 45.0, the RSI of Spot Gold is at 6.2, and the RSI of Spot Silver is presently 14.9. A bullish investor could look at AGI's 29.8 reading as a sign that the recent heavy selling is in the process of exhausting itself, and begin to look for entry point opportunities on the buy side. Looking at a chart of one year performance (below), AGI's low poin…",
+          "date": "2023-06-27",
+          "duplicate_provenance": [],
+          "record_hash": "383f94fccdc78f3893e10ba4f5c6364ceb880af303df2648f9d6b850cdc0fe8c",
+          "source_index": 10,
+          "source_stock_symbol": "AGI",
+          "title": "AGI Stock Crowded With Sellers",
+          "url": "https://www.nasdaq.com/articles/agi-stock-crowded-with-sellers-0"
+        }
+      ],
+      "source_member": "sp500_news/AGI.jsonl",
+      "status": "AVAILABLE"
+    },
+    "TIME_SERIES": {
+      "reason": "",
+      "required_row_count": 61,
+      "selected_row_count": 61,
+      "selected_session_dates": [
+        "2023-04-25",
+        "2023-04-26",
+        "2023-04-27",
+        "2023-04-28",
+        "2023-05-01",
+        "2023-05-02",
+        "2023-05-03",
+        "2023-05-04",
+        "2023-05-05",
+        "2023-05-08",
+        "2023-05-09",
+        "2023-05-10",
+        "2023-05-11",
+        "2023-05-12",
+        "2023-05-15",
+        "2023-05-16",
+        "2023-05-17",
+        "2023-05-18",
+        "2023-05-19",
+        "2023-05-22",
+        "2023-05-23",
+        "2023-05-24",
+        "2023-05-25",
+        "2023-05-26",
+        "2023-05-30",
+        "2023-05-31",
+        "2023-06-01",
+        "2023-06-02",
+        "2023-06-05",
+        "2023-06-06",
+        "2023-06-07",
+        "2023-06-08",
+        "2023-06-09",
+        "2023-06-12",
+        "2023-06-13",
+        "2023-06-14",
+        "2023-06-15",
+        "2023-06-16",
+        "2023-06-20",
+        "2023-06-21",
+        "2023-06-22",
+        "2023-06-23",
+        "2023-06-26",
+        "2023-06-27",
+        "2023-06-28",
+        "2023-06-29",
+        "2023-06-30",
+        "2023-07-03",
+        "2023-07-05",
+        "2023-07-06",
+        "2023-07-07",
+        "2023-07-10",
+        "2023-07-11",
+        "2023-07-12",
+        "2023-07-13",
+        "2023-07-14",
+        "2023-07-17",
+        "2023-07-18",
+        "2023-07-19",
+        "2023-07-20",
+        "2023-07-21"
+      ],
+      "source_member": "S&P500_time_series/agi.csv",
+      "status": "AVAILABLE",
+      "summary": {
+        "cumulative_return_20d": 0.06335611108100725,
+        "cumulative_return_5d": -0.022047124942846996,
+        "cumulative_return_60d": -0.029242457606304062,
+        "drawdown_from_60d_peak": -0.0994853825590779,
+        "high_low_range_20d": 0.1505282376657835,
+        "realised_volatility_20d_annualised": 0.3462062129502355,
+        "relative_volume_vs_20d_mean": 0.9067991295473926
+      },
+      "through_session": "2023-07-21"
+    }
+  },
+  "symbol": "AGI",
+  "task_id": "M2-06",
+  "tier_membership": {
+    "in_compact": true,
+    "in_maximum": true,
+    "in_standard": true
+  }
+}

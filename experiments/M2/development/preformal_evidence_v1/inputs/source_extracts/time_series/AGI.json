@@ -1,0 +1,2177 @@
+{
+  "rows": [
+    {
+      "numeric": {
+        "Close": 10.720788955688477,
+        "Dividends": 0.0,
+        "High": 10.849122642170641,
+        "Low": 10.52335287704264,
+        "Open": 10.631943426384964,
+        "Stock Splits": 0.0,
+        "Volume": 3062100.0
+      },
+      "raw": null,
+      "session_date": "2023-02-08"
+    },
+    {
+      "numeric": {
+        "Close": 10.523353576660156,
+        "Dividends": 0.0,
+        "High": 10.967585018509219,
+        "Low": 10.454251179902393,
+        "Open": 10.849123363446104,
+        "Stock Splits": 0.0,
+        "Volume": 3823400.0
+      },
+      "raw": null,
+      "session_date": "2023-02-09"
+    },
+    {
+      "numeric": {
+        "Close": 10.533226013183594,
+        "Dividends": 0.0,
+        "High": 10.622072493188355,
+        "Low": 10.404892313337779,
+        "Open": 10.552969152379328,
+        "Stock Splits": 0.0,
+        "Volume": 3136500.0
+      },
+      "raw": null,
+      "session_date": "2023-02-10"
+    },
+    {
+      "numeric": {
+        "Close": 10.395020484924316,
+        "Dividends": 0.0,
+        "High": 10.54309826843411,
+        "Low": 10.375277345326104,
+        "Open": 10.46412382714206,
+        "Stock Splits": 0.0,
+        "Volume": 2174000.0
+      },
+      "raw": null,
+      "session_date": "2023-02-13"
+    },
+    {
+      "numeric": {
+        "Close": 10.42463493347168,
+        "Dividends": 0.0,
+        "High": 10.503609362089314,
+        "Low": 10.237069959417711,
+        "Open": 10.365403641283729,
+        "Stock Splits": 0.0,
+        "Volume": 2580800.0
+      },
+      "raw": null,
+      "session_date": "2023-02-14"
+    },
+    {
+      "numeric": {
+        "Close": 10.227198600769043,
+        "Dividends": 0.0,
+        "High": 10.256814719557743,
+        "Low": 10.049506595284408,
+        "Open": 10.167968246090668,
+        "Stock Splits": 0.0,
+        "Volume": 4182000.0
+      },
+      "raw": null,
+      "session_date": "2023-02-15"
+    },
+    {
+      "numeric": {
+        "Close": 10.29630184173584,
+        "Dividends": 0.0,
+        "High": 10.365404235374495,
+        "Low": 10.01989038428221,
+        "Open": 10.128480935942388,
+        "Stock Splits": 0.0,
+        "Volume": 3289800.0
+      },
+      "raw": null,
+      "session_date": "2023-02-16"
+    },
+    {
+      "numeric": {
+        "Close": 10.217327117919922,
+        "Dividends": 0.0,
+        "High": 10.25681433336857,
+        "Low": 9.960659746778962,
+        "Open": 10.108736569349027,
+        "Stock Splits": 0.0,
+        "Volume": 2955200.0
+      },
+      "raw": null,
+      "session_date": "2023-02-17"
+    },
+    {
+      "numeric": {
+        "Close": 10.049507141113281,
+        "Dividends": 0.0,
+        "High": 10.286430455594056,
+        "Low": 10.029763060848435,
+        "Open": 10.177840838486093,
+        "Stock Splits": 0.0,
+        "Volume": 2764000.0
+      },
+      "raw": null,
+      "session_date": "2023-02-21"
+    },
+    {
+      "numeric": {
+        "Close": 9.911299705505371,
+        "Dividends": 0.0,
+        "High": 10.019889304008682,
+        "Low": 9.812581203993703,
+        "Open": 9.990274130134944,
+        "Stock Splits": 0.0,
+        "Volume": 2969100.0
+      },
+      "raw": null,
+      "session_date": "2023-02-22"
+    },
+    {
+      "numeric": {
+        "Close": 9.901429176330566,
+        "Dividends": 0.0,
+        "High": 10.108737307945342,
+        "Low": 9.76322438288708,
+        "Open": 10.019890831331931,
+        "Stock Splits": 0.0,
+        "Volume": 2976200.0
+      },
+      "raw": null,
+      "session_date": "2023-02-23"
+    },
+    {
+      "numeric": {
+        "Close": 9.950787544250488,
+        "Dividends": 0.0,
+        "High": 9.970531622375528,
+        "Low": 9.654632962521118,
+        "Open": 9.703992216384258,
+        "Stock Splits": 0.0,
+        "Volume": 2694300.0
+      },
+      "raw": null,
+      "session_date": "2023-02-24"
+    },
+    {
+      "numeric": {
+        "Close": 10.039634704589844,
+        "Dividends": 0.0,
+        "High": 10.138353219117285,
+        "Low": 9.960660269547702,
+        "Open": 10.010019526811423,
+        "Stock Splits": 0.0,
+        "Volume": 2212900.0
+      },
+      "raw": null,
+      "session_date": "2023-02-27"
+    },
+    {
+      "numeric": {
+        "Close": 10.049507141113281,
+        "Dividends": 0.0,
+        "High": 10.207456017433797,
+        "Low": 9.9606606628206,
+        "Open": 10.049507141113281,
+        "Stock Splits": 0.0,
+        "Volume": 3804100.0
+      },
+      "raw": null,
+      "session_date": "2023-02-28"
+    },
+    {
+      "numeric": {
+        "Close": 10.286429405212402,
+        "Dividends": 0.0,
+        "High": 10.365403835308317,
+        "Low": 10.148223681819816,
+        "Open": 10.148223681819816,
+        "Stock Splits": 0.0,
+        "Volume": 4123300.0
+      },
+      "raw": null,
+      "session_date": "2023-03-01"
+    },
+    {
+      "numeric": {
+        "Close": 10.187710762023926,
+        "Dividends": 0.0,
+        "High": 10.237070015542924,
+        "Low": 10.10873633297331,
+        "Open": 10.187710762023926,
+        "Stock Splits": 0.0,
+        "Volume": 2114400.0
+      },
+      "raw": null,
+      "session_date": "2023-03-02"
+    },
+    {
+      "numeric": {
+        "Close": 10.29630184173584,
+        "Dividends": 0.0,
+        "High": 10.325917018802476,
+        "Low": 10.138352975447768,
+        "Open": 10.316044979297097,
+        "Stock Splits": 0.0,
+        "Volume": 1977200.0
+      },
+      "raw": null,
+      "session_date": "2023-03-03"
+    },
+    {
+      "numeric": {
+        "Close": 10.227198600769043,
+        "Dividends": 0.0,
+        "High": 10.345660251575305,
+        "Low": 10.177840285686901,
+        "Open": 10.217327502622323,
+        "Stock Splits": 0.0,
+        "Volume": 1914800.0
+      },
+      "raw": null,
+      "session_date": "2023-03-06"
+    },
+    {
+      "numeric": {
+        "Close": 9.822453498840332,
+        "Dividends": 0.0,
+        "High": 10.158095283002318,
+        "Low": 9.792838324193518,
+        "Open": 10.158095283002318,
+        "Stock Splits": 0.0,
+        "Volume": 2676000.0
+      },
+      "raw": null,
+      "session_date": "2023-03-07"
+    },
+    {
+      "numeric": {
+        "Close": 9.792839050292969,
+        "Dividends": 0.0,
+        "High": 9.990275131659864,
+        "Low": 9.703992578315491,
+        "Open": 9.911300699113106,
+        "Stock Splits": 0.0,
+        "Volume": 3035300.0
+      },
+      "raw": null,
+      "session_date": "2023-03-08"
+    },
+    {
+      "numeric": {
+        "Close": 9.723735809326172,
+        "Dividends": 0.0,
+        "High": 9.960659086308175,
+        "Low": 9.684248596495838,
+        "Open": 9.901427796337966,
+        "Stock Splits": 0.0,
+        "Volume": 3420100.0
+      },
+      "raw": null,
+      "session_date": "2023-03-09"
+    },
+    {
+      "numeric": {
+        "Close": 9.940916061401367,
+        "Dividends": 0.0,
+        "High": 10.197583442691153,
+        "Low": 9.901428844391363,
+        "Open": 9.921172923621123,
+        "Stock Splits": 0.0,
+        "Volume": 3973700.0
+      },
+      "raw": null,
+      "session_date": "2023-03-10"
+    },
+    {
+      "numeric": {
+        "Close": 10.50361156463623,
+        "Dividends": 0.0,
+        "High": 10.572713968804674,
+        "Low": 10.276559328661897,
+        "Open": 10.335790633270312,
+        "Stock Splits": 0.0,
+        "Volume": 5602000.0
+      },
+      "raw": null,
+      "session_date": "2023-03-13"
+    },
+    {
+      "numeric": {
+        "Close": 10.582584381103516,
+        "Dividends": 0.0,
+        "High": 10.701046030638878,
+        "Low": 10.355532180073611,
+        "Open": 10.464122731568153,
+        "Stock Splits": 0.0,
+        "Volume": 4738700.0
+      },
+      "raw": null,
+      "session_date": "2023-03-14"
+    },
+    {
+      "numeric": {
+        "Close": 10.508371353149414,
+        "Dividends": 0.025,
+        "High": 10.785427963747395,
+        "Low": 10.37973769088783,
+        "Open": 10.745848447947685,
+        "Stock Splits": 0.0,
+        "Volume": 4139500.0
+      },
+      "raw": null,
+      "session_date": "2023-03-15"
+    },
+    {
+      "numeric": {
+        "Close": 10.4984769821167,
+        "Dividends": 0.0,
+        "High": 10.617215537928605,
+        "Low": 10.221420351888922,
+        "Open": 10.538056500720668,
+        "Stock Splits": 0.0,
+        "Volume": 2197000.0
+      },
+      "raw": null,
+      "session_date": "2023-03-16"
+    },
+    {
+      "numeric": {
+        "Close": 11.201014518737793,
+        "Dividends": 0.0,
+        "High": 11.299963790373717,
+        "Low": 10.508372448236903,
+        "Open": 10.637006123903527,
+        "Stock Splits": 0.0,
+        "Volume": 12567600.0
+      },
+      "raw": null,
+      "session_date": "2023-03-17"
+    },
+    {
+      "numeric": {
+        "Close": 11.270278930664062,
+        "Dividends": 0.0,
+        "High": 11.379122370142678,
+        "Low": 11.10206574187429,
+        "Open": 11.299963333494567,
+        "Stock Splits": 0.0,
+        "Volume": 4345800.0
+      },
+      "raw": null,
+      "session_date": "2023-03-20"
+    },
+    {
+      "numeric": {
+        "Close": 10.874483108520508,
+        "Dividends": 0.0,
+        "High": 11.141645572432473,
+        "Low": 10.745849434449953,
+        "Open": 11.141645572432473,
+        "Stock Splits": 0.0,
+        "Volume": 3534100.0
+      },
+      "raw": null,
+      "session_date": "2023-03-21"
+    },
+    {
+      "numeric": {
+        "Close": 11.092172622680664,
+        "Dividends": 0.0,
+        "High": 11.250490724469989,
+        "Low": 10.874484760895182,
+        "Open": 10.93385452089134,
+        "Stock Splits": 0.0,
+        "Volume": 4648100.0
+      },
+      "raw": null,
+      "session_date": "2023-03-22"
+    },
+    {
+      "numeric": {
+        "Close": 11.46817684173584,
+        "Dividends": 0.0,
+        "High": 11.666074438868648,
+        "Low": 11.111960223246607,
+        "Open": 11.181225089980723,
+        "Stock Splits": 0.0,
+        "Volume": 5005000.0
+      },
+      "raw": null,
+      "session_date": "2023-03-23"
+    },
+    {
+      "numeric": {
+        "Close": 11.636391639709473,
+        "Dividends": 0.0,
+        "High": 11.745235097227987,
+        "Low": 11.309860323503623,
+        "Open": 11.567126763424683,
+        "Stock Splits": 0.0,
+        "Volume": 4880100.0
+      },
+      "raw": null,
+      "session_date": "2023-03-24"
+    },
+    {
+      "numeric": {
+        "Close": 11.646286964416504,
+        "Dividends": 0.0,
+        "High": 11.656181138076127,
+        "Low": 11.290070290460996,
+        "Open": 11.379124458949873,
+        "Stock Splits": 0.0,
+        "Volume": 3152400.0
+      },
+      "raw": null,
+      "session_date": "2023-03-27"
+    },
+    {
+      "numeric": {
+        "Close": 12.04207992553711,
+        "Dividends": 0.0,
+        "High": 12.051975040961414,
+        "Low": 11.537440362699284,
+        "Open": 11.695758434887587,
+        "Stock Splits": 0.0,
+        "Volume": 4160200.0
+      },
+      "raw": null,
+      "session_date": "2023-03-28"
+    },
+    {
+      "numeric": {
+        "Close": 12.05197525024414,
+        "Dividends": 0.0,
+        "High": 12.141029403309025,
+        "Low": 11.893657175306641,
+        "Open": 11.962921097179258,
+        "Stock Splits": 0.0,
+        "Volume": 3134700.0
+      },
+      "raw": null,
+      "session_date": "2023-03-29"
+    },
+    {
+      "numeric": {
+        "Close": 12.150925636291504,
+        "Dividends": 0.0,
+        "High": 12.190505161739347,
+        "Low": 11.962923126326833,
+        "Open": 12.170715870840587,
+        "Stock Splits": 0.0,
+        "Volume": 2635900.0
+      },
+      "raw": null,
+      "session_date": "2023-03-30"
+    },
+    {
+      "numeric": {
+        "Close": 12.101449012756348,
+        "Dividends": 0.0,
+        "High": 12.220188513314449,
+        "Low": 11.943130936879104,
+        "Open": 12.150923647380528,
+        "Stock Splits": 0.0,
+        "Volume": 2594900.0
+      },
+      "raw": null,
+      "session_date": "2023-03-31"
+    },
+    {
+      "numeric": {
+        "Close": 12.42798137664795,
+        "Dividends": 0.0,
+        "High": 12.556614107142435,
+        "Low": 12.012395950534472,
+        "Open": 12.141029624679136,
+        "Stock Splits": 0.0,
+        "Volume": 5051600.0
+      },
+      "raw": null,
+      "session_date": "2023-04-03"
+    },
+    {
+      "numeric": {
+        "Close": 12.754512786865234,
+        "Dividends": 0.0,
+        "High": 12.902935750527941,
+        "Low": 12.319137124460966,
+        "Open": 12.447770800005399,
+        "Stock Splits": 0.0,
+        "Volume": 4999600.0
+      },
+      "raw": null,
+      "session_date": "2023-04-04"
+    },
+    {
+      "numeric": {
+        "Close": 12.833671569824219,
+        "Dividends": 0.0,
+        "High": 12.902935492327417,
+        "Low": 12.556613992511084,
+        "Open": 12.84356574186027,
+        "Stock Splits": 0.0,
+        "Volume": 3485500.0
+      },
+      "raw": null,
+      "session_date": "2023-04-05"
+    },
+    {
+      "numeric": {
+        "Close": 12.833671569824219,
+        "Dividends": 0.0,
+        "High": 12.873251088918929,
+        "Low": 12.635773974350673,
+        "Open": 12.74461741594858,
+        "Stock Splits": 0.0,
+        "Volume": 4015900.0
+      },
+      "raw": null,
+      "session_date": "2023-04-06"
+    },
+    {
+      "numeric": {
+        "Close": 12.991990089416504,
+        "Dividends": 0.0,
+        "High": 12.991990089416504,
+        "Low": 12.55661442087197,
+        "Open": 12.67535392585699,
+        "Stock Splits": 0.0,
+        "Volume": 2780300.0
+      },
+      "raw": null,
+      "session_date": "2023-04-10"
+    },
+    {
+      "numeric": {
+        "Close": 13.130517959594727,
+        "Dividends": 0.0,
+        "High": 13.31852043257722,
+        "Low": 12.99198917595227,
+        "Open": 13.06125309594843,
+        "Stock Splits": 0.0,
+        "Volume": 3447700.0
+      },
+      "raw": null,
+      "session_date": "2023-04-11"
+    },
+    {
+      "numeric": {
+        "Close": 13.318521499633789,
+        "Dividends": 0.0,
+        "High": 13.437260062133248,
+        "Low": 13.090938547105502,
+        "Open": 13.298731267392107,
+        "Stock Splits": 0.0,
+        "Volume": 2839600.0
+      },
+      "raw": null,
+      "session_date": "2023-04-12"
+    },
+    {
+      "numeric": {
+        "Close": 13.526313781738281,
+        "Dividends": 0.0,
+        "High": 13.66484257199181,
+        "Low": 13.397680107285042,
+        "Open": 13.526313781738281,
+        "Stock Splits": 0.0,
+        "Volume": 4140700.0
+      },
+      "raw": null,
+      "session_date": "2023-04-13"
+    },
+    {
+      "numeric": {
+        "Close": 13.269046783447266,
+        "Dividends": 0.0,
+        "High": 13.32841653616759,
+        "Low": 12.93262038654924,
+        "Open": 13.318521420105835,
+        "Stock Splits": 0.0,
+        "Volume": 3683500.0
+      },
+      "raw": null,
+      "session_date": "2023-04-14"
+    },
+    {
+      "numeric": {
+        "Close": 12.972199440002441,
+        "Dividends": 0.0,
+        "High": 13.189887267270839,
+        "Low": 12.843565766782488,
+        "Open": 13.140412632393907,
+        "Stock Splits": 0.0,
+        "Volume": 2940300.0
+      },
+      "raw": null,
+      "session_date": "2023-04-17"
+    },
+    {
+      "numeric": {
+        "Close": 12.962305068969727,
+        "Dividends": 0.0,
+        "High": 13.298730504938195,
+        "Low": 12.92272555040578,
+        "Open": 13.031568990544093,
+        "Stock Splits": 0.0,
+        "Volume": 3027100.0
+      },
+      "raw": null,
+      "session_date": "2023-04-18"
+    },
+    {
+      "numeric": {
+        "Close": 12.615983963012695,
+        "Dividends": 0.0,
+        "High": 12.705038118441522,
+        "Low": 12.487350287798858,
+        "Open": 12.566509327368884,
+        "Stock Splits": 0.0,
+        "Volume": 3539200.0
+      },
+      "raw": null,
+      "session_date": "2023-04-19"
+    },
+    {
+      "numeric": {
+        "Close": 12.685248374938965,
+        "Dividends": 0.0,
+        "High": 12.833672287582768,
+        "Low": 12.586300043493317,
+        "Open": 12.665459086109925,
+        "Stock Splits": 0.0,
+        "Volume": 2481200.0
+      },
+      "raw": null,
+      "session_date": "2023-04-20"
+    },
+    {
+      "numeric": {
+        "Close": 12.606088638305664,
+        "Dividends": 0.0,
+        "High": 12.645668157434953,
+        "Low": 12.408191042659219,
+        "Open": 12.57640423487124,
+        "Stock Splits": 0.0,
+        "Volume": 2431600.0
+      },
+      "raw": null,
+      "session_date": "2023-04-21"
+    },
+    {
+      "numeric": {
+        "Close": 12.784198760986328,
+        "Dividends": 0.0,
+        "High": 12.853462693382363,
+        "Low": 12.635775779094736,
+        "Open": 12.655565069643472,
+        "Stock Splits": 0.0,
+        "Volume": 1948400.0
+      },
+      "raw": null,
+      "session_date": "2023-04-24"
+    },
+    {
+      "numeric": {
+        "Close": 12.685248374938965,
+        "Dividends": 0.0,
+        "High": 12.7347230124869,
+        "Low": 12.536825405945383,
+        "Open": 12.695143491178596,
+        "Stock Splits": 0.0,
+        "Volume": 1820600.0
+      },
+      "raw": null,
+      "session_date": "2023-04-25"
+    },
+    {
+      "numeric": {
+        "Close": 12.55661392211914,
+        "Dividends": 0.0,
+        "High": 12.962305170128333,
+        "Low": 12.497245115634982,
+        "Open": 12.823776382248353,
+        "Stock Splits": 0.0,
+        "Volume": 2135600.0
+      },
+      "raw": null,
+      "session_date": "2023-04-26"
+    },
+    {
+      "numeric": {
+        "Close": 12.734722137451172,
+        "Dividends": 0.0,
+        "High": 12.902935327365652,
+        "Low": 12.269662086296423,
+        "Open": 12.615983581685096,
+        "Stock Splits": 0.0,
+        "Volume": 3802500.0
+      },
+      "raw": null,
+      "session_date": "2023-04-27"
+    },
+    {
+      "numeric": {
+        "Close": 12.794093132019043,
+        "Dividends": 0.0,
+        "High": 12.972200511172849,
+        "Low": 12.59619457616998,
+        "Open": 12.695143854094512,
+        "Stock Splits": 0.0,
+        "Volume": 2167700.0
+      },
+      "raw": null,
+      "session_date": "2023-04-28"
+    },
+    {
+      "numeric": {
+        "Close": 12.902935028076172,
+        "Dividends": 0.0,
+        "High": 13.140412134099934,
+        "Low": 12.873250625735736,
+        "Open": 13.081043329419062,
+        "Stock Splits": 0.0,
+        "Volume": 4129700.0
+      },
+      "raw": null,
+      "session_date": "2023-05-01"
+    },
+    {
+      "numeric": {
+        "Close": 13.34820556640625,
+        "Dividends": 0.0,
+        "High": 13.387785086237358,
+        "Low": 12.754512768939627,
+        "Open": 12.952410368095167,
+        "Stock Splits": 0.0,
+        "Volume": 3452100.0
+      },
+      "raw": null,
+      "session_date": "2023-05-02"
+    },
+    {
+      "numeric": {
+        "Close": 13.546103477478027,
+        "Dividends": 0.0,
+        "High": 13.595578114318675,
+        "Low": 13.229467311538212,
+        "Open": 13.377891222060157,
+        "Stock Splits": 0.0,
+        "Volume": 3680600.0
+      },
+      "raw": null,
+      "session_date": "2023-05-03"
+    },
+    {
+      "numeric": {
+        "Close": 13.605473518371582,
+        "Dividends": 0.0,
+        "High": 13.971584328900645,
+        "Low": 13.546103764176223,
+        "Open": 13.763791604692234,
+        "Stock Splits": 0.0,
+        "Volume": 3914500.0
+      },
+      "raw": null,
+      "session_date": "2023-05-04"
+    },
+    {
+      "numeric": {
+        "Close": 13.66484260559082,
+        "Dividends": 0.0,
+        "High": 13.714316297413559,
+        "Low": 13.140412790688112,
+        "Open": 13.219571829984712,
+        "Stock Splits": 0.0,
+        "Volume": 3328000.0
+      },
+      "raw": null,
+      "session_date": "2023-05-05"
+    },
+    {
+      "numeric": {
+        "Close": 13.674736976623535,
+        "Dividends": 0.0,
+        "High": 13.763791133039783,
+        "Low": 13.486734491472719,
+        "Open": 13.74400184475295,
+        "Stock Splits": 0.0,
+        "Volume": 1957900.0
+      },
+      "raw": null,
+      "session_date": "2023-05-08"
+    },
+    {
+      "numeric": {
+        "Close": 13.59557819366455,
+        "Dividends": 0.0,
+        "High": 13.813266030843739,
+        "Low": 13.546103556535162,
+        "Open": 13.63515771463802,
+        "Stock Splits": 0.0,
+        "Volume": 2157400.0
+      },
+      "raw": null,
+      "session_date": "2023-05-09"
+    },
+    {
+      "numeric": {
+        "Close": 13.476840019226074,
+        "Dividends": 0.0,
+        "High": 13.684632746239151,
+        "Low": 13.269047292212996,
+        "Open": 13.625263934892695,
+        "Stock Splits": 0.0,
+        "Volume": 1626600.0
+      },
+      "raw": null,
+      "session_date": "2023-05-10"
+    },
+    {
+      "numeric": {
+        "Close": 13.11072826385498,
+        "Dividends": 0.0,
+        "High": 13.377890726712035,
+        "Low": 13.04146434103286,
+        "Open": 13.28883657242635,
+        "Stock Splits": 0.0,
+        "Volume": 2437300.0
+      },
+      "raw": null,
+      "session_date": "2023-05-11"
+    },
+    {
+      "numeric": {
+        "Close": 13.170098304748535,
+        "Dividends": 0.0,
+        "High": 13.209677824897472,
+        "Low": 13.00188510820301,
+        "Open": 13.1305187845996,
+        "Stock Splits": 0.0,
+        "Volume": 2351200.0
+      },
+      "raw": null,
+      "session_date": "2023-05-12"
+    },
+    {
+      "numeric": {
+        "Close": 13.42736530303955,
+        "Dividends": 0.0,
+        "High": 13.54610386869621,
+        "Low": 13.25915209911339,
+        "Open": 13.269047215497338,
+        "Stock Splits": 0.0,
+        "Volume": 2131100.0
+      },
+      "raw": null,
+      "session_date": "2023-05-15"
+    },
+    {
+      "numeric": {
+        "Close": 12.932621002197266,
+        "Dividends": 0.0,
+        "High": 13.407576215619143,
+        "Low": 12.77430291227339,
+        "Open": 13.37789180967098,
+        "Stock Splits": 0.0,
+        "Volume": 3400400.0
+      },
+      "raw": null,
+      "session_date": "2023-05-16"
+    },
+    {
+      "numeric": {
+        "Close": 12.724827766418457,
+        "Dividends": 0.0,
+        "High": 12.982095124122694,
+        "Low": 12.645668724609495,
+        "Open": 12.893040966175057,
+        "Stock Splits": 0.0,
+        "Volume": 1838700.0
+      },
+      "raw": null,
+      "session_date": "2023-05-17"
+    },
+    {
+      "numeric": {
+        "Close": 12.52692985534668,
+        "Dividends": 0.0,
+        "High": 12.556614259386073,
+        "Low": 12.220188811755833,
+        "Open": 12.52692985534668,
+        "Stock Splits": 0.0,
+        "Volume": 4226300.0
+      },
+      "raw": null,
+      "session_date": "2023-05-18"
+    },
+    {
+      "numeric": {
+        "Close": 12.576403617858887,
+        "Dividends": 0.0,
+        "High": 12.754511917027582,
+        "Low": 12.41808554910899,
+        "Open": 12.566508502649487,
+        "Stock Splits": 0.0,
+        "Volume": 1897500.0
+      },
+      "raw": null,
+      "session_date": "2023-05-19"
+    },
+    {
+      "numeric": {
+        "Close": 12.517034530639648,
+        "Dividends": 0.0,
+        "High": 12.645668204198062,
+        "Low": 12.49724524282691,
+        "Open": 12.517034530639648,
+        "Stock Splits": 0.0,
+        "Volume": 1283700.0
+      },
+      "raw": null,
+      "session_date": "2023-05-22"
+    },
+    {
+      "numeric": {
+        "Close": 12.734722137451172,
+        "Dividends": 0.0,
+        "High": 12.803986059068844,
+        "Low": 12.348821123473806,
+        "Open": 12.437875276210903,
+        "Stock Splits": 0.0,
+        "Volume": 3358100.0
+      },
+      "raw": null,
+      "session_date": "2023-05-23"
+    },
+    {
+      "numeric": {
+        "Close": 12.348821640014648,
+        "Dividends": 0.0,
+        "High": 12.81388171062247,
+        "Low": 12.348821640014648,
+        "Open": 12.794092422325434,
+        "Stock Splits": 0.0,
+        "Volume": 2880700.0
+      },
+      "raw": null,
+      "session_date": "2023-05-24"
+    },
+    {
+      "numeric": {
+        "Close": 12.190502166748047,
+        "Dividends": 0.0,
+        "High": 12.368610459330434,
+        "Low": 12.131133364987312,
+        "Open": 12.319135828763095,
+        "Stock Splits": 0.0,
+        "Volume": 1982000.0
+      },
+      "raw": null,
+      "session_date": "2023-05-25"
+    },
+    {
+      "numeric": {
+        "Close": 12.249874114990234,
+        "Dividends": 0.0,
+        "High": 12.398297089732297,
+        "Low": 12.15092483606202,
+        "Open": 12.289453637831468,
+        "Stock Splits": 0.0,
+        "Volume": 1391700.0
+      },
+      "raw": null,
+      "session_date": "2023-05-26"
+    },
+    {
+      "numeric": {
+        "Close": 11.982711791992188,
+        "Dividends": 0.0,
+        "High": 12.319138212569966,
+        "Low": 11.923342978743328,
+        "Open": 12.269663572429069,
+        "Stock Splits": 0.0,
+        "Volume": 3822400.0
+      },
+      "raw": null,
+      "session_date": "2023-05-30"
+    },
+    {
+      "numeric": {
+        "Close": 12.210294723510742,
+        "Dividends": 0.0,
+        "High": 12.358717699849581,
+        "Low": 11.992606873716879,
+        "Open": 12.051976630442576,
+        "Stock Splits": 0.0,
+        "Volume": 3711700.0
+      },
+      "raw": null,
+      "session_date": "2023-05-31"
+    },
+    {
+      "numeric": {
+        "Close": 12.42798137664795,
+        "Dividends": 0.0,
+        "High": 12.586299454472098,
+        "Low": 12.17071402835862,
+        "Open": 12.279557470950177,
+        "Stock Splits": 0.0,
+        "Volume": 2198200.0
+      },
+      "raw": null,
+      "session_date": "2023-06-01"
+    },
+    {
+      "numeric": {
+        "Close": 12.150925636291504,
+        "Dividends": 0.0,
+        "High": 12.54672183442025,
+        "Low": 12.012397769049217,
+        "Open": 12.447772548975484,
+        "Stock Splits": 0.0,
+        "Volume": 2741300.0
+      },
+      "raw": null,
+      "session_date": "2023-06-02"
+    },
+    {
+      "numeric": {
+        "Close": 12.220190048217773,
+        "Dividends": 0.0,
+        "High": 12.269663745405875,
+        "Low": 11.982711960923568,
+        "Open": 12.061871008804875,
+        "Stock Splits": 0.0,
+        "Volume": 1642300.0
+      },
+      "raw": null,
+      "session_date": "2023-06-05"
+    },
+    {
+      "numeric": {
+        "Close": 12.447771072387695,
+        "Dividends": 0.0,
+        "High": 12.447771072387695,
+        "Low": 12.141030022465937,
+        "Open": 12.200398831770055,
+        "Stock Splits": 0.0,
+        "Volume": 2249300.0
+      },
+      "raw": null,
+      "session_date": "2023-06-06"
+    },
+    {
+      "numeric": {
+        "Close": 12.131134033203125,
+        "Dividends": 0.0,
+        "High": 12.784196550444216,
+        "Low": 12.051974997395122,
+        "Open": 12.497244809727672,
+        "Stock Splits": 0.0,
+        "Volume": 3652500.0
+      },
+      "raw": null,
+      "session_date": "2023-06-07"
+    },
+    {
+      "numeric": {
+        "Close": 12.319138526916504,
+        "Dividends": 0.0,
+        "High": 12.546721499911742,
+        "Low": 12.259769712152734,
+        "Open": 12.338928760937957,
+        "Stock Splits": 0.0,
+        "Volume": 1846000.0
+      },
+      "raw": null,
+      "session_date": "2023-06-08"
+    },
+    {
+      "numeric": {
+        "Close": 12.230083465576172,
+        "Dividends": 0.0,
+        "High": 12.358717146345569,
+        "Low": 12.141030249951413,
+        "Open": 12.279558103356743,
+        "Stock Splits": 0.0,
+        "Volume": 1273800.0
+      },
+      "raw": null,
+      "session_date": "2023-06-09"
+    },
+    {
+      "numeric": {
+        "Close": 12.437875747680664,
+        "Dividends": 0.0,
+        "High": 12.487350383704452,
+        "Low": 12.14102981883832,
+        "Open": 12.200398627146711,
+        "Stock Splits": 0.0,
+        "Volume": 2912700.0
+      },
+      "raw": null,
+      "session_date": "2023-06-12"
+    },
+    {
+      "numeric": {
+        "Close": 12.25976848602295,
+        "Dividends": 0.0,
+        "High": 12.665458806385699,
+        "Low": 12.2003987335466,
+        "Open": 12.517034897019926,
+        "Stock Splits": 0.0,
+        "Volume": 2488100.0
+      },
+      "raw": null,
+      "session_date": "2023-06-13"
+    },
+    {
+      "numeric": {
+        "Close": 12.205236434936523,
+        "Dividends": 0.025,
+        "High": 12.42336344902958,
+        "Low": 12.07634268357712,
+        "Open": 12.4035341502748,
+        "Stock Splits": 0.0,
+        "Volume": 2209800.0
+      },
+      "raw": null,
+      "session_date": "2023-06-14"
+    },
+    {
+      "numeric": {
+        "Close": 12.036683082580566,
+        "Dividends": 0.0,
+        "High": 12.244895919073214,
+        "Low": 11.957363996826995,
+        "Open": 12.155661711210923,
+        "Stock Splits": 0.0,
+        "Volume": 2572800.0
+      },
+      "raw": null,
+      "session_date": "2023-06-15"
+    },
+    {
+      "numeric": {
+        "Close": 12.135831832885742,
+        "Dividends": 0.0,
+        "High": 12.403534464543778,
+        "Low": 12.036683445483522,
+        "Open": 12.106087411220887,
+        "Stock Splits": 0.0,
+        "Volume": 11586300.0
+      },
+      "raw": null,
+      "session_date": "2023-06-16"
+    },
+    {
+      "numeric": {
+        "Close": 11.580598831176758,
+        "Dividends": 0.0,
+        "High": 12.046598262398946,
+        "Low": 11.540939284997036,
+        "Open": 12.006938716219226,
+        "Stock Splits": 0.0,
+        "Volume": 3102400.0
+      },
+      "raw": null,
+      "session_date": "2023-06-20"
+    },
+    {
+      "numeric": {
+        "Close": 11.64008617401123,
+        "Dividends": 0.0,
+        "High": 11.699575958375059,
+        "Low": 11.342639143308178,
+        "Open": 11.570682213551802,
+        "Stock Splits": 0.0,
+        "Volume": 2467900.0
+      },
+      "raw": null,
+      "session_date": "2023-06-21"
+    },
+    {
+      "numeric": {
+        "Close": 11.580598831176758,
+        "Dividends": 0.0,
+        "High": 11.610343254422007,
+        "Low": 11.431874823834177,
+        "Open": 11.540939284997036,
+        "Stock Splits": 0.0,
+        "Volume": 2381700.0
+      },
+      "raw": null,
+      "session_date": "2023-06-22"
+    },
+    {
+      "numeric": {
+        "Close": 11.620257377624512,
+        "Dividends": 0.0,
+        "High": 11.838384390067658,
+        "Low": 11.570682712775401,
+        "Open": 11.650001798310743,
+        "Stock Splits": 0.0,
+        "Volume": 1942500.0
+      },
+      "raw": null,
+      "session_date": "2023-06-23"
+    },
+    {
+      "numeric": {
+        "Close": 11.521108627319336,
+        "Dividends": 0.0,
+        "High": 11.768981018472225,
+        "Low": 11.461619782955196,
+        "Open": 11.699577051528019,
+        "Stock Splits": 0.0,
+        "Volume": 3111700.0
+      },
+      "raw": null,
+      "session_date": "2023-06-26"
+    },
+    {
+      "numeric": {
+        "Close": 11.402129173278809,
+        "Dividends": 0.0,
+        "High": 11.650001546610957,
+        "Low": 11.312894967589944,
+        "Open": 11.521107799011272,
+        "Stock Splits": 0.0,
+        "Volume": 1879300.0
+      },
+      "raw": null,
+      "session_date": "2023-06-27"
+    },
+    {
+      "numeric": {
+        "Close": 11.392213821411133,
+        "Dividends": 0.0,
+        "High": 11.461618727522383,
+        "Low": 11.263320076413718,
+        "Open": 11.322809860857927,
+        "Stock Splits": 0.0,
+        "Volume": 2258800.0
+      },
+      "raw": null,
+      "session_date": "2023-06-28"
+    },
+    {
+      "numeric": {
+        "Close": 11.630170822143555,
+        "Dividends": 0.0,
+        "High": 11.650001065058316,
+        "Low": 11.263319838242724,
+        "Open": 11.312894499971598,
+        "Stock Splits": 0.0,
+        "Volume": 1607900.0
+      },
+      "raw": null,
+      "session_date": "2023-06-29"
+    },
+    {
+      "numeric": {
+        "Close": 11.81855583190918,
+        "Dividends": 0.0,
+        "High": 11.828470954611813,
+        "Low": 11.640087405494365,
+        "Open": 11.70949231885465,
+        "Stock Splits": 0.0,
+        "Volume": 1418500.0
+      },
+      "raw": null,
+      "session_date": "2023-06-30"
+    },
+    {
+      "numeric": {
+        "Close": 12.04659652709961,
+        "Dividends": 0.0,
+        "High": 12.076341891618238,
+        "Low": 11.798724162792556,
+        "Open": 11.798724162792556,
+        "Stock Splits": 0.0,
+        "Volume": 1145100.0
+      },
+      "raw": null,
+      "session_date": "2023-07-03"
+    },
+    {
+      "numeric": {
+        "Close": 11.60042667388916,
+        "Dividends": 0.0,
+        "High": 12.036682572608532,
+        "Low": 11.60042667388916,
+        "Open": 12.016852329231266,
+        "Stock Splits": 0.0,
+        "Volume": 2371900.0
+      },
+      "raw": null,
+      "session_date": "2023-07-05"
+    },
+    {
+      "numeric": {
+        "Close": 11.451704025268555,
+        "Dividends": 0.0,
+        "High": 11.60042707348892,
+        "Low": 11.431873781208196,
+        "Open": 11.550852408896105,
+        "Stock Splits": 0.0,
+        "Volume": 1531600.0
+      },
+      "raw": null,
+      "session_date": "2023-07-06"
+    },
+    {
+      "numeric": {
+        "Close": 11.51119327545166,
+        "Dividends": 0.0,
+        "High": 11.659917274515891,
+        "Low": 11.47153373147949,
+        "Open": 11.560767941806404,
+        "Stock Splits": 0.0,
+        "Volume": 1950200.0
+      },
+      "raw": null,
+      "session_date": "2023-07-07"
+    },
+    {
+      "numeric": {
+        "Close": 11.878044128417969,
+        "Dividends": 0.0,
+        "High": 11.897874372907369,
+        "Low": 11.421959851858963,
+        "Open": 11.421959851858963,
+        "Stock Splits": 0.0,
+        "Volume": 2000200.0
+      },
+      "raw": null,
+      "session_date": "2023-07-10"
+    },
+    {
+      "numeric": {
+        "Close": 11.828470230102539,
+        "Dividends": 0.0,
+        "High": 11.977193279299975,
+        "Low": 11.739236022360844,
+        "Open": 11.917704437844234,
+        "Stock Splits": 0.0,
+        "Volume": 1722500.0
+      },
+      "raw": null,
+      "session_date": "2023-07-11"
+    },
+    {
+      "numeric": {
+        "Close": 12.582001686096191,
+        "Dividends": 0.0,
+        "High": 12.651406595990585,
+        "Low": 12.016852958082128,
+        "Open": 12.016852958082128,
+        "Stock Splits": 0.0,
+        "Volume": 4124300.0
+      },
+      "raw": null,
+      "session_date": "2023-07-12"
+    },
+    {
+      "numeric": {
+        "Close": 12.562171936035156,
+        "Dividends": 0.0,
+        "High": 12.700980805280153,
+        "Low": 12.532427516039107,
+        "Open": 12.671235439726042,
+        "Stock Splits": 0.0,
+        "Volume": 2584400.0
+      },
+      "raw": null,
+      "session_date": "2023-07-13"
+    },
+    {
+      "numeric": {
+        "Close": 12.59191608428955,
+        "Dividends": 0.0,
+        "High": 12.730724950538963,
+        "Low": 12.522512123943866,
+        "Open": 12.572086786572802,
+        "Stock Splits": 0.0,
+        "Volume": 2254200.0
+      },
+      "raw": null,
+      "session_date": "2023-07-14"
+    },
+    {
+      "numeric": {
+        "Close": 12.621661186218262,
+        "Dividends": 0.0,
+        "High": 12.69106609587538,
+        "Low": 12.41344929392119,
+        "Open": 12.482853258020214,
+        "Stock Splits": 0.0,
+        "Volume": 1689000.0
+      },
+      "raw": null,
+      "session_date": "2023-07-17"
+    },
+    {
+      "numeric": {
+        "Close": 12.859619140625,
+        "Dividends": 0.0,
+        "High": 12.958767523759459,
+        "Low": 12.621660940874532,
+        "Open": 12.750554689951597,
+        "Stock Splits": 0.0,
+        "Volume": 1912200.0
+      },
+      "raw": null,
+      "session_date": "2023-07-18"
+    },
+    {
+      "numeric": {
+        "Close": 12.750555038452148,
+        "Dividends": 0.0,
+        "High": 12.87944879105216,
+        "Low": 12.730725739506509,
+        "Open": 12.790214581901528,
+        "Stock Splits": 0.0,
+        "Volume": 1988400.0
+      },
+      "raw": null,
+      "session_date": "2023-07-19"
+    },
+    {
+      "numeric": {
+        "Close": 12.37378978729248,
+        "Dividends": 0.0,
+        "High": 12.750555949769153,
+        "Low": 12.304385817685098,
+        "Open": 12.720811526445727,
+        "Stock Splits": 0.0,
+        "Volume": 3045800.0
+      },
+      "raw": null,
+      "session_date": "2023-07-20"
+    },
+    {
+      "numeric": {
+        "Close": 12.314300537109375,
+        "Dividends": 0.0,
+        "High": 12.423364049426732,
+        "Low": 12.22506632450511,
+        "Open": 12.314300537109375,
+        "Stock Splits": 0.0,
+        "Volume": 1946000.0
+      },
+      "raw": null,
+      "session_date": "2023-07-21"
+    },
+    {
+      "numeric": {
+        "Close": 12.274641036987305,
+        "Dividends": 0.0,
+        "High": 12.324215704788434,
+        "Low": 12.125917033583919,
+        "Open": 12.284556159659159,
+        "Stock Splits": 0.0,
+        "Volume": 1984500.0
+      },
+      "raw": null,
+      "session_date": "2023-07-24"
+    },
+    {
+      "numeric": {
+        "Close": 12.33413028717041,
+        "Dividends": 0.0,
+        "High": 12.393620079598076,
+        "Low": 12.215151647873249,
+        "Open": 12.215151647873249,
+        "Stock Splits": 0.0,
+        "Volume": 2124700.0
+      },
+      "raw": null,
+      "session_date": "2023-07-25"
+    },
+    {
+      "numeric": {
+        "Close": 12.175491333007812,
+        "Dividends": 0.0,
+        "High": 12.304385087167727,
+        "Low": 12.036683402034143,
+        "Open": 12.264725543238377,
+        "Stock Splits": 0.0,
+        "Volume": 3778300.0
+      },
+      "raw": null,
+      "session_date": "2023-07-26"
+    },
+    {
+      "numeric": {
+        "Close": 11.699576377868652,
+        "Dividends": 0.0,
+        "High": 12.443193508509989,
+        "Low": 11.699576377868652,
+        "Open": 12.443193508509989,
+        "Stock Splits": 0.0,
+        "Volume": 3751600.0
+      },
+      "raw": null,
+      "session_date": "2023-07-27"
+    },
+    {
+      "numeric": {
+        "Close": 12.066427230834961,
+        "Dividends": 0.0,
+        "High": 12.165576558566736,
+        "Low": 11.897873941025784,
+        "Open": 11.897873941025784,
+        "Stock Splits": 0.0,
+        "Volume": 2328700.0
+      },
+      "raw": null,
+      "session_date": "2023-07-28"
+    },
+    {
+      "numeric": {
+        "Close": 12.24489688873291,
+        "Dividends": 0.0,
+        "High": 12.4531097417137,
+        "Low": 12.106088004892996,
+        "Open": 12.125917305122606,
+        "Stock Splits": 0.0,
+        "Volume": 2024800.0
+      },
+      "raw": null,
+      "session_date": "2023-07-31"
+    },
+    {
+      "numeric": {
+        "Close": 11.778895378112793,
+        "Dividends": 0.0,
+        "High": 12.09617171565935,
+        "Low": 11.768980256174945,
+        "Open": 11.93753354688607,
+        "Stock Splits": 0.0,
+        "Volume": 2216100.0
+      },
+      "raw": null,
+      "session_date": "2023-08-01"
+    },
+    {
+      "numeric": {
+        "Close": 11.521108627319336,
+        "Dividends": 0.0,
+        "High": 11.808640563234363,
+        "Low": 11.392214870452857,
+        "Open": 11.788811263632361,
+        "Stock Splits": 0.0,
+        "Volume": 2881900.0
+      },
+      "raw": null,
+      "session_date": "2023-08-02"
+    },
+    {
+      "numeric": {
+        "Close": 11.451704025268555,
+        "Dividends": 0.0,
+        "High": 11.610342195519099,
+        "Low": 11.392214238645561,
+        "Open": 11.550852408896105,
+        "Stock Splits": 0.0,
+        "Volume": 1655600.0
+      },
+      "raw": null,
+      "session_date": "2023-08-03"
+    },
+    {
+      "numeric": {
+        "Close": 11.57068157196045,
+        "Dividends": 0.0,
+        "High": 11.749149969597863,
+        "Low": 11.52110691199917,
+        "Open": 11.52110691199917,
+        "Stock Splits": 0.0,
+        "Volume": 1752400.0
+      },
+      "raw": null,
+      "session_date": "2023-08-04"
+    },
+    {
+      "numeric": {
+        "Close": 11.521108627319336,
+        "Dividends": 0.0,
+        "High": 11.590512594263542,
+        "Low": 11.332726026088718,
+        "Open": 11.521108627319336,
+        "Stock Splits": 0.0,
+        "Volume": 1130200.0
+      },
+      "raw": null,
+      "session_date": "2023-08-07"
+    },
+    {
+      "numeric": {
+        "Close": 11.57068157196045,
+        "Dividends": 0.0,
+        "High": 11.60042598971402,
+        "Low": 11.312894096608185,
+        "Open": 11.402128295426891,
+        "Stock Splits": 0.0,
+        "Volume": 1607300.0
+      },
+      "raw": null,
+      "session_date": "2023-08-08"
+    },
+    {
+      "numeric": {
+        "Close": 11.481447219848633,
+        "Dividends": 0.0,
+        "High": 11.66983073607472,
+        "Low": 11.431872560549241,
+        "Open": 11.66983073607472,
+        "Stock Splits": 0.0,
+        "Volume": 1263100.0
+      },
+      "raw": null,
+      "session_date": "2023-08-09"
+    },
+    {
+      "numeric": {
+        "Close": 11.51119327545166,
+        "Dividends": 0.0,
+        "High": 11.749151484842805,
+        "Low": 11.461619554655032,
+        "Open": 11.610342608161147,
+        "Stock Splits": 0.0,
+        "Volume": 2032100.0
+      },
+      "raw": null,
+      "session_date": "2023-08-10"
+    },
+    {
+      "numeric": {
+        "Close": 11.57068157196045,
+        "Dividends": 0.0,
+        "High": 11.640085528571447,
+        "Low": 11.461618076492027,
+        "Open": 11.491362494245598,
+        "Stock Splits": 0.0,
+        "Volume": 1422500.0
+      },
+      "raw": null,
+      "session_date": "2023-08-11"
+    },
+    {
+      "numeric": {
+        "Close": 11.481447219848633,
+        "Dividends": 0.0,
+        "High": 11.570681417475939,
+        "Low": 11.33272418750844,
+        "Open": 11.421958385135747,
+        "Stock Splits": 0.0,
+        "Volume": 1673200.0
+      },
+      "raw": null,
+      "session_date": "2023-08-14"
+    },
+    {
+      "numeric": {
+        "Close": 11.312894821166992,
+        "Dividends": 0.0,
+        "High": 11.590511610949543,
+        "Low": 11.273235279769485,
+        "Open": 11.421959269178677,
+        "Stock Splits": 0.0,
+        "Volume": 2198900.0
+      },
+      "raw": null,
+      "session_date": "2023-08-15"
+    },
+    {
+      "numeric": {
+        "Close": 11.203832626342773,
+        "Dividends": 0.0,
+        "High": 11.35255568755178,
+        "Low": 11.164173080316495,
+        "Open": 11.263321472603112,
+        "Stock Splits": 0.0,
+        "Volume": 1910600.0
+      },
+      "raw": null,
+      "session_date": "2023-08-16"
+    },
+    {
+      "numeric": {
+        "Close": 11.04519271850586,
+        "Dividends": 0.0,
+        "High": 11.342638794503925,
+        "Low": 11.005533178668916,
+        "Open": 11.293065078876257,
+        "Stock Splits": 0.0,
+        "Volume": 1813000.0
+      },
+      "raw": null,
+      "session_date": "2023-08-17"
+    },
+    {
+      "numeric": {
+        "Close": 10.946043968200684,
+        "Dividends": 0.0,
+        "High": 11.035278173886901,
+        "Low": 10.866724884381394,
+        "Open": 10.985703510110328,
+        "Stock Splits": 0.0,
+        "Volume": 2572400.0
+      },
+      "raw": null,
+      "session_date": "2023-08-18"
+    },
+    {
+      "numeric": {
+        "Close": 11.283150672912598,
+        "Dividends": 0.0,
+        "High": 11.302979971309297,
+        "Low": 10.985703632497495,
+        "Open": 11.035278296826357,
+        "Stock Splits": 0.0,
+        "Volume": 3073000.0
+      },
+      "raw": null,
+      "session_date": "2023-08-21"
+    },
+    {
+      "numeric": {
+        "Close": 11.491362571716309,
+        "Dividends": 0.0,
+        "High": 11.491362571716309,
+        "Low": 11.273234633750928,
+        "Open": 11.332724415217122,
+        "Stock Splits": 0.0,
+        "Volume": 1681300.0
+      },
+      "raw": null,
+      "session_date": "2023-08-22"
+    },
+    {
+      "numeric": {
+        "Close": 11.987107276916504,
+        "Dividends": 0.0,
+        "High": 12.106085894225,
+        "Low": 11.550851401227352,
+        "Open": 11.630170479433016,
+        "Stock Splits": 0.0,
+        "Volume": 2927800.0
+      },
+      "raw": null,
+      "session_date": "2023-08-23"
+    },
+    {
+      "numeric": {
+        "Close": 12.135831832885742,
+        "Dividends": 0.0,
+        "High": 12.22506604343842,
+        "Low": 11.878044323635363,
+        "Open": 11.92761899011553,
+        "Stock Splits": 0.0,
+        "Volume": 2629500.0
+      },
+      "raw": null,
+      "session_date": "2023-08-24"
+    },
+    {
+      "numeric": {
+        "Close": 11.987107276916504,
+        "Dividends": 0.0,
+        "High": 12.20523521476108,
+        "Low": 11.828469120505174,
+        "Open": 12.15566055449304,
+        "Stock Splits": 0.0,
+        "Volume": 2597600.0
+      },
+      "raw": null,
+      "session_date": "2023-08-25"
+    },
+    {
+      "numeric": {
+        "Close": 12.512598037719727,
+        "Dividends": 0.0,
+        "High": 12.512598037719727,
+        "Low": 12.016853261523739,
+        "Open": 12.08625722761258,
+        "Stock Splits": 0.0,
+        "Volume": 2550900.0
+      },
+      "raw": null,
+      "session_date": "2023-08-28"
+    },
+    {
+      "numeric": {
+        "Close": 12.800129890441895,
+        "Dividends": 0.0,
+        "High": 12.800129890441895,
+        "Low": 12.413449572572352,
+        "Open": 12.43327887180658,
+        "Stock Splits": 0.0,
+        "Volume": 2903700.0
+      },
+      "raw": null,
+      "session_date": "2023-08-29"
+    },
+    {
+      "numeric": {
+        "Close": 12.829874038696289,
+        "Dividends": 0.0,
+        "High": 12.988513156980444,
+        "Low": 12.691066110340033,
+        "Open": 12.879448704062707,
+        "Stock Splits": 0.0,
+        "Volume": 2137200.0
+      },
+      "raw": null,
+      "session_date": "2023-08-30"
+    },
+    {
+      "numeric": {
+        "Close": 12.73072624206543,
+        "Dividends": 0.0,
+        "High": 12.879449299482081,
+        "Low": 12.691066697050445,
+        "Open": 12.829874631823818,
+        "Stock Splits": 0.0,
+        "Volume": 2080700.0
+      },
+      "raw": null,
+      "session_date": "2023-08-31"
+    },
+    {
+      "numeric": {
+        "Close": 12.264725685119629,
+        "Dividends": 0.0,
+        "High": 12.909194463374575,
+        "Low": 12.264725685119629,
+        "Open": 12.879449095914877,
+        "Stock Splits": 0.0,
+        "Volume": 2126300.0
+      },
+      "raw": null,
+      "session_date": "2023-09-01"
+    },
+    {
+      "numeric": {
+        "Close": 11.848298072814941,
+        "Dividends": 0.0,
+        "High": 12.195319739044347,
+        "Low": 11.828468776619017,
+        "Open": 12.155660201094527,
+        "Stock Splits": 0.0,
+        "Volume": 1940700.0
+      },
+      "raw": null,
+      "session_date": "2023-09-05"
+    },
+    {
+      "numeric": {
+        "Close": 11.798726081848145,
+        "Dividends": 0.0,
+        "High": 11.957365215075962,
+        "Low": 11.699577687333715,
+        "Open": 11.798726081848145,
+        "Stock Splits": 0.0,
+        "Volume": 1323400.0
+      },
+      "raw": null,
+      "session_date": "2023-09-06"
+    },
+    {
+      "numeric": {
+        "Close": 11.838383674621582,
+        "Dividends": 0.0,
+        "High": 11.907788579439123,
+        "Low": 11.719405053508977,
+        "Open": 11.838383674621582,
+        "Stock Splits": 0.0,
+        "Volume": 1026500.0
+      },
+      "raw": null,
+      "session_date": "2023-09-07"
+    },
+    {
+      "numeric": {
+        "Close": 11.709491729736328,
+        "Dividends": 0.0,
+        "High": 11.987108532535812,
+        "Low": 11.630171697664093,
+        "Open": 11.8780440794103,
+        "Stock Splits": 0.0,
+        "Volume": 1920400.0
+      },
+      "raw": null,
+      "session_date": "2023-09-08"
+    },
+    {
+      "numeric": {
+        "Close": 11.719406127929688,
+        "Dividends": 0.0,
+        "High": 11.878044303956914,
+        "Low": 11.620257740691727,
+        "Open": 11.80864033833453,
+        "Stock Splits": 0.0,
+        "Volume": 1888700.0
+      },
+      "raw": null,
+      "session_date": "2023-09-11"
+    },
+    {
+      "numeric": {
+        "Close": 11.828470230102539,
+        "Dividends": 0.0,
+        "High": 11.947448858572105,
+        "Low": 11.58059785106809,
+        "Open": 11.63017157042851,
+        "Stock Splits": 0.0,
+        "Volume": 1637300.0
+      },
+      "raw": null,
+      "session_date": "2023-09-12"
+    },
+    {
+      "numeric": {
+        "Close": 11.922859191894531,
+        "Dividends": 0.025,
+        "High": 12.022216730844473,
+        "Low": 11.823501652944591,
+        "Open": 11.833437596348329,
+        "Stock Splits": 0.0,
+        "Volume": 1876000.0
+      },
+      "raw": null,
+      "session_date": "2023-09-13"
+    },
+    {
+      "numeric": {
+        "Close": 11.992408752441406,
+        "Dividends": 0.0,
+        "High": 12.191123827885738,
+        "Low": 11.922859044562113,
+        "Open": 11.922859044562113,
+        "Stock Splits": 0.0,
+        "Volume": 2110900.0
+      },
+      "raw": null,
+      "session_date": "2023-09-14"
+    },
+    {
+      "numeric": {
+        "Close": 12.340160369873047,
+        "Dividends": 0.0,
+        "High": 12.369967255029552,
+        "Low": 12.121574334456493,
+        "Open": 12.151381219612999,
+        "Stock Splits": 0.0,
+        "Volume": 6989200.0
+      },
+      "raw": null,
+      "session_date": "2023-09-15"
+    },
+    {
+      "numeric": {
+        "Close": 12.548810005187988,
+        "Dividends": 0.0,
+        "High": 12.588552833134164,
+        "Low": 12.28054520589348,
+        "Open": 12.3799027495308,
+        "Stock Splits": 0.0,
+        "Volume": 1532800.0
+      },
+      "raw": null,
+      "session_date": "2023-09-18"
+    },
+    {
+      "numeric": {
+        "Close": 12.57861614227295,
+        "Dividends": 0.0,
+        "High": 12.658101793444997,
+        "Low": 12.509066434383332,
+        "Open": 12.60842302457654,
+        "Stock Splits": 0.0,
+        "Volume": 3996700.0
+      },
+      "raw": null,
+      "session_date": "2023-09-19"
+    },
+    {
+      "numeric": {
+        "Close": 12.618359565734863,
+        "Dividends": 0.0,
+        "High": 12.86675247430265,
+        "Low": 12.578616738265767,
+        "Open": 12.648166449450747,
+        "Stock Splits": 0.0,
+        "Volume": 2379900.0
+      },
+      "raw": null,
+      "session_date": "2023-09-20"
+    },
+    {
+      "numeric": {
+        "Close": 12.409708976745605,
+        "Dividends": 0.0,
+        "High": 12.489194628430699,
+        "Low": 12.260673616721984,
+        "Open": 12.320287381713948,
+        "Stock Splits": 0.0,
+        "Volume": 3000300.0
+      },
+      "raw": null,
+      "session_date": "2023-09-21"
+    },
+    {
+      "numeric": {
+        "Close": 11.912923812866211,
+        "Dividends": 0.0,
+        "High": 12.628295663582904,
+        "Low": 11.893052872661066,
+        "Open": 12.5488100076748,
+        "Stock Splits": 0.0,
+        "Volume": 3457400.0
+      },
+      "raw": null,
+      "session_date": "2023-09-22"
+    },
+    {
+      "numeric": {
+        "Close": 11.853309631347656,
+        "Dividends": 0.0,
+        "High": 11.89305245791576,
+        "Low": 11.614851724395304,
+        "Open": 11.853309631347656,
+        "Stock Splits": 0.0,
+        "Volume": 2600700.0
+      },
+      "raw": null,
+      "session_date": "2023-09-25"
+    },
+    {
+      "numeric": {
+        "Close": 11.366458892822266,
+        "Dividends": 0.0,
+        "High": 11.803630935359893,
+        "Low": 11.34658795318532,
+        "Open": 11.734081225314979,
+        "Stock Splits": 0.0,
+        "Volume": 2153200.0
+      },
+      "raw": null,
+      "session_date": "2023-09-26"
+    },
+    {
+      "numeric": {
+        "Close": 11.247231483459473,
+        "Dividends": 0.0,
+        "High": 11.396267808876317,
+        "Low": 11.128002991652291,
+        "Open": 11.336653089200814,
+        "Stock Splits": 0.0,
+        "Volume": 2016500.0
+      },
+      "raw": null,
+      "session_date": "2023-09-27"
+    },
+    {
+      "numeric": {
+        "Close": 11.356523513793945,
+        "Dividends": 0.0,
+        "High": 11.376394452760774,
+        "Low": 11.147873443151884,
+        "Open": 11.257165976328697,
+        "Stock Splits": 0.0,
+        "Volume": 1997500.0
+      },
+      "raw": null,
+      "session_date": "2023-09-28"
+    },
+    {
+      "numeric": {
+        "Close": 11.217423439025879,
+        "Dividends": 0.0,
+        "High": 11.555237938033708,
+        "Low": 11.118065899008144,
+        "Open": 11.525431055045877,
+        "Stock Splits": 0.0,
+        "Volume": 1857300.0
+      },
+      "raw": null,
+      "session_date": "2023-09-29"
+    },
+    {
+      "numeric": {
+        "Close": 10.849802017211914,
+        "Dividends": 0.0,
+        "High": 11.118065858205322,
+        "Low": 10.790187303911312,
+        "Open": 11.05845209244844,
+        "Stock Splits": 0.0,
+        "Volume": 2526600.0
+      },
+      "raw": null,
+      "session_date": "2023-10-02"
+    },
+    {
+      "numeric": {
+        "Close": 11.048516273498535,
+        "Dividends": 0.0,
+        "High": 11.12800192709938,
+        "Low": 10.710701771923077,
+        "Open": 10.810059312696,
+        "Stock Splits": 0.0,
+        "Volume": 2022200.0
+      },
+      "raw": null,
+      "session_date": "2023-10-03"
+    },
+    {
+      "numeric": {
+        "Close": 10.919351577758789,
+        "Dividends": 0.0,
+        "High": 11.118065706815457,
+        "Low": 10.839865926136122,
+        "Open": 11.098194767681646,
+        "Stock Splits": 0.0,
+        "Volume": 2398300.0
+      },
+      "raw": null,
+      "session_date": "2023-10-04"
+    },
+    {
+      "numeric": {
+        "Close": 11.237297058105469,
+        "Dividends": 0.0,
+        "High": 11.24723205560359,
+        "Low": 10.839867784320573,
+        "Open": 10.889546561986668,
+        "Stock Splits": 0.0,
+        "Volume": 2267100.0
+      },
+      "raw": null,
+      "session_date": "2023-10-05"
+    },
+    {
+      "numeric": {
+        "Close": 11.475752830505371,
+        "Dividends": 0.0,
+        "High": 11.594981315667615,
+        "Low": 11.207488028232492,
+        "Open": 11.227359916198084,
+        "Stock Splits": 0.0,
+        "Volume": 2332800.0
+      },
+      "raw": null,
+      "session_date": "2023-10-06"
+    }
+  ],
+  "source_member": "S&P500_time_series/agi.csv",
+  "symbol": "AGI"
+}

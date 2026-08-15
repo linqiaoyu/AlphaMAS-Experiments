@@ -1,0 +1,596 @@
+{
+  "budget_tier_selected": false,
+  "cases": [
+    {
+      "case_id": "AAPL:2023-05-05",
+      "in_compact": false,
+      "in_maximum": true,
+      "in_standard": false
+    },
+    {
+      "case_id": "AAPL:2023-05-12",
+      "in_compact": false,
+      "in_maximum": true,
+      "in_standard": false
+    },
+    {
+      "case_id": "AAPL:2023-05-19",
+      "in_compact": false,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "AAPL:2023-05-26",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "AAPL:2023-06-02",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "AAPL:2023-06-09",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "AAPL:2023-06-16",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "AAPL:2023-06-30",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "AAPL:2023-07-07",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "AAPL:2023-07-21",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "AAPL:2023-07-28",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "AAPL:2023-10-06",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "AMZN:2023-05-05",
+      "in_compact": false,
+      "in_maximum": true,
+      "in_standard": false
+    },
+    {
+      "case_id": "AMZN:2023-05-12",
+      "in_compact": false,
+      "in_maximum": true,
+      "in_standard": false
+    },
+    {
+      "case_id": "AMZN:2023-05-19",
+      "in_compact": false,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "AMZN:2023-05-26",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "AMZN:2023-06-02",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "AMZN:2023-06-09",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "AMZN:2023-06-16",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "AMZN:2023-06-30",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "AMZN:2023-07-07",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "AMZN:2023-07-21",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "AMZN:2023-07-28",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "AMZN:2023-10-06",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "JPM:2023-05-05",
+      "in_compact": false,
+      "in_maximum": true,
+      "in_standard": false
+    },
+    {
+      "case_id": "JPM:2023-05-12",
+      "in_compact": false,
+      "in_maximum": true,
+      "in_standard": false
+    },
+    {
+      "case_id": "JPM:2023-05-19",
+      "in_compact": false,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "JPM:2023-05-26",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "JPM:2023-06-02",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "JPM:2023-06-09",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "JPM:2023-06-16",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "JPM:2023-06-30",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "JPM:2023-07-07",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "JPM:2023-07-21",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "JPM:2023-07-28",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "JPM:2023-10-06",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "JBSS:2023-05-05",
+      "in_compact": false,
+      "in_maximum": true,
+      "in_standard": false
+    },
+    {
+      "case_id": "JBSS:2023-05-12",
+      "in_compact": false,
+      "in_maximum": true,
+      "in_standard": false
+    },
+    {
+      "case_id": "JBSS:2023-05-19",
+      "in_compact": false,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "JBSS:2023-05-26",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "JBSS:2023-06-02",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "JBSS:2023-06-09",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "JBSS:2023-06-16",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "JBSS:2023-06-30",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "JBSS:2023-07-07",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "JBSS:2023-07-21",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "JBSS:2023-07-28",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "JBSS:2023-10-06",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "EML:2023-05-05",
+      "in_compact": false,
+      "in_maximum": true,
+      "in_standard": false
+    },
+    {
+      "case_id": "EML:2023-05-12",
+      "in_compact": false,
+      "in_maximum": true,
+      "in_standard": false
+    },
+    {
+      "case_id": "EML:2023-05-19",
+      "in_compact": false,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "EML:2023-05-26",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "EML:2023-06-02",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "EML:2023-06-09",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "EML:2023-06-16",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "EML:2023-06-30",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "EML:2023-07-07",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "EML:2023-07-21",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "EML:2023-07-28",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "EML:2023-10-06",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "AGI:2023-05-05",
+      "in_compact": false,
+      "in_maximum": true,
+      "in_standard": false
+    },
+    {
+      "case_id": "AGI:2023-05-12",
+      "in_compact": false,
+      "in_maximum": true,
+      "in_standard": false
+    },
+    {
+      "case_id": "AGI:2023-05-19",
+      "in_compact": false,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "AGI:2023-05-26",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "AGI:2023-06-02",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "AGI:2023-06-09",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "AGI:2023-06-16",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "AGI:2023-06-30",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "AGI:2023-07-07",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "AGI:2023-07-21",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "AGI:2023-07-28",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "AGI:2023-10-06",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "ARR:2023-05-05",
+      "in_compact": false,
+      "in_maximum": true,
+      "in_standard": false
+    },
+    {
+      "case_id": "ARR:2023-05-12",
+      "in_compact": false,
+      "in_maximum": true,
+      "in_standard": false
+    },
+    {
+      "case_id": "ARR:2023-05-19",
+      "in_compact": false,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "ARR:2023-05-26",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "ARR:2023-06-02",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "ARR:2023-06-09",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "ARR:2023-06-16",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "ARR:2023-06-30",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "ARR:2023-07-07",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "ARR:2023-07-21",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "ARR:2023-07-28",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "ARR:2023-10-06",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "AEMD:2023-05-05",
+      "in_compact": false,
+      "in_maximum": true,
+      "in_standard": false
+    },
+    {
+      "case_id": "AEMD:2023-05-12",
+      "in_compact": false,
+      "in_maximum": true,
+      "in_standard": false
+    },
+    {
+      "case_id": "AEMD:2023-05-19",
+      "in_compact": false,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "AEMD:2023-05-26",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "AEMD:2023-06-02",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "AEMD:2023-06-09",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "AEMD:2023-06-16",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "AEMD:2023-06-30",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "AEMD:2023-07-07",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "AEMD:2023-07-21",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "AEMD:2023-07-28",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    },
+    {
+      "case_id": "AEMD:2023-10-06",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    }
+  ],
+  "status": "DEFERRED TO M2-07",
+  "tiers": {
+    "COMPACT": {
+      "canonical_case_list_sha256": "f35488ed0f910f73b11713bb7eadf00191f13f5e5b711b309dc879aca8075d62",
+      "case_count": 72
+    },
+    "MAXIMUM": {
+      "canonical_case_list_sha256": "68fbc780cbb454f78d0ae719f91665737ed6e04928eba91f4c9c0530745d601f",
+      "case_count": 96
+    },
+    "STANDARD": {
+      "canonical_case_list_sha256": "f1253ab0ed8e23d9ae5656fc4250d7dca63bd6f9342e2fd9a2d84eac8e377452",
+      "case_count": 80
+    }
+  }
+}

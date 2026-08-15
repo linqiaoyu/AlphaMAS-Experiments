@@ -1,0 +1,252 @@
+{
+  "available_for_training": true,
+  "available_for_validation": false,
+  "case_id": "AGI:2023-05-26",
+  "dataset_id": "m2_preformal_evidence_v1",
+  "decision_session": "2023-05-26",
+  "decision_time": "2023-05-26T20:00:00+00:00",
+  "engineering_only": false,
+  "final_packet_status": "PENDING_QWEN",
+  "performance_for_selection": false,
+  "pit_cutoff": "2023-05-26",
+  "protected": false,
+  "role": "TRAIN",
+  "routing": {
+    "modality_to_analyst": {
+      "IMAGE": "Market Analyst",
+      "TABLE": "Fundamentals Analyst",
+      "TEXT": "News Analyst",
+      "TIME_SERIES": "Market Analyst"
+    },
+    "social_analyst": "NO_FINMULTITIME_SPECIFIC_EVIDENCE"
+  },
+  "schema_version": "1.0",
+  "sections": {
+    "IMAGE": {
+      "bytes": 44164,
+      "caption_status": "PENDING",
+      "filename": "agi_2022_H2_candlestick.png",
+      "image_sha256": "fb4f6e3b146397e577983c29f78d45bffa4ad21c661752075ce9edcec40172c9",
+      "inferred_period": "2022-H2",
+      "inferred_period_end": "2022-12-31",
+      "reason": "window end inferred from YYYY_H1/H2 filename convention",
+      "source_path": "/Volumes/Jackson/Dataset/FinMultiTime/image/image/S&P500_image_a/agi/agi_2022_H2_candlestick.png",
+      "status": "AVAILABLE"
+    },
+    "TABLE": {
+      "facts": {
+        "Assets": null,
+        "Liabilities": null,
+        "NetCashProvidedByUsedInFinancingActivities": null,
+        "NetCashProvidedByUsedInInvestingActivities": null,
+        "NetCashProvidedByUsedInOperatingActivities": null,
+        "StockholdersEquity": null
+      },
+      "latest_safe_filed_date": null,
+      "reason": "no PIT-safe selected facts",
+      "same_day_ambiguous_rejected_count": 0,
+      "source_members": [],
+      "status": "UNAVAILABLE",
+      "unavailable_concepts": [
+        "Assets",
+        "Liabilities",
+        "StockholdersEquity",
+        "NetCashProvidedByUsedInOperatingActivities",
+        "NetCashProvidedByUsedInInvestingActivities",
+        "NetCashProvidedByUsedInFinancingActivities"
+      ]
+    },
+    "TEXT": {
+      "latest_safe_date": "2023-05-25",
+      "reason": "",
+      "same_day_ambiguous_rejected": [
+        {
+          "date": "2023-05-26",
+          "reason": "AMBIGUOUS_REJECTED",
+          "record_hash": "19fa83f670ce0c1f117f593fac48225f1564c5af136a6ecaff84cc1304474a0c"
+        }
+      ],
+      "selected_record_hashes": [
+        "d9c7293475615d3c96dc859f61d27b4d1baa05c83908a401564d6f008e5d1d33",
+        "be2b46f5a0897996f51d0a4f97bff1a878bc4d829f7c842fb7aa1f85fe64adbc",
+        "91d304937eb4b0c6006bbc35677bef4a6b1dfee2420cfa18812ebf9c527ecbfa",
+        "ae3a5ee369542a385100bb5ff91a01d53c5415260360ca09f66c28e5f58d88aa",
+        "c7c272af879d0679f848e1a393ed61666e1a6368b162ad6bfa4e2cae2c26bb9e",
+        "eea0db9e77652f4885d36c28fc3ff0ca6759d30e9ecf651f8317ad3262a5c8af",
+        "0e8889b55a0e55ad1b5d7b57467c068f7de2e7c49b12fc08c7bc0d7f90a787d8",
+        "44c1493a55a4bba9a8bdc268c5bdd448f4617396a98f23847ee2931e66ea1386"
+      ],
+      "selected_records": [
+        {
+          "body": "B2Gold Corp. BTG has been benefiting from improved mine performances and recent acquisitions despite inflationary costs. The company continues to generate solid operating results, owing to its focus on growth through further exploration, development and expansion of the existing projects. The recent pickup in the gold price will aid the company’s performance in the upcoming quarters.  Shares of this Zacks Rank #3 (Hold) company have gained 14.3% in the past six months compared with the industry’s growth of 20.1%.   Image Source: Zacks Investment Research  Mines to Meet Production Guidance for 2023 B2Gold reported a total gold production of 266,856 ounces in the first quarter of 2023, including 16,137 ounces of attributable production from Calibre Mining Corp. The Fekola Mine produced 165,864 ounces in the quarter, aided by a favorable mine phasing sequence that will begin in 2023, with …",
+          "date": "2023-05-25",
+          "duplicate_provenance": [],
+          "record_hash": "d9c7293475615d3c96dc859f61d27b4d1baa05c83908a401564d6f008e5d1d33",
+          "source_index": 25,
+          "source_stock_symbol": "AGI",
+          "title": "B2Gold (BTG) Gains From Solid Mine Performance Amid Cost Woes",
+          "url": "https://www.nasdaq.com/articles/b2gold-btg-gains-from-solid-mine-performance-amid-cost-woes"
+        },
+        {
+          "body": "DuPont de Nemours DD recently declared that it will launch its latest Tedlar frontsheet materials to potential partners and end users in the photovoltaic industry at the 2023 SNEC International Photovoltaic Power Generation and Smart Energy Exhibition.  Replacing glass frontsheets while preserving mechanical stability and weatherability is a key problem for lightweight PV modules. Tedlar frontsheet provides a one-of-a-kind combination of durability, UV resistance, high light transmittance, long-lasting UV protection, mechanical toughness, abrasion resistance, chemical resistance and strong adhesion to encapsulant. This innovative approach, according to the company, can offer the frontsheet of solar modules.  DuPont will additionally showcase battery pack thermal management solutions in energy storage applications during the exhibition. Experts from DuPont will share their findings at te…",
+          "date": "2023-05-25",
+          "duplicate_provenance": [],
+          "record_hash": "be2b46f5a0897996f51d0a4f97bff1a878bc4d829f7c842fb7aa1f85fe64adbc",
+          "source_index": 24,
+          "source_stock_symbol": "AGI",
+          "title": "DuPont (DD) to Unveil Tedler Frontsheet at SNEC PV Power Expo",
+          "url": "https://www.nasdaq.com/articles/dupont-dd-to-unveil-tedler-frontsheet-at-snec-pv-power-expo"
+        },
+        {
+          "body": "Shares of International Paper Company IP have lost 12.1% in the past six months, reflecting a decline in volumes witnessed by the company in the past few quarters. IP has, however, fared better than the industry it belongs to, which witnessed a 17% fall in the same timeframe. Weak Volumes & Low Pricing Ail IP International Paper has been witnessing weak demand as current inflationary pressures have been impacting consumers, leading to lower demand for goods. This had a large impact on packaging demand, as consumer priorities have shifted towards non-discretionary goods and services. Also, International Papers’ customers and the broader retail channel have been trying to lower their elevated inventories, which further impacted the demand. In fiscal 2022, the company had reported a 5.7% decline in sales volumes in the Industrial Packaging segment and 2.6% lower volumes in the Global Cellu…",
+          "date": "2023-05-25",
+          "duplicate_provenance": [],
+          "record_hash": "91d304937eb4b0c6006bbc35677bef4a6b1dfee2420cfa18812ebf9c527ecbfa",
+          "source_index": 26,
+          "source_stock_symbol": "AGI",
+          "title": "International Paper (IP) Down 12% in 6 Months: Will It Recover?",
+          "url": "https://www.nasdaq.com/articles/international-paper-ip-down-12-in-6-months%3A-will-it-recover"
+        },
+        {
+          "body": "PPG Industries, Inc. PPG recently announced that PPG Advanced Surface Technologies, a new joint venture set up with Entrotech, Inc., a producer of technology-driven film solutions, will supply paint and clear film solutions for automotive and industrial customers. PPG owns the majority of this joint venture. Financial and ownership information was not provided.  This alliance will position PPG's paint film product portfolio for expedited commercialization, providing customers with novel solutions with excellent performance and considerable sustainability benefits. This collaboration will aid in rapid worldwide expansion and complement PPG's portfolio.  PPG acquired its paint films capabilities in 2021 with the acquisition of Worwag, a coatings supplier based in Germany that supplies film materials for a wide range of automotive parts and panels. The joint venture will consist of PPG Wor…",
+          "date": "2023-05-25",
+          "duplicate_provenance": [],
+          "record_hash": "ae3a5ee369542a385100bb5ff91a01d53c5415260360ca09f66c28e5f58d88aa",
+          "source_index": 23,
+          "source_stock_symbol": "AGI",
+          "title": "PPG Industries (PPG) & Entrotech Unveil Paint Films Solutions",
+          "url": "https://www.nasdaq.com/articles/ppg-industries-ppg-entrotech-unveil-paint-films-solutions"
+        },
+        {
+          "body": "GrowGeneration Corp. GRWG announced that it acquired Alaska’s largest indoor/outdoor garden center, Southside Garden Supply. Under the agreement, the company acquired two existing store locations in the state. This move officially expands the number of states that GRWG operates in to 18. It is also the second state that the company has made its foray into this year.  The deal expands GrowGeneration’s overall store portfolio to better serve commercial and home-grow consumers. Located in Southern Alaska, Southside Garden Supply has supplied the growing Alaskan market for many years. It is well-known for high-quality product options and exceptional customer service. GrowGeneration is well-set to gain from this, and further provide the same high-quality services to the local and nearby rising markets. The acquisition of stores is in line with the company's strategic focus to grow its presen…",
+          "date": "2023-05-24",
+          "duplicate_provenance": [],
+          "record_hash": "c7c272af879d0679f848e1a393ed61666e1a6368b162ad6bfa4e2cae2c26bb9e",
+          "source_index": 27,
+          "source_stock_symbol": "AGI",
+          "title": "GrowGeneration (GRWG) Buys Stores in Alaska to Boost Portfolio",
+          "url": "https://www.nasdaq.com/articles/growgeneration-grwg-buys-stores-in-alaska-to-boost-portfolio"
+        },
+        {
+          "body": "Hecla Mining Company HL received an interim order from the Supreme Court of British Columbia related to its proposed acquisition of all of the issued and outstanding common shares of ATAC Resources Ltd. (“ATAC”). The acquisition is in sync with HL's strategy of acquiring large land packages in highly promising and tier-one mining jurisdictions.  Previously, on Apr 12, Hecla Mining announced that its wholly owned subsidiary, Alexco Resource Corp., entered a definitive deal with ATAC to acquire ATAC, and its Rackla and Connaught projects in Canada.  The Rackla and Connaught projects will solidify the company's position in Yukon. The ATAC buyout follows Hecla Mining’s strategic acquisition of Keno Hill, which is anticipated to be Canada's largest and highest-grade primary silver mine.  Under the agreement, HL's subsidiary will acquire all of ATAC's issued and existing shares for CAN$31 mil…",
+          "date": "2023-05-22",
+          "duplicate_provenance": [],
+          "record_hash": "eea0db9e77652f4885d36c28fc3ff0ca6759d30e9ecf651f8317ad3262a5c8af",
+          "source_index": 28,
+          "source_stock_symbol": "AGI",
+          "title": "Hecla Mining (HL) Gets Interim Order for ATAC Acquisition",
+          "url": "https://www.nasdaq.com/articles/hecla-mining-hl-gets-interim-order-for-atac-acquisition"
+        },
+        {
+          "body": "Bunge Limited BG announced a strategic partnership with Nutrien Ltd.’s NTR retail division, Nutrien Ag Solutions. Through this alliance, the companies will boost the use of sustainable practices that improve soil health, thus providing new economic prospects to the field. The collaboration aligns with Bunge's commitment to continue investing in low-carbon projects.  The partnership will provide more whole-acre solutions to customers and end-consumers in the food, feed and fuel industries. It will increase sustainable agriculture across shared supply chains in North America.  The companies are targeting crop season 2023/2024 for this initiative. Initially, the initiative will concentrate on soybeans cultivated near Bunge's crushing plants in Council Bluffs, IA, and Decatur, with further scope of expansion. The program will include sustainable farming practices like cover crops, reduced t…",
+          "date": "2023-05-18",
+          "duplicate_provenance": [],
+          "record_hash": "0e8889b55a0e55ad1b5d7b57467c068f7de2e7c49b12fc08c7bc0d7f90a787d8",
+          "source_index": 30,
+          "source_stock_symbol": "AGI",
+          "title": "Bunge (BG) to Boost Sustainable Practices With Nutrien Tie-Up",
+          "url": "https://www.nasdaq.com/articles/bunge-bg-to-boost-sustainable-practices-with-nutrien-tie-up"
+        },
+        {
+          "body": "Franco-Nevada FNV has been gaining from its healthy portfolio of royalty and streaming agreements, and contributions from the recent buyouts. The company is well-poised to deliver strong earnings growth, aided by a focus on mine expansions and strong production from the Antamina mine.  Even though the company anticipates lower-than-estimated mining activities at Guadalupe, and decreased stream deliveries at Antamina and Antapaccay mines due to lower grades in the current year, these are likely to be offset by expected savings from its continued focus on cost management. The recent pickup in metal prices also bodes well for the company.  Shares of this Zacks Rank #1 (Strong Buy) company have gained 15.1% in the past year compared with the industry’s growth of 15.4%. You can see the complete list of today’s Zacks #1 Rank stocks here.   Image Source: Zacks Investment Research  Franco-Nevad…",
+          "date": "2023-05-18",
+          "duplicate_provenance": [],
+          "record_hash": "44c1493a55a4bba9a8bdc268c5bdd448f4617396a98f23847ee2931e66ea1386",
+          "source_index": 31,
+          "source_stock_symbol": "AGI",
+          "title": "Franco-Nevada (FNV) Gains From Solid Portfolio & Metal Prices",
+          "url": "https://www.nasdaq.com/articles/franco-nevada-fnv-gains-from-solid-portfolio-metal-prices"
+        }
+      ],
+      "source_member": "sp500_news/AGI.jsonl",
+      "status": "AVAILABLE"
+    },
+    "TIME_SERIES": {
+      "reason": "",
+      "required_row_count": 61,
+      "selected_row_count": 61,
+      "selected_session_dates": [
+        "2023-03-02",
+        "2023-03-03",
+        "2023-03-06",
+        "2023-03-07",
+        "2023-03-08",
+        "2023-03-09",
+        "2023-03-10",
+        "2023-03-13",
+        "2023-03-14",
+        "2023-03-15",
+        "2023-03-16",
+        "2023-03-17",
+        "2023-03-20",
+        "2023-03-21",
+        "2023-03-22",
+        "2023-03-23",
+        "2023-03-24",
+        "2023-03-27",
+        "2023-03-28",
+        "2023-03-29",
+        "2023-03-30",
+        "2023-03-31",
+        "2023-04-03",
+        "2023-04-04",
+        "2023-04-05",
+        "2023-04-06",
+        "2023-04-10",
+        "2023-04-11",
+        "2023-04-12",
+        "2023-04-13",
+        "2023-04-14",
+        "2023-04-17",
+        "2023-04-18",
+        "2023-04-19",
+        "2023-04-20",
+        "2023-04-21",
+        "2023-04-24",
+        "2023-04-25",
+        "2023-04-26",
+        "2023-04-27",
+        "2023-04-28",
+        "2023-05-01",
+        "2023-05-02",
+        "2023-05-03",
+        "2023-05-04",
+        "2023-05-05",
+        "2023-05-08",
+        "2023-05-09",
+        "2023-05-10",
+        "2023-05-11",
+        "2023-05-12",
+        "2023-05-15",
+        "2023-05-16",
+        "2023-05-17",
+        "2023-05-18",
+        "2023-05-19",
+        "2023-05-22",
+        "2023-05-23",
+        "2023-05-24",
+        "2023-05-25",
+        "2023-05-26"
+      ],
+      "source_member": "S&P500_time_series/agi.csv",
+      "status": "AVAILABLE",
+      "summary": {
+        "cumulative_return_20d": -0.04253674030766763,
+        "cumulative_return_5d": -0.025963662807781618,
+        "cumulative_return_60d": 0.20241675496455036,
+        "drawdown_from_60d_peak": -0.10419672890740439,
+        "high_low_range_20d": 0.15171302701404765,
+        "realised_volatility_20d_annualised": 0.28196585321750683,
+        "relative_volume_vs_20d_mean": 0.5135282233886516
+      },
+      "through_session": "2023-05-26"
+    }
+  },
+  "symbol": "AGI",
+  "task_id": "M2-06",
+  "tier_membership": {
+    "in_compact": true,
+    "in_maximum": true,
+    "in_standard": true
+  }
+}

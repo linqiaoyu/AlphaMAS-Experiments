@@ -1,0 +1,252 @@
+{
+  "available_for_training": true,
+  "available_for_validation": false,
+  "case_id": "AGI:2023-05-12",
+  "dataset_id": "m2_preformal_evidence_v1",
+  "decision_session": "2023-05-12",
+  "decision_time": "2023-05-12T20:00:00+00:00",
+  "engineering_only": false,
+  "final_packet_status": "PENDING_QWEN",
+  "performance_for_selection": false,
+  "pit_cutoff": "2023-05-12",
+  "protected": false,
+  "role": "TRAIN",
+  "routing": {
+    "modality_to_analyst": {
+      "IMAGE": "Market Analyst",
+      "TABLE": "Fundamentals Analyst",
+      "TEXT": "News Analyst",
+      "TIME_SERIES": "Market Analyst"
+    },
+    "social_analyst": "NO_FINMULTITIME_SPECIFIC_EVIDENCE"
+  },
+  "schema_version": "1.0",
+  "sections": {
+    "IMAGE": {
+      "bytes": 44164,
+      "caption_status": "PENDING",
+      "filename": "agi_2022_H2_candlestick.png",
+      "image_sha256": "fb4f6e3b146397e577983c29f78d45bffa4ad21c661752075ce9edcec40172c9",
+      "inferred_period": "2022-H2",
+      "inferred_period_end": "2022-12-31",
+      "reason": "window end inferred from YYYY_H1/H2 filename convention",
+      "source_path": "/Volumes/Jackson/Dataset/FinMultiTime/image/image/S&P500_image_a/agi/agi_2022_H2_candlestick.png",
+      "status": "AVAILABLE"
+    },
+    "TABLE": {
+      "facts": {
+        "Assets": null,
+        "Liabilities": null,
+        "NetCashProvidedByUsedInFinancingActivities": null,
+        "NetCashProvidedByUsedInInvestingActivities": null,
+        "NetCashProvidedByUsedInOperatingActivities": null,
+        "StockholdersEquity": null
+      },
+      "latest_safe_filed_date": null,
+      "reason": "no PIT-safe selected facts",
+      "same_day_ambiguous_rejected_count": 0,
+      "source_members": [],
+      "status": "UNAVAILABLE",
+      "unavailable_concepts": [
+        "Assets",
+        "Liabilities",
+        "StockholdersEquity",
+        "NetCashProvidedByUsedInOperatingActivities",
+        "NetCashProvidedByUsedInInvestingActivities",
+        "NetCashProvidedByUsedInFinancingActivities"
+      ]
+    },
+    "TEXT": {
+      "latest_safe_date": "2023-05-10",
+      "reason": "",
+      "same_day_ambiguous_rejected": [
+        {
+          "date": "2023-05-12",
+          "reason": "AMBIGUOUS_REJECTED",
+          "record_hash": "b3f9a5c72c5a35208fad8614a582970e6d715338ebc92d27ce7a1bcdcbf4bfda"
+        }
+      ],
+      "selected_record_hashes": [
+        "aa7dd298785c22d9f93a9e2c22d7b09c4bbeba8eff7d71f793d613843c7a195d",
+        "63174f12d77cc3f33c5b75bedf3884f3186edddea128f7011319dc2f629e006a",
+        "adff628d1a0a31979b1ca48423912c28c1a2c81751f8bdc4c60463b264b3a208",
+        "a8a3dc4c0ae770aacefef79001803989808d03b9bd45250142f0a4edf55b9d39",
+        "66ff597c434f2ed03b8b3628e02a13d7e53e053fef65e4607b7bb729ccda5a2b",
+        "9c303652eaabfe5627966d8f37b054e46e35eb910844af3aae8762ea5cdd9832",
+        "1277932bed7fc8dbbc0f44285f0c585b6fbef5a43bf7a89c31876ea643d892af",
+        "3826ff3fa8c8e28c0a81e7250e9bb976d357a14edf5bf3a3211839f9a4b505b0"
+      ],
+      "selected_records": [
+        {
+          "body": "B2Gold Corp BTG reported adjusted earnings per share (EPS) of 10 cents for first-quarter 2023, beating the Zacks Consensus Estimate of 7 cents. The bottom line surged 67% year over year.  Including one-time items, the company reported 8 cents per share earnings, flat year over year.  B2Gold generated revenues of $474 million in first-quarter 2023 compared with the prior-year quarter’s $366 million. The top line surpassed the Zacks Consensus Estimate of $316 million.  In the March-end quarter, B2Gold recorded consolidated gold production of 250,719 ounces, up 27.6% year over year. The total consolidated gold production for first-quarter 2023 was 266,856 ounces (including 16,137 ounces of attributable production from Calibre Mining Corp), up 27% from the prior-year quarter.  The company reported the consolidated cash operating costs of $576 per ounce in the reported quarter, down 14.8% ye…",
+          "date": "2023-05-10",
+          "duplicate_provenance": [],
+          "record_hash": "aa7dd298785c22d9f93a9e2c22d7b09c4bbeba8eff7d71f793d613843c7a195d",
+          "source_index": 37,
+          "source_stock_symbol": "AGI",
+          "title": "B2Gold (BTG) Q1 Earnings and Sales Surpass Estimates, Up Y/Y",
+          "url": "https://www.nasdaq.com/articles/b2gold-btg-q1-earnings-and-sales-surpass-estimates-up-y-y"
+        },
+        {
+          "body": "GrowGeneration Corp. GRWG reported a loss per share of 10 cents in the first quarter of 2023, beating the Zacks Consensus Estimate of a loss of 11 cents per share. The company had reported a loss per share of 9 cents in the first quarter of 2022.  GrowGeneration generated revenues of $56.8 million in first-quarter 2023, which declined 30.5% year over year. The results reflect the ongoing weakness in the cannabis industry. The top line surpassed the Zacks Consensus Estimate of $55.9 million. Comparable store sales in the quarter slumped 36.6% from the prior year at its 55 retail locations and e-commerce operations.  E-commerce revenues in the quarter under review were $3.3 million, down from $5.3 million in the last-year quarter. Revenues from non-retail operations rose to $14.2 million in the quarter from $12.2 million last year.  The cost of sales declined 32% year on year to $40.5 mil…",
+          "date": "2023-05-10",
+          "duplicate_provenance": [],
+          "record_hash": "63174f12d77cc3f33c5b75bedf3884f3186edddea128f7011319dc2f629e006a",
+          "source_index": 36,
+          "source_stock_symbol": "AGI",
+          "title": "GrowGeneration (GRWG) Q1 Earnings Beat Estimates, Dip Y/Y",
+          "url": "https://www.nasdaq.com/articles/growgeneration-grwg-q1-earnings-beat-estimates-dip-y-y"
+        },
+        {
+          "body": "Royal Gold, Inc. RGLD reported adjusted earnings per share (EPS) of 96 cents in first-quarter 2023, beating the Zacks Consensus Estimate of 94 cents. The bottom line, however, declined 3% year over year.  Including one-time items, the company reported EPS of 97 cents compared with the prior-year quarter’s $1.00.  The company generated revenues of $170 million, reflecting year-over-year growth of 4.9%. The upbeat performance can be attributed to higher gold and copper sales at Mount Milligan, a rise in silver sales at Khoemacau, increased gold production at Cortez and contribution from the newly-acquired royalties. However, these factors were partly offset by lower gold sales at Andacollo, and lower gold and silver production at Pe?asquito.  Stream revenues were $115 million and royalty revenues were $55.4 million in the March-end quarter. On a year-over-year basis, stream revenues impro…",
+          "date": "2023-05-08",
+          "duplicate_provenance": [],
+          "record_hash": "adff628d1a0a31979b1ca48423912c28c1a2c81751f8bdc4c60463b264b3a208",
+          "source_index": 38,
+          "source_stock_symbol": "AGI",
+          "title": "Royal Gold (RGLD) Earnings Surpass Estimates in Q1, Dip Y/Y",
+          "url": "https://www.nasdaq.com/articles/royal-gold-rgld-earnings-surpass-estimates-in-q1-dip-y-y"
+        },
+        {
+          "body": "There are several reasons why being consistently profitable over the long run in the stock market is challenging: 1.   Markets are inherently unpredictable, and even the most seasoned investors cannot predict the future of individual stocks or markets. 2.   Wall Street is highly competitive, and investors of all kinds (especially large ones) must contend with other savvy investors with access to the same information and resources.   3.   Regardless of how well thought out a position is, even the most well-researched positions can encounter unexpected “tape bombs” or negative news which adversely impacts the position. These factors make it challenging for investors to consistently outperform the market over the long term. Considering the abovementioned factors, Stanley Druckenmiller’s consistent performance over his long career is much more impressive. Druckenmiller, who was mentored by …",
+          "date": "2023-05-03",
+          "duplicate_provenance": [],
+          "record_hash": "a8a3dc4c0ae770aacefef79001803989808d03b9bd45250142f0a4edf55b9d39",
+          "source_index": 39,
+          "source_stock_symbol": "AGI",
+          "title": "Druckenmiller Interview: 10 Key Takeaways",
+          "url": "https://www.nasdaq.com/articles/druckenmiller-interview%3A-10-key-takeaways"
+        },
+        {
+          "body": "CF Industries Holdings, Inc. CF reported a profit of $560 million or $2.85 per share in the first quarter of 2023, down from $883 million or $4.21 per share in the year-ago quarter. Earnings per share  surpassed the Zacks Consensus Estimate of $2.63.  Net sales fell 29.8% year over year to $2,012 million in the quarter. The figure topped the Zacks Consensus Estimate of $1,893.7 million. The downside was driven by lower average selling prices due to higher worldwide supply availability, as lower global energy costs led to higher global operating rates.  Sales volumes were also down year over year in the reported quarter, owing to lower UAN, ammonia and AN sales volumes. This was partly offset by higher granular urea sales volumes. CF Industries Holdings, Inc. Price, Consensus and EPS Surprise   CF Industries Holdings, Inc. price-consensus-eps-surprise-chart | CF Industries Holdings, Inc.…",
+          "date": "2023-05-02",
+          "duplicate_provenance": [],
+          "record_hash": "66ff597c434f2ed03b8b3628e02a13d7e53e053fef65e4607b7bb729ccda5a2b",
+          "source_index": 41,
+          "source_stock_symbol": "AGI",
+          "title": "CF Industries (CF) Earnings and Sales Surpass Estimates in Q1",
+          "url": "https://www.nasdaq.com/articles/cf-industries-cf-earnings-and-sales-surpass-estimates-in-q1"
+        },
+        {
+          "body": "It shouldn’t come as much of a surprise that gold mining stocks would post solid earnings. The price of gold has been flirting with a price of $2,000 per ounce as many investors are seeking alternatives to the U.S. dollar.   When considering mining stocks, however, production is a key metric to watch. Commodity prices rise and fall and even gold has faced some resistance after climbing over $2,000 an ounce. What investors are looking for is a company that has proven assets and rising production from those assets.   All three of these companies delivered solid earnings reports for investors to digest. But after the earnings report does one stand out above the others? If you're a momentum investor, one does look to shine more brightly than the others.   Eldorado Gold   Eldorado Gold Corporation (NYSE: EGO) posted earnings per share (EPS) of 14 cents beating analysts’ expectations by 180%.…",
+          "date": "2023-05-02",
+          "duplicate_provenance": [],
+          "record_hash": "9c303652eaabfe5627966d8f37b054e46e35eb910844af3aae8762ea5cdd9832",
+          "source_index": 40,
+          "source_stock_symbol": "AGI",
+          "title": "Which of these Gold Mining Stocks is Glittering After Earnings?",
+          "url": "https://www.nasdaq.com/articles/which-of-these-gold-mining-stocks-is-glittering-after-earnings"
+        },
+        {
+          "body": "Momentum investing is all about the idea of following a stock's recent trend, which can be in either direction. In the 'long' context, investors will essentially be \"buying high, but hoping to sell even higher.\" And for investors following this methodology, taking advantage of trends in a stock's price is key; once a stock establishes a course, it is more than likely to continue moving in that direction. The goal is that once a stock heads down a fixed path, it will lead to timely and profitable trades. Even though momentum is a popular stock characteristic, it can be tough to define. Debate surrounding which are the best and worst metrics to focus on is lengthy, but the Zacks Momentum Style Score, part of the Zacks Style Scores, helps address this issue for us. Below, we take a look at Alamos Gold (AGI), a company that currently holds a Momentum Style Score of A. We also talk about pri…",
+          "date": "2023-05-01",
+          "duplicate_provenance": [],
+          "record_hash": "1277932bed7fc8dbbc0f44285f0c585b6fbef5a43bf7a89c31876ea643d892af",
+          "source_index": 42,
+          "source_stock_symbol": "AGI",
+          "title": "Alamos Gold (AGI) is a Great Momentum Stock: Should You Buy?",
+          "url": "https://www.nasdaq.com/articles/alamos-gold-agi-is-a-great-momentum-stock%3A-should-you-buy"
+        },
+        {
+          "body": "For those looking to find strong Basic Materials stocks, it is prudent to search for companies in the group that are outperforming their peers. Has Alamos Gold (AGI) been one of those stocks this year? Let's take a closer look at the stock's year-to-date performance to find out. Alamos Gold is one of 236 companies in the Basic Materials group. The Basic Materials group currently sits at #14 within the Zacks Sector Rank. The Zacks Sector Rank gauges the strength of our 16 individual sector groups by measuring the average Zacks Rank of the individual stocks within the groups. The Zacks Rank is a proven system that emphasizes earnings estimates and estimate revisions, highlighting a variety of stocks that are displaying the right characteristics to beat the market over the next one to three months. Alamos Gold is currently sporting a Zacks Rank of #2 (Buy). Over the past three months, the …",
+          "date": "2023-04-28",
+          "duplicate_provenance": [],
+          "record_hash": "3826ff3fa8c8e28c0a81e7250e9bb976d357a14edf5bf3a3211839f9a4b505b0",
+          "source_index": 43,
+          "source_stock_symbol": "AGI",
+          "title": "Are Basic Materials Stocks Lagging Alamos Gold (AGI) This Year?",
+          "url": "https://www.nasdaq.com/articles/are-basic-materials-stocks-lagging-alamos-gold-agi-this-year"
+        }
+      ],
+      "source_member": "sp500_news/AGI.jsonl",
+      "status": "AVAILABLE"
+    },
+    "TIME_SERIES": {
+      "reason": "",
+      "required_row_count": 61,
+      "selected_row_count": 61,
+      "selected_session_dates": [
+        "2023-02-15",
+        "2023-02-16",
+        "2023-02-17",
+        "2023-02-21",
+        "2023-02-22",
+        "2023-02-23",
+        "2023-02-24",
+        "2023-02-27",
+        "2023-02-28",
+        "2023-03-01",
+        "2023-03-02",
+        "2023-03-03",
+        "2023-03-06",
+        "2023-03-07",
+        "2023-03-08",
+        "2023-03-09",
+        "2023-03-10",
+        "2023-03-13",
+        "2023-03-14",
+        "2023-03-15",
+        "2023-03-16",
+        "2023-03-17",
+        "2023-03-20",
+        "2023-03-21",
+        "2023-03-22",
+        "2023-03-23",
+        "2023-03-24",
+        "2023-03-27",
+        "2023-03-28",
+        "2023-03-29",
+        "2023-03-30",
+        "2023-03-31",
+        "2023-04-03",
+        "2023-04-04",
+        "2023-04-05",
+        "2023-04-06",
+        "2023-04-10",
+        "2023-04-11",
+        "2023-04-12",
+        "2023-04-13",
+        "2023-04-14",
+        "2023-04-17",
+        "2023-04-18",
+        "2023-04-19",
+        "2023-04-20",
+        "2023-04-21",
+        "2023-04-24",
+        "2023-04-25",
+        "2023-04-26",
+        "2023-04-27",
+        "2023-04-28",
+        "2023-05-01",
+        "2023-05-02",
+        "2023-05-03",
+        "2023-05-04",
+        "2023-05-05",
+        "2023-05-08",
+        "2023-05-09",
+        "2023-05-10",
+        "2023-05-11",
+        "2023-05-12"
+      ],
+      "source_member": "S&P500_time_series/agi.csv",
+      "status": "AVAILABLE",
+      "summary": {
+        "cumulative_return_20d": -0.007457090197478644,
+        "cumulative_return_5d": -0.036205634790104746,
+        "cumulative_return_60d": 0.28775227888487453,
+        "drawdown_from_60d_peak": -0.03690298926682545,
+        "high_low_range_20d": 0.13870978928629518,
+        "realised_volatility_20d_annualised": 0.23764251860568714,
+        "relative_volume_vs_20d_mean": 0.8299065684464666
+      },
+      "through_session": "2023-05-12"
+    }
+  },
+  "symbol": "AGI",
+  "task_id": "M2-06",
+  "tier_membership": {
+    "in_compact": false,
+    "in_maximum": true,
+    "in_standard": false
+  }
+}

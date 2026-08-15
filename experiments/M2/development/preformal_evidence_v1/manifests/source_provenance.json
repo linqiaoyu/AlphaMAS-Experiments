@@ -1,0 +1,686 @@
+{
+  "raw_root": "/Volumes/Jackson/Dataset/FinMultiTime",
+  "records": [
+    {
+      "available": true,
+      "modality": "TEXT",
+      "source": {
+        "member": "sp500_news/AAPL.jsonl",
+        "member_compressed_size": 11219489,
+        "member_crc32": "32db6c07",
+        "member_uncompressed_size": 40535030,
+        "outer_archive": "text/sp500_news.zip",
+        "outer_archive_path": "/Volumes/Jackson/Dataset/FinMultiTime/text/sp500_news.zip",
+        "sha256": "d464056a2c668bda7f76936fbe78171e94b2b2b6388fd53efb3ca918e9af4659",
+        "source_kind": "zip_member"
+      },
+      "symbol": "AAPL"
+    },
+    {
+      "available": true,
+      "modality": "TEXT",
+      "source": {
+        "member": "sp500_news/AEMD.jsonl",
+        "member_compressed_size": 590391,
+        "member_crc32": "60bcb9d4",
+        "member_uncompressed_size": 2670640,
+        "outer_archive": "text/sp500_news.zip",
+        "outer_archive_path": "/Volumes/Jackson/Dataset/FinMultiTime/text/sp500_news.zip",
+        "sha256": "72e4fbe702990cde141caaeccbcb4486b8f7698b9e464decd630be2340bebf1e",
+        "source_kind": "zip_member"
+      },
+      "symbol": "AEMD"
+    },
+    {
+      "available": true,
+      "modality": "TEXT",
+      "source": {
+        "member": "sp500_news/AGI.jsonl",
+        "member_compressed_size": 1110988,
+        "member_crc32": "8986570f",
+        "member_uncompressed_size": 4289667,
+        "outer_archive": "text/sp500_news.zip",
+        "outer_archive_path": "/Volumes/Jackson/Dataset/FinMultiTime/text/sp500_news.zip",
+        "sha256": "bd12ff8b9e912696fb5b96d78cd81b11771f629703ee1a730f47a7ff84e53886",
+        "source_kind": "zip_member"
+      },
+      "symbol": "AGI"
+    },
+    {
+      "available": true,
+      "modality": "TEXT",
+      "source": {
+        "member": "sp500_news/AMZN.jsonl",
+        "member_compressed_size": 8625516,
+        "member_crc32": "f2606117",
+        "member_uncompressed_size": 28833382,
+        "outer_archive": "text/sp500_news.zip",
+        "outer_archive_path": "/Volumes/Jackson/Dataset/FinMultiTime/text/sp500_news.zip",
+        "sha256": "979ef8da28eb4df2de58fb9c6ef8ae1777c064901fd2519cd6d1136c36c81f08",
+        "source_kind": "zip_member"
+      },
+      "symbol": "AMZN"
+    },
+    {
+      "available": true,
+      "modality": "TEXT",
+      "source": {
+        "member": "sp500_news/ARR.jsonl",
+        "member_compressed_size": 557581,
+        "member_crc32": "82580fb3",
+        "member_uncompressed_size": 2396374,
+        "outer_archive": "text/sp500_news.zip",
+        "outer_archive_path": "/Volumes/Jackson/Dataset/FinMultiTime/text/sp500_news.zip",
+        "sha256": "1b00cd2e639826dc14f0d3ee7eaf5e926b32bf1f1372d7ccac3fb84e1c7d613f",
+        "source_kind": "zip_member"
+      },
+      "symbol": "ARR"
+    },
+    {
+      "available": true,
+      "modality": "TEXT",
+      "source": {
+        "member": "sp500_news/EML.jsonl",
+        "member_compressed_size": 108144,
+        "member_crc32": "122b6eb8",
+        "member_uncompressed_size": 424676,
+        "outer_archive": "text/sp500_news.zip",
+        "outer_archive_path": "/Volumes/Jackson/Dataset/FinMultiTime/text/sp500_news.zip",
+        "sha256": "4231e2039251f31ef087ec858ba33ebde09ae2b4c5838d11055653386cf660d6",
+        "source_kind": "zip_member"
+      },
+      "symbol": "EML"
+    },
+    {
+      "available": false,
+      "modality": "TEXT",
+      "source": {
+        "member": "sp500_news/JBSS.jsonl",
+        "outer_archive": "text/sp500_news.zip",
+        "source_kind": "absent_zip_member"
+      },
+      "symbol": "JBSS"
+    },
+    {
+      "available": false,
+      "modality": "TEXT",
+      "source": {
+        "member": "sp500_news/JPM.jsonl",
+        "outer_archive": "text/sp500_news.zip",
+        "source_kind": "absent_zip_member"
+      },
+      "symbol": "JPM"
+    },
+    {
+      "available": true,
+      "modality": "TABLE",
+      "sources": [
+        {
+          "member": "financial_reports/aapl/condensed_consolidated_balance_sheets.json",
+          "member_compressed_size": 1057454,
+          "member_crc32": "b6be3a85",
+          "member_uncompressed_size": 28865544,
+          "outer_archive": "table/SP500_tabular.zip",
+          "outer_archive_path": "/Volumes/Jackson/Dataset/FinMultiTime/table/SP500_tabular.zip",
+          "sha256": "a974b912aa33b731bff446adde1d84cd09e0315f0c4b83a47c8f38ebbe09455e",
+          "source_kind": "zip_member"
+        },
+        {
+          "member": "financial_reports/aapl/condensed_consolidated_statement_of_cash_flows.json",
+          "member_compressed_size": 609267,
+          "member_crc32": "2cb63378",
+          "member_uncompressed_size": 17187108,
+          "outer_archive": "table/SP500_tabular.zip",
+          "outer_archive_path": "/Volumes/Jackson/Dataset/FinMultiTime/table/SP500_tabular.zip",
+          "sha256": "f95d982b0d619d121b18d0a926698a851922ded8d0af420e272d55d8b8c7b06f",
+          "source_kind": "zip_member"
+        },
+        {
+          "member": "financial_reports/aapl/condensed_consolidated_statement_of_equity.json",
+          "member_compressed_size": 289479,
+          "member_crc32": "0ab2853c",
+          "member_uncompressed_size": 7381452,
+          "outer_archive": "table/SP500_tabular.zip",
+          "outer_archive_path": "/Volumes/Jackson/Dataset/FinMultiTime/table/SP500_tabular.zip",
+          "sha256": "d07dd7e7adf6d3a437a431c73c28750299ac2a0bea7a0dd485c81aa2b1496ae9",
+          "source_kind": "zip_member"
+        }
+      ],
+      "symbol": "AAPL"
+    },
+    {
+      "available": true,
+      "modality": "TABLE",
+      "sources": [
+        {
+          "member": "financial_reports/aemd/condensed_consolidated_balance_sheets.json",
+          "member_compressed_size": 1296268,
+          "member_crc32": "9dc367b2",
+          "member_uncompressed_size": 32618090,
+          "outer_archive": "table/SP500_tabular.zip",
+          "outer_archive_path": "/Volumes/Jackson/Dataset/FinMultiTime/table/SP500_tabular.zip",
+          "sha256": "4d6f74e00e10e8f1e89d54a296b5fd944b7dde3b9fedf6d3cdd628baf5e7fec5",
+          "source_kind": "zip_member"
+        },
+        {
+          "member": "financial_reports/aemd/condensed_consolidated_statement_of_cash_flows.json",
+          "member_compressed_size": 595900,
+          "member_crc32": "e5042c7e",
+          "member_uncompressed_size": 13600341,
+          "outer_archive": "table/SP500_tabular.zip",
+          "outer_archive_path": "/Volumes/Jackson/Dataset/FinMultiTime/table/SP500_tabular.zip",
+          "sha256": "43e25c7038724b04f9357473109c2974f193f9769c0accd5560889cd1ab6394a",
+          "source_kind": "zip_member"
+        },
+        {
+          "member": "financial_reports/aemd/condensed_consolidated_statement_of_equity.json",
+          "member_compressed_size": 354191,
+          "member_crc32": "87f80703",
+          "member_uncompressed_size": 9003203,
+          "outer_archive": "table/SP500_tabular.zip",
+          "outer_archive_path": "/Volumes/Jackson/Dataset/FinMultiTime/table/SP500_tabular.zip",
+          "sha256": "2e30539361cb8a33a2967cc2a2cdf0e15163f3ef4a5fadf6a39198e03fb1adc7",
+          "source_kind": "zip_member"
+        }
+      ],
+      "symbol": "AEMD"
+    },
+    {
+      "available": true,
+      "modality": "TABLE",
+      "sources": [
+        {
+          "member": "financial_reports/agi/condensed_consolidated_balance_sheets.json",
+          "member_compressed_size": 59,
+          "member_crc32": "bfc130d3",
+          "member_uncompressed_size": 73,
+          "outer_archive": "table/SP500_tabular.zip",
+          "outer_archive_path": "/Volumes/Jackson/Dataset/FinMultiTime/table/SP500_tabular.zip",
+          "sha256": "69754dd8566a404f6531a87cffb1e49642efa7d5cbf7528a1bc53afb7890fb22",
+          "source_kind": "zip_member"
+        },
+        {
+          "member": "financial_reports/agi/condensed_consolidated_statement_of_cash_flows.json",
+          "member_compressed_size": 59,
+          "member_crc32": "bfc130d3",
+          "member_uncompressed_size": 73,
+          "outer_archive": "table/SP500_tabular.zip",
+          "outer_archive_path": "/Volumes/Jackson/Dataset/FinMultiTime/table/SP500_tabular.zip",
+          "sha256": "69754dd8566a404f6531a87cffb1e49642efa7d5cbf7528a1bc53afb7890fb22",
+          "source_kind": "zip_member"
+        },
+        {
+          "member": "financial_reports/agi/condensed_consolidated_statement_of_equity.json",
+          "member_compressed_size": 59,
+          "member_crc32": "bfc130d3",
+          "member_uncompressed_size": 73,
+          "outer_archive": "table/SP500_tabular.zip",
+          "outer_archive_path": "/Volumes/Jackson/Dataset/FinMultiTime/table/SP500_tabular.zip",
+          "sha256": "69754dd8566a404f6531a87cffb1e49642efa7d5cbf7528a1bc53afb7890fb22",
+          "source_kind": "zip_member"
+        }
+      ],
+      "symbol": "AGI"
+    },
+    {
+      "available": true,
+      "modality": "TABLE",
+      "sources": [
+        {
+          "member": "financial_reports/amzn/condensed_consolidated_balance_sheets.json",
+          "member_compressed_size": 549242,
+          "member_crc32": "259edcfa",
+          "member_uncompressed_size": 15446678,
+          "outer_archive": "table/SP500_tabular.zip",
+          "outer_archive_path": "/Volumes/Jackson/Dataset/FinMultiTime/table/SP500_tabular.zip",
+          "sha256": "3054b9bb09a2a60b4a1d3f5c929adf0f0fd522ecefa3ff2a3823aa563f48be81",
+          "source_kind": "zip_member"
+        },
+        {
+          "member": "financial_reports/amzn/condensed_consolidated_statement_of_cash_flows.json",
+          "member_compressed_size": 494871,
+          "member_crc32": "8a8f44f4",
+          "member_uncompressed_size": 16811314,
+          "outer_archive": "table/SP500_tabular.zip",
+          "outer_archive_path": "/Volumes/Jackson/Dataset/FinMultiTime/table/SP500_tabular.zip",
+          "sha256": "d89b43e71cf6d31ed9fcbc78f0a929d5ee30b514d7c0ea85f95d48bfaa2ece36",
+          "source_kind": "zip_member"
+        },
+        {
+          "member": "financial_reports/amzn/condensed_consolidated_statement_of_equity.json",
+          "member_compressed_size": 132914,
+          "member_crc32": "d58da32c",
+          "member_uncompressed_size": 3783234,
+          "outer_archive": "table/SP500_tabular.zip",
+          "outer_archive_path": "/Volumes/Jackson/Dataset/FinMultiTime/table/SP500_tabular.zip",
+          "sha256": "44a0b49620d401cdd46ca4a50a863a59866fccab21c85ed1b893222cbddd0b40",
+          "source_kind": "zip_member"
+        }
+      ],
+      "symbol": "AMZN"
+    },
+    {
+      "available": true,
+      "modality": "TABLE",
+      "sources": [
+        {
+          "member": "financial_reports/arr/condensed_consolidated_balance_sheets.json",
+          "member_compressed_size": 283842,
+          "member_crc32": "1e6e95dd",
+          "member_uncompressed_size": 7977137,
+          "outer_archive": "table/SP500_tabular.zip",
+          "outer_archive_path": "/Volumes/Jackson/Dataset/FinMultiTime/table/SP500_tabular.zip",
+          "sha256": "28bd91e92c59004affb8033bce1ed44e973077fb1aa3779ac194b3f709f917b1",
+          "source_kind": "zip_member"
+        },
+        {
+          "member": "financial_reports/arr/condensed_consolidated_statement_of_cash_flows.json",
+          "member_compressed_size": 308367,
+          "member_crc32": "0d375986",
+          "member_uncompressed_size": 7882397,
+          "outer_archive": "table/SP500_tabular.zip",
+          "outer_archive_path": "/Volumes/Jackson/Dataset/FinMultiTime/table/SP500_tabular.zip",
+          "sha256": "74bf85b0c70113624f1304cedd52e97e0d99bfbb2dbc82dd2d82147748b84322",
+          "source_kind": "zip_member"
+        },
+        {
+          "member": "financial_reports/arr/condensed_consolidated_statement_of_equity.json",
+          "member_compressed_size": 203333,
+          "member_crc32": "2b6fec4a",
+          "member_uncompressed_size": 5571737,
+          "outer_archive": "table/SP500_tabular.zip",
+          "outer_archive_path": "/Volumes/Jackson/Dataset/FinMultiTime/table/SP500_tabular.zip",
+          "sha256": "4b0eb1f85975bb9e6aeac3dff739f07289550d58d5bf51069d926aa1356d3b1c",
+          "source_kind": "zip_member"
+        }
+      ],
+      "symbol": "ARR"
+    },
+    {
+      "available": true,
+      "modality": "TABLE",
+      "sources": [
+        {
+          "member": "financial_reports/eml/condensed_consolidated_balance_sheets.json",
+          "member_compressed_size": 1502413,
+          "member_crc32": "8302e8f3",
+          "member_uncompressed_size": 36416165,
+          "outer_archive": "table/SP500_tabular.zip",
+          "outer_archive_path": "/Volumes/Jackson/Dataset/FinMultiTime/table/SP500_tabular.zip",
+          "sha256": "a53ec6acc615fba34b89946fa3391ab37cf03e89930ce0014539b002f8aa402d",
+          "source_kind": "zip_member"
+        },
+        {
+          "member": "financial_reports/eml/condensed_consolidated_statement_of_cash_flows.json",
+          "member_compressed_size": 865960,
+          "member_crc32": "076e05ae",
+          "member_uncompressed_size": 20285285,
+          "outer_archive": "table/SP500_tabular.zip",
+          "outer_archive_path": "/Volumes/Jackson/Dataset/FinMultiTime/table/SP500_tabular.zip",
+          "sha256": "82ba0f8746913fe9b0bf595c8e76d565210806b027cae74d8d9afc6254bd6462",
+          "source_kind": "zip_member"
+        },
+        {
+          "member": "financial_reports/eml/condensed_consolidated_statement_of_equity.json",
+          "member_compressed_size": 351309,
+          "member_crc32": "886a92d8",
+          "member_uncompressed_size": 8672621,
+          "outer_archive": "table/SP500_tabular.zip",
+          "outer_archive_path": "/Volumes/Jackson/Dataset/FinMultiTime/table/SP500_tabular.zip",
+          "sha256": "aa4e2644df3cf2cc214cf2bf3dc5708df56405297049bc3e22d9778d07c244bb",
+          "source_kind": "zip_member"
+        }
+      ],
+      "symbol": "EML"
+    },
+    {
+      "available": true,
+      "modality": "TABLE",
+      "sources": [
+        {
+          "member": "financial_reports/jbss/condensed_consolidated_balance_sheets.json",
+          "member_compressed_size": 1831623,
+          "member_crc32": "c096c3c0",
+          "member_uncompressed_size": 53569862,
+          "outer_archive": "table/SP500_tabular.zip",
+          "outer_archive_path": "/Volumes/Jackson/Dataset/FinMultiTime/table/SP500_tabular.zip",
+          "sha256": "88d43fef4cc2ec4d292ca299fe5cda04b64d29908d01a3110d3d102b704de930",
+          "source_kind": "zip_member"
+        },
+        {
+          "member": "financial_reports/jbss/condensed_consolidated_statement_of_cash_flows.json",
+          "member_compressed_size": 879246,
+          "member_crc32": "944b3df2",
+          "member_uncompressed_size": 22877769,
+          "outer_archive": "table/SP500_tabular.zip",
+          "outer_archive_path": "/Volumes/Jackson/Dataset/FinMultiTime/table/SP500_tabular.zip",
+          "sha256": "ef3f0f5d31dce24fc9e0cc2983de76295af4667bfc7e72eb0d7bdbcf72c5a91f",
+          "source_kind": "zip_member"
+        },
+        {
+          "member": "financial_reports/jbss/condensed_consolidated_statement_of_equity.json",
+          "member_compressed_size": 556494,
+          "member_crc32": "72b8cbb4",
+          "member_uncompressed_size": 15355674,
+          "outer_archive": "table/SP500_tabular.zip",
+          "outer_archive_path": "/Volumes/Jackson/Dataset/FinMultiTime/table/SP500_tabular.zip",
+          "sha256": "abd97076ddcf044cb48b35dbdb6880977fb21cf447bdd7556aa305ad77f299fd",
+          "source_kind": "zip_member"
+        }
+      ],
+      "symbol": "JBSS"
+    },
+    {
+      "available": true,
+      "modality": "TABLE",
+      "sources": [
+        {
+          "member": "financial_reports/jpm/condensed_consolidated_balance_sheets.json",
+          "member_compressed_size": 51513,
+          "member_crc32": "f8b874ce",
+          "member_uncompressed_size": 1463193,
+          "outer_archive": "table/SP500_tabular.zip",
+          "outer_archive_path": "/Volumes/Jackson/Dataset/FinMultiTime/table/SP500_tabular.zip",
+          "sha256": "ae9a6a88d70783c4ab7a87791e89323b0cf2b976211cb85d0492ce2df9952450",
+          "source_kind": "zip_member"
+        },
+        {
+          "member": "financial_reports/jpm/condensed_consolidated_statement_of_cash_flows.json",
+          "member_compressed_size": 52987,
+          "member_crc32": "cf47e847",
+          "member_uncompressed_size": 1494277,
+          "outer_archive": "table/SP500_tabular.zip",
+          "outer_archive_path": "/Volumes/Jackson/Dataset/FinMultiTime/table/SP500_tabular.zip",
+          "sha256": "390379bf7e0609a3f0964cf06fb9ca4103017e527344a5a2a86850b94f5fbea9",
+          "source_kind": "zip_member"
+        },
+        {
+          "member": "financial_reports/jpm/condensed_consolidated_statement_of_equity.json",
+          "member_compressed_size": 20186,
+          "member_crc32": "ee171bf2",
+          "member_uncompressed_size": 564245,
+          "outer_archive": "table/SP500_tabular.zip",
+          "outer_archive_path": "/Volumes/Jackson/Dataset/FinMultiTime/table/SP500_tabular.zip",
+          "sha256": "1ad0eaaaa4f4148ee5dabef10a4a1381066a89ad113db0a21a651cfc385a7b58",
+          "source_kind": "zip_member"
+        }
+      ],
+      "symbol": "JPM"
+    },
+    {
+      "available": true,
+      "modality": "TIME_SERIES",
+      "source": {
+        "member": "S&P500_time_series/aapl.csv",
+        "member_compressed_size": 245431,
+        "member_crc32": "0f57d755",
+        "member_uncompressed_size": 751946,
+        "outer_archive": "time_series/S&P500_time_series.zip",
+        "outer_archive_path": "/Volumes/Jackson/Dataset/FinMultiTime/time_series/S&P500_time_series.zip",
+        "sha256": "80524d21ca03e539cf5792ce2f446a5913ae26955b1981a4061929635a01f444",
+        "source_kind": "zip_member"
+      },
+      "symbol": "AAPL"
+    },
+    {
+      "available": true,
+      "modality": "TIME_SERIES",
+      "source": {
+        "member": "S&P500_time_series/aemd.csv",
+        "member_compressed_size": 55183,
+        "member_crc32": "50ab6427",
+        "member_uncompressed_size": 462466,
+        "outer_archive": "time_series/S&P500_time_series.zip",
+        "outer_archive_path": "/Volumes/Jackson/Dataset/FinMultiTime/time_series/S&P500_time_series.zip",
+        "sha256": "504b9ee83faf9a7154141d03cc78bdd1ec34d8df600ab40538938080119210ee",
+        "source_kind": "zip_member"
+      },
+      "symbol": "AEMD"
+    },
+    {
+      "available": true,
+      "modality": "TIME_SERIES",
+      "source": {
+        "member": "S&P500_time_series/agi.csv",
+        "member_compressed_size": 156637,
+        "member_crc32": "9e53395a",
+        "member_uncompressed_size": 618667,
+        "outer_archive": "time_series/S&P500_time_series.zip",
+        "outer_archive_path": "/Volumes/Jackson/Dataset/FinMultiTime/time_series/S&P500_time_series.zip",
+        "sha256": "90721e6b4e977a6f4febf07ea5c53d49192f5c88b869584e816202d91bfe4042",
+        "source_kind": "zip_member"
+      },
+      "symbol": "AGI"
+    },
+    {
+      "available": true,
+      "modality": "TIME_SERIES",
+      "source": {
+        "member": "S&P500_time_series/amzn.csv",
+        "member_compressed_size": 133487,
+        "member_crc32": "bcbc709c",
+        "member_uncompressed_size": 731674,
+        "outer_archive": "time_series/S&P500_time_series.zip",
+        "outer_archive_path": "/Volumes/Jackson/Dataset/FinMultiTime/time_series/S&P500_time_series.zip",
+        "sha256": "94c6920879cc6c6f6c6bb0e5a355f73ecae21e318ab502d6db7a7386098881f7",
+        "source_kind": "zip_member"
+      },
+      "symbol": "AMZN"
+    },
+    {
+      "available": true,
+      "modality": "TIME_SERIES",
+      "source": {
+        "member": "S&P500_time_series/arr.csv",
+        "member_compressed_size": 133248,
+        "member_crc32": "cb7adf8d",
+        "member_uncompressed_size": 495732,
+        "outer_archive": "time_series/S&P500_time_series.zip",
+        "outer_archive_path": "/Volumes/Jackson/Dataset/FinMultiTime/time_series/S&P500_time_series.zip",
+        "sha256": "99567e200144df340101f7b0976243e0fccc82b2ad18c1e7d9d90da9f883806f",
+        "source_kind": "zip_member"
+      },
+      "symbol": "ARR"
+    },
+    {
+      "available": true,
+      "modality": "TIME_SERIES",
+      "source": {
+        "member": "S&P500_time_series/eml.csv",
+        "member_compressed_size": 168749,
+        "member_crc32": "ff4a7f4b",
+        "member_uncompressed_size": 716969,
+        "outer_archive": "time_series/S&P500_time_series.zip",
+        "outer_archive_path": "/Volumes/Jackson/Dataset/FinMultiTime/time_series/S&P500_time_series.zip",
+        "sha256": "cff9fa58b5650f338089ba60b932698370c14321b9e19bb46181e52cc4f26983",
+        "source_kind": "zip_member"
+      },
+      "symbol": "EML"
+    },
+    {
+      "available": true,
+      "modality": "TIME_SERIES",
+      "source": {
+        "member": "S&P500_time_series/jbss.csv",
+        "member_compressed_size": 195132,
+        "member_crc32": "207e8724",
+        "member_uncompressed_size": 715808,
+        "outer_archive": "time_series/S&P500_time_series.zip",
+        "outer_archive_path": "/Volumes/Jackson/Dataset/FinMultiTime/time_series/S&P500_time_series.zip",
+        "sha256": "27bf3a98c346362f0d67f8755c05b4ba282423ec6f6609da5938847edfd75800",
+        "source_kind": "zip_member"
+      },
+      "symbol": "JBSS"
+    },
+    {
+      "available": true,
+      "modality": "TIME_SERIES",
+      "source": {
+        "member": "S&P500_time_series/jpm.csv",
+        "member_compressed_size": 239251,
+        "member_crc32": "0d9b541a",
+        "member_uncompressed_size": 739556,
+        "outer_archive": "time_series/S&P500_time_series.zip",
+        "outer_archive_path": "/Volumes/Jackson/Dataset/FinMultiTime/time_series/S&P500_time_series.zip",
+        "sha256": "9abcaa67e5341c382c3223db0e0fa25ea47b426d7f12083cacdfe59b2c5b2746",
+        "source_kind": "zip_member"
+      },
+      "symbol": "JPM"
+    },
+    {
+      "available": true,
+      "modality": "IMAGE",
+      "source": {
+        "bytes": 47144,
+        "path": "/Volumes/Jackson/Dataset/FinMultiTime/image/image/S&P500_image_j/jbss/jbss_2022_H2_candlestick.png",
+        "sha256": "207c31218e8e69be7582343731288984104c35867d2a39ae2cf6ffd8170ca09b",
+        "source_kind": "file"
+      },
+      "symbol": "JBSS"
+    },
+    {
+      "available": true,
+      "modality": "IMAGE",
+      "source": {
+        "bytes": 42150,
+        "path": "/Volumes/Jackson/Dataset/FinMultiTime/image/image/S&P500_image_a/arr/arr_2023_H1_candlestick.png",
+        "sha256": "39e399c33e123177ab49f2604da12cc9e23cfc59f5eeb928a0520d31e100eedb",
+        "source_kind": "file"
+      },
+      "symbol": "ARR"
+    },
+    {
+      "available": true,
+      "modality": "IMAGE",
+      "source": {
+        "bytes": 39805,
+        "path": "/Volumes/Jackson/Dataset/FinMultiTime/image/image/S&P500_image_a/aemd/aemd_2022_H2_candlestick.png",
+        "sha256": "49f0d5872c134e27863e743c76a14d7003109a579f92271ec2a955371322863c",
+        "source_kind": "file"
+      },
+      "symbol": "AEMD"
+    },
+    {
+      "available": true,
+      "modality": "IMAGE",
+      "source": {
+        "bytes": 42449,
+        "path": "/Volumes/Jackson/Dataset/FinMultiTime/image/image/S&P500_image_e/eml/eml_2023_H1_candlestick.png",
+        "sha256": "7b5992d42e2fb9edf4d265ec1c4c27d50b54d8f631659fb3d6db8b6b8580242f",
+        "source_kind": "file"
+      },
+      "symbol": "EML"
+    },
+    {
+      "available": true,
+      "modality": "IMAGE",
+      "source": {
+        "bytes": 44796,
+        "path": "/Volumes/Jackson/Dataset/FinMultiTime/image/image/S&P500_image_a/agi/agi_2023_H1_candlestick.png",
+        "sha256": "88e4d13673a4574aaa10b91ea6a161eecbd26a3cc888a594e88c9605ba77baf8",
+        "source_kind": "file"
+      },
+      "symbol": "AGI"
+    },
+    {
+      "available": true,
+      "modality": "IMAGE",
+      "source": {
+        "bytes": 42771,
+        "path": "/Volumes/Jackson/Dataset/FinMultiTime/image/image/S&P500_image_a/amzn/amzn_2023_H1_candlestick.png",
+        "sha256": "899bad419ff4adce9c5617d82791a99608071412ceefb6defff79c7ca2420e57",
+        "source_kind": "file"
+      },
+      "symbol": "AMZN"
+    },
+    {
+      "available": true,
+      "modality": "IMAGE",
+      "source": {
+        "bytes": 42889,
+        "path": "/Volumes/Jackson/Dataset/FinMultiTime/image/image/S&P500_image_j/jpm/jpm_2023_H1_candlestick.png",
+        "sha256": "97accffa1df9a79b48e1799b9756e28d7b687df4b5bd9c3ea545dd3cbff31556",
+        "source_kind": "file"
+      },
+      "symbol": "JPM"
+    },
+    {
+      "available": true,
+      "modality": "IMAGE",
+      "source": {
+        "bytes": 43709,
+        "path": "/Volumes/Jackson/Dataset/FinMultiTime/image/image/S&P500_image_e/eml/eml_2022_H2_candlestick.png",
+        "sha256": "9abcfa7abc8f5ae03c3c5375f7fab122e8a4ae5bfbed03249fe2598ea7044a69",
+        "source_kind": "file"
+      },
+      "symbol": "EML"
+    },
+    {
+      "available": true,
+      "modality": "IMAGE",
+      "source": {
+        "bytes": 39413,
+        "path": "/Volumes/Jackson/Dataset/FinMultiTime/image/image/S&P500_image_a/aemd/aemd_2023_H1_candlestick.png",
+        "sha256": "9ae5f3ad69d03ab30482e16db325d10a4e7b4e951f0d80009c6e7f7e8004983a",
+        "source_kind": "file"
+      },
+      "symbol": "AEMD"
+    },
+    {
+      "available": true,
+      "modality": "IMAGE",
+      "source": {
+        "bytes": 41854,
+        "path": "/Volumes/Jackson/Dataset/FinMultiTime/image/image/S&P500_image_j/jbss/jbss_2023_H1_candlestick.png",
+        "sha256": "c7a2a3c59e3762553f94be891d8b2aad22bd0bd9a818ed0061d4869ac98ae628",
+        "source_kind": "file"
+      },
+      "symbol": "JBSS"
+    },
+    {
+      "available": true,
+      "modality": "IMAGE",
+      "source": {
+        "bytes": 42046,
+        "path": "/Volumes/Jackson/Dataset/FinMultiTime/image/image/S&P500_image_a/arr/arr_2022_H2_candlestick.png",
+        "sha256": "def7ae39023bfa6da4103d7a84e91a66a891093db310f209bf2fb68e7e9f64c4",
+        "source_kind": "file"
+      },
+      "symbol": "ARR"
+    },
+    {
+      "available": true,
+      "modality": "IMAGE",
+      "source": {
+        "bytes": 45510,
+        "path": "/Volumes/Jackson/Dataset/FinMultiTime/image/image/S&P500_image_j/jpm/jpm_2022_H2_candlestick.png",
+        "sha256": "e07621359a85d579b7feed7f423fe154db5bcf841df33a4d99682677fd3aaaa9",
+        "source_kind": "file"
+      },
+      "symbol": "JPM"
+    },
+    {
+      "available": true,
+      "modality": "IMAGE",
+      "source": {
+        "bytes": 45192,
+        "path": "/Volumes/Jackson/Dataset/FinMultiTime/image/image/S&P500_image_a/amzn/amzn_2022_H2_candlestick.png",
+        "sha256": "f52b3a16034499f16b13eb1472ef9460cc5ea93f6b524e1e3683270c1debb2ae",
+        "source_kind": "file"
+      },
+      "symbol": "AMZN"
+    },
+    {
+      "available": true,
+      "modality": "IMAGE",
+      "source": {
+        "bytes": 44164,
+        "path": "/Volumes/Jackson/Dataset/FinMultiTime/image/image/S&P500_image_a/agi/agi_2022_H2_candlestick.png",
+        "sha256": "fb4f6e3b146397e577983c29f78d45bffa4ad21c661752075ce9edcec40172c9",
+        "source_kind": "file"
+      },
+      "symbol": "AGI"
+    }
+  ],
+  "schema_version": "1.0"
+}

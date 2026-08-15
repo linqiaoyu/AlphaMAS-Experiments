@@ -1,0 +1,3645 @@
+{
+  "automatic_symbol_reselection": false,
+  "candidate_record_count": 271,
+  "external_replacement": false,
+  "outcome_data_used": false,
+  "records": [
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-07-27",
+      "record_hash": "011521682d236a20f106b4bfdf67a058363467d745a28812b2462d896de9b0e1",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 3141,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "Chart of the Week: Mid-Cap ETFs in Focus",
+      "url": "https://www.nasdaq.com/articles/chart-of-the-week%3A-mid-cap-etfs-in-focus"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-18",
+      "record_hash": "073eea5e84b4c6895b3fb2101e69ade000fc2207fbcd3aff6760115cab727b97",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 4236,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "After Hours Most Active for May 18, 2023 : AGL, FTCH, AAPL, MTVC, SQQQ, PAGS, TGAA, QQQ, TQQQ, GOOGL, PCG, WFC",
+      "url": "https://www.nasdaq.com/articles/after-hours-most-active-for-may-18-2023-%3A-agl-ftch-aapl-mtvc-sqqq-pags-tgaa-qqq-tqqq-googl"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-18",
+      "record_hash": "09e1ef91be80a324e0262e62aabde192da3e0e08d7a25d6aa1ec5da0c3999156",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 4243,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "87 Billion Reasons to Buy Apple Stock Hand Over Fist Right Now",
+      "url": "https://www.nasdaq.com/articles/87-billion-reasons-to-buy-apple-stock-hand-over-fist-right-now"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-07-20",
+      "record_hash": "0f201394042720c315c5814734aa27c396270e0a6a73539ef400e2434dee2e1b",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 3245,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "Credit Suisse Maintains Apple (AAPL) Outperform Recommendation",
+      "url": "https://www.nasdaq.com/articles/credit-suisse-maintains-apple-aapl-outperform-recommendation-0"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-10-05",
+      "record_hash": "14b782370ca744714370693b1e413e4341a1723224f99227585ad84bc8a7bb94",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 1727,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "Alphabet (GOOGL) to Boost Smartwatch Presence With Pixel Watch 2",
+      "url": "https://www.nasdaq.com/articles/alphabet-googl-to-boost-smartwatch-presence-with-pixel-watch-2"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-29",
+      "record_hash": "17ce684c7b24950541d1a1140c1824d8c2797461f25dd8d51e8571620e0e7439",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 3602,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "7 Top Growth Stocks to Watch for H2 2023",
+      "url": "https://www.nasdaq.com/articles/7-top-growth-stocks-to-watch-for-h2-2023"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-07-06",
+      "record_hash": "1def1bb962986a0328d569793e0229578295463788f89a28cacd506f868b839c",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 3451,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "After Hours Most Active for Jul 6, 2023 : INTC, KVUE, LUMN, KEY, AAPL, BAC, RIVN, AMZN, GERN, QQQ, BEKE, T",
+      "url": "https://www.nasdaq.com/articles/after-hours-most-active-for-jul-6-2023-%3A-intc-kvue-lumn-key-aapl-bac-rivn-amzn-gern-qqq"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-04",
+      "record_hash": "205a5379ae88789194ec41b33b761fd7420c02069c98d93500120562cd1abd4b",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 4510,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "3 Stocks to Buy Before They Soar to New Heights in 2023",
+      "url": "https://www.nasdaq.com/articles/3-stocks-to-buy-before-they-soar-to-new-heights-in-2023-0"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-29",
+      "record_hash": "210f2a796d602edbb6e94db446c0dbdb29bfa00bcb277ae0c1a15615ee0466f9",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 3592,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "Apple's Bull Run And Why It's Different",
+      "url": "https://www.nasdaq.com/articles/apples-bull-run-and-why-its-different"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-18",
+      "record_hash": "21c2bfd07dca335358cc49437e3e7691749603692a42f71a5a9e20c72bffca5a",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 4247,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "2 Dividend Stocks Warren Buffet Loves",
+      "url": "https://www.nasdaq.com/articles/2-dividend-stocks-warren-buffet-loves"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-18",
+      "record_hash": "22b209d43715ad2089f9866c4983a649418f6ec7f4834fe0acc433494a9b3f37",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 4244,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "2 Key Themes From the Q1 Earnings Season",
+      "url": "https://www.nasdaq.com/articles/2-key-themes-from-the-q1-earnings-season"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-07-27",
+      "record_hash": "2450248adb3da9d600ab2d9b91b15ae1ac51915df312acc2ae8c2e6820927901",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 3148,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "Are the Big Tech Stocks About to Take a Breather? Here's What This Broker Thinks",
+      "url": "https://www.nasdaq.com/articles/are-the-big-tech-stocks-about-to-take-a-breather-heres-what-this-broker-thinks"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-10-05",
+      "record_hash": "26542437d09168af4b817402d8717f6af1407af356c27ab89b5dbf26f4a4d8b0",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 1722,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "Apple Reportedly Considered Replacing Google With DuckDuckGo For Safari",
+      "url": "https://www.nasdaq.com/articles/apple-reportedly-considered-replacing-google-with-duckduckgo-for-safari"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-01",
+      "record_hash": "26dd09b0979d4402f60e53d6aab9c5b459eb4e015819aaef8791eafada17aee3",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 4027,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "After Hours Most Active for Jun 1, 2023 : BOH, AAPL, RC, SLM, VZ, AMZN, T, MSFT, S, ACWI, GOOGL, PSTG",
+      "url": "https://www.nasdaq.com/articles/after-hours-most-active-for-jun-1-2023-%3A-boh-aapl-rc-slm-vz-amzn-t-msft-s-acwi-googl-pstg"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-15",
+      "record_hash": "2c45d7e6d514ca5f7ba7f2ef96e870a0ec5c2159d619709f9957ba03bf3d16fc",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 3789,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "First Citizen Bancshares and Icahn have been highlighted as Zacks Bull and Bear of the Day",
+      "url": "https://www.nasdaq.com/articles/first-citizen-bancshares-and-icahn-have-been-highlighted-as-zacks-bull-and-bear-of-the-day"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-08",
+      "record_hash": "2ee94cc739b3b40518097d84f1276c08f72a890d4a8fb8533d402b9f3ecdb16e",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 3907,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "2 Virtual Reality Stocks to Invest in",
+      "url": "https://www.nasdaq.com/articles/2-virtual-reality-stocks-to-invest-in"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-11",
+      "record_hash": "2f11cd9935083f6b536fdf920b077caeb926800389cb84a41adc18de11c3ce72",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 4341,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "Apple supplier Foxconn's Q1 profit falls 56% y/y, worse than forecasts",
+      "url": "https://www.nasdaq.com/articles/apple-supplier-foxconns-q1-profit-falls-56-y-y-worse-than-forecasts"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-07-06",
+      "record_hash": "30bd5c0a2c65201cfc5c5af8d7b904a79c0a05c6f14b336bfdbed2d08193abfd",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 3459,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "3 Momentum Stock Picks with Strong Stories",
+      "url": "https://www.nasdaq.com/articles/3-momentum-stock-picks-with-strong-stories"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-07-27",
+      "record_hash": "390dffeb0dd17c2d4569aa3825e68177907b26465f2e7aca89dc74516bff6ffc",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 3133,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "Apple Reports After the Close on 8/3 -- Options Contracts Expire the Next Day",
+      "url": "https://www.nasdaq.com/articles/apple-reports-after-the-close-on-8-3-options-contracts-expire-the-next-day"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-25",
+      "record_hash": "39d268fdc58578273f9f3cc7398758c2b42cd086122e6be75d5ed4c3f052d972",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 4129,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "1 Green Flag for Broadcom in 2023, and 1 Red Flag",
+      "url": "https://www.nasdaq.com/articles/1-green-flag-for-broadcom-in-2023-and-1-red-flag"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-07-06",
+      "record_hash": "3d92a4e62d3a1e8c2a196a6859c7f4c533b918337ed281fc3e5a3adce21bde21",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 3462,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "2 Must-Have Specialized ETFs for the Long-Term Investor",
+      "url": "https://www.nasdaq.com/articles/2-must-have-specialized-etfs-for-the-long-term-investor"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-07-27",
+      "record_hash": "40c7d14bd925b60a6be9abc78382302f6dd8e668c6a330384b5fcb19eb301ebd",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 3146,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "9 Best Stocks for Beginners With Little Money",
+      "url": "https://www.nasdaq.com/articles/9-best-stocks-for-beginners-with-little-money"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-01",
+      "record_hash": "41ebc03b1224e56c66b2d8ca5ad748388525427a059c61822874dfb5ebcfed85",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 4030,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "7 Long-Term Stocks to Buy and Hold Until 2033",
+      "url": "https://www.nasdaq.com/articles/7-long-term-stocks-to-buy-and-hold-until-2033"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-07-27",
+      "record_hash": "437dbeb979294ea75a16961f81959cb17029e6ed3887b416f4c46df6255dc9ec",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 3147,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "9 Best Stocks for Beginners With Little Money",
+      "url": "https://www.nasdaq.com/articles/9-best-stocks-for-beginners-with-little-money-0"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-08",
+      "record_hash": "458657441ec8fbdd0ef9ed39ca2c70a6025c2da06d7450b58c6391e0ad352658",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 3908,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "2 Unbelievable Growth Stocks to Scoop Up Right Now",
+      "url": "https://www.nasdaq.com/articles/2-unbelievable-growth-stocks-to-scoop-up-right-now"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-11",
+      "record_hash": "4d1532cb7561a211e6c994b62cad888d216da66600016965f277687429f8df4f",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 4333,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "Apple supplier Foxconn's Q1 profit slumps 56% y/y, lags forecasts",
+      "url": "https://www.nasdaq.com/articles/apple-supplier-foxconns-q1-profit-slumps-56-y-y-lags-forecasts"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-10-05",
+      "record_hash": "51b26397f1c297de4b8b3ce8d2b95295570b6dfa82eee0edaa85c0c3f8f4f6a5",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 1735,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "3 Unstoppable Nasdaq Stocks to Buy and Hold for the Next Decade",
+      "url": "https://www.nasdaq.com/articles/3-unstoppable-nasdaq-stocks-to-buy-and-hold-for-the-next-decade"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-15",
+      "record_hash": "524f8899edf418be3fd84167d585a70c290f53d8fdd5860fe543e56f7069f550",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 3790,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "ANALYSIS-Why Walmart's new bet on fashion brands, home decor threatens specialty chains",
+      "url": "https://www.nasdaq.com/articles/analysis-why-walmarts-new-bet-on-fashion-brands-home-decor-threatens-specialty-chains"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-11",
+      "record_hash": "52b59955e7f477f5d9e5fb1672522e6993869bc58fb3306deee118422b965d34",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 4336,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "Foxconn shares fall after Apple supplier's Q1 profit plunges",
+      "url": "https://www.nasdaq.com/articles/foxconn-shares-fall-after-apple-suppliers-q1-profit-plunges"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-04",
+      "record_hash": "59c9a7f4e6fd9d0c170506247f25c704631d6fe778fcb148b4c143f019fac24d",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 4507,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "Apple (AAPL) Q2 2023 Earnings: What to Expect",
+      "url": "https://www.nasdaq.com/articles/apple-aapl-q2-2023-earnings-what-to-expect"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-18",
+      "record_hash": "5a9c78876e220615d8ac3b8f0c7ca54a5d39e78e648c8c73d5c65b4808b75ab3",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 4248,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "3 Stocks That Could Help You Retire a Millionaire",
+      "url": "https://www.nasdaq.com/articles/3-stocks-that-could-help-you-retire-a-millionaire-8"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-07-20",
+      "record_hash": "5f46185910e23575a7f697e84b4d3b44d48897c6761f5fa15ccaf2d4c9aff044",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 3248,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "3 Growth Stocks to Buy to Turn $10,000 Into $1 Million",
+      "url": "https://www.nasdaq.com/articles/3-growth-stocks-to-buy-to-turn-%2410000-into-%241-million"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-25",
+      "record_hash": "646d091cc27bfc793e2e00de4beac67c42778d281d4a1c9fc9393e1d29d32951",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 4127,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "3 Top AI Stocks That Pay Dividends -- and 1 Yields Over 5%",
+      "url": "https://www.nasdaq.com/articles/3-top-ai-stocks-that-pay-dividends-and-1-yields-over-5"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-10-05",
+      "record_hash": "648cb18a46e3fa5d0d12372e3bbbc38f9e03b214e7a443080647e0bf27af654d",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 1734,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "3 Promising Metaverse Stocks That Will Make Early Investors Rich",
+      "url": "https://www.nasdaq.com/articles/3-promising-metaverse-stocks-that-will-make-early-investors-rich"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-29",
+      "record_hash": "67fa6d53017eb2f66ca6823c1079351e604c43fc2fe65809a555938698b73e56",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 3598,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "Apple seeks to fend off EU antitrust charge triggered by Spotify at hearing",
+      "url": "https://www.nasdaq.com/articles/apple-seeks-to-fend-off-eu-antitrust-charge-triggered-by-spotify-at-hearing"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-04",
+      "record_hash": "6f8ca8fd301466b7155156055b9e469c50d18f15b0f243dc9b061b41a0ba70e6",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 4486,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "Apple (AAPL) Q2 Earnings and Revenues Beat Estimates",
+      "url": "https://www.nasdaq.com/articles/apple-aapl-q2-earnings-and-revenues-beat-estimates"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-08",
+      "record_hash": "71cf1d5421aa248a403fefa47f9383d3a07fe678b63bb2c8bec4295c511d152e",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 3892,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "Apple, Epic ask US appeals court to reconsider its antitrust ruling",
+      "url": "https://www.nasdaq.com/articles/apple-epic-ask-us-appeals-court-to-reconsider-its-antitrust-ruling"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-25",
+      "record_hash": "725e174b04a71635d1b0d2b073d708f1be44cf8162fd18c6fa2196b3587ae394",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 4125,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "After Hours Most Active for May 25, 2023 : UPWK, XYL, AAPL, T, MRVL, AMZN, NVDA, MSFT, TAL, GPS, DVN, BAC",
+      "url": "https://www.nasdaq.com/articles/after-hours-most-active-for-may-25-2023-%3A-upwk-xyl-aapl-t-mrvl-amzn-nvda-msft-tal-gps-dvn"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-08",
+      "record_hash": "7376241d496fc154d71fb9f66474003a73104ef7d6feeadc6015938ca9d12025",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 3893,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "Apple (AAPL) Outpaces Stock Market Gains: What You Should Know",
+      "url": "https://www.nasdaq.com/articles/apple-aapl-outpaces-stock-market-gains%3A-what-you-should-know-13"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-29",
+      "record_hash": "76e8fe4fdfad39cbd6ec3bd17eb5d52ede18f1531486369ae0ffc28e44f246be",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 3577,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "2 Cruise Stocks Boosting the S&P 500 Rally in 1H 2023",
+      "url": "https://www.nasdaq.com/articles/2-cruise-stocks-boosting-the-sp-500-rally-in-1h-2023"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-08",
+      "record_hash": "83bca3b08c880e9dd18e0ed894205c15b5e88cbf35bc60a082c6108dcba8ee1b",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 3900,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "3 Nasdaq Stocks That Have Generated 10x Returns in 10 Years",
+      "url": "https://www.nasdaq.com/articles/3-nasdaq-stocks-that-have-generated-10x-returns-in-10-years"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-15",
+      "record_hash": "870f77634a03e8b16b26b5e91bbecc3d6adf5b2653628a9832ed83c4219fc348",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 3768,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "7 Stocks Forming the Next ‘Economic Supercluster’",
+      "url": "https://www.nasdaq.com/articles/7-stocks-forming-the-next-economic-supercluster"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-10-05",
+      "record_hash": "8884b65369a065f611e25fd18ce3eb0747394462eb7ed7a9673b5dccd5f98f2d",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 1729,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "FOCUS-Novo Nordisk's Wegovy bonanza looms large in Denmark",
+      "url": "https://www.nasdaq.com/articles/focus-novo-nordisks-wegovy-bonanza-looms-large-in-denmark"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-01",
+      "record_hash": "8aa58db04384b1bac8bc7490fd59a1d5dd4e37cda3e7125079654ad6e843e472",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 4029,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "5 Reasons to Buy Tesla Now",
+      "url": "https://www.nasdaq.com/articles/5-reasons-to-buy-tesla-now"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-08",
+      "record_hash": "8b9c61c6ede8442d00a438371a8f2fc80256dbfaeeb8024f1edfb344bd33a21a",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 3910,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "3 Top Metaverse Stocks to Buy in June",
+      "url": "https://www.nasdaq.com/articles/3-top-metaverse-stocks-to-buy-in-june-0"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-04",
+      "record_hash": "8f6f024919099123890ecdedecc35cf7107a1dfd82f32b217a2c7e2788042566",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 4488,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "2 Tech Stocks To Watch Now Amid Earnings",
+      "url": "https://www.nasdaq.com/articles/2-tech-stocks-to-watch-now-amid-earnings"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-07-27",
+      "record_hash": "90c9c60fea1052a3ff4fda9f06bc2f5aaf1d97f603f57a1b3fbb275b9e18f2f8",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 3136,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "Bernstein Maintains Apple (AAPL) Market Perform Recommendation",
+      "url": "https://www.nasdaq.com/articles/bernstein-maintains-apple-aapl-market-perform-recommendation"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-29",
+      "record_hash": "93ed76db5081a4759152e9595cf5159c53036c3271c41fa2cd2f0d1c767183c3",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 3583,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "After Hours Most Active for Jun 29, 2023 : PCG, TLT, AAPL, OTLY, MU, GOOGL, VZ, ABST, NKE, AMC, LNC, CARR",
+      "url": "https://www.nasdaq.com/articles/after-hours-most-active-for-jun-29-2023-%3A-pcg-tlt-aapl-otly-mu-googl-vz-abst-nke-amc-lnc"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-08",
+      "record_hash": "9494fadb1adc8736af32369e5ae478bbb4064287aa6d13ba6f159090765ec637",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 3891,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "7 Momentum Stocks That Could Skyrocket in the Next 12 Months",
+      "url": "https://www.nasdaq.com/articles/7-momentum-stocks-that-could-skyrocket-in-the-next-12-months"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-01",
+      "record_hash": "976490f0fc22f67ecf8400ca26be3e278cc4834bed36c421a2487a701539d6a8",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 4031,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "Apple denies surveillance claims made by Russia's FSB",
+      "url": "https://www.nasdaq.com/articles/apple-denies-surveillance-claims-made-by-russias-fsb"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-29",
+      "record_hash": "981b26393751da934fe6413ccfc346fc375ac43cb421a2b84558ac0e0754e7a0",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 3581,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "Apple seeks to fend off EU antitrust charge triggered by Spotify at hearing",
+      "url": "https://www.nasdaq.com/articles/apple-seeks-to-fend-off-eu-antitrust-charge-triggered-by-spotify-at-hearing-0"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-11",
+      "record_hash": "9a16fe1898bb9b52ad39e8f5aa0c27e995147f8989d8fe7cd37dc753d174f66a",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 4338,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "After Hours Most Active for May 11, 2023 : KGC, MSFT, TSLA, INTC, AAPL, SUMO, FOLD, RLJ, FIS, PAGS, IONQ, SCHW",
+      "url": "https://www.nasdaq.com/articles/after-hours-most-active-for-may-11-2023-%3A-kgc-msft-tsla-intc-aapl-sumo-fold-rlj-fis-pags"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-11",
+      "record_hash": "9a69cdc4b48b257003dc81699283a8a299e4b7727c1d3bda88ce95ec19caa2ee",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 4334,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "Get Exposure to NVIDIA Stock Price, Options Income in New YieldMax ETF",
+      "url": "https://www.nasdaq.com/articles/get-exposure-to-nvidia-stock-price-options-income-in-new-yieldmax-etf"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-04",
+      "record_hash": "9bc7e617059c1b685d92a97d19626de061751fc776e77c478e244128a06c3d89",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 4474,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "After-Hours Earnings Report for May 4, 2023 : AAPL, BKNG, EOG, MNST, MSI, FTNT, MCHP, AIG, ED, MTD, SQ, AEE",
+      "url": "https://www.nasdaq.com/articles/after-hours-earnings-report-for-may-4-2023-%3A-aapl-bkng-eog-mnst-msi-ftnt-mchp-aig-ed-mtd"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-04",
+      "record_hash": "9c2fde680f41fc804d0aeae201b4c6a7d5b708b20035109dae1d8a670d4614cb",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 4473,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "After Hours Most Active for May 4, 2023 : PK, AAPL, CVNA, BABA, LYFT, KVUE, INTC, PSCE, VZ, BAC, MSFT, AMZN",
+      "url": "https://www.nasdaq.com/articles/after-hours-most-active-for-may-4-2023-%3A-pk-aapl-cvna-baba-lyft-kvue-intc-psce-vz-bac-msft"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-01",
+      "record_hash": "a0d4dc5cd9aac6ae6d0966c8bf5ddc51332c57beabf48b66b324687508878dbf",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 4041,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "Broadcom (AVGO) Q2 Earnings Today – Here’s What to Expect",
+      "url": "https://www.nasdaq.com/articles/broadcom-avgo-q2-earnings-today-heres-what-to-expect"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-29",
+      "record_hash": "a228ac9db302e5e2078fa2f66d66f5d320c7a3e4fa55a059efe2216200cc0178",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 3594,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "Better Buy: Apple vs. AMD Stock",
+      "url": "https://www.nasdaq.com/articles/better-buy%3A-apple-vs.-amd-stock"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-15",
+      "record_hash": "a2d1c2735f8e11a3247f214549261472a710c7c41919acae31b4feb91ef3e77a",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 3773,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "Chinese e-commerce giants entice cautious consumers with steep mid-year discounts",
+      "url": "https://www.nasdaq.com/articles/chinese-e-commerce-giants-entice-cautious-consumers-with-steep-mid-year-discounts"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-07-27",
+      "record_hash": "a30f04aed229ddb07830bf483882d35a8deb7b93191bdbdfed4417d891dd8ff2",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 3142,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "55.3% of Warren Buffett's $380 Billion Portfolio Is Invested in These 2 Dividend Stocks",
+      "url": "https://www.nasdaq.com/articles/55.3-of-warren-buffetts-%24380-billion-portfolio-is-invested-in-these-2-dividend-stocks"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-15",
+      "record_hash": "a3ac7837fc79675a6403836d5c669f7c08fc754cd8390cf9cc5d4d3509d9c24a",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 3771,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "ETF Investing Strategies for 2H 2023",
+      "url": "https://www.nasdaq.com/articles/etf-investing-strategies-for-2h-2023"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-11",
+      "record_hash": "a3eb30d910cc1c8dc6b64b82221976be5bf3b62310f84c953757c69596eb91e3",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 4335,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "3 FAANG Stocks For Your May 2023 Watchlist",
+      "url": "https://www.nasdaq.com/articles/3-faang-stocks-for-your-may-2023-watchlist"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-15",
+      "record_hash": "a560c4acb5e904bf6de033f293be6e9c9ee4c7311676f574df05e9c46e342439",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 3781,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "3 Stocks to Own Forever",
+      "url": "https://www.nasdaq.com/articles/3-stocks-to-own-forever"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-18",
+      "record_hash": "a5fdf9fe78754c56d8463e735f9c786cabbfcdd08a3944cb4867554220154635",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 4232,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "ANALYSIS-Elon Musk's embrace of advertising at Tesla grabs marketers' attention",
+      "url": "https://www.nasdaq.com/articles/analysis-elon-musks-embrace-of-advertising-at-tesla-grabs-marketers-attention-0"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-15",
+      "record_hash": "a62e8649c024b03627575c7ebc81f77a2dad9871db461a62ada23cf664396612",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 3787,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "3 Dividend Growers That May Be Undervalued Gems",
+      "url": "https://www.nasdaq.com/articles/3-dividend-growers-that-may-be-undervalued-gems"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-07-20",
+      "record_hash": "a6c77472c7353ee03db438925e0e3dd7816f465c3fd071d7eb63f43e346e01b9",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 3251,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "2 Best Value Stocks to Buy Right Now",
+      "url": "https://www.nasdaq.com/articles/2-best-value-stocks-to-buy-right-now-0"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-07-20",
+      "record_hash": "aaed68c9c51f572ab79c5933a10b80de1a6145a807183e0a066765069dfae09e",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 3254,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "25 Millionaire-Maker AI Stocks to Buy Now",
+      "url": "https://www.nasdaq.com/articles/25-millionaire-maker-ai-stocks-to-buy-now"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-08",
+      "record_hash": "ae5af1681a445057a24c7a91699768a52f13ad3c0904d04b842beddf4344abac",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 3905,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "2 Large-Cap Tech Stocks Wall Street Billionaires Are Piling Into and 1 They're Avoiding Like the Plague",
+      "url": "https://www.nasdaq.com/articles/2-large-cap-tech-stocks-wall-street-billionaires-are-piling-into-and-1-theyre-avoiding"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-10-05",
+      "record_hash": "b0fd4ec305d50b6d54fa4b7bcda969976dc167a81bba4423adefdbae5c8b08fd",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 1737,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "3 Top E-Commerce Stocks to Buy in October",
+      "url": "https://www.nasdaq.com/articles/3-top-e-commerce-stocks-to-buy-in-october-0"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-07-20",
+      "record_hash": "b19c0fd324ff61dde61228bea3b3e12697171fb564f361dab6207481488a7644",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 3249,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "3 Stocks to Buy for Strong Cash-Generating Abilities",
+      "url": "https://www.nasdaq.com/articles/3-stocks-to-buy-for-strong-cash-generating-abilities"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-11",
+      "record_hash": "b3f0c8b215286fb22b63730db8208017b3c861769423be174ab3e016b6f57ca8",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 4340,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "COLUMN-U.S. mega tech is expensive, but may be unavoidable: McGeever",
+      "url": "https://www.nasdaq.com/articles/column-u.s.-mega-tech-is-expensive-but-may-be-unavoidable%3A-mcgeever"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-07-27",
+      "record_hash": "b6b1f208d72f64c56e4b76823517e02a713fa953bebd29c43dd0a56bc94c48b5",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 3138,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "3 \"Magnificent Seven\" Stocks to Buy Now and 1 to Avoid, According to Wall Street",
+      "url": "https://www.nasdaq.com/articles/3-magnificent-seven-stocks-to-buy-now-and-1-to-avoid-according-to-wall-street"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-07-06",
+      "record_hash": "b809c2ec607ad449d1b50214c559b146696569859c4b6d9ea75da5771ab95191",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 3457,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "Buy This Tech Stock Down 30% for Long-Term Chip and AI Growth?",
+      "url": "https://www.nasdaq.com/articles/buy-this-tech-stock-down-30-for-long-term-chip-and-ai-growth"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-18",
+      "record_hash": "b97572ed8ea0925598696030907fdc9094e53265f9010cb81367421c3e8420d0",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 4251,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "3 Top Tech Stocks That Could Help Make You Richer by Retirement",
+      "url": "https://www.nasdaq.com/articles/3-top-tech-stocks-that-could-help-make-you-richer-by-retirement-0"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-07-20",
+      "record_hash": "ba396917d46bb641be5863cfe2483cbf8a9618298701b497101da70f015b333d",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 3259,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "2 Explosive Growth Stocks to Buy in 2023 and Beyond",
+      "url": "https://www.nasdaq.com/articles/2-explosive-growth-stocks-to-buy-in-2023-and-beyond-1"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-07-06",
+      "record_hash": "bac8e3aad0e8ae4b25e3635b90fe5e53ba6a9f7ffc7239f2f06247e333a24388",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 3456,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "Guide to Single-Stock ETF Investing",
+      "url": "https://www.nasdaq.com/articles/guide-to-single-stock-etf-investing"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-04",
+      "record_hash": "bb398acbc205a0aa124f072f9437710569748fdb8dd9f2f12f488842fe33a47e",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 4490,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "Apple (AAPL) Q2 Earnings: How Key Metrics Compare to Wall Street Estimates",
+      "url": "https://www.nasdaq.com/articles/apple-aapl-q2-earnings%3A-how-key-metrics-compare-to-wall-street-estimates"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-18",
+      "record_hash": "bcb69349d0b252489b63b63b83b2206c1aae5e1dad120e45bc9cb14c58886a50",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 4235,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "3 High-Reward Stocks Riding the Streaming Services Boom",
+      "url": "https://www.nasdaq.com/articles/3-high-reward-stocks-riding-the-streaming-services-boom"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-25",
+      "record_hash": "be32ff3dedc0662640e92312be609a950059bcc00834a8c826f610dbe7f654f9",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 4117,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "3 Long-Term Stocks That You Can Hold for the Long Haul",
+      "url": "https://www.nasdaq.com/articles/3-long-term-stocks-that-you-can-hold-for-the-long-haul"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-25",
+      "record_hash": "c12d9e890a4b69132afba6948795f810c9a1cc3ea6ddcbb933a3ee483c80f03f",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 4134,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "3 Stocks That Could Be the Next Trillion-Dollar Titans",
+      "url": "https://www.nasdaq.com/articles/3-stocks-that-could-be-the-next-trillion-dollar-titans"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-25",
+      "record_hash": "c7893f40fe340f3799f18b61b009189a86cabfa49b73f5c8f2c1febf2277bd7b",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 4130,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "Can PayPal Compete With Apple Pay?",
+      "url": "https://www.nasdaq.com/articles/can-paypal-compete-with-apple-pay"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-11",
+      "record_hash": "cdc23aa764719ceba8fc63035ba924a46c6f2e96b4ac9ad1a5fbd5a3c767c03b",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 4339,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "2 Warren Buffett Stocks to Buy Hand Over Fist in May",
+      "url": "https://www.nasdaq.com/articles/2-warren-buffett-stocks-to-buy-hand-over-fist-in-may-0"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-10-05",
+      "record_hash": "d0ad8050a78e923e1d9d789bef82196ffb634c76a07b2c75b679dcad7ba57ade",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 1731,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "Foxconn expects strong holiday sales in Q4, Sept sales slump",
+      "url": "https://www.nasdaq.com/articles/foxconn-expects-strong-holiday-sales-in-q4-sept-sales-slump"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-07-20",
+      "record_hash": "d248166a324c1f3ddc12d26cf23603afcfa6e3c183b0de2c13045f35ed75e3f0",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 3263,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "Better Buy: Apple Stock vs. Microsoft Stock",
+      "url": "https://www.nasdaq.com/articles/better-buy%3A-apple-stock-vs.-microsoft-stock"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-07-20",
+      "record_hash": "d2fd2c72c83dcecc21e98c8616b7218072ded873c653d8335ed8faafa9922c40",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 3250,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "China's sagging economy looms over quarterly results around the world",
+      "url": "https://www.nasdaq.com/articles/chinas-sagging-economy-looms-over-quarterly-results-around-the-world"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-04",
+      "record_hash": "d3ee35b20a4dc2f72e37c2388bd7a4f87787cad9570aae7dd4f4922f342d750f",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 4492,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "4 Great Growth Stocks to Buy Now",
+      "url": "https://www.nasdaq.com/articles/4-great-growth-stocks-to-buy-now"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-25",
+      "record_hash": "d861f5b6cdd27b781fa5e581f7db602f8d1233545756838c0cdcbefefd553310",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 4120,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "3 Tech Stocks to Buy Before They Soar to New Heights in 2023",
+      "url": "https://www.nasdaq.com/articles/3-tech-stocks-to-buy-before-they-soar-to-new-heights-in-2023"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-07-06",
+      "record_hash": "dba8be24db7853759ca33b9eb534e6a8de2a488fb7aa439cbe433ce4d9d9fabd",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 3466,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "Guru Fundamental Report for AAPL - Warren Buffett",
+      "url": "https://www.nasdaq.com/articles/guru-fundamental-report-for-aapl-warren-buffett-49"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-01",
+      "record_hash": "dfa3aae084a0e0ac81bb2e2cb2bfefb030e2b7e66979db23c1f20186c4479403",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 4043,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "Apple, Microsoft Boost the S&P 500 Amid Tech Comeback",
+      "url": "https://www.nasdaq.com/articles/apple-microsoft-boost-the-sp-500-amid-tech-comeback"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-29",
+      "record_hash": "e02db4e3170826b681ffca6f16f19c42600f889e716d4645dbdf92de759215a7",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 3599,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "Better Buy: PayPal or Block?",
+      "url": "https://www.nasdaq.com/articles/better-buy%3A-paypal-or-block"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-07-06",
+      "record_hash": "e3bd40f2e48c2e0dc873295761755c21bb1e8dde5bf60e0699fdea17b47e03ac",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 3464,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "Billionaire Ken Fisher Says \"High-Quality Growth\" Is the Key to Investing in Artificial Intelligence. These Two AI Stocks Are His Biggest Holdings by Far.",
+      "url": "https://www.nasdaq.com/articles/billionaire-ken-fisher-says-high-quality-growth-is-the-key-to-investing-in-artificial"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-15",
+      "record_hash": "e5182113559d41479e414ad6937885eb09060c45808f9a79d175846ee6f9d46c",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 3784,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "1 Reason Why Apple Stock Is a Screaming Buy Right Now, and It Is Not the Vision Pro",
+      "url": "https://www.nasdaq.com/articles/1-reason-why-apple-stock-is-a-screaming-buy-right-now-and-it-is-not-the-vision-pro"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-25",
+      "record_hash": "ed18ff3050c393ab5da26ee378d10a993f160d6ebd4b7993d7d278c45661d3e7",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 4124,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "3 Semiconductor Stocks to Buy Before They Soar to New Heights in 2023",
+      "url": "https://www.nasdaq.com/articles/3-semiconductor-stocks-to-buy-before-they-soar-to-new-heights-in-2023"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-01",
+      "record_hash": "f66175543c4455b6fc1e2d99e4fc5fe601c9a5f56a8fc7e1ada168043de75fba",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 4034,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "1 Dow Jones Stock to Buy, and 1 to Avoid",
+      "url": "https://www.nasdaq.com/articles/1-dow-jones-stock-to-buy-and-1-to-avoid"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-01",
+      "record_hash": "fdce3a4ecd32d1c750fcd6898b57139327ff699c6476841202f7b5368d31b9fd",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 4026,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "3 Warren Buffett Stocks to Buy (and Never Sell) ",
+      "url": "https://www.nasdaq.com/articles/3-warren-buffett-stocks-to-buy-and-never-sell"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-07-06",
+      "record_hash": "fe8aa8c8f6c2a8d1a8f5061ca547742300ac2fad616d532a975de7439bff61fe",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 3460,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "Google delays release of fully custom phone chip until 2025 - The Information",
+      "url": "https://www.nasdaq.com/articles/google-delays-release-of-fully-custom-phone-chip-until-2025-the-information"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-10-05",
+      "record_hash": "fed59943079ec014fe0d7298c261595a0315b66d283144ef285b21352cbcf54c",
+      "rejection_reasons": [
+        "M1_FROZEN_SOURCE_INTEGRITY_POLICY"
+      ],
+      "source_index": 1736,
+      "source_member": "sp500_news/AAPL.jsonl",
+      "status": "REJECTED",
+      "symbol": "AAPL",
+      "title": "3 Things About Arm Holdings That Smart Investors Know",
+      "url": "https://www.nasdaq.com/articles/3-things-about-arm-holdings-that-smart-investors-know"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-04-12",
+      "record_hash": "0176d44071981ef7bcc25b95acac510074eaffed7ef5b2443d2990d46c2cd5e7",
+      "rejection_reasons": [],
+      "source_index": 243,
+      "source_member": "sp500_news/AGI.jsonl",
+      "status": "SAFE",
+      "symbol": "AGI",
+      "title": "Royal Gold (RGLD) Issues Stream Segment Sales Update for Q1",
+      "url": "https://www.nasdaq.com/articles/royal-gold-rgld-issues-stream-segment-sales-update-for-q1"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-09-28",
+      "record_hash": "08177aa9479e57c2d65b29d066a1ec93c5b258fcb47576317c2b4c6e3459f1b3",
+      "rejection_reasons": [],
+      "source_index": 166,
+      "source_member": "sp500_news/AGI.jsonl",
+      "status": "SAFE",
+      "symbol": "AGI",
+      "title": "FMC Corp (FMC) Gains on Pricing & New Products Amid Demand Woes",
+      "url": "https://www.nasdaq.com/articles/fmc-corp-fmc-gains-on-pricing-new-products-amid-demand-woes"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-02",
+      "record_hash": "0973c85ebe7b138c4b44df5b3bb0a57d2e161d3e04c8d2142e64bc5000ac0284",
+      "rejection_reasons": [],
+      "source_index": 214,
+      "source_member": "sp500_news/AGI.jsonl",
+      "status": "SAFE",
+      "symbol": "AGI",
+      "title": "4 Gold Stocks to Watch in a Promising Industry",
+      "url": "https://www.nasdaq.com/articles/4-gold-stocks-to-watch-in-a-promising-industry-0"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-07-07",
+      "record_hash": "0b198a033374efad7473a87d55f4323b27d0aed08f79bbf40fa3ddb54dcb6821",
+      "rejection_reasons": [],
+      "source_index": 207,
+      "source_member": "sp500_news/AGI.jsonl",
+      "status": "SAFE",
+      "symbol": "AGI",
+      "title": "First Week of August 18th Options Trading For Alamos Gold (AGI)",
+      "url": "https://www.nasdaq.com/articles/first-week-of-august-18th-options-trading-for-alamos-gold-agi"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-18",
+      "record_hash": "0e8889b55a0e55ad1b5d7b57467c068f7de2e7c49b12fc08c7bc0d7f90a787d8",
+      "rejection_reasons": [],
+      "source_index": 228,
+      "source_member": "sp500_news/AGI.jsonl",
+      "status": "SAFE",
+      "symbol": "AGI",
+      "title": "Bunge (BG) to Boost Sustainable Practices With Nutrien Tie-Up",
+      "url": "https://www.nasdaq.com/articles/bunge-bg-to-boost-sustainable-practices-with-nutrien-tie-up"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-10-03",
+      "record_hash": "0f69e1a526e2ebab64867a6a11ec8310afd39a5cb027ab2f87745a44addfc073",
+      "rejection_reasons": [],
+      "source_index": 160,
+      "source_member": "sp500_news/AGI.jsonl",
+      "status": "SAFE",
+      "symbol": "AGI",
+      "title": "Olin (OLN) Completes Acquisition of White Flyer Targets",
+      "url": "https://www.nasdaq.com/articles/olin-oln-completes-acquisition-of-white-flyer-targets"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-04-11",
+      "record_hash": "1259d728eecab392db5cb5318b94e24a0ed0d7a5f8edfeb54d76e77f010a674b",
+      "rejection_reasons": [],
+      "source_index": 246,
+      "source_member": "sp500_news/AGI.jsonl",
+      "status": "SAFE",
+      "symbol": "AGI",
+      "title": "Bunge (BG) Inks Deal to Buy Fuji Oil's Refinery in Louisiana",
+      "url": "https://www.nasdaq.com/articles/bunge-bg-inks-deal-to-buy-fuji-oils-refinery-in-louisiana"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-01",
+      "record_hash": "1277932bed7fc8dbbc0f44285f0c585b6fbef5a43bf7a89c31876ea643d892af",
+      "rejection_reasons": [],
+      "source_index": 240,
+      "source_member": "sp500_news/AGI.jsonl",
+      "status": "SAFE",
+      "symbol": "AGI",
+      "title": "Alamos Gold (AGI) is a Great Momentum Stock: Should You Buy?",
+      "url": "https://www.nasdaq.com/articles/alamos-gold-agi-is-a-great-momentum-stock%3A-should-you-buy"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-26",
+      "record_hash": "19fa83f670ce0c1f117f593fac48225f1564c5af136a6ecaff84cc1304474a0c",
+      "rejection_reasons": [],
+      "source_index": 220,
+      "source_member": "sp500_news/AGI.jsonl",
+      "status": "SAFE",
+      "symbol": "AGI",
+      "title": "Nucor (NUE) Steel Longview Plate Mill to Cease Production",
+      "url": "https://www.nasdaq.com/articles/nucor-nue-steel-longview-plate-mill-to-cease-production"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-31",
+      "record_hash": "1b818f1184aa3aeff5c897b49155f8a36870f2947385ec2179ab961b9cba2d57",
+      "rejection_reasons": [],
+      "source_index": 218,
+      "source_member": "sp500_news/AGI.jsonl",
+      "status": "SAFE",
+      "symbol": "AGI",
+      "title": "Mercer (MERC) Receives Court Approval to Acquire Structurlam",
+      "url": "https://www.nasdaq.com/articles/mercer-merc-receives-court-approval-to-acquire-structurlam"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-09-29",
+      "record_hash": "2244c36073c97f2ee401c2c68c1fcd86370e97285e9cda81430812377a9cb0e2",
+      "rejection_reasons": [],
+      "source_index": 164,
+      "source_member": "sp500_news/AGI.jsonl",
+      "status": "SAFE",
+      "symbol": "AGI",
+      "title": "Why You Should Retain Eastman Chemical (EMN) in Your Portfolio",
+      "url": "https://www.nasdaq.com/articles/why-you-should-retain-eastman-chemical-emn-in-your-portfolio-0"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-05",
+      "record_hash": "31f9477a5ba90637f27fa170aad0e43df201e87795c31ecf3ea7304035da28e5",
+      "rejection_reasons": [],
+      "source_index": 213,
+      "source_member": "sp500_news/AGI.jsonl",
+      "status": "SAFE",
+      "symbol": "AGI",
+      "title": "Zacks Industry Outlook Highlights Franco-Nevada Corporation, Gold Fields Limited, AngloGold Ashanti and Alamos Gold",
+      "url": "https://www.nasdaq.com/articles/zacks-industry-outlook-highlights-franco-nevada-corporation-gold-fields-limited-anglogold"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-09-28",
+      "record_hash": "360dc10be8df2cb5cf8dd7f5257fb9a01531297a55e0e7665a41a6cfe616b1b9",
+      "rejection_reasons": [],
+      "source_index": 167,
+      "source_member": "sp500_news/AGI.jsonl",
+      "status": "SAFE",
+      "symbol": "AGI",
+      "title": "Arkema (ARKAY) Expands Organic Peroxide Production in China",
+      "url": "https://www.nasdaq.com/articles/arkema-arkay-expands-organic-peroxide-production-in-china"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-04-28",
+      "record_hash": "3826ff3fa8c8e28c0a81e7250e9bb976d357a14edf5bf3a3211839f9a4b505b0",
+      "rejection_reasons": [],
+      "source_index": 241,
+      "source_member": "sp500_news/AGI.jsonl",
+      "status": "SAFE",
+      "symbol": "AGI",
+      "title": "Are Basic Materials Stocks Lagging Alamos Gold (AGI) This Year?",
+      "url": "https://www.nasdaq.com/articles/are-basic-materials-stocks-lagging-alamos-gold-agi-this-year"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-27",
+      "record_hash": "383f94fccdc78f3893e10ba4f5c6364ceb880af303df2648f9d6b850cdc0fe8c",
+      "rejection_reasons": [],
+      "source_index": 208,
+      "source_member": "sp500_news/AGI.jsonl",
+      "status": "SAFE",
+      "symbol": "AGI",
+      "title": "AGI Stock Crowded With Sellers",
+      "url": "https://www.nasdaq.com/articles/agi-stock-crowded-with-sellers-0"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-13",
+      "record_hash": "399fb7f84f32612ec2855e4deae6a7f80b97f8626e35a4749de24798349bc897",
+      "rejection_reasons": [],
+      "source_index": 209,
+      "source_member": "sp500_news/AGI.jsonl",
+      "status": "SAFE",
+      "symbol": "AGI",
+      "title": "Alamos Gold In Tight Trading Range, Sets Up For Potential Gains",
+      "url": "https://www.nasdaq.com/articles/alamos-gold-in-tight-trading-range-sets-up-for-potential-gains"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-18",
+      "record_hash": "44c1493a55a4bba9a8bdc268c5bdd448f4617396a98f23847ee2931e66ea1386",
+      "rejection_reasons": [],
+      "source_index": 229,
+      "source_member": "sp500_news/AGI.jsonl",
+      "status": "SAFE",
+      "symbol": "AGI",
+      "title": "Franco-Nevada (FNV) Gains From Solid Portfolio & Metal Prices",
+      "url": "https://www.nasdaq.com/articles/franco-nevada-fnv-gains-from-solid-portfolio-metal-prices"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-04-12",
+      "record_hash": "4b37ee1dad52043d3a6b3dd59a6860c57056116752a930d4a63e1ead9967df15",
+      "rejection_reasons": [],
+      "source_index": 242,
+      "source_member": "sp500_news/AGI.jsonl",
+      "status": "SAFE",
+      "symbol": "AGI",
+      "title": "Alamos Gold Inc. - Class A Shares Climb 0.7% Past Previous 52-Week High - Market Mover",
+      "url": "https://www.nasdaq.com/articles/alamos-gold-inc.-class-a-shares-climb-0.7-past-previous-52-week-high-market-mover-0"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-17",
+      "record_hash": "4cce1266de97f559d927019c026e52fd77f7fa8e4ec9cb6ff7e3182d470c101a",
+      "rejection_reasons": [],
+      "source_index": 231,
+      "source_member": "sp500_news/AGI.jsonl",
+      "status": "SAFE",
+      "symbol": "AGI",
+      "title": "GrowGeneration (GRWG) Enters Mushroom Industry With GrowLife Deal",
+      "url": "https://www.nasdaq.com/articles/growgeneration-grwg-enters-mushroom-industry-with-growlife-deal"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-02",
+      "record_hash": "52c7b8e11f035d9ae615c7ebaf6f3c60ea5b437e0a908b1e1c8e69235f19a95f",
+      "rejection_reasons": [],
+      "source_index": 216,
+      "source_member": "sp500_news/AGI.jsonl",
+      "status": "SAFE",
+      "symbol": "AGI",
+      "title": "Rio Tinto (RIO) to Invest $395M in Water Desalination Plant",
+      "url": "https://www.nasdaq.com/articles/rio-tinto-rio-to-invest-%24395m-in-water-desalination-plant"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-12",
+      "record_hash": "5351d3304f1a46db33c64a0c37258ad2b730ffc3a3aaeb62446f2b3570381ca2",
+      "rejection_reasons": [],
+      "source_index": 210,
+      "source_member": "sp500_news/AGI.jsonl",
+      "status": "SAFE",
+      "symbol": "AGI",
+      "title": "Ex-Dividend Reminder: Installed Building Products, Alamos Gold and Eastman Chemical",
+      "url": "https://www.nasdaq.com/articles/ex-dividend-reminder%3A-installed-building-products-alamos-gold-and-eastman-chemical"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-10",
+      "record_hash": "63174f12d77cc3f33c5b75bedf3884f3186edddea128f7011319dc2f629e006a",
+      "rejection_reasons": [],
+      "source_index": 234,
+      "source_member": "sp500_news/AGI.jsonl",
+      "status": "SAFE",
+      "symbol": "AGI",
+      "title": "GrowGeneration (GRWG) Q1 Earnings Beat Estimates, Dip Y/Y",
+      "url": "https://www.nasdaq.com/articles/growgeneration-grwg-q1-earnings-beat-estimates-dip-y-y"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-02",
+      "record_hash": "66ff597c434f2ed03b8b3628e02a13d7e53e053fef65e4607b7bb729ccda5a2b",
+      "rejection_reasons": [],
+      "source_index": 239,
+      "source_member": "sp500_news/AGI.jsonl",
+      "status": "SAFE",
+      "symbol": "AGI",
+      "title": "CF Industries (CF) Earnings and Sales Surpass Estimates in Q1",
+      "url": "https://www.nasdaq.com/articles/cf-industries-cf-earnings-and-sales-surpass-estimates-in-q1"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-02",
+      "record_hash": "89bcaa54316c784986205c2ae328a73980349b2113d3cfec99af10314285bb16",
+      "rejection_reasons": [],
+      "source_index": 215,
+      "source_member": "sp500_news/AGI.jsonl",
+      "status": "SAFE",
+      "symbol": "AGI",
+      "title": "Is Alamos Gold (AGI) Stock Outpacing Its Basic Materials Peers This Year?",
+      "url": "https://www.nasdaq.com/articles/is-alamos-gold-agi-stock-outpacing-its-basic-materials-peers-this-year-0"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-17",
+      "record_hash": "8a0d25cd033a13cf6b96423d8d26a7cd6b13e562e2944115cb0d64225bcb659e",
+      "rejection_reasons": [],
+      "source_index": 230,
+      "source_member": "sp500_news/AGI.jsonl",
+      "status": "SAFE",
+      "symbol": "AGI",
+      "title": "Is Alamos Gold (AGI) Outperforming Other Basic Materials Stocks This Year?",
+      "url": "https://www.nasdaq.com/articles/is-alamos-gold-agi-outperforming-other-basic-materials-stocks-this-year"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-25",
+      "record_hash": "91d304937eb4b0c6006bbc35677bef4a6b1dfee2420cfa18812ebf9c527ecbfa",
+      "rejection_reasons": [],
+      "source_index": 224,
+      "source_member": "sp500_news/AGI.jsonl",
+      "status": "SAFE",
+      "symbol": "AGI",
+      "title": "International Paper (IP) Down 12% in 6 Months: Will It Recover?",
+      "url": "https://www.nasdaq.com/articles/international-paper-ip-down-12-in-6-months%3A-will-it-recover"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-06",
+      "record_hash": "93a0d9f3e1fb7b7073bc220db251ef7b352c60e9ddb1d59a824691cece67b403",
+      "rejection_reasons": [],
+      "source_index": 212,
+      "source_member": "sp500_news/AGI.jsonl",
+      "status": "SAFE",
+      "symbol": "AGI",
+      "title": "Alamos Gold Inc. - (AGI) Declares $0.02 Dividend",
+      "url": "https://www.nasdaq.com/articles/alamos-gold-inc.-agi-declares-%240.02-dividend"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-02",
+      "record_hash": "9c303652eaabfe5627966d8f37b054e46e35eb910844af3aae8762ea5cdd9832",
+      "rejection_reasons": [],
+      "source_index": 238,
+      "source_member": "sp500_news/AGI.jsonl",
+      "status": "SAFE",
+      "symbol": "AGI",
+      "title": "Which of these Gold Mining Stocks is Glittering After Earnings?",
+      "url": "https://www.nasdaq.com/articles/which-of-these-gold-mining-stocks-is-glittering-after-earnings"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-03",
+      "record_hash": "a8a3dc4c0ae770aacefef79001803989808d03b9bd45250142f0a4edf55b9d39",
+      "rejection_reasons": [],
+      "source_index": 237,
+      "source_member": "sp500_news/AGI.jsonl",
+      "status": "SAFE",
+      "symbol": "AGI",
+      "title": "Druckenmiller Interview: 10 Key Takeaways",
+      "url": "https://www.nasdaq.com/articles/druckenmiller-interview%3A-10-key-takeaways"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-10",
+      "record_hash": "aa7dd298785c22d9f93a9e2c22d7b09c4bbeba8eff7d71f793d613843c7a195d",
+      "rejection_reasons": [],
+      "source_index": 235,
+      "source_member": "sp500_news/AGI.jsonl",
+      "status": "SAFE",
+      "symbol": "AGI",
+      "title": "B2Gold (BTG) Q1 Earnings and Sales Surpass Estimates, Up Y/Y",
+      "url": "https://www.nasdaq.com/articles/b2gold-btg-q1-earnings-and-sales-surpass-estimates-up-y-y"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-08",
+      "record_hash": "adff628d1a0a31979b1ca48423912c28c1a2c81751f8bdc4c60463b264b3a208",
+      "rejection_reasons": [],
+      "source_index": 236,
+      "source_member": "sp500_news/AGI.jsonl",
+      "status": "SAFE",
+      "symbol": "AGI",
+      "title": "Royal Gold (RGLD) Earnings Surpass Estimates in Q1, Dip Y/Y",
+      "url": "https://www.nasdaq.com/articles/royal-gold-rgld-earnings-surpass-estimates-in-q1-dip-y-y"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-25",
+      "record_hash": "ae3a5ee369542a385100bb5ff91a01d53c5415260360ca09f66c28e5f58d88aa",
+      "rejection_reasons": [],
+      "source_index": 221,
+      "source_member": "sp500_news/AGI.jsonl",
+      "status": "SAFE",
+      "symbol": "AGI",
+      "title": "PPG Industries (PPG) & Entrotech Unveil Paint Films Solutions",
+      "url": "https://www.nasdaq.com/articles/ppg-industries-ppg-entrotech-unveil-paint-films-solutions"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-10-03",
+      "record_hash": "b3ae6a457c883d72c531b1ef1d964397b563e6a4555849cd9be365c83e8aa2ac",
+      "rejection_reasons": [],
+      "source_index": 163,
+      "source_member": "sp500_news/AGI.jsonl",
+      "status": "SAFE",
+      "symbol": "AGI",
+      "title": "Why You Should Add PPG Industries (PPG) Stock to Your Portfolio",
+      "url": "https://www.nasdaq.com/articles/why-you-should-add-ppg-industries-ppg-stock-to-your-portfolio-0"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-12",
+      "record_hash": "b3f9a5c72c5a35208fad8614a582970e6d715338ebc92d27ce7a1bcdcbf4bfda",
+      "rejection_reasons": [],
+      "source_index": 233,
+      "source_member": "sp500_news/AGI.jsonl",
+      "status": "SAFE",
+      "symbol": "AGI",
+      "title": "Avino Silver (ASM) Q1 Earnings Meet Estimates, Decline Y/Y",
+      "url": "https://www.nasdaq.com/articles/avino-silver-asm-q1-earnings-meet-estimates-decline-y-y"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-08",
+      "record_hash": "b79812e7ae2b87879256f3707e44f2faa6836f05df4490b4e5faad67fee89665",
+      "rejection_reasons": [],
+      "source_index": 211,
+      "source_member": "sp500_news/AGI.jsonl",
+      "status": "SAFE",
+      "symbol": "AGI",
+      "title": "Hong Kong's LET Group securing $446 mln loan for Philippine casino",
+      "url": "https://www.nasdaq.com/articles/hong-kongs-let-group-securing-%24446-mln-loan-for-philippine-casino"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-25",
+      "record_hash": "be2b46f5a0897996f51d0a4f97bff1a878bc4d829f7c842fb7aa1f85fe64adbc",
+      "rejection_reasons": [],
+      "source_index": 222,
+      "source_member": "sp500_news/AGI.jsonl",
+      "status": "SAFE",
+      "symbol": "AGI",
+      "title": "DuPont (DD) to Unveil Tedler Frontsheet at SNEC PV Power Expo",
+      "url": "https://www.nasdaq.com/articles/dupont-dd-to-unveil-tedler-frontsheet-at-snec-pv-power-expo"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-09-28",
+      "record_hash": "c57be2853e0c8dcb893c8cc2b3f6a2b28cee596808149f45ade14cef527cb681",
+      "rejection_reasons": [],
+      "source_index": 165,
+      "source_member": "sp500_news/AGI.jsonl",
+      "status": "SAFE",
+      "symbol": "AGI",
+      "title": "Albemarle (ALB)-Caterpillar Join Forces for Sustainable Mining",
+      "url": "https://www.nasdaq.com/articles/albemarle-alb-caterpillar-join-forces-for-sustainable-mining"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-24",
+      "record_hash": "c7c272af879d0679f848e1a393ed61666e1a6368b162ad6bfa4e2cae2c26bb9e",
+      "rejection_reasons": [],
+      "source_index": 225,
+      "source_member": "sp500_news/AGI.jsonl",
+      "status": "SAFE",
+      "symbol": "AGI",
+      "title": "GrowGeneration (GRWG) Buys Stores in Alaska to Boost Portfolio",
+      "url": "https://www.nasdaq.com/articles/growgeneration-grwg-buys-stores-in-alaska-to-boost-portfolio"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-01",
+      "record_hash": "c8774ed9cb1aff4aef57fd03577f7916f5956c3f9761cf409b38582ab8a90480",
+      "rejection_reasons": [],
+      "source_index": 217,
+      "source_member": "sp500_news/AGI.jsonl",
+      "status": "SAFE",
+      "symbol": "AGI",
+      "title": "Alamos Gold Reaches Analyst Target Price",
+      "url": "https://www.nasdaq.com/articles/alamos-gold-reaches-analyst-target-price-0"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-30",
+      "record_hash": "ce9ced8b4dbd83a4d51c4d43187dadd15f662b2f79c65aaafa01d9500c40c440",
+      "rejection_reasons": [],
+      "source_index": 219,
+      "source_member": "sp500_news/AGI.jsonl",
+      "status": "SAFE",
+      "symbol": "AGI",
+      "title": "AGI Stock Crowded With Sellers",
+      "url": "https://www.nasdaq.com/articles/agi-stock-crowded-with-sellers"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-10-03",
+      "record_hash": "d6f31762752dd7257d4805b619698be5f3d9a025e8efb8037c91476717a5f91f",
+      "rejection_reasons": [],
+      "source_index": 162,
+      "source_member": "sp500_news/AGI.jsonl",
+      "status": "SAFE",
+      "symbol": "AGI",
+      "title": "Eastman (EMN) to Divest Texas City Operations to INEOS Acetyls",
+      "url": "https://www.nasdaq.com/articles/eastman-emn-to-divest-texas-city-operations-to-ineos-acetyls"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-25",
+      "record_hash": "d9c7293475615d3c96dc859f61d27b4d1baa05c83908a401564d6f008e5d1d33",
+      "rejection_reasons": [],
+      "source_index": 223,
+      "source_member": "sp500_news/AGI.jsonl",
+      "status": "SAFE",
+      "symbol": "AGI",
+      "title": "B2Gold (BTG) Gains From Solid Mine Performance Amid Cost Woes",
+      "url": "https://www.nasdaq.com/articles/b2gold-btg-gains-from-solid-mine-performance-amid-cost-woes"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-07-13",
+      "record_hash": "e146800ce59d946c8f303a5e5eadd76f5a059657fb6585712ae67f3ee52f4888",
+      "rejection_reasons": [],
+      "source_index": 206,
+      "source_member": "sp500_news/AGI.jsonl",
+      "status": "SAFE",
+      "symbol": "AGI",
+      "title": "AGI Crosses Above Average Analyst Target",
+      "url": "https://www.nasdaq.com/articles/agi-crosses-above-average-analyst-target-0"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-18",
+      "record_hash": "e90a0c9f3b3a0063b74dc6146ba640813022d1ac07824cbf4aadad89f3c69a58",
+      "rejection_reasons": [],
+      "source_index": 227,
+      "source_member": "sp500_news/AGI.jsonl",
+      "status": "SAFE",
+      "symbol": "AGI",
+      "title": "Interesting AGI Put And Call Options For July 21st",
+      "url": "https://www.nasdaq.com/articles/interesting-agi-put-and-call-options-for-july-21st"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-22",
+      "record_hash": "eea0db9e77652f4885d36c28fc3ff0ca6759d30e9ecf651f8317ad3262a5c8af",
+      "rejection_reasons": [],
+      "source_index": 226,
+      "source_member": "sp500_news/AGI.jsonl",
+      "status": "SAFE",
+      "symbol": "AGI",
+      "title": "Hecla Mining (HL) Gets Interim Order for ATAC Acquisition",
+      "url": "https://www.nasdaq.com/articles/hecla-mining-hl-gets-interim-order-for-atac-acquisition"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-16",
+      "record_hash": "f5e5e37c22740504b8b8f7e990681f14d586e5687b00673035721e821afc3a8a",
+      "rejection_reasons": [],
+      "source_index": 232,
+      "source_member": "sp500_news/AGI.jsonl",
+      "status": "SAFE",
+      "symbol": "AGI",
+      "title": "Fortuna Silver (FSM) Q1 Earnings Beat, Revenues Dip Y/Y",
+      "url": "https://www.nasdaq.com/articles/fortuna-silver-fsm-q1-earnings-beat-revenues-dip-y-y"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-10-03",
+      "record_hash": "fea8b1df127e3fdcea9f22bb2f87d8f12fadcaf5e558f2d3b5881e2debdc3bb7",
+      "rejection_reasons": [],
+      "source_index": 161,
+      "source_member": "sp500_news/AGI.jsonl",
+      "status": "SAFE",
+      "symbol": "AGI",
+      "title": "Reliance Steel (RS) Up 28% YTD: What's Driving the Stock?",
+      "url": "https://www.nasdaq.com/articles/reliance-steel-rs-up-28-ytd%3A-whats-driving-the-stock"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-11",
+      "record_hash": "007d66d289dd959b61cda93a71cdafcfa3832b82541958c5341e07aeca9eab40",
+      "rejection_reasons": [],
+      "source_index": 4567,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "3 Top E-Commerce Stocks to Buy in May",
+      "url": "https://www.nasdaq.com/articles/3-top-e-commerce-stocks-to-buy-in-may"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-07-27",
+      "record_hash": "07c381259b4100a93e88d647aeba04e47bf417a461c639daede014322b92bd58",
+      "rejection_reasons": [],
+      "source_index": 3313,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "Amazon Is Getting Into the Wireless Business. Are AT&T and Verizon Doomed?",
+      "url": "https://www.nasdaq.com/articles/amazon-is-getting-into-the-wireless-business.-are-att-and-verizon-doomed"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-10-05",
+      "record_hash": "081383a838dab7decaf5228e28e4e4f8ce6da28f40595e39364e7c6699703bf3",
+      "rejection_reasons": [],
+      "source_index": 1937,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "3 Top E-Commerce Stocks to Buy in October",
+      "url": "https://www.nasdaq.com/articles/3-top-e-commerce-stocks-to-buy-in-october-0"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-04",
+      "record_hash": "0b62aa4e82d0e2159a1d9c666d86012e275fdd26cf953325bcf4fe50869749f4",
+      "rejection_reasons": [],
+      "source_index": 4646,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "Capgemini posts weaker revenue growth in first quarter",
+      "url": "https://www.nasdaq.com/articles/capgemini-posts-weaker-revenue-growth-in-first-quarter"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-10-05",
+      "record_hash": "0bc6fa40ee185a6b7aed03875ab7ada19baf37ed996df6e17e42edea287f4166",
+      "rejection_reasons": [],
+      "source_index": 1943,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "Disney's (DIS) World Resort Announces New Discounted Tickets",
+      "url": "https://www.nasdaq.com/articles/disneys-dis-world-resort-announces-new-discounted-tickets"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-29",
+      "record_hash": "11c0ff8aa7565dffea70dbb5c6346ea95c16c39c61e89e7986033fdb9634f73c",
+      "rejection_reasons": [],
+      "source_index": 3792,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "3 Lesser Known AI Stocks You Haven’t Heard of Yet",
+      "url": "https://www.nasdaq.com/articles/3-lesser-known-ai-stocks-you-havent-heard-of-yet"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-04",
+      "record_hash": "149ca78a8ab9148090364d433ad99617c949505f7551878afbe2e65399cdb6ba",
+      "rejection_reasons": [],
+      "source_index": 4644,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "ANALYSIS-Fed's hiking pause may not signal all-clear for US stocks",
+      "url": "https://www.nasdaq.com/articles/analysis-feds-hiking-pause-may-not-signal-all-clear-for-us-stocks"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-10-05",
+      "record_hash": "14a1cdf651c8034f1ed123f18351f4927faa9e642dd204a77a37284e2c766b56",
+      "rejection_reasons": [],
+      "source_index": 1944,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "Company News for Oct 5, 2023",
+      "url": "https://www.nasdaq.com/articles/company-news-for-oct-5-2023"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-29",
+      "record_hash": "1583df8af9b7e625e7af9858043d8b06abebd5085d26e77048eb2aefedf54bf6",
+      "rejection_reasons": [],
+      "source_index": 3785,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "Could AI Reignite Growth at Amazon's AWS?",
+      "url": "https://www.nasdaq.com/articles/could-ai-reignite-growth-at-amazons-aws"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-08",
+      "record_hash": "1616860104e930d940edeeaa6a0aed84d2720c8cc6829c633eb6a14033b8b697",
+      "rejection_reasons": [],
+      "source_index": 4146,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "Behold Wall Street's new bull market, maybe",
+      "url": "https://www.nasdaq.com/articles/behold-wall-streets-new-bull-market-maybe-0"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-15",
+      "record_hash": "16ec693b85568e5c0e9233db52d035b45d4daf8f82085363694b66a497eb2777",
+      "rejection_reasons": [],
+      "source_index": 4017,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "Amazon (AMZN) Gains But Lags Market: What You Should Know",
+      "url": "https://www.nasdaq.com/articles/amazon-amzn-gains-but-lags-market%3A-what-you-should-know-3"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-07-06",
+      "record_hash": "19596fdad831970ec4cd72ad240888bb1faa6d105eb7d6d98c73c68fa6da6ea5",
+      "rejection_reasons": [],
+      "source_index": 3693,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "A Bull Market Is Coming: 1 Remarkable Growth Stock Has Billionaire Investors Betting Big",
+      "url": "https://www.nasdaq.com/articles/a-bull-market-is-coming%3A-1-remarkable-growth-stock-has-billionaire-investors-betting-big"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-07-20",
+      "record_hash": "19cfa50ceb78b05e777787fa25933089052df4afff7ecfec8e3ebeb8fb2be2a7",
+      "rejection_reasons": [],
+      "source_index": 3440,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "1 Bargain-Basement Warren Buffett Stock to Buy Before Wall Street Comes to Its Senses",
+      "url": "https://www.nasdaq.com/articles/1-bargain-basement-warren-buffett-stock-to-buy-before-wall-street-comes-to-its-senses"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-07-20",
+      "record_hash": "1ac102dd0e7607fcb0fb8b6af8abdffeea086e1a6e03505528ea0e20ef6d4dab",
+      "rejection_reasons": [],
+      "source_index": 3447,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "Investors Eye Blue-Chip Earnings, Fed Decision Next Week",
+      "url": "https://www.nasdaq.com/articles/investors-eye-blue-chip-earnings-fed-decision-next-week"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-25",
+      "record_hash": "1baecc499a25f4d1e8ca7878054b04053beddef1835e5416b6de8abee25f3b7c",
+      "rejection_reasons": [],
+      "source_index": 4355,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "Dish Network surges after report says it plans to sell wireless plans via Amazon",
+      "url": "https://www.nasdaq.com/articles/dish-network-surges-after-report-says-it-plans-to-sell-wireless-plans-via-amazon"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-07-27",
+      "record_hash": "1cca8279f0207d18a43b711ca7788dd9e3ffc5799a3db560621b1825405a4a67",
+      "rejection_reasons": [],
+      "source_index": 3310,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "2 Top Buffett Stocks to Buy and Hold for the Long Haul",
+      "url": "https://www.nasdaq.com/articles/2-top-buffett-stocks-to-buy-and-hold-for-the-long-haul-11"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-07-27",
+      "record_hash": "213cf07446c3d050a5c6c1968eccfdf86b66c095eca9a32b2b445619d2801107",
+      "rejection_reasons": [],
+      "source_index": 3314,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "Amazon workers at two UK fulfilment centres to strike in August",
+      "url": "https://www.nasdaq.com/articles/amazon-workers-at-two-uk-fulfilment-centres-to-strike-in-august-0"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-07-20",
+      "record_hash": "21dcd2fa5f6686cb52a3c6d3b6744b8d0cae13e640f232d1cddf9646e02df372",
+      "rejection_reasons": [],
+      "source_index": 3443,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "7 Fantastic Forever Stocks for Long-Term Lucrative Gains",
+      "url": "https://www.nasdaq.com/articles/7-fantastic-forever-stocks-for-long-term-lucrative-gains"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-08",
+      "record_hash": "2d925133e2d2426b02bfb9ef600f2b5ea3a677bf55483bde8da3753db10f1212",
+      "rejection_reasons": [],
+      "source_index": 4153,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "Amazon should not pay $268 mln in Luxembourg back taxes, EU court adviser says",
+      "url": "https://www.nasdaq.com/articles/amazon-should-not-pay-%24268-mln-in-luxembourg-back-taxes-eu-court-adviser-says"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-29",
+      "record_hash": "2e9cd4bf3a53a3a387c074d354faf2f46b76ab9e62fec2e5e46ec27b706bb3b0",
+      "rejection_reasons": [],
+      "source_index": 3796,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "France's OVHcloud expects full pricing benefits in 2024",
+      "url": "https://www.nasdaq.com/articles/frances-ovhcloud-expects-full-pricing-benefits-in-2024"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-01",
+      "record_hash": "356cad050cbaeb98a60d38c8cc123e05365720601958ff9414b71c02fcd3da07",
+      "rejection_reasons": [],
+      "source_index": 4272,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "After Hours Most Active for Jun 1, 2023 : BOH, AAPL, RC, SLM, VZ, AMZN, T, MSFT, S, ACWI, GOOGL, PSTG",
+      "url": "https://www.nasdaq.com/articles/after-hours-most-active-for-jun-1-2023-%3A-boh-aapl-rc-slm-vz-amzn-t-msft-s-acwi-googl-pstg"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-11",
+      "record_hash": "36639ed068bc0ca67f8cb850c240dca74c898b7ebe85ee00669dd2dc65b0cd35",
+      "rejection_reasons": [],
+      "source_index": 4571,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "COLUMN-U.S. mega tech is expensive, but may be unavoidable: McGeever",
+      "url": "https://www.nasdaq.com/articles/column-u.s.-mega-tech-is-expensive-but-may-be-unavoidable%3A-mcgeever"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-04",
+      "record_hash": "3ceb8a5a787313c39a064fe8ba78d0fac2180299582331af20d4eae1dfe3c949",
+      "rejection_reasons": [],
+      "source_index": 4650,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "3 Best Cloud Stocks to Buy in May",
+      "url": "https://www.nasdaq.com/articles/3-best-cloud-stocks-to-buy-in-may"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-15",
+      "record_hash": "4024383005fe1eeea5a555e6acb9c4e1b7b5afc4c991f98903d8e2c5b1dca787",
+      "rejection_reasons": [],
+      "source_index": 4020,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "7 Stocks Forming the Next ‘Economic Supercluster’",
+      "url": "https://www.nasdaq.com/articles/7-stocks-forming-the-next-economic-supercluster"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-07-27",
+      "record_hash": "419da91f272843b222620e008ab29b4d4da97dc5f48d4058714afa5d4d9a71b7",
+      "rejection_reasons": [],
+      "source_index": 3311,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "3 \"Magnificent Seven\" Stocks to Buy Now and 1 to Avoid, According to Wall Street",
+      "url": "https://www.nasdaq.com/articles/3-magnificent-seven-stocks-to-buy-now-and-1-to-avoid-according-to-wall-street"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-18",
+      "record_hash": "44b6b85ea759e626429bef0a6e45e8b4288df449f4ef8cb80b701213e116b4ed",
+      "rejection_reasons": [],
+      "source_index": 4467,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "3 Magnificent Growth Stocks to Buy to Help Build a Millionaire Portfolio",
+      "url": "https://www.nasdaq.com/articles/3-magnificent-growth-stocks-to-buy-to-help-build-a-millionaire-portfolio"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-04",
+      "record_hash": "48e7d378fdb24c5d59c7f9c2d6b22d5e33071240bfdca7666e4b23b13d938325",
+      "rejection_reasons": [],
+      "source_index": 4643,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "Amazon's Stock Looks Like a Bargain. Here's Why It's Time to Buy",
+      "url": "https://www.nasdaq.com/articles/amazons-stock-looks-like-a-bargain.-heres-why-its-time-to-buy"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-07-27",
+      "record_hash": "497221aa7365140c6c1732ec84230e3e1c83c44394444d2e6f60f4491e8e570c",
+      "rejection_reasons": [],
+      "source_index": 3316,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "Better Buy: Amazon vs. Costco",
+      "url": "https://www.nasdaq.com/articles/better-buy%3A-amazon-vs.-costco-1"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-15",
+      "record_hash": "4ab7626b528f97e21b481421c26199d193967ee3bb9f04323b13fe6b6a674561",
+      "rejection_reasons": [],
+      "source_index": 4012,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "Alphabet (GOOGL) Google Unveils Virtual Try-on Clothes Feature",
+      "url": "https://www.nasdaq.com/articles/alphabet-googl-google-unveils-virtual-try-on-clothes-feature"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-25",
+      "record_hash": "4c447d9143f176357bf45cc1f4e0c72ac781e62628dab16bb09cf41dfc2912cd",
+      "rejection_reasons": [],
+      "source_index": 4357,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "After Hours Most Active for May 25, 2023 : UPWK, XYL, AAPL, T, MRVL, AMZN, NVDA, MSFT, TAL, GPS, DVN, BAC",
+      "url": "https://www.nasdaq.com/articles/after-hours-most-active-for-may-25-2023-%3A-upwk-xyl-aapl-t-mrvl-amzn-nvda-msft-tal-gps-dvn"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-07-27",
+      "record_hash": "4d699a74182188b44e515511d39ad1568c40e487d2e4fa04bddab8bedaa8c2f0",
+      "rejection_reasons": [],
+      "source_index": 3312,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "3 Top E-Commerce Stocks to Buy Right Now",
+      "url": "https://www.nasdaq.com/articles/3-top-e-commerce-stocks-to-buy-right-now-12"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-11",
+      "record_hash": "548fd14e995569ef5995c49f1454811c8422a2f5e9089031c53cce7549cd0548",
+      "rejection_reasons": [],
+      "source_index": 4569,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "A Bull Market in Artificial Intelligence Is Coming: 2 AI Stocks to Buy Right Now",
+      "url": "https://www.nasdaq.com/articles/a-bull-market-in-artificial-intelligence-is-coming%3A-2-ai-stocks-to-buy-right-now"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-04",
+      "record_hash": "55670590973ebc9943b2e96f4059ae450920cb3f5aad6c4d8cf88a2042685dbf",
+      "rejection_reasons": [],
+      "source_index": 4642,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "3 Stocks That AI Predicts Will Dominate Their Industries",
+      "url": "https://www.nasdaq.com/articles/3-stocks-that-ai-predicts-will-dominate-their-industries"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-07-06",
+      "record_hash": "55f675f6db073b374e7eb19a1524e2444c729539a5e2050ab8f8b3c4a560c5e9",
+      "rejection_reasons": [],
+      "source_index": 3696,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "Google accuses India antitrust body of protecting Amazon in Android probe",
+      "url": "https://www.nasdaq.com/articles/google-accuses-india-antitrust-body-of-protecting-amazon-in-android-probe"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-15",
+      "record_hash": "565ff5a729a96bca7987ed334478eb6bf3a665e463c1457ca9c8c6b8503255e7",
+      "rejection_reasons": [],
+      "source_index": 4023,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "2 No-Brainer Stocks Up 50% This Year to Buy Before the Next Bull Market",
+      "url": "https://www.nasdaq.com/articles/2-no-brainer-stocks-up-50-this-year-to-buy-before-the-next-bull-market"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-15",
+      "record_hash": "59a78f59f7f9673449ec78c78574915e09fb8ecb11b43d3e7dcc1a825c89a5c1",
+      "rejection_reasons": [],
+      "source_index": 4024,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "1 Growth Stock Down 63% to Buy Right Now",
+      "url": "https://www.nasdaq.com/articles/1-growth-stock-down-63-to-buy-right-now-0"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-25",
+      "record_hash": "59bef9a6c9778ee5d6b47e66638eff64699ab030359b05ac81601f89996b0885",
+      "rejection_reasons": [],
+      "source_index": 4353,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "Consumer Sector Update for 05/25/2023: BG, DISH, AEO, ELF, AMZN",
+      "url": "https://www.nasdaq.com/articles/consumer-sector-update-for-05-25-2023%3A-bg-dish-aeo-elf-amzn"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-25",
+      "record_hash": "5d08efa04edc4edd3507fb9d3d90a1f665970315cf89917e835b1de37f8efb53",
+      "rejection_reasons": [],
+      "source_index": 4352,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "3 Stocks That Could Be the Next Trillion-Dollar Titans",
+      "url": "https://www.nasdaq.com/articles/3-stocks-that-could-be-the-next-trillion-dollar-titans"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-18",
+      "record_hash": "5f2e95763a1d2c0bacdce9c6fc5d85fc5d5a97dfa5c04eb425680c7c884165d7",
+      "rejection_reasons": [],
+      "source_index": 4469,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "3 Unstoppable Growth Stocks to Buy If There's a Stock Market Sell-Off",
+      "url": "https://www.nasdaq.com/articles/3-unstoppable-growth-stocks-to-buy-if-theres-a-stock-market-sell-off-8"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-10-05",
+      "record_hash": "6adfca440088ec233ab54d1b66f7c23ec9bb49f241928151769770c93137e2db",
+      "rejection_reasons": [],
+      "source_index": 1946,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "Amazon's 'Prime Big Deal Days' Starts On 10th October",
+      "url": "https://www.nasdaq.com/articles/amazons-prime-big-deal-days-starts-on-10th-october"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-07-20",
+      "record_hash": "6e89a686572b5b0a601a0a2fa34d89edd146cca4e4dfc53bcaa38a929b909bce",
+      "rejection_reasons": [],
+      "source_index": 3442,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "3 AI Stocks for Getting Rich in 2023",
+      "url": "https://www.nasdaq.com/articles/3-ai-stocks-for-getting-rich-in-2023"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-25",
+      "record_hash": "6f9f23d68c74a0dd233b4d6d9fff8bd4e6117d85577ceb073d06c2966b71ebe1",
+      "rejection_reasons": [],
+      "source_index": 4356,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "Dish Network surges after report of talks to sell wireless plans via Amazon",
+      "url": "https://www.nasdaq.com/articles/dish-network-surges-after-report-of-talks-to-sell-wireless-plans-via-amazon"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-04",
+      "record_hash": "72489fd4ed76fb791c711023f95dc262fe0e5cd4152ae9379f4b8f731058e46d",
+      "rejection_reasons": [],
+      "source_index": 4647,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "Cloud Business In Focus As Akamai Reports Q1 Results",
+      "url": "https://www.nasdaq.com/articles/cloud-business-in-focus-as-akamai-reports-q1-results"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-07-06",
+      "record_hash": "75d9b2f5e6a760a4a9d31d3ca836297d54c32ca7d31c654295ecf653fed90d3c",
+      "rejection_reasons": [],
+      "source_index": 3697,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "Guide to Single-Stock ETF Investing",
+      "url": "https://www.nasdaq.com/articles/guide-to-single-stock-etf-investing"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-07-06",
+      "record_hash": "79993996187632aacfa50746ee05426caaf91ed79ec623d118030ff3a7970c5c",
+      "rejection_reasons": [],
+      "source_index": 3695,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "Amazon Prime Day Deals Starting July 11",
+      "url": "https://www.nasdaq.com/articles/amazon-prime-day-deals-starting-july-11"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-25",
+      "record_hash": "80f2bce7b3bbf61ea83ccf6d352d9bbef2aa2badbf1e887c96b903b5abad6821",
+      "rejection_reasons": [],
+      "source_index": 4359,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "Best Buy's Comeback Is Still At Play, Earnings Call For Patience",
+      "url": "https://www.nasdaq.com/articles/best-buys-comeback-is-still-at-play-earnings-call-for-patience"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-29",
+      "record_hash": "821c394a51ecd2f1fac0c5730423d5f425f7e99fd2f18a39e7deedc9cddd3b87",
+      "rejection_reasons": [],
+      "source_index": 3791,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "Cognizant (CTSH) Boosts AI-Driven Automation With ServiceNow",
+      "url": "https://www.nasdaq.com/articles/cognizant-ctsh-boosts-ai-driven-automation-with-servicenow"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-01",
+      "record_hash": "825ffc8aef563776e05691ce99561030851242ebb5011ea63e9cc7adefa7e803",
+      "rejection_reasons": [],
+      "source_index": 4270,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "Amazon (AMZN) Boosts AWS Portfolio Offerings With Security Lake",
+      "url": "https://www.nasdaq.com/articles/amazon-amzn-boosts-aws-portfolio-offerings-with-security-lake"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-07-20",
+      "record_hash": "84f99b43c7e15675b662bc1e8a0c7c8fbf79608072bd69aeb2bb4065db924a8c",
+      "rejection_reasons": [],
+      "source_index": 3444,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "Amazon (AMZN) Earnings Expected to Grow: What to Know Ahead of Q2 Release",
+      "url": "https://www.nasdaq.com/articles/amazon-amzn-earnings-expected-to-grow%3A-what-to-know-ahead-of-q2-release"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-07-27",
+      "record_hash": "86ecafcea375ddd9e007e84c8f4f71c12dcb665c15ac48d984cbcd3dbcf51a3b",
+      "rejection_reasons": [],
+      "source_index": 3319,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "Despite Slowing Growth, the Battle for Artificial Intelligence (AI) Domination Between Google and Microsoft Is Kicking Off in the Cloud",
+      "url": "https://www.nasdaq.com/articles/despite-slowing-growth-the-battle-for-artificial-intelligence-ai-domination-between-0"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-10-05",
+      "record_hash": "8a414ebc355622f15602caacad0449b30e3ed6705c38763a6a51a3081b29432c",
+      "rejection_reasons": [],
+      "source_index": 1945,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "Amazon Stock: 3 Reasons Why the 13% Pullback Looks Like a Great Buying Opportunity",
+      "url": "https://www.nasdaq.com/articles/amazon-stock%3A-3-reasons-why-the-13-pullback-looks-like-a-great-buying-opportunity"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-29",
+      "record_hash": "8e0418fa9a5cc07926e1e13d0e775a7900fa3f3b9b6bf80c5516f854e4910df0",
+      "rejection_reasons": [],
+      "source_index": 3793,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "2 Cruise Stocks Boosting the S&P 500 Rally in 1H 2023",
+      "url": "https://www.nasdaq.com/articles/2-cruise-stocks-boosting-the-sp-500-rally-in-1h-2023"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-15",
+      "record_hash": "8e6dbef07761407e6bee0406cfbd1783746f4c13a7aba49462ca9a5d30926220",
+      "rejection_reasons": [],
+      "source_index": 4018,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "3 Patriotic Stocks to Buy for Financial Freedom",
+      "url": "https://www.nasdaq.com/articles/3-patriotic-stocks-to-buy-for-financial-freedom"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-18",
+      "record_hash": "8e718f122d0d89af50cb197d9f79c732bd3bb27dc7b908ca58976d803cef1a78",
+      "rejection_reasons": [],
+      "source_index": 4466,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "3 ETFs to Buy Now for High Returns and Low Risk",
+      "url": "https://www.nasdaq.com/articles/3-etfs-to-buy-now-for-high-returns-and-low-risk"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-08",
+      "record_hash": "92089656516afac304c4cdfec0238e1dba0b3b9df11ac261e9a39bc23fdd2c8c",
+      "rejection_reasons": [],
+      "source_index": 4152,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "Amazon Stock Is Up 50% This Year. Is It Still a Buy?",
+      "url": "https://www.nasdaq.com/articles/amazon-stock-is-up-50-this-year.-is-it-still-a-buy"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-25",
+      "record_hash": "92e1f8da379bbc1b22368ce04bf2e4f1a1bcf67a5ad10799f44590236394bb27",
+      "rejection_reasons": [],
+      "source_index": 4358,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "Better Buy: Amazon vs. PayPal",
+      "url": "https://www.nasdaq.com/articles/better-buy%3A-amazon-vs.-paypal"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-18",
+      "record_hash": "92e8cac0b613a4df38c77c4e7ba9f456f3f9f040853c99024dba306cd5669c43",
+      "rejection_reasons": [],
+      "source_index": 4470,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "Amazon's AWS Commits $12.7 Bln To Bolster India's Cloud Infrastructure By 2030",
+      "url": "https://www.nasdaq.com/articles/amazons-aws-commits-%2412.7-bln-to-bolster-indias-cloud-infrastructure-by-2030"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-01",
+      "record_hash": "94852b295bbe76cd75737c8b86b4f2800adfb0897e68f3b96a1ada44d82da6eb",
+      "rejection_reasons": [],
+      "source_index": 4274,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "1 Magnificent Growth Stock Down 36% to Buy Right Now",
+      "url": "https://www.nasdaq.com/articles/1-magnificent-growth-stock-down-36-to-buy-right-now"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-01",
+      "record_hash": "9a4f2aecd2cec44905cb4dbf9b8a39129ef2640b907ac671612b454d6f866a5a",
+      "rejection_reasons": [],
+      "source_index": 4268,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "Does Amazon Hold the Secret to Snowflake's Success?",
+      "url": "https://www.nasdaq.com/articles/does-amazon-hold-the-secret-to-snowflakes-success"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-18",
+      "record_hash": "9f55e74135cfab0140777cc1564ce85b0f1e4911d6f0b97fd3bb23d802bbe8e6",
+      "rejection_reasons": [],
+      "source_index": 4471,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "Atlassian (NASDAQ:TEAM): AI May Not Save the Stock",
+      "url": "https://www.nasdaq.com/articles/atlassian-nasdaq%3Ateam%3A-ai-may-not-save-the-stock"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-07-20",
+      "record_hash": "a440ebbc694474f35d35df020e90c5a25f5d1805ba656d5ab17df7bf4102de7c",
+      "rejection_reasons": [],
+      "source_index": 3446,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "Guru Fundamental Report for AMZN",
+      "url": "https://www.nasdaq.com/articles/guru-fundamental-report-for-amzn-62"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-07-06",
+      "record_hash": "a80a85d7d9e68ca90ebaaf2c448f82fc35688733faea82f993c4c44c56fb9b9c",
+      "rejection_reasons": [],
+      "source_index": 3690,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "Amazon's iRobot deal in EU antitrust crosshairs",
+      "url": "https://www.nasdaq.com/articles/amazons-irobot-deal-in-eu-antitrust-crosshairs"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-04",
+      "record_hash": "ab4e40d54f98f08d1786d6f98a748dbf01c41c3e66722f62659ba60693fb6fda",
+      "rejection_reasons": [],
+      "source_index": 4645,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "Buying Opendoor Stock Now Could Be Like Buying AMZN in 1997",
+      "url": "https://www.nasdaq.com/articles/buying-opendoor-stock-now-could-be-like-buying-amzn-in-1997"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-15",
+      "record_hash": "b01b77c2ae89fb491dbe57a5f2dddc047e1e36ba154a95b9b6336278daa097ff",
+      "rejection_reasons": [],
+      "source_index": 4021,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "3 Short-Squeeze Stocks Set for a June Rally",
+      "url": "https://www.nasdaq.com/articles/3-short-squeeze-stocks-set-for-a-june-rally"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-18",
+      "record_hash": "b05da0f60e1aecce6b90990cf462fe7ce7f06dbf06cee13f765b00649e5a2897",
+      "rejection_reasons": [],
+      "source_index": 4468,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "3 Stocks That Could Help You Retire a Millionaire",
+      "url": "https://www.nasdaq.com/articles/3-stocks-that-could-help-you-retire-a-millionaire-8"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-07-06",
+      "record_hash": "b067f39c983117cf0d0fcbecd5e0a871f5661473ecfb5109a3be60d12caeb725",
+      "rejection_reasons": [],
+      "source_index": 3698,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "Guru Fundamental Report for AMZN",
+      "url": "https://www.nasdaq.com/articles/guru-fundamental-report-for-amzn-58"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-07-27",
+      "record_hash": "b1f6130f0eda35d7e3e0b5db049a6b3c43e8a1a6567b41c4850f53c88a9d4da1",
+      "rejection_reasons": [],
+      "source_index": 3315,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "Are the Big Tech Stocks About to Take a Breather? Here's What This Broker Thinks",
+      "url": "https://www.nasdaq.com/articles/are-the-big-tech-stocks-about-to-take-a-breather-heres-what-this-broker-thinks"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-07-20",
+      "record_hash": "b2ba5db7af087ceb22e775a5284631910c6a637ae2c85091b5a21c2c9810a94b",
+      "rejection_reasons": [],
+      "source_index": 3441,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "25 Millionaire-Maker AI Stocks to Buy Now",
+      "url": "https://www.nasdaq.com/articles/25-millionaire-maker-ai-stocks-to-buy-now"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-25",
+      "record_hash": "b3ee498d57d99824bedab013e59a541d29957e121dfb5b57906583611071664b",
+      "rejection_reasons": [],
+      "source_index": 4360,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "AMZN vs. AAPL: Which Big Tech Stock is Better?",
+      "url": "https://www.nasdaq.com/articles/amzn-vs.-aapl%3A-which-big-tech-stock-is-better"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-11",
+      "record_hash": "b3f4b2ce8458bfeda0bf9584967662655bfb49461e9d7ed44871f91856c8c850",
+      "rejection_reasons": [],
+      "source_index": 4568,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "5 High-Flying Bigwigs to Buy for Long -Term Gains",
+      "url": "https://www.nasdaq.com/articles/5-high-flying-bigwigs-to-buy-for-long-term-gains"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-29",
+      "record_hash": "b60ce46771323f2778c63a6d0bf817fc0ec0771c81bd76b01893010f1d2afecd",
+      "rejection_reasons": [],
+      "source_index": 3789,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "EXPLAINER-'Organized' retail crime: a 'multi-billion dollar problem'",
+      "url": "https://www.nasdaq.com/articles/explainer-organized-retail-crime%3A-a-multi-billion-dollar-problem"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-11",
+      "record_hash": "b97bf24322c3dc0cdf16df45d33d24fee560f1ca5f3c579c1fc5d8e7792bba5d",
+      "rejection_reasons": [],
+      "source_index": 4566,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "3 FAANG Stocks For Your May 2023 Watchlist",
+      "url": "https://www.nasdaq.com/articles/3-faang-stocks-for-your-may-2023-watchlist"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-07-20",
+      "record_hash": "bef7c54d6d5e8981b419dec41a57ef6d550318ad920ccf6cb319349e29df40ee",
+      "rejection_reasons": [],
+      "source_index": 3445,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "Four Reasons Why Apple Could Soar To New Highs In Q3",
+      "url": "https://www.nasdaq.com/articles/four-reasons-why-apple-could-soar-to-new-highs-in-q3"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-08",
+      "record_hash": "c33bb43a5150cea29ad8409beaa4f07c888dc40e2787f95c4de28fb7c809f49e",
+      "rejection_reasons": [],
+      "source_index": 4151,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "Amazon workers at UK warehouse to strike for three days in June",
+      "url": "https://www.nasdaq.com/articles/amazon-workers-at-uk-warehouse-to-strike-for-three-days-in-june"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-10-05",
+      "record_hash": "c46df433607dedcf9083baed369160a263d367a735c96a96b080b042fa3fdca4",
+      "rejection_reasons": [],
+      "source_index": 1936,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "ETFs That Could Be Impacted by the Student Loan Payment Restart",
+      "url": "https://www.nasdaq.com/articles/etfs-that-could-be-impacted-by-the-student-loan-payment-restart"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-07-06",
+      "record_hash": "c6e805e5eea2654ab0227ad6d6e3093edd9752a240d052a6fc2547d5cbe90999",
+      "rejection_reasons": [],
+      "source_index": 3694,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "After Hours Most Active for Jul 6, 2023 : INTC, KVUE, LUMN, KEY, AAPL, BAC, RIVN, AMZN, GERN, QQQ, BEKE, T",
+      "url": "https://www.nasdaq.com/articles/after-hours-most-active-for-jul-6-2023-%3A-intc-kvue-lumn-key-aapl-bac-rivn-amzn-gern-qqq"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-04",
+      "record_hash": "c7d7b1620180b1cc63db2185ba3334daf4a6255d3ff3e61d06359c59f9932dd2",
+      "rejection_reasons": [],
+      "source_index": 4640,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "2 Growth Stocks That Are Screaming Buys in May",
+      "url": "https://www.nasdaq.com/articles/2-growth-stocks-that-are-screaming-buys-in-may"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-11",
+      "record_hash": "c8e7c610b505d9efdd4339bbafa39ea27a5bf1114146279a236b39b8635f5da5",
+      "rejection_reasons": [],
+      "source_index": 4564,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "Guru Fundamental Report for AMZN",
+      "url": "https://www.nasdaq.com/articles/guru-fundamental-report-for-amzn-32"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-10-05",
+      "record_hash": "ca3c66caecc1d04e0fd7bc2c26d77bab5e3bf6c9e98b830465b1e58301514657",
+      "rejection_reasons": [],
+      "source_index": 1942,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "Amazon Stock (NASDAQ:AMZN): What’s Ahead as It Eyes Profitability, Prioritizes AI",
+      "url": "https://www.nasdaq.com/articles/amazon-stock-nasdaq%3Aamzn%3A-whats-ahead-as-it-eyes-profitability-prioritizes-ai"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-01",
+      "record_hash": "ce28bb108cf67b53b4648c575ef5e68eff4da2ea56d54f1267f7a91ae2b0bebf",
+      "rejection_reasons": [],
+      "source_index": 4273,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "2 Magnificent Growth Stocks Up 40% and 93% This Year to Buy and Hold for the Long Haul",
+      "url": "https://www.nasdaq.com/articles/2-magnificent-growth-stocks-up-40-and-93-this-year-to-buy-and-hold-for-the-long-haul"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-08",
+      "record_hash": "d27c3bfc2f466f40dc8b7685f1b2ea3f6ff340667960fcad47ed6a194f2dc43b",
+      "rejection_reasons": [],
+      "source_index": 4150,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "Amazon workers at UK warehouse to strike for three days in June",
+      "url": "https://www.nasdaq.com/articles/amazon-workers-at-uk-warehouse-to-strike-for-three-days-in-june-0"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-10-05",
+      "record_hash": "d2eebd2396c8fbabc8112d246b7b08505241b1cfb7a075dbd06e4b4ece7aa560",
+      "rejection_reasons": [],
+      "source_index": 1947,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "5 Large-Cap Growth Stocks to Buy for Q4 2023",
+      "url": "https://www.nasdaq.com/articles/5-large-cap-growth-stocks-to-buy-for-q4-2023"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-11",
+      "record_hash": "da65a03785120241ca76bebbf6fd7e38584a861ce81d10f252b6cda2a2e41ef2",
+      "rejection_reasons": [],
+      "source_index": 4570,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "AI Software Revenue Is Soaring Toward $14 Trillion: 2 Growth Stocks to Buy Now and Hold",
+      "url": "https://www.nasdaq.com/articles/ai-software-revenue-is-soaring-toward-%2414-trillion%3A-2-growth-stocks-to-buy-now-and-hold"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-01",
+      "record_hash": "dcefb25068d0fcb10ae3f12aedf4369d19964a4dc9430eb26d31fc2540c7319e",
+      "rejection_reasons": [],
+      "source_index": 4271,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "Amazon's iRobot deal faces July 6 EU antitrust deadline",
+      "url": "https://www.nasdaq.com/articles/amazons-irobot-deal-faces-july-6-eu-antitrust-deadline"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-18",
+      "record_hash": "df0a27979b50340951896bbcd7314f25e36c9ae6057ae5a4def8dd4c85cc7cf0",
+      "rejection_reasons": [],
+      "source_index": 4472,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "Google Ups the Ante in the Race for AI Dominance With 2 New Products -- Here's What Investors Should Know",
+      "url": "https://www.nasdaq.com/articles/google-ups-the-ante-in-the-race-for-ai-dominance-with-2-new-products-heres-what-investors"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-01",
+      "record_hash": "e300e959ed3a9db44fe05d439dee50baa89fddc38fa9b2be9aa4af60ad09d701",
+      "rejection_reasons": [],
+      "source_index": 4265,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "Amazon's iRobot deal faces July 6 EU antitrust deadline",
+      "url": "https://www.nasdaq.com/articles/amazons-irobot-deal-faces-july-6-eu-antitrust-deadline-0"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-15",
+      "record_hash": "e69f5168d37e1a0e320f1b987d9cd2dfe5a16d93c6127b67fca73100c0e56da4",
+      "rejection_reasons": [],
+      "source_index": 4019,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "After Hours Most Active for Jun 15, 2023 : AMZN, SPCE, QQQ, TEVA, AAPL, AZTA, VIPS, BABA, QQQE, GOOGL, VZ, HPE",
+      "url": "https://www.nasdaq.com/articles/after-hours-most-active-for-jun-15-2023-%3A-amzn-spce-qqq-teva-aapl-azta-vips-baba-qqqe"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-29",
+      "record_hash": "ec79c6e57fba20d497f5a0619aaf5d9f1c17ccc3f42bc303b98870815d25eb98",
+      "rejection_reasons": [],
+      "source_index": 3788,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "GRAPHIC-What could break as interest rates rise?",
+      "url": "https://www.nasdaq.com/articles/graphic-what-could-break-as-interest-rates-rise"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-29",
+      "record_hash": "ecf1db14758db498cf97625a00d85dd54ec6eb20e6677810c0a494115ece4ee8",
+      "rejection_reasons": [],
+      "source_index": 3790,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "Cash In on the Longevity Boom: 3 Biotech Stocks to Buy Now",
+      "url": "https://www.nasdaq.com/articles/cash-in-on-the-longevity-boom%3A-3-biotech-stocks-to-buy-now"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-11",
+      "record_hash": "f847f25a90b0fa1325102c6a5dc1eefcb26751f2309d6a89a4afdaafa697bcf5",
+      "rejection_reasons": [],
+      "source_index": 4565,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "2 Reasons to Buy Amazon Stock That You Don't Already Know About",
+      "url": "https://www.nasdaq.com/articles/2-reasons-to-buy-amazon-stock-that-you-dont-already-know-about"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-18",
+      "record_hash": "fa487718764d3ab7d793b68198bdba511a2ae17d86cb63b46b19223ea750af33",
+      "rejection_reasons": [],
+      "source_index": 4474,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "2 Key Themes From the Q1 Earnings Season",
+      "url": "https://www.nasdaq.com/articles/2-key-themes-from-the-q1-earnings-season"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-08",
+      "record_hash": "fb1d7b771be74528ce535148ff6ddfdcfe4003c15caff0352614f60727feab33",
+      "rejection_reasons": [],
+      "source_index": 4142,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "Apple Stock is on Fire. Invest in it with These 3 ETFs",
+      "url": "https://www.nasdaq.com/articles/apple-stock-is-on-fire.-invest-in-it-with-these-3-etfs"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-08",
+      "record_hash": "fb9a5f4be89282ba33f0edb305135d060e12b1bf3e1531358d7ca4ad4e645a6d",
+      "rejection_reasons": [],
+      "source_index": 4155,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "7 Momentum Stocks That Could Skyrocket in the Next 12 Months",
+      "url": "https://www.nasdaq.com/articles/7-momentum-stocks-that-could-skyrocket-in-the-next-12-months"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-07-06",
+      "record_hash": "fc6e5aa8faa0cb14154af0fd421cd63ff2acc9c6582db64f0d32648c846fe531",
+      "rejection_reasons": [],
+      "source_index": 3692,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "4 Top Stocks to Buy in the Second Half of 2023",
+      "url": "https://www.nasdaq.com/articles/4-top-stocks-to-buy-in-the-second-half-of-2023"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-08",
+      "record_hash": "fda996c1ec37a69e94170aa1fafe31df6b1ab74f27368592cc24f91dafd9ec5a",
+      "rejection_reasons": [],
+      "source_index": 4148,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "Behold Wall Street's new bull market, maybe",
+      "url": "https://www.nasdaq.com/articles/behold-wall-streets-new-bull-market-maybe"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-01",
+      "record_hash": "fdcce0468472a71ed8f2849d84be4a84725e2f00a246e3ab0587547f7de83764",
+      "rejection_reasons": [],
+      "source_index": 4269,
+      "source_member": "sp500_news/AMZN.jsonl",
+      "status": "SAFE",
+      "symbol": "AMZN",
+      "title": "Better Buy: Amazon Stock vs. Microsoft Stock",
+      "url": "https://www.nasdaq.com/articles/better-buy%3A-amazon-stock-vs.-microsoft-stock-0"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-04-11",
+      "record_hash": "0159e2f07337f5d0de583f5860ce1e895cfd43a939e59bac546b01d2761fd8dd",
+      "rejection_reasons": [],
+      "source_index": 157,
+      "source_member": "sp500_news/ARR.jsonl",
+      "status": "SAFE",
+      "symbol": "ARR",
+      "title": "Is Invesco KBW High Dividend Yield Financial ETF (KBWD) a Strong ETF Right Now?",
+      "url": "https://www.nasdaq.com/articles/is-invesco-kbw-high-dividend-yield-financial-etf-kbwd-a-strong-etf-right-now-7"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-07",
+      "record_hash": "067c8c50b87a7706834c47bff570847d283ce8f4d31668c792b43a7fa1107378",
+      "rejection_reasons": [],
+      "source_index": 150,
+      "source_member": "sp500_news/ARR.jsonl",
+      "status": "SAFE",
+      "symbol": "ARR",
+      "title": "Armour Residential REIT (ARR) Gains As Market Dips: What You Should Know",
+      "url": "https://www.nasdaq.com/articles/armour-residential-reit-arr-gains-as-market-dips%3A-what-you-should-know-3"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-07-12",
+      "record_hash": "091ea0eea65b3a4f41dfc47c7f86b027135bde37e6dba163e4e2b5e63e729ffa",
+      "rejection_reasons": [],
+      "source_index": 142,
+      "source_member": "sp500_news/ARR.jsonl",
+      "status": "SAFE",
+      "symbol": "ARR",
+      "title": "Ex-Dividend Reminder: Phillips Edison, Saul Centers and ARMOUR Residential REIT",
+      "url": "https://www.nasdaq.com/articles/ex-dividend-reminder%3A-phillips-edison-saul-centers-and-armour-residential-reit"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-10-05",
+      "record_hash": "1eb5b2dc770aaf5278a45fdfd7de5ba24e0aa7ae0e058c07a2bd1b055c140553",
+      "rejection_reasons": [],
+      "source_index": 114,
+      "source_member": "sp500_news/ARR.jsonl",
+      "status": "SAFE",
+      "symbol": "ARR",
+      "title": "ARMOUR Residential REIT (ARR) Price Target Increased by 445.45% to 30.60",
+      "url": "https://www.nasdaq.com/articles/armour-residential-reit-arr-price-target-increased-by-445.45-to-30.60"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-07-03",
+      "record_hash": "235796151c02345184a285df5a9a7281e29c540846f5bf6c4186be01a9caec73",
+      "rejection_reasons": [],
+      "source_index": 144,
+      "source_member": "sp500_news/ARR.jsonl",
+      "status": "SAFE",
+      "symbol": "ARR",
+      "title": "Zacks Industry Outlook Highlights Annaly, ARMOUR Residential and Invesco Mortgage Capital",
+      "url": "https://www.nasdaq.com/articles/zacks-industry-outlook-highlights-annaly-armour-residential-and-invesco-mortgage-capital"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-09-25",
+      "record_hash": "24f3a2da1657f8e5cf6521e3dc2239bda8e46c70c38be06094f9e0bf93d54fd4",
+      "rejection_reasons": [],
+      "source_index": 118,
+      "source_member": "sp500_news/ARR.jsonl",
+      "status": "SAFE",
+      "symbol": "ARR",
+      "title": "Oversold Conditions For ARMOUR Residential REIT",
+      "url": "https://www.nasdaq.com/articles/oversold-conditions-for-armour-residential-reit"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-03",
+      "record_hash": "31a0b53e9c8472220db09960fab00bac22b34ad8d2c501f3a619d2b156cb5b13",
+      "rejection_reasons": [],
+      "source_index": 154,
+      "source_member": "sp500_news/ARR.jsonl",
+      "status": "SAFE",
+      "symbol": "ARR",
+      "title": "These 10%+ Yields are Mystery Meats - Avoid!",
+      "url": "https://www.nasdaq.com/articles/these-10-yields-are-mystery-meats-avoid"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-09-15",
+      "record_hash": "31baa6b1e2099ff9304b2c280e1f229ae6bdf4cf4d4bdf1d64ed041cc872b543",
+      "rejection_reasons": [],
+      "source_index": 121,
+      "source_member": "sp500_news/ARR.jsonl",
+      "status": "SAFE",
+      "symbol": "ARR",
+      "title": "Armour Residential REIT (ARR) Gains As Market Dips: What You Should Know",
+      "url": "https://www.nasdaq.com/articles/armour-residential-reit-arr-gains-as-market-dips%3A-what-you-should-know-6"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-07-12",
+      "record_hash": "3d804721a365452a0271d807b0f1244dfc00107b17677b18120bdc2641745ece",
+      "rejection_reasons": [],
+      "source_index": 143,
+      "source_member": "sp500_news/ARR.jsonl",
+      "status": "SAFE",
+      "symbol": "ARR",
+      "title": "Armour Residential REIT (ARR) Outpaces Stock Market Gains: What You Should Know",
+      "url": "https://www.nasdaq.com/articles/armour-residential-reit-arr-outpaces-stock-market-gains%3A-what-you-should-know-7"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-09-26",
+      "record_hash": "413849c995c892013670f7907a91777975071420570d9b7676c076207dc023d4",
+      "rejection_reasons": [],
+      "source_index": 117,
+      "source_member": "sp500_news/ARR.jsonl",
+      "status": "SAFE",
+      "symbol": "ARR",
+      "title": "Tuesday's ETF Movers: XBI, REM",
+      "url": "https://www.nasdaq.com/articles/tuesdays-etf-movers%3A-xbi-rem"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-02",
+      "record_hash": "48b49977770124c2269dcb246efc627f910e9c38dd2a1f428553652e723303a0",
+      "rejection_reasons": [],
+      "source_index": 151,
+      "source_member": "sp500_news/ARR.jsonl",
+      "status": "SAFE",
+      "symbol": "ARR",
+      "title": "Validea Detailed Fundamental Analysis - ARR",
+      "url": "https://www.nasdaq.com/articles/validea-detailed-fundamental-analysis-arr"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-09-28",
+      "record_hash": "5ea84b96b7ae71525f89d68b77d1a97ec164677581e80d4e3dff17dfb8be3b7a",
+      "rejection_reasons": [],
+      "source_index": 116,
+      "source_member": "sp500_news/ARR.jsonl",
+      "status": "SAFE",
+      "symbol": "ARR",
+      "title": "Armour Residential REIT (ARR) Stock Sinks As Market Gains: What You Should Know",
+      "url": "https://www.nasdaq.com/articles/armour-residential-reit-arr-stock-sinks-as-market-gains%3A-what-you-should-know-7"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-04-13",
+      "record_hash": "5f98dbf05abdaafcf2b24211940a2d406824e7a8a86fe61d707350ba7fd7de10",
+      "rejection_reasons": [],
+      "source_index": 156,
+      "source_member": "sp500_news/ARR.jsonl",
+      "status": "SAFE",
+      "symbol": "ARR",
+      "title": "Armour Residential REIT (ARR) Stock Sinks As Market Gains: What You Should Know",
+      "url": "https://www.nasdaq.com/articles/armour-residential-reit-arr-stock-sinks-as-market-gains%3A-what-you-should-know-4"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-07-01",
+      "record_hash": "6b76211fd7c792728991cfd69ef717004ad8a58b9a4ba4f298413595c8702369",
+      "rejection_reasons": [],
+      "source_index": 145,
+      "source_member": "sp500_news/ARR.jsonl",
+      "status": "SAFE",
+      "symbol": "ARR",
+      "title": "ARR Quantitative Stock Analysis",
+      "url": "https://www.nasdaq.com/articles/arr-quantitative-stock-analysis"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-07-18",
+      "record_hash": "6e5d434066b50c4f6bc189e95493946d064d6159d521c175cec7ecb72fb79433",
+      "rejection_reasons": [],
+      "source_index": 141,
+      "source_member": "sp500_news/ARR.jsonl",
+      "status": "SAFE",
+      "symbol": "ARR",
+      "title": "Armour Residential REIT (ARR) Outpaces Stock Market Gains: What You Should Know",
+      "url": "https://www.nasdaq.com/articles/armour-residential-reit-arr-outpaces-stock-market-gains%3A-what-you-should-know-8"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-09-19",
+      "record_hash": "848f57fd2dfa6cb7514d6b860b3a6236fcdbe23f842ec22015f90965564c5504",
+      "rejection_reasons": [],
+      "source_index": 120,
+      "source_member": "sp500_news/ARR.jsonl",
+      "status": "SAFE",
+      "symbol": "ARR",
+      "title": "Should You Invest in the Invesco KBW High Dividend Yield Financial ETF (KBWD)?",
+      "url": "https://www.nasdaq.com/articles/should-you-invest-in-the-invesco-kbw-high-dividend-yield-financial-etf-kbwd-9"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-04-19",
+      "record_hash": "8ce4b73a8792a1d228df3b545bfc76065732df87f5c76bb53602b8e59063dd6c",
+      "rejection_reasons": [],
+      "source_index": 155,
+      "source_member": "sp500_news/ARR.jsonl",
+      "status": "SAFE",
+      "symbol": "ARR",
+      "title": "Armour Residential REIT (ARR) Gains As Market Dips: What You Should Know",
+      "url": "https://www.nasdaq.com/articles/armour-residential-reit-arr-gains-as-market-dips%3A-what-you-should-know-2"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-04-10",
+      "record_hash": "9c2f9888cba1472592fc97ecbf7c73e4d09ec825b3e78a0deb97f5d8a02ec821",
+      "rejection_reasons": [],
+      "source_index": 158,
+      "source_member": "sp500_news/ARR.jsonl",
+      "status": "SAFE",
+      "symbol": "ARR",
+      "title": "ARMOUR Residential REIT, Inc. (ARR) is Attracting Investor Attention: Here is What You Should Know",
+      "url": "https://www.nasdaq.com/articles/armour-residential-reit-inc.-arr-is-attracting-investor-attention%3A-here-is-what-you-0"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-12",
+      "record_hash": "9cf2c0dce715c07072475ef143c7bc3b15edff8205d19c3c0688c4068d9f8718",
+      "rejection_reasons": [],
+      "source_index": 149,
+      "source_member": "sp500_news/ARR.jsonl",
+      "status": "SAFE",
+      "symbol": "ARR",
+      "title": "Ex-Dividend Reminder: ARMOUR Residential REIT, NexPoint Residential Trust and Stellar Bancorp",
+      "url": "https://www.nasdaq.com/articles/ex-dividend-reminder%3A-armour-residential-reit-nexpoint-residential-trust-and-stellar"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-01",
+      "record_hash": "a59da416ec754f2f06ed74bc5a36547fa1d720cc7b9654489cfe3698bcf5415c",
+      "rejection_reasons": [],
+      "source_index": 152,
+      "source_member": "sp500_news/ARR.jsonl",
+      "status": "SAFE",
+      "symbol": "ARR",
+      "title": "Armour Residential REIT (ARR) Outpaces Stock Market Gains: What You Should Know",
+      "url": "https://www.nasdaq.com/articles/armour-residential-reit-arr-outpaces-stock-market-gains%3A-what-you-should-know-5"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-10-04",
+      "record_hash": "b307f384004cf814dd3075b6898d77ef43af26e386a055a835db55d29d5bdae0",
+      "rejection_reasons": [],
+      "source_index": 115,
+      "source_member": "sp500_news/ARR.jsonl",
+      "status": "SAFE",
+      "symbol": "ARR",
+      "title": "Armour Residential REIT (ARR) Stock Falls Amid Market Uptick: What Investors Need to Know",
+      "url": "https://www.nasdaq.com/articles/armour-residential-reit-arr-stock-falls-amid-market-uptick%3A-what-investors-need-to-know"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-29",
+      "record_hash": "bb8df2fe80e949d1df07922af853ca4580771c8c358b3c8fb2fc87138134ecbc",
+      "rejection_reasons": [],
+      "source_index": 147,
+      "source_member": "sp500_news/ARR.jsonl",
+      "status": "SAFE",
+      "symbol": "ARR",
+      "title": "Armour Residential REIT (ARR) Stock Sinks As Market Gains: What You Should Know",
+      "url": "https://www.nasdaq.com/articles/armour-residential-reit-arr-stock-sinks-as-market-gains%3A-what-you-should-know-5"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-09-22",
+      "record_hash": "bd6cb7f6566f480301af2a928c92085c3af3e17d5566854477203f294031a061",
+      "rejection_reasons": [],
+      "source_index": 119,
+      "source_member": "sp500_news/ARR.jsonl",
+      "status": "SAFE",
+      "symbol": "ARR",
+      "title": "Armour Residential REIT (ARR) Gains As Market Dips: What You Should Know",
+      "url": "https://www.nasdaq.com/articles/armour-residential-reit-arr-gains-as-market-dips%3A-what-you-should-know-7"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-13",
+      "record_hash": "db578cdd7ca48cb6c575a6e5e7878efd172430167e151158b1fc46695c21c588",
+      "rejection_reasons": [],
+      "source_index": 148,
+      "source_member": "sp500_news/ARR.jsonl",
+      "status": "SAFE",
+      "symbol": "ARR",
+      "title": "Armour Residential REIT (ARR) Outpaces Stock Market Gains: What You Should Know",
+      "url": "https://www.nasdaq.com/articles/armour-residential-reit-arr-outpaces-stock-market-gains%3A-what-you-should-know-6"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-31",
+      "record_hash": "edcc53ad3b8779784e6c5e073be33f1659eaa02280560aa981cfd0d2962ae688",
+      "rejection_reasons": [],
+      "source_index": 153,
+      "source_member": "sp500_news/ARR.jsonl",
+      "status": "SAFE",
+      "symbol": "ARR",
+      "title": "ARMOUR Residential REIT (ARR) Declares $0.08 Dividend",
+      "url": "https://www.nasdaq.com/articles/armour-residential-reit-arr-declares-%240.08-dividend-1"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-07-26",
+      "record_hash": "f1658d551d5a60a0c1460376e832d646097f14a83da0cc2644ac86128206137b",
+      "rejection_reasons": [],
+      "source_index": 140,
+      "source_member": "sp500_news/ARR.jsonl",
+      "status": "SAFE",
+      "symbol": "ARR",
+      "title": "Armour Residential REIT (ARR) Misses Q2 Earnings and Revenue Estimates",
+      "url": "https://www.nasdaq.com/articles/armour-residential-reit-arr-misses-q2-earnings-and-revenue-estimates"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-06-30",
+      "record_hash": "ff16f77e2c08351d8445855fa2b45433e5c485b488b02f616f619e62d1ca67c5",
+      "rejection_reasons": [],
+      "source_index": 146,
+      "source_member": "sp500_news/ARR.jsonl",
+      "status": "SAFE",
+      "symbol": "ARR",
+      "title": "3 mREIT Stocks in Focus Despite Lackluster Origination Scenario",
+      "url": "https://www.nasdaq.com/articles/3-mreit-stocks-in-focus-despite-lackluster-origination-scenario"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-04",
+      "record_hash": "3b468bf009be1150979eca857fc7906627a240793f646d939d12ac15460b8fca",
+      "rejection_reasons": [],
+      "source_index": 29,
+      "source_member": "sp500_news/EML.jsonl",
+      "status": "SAFE",
+      "symbol": "EML",
+      "title": "Top ex-Google AI researchers raise funding from Thrive Capital -sources",
+      "url": "https://www.nasdaq.com/articles/top-ex-google-ai-researchers-raise-funding-from-thrive-capital-sources"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-04-16",
+      "record_hash": "6cfb7afd2bd6cdb532cdd67c91f87ad114d7107f19d2b1ff1cbf66b348c6596f",
+      "rejection_reasons": [],
+      "source_index": 31,
+      "source_member": "sp500_news/EML.jsonl",
+      "status": "SAFE",
+      "symbol": "EML",
+      "title": "Australian shares rise on boost from financials, technology stocks",
+      "url": "https://www.nasdaq.com/articles/australian-shares-rise-on-boost-from-financials-technology-stocks"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-04-30",
+      "record_hash": "7049192dc80bc18425b140336b0a1f081daa43e1eb72f3f6a9173058307cb992",
+      "rejection_reasons": [],
+      "source_index": 30,
+      "source_member": "sp500_news/EML.jsonl",
+      "status": "SAFE",
+      "symbol": "EML",
+      "title": "Eastern (EML) Declares $0.11 Dividend",
+      "url": "https://www.nasdaq.com/articles/eastern-eml-declares-%240.11-dividend-1"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-05-29",
+      "record_hash": "78019f50639a5df50e2d539577070f2ef85ddfde5f95c6a4a41117b8a9404f74",
+      "rejection_reasons": [],
+      "source_index": 28,
+      "source_member": "sp500_news/EML.jsonl",
+      "status": "SAFE",
+      "symbol": "EML",
+      "title": "MIDEAST STOCKS-Gulf stock markets volatile on US debt deal, economic worries",
+      "url": "https://www.nasdaq.com/articles/mideast-stocks-gulf-stock-markets-volatile-on-us-debt-deal-economic-worries"
+    },
+    {
+      "audit_basis": "SOURCE_CONTENT_AND_PROVENANCE_ONLY",
+      "date": "2023-07-25",
+      "record_hash": "9bd19e3db1a7e778703e178b4fb6a1ee8571f92b24ff95a2705ae5fc299f05ad",
+      "rejection_reasons": [],
+      "source_index": 27,
+      "source_member": "sp500_news/EML.jsonl",
+      "status": "SAFE",
+      "symbol": "EML",
+      "title": "MIDEAST STOCKS-Most Gulf markets gain on oil, earnings; Abu Dhabi slips",
+      "url": "https://www.nasdaq.com/articles/mideast-stocks-most-gulf-markets-gain-on-oil-earnings-abu-dhabi-slips"
+    }
+  ],
+  "safe_hashes": {
+    "AAPL": [],
+    "AEMD": [],
+    "AGI": [
+      "0176d44071981ef7bcc25b95acac510074eaffed7ef5b2443d2990d46c2cd5e7",
+      "08177aa9479e57c2d65b29d066a1ec93c5b258fcb47576317c2b4c6e3459f1b3",
+      "0973c85ebe7b138c4b44df5b3bb0a57d2e161d3e04c8d2142e64bc5000ac0284",
+      "0b198a033374efad7473a87d55f4323b27d0aed08f79bbf40fa3ddb54dcb6821",
+      "0e8889b55a0e55ad1b5d7b57467c068f7de2e7c49b12fc08c7bc0d7f90a787d8",
+      "0f69e1a526e2ebab64867a6a11ec8310afd39a5cb027ab2f87745a44addfc073",
+      "1259d728eecab392db5cb5318b94e24a0ed0d7a5f8edfeb54d76e77f010a674b",
+      "1277932bed7fc8dbbc0f44285f0c585b6fbef5a43bf7a89c31876ea643d892af",
+      "19fa83f670ce0c1f117f593fac48225f1564c5af136a6ecaff84cc1304474a0c",
+      "1b818f1184aa3aeff5c897b49155f8a36870f2947385ec2179ab961b9cba2d57",
+      "2244c36073c97f2ee401c2c68c1fcd86370e97285e9cda81430812377a9cb0e2",
+      "31f9477a5ba90637f27fa170aad0e43df201e87795c31ecf3ea7304035da28e5",
+      "360dc10be8df2cb5cf8dd7f5257fb9a01531297a55e0e7665a41a6cfe616b1b9",
+      "3826ff3fa8c8e28c0a81e7250e9bb976d357a14edf5bf3a3211839f9a4b505b0",
+      "383f94fccdc78f3893e10ba4f5c6364ceb880af303df2648f9d6b850cdc0fe8c",
+      "399fb7f84f32612ec2855e4deae6a7f80b97f8626e35a4749de24798349bc897",
+      "44c1493a55a4bba9a8bdc268c5bdd448f4617396a98f23847ee2931e66ea1386",
+      "4b37ee1dad52043d3a6b3dd59a6860c57056116752a930d4a63e1ead9967df15",
+      "4cce1266de97f559d927019c026e52fd77f7fa8e4ec9cb6ff7e3182d470c101a",
+      "52c7b8e11f035d9ae615c7ebaf6f3c60ea5b437e0a908b1e1c8e69235f19a95f",
+      "5351d3304f1a46db33c64a0c37258ad2b730ffc3a3aaeb62446f2b3570381ca2",
+      "63174f12d77cc3f33c5b75bedf3884f3186edddea128f7011319dc2f629e006a",
+      "66ff597c434f2ed03b8b3628e02a13d7e53e053fef65e4607b7bb729ccda5a2b",
+      "89bcaa54316c784986205c2ae328a73980349b2113d3cfec99af10314285bb16",
+      "8a0d25cd033a13cf6b96423d8d26a7cd6b13e562e2944115cb0d64225bcb659e",
+      "91d304937eb4b0c6006bbc35677bef4a6b1dfee2420cfa18812ebf9c527ecbfa",
+      "93a0d9f3e1fb7b7073bc220db251ef7b352c60e9ddb1d59a824691cece67b403",
+      "9c303652eaabfe5627966d8f37b054e46e35eb910844af3aae8762ea5cdd9832",
+      "a8a3dc4c0ae770aacefef79001803989808d03b9bd45250142f0a4edf55b9d39",
+      "aa7dd298785c22d9f93a9e2c22d7b09c4bbeba8eff7d71f793d613843c7a195d",
+      "adff628d1a0a31979b1ca48423912c28c1a2c81751f8bdc4c60463b264b3a208",
+      "ae3a5ee369542a385100bb5ff91a01d53c5415260360ca09f66c28e5f58d88aa",
+      "b3ae6a457c883d72c531b1ef1d964397b563e6a4555849cd9be365c83e8aa2ac",
+      "b3f9a5c72c5a35208fad8614a582970e6d715338ebc92d27ce7a1bcdcbf4bfda",
+      "b79812e7ae2b87879256f3707e44f2faa6836f05df4490b4e5faad67fee89665",
+      "be2b46f5a0897996f51d0a4f97bff1a878bc4d829f7c842fb7aa1f85fe64adbc",
+      "c57be2853e0c8dcb893c8cc2b3f6a2b28cee596808149f45ade14cef527cb681",
+      "c7c272af879d0679f848e1a393ed61666e1a6368b162ad6bfa4e2cae2c26bb9e",
+      "c8774ed9cb1aff4aef57fd03577f7916f5956c3f9761cf409b38582ab8a90480",
+      "ce9ced8b4dbd83a4d51c4d43187dadd15f662b2f79c65aaafa01d9500c40c440",
+      "d6f31762752dd7257d4805b619698be5f3d9a025e8efb8037c91476717a5f91f",
+      "d9c7293475615d3c96dc859f61d27b4d1baa05c83908a401564d6f008e5d1d33",
+      "e146800ce59d946c8f303a5e5eadd76f5a059657fb6585712ae67f3ee52f4888",
+      "e90a0c9f3b3a0063b74dc6146ba640813022d1ac07824cbf4aadad89f3c69a58",
+      "eea0db9e77652f4885d36c28fc3ff0ca6759d30e9ecf651f8317ad3262a5c8af",
+      "f5e5e37c22740504b8b8f7e990681f14d586e5687b00673035721e821afc3a8a",
+      "fea8b1df127e3fdcea9f22bb2f87d8f12fadcaf5e558f2d3b5881e2debdc3bb7"
+    ],
+    "AMZN": [
+      "007d66d289dd959b61cda93a71cdafcfa3832b82541958c5341e07aeca9eab40",
+      "07c381259b4100a93e88d647aeba04e47bf417a461c639daede014322b92bd58",
+      "081383a838dab7decaf5228e28e4e4f8ce6da28f40595e39364e7c6699703bf3",
+      "0b62aa4e82d0e2159a1d9c666d86012e275fdd26cf953325bcf4fe50869749f4",
+      "0bc6fa40ee185a6b7aed03875ab7ada19baf37ed996df6e17e42edea287f4166",
+      "11c0ff8aa7565dffea70dbb5c6346ea95c16c39c61e89e7986033fdb9634f73c",
+      "149ca78a8ab9148090364d433ad99617c949505f7551878afbe2e65399cdb6ba",
+      "14a1cdf651c8034f1ed123f18351f4927faa9e642dd204a77a37284e2c766b56",
+      "1583df8af9b7e625e7af9858043d8b06abebd5085d26e77048eb2aefedf54bf6",
+      "1616860104e930d940edeeaa6a0aed84d2720c8cc6829c633eb6a14033b8b697",
+      "16ec693b85568e5c0e9233db52d035b45d4daf8f82085363694b66a497eb2777",
+      "19596fdad831970ec4cd72ad240888bb1faa6d105eb7d6d98c73c68fa6da6ea5",
+      "19cfa50ceb78b05e777787fa25933089052df4afff7ecfec8e3ebeb8fb2be2a7",
+      "1ac102dd0e7607fcb0fb8b6af8abdffeea086e1a6e03505528ea0e20ef6d4dab",
+      "1baecc499a25f4d1e8ca7878054b04053beddef1835e5416b6de8abee25f3b7c",
+      "1cca8279f0207d18a43b711ca7788dd9e3ffc5799a3db560621b1825405a4a67",
+      "213cf07446c3d050a5c6c1968eccfdf86b66c095eca9a32b2b445619d2801107",
+      "21dcd2fa5f6686cb52a3c6d3b6744b8d0cae13e640f232d1cddf9646e02df372",
+      "2d925133e2d2426b02bfb9ef600f2b5ea3a677bf55483bde8da3753db10f1212",
+      "2e9cd4bf3a53a3a387c074d354faf2f46b76ab9e62fec2e5e46ec27b706bb3b0",
+      "356cad050cbaeb98a60d38c8cc123e05365720601958ff9414b71c02fcd3da07",
+      "36639ed068bc0ca67f8cb850c240dca74c898b7ebe85ee00669dd2dc65b0cd35",
+      "3ceb8a5a787313c39a064fe8ba78d0fac2180299582331af20d4eae1dfe3c949",
+      "4024383005fe1eeea5a555e6acb9c4e1b7b5afc4c991f98903d8e2c5b1dca787",
+      "419da91f272843b222620e008ab29b4d4da97dc5f48d4058714afa5d4d9a71b7",
+      "44b6b85ea759e626429bef0a6e45e8b4288df449f4ef8cb80b701213e116b4ed",
+      "48e7d378fdb24c5d59c7f9c2d6b22d5e33071240bfdca7666e4b23b13d938325",
+      "497221aa7365140c6c1732ec84230e3e1c83c44394444d2e6f60f4491e8e570c",
+      "4ab7626b528f97e21b481421c26199d193967ee3bb9f04323b13fe6b6a674561",
+      "4c447d9143f176357bf45cc1f4e0c72ac781e62628dab16bb09cf41dfc2912cd",
+      "4d699a74182188b44e515511d39ad1568c40e487d2e4fa04bddab8bedaa8c2f0",
+      "548fd14e995569ef5995c49f1454811c8422a2f5e9089031c53cce7549cd0548",
+      "55670590973ebc9943b2e96f4059ae450920cb3f5aad6c4d8cf88a2042685dbf",
+      "55f675f6db073b374e7eb19a1524e2444c729539a5e2050ab8f8b3c4a560c5e9",
+      "565ff5a729a96bca7987ed334478eb6bf3a665e463c1457ca9c8c6b8503255e7",
+      "59a78f59f7f9673449ec78c78574915e09fb8ecb11b43d3e7dcc1a825c89a5c1",
+      "59bef9a6c9778ee5d6b47e66638eff64699ab030359b05ac81601f89996b0885",
+      "5d08efa04edc4edd3507fb9d3d90a1f665970315cf89917e835b1de37f8efb53",
+      "5f2e95763a1d2c0bacdce9c6fc5d85fc5d5a97dfa5c04eb425680c7c884165d7",
+      "6adfca440088ec233ab54d1b66f7c23ec9bb49f241928151769770c93137e2db",
+      "6e89a686572b5b0a601a0a2fa34d89edd146cca4e4dfc53bcaa38a929b909bce",
+      "6f9f23d68c74a0dd233b4d6d9fff8bd4e6117d85577ceb073d06c2966b71ebe1",
+      "72489fd4ed76fb791c711023f95dc262fe0e5cd4152ae9379f4b8f731058e46d",
+      "75d9b2f5e6a760a4a9d31d3ca836297d54c32ca7d31c654295ecf653fed90d3c",
+      "79993996187632aacfa50746ee05426caaf91ed79ec623d118030ff3a7970c5c",
+      "80f2bce7b3bbf61ea83ccf6d352d9bbef2aa2badbf1e887c96b903b5abad6821",
+      "821c394a51ecd2f1fac0c5730423d5f425f7e99fd2f18a39e7deedc9cddd3b87",
+      "825ffc8aef563776e05691ce99561030851242ebb5011ea63e9cc7adefa7e803",
+      "84f99b43c7e15675b662bc1e8a0c7c8fbf79608072bd69aeb2bb4065db924a8c",
+      "86ecafcea375ddd9e007e84c8f4f71c12dcb665c15ac48d984cbcd3dbcf51a3b",
+      "8a414ebc355622f15602caacad0449b30e3ed6705c38763a6a51a3081b29432c",
+      "8e0418fa9a5cc07926e1e13d0e775a7900fa3f3b9b6bf80c5516f854e4910df0",
+      "8e6dbef07761407e6bee0406cfbd1783746f4c13a7aba49462ca9a5d30926220",
+      "8e718f122d0d89af50cb197d9f79c732bd3bb27dc7b908ca58976d803cef1a78",
+      "92089656516afac304c4cdfec0238e1dba0b3b9df11ac261e9a39bc23fdd2c8c",
+      "92e1f8da379bbc1b22368ce04bf2e4f1a1bcf67a5ad10799f44590236394bb27",
+      "92e8cac0b613a4df38c77c4e7ba9f456f3f9f040853c99024dba306cd5669c43",
+      "94852b295bbe76cd75737c8b86b4f2800adfb0897e68f3b96a1ada44d82da6eb",
+      "9a4f2aecd2cec44905cb4dbf9b8a39129ef2640b907ac671612b454d6f866a5a",
+      "9f55e74135cfab0140777cc1564ce85b0f1e4911d6f0b97fd3bb23d802bbe8e6",
+      "a440ebbc694474f35d35df020e90c5a25f5d1805ba656d5ab17df7bf4102de7c",
+      "a80a85d7d9e68ca90ebaaf2c448f82fc35688733faea82f993c4c44c56fb9b9c",
+      "ab4e40d54f98f08d1786d6f98a748dbf01c41c3e66722f62659ba60693fb6fda",
+      "b01b77c2ae89fb491dbe57a5f2dddc047e1e36ba154a95b9b6336278daa097ff",
+      "b05da0f60e1aecce6b90990cf462fe7ce7f06dbf06cee13f765b00649e5a2897",
+      "b067f39c983117cf0d0fcbecd5e0a871f5661473ecfb5109a3be60d12caeb725",
+      "b1f6130f0eda35d7e3e0b5db049a6b3c43e8a1a6567b41c4850f53c88a9d4da1",
+      "b2ba5db7af087ceb22e775a5284631910c6a637ae2c85091b5a21c2c9810a94b",
+      "b3ee498d57d99824bedab013e59a541d29957e121dfb5b57906583611071664b",
+      "b3f4b2ce8458bfeda0bf9584967662655bfb49461e9d7ed44871f91856c8c850",
+      "b60ce46771323f2778c63a6d0bf817fc0ec0771c81bd76b01893010f1d2afecd",
+      "b97bf24322c3dc0cdf16df45d33d24fee560f1ca5f3c579c1fc5d8e7792bba5d",
+      "bef7c54d6d5e8981b419dec41a57ef6d550318ad920ccf6cb319349e29df40ee",
+      "c33bb43a5150cea29ad8409beaa4f07c888dc40e2787f95c4de28fb7c809f49e",
+      "c46df433607dedcf9083baed369160a263d367a735c96a96b080b042fa3fdca4",
+      "c6e805e5eea2654ab0227ad6d6e3093edd9752a240d052a6fc2547d5cbe90999",
+      "c7d7b1620180b1cc63db2185ba3334daf4a6255d3ff3e61d06359c59f9932dd2",
+      "c8e7c610b505d9efdd4339bbafa39ea27a5bf1114146279a236b39b8635f5da5",
+      "ca3c66caecc1d04e0fd7bc2c26d77bab5e3bf6c9e98b830465b1e58301514657",
+      "ce28bb108cf67b53b4648c575ef5e68eff4da2ea56d54f1267f7a91ae2b0bebf",
+      "d27c3bfc2f466f40dc8b7685f1b2ea3f6ff340667960fcad47ed6a194f2dc43b",
+      "d2eebd2396c8fbabc8112d246b7b08505241b1cfb7a075dbd06e4b4ece7aa560",
+      "da65a03785120241ca76bebbf6fd7e38584a861ce81d10f252b6cda2a2e41ef2",
+      "dcefb25068d0fcb10ae3f12aedf4369d19964a4dc9430eb26d31fc2540c7319e",
+      "df0a27979b50340951896bbcd7314f25e36c9ae6057ae5a4def8dd4c85cc7cf0",
+      "e300e959ed3a9db44fe05d439dee50baa89fddc38fa9b2be9aa4af60ad09d701",
+      "e69f5168d37e1a0e320f1b987d9cd2dfe5a16d93c6127b67fca73100c0e56da4",
+      "ec79c6e57fba20d497f5a0619aaf5d9f1c17ccc3f42bc303b98870815d25eb98",
+      "ecf1db14758db498cf97625a00d85dd54ec6eb20e6677810c0a494115ece4ee8",
+      "f847f25a90b0fa1325102c6a5dc1eefcb26751f2309d6a89a4afdaafa697bcf5",
+      "fa487718764d3ab7d793b68198bdba511a2ae17d86cb63b46b19223ea750af33",
+      "fb1d7b771be74528ce535148ff6ddfdcfe4003c15caff0352614f60727feab33",
+      "fb9a5f4be89282ba33f0edb305135d060e12b1bf3e1531358d7ca4ad4e645a6d",
+      "fc6e5aa8faa0cb14154af0fd421cd63ff2acc9c6582db64f0d32648c846fe531",
+      "fda996c1ec37a69e94170aa1fafe31df6b1ab74f27368592cc24f91dafd9ec5a",
+      "fdcce0468472a71ed8f2849d84be4a84725e2f00a246e3ab0587547f7de83764"
+    ],
+    "ARR": [
+      "0159e2f07337f5d0de583f5860ce1e895cfd43a939e59bac546b01d2761fd8dd",
+      "067c8c50b87a7706834c47bff570847d283ce8f4d31668c792b43a7fa1107378",
+      "091ea0eea65b3a4f41dfc47c7f86b027135bde37e6dba163e4e2b5e63e729ffa",
+      "1eb5b2dc770aaf5278a45fdfd7de5ba24e0aa7ae0e058c07a2bd1b055c140553",
+      "235796151c02345184a285df5a9a7281e29c540846f5bf6c4186be01a9caec73",
+      "24f3a2da1657f8e5cf6521e3dc2239bda8e46c70c38be06094f9e0bf93d54fd4",
+      "31a0b53e9c8472220db09960fab00bac22b34ad8d2c501f3a619d2b156cb5b13",
+      "31baa6b1e2099ff9304b2c280e1f229ae6bdf4cf4d4bdf1d64ed041cc872b543",
+      "3d804721a365452a0271d807b0f1244dfc00107b17677b18120bdc2641745ece",
+      "413849c995c892013670f7907a91777975071420570d9b7676c076207dc023d4",
+      "48b49977770124c2269dcb246efc627f910e9c38dd2a1f428553652e723303a0",
+      "5ea84b96b7ae71525f89d68b77d1a97ec164677581e80d4e3dff17dfb8be3b7a",
+      "5f98dbf05abdaafcf2b24211940a2d406824e7a8a86fe61d707350ba7fd7de10",
+      "6b76211fd7c792728991cfd69ef717004ad8a58b9a4ba4f298413595c8702369",
+      "6e5d434066b50c4f6bc189e95493946d064d6159d521c175cec7ecb72fb79433",
+      "848f57fd2dfa6cb7514d6b860b3a6236fcdbe23f842ec22015f90965564c5504",
+      "8ce4b73a8792a1d228df3b545bfc76065732df87f5c76bb53602b8e59063dd6c",
+      "9c2f9888cba1472592fc97ecbf7c73e4d09ec825b3e78a0deb97f5d8a02ec821",
+      "9cf2c0dce715c07072475ef143c7bc3b15edff8205d19c3c0688c4068d9f8718",
+      "a59da416ec754f2f06ed74bc5a36547fa1d720cc7b9654489cfe3698bcf5415c",
+      "b307f384004cf814dd3075b6898d77ef43af26e386a055a835db55d29d5bdae0",
+      "bb8df2fe80e949d1df07922af853ca4580771c8c358b3c8fb2fc87138134ecbc",
+      "bd6cb7f6566f480301af2a928c92085c3af3e17d5566854477203f294031a061",
+      "db578cdd7ca48cb6c575a6e5e7878efd172430167e151158b1fc46695c21c588",
+      "edcc53ad3b8779784e6c5e073be33f1659eaa02280560aa981cfd0d2962ae688",
+      "f1658d551d5a60a0c1460376e832d646097f14a83da0cc2644ac86128206137b",
+      "ff16f77e2c08351d8445855fa2b45433e5c485b488b02f616f619e62d1ca67c5"
+    ],
+    "EML": [
+      "3b468bf009be1150979eca857fc7906627a240793f646d939d12ac15460b8fca",
+      "6cfb7afd2bd6cdb532cdd67c91f87ad114d7107f19d2b1ff1cbf66b348c6596f",
+      "7049192dc80bc18425b140336b0a1f081daa43e1eb72f3f6a9173058307cb992",
+      "78019f50639a5df50e2d539577070f2ef85ddfde5f95c6a4a41117b8a9404f74",
+      "9bd19e3db1a7e778703e178b4fb6a1ee8571f92b24ff95a2705ae5fc299f05ad"
+    ],
+    "JBSS": [],
+    "JPM": []
+  },
+  "safe_record_count": 175,
+  "schema_version": "1.0",
+  "task_id": "M2-06",
+  "unsafe_record_count": 96
+}
