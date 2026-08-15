@@ -1,0 +1,36 @@
+{
+  "case_id": "AAPL:2023-05-12",
+  "context": {
+    "company_of_interest": "AAPL",
+    "decision_session": "2023-05-12",
+    "deterministic_temporal_context": {
+      "frozen_decision_time": "2023-05-12T20:00:00+00:00",
+      "historical_as_of": "2023-05-12T20:00:00+00:00",
+      "run_mode": "historical"
+    },
+    "instrument_context": "The instrument to analyze is `AAPL`. Use this exact ticker in every tool call, report, and recommendation, preserving any exchange suffix (e.g. `.TO`, `.L`, `.HK`, `.T`, `-USD`).",
+    "ticker": "AAPL"
+  },
+  "decision_session": "2023-05-12",
+  "evidence_packet_sha256": "53b91a2787e6d3be097aaa69dd0ed074643bac742f9944e7ae3bae0197055500",
+  "prompt_trader": {
+    "normalized_action": "HOLD",
+    "proposal_sha256": "3837f0b80c495c5c3b62cb827be2e0e70be5fd14cd4830665aaad2b7cc7aa3c5",
+    "rendered_proposal": "**Action**: Hold\n\n**Reasoning**: The evidence is genuinely balanced. The bull case rests on verified technicals — price at $170.04 above all major moving averages (10 EMA $168.52, 50 SMA $159.78, 200 SMA $149.16), +11.25% 60-day return, RSI 62.93, positive MACD — and strong verified fundamentals ($62.57B operating cash flow, $61.29B capital return, $332B asset base). The bear case correctly notes the stock sits just below resistance ($172.76 upper Bollinger Band, $171.79 recent high) with declining volume (relative volume 0.81), a negative 5-day return (-0.44%), and roughly 1:1 risk/reward. Critically, the income statement is unavailable, so revenue growth and margins cannot be verified. Neither side is dispositive, so I maintain current positioning rather than add at resistance or exit a strong uptrend based on data-absence arguments. I will set a stop below the 50 SMA at $159.78 and wait for a decisive close above $172.76 on expanding volume or a pullback to the 50 SMA that holds before adding exposure.\n\n**Stop Loss**: 159.78\n\n**Position Sizing**: Maintain existing positions; do not add new exposure. If adding on confirmation, risk no more than 1-2% of portfolio capital per trade given ATR of $2.93.\n\nFINAL TRANSACTION PROPOSAL: **HOLD**"
+  },
+  "provenance": {
+    "experiments_sha": "b4f3d22978048d079600752981694a5a7d0041ef",
+    "model_configuration_identity": "f2e15ee388ee60297930ddd2eb4ed5d73c27ee297472d97bb7d73bc49d2cd420",
+    "model_id": "deepseek-v4-flash",
+    "run_identity": "90593aa17a1f017418b2d14c7490c85e6404d87536f3e1e86d3971640ddec8fe",
+    "source_sha": "6d3c46b96b8935944e0f232b73020262d870d953"
+  },
+  "research_manager": {
+    "investment_plan": "**Recommendation**: Hold\n\n**Rationale**: Let me weigh both sides of this debate carefully.\n\nThe bull makes a strong case on the technicals: price at $170.04 sits above all major moving averages (10 EMA $168.52, 50 SMA $159.78, 200 SMA $149.16), the 60-day return is +11.25% with a minimal -0.54% drawdown, RSI at 62.93 is constructive without being overbought, and MACD is positive. The fundamentals we can verify are genuinely impressive — $62.57 billion in operating cash flow over six months, a self-funding $61.29 billion capital return program, and a $332 billion asset base. These are verified, point-in-time facts.\n\nThe bear's strongest points are also legitimate. The stock is sitting just below resistance ($172.76 upper Bollinger Band, $171.79 recent high) with declining volume (relative volume 0.81), the 5-day return is negative (-0.44%), and the risk/reward at current levels is roughly 1:1 at best — risking $3.01 to the VWMA for a $2.72 gain to the upper band. Critically, the income statement is unavailable, so we cannot verify revenue growth, margins, or net income. The bear is right that we have no visibility into news, sentiment, or macro conditions as of this date.\n\nHowever, the bear overreaches in several places. Converting the absence of data into a bearish signal is a logical error — unavailable data is neutral, not negative. The \"98% of operating cash flow to buybacks\" framing ignores that Apple still grew its cash position by $2.15 billion while returning capital, and the absolute scale of cash generation is extraordinary. The \"financial engineering\" characterization is a stretch given the fortress balance sheet.\n\nWhere does this leave us? The trend is genuinely up and the fundamentals we can verify are strong. But the stock is extended relative to its moving averages, sitting at resistance with declining volume, and we lack the income statement and news/sentiment data that would give us confidence in a fresh long entry at these levels. The risk/reward at $170.04 is roughly balanced — not clearly favorable to the long side as the bull claims, and not clearly unfavorable as the bear claims.\n\nThis is a case where the evidence on both sides is genuinely balanced. The bull has verified trend and cash flow strength; the bear has legitimate concerns about extension, declining volume, and data gaps. Neither side has decisively won the argument. The prudent stance is to maintain current positioning rather than add aggressively at resistance or exit a strong uptrend based on data-absence arguments. I'm committing to Hold rather than a directional call because the strongest arguments on each side are both credible and neither is dispositive.\n\n**Strategic Actions**: For the trader implementing this Hold recommendation on AAPL:\n\n1. MAINTAIN existing long positions at current levels. Do not add new exposure at $170.04 given the stock is sitting just below resistance ($172.76 upper Bollinger Band, $171.79 recent high) with declining volume (relative volume 0.81).\n\n2. DO NOT initiate fresh longs at current levels. The risk/reward is roughly 1:1 (risk ~$3.01 to VWMA at $167.03 for ~$2.72 to the upper band), which does not justify new entry without confirmation.\n\n3. SET a defined risk framework for existing positions: a stop below the 50 SMA at $159.78 (approximately 6% below current price) protects the trend thesis. A tighter tactical stop below the VWMA at $167.03 could be used for shorter-term positions.\n\n4. WAIT for one of two confirmation triggers before adding exposure: (a) a decisive close above $172.76 on expanding volume (above the 20-day average, ideally >80 million shares), or (b) a pullback to the 50 SMA at $159.78 that holds and shows renewed buying.\n\n5. Position sizing: if adding on confirmation, risk no more than 1-2% of portfolio capital per trade given ATR of $2.93. If trimming, scale out gradually rather than exiting entirely given the intact uptrend.\n\n6. MONITOR for the income statement data to become available — the inability to verify revenue growth and margins is a genuine constraint on conviction. If fundamentals confirm growth, upgrade to Overweight; if the trend breaks below the 50 SMA on volume, downgrade to Underweight.",
+    "investment_plan_sha256": "6891700ded6c1d7469cdef4ab19cc1fb6f96e3951f731aeef2d3d445dbe52098"
+  },
+  "reusable_for_M2_08": true,
+  "role": "TRAIN",
+  "schema_version": "M2-SEMANTIC-HANDOFF-v1",
+  "symbol": "AAPL"
+}

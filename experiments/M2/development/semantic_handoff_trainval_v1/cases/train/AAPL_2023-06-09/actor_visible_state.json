@@ -1,0 +1,36 @@
+{
+  "case_id": "AAPL:2023-06-09",
+  "context": {
+    "company_of_interest": "AAPL",
+    "decision_session": "2023-06-09",
+    "deterministic_temporal_context": {
+      "frozen_decision_time": "2023-06-09T20:00:00+00:00",
+      "historical_as_of": "2023-06-09T20:00:00+00:00",
+      "run_mode": "historical"
+    },
+    "instrument_context": "The instrument to analyze is `AAPL`. Use this exact ticker in every tool call, report, and recommendation, preserving any exchange suffix (e.g. `.TO`, `.L`, `.HK`, `.T`, `-USD`).",
+    "ticker": "AAPL"
+  },
+  "decision_session": "2023-06-09",
+  "evidence_packet_sha256": "b273de525eb697f1142007b0882f9053b1f78f3624fb0bd81aa845859b60ee4e",
+  "prompt_trader": {
+    "normalized_action": "HOLD",
+    "proposal_sha256": "1ff19ac47545711435eac7dcfab7f8138407398ff7b2e71cf38f78df293ca80f",
+    "rendered_proposal": "**Action**: Hold\n\n**Reasoning**: The investment plan makes a balanced case for maintaining current AAPL exposure without adding at current levels. The structural bull case is strong — $62.57B operating cash flow funds the entire $61.29B capital return program, price sits above all key moving averages (10 EMA $175.98, 50 SMA $167.76, 200 SMA $150.07), and the trend is objectively intact at a 60-day high. However, the bear's entry-point concerns are legitimate: MACD histogram compressed 70% in one week, relative volume is below average at 0.82, price is within 1.8 points of the upper Bollinger Band, and there is no revenue/earnings/margin data in this historical window to confirm growth. The risk/reward is not favorable (3.8% upside to $185 vs 5.9% downside to the 50 SMA). The trend is intact so selling is not warranted, but chasing at $178.30 with compressing momentum and drying volume is not a high-conviction entry. I recommend holding existing positions with a stop-loss below the 10 EMA at $175.98, and waiting for either a pullback toward the 50 SMA at $167.76 or a confirmed breakout above $182.24 on volume before adding.\n\n**Entry Price**: 167.76\n\n**Stop Loss**: 175.98\n\n**Position Sizing**: Maintain current exposure; if adding on a pullback to the 50 SMA, size at roughly half of a normal full position given incomplete fundamental data. Full position sizing only on a confirmed breakout above $182.24 on above-average volume.\n\nFINAL TRANSACTION PROPOSAL: **HOLD**"
+  },
+  "provenance": {
+    "experiments_sha": "2bf79ffce2dedf15e157f48a5e3727eef611d0e9",
+    "model_configuration_identity": "f2e15ee388ee60297930ddd2eb4ed5d73c27ee297472d97bb7d73bc49d2cd420",
+    "model_id": "deepseek-v4-flash",
+    "run_identity": "e44889e04f289fe4f6b3fef74ace35dbe81459c4994a5536e7e2e2f160ca8c84",
+    "source_sha": "6d3c46b96b8935944e0f232b73020262d870d953"
+  },
+  "research_manager": {
+    "investment_plan": "**Recommendation**: Hold\n\n**Rationale**: Let me walk through how I weighed this debate, because it was genuinely close and I want to be honest about where the evidence lands.\n\nThe bull makes a strong case on the structural side. Apple generated $62.57B in operating cash flow over six months, funds its entire $61.29B capital return program from operations, and trades above all key moving averages (10 EMA at $175.98, 50 SMA at $167.76, 200 SMA at $150.07). The trend is objectively intact — price is at its 60-day high with zero drawdown, MACD line (3.05) remains above signal (2.92), and RSI at 67.47 is elevated but not extreme. The ecosystem moat, premium pricing power, and Services growth are real structural advantages that have persisted through multiple cycles.\n\nThe bear's strongest points are technical and about the entry price. The MACD histogram compressed 70% in one week (0.40 to 0.12), the 5-day return is essentially flat (+0.0055%), relative volume is below average at 0.82, and price is within 1.8 points of the upper Bollinger Band. The June 5 session showed a wide range ($182.24 high to $175.43 low) closing in the lower half — a legitimate distribution concern. Critically, the bear is right that we have NO revenue, earnings, or margin data in this historical window. The bull is inferring growth from cash flow, which is a reasonable inference but not proof. The bear also correctly notes the risk/reward is not obviously favorable: roughly 3.8% upside to $185 versus 5.9% downside to the 50 SMA at $167.76.\n\nWhere I land: This is a great company at a fair-to-slightly-rich price with decelerating momentum and incomplete fundamental data. The bull's case for the company's quality is strong, but the bear's case about the entry point and the absence of forward-looking fundamental evidence is also legitimate. The trend is intact and I would not recommend selling or exiting — the structural case is too strong for that. But buying at the top of a 60-day run with compressing momentum, drying volume, and no revenue data to confirm growth is not a high-conviction entry. The honest position is to maintain current exposure, not add aggressively at these levels, and wait for either a pullback toward the 50 SMA or a confirmed breakout above $182.24 on volume before adding. That's a Hold — balanced between a strong company and an uncertain entry.\n\n**Strategic Actions**: 1. Maintain existing AAPL positions at current levels. Do not initiate new longs at $178.30 given the compressed MACD histogram, below-average volume (0.82 relative), and the absence of revenue/earnings data in this historical window.\n\n2. For existing holders: keep positions but tighten risk management. Place a stop-loss below the 10 EMA at $175.98 (approximately 1.3% below current price). If price breaks below this level on above-average volume, reduce exposure — the next support is the 50 SMA at $167.76 (5.9% downside).\n\n3. For adding exposure: do not chase at current levels. Two acceptable entry triggers: (a) a pullback toward the 50 SMA at $167.76, where the risk/reward becomes more favorable, or (b) a confirmed breakout above the June 5 high of $182.24 on volume meaningfully above the 20-day average, which would signal renewed institutional participation.\n\n4. Position sizing: if adding on a pullback, size at roughly half of a normal full position given the incomplete fundamental picture (no revenue/margin data available). If adding on a confirmed breakout, full position sizing is acceptable given the trend confirmation.\n\n5. Monitor the MACD for a bearish crossover (MACD line crossing below signal line). If that occurs while price is below the 10 EMA, treat it as a trend-break signal and reduce exposure further.\n\n6. Reassess when fundamental data becomes available — revenue growth, Services segment performance, and margin trends are the missing pieces that would resolve the bull/bear uncertainty about whether this is a growth story or a mature cash-return story.",
+    "investment_plan_sha256": "aca239f47d2a028b620a8bd6addec04eb62ba61dec84a3d4274ab8c18c943176"
+  },
+  "reusable_for_M2_08": true,
+  "role": "TRAIN",
+  "schema_version": "M2-SEMANTIC-HANDOFF-v1",
+  "symbol": "AAPL"
+}

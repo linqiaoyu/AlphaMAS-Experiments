@@ -1,0 +1,36 @@
+{
+  "case_id": "ARR:2023-05-05",
+  "context": {
+    "company_of_interest": "ARR",
+    "decision_session": "2023-05-05",
+    "deterministic_temporal_context": {
+      "frozen_decision_time": "2023-05-05T20:00:00+00:00",
+      "historical_as_of": "2023-05-05T20:00:00+00:00",
+      "run_mode": "historical"
+    },
+    "instrument_context": "The instrument to analyze is `ARR`. Use this exact ticker in every tool call, report, and recommendation, preserving any exchange suffix (e.g. `.TO`, `.L`, `.HK`, `.T`, `-USD`).",
+    "ticker": "ARR"
+  },
+  "decision_session": "2023-05-05",
+  "evidence_packet_sha256": "9406342f04701a30858842eb60c5bce055031a088054cecbe73da90c9bab3db6",
+  "prompt_trader": {
+    "normalized_action": "SELL",
+    "proposal_sha256": "d60a77f8be6428f0cdf0e9a11ff8e7458cc15a0d237e2adc8417cc976c389c4a",
+    "rendered_proposal": "**Action**: Sell\n\n**Reasoning**: The investment plan recommends an Underweight rating, which translates to trimming ARR exposure by 25-35%. The evidence supports this: the stock is down 13.49% over 60 days, trading 6.4% below its 200-day SMA, MACD is negative at -0.11, EPS consensus is declining 10.71% YoY, and the leverage ratio sits at roughly 9.9:1 debt-to-equity. The dividend is at risk if the EPS decline persists, and the technical picture shows a confirmed downtrend with the 50-day SMA acting as resistance rather than support. While positive operating cash flow and revenue growth are real, the risk/reward is unfavorable, and the plan explicitly states not to initiate new long positions at current levels.\n\n**Entry Price**: 14.49\n\n**Stop Loss**: 13.9\n\n**Position Sizing**: Trim 25-35% of current position; retain no more than 2-3% of portfolio\n\nFINAL TRANSACTION PROPOSAL: **SELL**"
+  },
+  "provenance": {
+    "experiments_sha": "b4f3d22978048d079600752981694a5a7d0041ef",
+    "model_configuration_identity": "f2e15ee388ee60297930ddd2eb4ed5d73c27ee297472d97bb7d73bc49d2cd420",
+    "model_id": "deepseek-v4-flash",
+    "run_identity": "80f3e06a0de4c4e4e5ce153d07179c8d49c21223cc176865e53975555d65718c",
+    "source_sha": "6d3c46b96b8935944e0f232b73020262d870d953"
+  },
+  "research_manager": {
+    "investment_plan": "**Recommendation**: Underweight\n\n**Rationale**: Let me walk through how I weighed this debate, teammate. The bull makes a genuinely compelling case on the fundamentals — positive operating cash flow of $54.2M in Q1, revenue growth of +89.78% YoY, and management deploying $3.93B into new investments. Those are real, documented facts, and the bull is right that the stock has shown relative strength versus a cratering REIT sector. The technical argument about RSI recovering from oversold and price reclaiming the 10-day EMA has some merit as a short-term stabilization signal.\n\nBut the bear's case carries more weight when I strip away the rhetoric and focus on what the supplied evidence actually supports. The unambiguous facts are: the stock is down 13.49% over 60 days, trading 6.4% below its 200-day SMA, MACD is negative at -0.11, EPS consensus is declining 10.71% YoY, and the leverage ratio sits at roughly 9.9:1 debt-to-equity. The bear is correct that the $3.93B deployment is ambiguous — it could be forced reinvestment to maintain yield rather than discretionary conviction, and neither side has the line-item breakdown to settle it. The bear is also right that the \"Fed pivot\" thesis is speculation, not evidence — a pause doesn't reduce funding costs, and there's no data in the block supporting imminent rate cuts.\n\nThe dividend math is the crux for me. The bull claims the dividend is covered 2.8x by operating cash flow, and that's a fair point on a snapshot basis. But EPS is declining 10.71% YoY, and in a 5% rate environment with a 9.9:1 leverage ratio, the trajectory matters more than the snapshot. The bear's point about leverage amplifying book value erosion in a rising-rate environment is structurally sound — a 1% portfolio decline translates to roughly a 10% book value hit.\n\nThe technical picture is genuinely mixed. The bull's \"successful support test\" at the lower Bollinger Band is arguable, but the bear correctly notes the stock closed below the band on May 2 and the bounce to $14.49 is a mean reversion to the middle band, not a confirmed reversal. There's no MACD crossover, no volume confirmation on up days, and the 50-day SMA is declining — which makes it resistance, not support.\n\nNetting it all out: the bull has the better fundamental narrative, but the bear has the better structural and technical case, and the risk/reward is not favorable. The stock is in a confirmed downtrend with deteriorating earnings, dangerous leverage, and a dividend that's at risk if the EPS decline persists. This isn't a clean Sell — the positive cash flow and revenue growth are real, and the stock has shown relative resilience — but it's not a Buy or Hold either. The evidence tilts toward caution. I'm recommending Underweight: trim exposure, respect the downtrend, and wait for confirmed reversal signals before re-engaging.\n\n**Strategic Actions**: 1. TRIM: Reduce ARR exposure by approximately 25-35% from current position size, consistent with an Underweight rating. Do not initiate new long positions at current levels.\n\n2. RISK MANAGEMENT: For any remaining position, place a hard stop at $13.90 (below the May 2 low of $13.92). If the stock breaks below $13.40 (March 17 low), exit the remaining position entirely — that would confirm the bear's downside scenario toward $13.00.\n\n3. RE-ENTRY CRITERIA (do not re-engage until these confirm): (a) A MACD bullish crossover above the signal line, (b) a break above $15.04 (upper Bollinger Band) on above-average volume (relative volume > 1.2), or (c) evidence of a Fed rate cut or meaningful decline in funding costs. None of these exist as of 2023-05-05.\n\n4. MONITOR: Watch the 50-day SMA at $14.43 — a declining moving average is resistance, not support. A close below $14.00 would signal renewed downside momentum and warrant further trimming.\n\n5. FUNDAMENTAL WATCH: Track the next quarter's EPS and operating cash flow. If EPS decline accelerates beyond the -10.71% consensus or operating cash flow turns negative, downgrade to Sell. If revenue growth persists and margins stabilize, the Underweight can be revisited.\n\n6. POSITION SIZING: Keep any retained position modest — no more than 2-3% of portfolio given the 9.9:1 leverage and the structural risk in a 5% rate environment.",
+    "investment_plan_sha256": "47e0a5e60f3f4427377a6198b35eab1bcf3941cb48cccb83592449412661a5a5"
+  },
+  "reusable_for_M2_08": true,
+  "role": "TRAIN",
+  "schema_version": "M2-SEMANTIC-HANDOFF-v1",
+  "symbol": "ARR"
+}

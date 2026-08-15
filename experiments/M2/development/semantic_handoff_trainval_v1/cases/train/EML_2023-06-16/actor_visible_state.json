@@ -1,0 +1,36 @@
+{
+  "case_id": "EML:2023-06-16",
+  "context": {
+    "company_of_interest": "EML",
+    "decision_session": "2023-06-16",
+    "deterministic_temporal_context": {
+      "frozen_decision_time": "2023-06-16T20:00:00+00:00",
+      "historical_as_of": "2023-06-16T20:00:00+00:00",
+      "run_mode": "historical"
+    },
+    "instrument_context": "The instrument to analyze is `EML`. Use this exact ticker in every tool call, report, and recommendation, preserving any exchange suffix (e.g. `.TO`, `.L`, `.HK`, `.T`, `-USD`).",
+    "ticker": "EML"
+  },
+  "decision_session": "2023-06-16",
+  "evidence_packet_sha256": "45d6f2d8f1503bb20f207778a2479ba74ba7387c1dcd18eb33882b1dcd6dc6ef",
+  "prompt_trader": {
+    "normalized_action": "HOLD",
+    "proposal_sha256": "4a2edf18be3ecfa5a36bcfa33f344ff02cbb87a103f395380995b3d5ca161a8a",
+    "rendered_proposal": "**Action**: Hold\n\n**Reasoning**: The evidence is genuinely balanced between the bull and bear cases. The bull's technical case is legitimate — price closed above the 200-day SMA ($18.33) on 2.12x relative volume with expanding MACD and rising 10 EMA/50 SMA. However, the bear correctly identifies that RSI at 78.37 is extreme overbought, price is above the upper Bollinger Band, the 50 SMA remains below the 200 SMA (death cross), and the stock is a thinly-traded micro-cap (16,700 shares daily) with no revenue, EPS, or margin data to confirm the fundamental picture. With no sentiment data available and the stock having spiked 20% in two weeks, chasing at $18.48 offers poor risk/reward. The prudent stance is to hold — neither chase the momentum at stretched levels nor abandon the position given constructive technical signals. If establishing new exposure, wait for a pullback toward the 10 EMA ($16.82) or 50 SMA ($16.26), or a confirmed hold above the 200-day SMA for 5-10 trading days. Set a hard stop-loss at $16.80 for any held position.\n\n**Entry Price**: 16.82\n\n**Stop Loss**: 16.8\n\n**Position Sizing**: Conservative sizing given micro-cap liquidity profile (16,700 shares daily volume) and incomplete fundamental picture. Any new exposure limited to a small allocation until fundamental and sentiment data becomes clearer.\n\nFINAL TRANSACTION PROPOSAL: **HOLD**"
+  },
+  "provenance": {
+    "experiments_sha": "b4f3d22978048d079600752981694a5a7d0041ef",
+    "model_configuration_identity": "f2e15ee388ee60297930ddd2eb4ed5d73c27ee297472d97bb7d73bc49d2cd420",
+    "model_id": "deepseek-v4-flash",
+    "run_identity": "ede65e5ce015c3f6fdeeba86072db54c8ece08400ee28e5b98e65b1a8da67c0d",
+    "source_sha": "6d3c46b96b8935944e0f232b73020262d870d953"
+  },
+  "research_manager": {
+    "investment_plan": "**Recommendation**: Hold\n\n**Rationale**: Let me work through this debate carefully as the Research Manager.\n\nThe bull makes a strong technical case: price closed above the 200-day SMA ($18.33) for the first time in the current cycle, MACD is positive and expanding, the 10 EMA and 50 SMA are both rising, and relative volume is running at 2.12x the 20-day average. The bull also points to $6.86M in quarterly operating cash flow and a manageable ~1.02x debt-to-equity ratio as fundamental support.\n\nThe bear counters with equally compelling points: the 200-day SMA is still declining (a marginal close above a falling line is statistically unreliable), RSI at 78.37 is in extreme overbought territory, price closed above the upper Bollinger Band, the 50 SMA remains well below the 200 SMA (death cross configuration), and the stock is merely recovering its May losses rather than making new highs (still 0.5% below its 60-day peak). The bear also correctly notes that 16,700 shares is micro-cap liquidity, not institutional participation, and that we have no revenue, EPS, or margin data to contextualize the operating cash flow figure.\n\nWeighing both sides, I find the evidence genuinely balanced. The bull's technical case is real — the 200 SMA reclaim on 2x volume with expanding MACD is a legitimate signal. But the bear's caution is also well-founded: this is a thinly-traded micro-cap that has spiked 20% in two weeks into extreme overbought territory with no fundamental catalyst, no sentiment data, and a still-declining long-term trend. The absence of revenue and profitability data means we cannot confirm the fundamental picture the bull relies on. The sentiment void is a genuine limitation, not something to hand-wave away.\n\nNeither side has decisively won the argument. The bull has identified a plausible trend inflection, but the bear has correctly identified that the risk/reward at $18.48 after a 20% vertical move in a thin market is not compelling enough to justify chasing. Conversely, the bear's recommendation to wait for a pullback is reasonable but not so compelling that we should be actively short or underweight — the technical setup does suggest the stock could continue higher.\n\nThis is a case where the evidence on both sides is genuinely balanced, and the prudent stance is to hold — neither chase the momentum at these stretched levels nor abandon the position entirely given the constructive technical signals.\n\n**Strategic Actions**: 1. Maintain current position in EML at current levels (~$18.48). Do not add new exposure at these stretched technical levels.\n\n2. If establishing a new position, wait for one of two confirmations: (a) a pullback toward the 10 EMA at $16.82 or 50 SMA at $16.26, which would offer a more balanced risk/reward entry; or (b) a confirmed hold above the 200-day SMA at $18.33 for at least 5-10 trading days, which would validate the breakout.\n\n3. For existing holders, consider trimming a portion of the position into strength given the extreme overbought condition (RSI 78.37, price above upper Bollinger Band) and the thin liquidity profile (16,700 shares daily volume) that amplifies downside risk.\n\n4. Set a hard stop-loss at $16.80 (below the 10 EMA) for any position held, acknowledging that in a thin market, gap risk means this stop may fill lower than the theoretical level.\n\n5. Monitor for fundamental confirmation — specifically revenue, EPS, or margin data from the next quarterly filing — and any news or analyst coverage that would validate the rally. The absence of sentiment data is a genuine information gap that should be filled before adding meaningful exposure.\n\n6. Position sizing should be conservative given the micro-cap liquidity profile and incomplete fundamental picture. Any new exposure should be limited to a small allocation until the fundamental and sentiment picture becomes clearer.",
+    "investment_plan_sha256": "cdf463b4366455eff5f353a81520dedbea03d9bf494da574c3fd6250096ac53e"
+  },
+  "reusable_for_M2_08": true,
+  "role": "TRAIN",
+  "schema_version": "M2-SEMANTIC-HANDOFF-v1",
+  "symbol": "EML"
+}

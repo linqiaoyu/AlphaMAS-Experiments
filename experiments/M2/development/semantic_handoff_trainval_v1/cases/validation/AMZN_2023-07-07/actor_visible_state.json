@@ -1,0 +1,36 @@
+{
+  "case_id": "AMZN:2023-07-07",
+  "context": {
+    "company_of_interest": "AMZN",
+    "decision_session": "2023-07-07",
+    "deterministic_temporal_context": {
+      "frozen_decision_time": "2023-07-07T20:00:00+00:00",
+      "historical_as_of": "2023-07-07T20:00:00+00:00",
+      "run_mode": "historical"
+    },
+    "instrument_context": "The instrument to analyze is `AMZN`. Use this exact ticker in every tool call, report, and recommendation, preserving any exchange suffix (e.g. `.TO`, `.L`, `.HK`, `.T`, `-USD`).",
+    "ticker": "AMZN"
+  },
+  "decision_session": "2023-07-07",
+  "evidence_packet_sha256": "3e08b0b7de3bc6a471d40c351b1c1d9575f3cc3d4305cba652543ae1b7cd7988",
+  "prompt_trader": {
+    "normalized_action": "HOLD",
+    "proposal_sha256": "7b069a83525874c93e549c4540aa994965592005fc4d66c58dc805e88db49701",
+    "rendered_proposal": "**Action**: Hold\n\n**Reasoning**: The investment plan presents a genuinely balanced case for AMZN. The bullish technical structure (price above the 10 EMA > 50 SMA > 200 SMA stack, RSI at 60.96, Prime Day catalyst on July 11) is offset by deteriorating momentum (MACD down 37% over 30 days, negative histogram since mid-June, volume at 0.74x the 20-day average) and a 24.4% extension above the 200 SMA. Critically, the data environment is thin — no income statement, EPS, P/E, sentiment, or macro data is available — so valuation cannot be assessed. With the stock grinding sideways between $127-131 and unable to make new highs, the prudent stance is to maintain existing exposure without adding new capital at $129.78. The plan's triggers are sound: add on a pullback toward the $119 (50 SMA) support or a confirmed breakout above $132 on above-average volume, with a hard stop below $119.\n\n**Entry Price**: 119.0\n\n**Stop Loss**: 119.0\n\n**Position Sizing**: Neutral-to-slightly-reduced weight relative to benchmark; do not overweight until momentum (MACD histogram positive, volume expansion) or fundamental data (income statement) resolves.\n\nFINAL TRANSACTION PROPOSAL: **HOLD**"
+  },
+  "provenance": {
+    "experiments_sha": "b4f3d22978048d079600752981694a5a7d0041ef",
+    "model_configuration_identity": "f2e15ee388ee60297930ddd2eb4ed5d73c27ee297472d97bb7d73bc49d2cd420",
+    "model_id": "deepseek-v4-flash",
+    "run_identity": "799096278741b5e115e8a904860c782b93866bdec36700e83739b7fc931cc230",
+    "source_sha": "6d3c46b96b8935944e0f232b73020262d870d953"
+  },
+  "research_manager": {
+    "investment_plan": "**Recommendation**: Hold\n\n**Rationale**: Let me weigh both sides of this debate carefully.\n\nThe bull makes a strong case on the technical structure: price sits above a textbook bullish moving average stack (price > 10 EMA > 50 SMA > 200 SMA), the 50 SMA has risen 9.3% in a month, RSI at 60.96 is in bullish territory but not overbought, and the stock is just 0.46% from its 60-day high. The institutional accumulation narrative (Englander +4,600%, Tepper +2,200%) is genuinely notable, and Prime Day on July 11 is a real, scheduled near-term catalyst. The balance sheet shows $154.5B in equity and positive operating cash flow.\n\nBut the bear's counterpoints carry real weight and I can't dismiss them. The momentum indicators are genuinely deteriorating: MACD has fallen from 4.63 to 2.92 (a 37% decline over 30 days), the histogram has been negative since mid-June, RSI has rolled over from 68.5, ATR is compressing, and volume is at 0.74x the 20-day average. The stock has been unable to make new highs for weeks — grinding sideways between roughly $127-131. The stock is extended 24.4% above its 200 SMA, which historically has preceded muted or negative forward returns for AMZN. The institutional positions were built during the bear market at $90-105, not at $130 — so their \"conviction\" doesn't validate buying at current levels, and there's genuine risk they take profits after a 30% run.\n\nCritically, the data environment is thin: no income statement data (no revenue, net income, or EPS), no sentiment data of any kind, and no macro context. We cannot calculate a P/E. The bear is right that buying near a 52-week high with no profitability data and deteriorating momentum is asking for faith, not evidence.\n\nThe bull's strongest points — the bullish MA stack, the near-term Prime Day catalyst, and the fortress balance sheet — are real but largely already reflected in the price after a 29.88% run. The bear's strongest points — deteriorating momentum, weak volume, extended valuation above the 200 SMA, and the absence of fundamental/sentiment data — argue against chasing at $129.78.\n\nThis is a genuinely balanced situation. The trend is up and the company is high quality, but the stock is extended, momentum is fading, and the evidence base is too thin to justify a fresh BUY at the highs. The prudent stance is to maintain current exposure without adding, and to wait for either a pullback toward the $119 support (50 SMA) or a confirmed breakout above $132 with volume before committing new capital. That's a HOLD.\n\n**Strategic Actions**: 1. Maintain existing AMZN positions at current levels; do not add new exposure at $129.78 given the 24.4% extension above the 200 SMA and deteriorating momentum indicators.\n\n2. For existing holders: consider trimming a modest portion (10-20%) of the position into strength given the 29.88% 60-day run and the risk of a \"sell the news\" reaction around Prime Day (July 11). Lock in some gains while retaining core exposure to the uptrend.\n\n3. For new buyers: do not initiate at current levels. Wait for one of two entry triggers: (a) a pullback to the $119 area (50 SMA) where risk/reward improves, or (b) a confirmed breakout above $132 on above-average volume (relative volume > 1.0) that signals renewed institutional participation.\n\n4. Set a hard risk-management stop for any held position below the 50 SMA at $119. If the stock breaks below this level on rising volume, the next support is the 200 SMA at $104.30 — a 19.6% decline — so respect the stop.\n\n5. Monitor the Prime Day event (July 11) closely. If the stock rallies into the event, be alert for profit-taking; if it dips after, treat a move toward $119 as a potential accumulation zone rather than a breakdown signal unless volume confirms distribution.\n\n6. Position sizing: keep AMZN at a neutral-to-slightly-reduced weight relative to benchmark. Do not overweight until either the momentum indicators (MACD histogram turning positive, volume expanding) or the fundamental data gap (income statement) is resolved.\n\n7. Reassess after Q2 earnings and once income statement data becomes available, as the current inability to calculate valuation metrics (P/E) is a genuine limitation of the investment case.",
+    "investment_plan_sha256": "db877be44e50b4b7c046c892c26fd55ea2cfb87130fd56be8c4d77f7ab3a03ab"
+  },
+  "reusable_for_M2_08": true,
+  "role": "VALIDATION",
+  "schema_version": "M2-SEMANTIC-HANDOFF-v1",
+  "symbol": "AMZN"
+}

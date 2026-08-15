@@ -1,0 +1,36 @@
+{
+  "case_id": "JBSS:2023-06-30",
+  "context": {
+    "company_of_interest": "JBSS",
+    "decision_session": "2023-06-30",
+    "deterministic_temporal_context": {
+      "frozen_decision_time": "2023-06-30T20:00:00+00:00",
+      "historical_as_of": "2023-06-30T20:00:00+00:00",
+      "run_mode": "historical"
+    },
+    "instrument_context": "The instrument to analyze is `JBSS`. Use this exact ticker in every tool call, report, and recommendation, preserving any exchange suffix (e.g. `.TO`, `.L`, `.HK`, `.T`, `-USD`).",
+    "ticker": "JBSS"
+  },
+  "decision_session": "2023-06-30",
+  "evidence_packet_sha256": "ef638df1a099c38d17611394f4041d60d5855fa39af8924dd8084dc69eb0c07e",
+  "prompt_trader": {
+    "normalized_action": "HOLD",
+    "proposal_sha256": "fec7032246788940eb8e8f4b324d1477f09f82770dbe621538be21afea3547e8",
+    "rendered_proposal": "**Action**: Hold\n\n**Reasoning**: The evidence presents a genuinely two-sided risk/reward profile. The bull case rests on a strong structural uptrend (price 28% above a rising 200-day SMA, 2.4% above a rising 50-day SMA), robust cash generation ($72.4M operating cash flow), and a conservative 0.52x debt-to-equity ratio. However, short-term momentum has clearly deteriorated: price broke below the 10-day EMA, MACD crossed bearish with an expanding negative histogram, RSI fell below 50 from overbought, and price is below the VWMA. The fundamental picture is incomplete — no revenue, margin, or earnings data is available to confirm either the bull's pricing-power thesis or the bear's margin-compression concerns. Given the balanced evidence, maintaining the current position with a hard stop-loss below the 50-day SMA at $102.90 is the prudent stance. The 50-day SMA is the critical decision level; until price either reclaims the 10-day EMA (~$108.55) for bullish confirmation or breaks $102.90 for bearish confirmation, conviction in either direction is not justified.\n\n**Entry Price**: 105.41\n\n**Stop Loss**: 102.9\n\n**Position Sizing**: 2-4% of portfolio\n\nFINAL TRANSACTION PROPOSAL: **HOLD**"
+  },
+  "provenance": {
+    "experiments_sha": "b4f3d22978048d079600752981694a5a7d0041ef",
+    "model_configuration_identity": "f2e15ee388ee60297930ddd2eb4ed5d73c27ee297472d97bb7d73bc49d2cd420",
+    "model_id": "deepseek-v4-flash",
+    "run_identity": "51a0889059b6618ece025a57fafda9bca844aa119574c60b15c3460504dbd31e",
+    "source_sha": "6d3c46b96b8935944e0f232b73020262d870d953"
+  },
+  "research_manager": {
+    "investment_plan": "**Recommendation**: Hold\n\n**Rationale**: Let me weigh both sides of this debate carefully.\n\nThe bull makes a compelling structural case: JBSS is in a powerful long-term uptrend (price 28% above a rising 200-day SMA, 2.4% above a rising 50-day SMA that has climbed ~10% in a month), with strong cash generation ($72.4M operating cash flow over 9 months), a conservative 0.52x debt-to-equity ratio, and a shallow 6.8% pullback on below-average volume. The bull correctly notes that the medium-term trend (20-day +2.6%, 60-day +21.5%) remains intact and that the pullback is orderly rather than a high-volume distribution.\n\nThe bear makes an equally important short-term case: price has broken below the 10-day EMA, the MACD has crossed bearish with an expanding negative histogram, RSI has fallen below the 50 midline from overbought levels, price is below the VWMA, and the stock is down 5.6% in five days. The bear also raises legitimate concerns about the incompleteness of the fundamental picture — we have cash flow and balance sheet data but no revenue, margin, or earnings data, which means we cannot verify pricing power or margin protection in an inflationary environment. The bear's point that a 28% premium to the 200-day SMA leaves room for partial mean reversion (to $95-97) is a realistic scenario, not a tail risk.\n\nWhere the debate genuinely splits: the bull's case rests on structural trend and fundamentals that are real but incomplete; the bear's case rests on short-term momentum that has clearly turned negative but is trading a 5-day window against a 60-day uptrend. Neither side has a decisive edge. The bull cannot prove the selling is over (the MACD histogram is expanding negatively, RSI is below 50), and the bear cannot prove the business is deteriorating (no negative news, strong cash flow, clean balance sheet). The absence of income statement data is a genuine gap that cuts both ways — it prevents us from confirming the bull's pricing-power thesis while also preventing the bear from confirming margin compression.\n\nGiven the genuine balance of evidence — a strong structural uptrend and sound balance sheet versus clearly deteriorating short-term momentum and an incomplete fundamental picture — the prudent stance is to maintain the current position rather than add aggressively or exit. The risk/reward is genuinely two-sided here: the 50-day SMA at $102.90 is a critical decision level, and until price either reclaims the 10-day EMA (bullish confirmation) or breaks the 50-day SMA (bearish confirmation), the evidence does not justify conviction in either direction.\n\n**Strategic Actions**: 1. Maintain current JBSS position at current levels (~$105.41). Do not add aggressively given deteriorating short-term momentum (MACD bearish crossover, RSI below 50, price below 10-day EMA and VWMA).\n\n2. Set a hard stop-loss below the 50-day SMA at $102.90. If price closes below this level, reduce or exit the position — the next support zone is $95-97 (early June consolidation), representing an additional 8-10% downside.\n\n3. If holding a position, consider trimming a portion (e.g., 25-50%) into any bounce toward the 10-day EMA (~$108.55) or the recent high (~$113) to lock in gains from the 57% rally, given the incomplete fundamental picture (no revenue/margin/earnings data available).\n\n4. Re-entry or add signal: wait for price to reclaim the 10-day EMA AND the MACD to turn positive (or at least the histogram to stop expanding negatively) before adding exposure. This confirms the pullback has stabilized.\n\n5. Position sizing: keep any JBSS position modest (e.g., 2-4% of portfolio) given the elevated realized volatility (29.6% annualized) and the genuine two-sided risk. Do not size for a high-conviction trade until the fundamental picture (income statement data) is confirmed.\n\n6. Monitor the $102.90-$104.34 support zone closely. A hold of this zone with stabilizing volume would support a constructive view; a break would confirm the bear's mean-reversion scenario.",
+    "investment_plan_sha256": "fd54e144cf70e4dfad7b022cac5963879f7c62d900311a5de401bfbfb1d7ecdc"
+  },
+  "reusable_for_M2_08": true,
+  "role": "VALIDATION",
+  "schema_version": "M2-SEMANTIC-HANDOFF-v1",
+  "symbol": "JBSS"
+}

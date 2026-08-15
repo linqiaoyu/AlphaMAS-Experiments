@@ -1,0 +1,36 @@
+{
+  "case_id": "AGI:2023-06-02",
+  "context": {
+    "company_of_interest": "AGI",
+    "decision_session": "2023-06-02",
+    "deterministic_temporal_context": {
+      "frozen_decision_time": "2023-06-02T20:00:00+00:00",
+      "historical_as_of": "2023-06-02T20:00:00+00:00",
+      "run_mode": "historical"
+    },
+    "instrument_context": "The instrument to analyze is `AGI`. Use this exact ticker in every tool call, report, and recommendation, preserving any exchange suffix (e.g. `.TO`, `.L`, `.HK`, `.T`, `-USD`).",
+    "ticker": "AGI"
+  },
+  "decision_session": "2023-06-02",
+  "evidence_packet_sha256": "96a0fd89e4959e7d475d1c6d805b63995b13387ed4ba08602409c40fce6d6584",
+  "prompt_trader": {
+    "normalized_action": "SELL",
+    "proposal_sha256": "ed30e4740150bec9dae1fff896ac66382e549132b337520b6806b805c41f5c3e",
+    "rendered_proposal": "**Action**: Sell\n\n**Reasoning**: The research plan calls for a cautious Underweight on AGI, and the near-term technical evidence is decisively bearish. Price sits below every short and medium-term indicator (10 EMA, 50 SMA, VWMA, Bollinger middle), the 20-day return is deeply negative at -10.69%, and the stock failed to hold above the $12.16 analyst consensus target after crossing it on June 1 — a failed breakout. MACD remains negative and below its signal line, and RSI at 41.14 suggests the oversold bounce has already played out. The plan explicitly advises trimming exposure into strength toward the $12.31-$12.67 resistance cluster and tightening stops below $11.92, with no new long entries at the current ~$12.09 level. Given the concrete bearish breakdown versus the speculative bull catalysts, I recommend trimming/selling into the $12.31-$12.67 resistance zone with a stop below $11.92, while acknowledging the intact long-term trend argues against aggressive shorting.\n\n**Entry Price**: 12.31\n\n**Stop Loss**: 11.92\n\n**Position Sizing**: Reduce exposure relative to full-weight; trim into strength toward $12.31-$12.67 resistance cluster\n\nFINAL TRANSACTION PROPOSAL: **SELL**"
+  },
+  "provenance": {
+    "experiments_sha": "2bf79ffce2dedf15e157f48a5e3727eef611d0e9",
+    "model_configuration_identity": "f2e15ee388ee60297930ddd2eb4ed5d73c27ee297472d97bb7d73bc49d2cd420",
+    "model_id": "deepseek-v4-flash",
+    "run_identity": "60205dd23ba660cba4788eaf8cb807ff7378fddc061a14ef91094b4db22b694d",
+    "source_sha": "6d3c46b96b8935944e0f232b73020262d870d953"
+  },
+  "research_manager": {
+    "investment_plan": "**Recommendation**: Underweight\n\n**Rationale**: After weighing both sides of the debate, I'm landing on a cautious Underweight for AGI. The bull makes a legitimate point that the long-term trend is intact — price sits 21.9% above a rising 200-day SMA at $9.92, and the +24% 60-day return reflects a genuinely powerful uptrend. The deeply oversold precious metals complex (Gold RSI 6.5, Silver 12.0) and improving MACD histogram are real considerations. However, the bear's evidence is more current and more concrete. The most relevant data point — the 20-day return of -10.69% — is deeply negative, and price is below every short and medium-term indicator (10 EMA, 50 SMA, VWMA, Bollinger middle). The stock failed to hold above the $12.16 analyst consensus target after crossing it on June 1, which reads as a failed breakout rather than a setup for upward revisions. The MACD remains negative and below its signal line, and RSI at 41.14 suggests the oversold bounce has already partially played out. The bull's catalysts — analyst target revisions and a gold rally — are speculative and unconfirmed in the supplied evidence, whereas the bear's technical breakdown is directly observable. The bull's \"buy now\" is premature without a confirmed reversal signal, and the path to the $13.60 target is blocked by four clustered resistance levels. That said, the intact long-term trend and rising 200 SMA argue against a full Sell. The balance of near-term evidence leans bearish, so I'm trimming rather than holding flat or buying.\n\n**Strategic Actions**: For AGI, adopt a cautious Underweight stance. If holding a position, trim exposure into any strength toward the $12.31-$12.67 resistance cluster (10 EMA / VWMA / 50 SMA), and tighten stop-losses to below the recent low at $11.92. Do not initiate new long positions at the current ~$12.09 level — the medium-term technicals are bearish with no confirmed reversal signal. For new entry, wait for one of two higher-probability triggers: (1) a reclaim of the 50 SMA at $12.67 with positive MACD, or (2) a capitulation washout below $11.61 with RSI below 30. Position sizing should be reduced relative to a full-weight holding given the near-term downside risk toward $11.00. Maintain awareness that the long-term trend remains intact, so avoid aggressive shorting; the stance is one of reducing exposure and waiting for better evidence rather than exiting entirely.",
+    "investment_plan_sha256": "d74e60c9fd4de46385e93c133993b37371b5822516d58a27d18e6bc443861dad"
+  },
+  "reusable_for_M2_08": true,
+  "role": "TRAIN",
+  "schema_version": "M2-SEMANTIC-HANDOFF-v1",
+  "symbol": "AGI"
+}

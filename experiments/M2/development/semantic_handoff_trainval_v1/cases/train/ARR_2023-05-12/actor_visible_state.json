@@ -1,0 +1,36 @@
+{
+  "case_id": "ARR:2023-05-12",
+  "context": {
+    "company_of_interest": "ARR",
+    "decision_session": "2023-05-12",
+    "deterministic_temporal_context": {
+      "frozen_decision_time": "2023-05-12T20:00:00+00:00",
+      "historical_as_of": "2023-05-12T20:00:00+00:00",
+      "run_mode": "historical"
+    },
+    "instrument_context": "The instrument to analyze is `ARR`. Use this exact ticker in every tool call, report, and recommendation, preserving any exchange suffix (e.g. `.TO`, `.L`, `.HK`, `.T`, `-USD`).",
+    "ticker": "ARR"
+  },
+  "decision_session": "2023-05-12",
+  "evidence_packet_sha256": "ee0582fe8356fd955bbcebba211a2a3393dca6807450546645dbf35b4292be35",
+  "prompt_trader": {
+    "normalized_action": "SELL",
+    "proposal_sha256": "e4d96d9395851600862c61c265a78e1b8d31d086cf2f7dca98242dc131f306ea",
+    "rendered_proposal": "**Action**: Sell\n\n**Reasoning**: The investment plan recommends an Underweight stance, calling for a 25-35% reduction in ARR exposure. The bear's structural concerns dominate: 10.9x leverage with only a 9.2% equity cushion in a 5% rate environment with an inverted yield curve, a payout ratio exceeding 100% (projected EPS ~$1.00 vs. ~10% dividend yield), and a confirmed downtrend with the stock below all major moving averages. The 2020 precedent of an 85% dividend cut is a documented risk that management has demonstrated willingness to execute. While the stock has fallen significantly and shows some technical stabilization signals, the probability weighting favors the downside given deteriorating fundamentals and structurally adverse conditions. The plan's stop-loss at $13.90 (below the Bollinger lower band at $13.96) provides a clear exit trigger, with next supports at $13.00 and $12.00 representing 8.6% and 15.7% further downside respectively.\n\n**Entry Price**: 14.39\n\n**Stop Loss**: 13.9\n\n**Position Sizing**: Reduce position by 25-35% over next 1-2 weeks; remaining position should be sized so a 15% decline to ~$12.00 would not cause portfolio-level stress\n\nFINAL TRANSACTION PROPOSAL: **SELL**"
+  },
+  "provenance": {
+    "experiments_sha": "b4f3d22978048d079600752981694a5a7d0041ef",
+    "model_configuration_identity": "f2e15ee388ee60297930ddd2eb4ed5d73c27ee297472d97bb7d73bc49d2cd420",
+    "model_id": "deepseek-v4-flash",
+    "run_identity": "e5f60b6d54d653bd4000e9a32183003517c33e4d0ccb9724a175cf2458a6543f",
+    "source_sha": "6d3c46b96b8935944e0f232b73020262d870d953"
+  },
+  "research_manager": {
+    "investment_plan": "**Recommendation**: Underweight\n\n**Rationale**: Let me weigh both sides of this debate carefully.\n\nThe bull makes a legitimate point that the stock has already fallen significantly (-10.16% over 60 days, -12.15% from peak) and that some technical indicators (MACD histogram turning positive, RSI recovering from oversold, ATR contracting) suggest the selling pressure may be exhausting. The positive operating cash flow of $54.2M and revenue growth of 89.8% YoY are real data points that shouldn't be dismissed.\n\nHowever, the bear's case is more grounded in the structural realities of this specific instrument. The 10.9x leverage with only a 9.2% equity cushion is genuinely concerning in a 5% rate environment with an inverted yield curve. The bear correctly identifies that the 25.15% annualized volatility is stock price volatility, and a 9% asset-value decline is not a tail event in that context. The payout ratio math is also compelling — with projected annual EPS around $1.00 and a dividend yielding roughly 10% at $14.23, the payout ratio appears to exceed 100%, which is not sustainable without further leverage or return of capital. The 2020 precedent of an 85% dividend cut is a documented fact that the bull never adequately refutes.\n\nThe technical picture is genuinely mixed. The stock is below all major moving averages (10-day, 50-day, 200-day), which is a confirmed downtrend. The MACD histogram at +0.01 is barely positive and both MACD lines remain negative. RSI at 45.57 is still below 50. These are weak bullish signals at best.\n\nThe bull's strongest argument is that the risk-reward is asymmetric to the upside (1.9% downside to support vs. 8.2% upside to the 200-day SMA). But the bear correctly notes that the 200-day SMA is declining and the full downside picture includes $13.00 and $12.00 levels. In a confirmed downtrend with deteriorating fundamentals, the probability weighting favors the downside.\n\nThis is not a clean Sell — the stock has fallen a lot, the company is generating positive cash flow, and management is actively deploying capital, which suggests they see value. But it's also not a Hold-to-Accumulate. The leverage, the unsustainable payout ratio, the confirmed downtrend, and the structurally adverse rate environment all argue for caution. The prudent stance is to reduce exposure — trim the position — rather than either accumulate aggressively or exit entirely. The evidence on both sides is not perfectly balanced, but the bear's structural concerns carry more weight than the bull's technical stabilization narrative.\n\n**Strategic Actions**: 1. REDUCE exposure to ARR by approximately 25-35% of the current position over the next 1-2 weeks, taking advantage of any short-term bounces toward the $14.39 (50-day SMA) level.\n\n2. Set a hard stop-loss at $13.90 (just below the Bollinger lower band at $13.96). If this level breaks, exit the remaining position entirely — the next supports are $13.00 and $12.00, representing 8.6% and 15.7% further downside.\n\n3. Do NOT add to the position at current levels. The payout ratio exceeding 100% and the 10.9x leverage in a 5% rate environment with an inverted yield curve create genuine dividend-cut risk. Wait for evidence of book value stabilization or a confirmed rate pivot before re-engaging.\n\n4. Monitor the dividend closely. If ARR announces any reduction or suspension of the distribution, exit the position immediately — this would confirm the bear's thesis and likely trigger a sharp repricing.\n\n5. Re-evaluate the position if the stock reclaims and holds above the 200-day SMA (currently ~$15.40 and declining). A sustained close above this level would signal genuine trend reversal and warrant reconsideration of the Underweight stance.\n\n6. Position sizing: Any remaining ARR position should be sized so that a 15% further decline (to ~$12.00) would not cause portfolio-level stress. Given the 25%+ annualized volatility, treat this as a high-risk, income-oriented holding, not a core position.",
+    "investment_plan_sha256": "17658bbb12378ff2547ddc6a94980a976951b19560e07845394163f2499a263d"
+  },
+  "reusable_for_M2_08": true,
+  "role": "TRAIN",
+  "schema_version": "M2-SEMANTIC-HANDOFF-v1",
+  "symbol": "ARR"
+}

@@ -1,0 +1,36 @@
+{
+  "case_id": "AEMD:2023-07-07",
+  "context": {
+    "company_of_interest": "AEMD",
+    "decision_session": "2023-07-07",
+    "deterministic_temporal_context": {
+      "frozen_decision_time": "2023-07-07T20:00:00+00:00",
+      "historical_as_of": "2023-07-07T20:00:00+00:00",
+      "run_mode": "historical"
+    },
+    "instrument_context": "The instrument to analyze is `AEMD`. Use this exact ticker in every tool call, report, and recommendation, preserving any exchange suffix (e.g. `.TO`, `.L`, `.HK`, `.T`, `-USD`).",
+    "ticker": "AEMD"
+  },
+  "decision_session": "2023-07-07",
+  "evidence_packet_sha256": "c31895c00be36d33593bea13fb1bff1ea38803f52ea512408809155fcad29ce4",
+  "prompt_trader": {
+    "normalized_action": "HOLD",
+    "proposal_sha256": "f6a2e10ceacfcf77f22865783a9436121230a585891b9723331b1cdd97062f45",
+    "rendered_proposal": "**Action**: Hold\n\n**Reasoning**: The research plan recommends Underweight for AEMD, and the evidence supports not initiating or adding at current levels (~$352). The stock is a pre-revenue clinical-stage company with a -$10.5M annual operating cash burn, ~1.5-2 years runway, no identifiable fundamental catalyst, and all sentiment data unavailable. While short-term momentum is positive (+22.2% over 20 days, RSI 64.61, MACD expanding), the 113.9% annualized volatility, 56.2% 20-day range, and ambiguous volume (single-day spike followed by 89% collapse) make this a whipsawing, low-liquidity name. The stock is still 27.9% below its 60-day peak, and the 200 SMA breakout (353.24) has NOT yet been confirmed on sustained volume. Given the unfavorable risk/reward (downside to May low of 240 is -31.8% vs upside to 400 of +13.6%) and absence of any fundamental floor, I do not have conviction to Buy. However, the momentum and possibility of a confirmed 200 SMA breakout mean I also lack conviction to Sell outright. The correct stance is Hold: do not initiate new exposure, trim existing positions to reduce risk, and only consider a tactical long on a confirmed close above 353.24 on sustained volume with a tight stop below ~312.\n\n**Entry Price**: 353.24\n\n**Stop Loss**: 312.0\n\n**Position Sizing**: Well below normal position size; speculative trade only, not an investment\n\nFINAL TRANSACTION PROPOSAL: **HOLD**"
+  },
+  "provenance": {
+    "experiments_sha": "b4f3d22978048d079600752981694a5a7d0041ef",
+    "model_configuration_identity": "f2e15ee388ee60297930ddd2eb4ed5d73c27ee297472d97bb7d73bc49d2cd420",
+    "model_id": "deepseek-v4-flash",
+    "run_identity": "475635cbc2cc31f89519f64a27b3a889cc6f4d1f5e18ead9e2fbe9539740202d",
+    "source_sha": "6d3c46b96b8935944e0f232b73020262d870d953"
+  },
+  "research_manager": {
+    "investment_plan": "**Recommendation**: Underweight\n\n**Rationale**: Let me walk through how I weighed this debate, teammate.\n\nThe bull makes a genuinely compelling technical case: AEMD is up +22.2% over 20 days, +10% over 5 days, RSI at 64.61 is below the 70 overbought threshold, MACD is expanding, and the stock is testing a declining 200 SMA (353.24) that is converging toward price — meaning a breakout requires less effort. The bull also correctly notes the balance sheet is low-debt (14% debt-to-assets, $15.06M equity) and that the July 6 volume spike (10,088 shares, 20-50x normal) suggests real participation.\n\nBut the bear's counterpoints carry more weight when I step back and look at the whole picture rather than the last two days. The stock is still 27.9% below its 60-day peak, and the 20-day high-low range of 56.2% with 113.9% annualized realized volatility tells me this is not a stable trend — it's a violently whipsawing, low-liquidity name. The volume story is genuinely ambiguous: a single-day spike followed by an 89% collapse (10,088 → 951) is more consistent with a short squeeze or momentum spike than sustained institutional accumulation, and relative volume of only 1.26x does not scream conviction.\n\nThe fundamental picture is the decisive factor. This is a pre-revenue clinical-stage company with a -$10.5M annual operating cash burn, ~1.5-2 years of runway, and no identifiable catalyst in the data. Revenue is unavailable. All three sentiment sources returned unavailable — there is no fundamental floor and no news-driven reason for the 29% two-day move. The bull's \"asymmetric risk/reward\" relies on support levels (312, 279) that, given the 56% 20-day range, could be blown through in a single session; the downside to the May low of 240 is -31.8%, which is worse than the upside to 400 (+13.6%).\n\nThe bull wins the technical-momentum argument on the short term, but the bear wins on the structural, fundamental, and risk-management arguments. Given the extreme volatility, the absence of any fundamental catalyst, the pre-revenue cash-burn profile, and the fact that the stock is chasing a move that has already happened, I do not have conviction to Buy or Overweight. However, the momentum and the possibility of a confirmed 200 SMA breakout on sustained volume mean I also don't have conviction to Sell outright. The honest stance is Underweight: trim or avoid new exposure, and only consider a tactical long if a confirmed breakout above the 200 SMA occurs on sustained volume with a tight stop.\n\n**Strategic Actions**: 1. Do NOT initiate or add to a position in AEMD at current levels (~$352). The risk/reward is unfavorable given 113.9% annualized volatility, a 56.2% 20-day range, and a stock still 27.9% below its 60-day peak.\n\n2. If holding an existing position, trim exposure to reduce risk given the pre-revenue cash-burn profile (-$10.5M annual operating burn, ~1.5-2 years runway) and the absence of any identifiable fundamental catalyst.\n\n3. For traders only: a tactical long is acceptable ONLY on a confirmed close above the 200 SMA (353.24) on SUSTAINED volume (not a one-day spike), with a tight stop below the 10 EMA (~312). Do not chase the current move.\n\n4. Position sizing: keep any exposure small (well below normal position size) given the extreme volatility and low liquidity. This is a speculative trade, not an investment.\n\n5. Monitor for catalysts: watch for any news, clinical trial data, FDA decisions, or financing announcements. The sentiment data is currently unavailable across all sources, so there is no fundamental floor under the stock. Re-evaluate if a fundamental catalyst emerges or if the 200 SMA breakout confirms on volume.",
+    "investment_plan_sha256": "2e735dffa9daad098a9361e13094f4262acafe3e7634e7e23c9ff62f2a5b6ddb"
+  },
+  "reusable_for_M2_08": true,
+  "role": "VALIDATION",
+  "schema_version": "M2-SEMANTIC-HANDOFF-v1",
+  "symbol": "AEMD"
+}

@@ -1,0 +1,36 @@
+{
+  "case_id": "AMZN:2023-06-30",
+  "context": {
+    "company_of_interest": "AMZN",
+    "decision_session": "2023-06-30",
+    "deterministic_temporal_context": {
+      "frozen_decision_time": "2023-06-30T20:00:00+00:00",
+      "historical_as_of": "2023-06-30T20:00:00+00:00",
+      "run_mode": "historical"
+    },
+    "instrument_context": "The instrument to analyze is `AMZN`. Use this exact ticker in every tool call, report, and recommendation, preserving any exchange suffix (e.g. `.TO`, `.L`, `.HK`, `.T`, `-USD`).",
+    "ticker": "AMZN"
+  },
+  "decision_session": "2023-06-30",
+  "evidence_packet_sha256": "decbd61369a6cf55455e9cc980b89b4d1e85e344b1fed1f49df4de32982fc738",
+  "prompt_trader": {
+    "normalized_action": "BUY",
+    "proposal_sha256": "350bb11bc3597b6683dfc6a938e5d91843a57079e57ee04f51dc93c63525d664",
+    "rendered_proposal": "**Action**: Buy\n\n**Reasoning**: The investment plan recommends an Overweight stance on AMZN, driven by a powerful intact uptrend (up 25.4% in 60 days, above all major moving averages, RSI at a healthy 64.38) and a genuine AWS/AI catalyst backed by a fortress balance sheet. However, the plan explicitly warns against chasing at $130.36 given the stock is extended 11.3% above the 50 SMA, momentum is diverging (MACD/RSI), and operating cash flow has declined 63% YoY. The disciplined approach is to scale in on weakness rather than chase strength — adding on a pullback toward the 10 EMA ($128) and 20 SMA ($126.50) with small tranches, and being prepared to add more aggressively toward the 50 SMA ($117). Position sizing should be a moderate overweight (1.25-1.5x benchmark) given elevated volatility (28.8% annualized) and the risk of a 10-15% mean-reversion correction. A close below the 20 SMA ($126.50) on meaningful volume would signal the momentum divergence is resolving bearishly and warrant trimming.\n\n**Entry Price**: 128.0\n\n**Stop Loss**: 126.5\n\n**Position Sizing**: 1.25-1.5x benchmark weight (moderate overweight), scaled in tranches on weakness\n\nFINAL TRANSACTION PROPOSAL: **BUY**"
+  },
+  "provenance": {
+    "experiments_sha": "b4f3d22978048d079600752981694a5a7d0041ef",
+    "model_configuration_identity": "f2e15ee388ee60297930ddd2eb4ed5d73c27ee297472d97bb7d73bc49d2cd420",
+    "model_id": "deepseek-v4-flash",
+    "run_identity": "c5fc907f0974294aa17c46a77e01c0de407abe3e740af36fda3d98cb423520c1",
+    "source_sha": "6d3c46b96b8935944e0f232b73020262d870d953"
+  },
+  "research_manager": {
+    "investment_plan": "**Recommendation**: Overweight\n\n**Rationale**: This was a genuinely well-fought debate, and both sides made compelling points. The bull's case rests on undeniable technical strength — AMZN is up 25.4% in 60 days with zero drawdown, sitting above every major moving average with perfect alignment, RSI at a healthy 64.38 (not overbought), and price above VWMA confirming institutional buying pressure. The AWS/AI catalyst is real and positions the company's biggest profit driver for reacceleration, backed by a fortress balance sheet ($464B assets, $154.5B equity) and positive operating cash flow. The bear, however, raised legitimate concerns that I can't dismiss: a four-week MACD/RSI momentum divergence while price made new highs, below-average volume supporting the rally, a 63% YoY decline in operating cash flow (a three-year declining trend, not a one-quarter blip), negative net cash flow, and a stock extended 11.3% above its 50 SMA and 25.1% above its 200 SMA. The risk-reward at $130.36 is genuinely asymmetric to the downside given the extension and fading momentum. What tips me toward Overweight rather than a full Buy is the combination of a powerful, intact trend with a genuine AI catalyst — but the momentum deterioration, declining cash generation, and extreme extension argue against chasing at current levels. The trend is real and the catalyst is real, but the entry is poor and the near-term risk of a mean-reversion pullback is elevated. This is a stock to own and add to on weakness, not to chase aggressively at the top of a 25% move with fading momentum.\n\n**Strategic Actions**: Maintain or gradually build an AMZN position rather than initiating a full-size buy at current levels. Do NOT chase at $130.36 — the stock is extended 11.3% above the 50 SMA and momentum is diverging. Scale in on weakness: add on a pullback toward the 10 EMA ($128) and 20 SMA ($126.50) with small tranches, and be prepared to add more aggressively toward the 50 SMA ($117) if the trend holds and that level is tested. Set a defined risk level — a close below the 20 SMA ($126.50) on meaningful volume would signal the momentum divergence is resolving bearishly and warrant trimming. Position sizing: keep AMZN at a moderate overweight (e.g., 1.25-1.5x benchmark weight) rather than a maximum position, given the elevated volatility (28.8% annualized) and the genuine risk of a 10-15% mean-reversion correction. Monitor the AWS/AI narrative for confirmation — if AWS revenue reacceleration shows up in the next earnings report, that validates the bull thesis and supports adding. If operating cash flow continues to decline and the momentum divergence persists, reduce exposure. The sentiment data is unavailable for this period, so rely on price/volume confirmation rather than crowd positioning. This is a constructive but disciplined stance: own the trend, respect the momentum warning, and use weakness to build rather than chasing strength.",
+    "investment_plan_sha256": "50ee60e0378e4dc62e70720706d02e7e003857cdcabc262dd6a03b5ad4d0fe40"
+  },
+  "reusable_for_M2_08": true,
+  "role": "VALIDATION",
+  "schema_version": "M2-SEMANTIC-HANDOFF-v1",
+  "symbol": "AMZN"
+}

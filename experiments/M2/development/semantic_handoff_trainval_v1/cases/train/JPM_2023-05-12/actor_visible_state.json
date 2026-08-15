@@ -1,0 +1,36 @@
+{
+  "case_id": "JPM:2023-05-12",
+  "context": {
+    "company_of_interest": "JPM",
+    "decision_session": "2023-05-12",
+    "deterministic_temporal_context": {
+      "frozen_decision_time": "2023-05-12T20:00:00+00:00",
+      "historical_as_of": "2023-05-12T20:00:00+00:00",
+      "run_mode": "historical"
+    },
+    "instrument_context": "The instrument to analyze is `JPM`. Use this exact ticker in every tool call, report, and recommendation, preserving any exchange suffix (e.g. `.TO`, `.L`, `.HK`, `.T`, `-USD`).",
+    "ticker": "JPM"
+  },
+  "decision_session": "2023-05-12",
+  "evidence_packet_sha256": "ae5fc2869afe672fbcb53d4dd24f72d74b579e62e6c7d4be2d161d90e87eb595",
+  "prompt_trader": {
+    "normalized_action": "HOLD",
+    "proposal_sha256": "3cf9297af6e2a6826f51077ecddd76a22740a9af03e3b27f7aea30595ba090ef",
+    "rendered_proposal": "**Action**: Hold\n\n**Reasoning**: The evidence is genuinely balanced for JPM. The bull case rests on a fortress balance sheet ($303B equity, $3.74T assets), +$64.6B Q1 financing inflows from the regional banking crisis, and technical support at the 50-day SMA ($123.89) converging with the lower Bollinger Band ($123.77) on below-average volume. The bear case cites deteriorating technicals (MACD bearish crossover, RSI at 45.92 below 50, descending lower highs since the April 18 peak of $131.47) and macro concerns (inverted yield curve compressing NIMs, rising credit costs, -$111.2B operating cash outflow). With symmetric risk/reward (5.1% upside to $131 vs 5.4% downside to $118, with a longer tail to $112-115), the quality argument doesn't justify chasing at current levels, but the fortress balance sheet argues against aggressive selling. The plan's Hold stance with a risk trigger at $123.77 is appropriate.\n\n**Entry Price**: 124.68\n\n**Stop Loss**: 123.77\n\n**Position Sizing**: Neutral-to-slightly-underweight relative to benchmark; for new money, half position now with adds on break above $128 or washout toward $118\n\nFINAL TRANSACTION PROPOSAL: **HOLD**"
+  },
+  "provenance": {
+    "experiments_sha": "b4f3d22978048d079600752981694a5a7d0041ef",
+    "model_configuration_identity": "f2e15ee388ee60297930ddd2eb4ed5d73c27ee297472d97bb7d73bc49d2cd420",
+    "model_id": "deepseek-v4-flash",
+    "run_identity": "404a1ce60976c5d3635070527d9e2f20dda20296d69f96b32f5c45ce3847eb5a",
+    "source_sha": "6d3c46b96b8935944e0f232b73020262d870d953"
+  },
+  "research_manager": {
+    "investment_plan": "**Recommendation**: Hold\n\n**Rationale**: Let me weigh both sides of this debate carefully.\n\nThe bull case rests on three pillars: (1) JPM's fortress balance sheet — $303B in equity, $3.74T in assets, and a ~8.1% equity-to-assets ratio; (2) the +$64.6B in Q1 financing inflows as evidence of a structural deposit franchise gain from the regional banking crisis; and (3) the technical argument that the stock is at a confluence of support (50-day SMA at $123.89 converging with the lower Bollinger Band at $123.77) on below-average volume (0.76x the 20-day mean), suggesting exhausted sellers rather than distribution. The bull also correctly notes the stock is still 5.6% above its rising 200-day SMA, indicating the long-term uptrend is intact.\n\nThe bear case is equally substantive. The technicals are genuinely deteriorating: MACD bearish crossover with a widening negative histogram (-0.34 to -0.52), RSI at 45.92 and below 50, price below the 10-day EMA ($126.67) and VWMA ($127.62), and a descending pattern of lower highs since the April 18 peak of $131.47. The bear also raises legitimate macro concerns: a deeply inverted yield curve compressing net interest margins, rising credit costs across CRE and consumer lending, and the -$111.2B operating cash outflow as evidence of aggressive balance-sheet growth at a potentially late point in the credit cycle. The bear's point that the April rally already priced in the earnings beat and flight-to-quality narrative is reasonable.\n\nWhere I land: This is genuinely balanced. The bull makes a strong case that JPM is a high-quality institution with improving competitive positioning, and the long-term structural story is compelling. But the bear correctly identifies that the near-term technical picture is weak, there's no identifiable near-term catalyst, and the risk/reward is roughly symmetric (5.1% upside to $131 vs. 5.4% downside to $118, with a longer downside tail to $112-115 if the 200-day breaks). The stock is at a critical support level that could resolve either way. The quality argument doesn't justify chasing at current levels given deteriorating momentum, but the fortress balance sheet and structural share gains argue against aggressive selling. This is a case where the evidence on both sides is genuinely balanced — the bull's long-term thesis is sound, but the bear's near-term caution is well-supported by the technical data. Hold is the appropriate stance.\n\n**Strategic Actions**: 1. Maintain current JPM position at current levels (~$124.68). Do not add aggressively and do not exit.\n\n2. For existing holders: hold the position. The long-term structural thesis (deposit inflows, market share gains, fortress balance sheet) remains intact, but the near-term technical picture warrants patience rather than adding.\n\n3. For new money: do not initiate a full position at current levels. Consider a phased entry — start with a half position now, and add on either (a) a confirmed break above $128 (middle Bollinger Band) signaling momentum reversal, or (b) a capitulation washout toward the $118 area (200-day SMA) offering a better risk/reward entry.\n\n4. Set a clear risk management trigger: if the stock breaks below $123.77 (the 50-day SMA / lower Bollinger Band confluence) on above-average volume, reduce exposure — the next support is $118, then $112-115.\n\n5. Monitor key catalysts over the next 4-8 weeks: (a) any stabilization or improvement in the yield curve, (b) credit cost trends in the next earnings report, (c) whether deposit inflows persist or reverse as regional banking fears fade, and (d) any break of the descending pattern of lower highs.\n\n6. Position sizing: given the balanced risk/reward, keep JPM at a neutral-to-slightly-underweight weight relative to benchmark until the technical picture clarifies. The asymmetric downside tail (to $112-115 if support fails) argues against being overweight here.",
+    "investment_plan_sha256": "7a3a389ed6d77a89ecec56e2fc91d398e020df4d6729b54216207120f2096e3a"
+  },
+  "reusable_for_M2_08": true,
+  "role": "TRAIN",
+  "schema_version": "M2-SEMANTIC-HANDOFF-v1",
+  "symbol": "JPM"
+}

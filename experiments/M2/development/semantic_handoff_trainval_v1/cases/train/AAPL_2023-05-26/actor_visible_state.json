@@ -1,0 +1,36 @@
+{
+  "case_id": "AAPL:2023-05-26",
+  "context": {
+    "company_of_interest": "AAPL",
+    "decision_session": "2023-05-26",
+    "deterministic_temporal_context": {
+      "frozen_decision_time": "2023-05-26T20:00:00+00:00",
+      "historical_as_of": "2023-05-26T20:00:00+00:00",
+      "run_mode": "historical"
+    },
+    "instrument_context": "The instrument to analyze is `AAPL`. Use this exact ticker in every tool call, report, and recommendation, preserving any exchange suffix (e.g. `.TO`, `.L`, `.HK`, `.T`, `-USD`).",
+    "ticker": "AAPL"
+  },
+  "decision_session": "2023-05-26",
+  "evidence_packet_sha256": "e6cd112af9030dcc19278de63b96b583518a4283f3c54d7638212c4d2b98a98a",
+  "prompt_trader": {
+    "normalized_action": "HOLD",
+    "proposal_sha256": "e633e45fdd1b94694acd319d0bdf2399003ab28855e6493f98d044fdec380198",
+    "rendered_proposal": "**Action**: Hold\n\n**Reasoning**: The evidence is genuinely balanced, supporting a Hold stance. The bull case is strong on trend and fundamentals: AAPL trades above all major moving averages (10 EMA, 50 SMA, 200 SMA) with a widening golden cross, generated exceptional $62.57B operating cash flow in six months, and shows a deeply positive MACD (2.26) with RSI at 63.83 in a healthy bullish zone. However, the bear wins the entry-timing argument: buying at the 60-day peak after a +20.40% run offers no margin of safety, with bearish divergences (declining RSI from 67.6 peak while price made new highs, negative MACD histogram for nine sessions, below-average 0.98x volume on new highs) and asymmetric risk/reward (~1% upside to upper Bollinger band at $174.69 vs. 5%+ downside to 50 SMA at $164.01). With no news, sentiment, or macro catalysts in the window, there is no information advantage to justify initiating at the peak. Maintain the position without adding aggressively; wait for either a pullback toward the $164-166 range or a confirmed breakout above $174.69 on above-average volume with a catalyst.\n\n**Entry Price**: 172.86\n\n**Stop Loss**: 170.63\n\n**Position Sizing**: Moderate - maintain current position, do not add new capital at the 60-day peak\n\nFINAL TRANSACTION PROPOSAL: **HOLD**"
+  },
+  "provenance": {
+    "experiments_sha": "b4f3d22978048d079600752981694a5a7d0041ef",
+    "model_configuration_identity": "f2e15ee388ee60297930ddd2eb4ed5d73c27ee297472d97bb7d73bc49d2cd420",
+    "model_id": "deepseek-v4-flash",
+    "run_identity": "308b01e1383e2ce16ef987ea988f2c87eff991ecde7eead2ac69d9339b39853e",
+    "source_sha": "6d3c46b96b8935944e0f232b73020262d870d953"
+  },
+  "research_manager": {
+    "investment_plan": "**Recommendation**: Hold\n\n**Rationale**: This debate is genuinely balanced, and I'm committing to Hold rather than forcing a directional call. The bull makes a compelling case on the structural side: AAPL is at its 60-day peak, up +20.40% in 60 days, trading above all major moving averages (10 EMA, 50 SMA, 200 SMA) with a widening golden cross, and generating exceptional operating cash flow of $62.57B in six months. The MACD line at 2.26 remains deeply positive, RSI at 63.83 is in a healthy bullish zone, and the aggressive buyback program supports EPS. These are real strengths.\n\nHowever, the bear wins the entry-timing and risk-management argument. Buying at the 60-day peak after a 20% run offers no margin of safety. The technical divergences are legitimate: MACD histogram has been negative for nine consecutive sessions, RSI peaked at 67.6 on May 5 and has been declining while price made new highs (a bearish divergence), and the new highs came on below-average volume (0.98x relative volume), which reads more like exhaustion than conviction. The risk/reward is genuinely asymmetric — roughly 1% upside to the upper Bollinger band versus 5%+ downside to the 50 SMA at $164.01. The 4.34x debt-to-equity ratio in a rising rate environment and the fact that 98% of operating cash flow is being returned to shareholders (leaving little for growth reinvestment) are legitimate concerns, not just noise. And the complete absence of news, sentiment, and macro catalysts in the window means there's no information advantage to justify initiating at the peak.\n\nThe bull correctly counters that the pullback already happened (the dip to $169.04 on May 23 held the 10 EMA) and that the trend structure remains intact. But the bear's core point stands: this is a strong company in a strong uptrend at a poor entry point. The evidence on both sides is genuinely balanced — the bull wins on trend and fundamentals, the bear wins on entry timing and risk/reward. Neither is decisive enough to warrant a directional commitment, so Hold is the appropriate stance: maintain the position, don't add aggressively at the peak, and wait for either a pullback toward the 50 SMA or a confirmed breakout on above-average volume with a catalyst.\n\n**Strategic Actions**: Maintain the current AAPL position at current levels (~$172.86). Do not add new capital at the 60-day peak given the asymmetric risk/reward (limited upside to the upper Bollinger band at $174.69 vs. meaningful downside to the 50 SMA at $164.01). For existing holders, hold the position and let the strong uptrend and cash generation work; consider trimming a portion if price fails to hold the 10 EMA at ~$170.63 on a closing basis. For new capital, wait for one of two triggers before initiating: (1) a pullback toward the rising 50 SMA in the $164-166 range, which would offer a better risk/reward entry, or (2) a confirmed breakout above $174.69 on above-average volume with a positive news catalyst. Set a stop/review level near the 10 EMA ($170.63) to protect against momentum decay, and monitor whether the MACD histogram turns positive and RSI stabilizes above 60 as confirmation that the consolidation is resolving to the upside. Position sizing should be moderate — this is a hold, not an aggressive accumulation, given the elevated leverage (4.34x D/E) and the data void on catalysts.",
+    "investment_plan_sha256": "e975e01814ea2581bffc47bf00d78f3d19926d2905c1a2117c94467286eebdf9"
+  },
+  "reusable_for_M2_08": true,
+  "role": "TRAIN",
+  "schema_version": "M2-SEMANTIC-HANDOFF-v1",
+  "symbol": "AAPL"
+}

@@ -1,0 +1,36 @@
+{
+  "case_id": "JPM:2023-05-19",
+  "context": {
+    "company_of_interest": "JPM",
+    "decision_session": "2023-05-19",
+    "deterministic_temporal_context": {
+      "frozen_decision_time": "2023-05-19T20:00:00+00:00",
+      "historical_as_of": "2023-05-19T20:00:00+00:00",
+      "run_mode": "historical"
+    },
+    "instrument_context": "The instrument to analyze is `JPM`. Use this exact ticker in every tool call, report, and recommendation, preserving any exchange suffix (e.g. `.TO`, `.L`, `.HK`, `.T`, `-USD`).",
+    "ticker": "JPM"
+  },
+  "decision_session": "2023-05-19",
+  "evidence_packet_sha256": "404b6b8f246192aaad380d2c8f72a0feac9b8aa6a499fbc3b54425c5d232f9a3",
+  "prompt_trader": {
+    "normalized_action": "HOLD",
+    "proposal_sha256": "5a6cb88ff0bfaf57276974214b9e560fc1d3e3e9aef8ef9be52762f631207dfa",
+    "rendered_proposal": "**Action**: Hold\n\n**Reasoning**: The research plan concludes the technical and fundamental evidence is genuinely balanced for JPM. The bull's case (price above all key moving averages, rising 200 SMA, MACD above zero, RSI at 57 not overbought, fortress balance sheet) is countered by the bear's points (double-rejected resistance at $131.38-131.47, fading momentum with RSI lower highs and decaying MACD histogram, and the income statement being unavailable in the supplied evidence). With ~1.6% upside to immediate resistance versus ~4.3% downside to the 50 SMA, and a rising support staircase underneath, the risk/reward is roughly balanced. Neither side justifies a high-conviction directional bet, and the plan explicitly advises against shorting given the rising 200 SMA and quality franchise. Maintaining current positioning at ~$129.40 with a neutral weight is the appropriate action until the resistance/support resolution and Q2 earnings data clarify the picture.\n\n**Entry Price**: 129.4\n\n**Stop Loss**: 127.5\n\n**Position Sizing**: Neutral allocation band (benchmark weight ±2%), no leverage or concentrated bets\n\nFINAL TRANSACTION PROPOSAL: **HOLD**"
+  },
+  "provenance": {
+    "experiments_sha": "b4f3d22978048d079600752981694a5a7d0041ef",
+    "model_configuration_identity": "f2e15ee388ee60297930ddd2eb4ed5d73c27ee297472d97bb7d73bc49d2cd420",
+    "model_id": "deepseek-v4-flash",
+    "run_identity": "9af48e043fd92b7d83f6bd7d4ef85afa39d1c80c1f68d9ff1bc980bbdad8655d",
+    "source_sha": "6d3c46b96b8935944e0f232b73020262d870d953"
+  },
+  "research_manager": {
+    "investment_plan": "**Recommendation**: Hold\n\n**Rationale**: Let me walk through how I weighed this debate, because it was genuinely close and both sides made legitimate points.\n\nThe bull built a strong technical case: JPM sits above every key moving average (10 EMA, 50 SMA, 200 SMA), the 200 SMA is rising, MACD is above zero and above signal, RSI at 57 is not overbought, and the Bollinger Band contraction plus rising volume on the May 17-19 rally suggests a coiled spring. The fortress balance sheet ($3.744T assets, $303B equity) and the crisis-beneficiary narrative (deposit inflows during the regional banking panic) are real strengths.\n\nThe bear countered effectively on several fronts. The most important point: the income statement is genuinely unavailable in the supplied evidence, so we cannot verify earnings power, net interest income, or credit provisions. The bull repeatedly referenced \"record net interest income\" and \"deposit inflows\" as if they were established facts, but those are inferences from a quarterly cash flow aggregate, not confirmed data. That's a legitimate methodological criticism. The bear also correctly noted the stock is still ~2.4% below its pre-crisis high of $132.53, the 60-day return is essentially flat (+0.43%), and momentum (RSI lower highs: 69.8 → 62 → 57; MACD histogram decaying 97% from its peak) is genuinely fading on each test of the $131.38-131.47 resistance that has held twice.\n\nWhere the bear overreached: calling for a SELL implies conviction in a meaningful downside move, but the downside is cushioned by a rising 50 SMA and 200 SMA, and JPM's relative strength during the March crisis (down 13% vs. 30-50% for regionals) is real evidence of a quality franchise. The bear's \"borrowing short and lending long like SVB\" analogy is a stretch — JPM's scale and diversification are categorically different from a regional bank.\n\nWhere the bull overreached: treating the technical setup as a near-certain breakout when the stock has failed at resistance twice with weakening momentum, and filling the earnings gap with unverifiable claims.\n\nNet assessment: The technical picture is genuinely mixed — a confirmed uptrend structure (bull) colliding with fading momentum and a double-rejected resistance (bear). The fundamental picture is incomplete because the income statement is unavailable. Neither side has enough to justify a high-conviction directional bet. The risk/reward is roughly balanced: ~1.6% to immediate resistance vs. ~4.3% to the 50 SMA, with a rising support staircase underneath. This is a case where the evidence on both sides is genuinely balanced, and the honest conclusion is to maintain current positioning rather than commit to either extreme.\n\n**Strategic Actions**: 1. Maintain current JPM position at current levels (~$129.40); do not add or trim aggressively given the balanced technical picture and missing earnings data.\n\n2. If holding a position, keep it at a neutral weight. Do not initiate a new long at this level given the double-rejected resistance at $131.38-131.47 and fading momentum (RSI lower highs, MACD histogram near zero).\n\n3. Set a clear decision trigger: a confirmed daily close above $131.50 on above-average volume would validate the bull's breakout thesis and justify upgrading to Overweight, with a target of $135-138. Conversely, a daily close below $127.50 (10 EMA / Bollinger middle) would confirm the bear's mean-reversion case and justify trimming to Underweight, with the 50 SMA at $123.86 as the next support.\n\n4. Position sizing: keep any JPM position within a neutral allocation band (e.g., benchmark weight ±2%). Avoid leverage or concentrated bets until the resistance/support resolution is clear.\n\n5. Monitor for the Q2 earnings release and any credit-quality disclosures (provisions, NIM guidance) — the income statement gap is the single largest unknown and should be resolved before any high-conviction directional commitment.\n\n6. Do not short JPM. The rising 200 SMA, fortress balance sheet, and crisis-beneficiary positioning make the downside asymmetric in favor of support holding; a short has poor risk/reward against a quality franchise.",
+    "investment_plan_sha256": "a922c0a9437f9dc7c4b0ca705e6074e17463869c404b6c048f1d2de77b0098b8"
+  },
+  "reusable_for_M2_08": true,
+  "role": "TRAIN",
+  "schema_version": "M2-SEMANTIC-HANDOFF-v1",
+  "symbol": "JPM"
+}

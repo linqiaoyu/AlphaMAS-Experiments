@@ -1,0 +1,105 @@
+{
+  "byte_identical": true,
+  "cases": [
+    {
+      "actor_visible_state_sha256": "0a28e6e8bd3df77a77202d0d0043058c498d51934e702c2f4745a56b9e219fb2",
+      "case_files": {
+        "actor_visible_state.json": "0a28e6e8bd3df77a77202d0d0043058c498d51934e702c2f4745a56b9e219fb2",
+        "upstream_trace.json": "d7502303233c87a70e3866eeb8f195344d9f18d63832933212dd5fcb06e44c52",
+        "usage.json": "ce97eee203443a8d8611ce72d90d31d4dc79eb4b991f026839d8ed0e3194dcff"
+      },
+      "case_id": "AAPL:2023-06-09",
+      "case_sha256_manifest_sha256": "d7de54be5f5754cbc72b1685b4e2f6d31e71052004b23c837bb035ca5e2913b1",
+      "decision_session": "2023-06-09",
+      "evidence_packet_sha256": "b273de525eb697f1142007b0882f9053b1f78f3624fb0bd81aa845859b60ee4e",
+      "generation_mode": "REUSE_M2_07",
+      "generation_order": 6,
+      "role": "TRAIN",
+      "symbol": "AAPL"
+    },
+    {
+      "actor_visible_state_sha256": "88498771397137bd8867a2bf4fd96725f98598549495dabd13521a27a8c92d12",
+      "case_files": {
+        "actor_visible_state.json": "88498771397137bd8867a2bf4fd96725f98598549495dabd13521a27a8c92d12",
+        "upstream_trace.json": "77473da57a98e419175e04ff96a89658776dedf18fa242dfa26d79381c38c921",
+        "usage.json": "89d80e10f9a49b3b3a29c6b503c63027c686d5f8208d2c628a06df6fa661e1e9"
+      },
+      "case_id": "AMZN:2023-06-02",
+      "case_sha256_manifest_sha256": "4a36d158664c271b6380baea47cdbabc2c7bd4fb90c76f1a00a844ce08288c48",
+      "decision_session": "2023-06-02",
+      "evidence_packet_sha256": "feb689864ca1ab89e9f0f15a983e5fa2a827b5f60f1ac8de510f90f8fe41ec7f",
+      "generation_mode": "REUSE_M2_07",
+      "generation_order": 12,
+      "role": "TRAIN",
+      "symbol": "AMZN"
+    },
+    {
+      "actor_visible_state_sha256": "06f96dcfed75d21ace2de1f71d5ba063c97ac3a703622461cd6d85db92528432",
+      "case_files": {
+        "actor_visible_state.json": "06f96dcfed75d21ace2de1f71d5ba063c97ac3a703622461cd6d85db92528432",
+        "upstream_trace.json": "96dfe0c10f883c1e11104c59b78b9f46d7a106d9c2ece2231682564c3330243e",
+        "usage.json": "bcdc87b0b031620c7646ad6e5e4d5aa27666242fff7367f06944c81a20c85eb3"
+      },
+      "case_id": "JBSS:2023-06-02",
+      "case_sha256_manifest_sha256": "fbb41d403209bda4d08578cca49b63b5a00fc3a874646fcf304107b2c0679f64",
+      "decision_session": "2023-06-02",
+      "evidence_packet_sha256": "6e952e90b820c5f395216ffc2da246c11656091563d6f170c50226e0a1d9d62c",
+      "generation_mode": "REUSE_M2_07",
+      "generation_order": 26,
+      "role": "TRAIN",
+      "symbol": "JBSS"
+    },
+    {
+      "actor_visible_state_sha256": "8c2e86491ef6b4c5853d1ccf1b1ea220b832581313ccee8220ad4937ba383276",
+      "case_files": {
+        "actor_visible_state.json": "8c2e86491ef6b4c5853d1ccf1b1ea220b832581313ccee8220ad4937ba383276",
+        "upstream_trace.json": "1f290acce9c097330900e07087fa935e43e953320c794d3edb25494676505833",
+        "usage.json": "8ad66119f47f12361307468696a3c864cadc28098d80276a8d5d65f5a1b6e1b3"
+      },
+      "case_id": "EML:2023-06-09",
+      "case_sha256_manifest_sha256": "401faf6ea5486cd29bc8cec77ec99ebcbcccf9a83e9ed1f4e9ca6162123ede06",
+      "decision_session": "2023-06-09",
+      "evidence_packet_sha256": "6e3e8408812d4aa07f408b8214482c24b758d290a0fe706f6b9a3c26132d8370",
+      "generation_mode": "REUSE_M2_07",
+      "generation_order": 34,
+      "role": "TRAIN",
+      "symbol": "EML"
+    },
+    {
+      "actor_visible_state_sha256": "96b762d87f138d40c7662904eea2addd79a765656870dd8166341184337b8e9c",
+      "case_files": {
+        "actor_visible_state.json": "96b762d87f138d40c7662904eea2addd79a765656870dd8166341184337b8e9c",
+        "upstream_trace.json": "4c9829111333f9c17e0ea4522d143a51c942e42b721e1090fdd48c94aa127086",
+        "usage.json": "337cabf2da52612faf14a091f85a7ce00e0a1c4cea7bfc4d6766742757ae08cd"
+      },
+      "case_id": "AGI:2023-06-02",
+      "case_sha256_manifest_sha256": "114b00e95b1e6b16b35566461ecd9c42dff2545a2e4432de48325e7957b42177",
+      "decision_session": "2023-06-02",
+      "evidence_packet_sha256": "96a0fd89e4959e7d475d1c6d805b63995b13387ed4ba08602409c40fce6d6584",
+      "generation_mode": "REUSE_M2_07",
+      "generation_order": 40,
+      "role": "TRAIN",
+      "symbol": "AGI"
+    },
+    {
+      "actor_visible_state_sha256": "c0b7ebe1f691fbc09523db3e095cfcafe249394f70b79b0e279dfbd5c58663f8",
+      "case_files": {
+        "actor_visible_state.json": "c0b7ebe1f691fbc09523db3e095cfcafe249394f70b79b0e279dfbd5c58663f8",
+        "upstream_trace.json": "700bff1a93589e8c0f1a10cb5a51c577c4ba92584936562919989386e869e2ef",
+        "usage.json": "54db6c7b0a7581a9669cd99072cd2fe05c2f5dd8585df0028eae65921a214f2d"
+      },
+      "case_id": "AEMD:2023-06-02",
+      "case_sha256_manifest_sha256": "a38bb1b995bc03d582e2a0c5a8d2828428f626be0c3fabc4c4c5a6220fc1fb70",
+      "decision_session": "2023-06-02",
+      "evidence_packet_sha256": "92c535ac40f3416c707182015c34da8d9d89fd932ebf40d4e44c0a41b139954b",
+      "generation_mode": "REUSE_M2_07",
+      "generation_order": 54,
+      "role": "TRAIN",
+      "symbol": "AEMD"
+    }
+  ],
+  "reused_case_count": 6,
+  "schema_version": "M2-SEMANTIC-TRAINVAL-REUSE-MANIFEST-v1",
+  "source_archive": "semantic_cost_calibration_v1",
+  "source_commit": "123a0b412c91379a1c2279ca9e31a5c19743c40f"
+}

@@ -1,0 +1,36 @@
+{
+  "case_id": "AEMD:2023-06-02",
+  "context": {
+    "company_of_interest": "AEMD",
+    "decision_session": "2023-06-02",
+    "deterministic_temporal_context": {
+      "frozen_decision_time": "2023-06-02T20:00:00+00:00",
+      "historical_as_of": "2023-06-02T20:00:00+00:00",
+      "run_mode": "historical"
+    },
+    "instrument_context": "The instrument to analyze is `AEMD`. Use this exact ticker in every tool call, report, and recommendation, preserving any exchange suffix (e.g. `.TO`, `.L`, `.HK`, `.T`, `-USD`).",
+    "ticker": "AEMD"
+  },
+  "decision_session": "2023-06-02",
+  "evidence_packet_sha256": "92c535ac40f3416c707182015c34da8d9d89fd932ebf40d4e44c0a41b139954b",
+  "prompt_trader": {
+    "normalized_action": "SELL",
+    "proposal_sha256": "1a7917a867f62f2901c0bd8324665457dfd5db852e695f0747896f52588e9450",
+    "rendered_proposal": "**Action**: Sell\n\n**Reasoning**: The investment plan recommends an Underweight stance, which translates to trimming or reducing exposure. The confirmed downtrend (price 13.3% below the 50 SMA and 38.5% below the 200 SMA, both declining) combined with thin-volume stabilization (relative volume 0.55, only 138 shares on June 2) indicates no accumulation. There is no verifiable near-term catalyst in the supplied data to justify holding a full position. The plan explicitly calls for trimming toward underweight, setting a hard stop below the $240 support, and not adding exposure at current levels (~$256). While the balance sheet is strong (83.4% equity ratio, 0.20 D/E), the risk/reward is unfavorable given the declining moving averages and absence of a verifiable catalyst. A Sell action aligns with the plan's directive to reduce exposure and respect the downtrend.\n\n**Entry Price**: 256.0\n\n**Stop Loss**: 240.0\n\n**Position Sizing**: Reduce to underweight; trim existing position toward a minimal speculative allocation\n\nFINAL TRANSACTION PROPOSAL: **SELL**"
+  },
+  "provenance": {
+    "experiments_sha": "2bf79ffce2dedf15e157f48a5e3727eef611d0e9",
+    "model_configuration_identity": "f2e15ee388ee60297930ddd2eb4ed5d73c27ee297472d97bb7d73bc49d2cd420",
+    "model_id": "deepseek-v4-flash",
+    "run_identity": "3dc22c453d3b534ca068c558b62aa93ab8ac1fd85b3a6b11df57d2a270f9f25b",
+    "source_sha": "6d3c46b96b8935944e0f232b73020262d870d953"
+  },
+  "research_manager": {
+    "investment_plan": "**Recommendation**: Underweight\n\n**Rationale**: Let me weigh both sides of this debate carefully.\n\nThe bull makes a genuinely compelling case on the balance sheet: AEMD has $20.72M in assets against $3.45M in liabilities, an 83.4% equity ratio, and a 0.20 debt-to-equity ratio. That's a solid capital structure for a clinical-stage company, and the $8.92M raise that left a net positive cash position of +$427K shows the company can access capital markets. The bull also correctly notes that the stock has held the $240–$248 support zone on multiple tests, that MACD has crossed bullishly with a rising histogram, and that RSI has recovered from oversold territory. These are real, verifiable signals.\n\nBut the bear's core points carry more weight for a decision at this moment. The trend is unambiguously down: price sits 13.3% below the 50 SMA and 38.5% below the 200 SMA, with both averages declining. The \"stabilization\" is happening on historically thin volume — 138 shares on June 2, relative volume of 0.55. That's not accumulation; that's a market with no conviction either way. The bear is right that selling exhaustion typically requires a downside volume spike followed by drying supply, and we don't have that pattern — we have declining volume throughout the entire decline.\n\nThe most important point is the catalyst question. The bull's entire upside thesis rests on \"catalyst potential\" — but there is no verifiable evidence of an imminent clinical readout, FDA interaction, or partnership in the supplied data. The news data is unavailable, and the bull is asking us to fill that gap with optimism. In a historical run where we must rely only on supplied evidence, we cannot underwrite a Buy on unverifiable catalysts. The bear is correct that absence of evidence is not a reason to buy.\n\nThe risk/reward also favors caution. The bull's \"defined downside\" at $240 is only defined until it isn't — below that level we have no data, and the stock could fall further. The upside target of $295 (50 SMA) is a moving target since that average is declining. The bear's point that the real risk/reward is closer to unfavorable than the bull's 1:2.5–1:10 framing is well taken.\n\nThat said, I don't think a full Sell is warranted either. The balance sheet is genuinely strong for the stage, the company has 20+ months of runway, and the stock has shown real support at $240–$248. The downside from here is not catastrophic given the balance sheet, and there is genuine (if unverifiable) binary upside. This is not a company in distress — it's a development-stage company in a downtrend with no observable near-term catalyst.\n\nThe strongest arguments on balance favor caution: a confirmed downtrend, thin-volume stabilization that reads more like apathy than accumulation, no verifiable catalyst, and an unfavorable near-term risk/reward. But the fortress balance sheet and defined support argue against an outright Sell. The right stance is Underweight — trim or avoid adding exposure, respect the downtrend, and wait for either a volume-confirmed reversal or a verifiable catalyst before becoming constructive.\n\n**Strategic Actions**: 1. Do not initiate or add to a position at current levels (~$256). The confirmed downtrend (price 13.3% below the 50 SMA, 38.5% below the 200 SMA, both declining) and thin-volume stabilization (relative volume 0.55, 138 shares on June 2) do not support accumulation.\n\n2. If holding an existing position, trim exposure toward an underweight stance. Use the $240–$248 support zone as the key decision line — a decisive break below $240 on rising volume would confirm the bear case and warrant further reduction or exit.\n\n3. Do not underwrite the bull's catalyst thesis. No verifiable clinical, regulatory, or partnership catalyst exists in the supplied data. Any position should be sized as a speculative, binary-event allocation only, not a core holding.\n\n4. Set a hard stop-loss below $240 support. Below that level there is no defined support in the data, and the stock could extend lower toward $200 or beyond.\n\n5. Re-evaluate only on a volume-confirmed reversal: a reclaim of the 50 SMA (~$295) on meaningfully higher volume, or a verifiable positive catalyst (clinical readout, FDA communication, partnership), would justify upgrading the stance. Until then, maintain the underweight posture and let the market prove the reversal rather than anticipating it.",
+    "investment_plan_sha256": "1a02d50e3838f498dd803fa39257e43ffbd695ff2b13fd02bb04dcae24dc5414"
+  },
+  "reusable_for_M2_08": true,
+  "role": "TRAIN",
+  "schema_version": "M2-SEMANTIC-HANDOFF-v1",
+  "symbol": "AEMD"
+}

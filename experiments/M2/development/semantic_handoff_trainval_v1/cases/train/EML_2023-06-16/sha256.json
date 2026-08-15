@@ -1,0 +1,8 @@
+{
+  "algorithm": "SHA-256",
+  "files": {
+    "actor_visible_state.json": "126995aa49f1d9106a4bb53d3baaa0739b7b42a21545da8064a5776d694190c6",
+    "upstream_trace.json": "413cf3c55d6d2da0beee47d57650107bc5ff72e5600e85af5967c5c89dd04758",
+    "usage.json": "3b03d03f4adbf4590f9aa9976e195e9b8ad96d02e3683c0497bdc7c45246630a"
+  }
+}

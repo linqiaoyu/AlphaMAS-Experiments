@@ -1,0 +1,36 @@
+{
+  "case_id": "EML:2023-05-05",
+  "context": {
+    "company_of_interest": "EML",
+    "decision_session": "2023-05-05",
+    "deterministic_temporal_context": {
+      "frozen_decision_time": "2023-05-05T20:00:00+00:00",
+      "historical_as_of": "2023-05-05T20:00:00+00:00",
+      "run_mode": "historical"
+    },
+    "instrument_context": "The instrument to analyze is `EML`. Use this exact ticker in every tool call, report, and recommendation, preserving any exchange suffix (e.g. `.TO`, `.L`, `.HK`, `.T`, `-USD`).",
+    "ticker": "EML"
+  },
+  "decision_session": "2023-05-05",
+  "evidence_packet_sha256": "8e7a0697603c7899771cbf8ce8996c194bdf9afd3584d37e9e3be6acfb1274b9",
+  "prompt_trader": {
+    "normalized_action": "SELL",
+    "proposal_sha256": "3eca15603830742f6fd59021e794270b5454ea2cb3833e292dfe1f35a36e004d",
+    "rendered_proposal": "**Action**: Sell\n\n**Reasoning**: The investment plan recommends an underweight stance, calling for trimming existing EML exposure by roughly one-third to one-half rather than exiting entirely. The bear's fundamental concerns outweigh the bull's technical hopes: the stock is in a confirmed downtrend below all major moving averages with a death cross, MACD deeply negative at -0.55, and RSI at 39.95 showing sellers in control. The cash flow structure is the most damaging evidence — positive investing cash flow (+$5.09M) indicates asset sales rather than growth, and financing outflows (-$11.78M) exceed operating cash flow, meaning the company is selling assets to bridge a funding gap while maintaining its dividend. With no income statement data available, profitability and margins are unverifiable. The plan calls for a hard stop below the March low at $14.50 and no additions on the ex-dividend date (May 12).\n\n**Entry Price**: 15.96\n\n**Stop Loss**: 14.5\n\n**Position Sizing**: Reduce position by one-third to one-half; keep remaining exposure light\n\nFINAL TRANSACTION PROPOSAL: **SELL**"
+  },
+  "provenance": {
+    "experiments_sha": "b4f3d22978048d079600752981694a5a7d0041ef",
+    "model_configuration_identity": "f2e15ee388ee60297930ddd2eb4ed5d73c27ee297472d97bb7d73bc49d2cd420",
+    "model_id": "deepseek-v4-flash",
+    "run_identity": "28e6cee09edc6ff34d33fbc243a9c51401860e5c2263bc3df46237da9f6c8776",
+    "source_sha": "6d3c46b96b8935944e0f232b73020262d870d953"
+  },
+  "research_manager": {
+    "investment_plan": "**Recommendation**: Underweight\n\n**Rationale**: After weighing both sides, the bear's fundamental concerns carry more weight than the bull's technical hopes. The bull makes a reasonable case around a conservative balance sheet (48.4% equity-funded, ~1.07x D/E), positive operating cash flow of $7.33M, and a well-covered dividend at a 2.48% yield. But the bear correctly identifies the more troubling signals: the stock is in a confirmed downtrend below all major moving averages with a death cross, MACD remains deeply negative at -0.55, and RSI at 39.95 shows sellers still in control. The most damaging evidence is the cash flow structure — positive investing cash flow (+$5.09M) indicates asset sales rather than growth, and financing outflows (-$11.78M) exceed operating cash flow, meaning the company is selling assets to bridge a funding gap while maintaining its dividend. We have no income statement data, so profitability, margins, and revenue trends are unverifiable — the bull's 22% payout ratio claim rests on earnings we don't have. The dividend yield being 2+ std dev above its 5-year average is more consistent with the market pricing in risk than a value signal. The bull's \"catalysts\" (MACD crossover, ex-dividend date, RSI approaching oversold) are technical hopes and a mechanical event, not fundamental drivers. That said, the balance sheet is genuinely conservative and the dividend appears sustainable in the near term, and the stock has held support above $14.90 for seven weeks — which argues against an aggressive Sell. The honest conclusion is a cautious, trim-the-position stance rather than a panic exit.\n\n**Strategic Actions**: Trim existing EML exposure toward a modest underweight position rather than exiting entirely. For new money, do not initiate a full position at current levels. If holding, reduce position size by roughly one-third to one-half to reflect the cautious stance. Set a hard stop below the March low at $14.50 (approximately -9% from $15.96) to cap downside if the support breaks — a break below $14.61 opens the door to $13.00 with no technical support. Do not add on the ex-dividend date (May 12); the $0.11 dividend does not compensate for the capital-loss risk. Re-evaluate only if the stock reclaims the 50 SMA ($17.69) on meaningful volume, which would signal a genuine trend reversal rather than a technical hope. Until then, keep exposure light and prioritize capital preservation given the unverifiable fundamentals, shrinking asset base, and confirmed downtrend.",
+    "investment_plan_sha256": "5b77ee41db43a1725dccac0a09ace8c8ad0213edae6d5f2f36680b6318cc0fd2"
+  },
+  "reusable_for_M2_08": true,
+  "role": "TRAIN",
+  "schema_version": "M2-SEMANTIC-HANDOFF-v1",
+  "symbol": "EML"
+}

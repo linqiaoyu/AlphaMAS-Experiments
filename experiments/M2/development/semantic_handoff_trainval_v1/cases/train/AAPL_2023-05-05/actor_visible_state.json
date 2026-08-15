@@ -1,0 +1,36 @@
+{
+  "case_id": "AAPL:2023-05-05",
+  "context": {
+    "company_of_interest": "AAPL",
+    "decision_session": "2023-05-05",
+    "deterministic_temporal_context": {
+      "frozen_decision_time": "2023-05-05T20:00:00+00:00",
+      "historical_as_of": "2023-05-05T20:00:00+00:00",
+      "run_mode": "historical"
+    },
+    "instrument_context": "The instrument to analyze is `AAPL`. Use this exact ticker in every tool call, report, and recommendation, preserving any exchange suffix (e.g. `.TO`, `.L`, `.HK`, `.T`, `-USD`).",
+    "ticker": "AAPL"
+  },
+  "decision_session": "2023-05-05",
+  "evidence_packet_sha256": "bc0be8fc1d0cfa8b4e5b118a8d269213c7efac7b410e5120641fe301279ed49b",
+  "prompt_trader": {
+    "normalized_action": "BUY",
+    "proposal_sha256": "eba00d4021d656c53cb179b464ae71aca18e61b3e977b8ddc9d038d98e0d19d5",
+    "rendered_proposal": "**Action**: Buy\n\n**Reasoning**: The investment plan recommends an OVERWEIGHT position in AAPL, anchored in verified strong technicals (price above all major MAs in bullish alignment, golden cross intact, +4.7% breakout on 2.13x volume confirming institutional participation) and robust fundamentals ($34B quarterly operating cash flow, active buyback/dividend program). However, the stock is technically stretched (RSI 67.62, above upper Bollinger Band, 13.6% above 50 SMA) and data gaps exist (no news/sentiment/macro confirmation available), so the plan correctly advises scaling in gradually rather than chasing at market. I'm initiating a partial position (~50-60% of intended size) now, with the remainder to be added on a pullback toward the 10 EMA ($165.41) or 20-day middle band ($163.37), and a hard stop at $163.00 to protect against invalidation of the bullish setup.\n\n**Entry Price**: 170.79\n\n**Stop Loss**: 163.0\n\n**Position Sizing**: ~75% of full-conviction BUY size, initiated as a partial position (50-60% now, remainder on pullback to $165.41/$163.37 support)\n\nFINAL TRANSACTION PROPOSAL: **BUY**"
+  },
+  "provenance": {
+    "experiments_sha": "b4f3d22978048d079600752981694a5a7d0041ef",
+    "model_configuration_identity": "f2e15ee388ee60297930ddd2eb4ed5d73c27ee297472d97bb7d73bc49d2cd420",
+    "model_id": "deepseek-v4-flash",
+    "run_identity": "f6a9439e33735543dd03192cf340a344ed8784aacb54f00e9f87cdd23a56da0a",
+    "source_sha": "6d3c46b96b8935944e0f232b73020262d870d953"
+  },
+  "research_manager": {
+    "investment_plan": "**Recommendation**: Overweight\n\n**Rationale**: Let me walk through how I weighed this debate, because both sides made legitimate points but the evidence tilts in one direction.\n\nThe bull's case is anchored in verified technical data that is genuinely strong: AAPL closed at $170.79, above all major moving averages in perfect bullish alignment (price > 10 EMA > 50 SMA > 200 SMA), with a golden cross structure intact and widening. The +4.7% breakout on 2.13x average volume is real confirmation of institutional participation, not retail noise. The fresh MACD bullish crossover after a three-week consolidation phase is a legitimate setup. And the fundamentals are genuinely impressive — $34B in quarterly operating cash flow is a cash-generating machine, and the buyback/dividend program reflects management confidence.\n\nThe bear's case, while rhetorically forceful, rests on weaker foundations. The \"net cash burn\" argument is an accounting error — financing outflows are capital returns to shareholders, not losses. The debt-to-equity ratio of 5.11x is a capital structure choice to avoid repatriation taxes, not distress, especially given the massive cash pile and $34B quarterly operating cash flow. The bear's \"fabricated statistics\" about RSI spikes and MACD crossover failure rates were asserted without evidence, which undermines their credibility.\n\nHowever, the bear does raise one legitimate concern I can't dismiss: the stock is technically stretched. RSI at 67.62 is approaching overbought, price is above the upper Bollinger Band, and the stock is 13.6% above the 50 SMA. Mean reversion is a real statistical tendency, and the data gaps (no news, no sentiment, no macro data) mean we're operating with incomplete information. The bear is right that buying at the exact top of a 60-day range carries near-term pullback risk.\n\nSo where does that leave me? The trend is unambiguously up, the fundamentals are strong, and the momentum is confirmed by volume. But the stock is extended, and the data vacuum means we can't fully assess macro risks. This isn't a clean BUY at market — chasing a stock 13.6% above its 50 SMA with RSI near overbought is not prudent. But it's also not a HOLD or SELL — the trend and fundamentals are too strong to ignore.\n\nThe right call is OVERWEIGHT: constructive on the position, but recommending gradual accumulation rather than a full-size buy at current stretched levels. This respects the bull's strong trend and fundamental case while acknowledging the bear's legitimate near-term mean-reversion risk. If the stock pulls back to the 10 EMA ($165) or the 20-day middle band ($163), that's a better entry to add. If it breaks out and continues higher, we're already positioned to benefit.\n\n**Strategic Actions**: 1. Establish or maintain a constructive (overweight) position in AAPL, but do NOT chase at market ($170.79) with full size given the technically stretched conditions (RSI 67.62, price above upper Bollinger Band, 13.6% above 50 SMA).\n\n2. Scale in gradually: initiate a partial position now (approximately 50-60% of intended full size), and add the remainder on a pullback toward the 10 EMA ($165.41) or the 20-day middle Bollinger Band ($163.37), which represent the first two support levels.\n\n3. Set a hard stop-loss at $163.00 (below the 20-day middle band and just under the 10 EMA support zone). A close below this level on high volume would invalidate the bullish setup and signal a move toward the 50 SMA ($157.18).\n\n4. Upside target: $180.00 (approximately +5.4% from current levels) over the next 20 trading days, consistent with the momentum regime. Trail the stop higher as the position moves in our favor.\n\n5. Position sizing: Given the strong trend and fundamentals but the stretched technicals and data gaps (no news/sentiment/macro confirmation), size the position at roughly 75% of what a full-conviction BUY would warrant. This balances participation in the trend against the near-term mean-reversion risk.\n\n6. Monitor closely: If the stock breaks down through $163 on high volume, exit the position and reassess. If it consolidates above $169 (upper Bollinger Band now acting as support) for several sessions, consider adding to the position earlier than planned.\n\n7. Re-evaluate when new fundamental data (next earnings report) or macro data becomes available, as the current data vacuum limits full conviction.",
+    "investment_plan_sha256": "594dbebd7108ad43fbaab0847c1a9543fb36c40144e9b0a15e73609ad5b53619"
+  },
+  "reusable_for_M2_08": true,
+  "role": "TRAIN",
+  "schema_version": "M2-SEMANTIC-HANDOFF-v1",
+  "symbol": "AAPL"
+}

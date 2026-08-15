@@ -1,0 +1,36 @@
+{
+  "case_id": "AMZN:2023-06-09",
+  "context": {
+    "company_of_interest": "AMZN",
+    "decision_session": "2023-06-09",
+    "deterministic_temporal_context": {
+      "frozen_decision_time": "2023-06-09T20:00:00+00:00",
+      "historical_as_of": "2023-06-09T20:00:00+00:00",
+      "run_mode": "historical"
+    },
+    "instrument_context": "The instrument to analyze is `AMZN`. Use this exact ticker in every tool call, report, and recommendation, preserving any exchange suffix (e.g. `.TO`, `.L`, `.HK`, `.T`, `-USD`).",
+    "ticker": "AMZN"
+  },
+  "decision_session": "2023-06-09",
+  "evidence_packet_sha256": "c17f45290dd9122649b0a088d7d3ca6af1aae455cd7d4b9aac7057b066e36fe6",
+  "prompt_trader": {
+    "normalized_action": "SELL",
+    "proposal_sha256": "b2b7339e65a7b0f5a781ad9e16421c3c43fbef2aa84d0657bad92bb612130ee9",
+    "rendered_proposal": "**Action**: Sell\n\n**Reasoning**: The research plan recommends an Underweight stance on AMZN, and the evidence supports trimming or avoiding exposure at the current $123.43 level. The stock sits below its June 6 rejection level of $126.61 with MACD histogram compressed 94% (0.72 to 0.04), RSI rolling over from overbought, and volume collapsed 46% over three days — the only high-volume day was a distribution day. The near-term Coventry strikes (June 12-14) are a negative catalyst the market cannot have fully priced in, and fundamentals are opaque with negative net cash change of -$4.66B. While the structural uptrend (price above 10 EMA, 50 SMA, 200 SMA) argues against a full liquidation, the risk-reward at $123.43 is skewed to the downside. I recommend trimming exposure into current strength, with a stop below the Bollinger Middle at $118.84 to protect against a deeper correction toward the 50 SMA at $109.99.\n\n**Entry Price**: 123.43\n\n**Stop Loss**: 118.84\n\n**Position Sizing**: Reduce to modest exposure; trim existing position rather than add\n\nFINAL TRANSACTION PROPOSAL: **SELL**"
+  },
+  "provenance": {
+    "experiments_sha": "b4f3d22978048d079600752981694a5a7d0041ef",
+    "model_configuration_identity": "f2e15ee388ee60297930ddd2eb4ed5d73c27ee297472d97bb7d73bc49d2cd420",
+    "model_id": "deepseek-v4-flash",
+    "run_identity": "70cc2b4afd40b1698de352a8d252fcda2d07811d60d0badc6faac1b99c2c96dd",
+    "source_sha": "6d3c46b96b8935944e0f232b73020262d870d953"
+  },
+  "research_manager": {
+    "investment_plan": "**Recommendation**: Underweight\n\n**Rationale**: The debate came down to a genuine tension between the bull's structural trend case and the bear's forward-looking momentum signals. The bull is right that AMZN is in a confirmed uptrend — price sits above the 10 EMA, 50 SMA, and 200 SMA, the golden cross is in place, and the 60-day return of +28.31% reflects real strength. The shallow -2.51% pullback with three higher closes is not a broken chart. But the bear's forward-looking evidence is more persuasive for the immediate decision window: the MACD histogram has compressed 94% in three days (0.72 to 0.04), RSI failed at overbought and is rolling over, and volume has collapsed 46% over three days while the stock remains below its June 6 rejection level of $126.61. The only high-volume day in the period was a distribution day. The bull's catalysts are weak — the EU tax opinion is advisory and immaterial (0.05% of assets), and the Coventry strikes are scheduled for the very next week (June 12-14), a near-term negative the market cannot have fully priced in. Fundamentals are genuinely opaque: no income statement data, negative net cash change of -$4.66B, and heavy investing outflows. The bull's 'we know Amazon has been profitable' is historical reputation, not current confirmation. Net: the structural trend argues against a full Sell, but the momentum decay, drying volume, resistance rejection, and near-term labor catalyst make the current entry point unattractive. The risk-reward at $123.43 is skewed to the downside in the near term, so I lean cautious — trim or avoid chasing here rather than add.\n\n**Strategic Actions**: For the trader: Adopt a cautious stance on AMZN. If holding a position, trim exposure into the current strength rather than adding — the stock is at resistance with fading momentum and a negative near-term catalyst (Coventry strikes June 12-14). Do not initiate new long positions at $123.43; the risk-reward is poor with the stock below its June 6 rejection level and volume drying up. Manage risk tightly: a break below the 10 EMA at $122.24 signals near-term weakness, with the Bollinger Middle at $118.84 as the first meaningful support and the 50 SMA at $109.99 as the deeper correction zone. Position sizing should be reduced relative to a full-weight stance — keep exposure modest and set a stop below $118.84 to protect against a deeper correction. Re-evaluate on a confirmed breakout above $128.50 on strong volume (which would invalidate the bearish momentum-decay thesis and warrant upgrading), or on a stabilization with rising volume that confirms accumulation. Until then, favor patience and capital preservation over chasing the rally.",
+    "investment_plan_sha256": "93a3cc1c60c310116ffa5edad8ab420d5273995b50e7720d153196869293e06f"
+  },
+  "reusable_for_M2_08": true,
+  "role": "TRAIN",
+  "schema_version": "M2-SEMANTIC-HANDOFF-v1",
+  "symbol": "AMZN"
+}

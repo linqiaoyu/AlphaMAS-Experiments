@@ -1,0 +1,36 @@
+{
+  "case_id": "AGI:2023-07-07",
+  "context": {
+    "company_of_interest": "AGI",
+    "decision_session": "2023-07-07",
+    "deterministic_temporal_context": {
+      "frozen_decision_time": "2023-07-07T20:00:00+00:00",
+      "historical_as_of": "2023-07-07T20:00:00+00:00",
+      "run_mode": "historical"
+    },
+    "instrument_context": "The instrument to analyze is `AGI`. Use this exact ticker in every tool call, report, and recommendation, preserving any exchange suffix (e.g. `.TO`, `.L`, `.HK`, `.T`, `-USD`).",
+    "ticker": "AGI"
+  },
+  "decision_session": "2023-07-07",
+  "evidence_packet_sha256": "4e08d78fe5a2267743e88898d979cdb7b5477ee9827b6d5834cd6e610563b69c",
+  "prompt_trader": {
+    "normalized_action": "SELL",
+    "proposal_sha256": "cbf0934ef21f2929fbbc6266401f768075b04b654b50a8fc4fb93687dd956058",
+    "rendered_proposal": "**Action**: Sell\n\n**Reasoning**: The research plan recommends an Underweight stance, and the medium-term technical picture confirms a downtrend with no reversal signal. AGI trades below both the 50-day SMA ($12.34) and 10-day EMA ($11.59), which have flipped to resistance, with volume 27% below average indicating no institutional accumulation and a deeply negative MACD (-0.22). The bull's \"double bottom\" claim is invalid since the second low ($11.39) was lower than the first ($11.41), and the July 3 bounce has faded. Fundamental data is unavailable, so there is no valuation support. The plan explicitly directs trimming exposure by one-third to one-half with a hard stop below the Bollinger lower band at $11.07 to protect against a break toward $9.50-$10.00. While the intact long-term uptrend (9.7% above the rising 200-day SMA at $10.44) and extreme sector oversold conditions argue against a full exit, the disciplined action is to reduce position size now and re-engage only on confirmed reversal signals.\n\n**Entry Price**: 11.45\n\n**Stop Loss**: 11.07\n\n**Position Sizing**: Reduce existing position by one-third to one-half; maintain a small core position underweight benchmark\n\nFINAL TRANSACTION PROPOSAL: **SELL**"
+  },
+  "provenance": {
+    "experiments_sha": "b4f3d22978048d079600752981694a5a7d0041ef",
+    "model_configuration_identity": "f2e15ee388ee60297930ddd2eb4ed5d73c27ee297472d97bb7d73bc49d2cd420",
+    "model_id": "deepseek-v4-flash",
+    "run_identity": "dd2d3a19985579e35825f6db797e6bfd2fcb6ec7f3af1d4b3d9e0bdd597bf9a1",
+    "source_sha": "6d3c46b96b8935944e0f232b73020262d870d953"
+  },
+  "research_manager": {
+    "investment_plan": "**Recommendation**: Underweight\n\n**Rationale**: This debate came down to a genuine tension between the medium-term and long-term technical pictures. The bear made the stronger case on the immediate trend: AGI is down 12.3% over 60 days and 15.8% from its peak, trading below both the 50-day SMA ($12.34) and 10-day EMA ($11.59), which have flipped to resistance. Volume is 27% below average, indicating no institutional accumulation, and the MACD line remains deeply negative at -0.22 — the +0.01 histogram blip the bull celebrated is noise within that regime, not a confirmed reversal. The bull's \"double bottom\" claim is also weak, since the second low ($11.39) was actually lower than the first ($11.41), and the July 3 bounce to $11.98 has already faded back to $11.45. Fundamental data is unavailable, so there is no valuation support to anchor a bullish thesis.\n\nHowever, the bull's long-term argument carries real weight and prevents a full Sell. AGI trades 9.7% above a rising 200-day SMA ($10.44), confirming the long-term uptrend is intact. The entire precious metals complex is at extreme oversold levels (gold RSI 6.2, silver 14.9), which historically precedes bounces, and the June 13 evidence explicitly described a \"bullish consolidation\" setup. The maintained dividend signals management confidence in cash flow.\n\nNet assessment: the medium-term trend is down and there is no confirmed reversal, so aggressive accumulation is not justified. But the intact long-term trend and extreme sector oversold conditions argue against exiting entirely. The disciplined stance is to trim exposure and wait for confirmation — either a reclaim of the 10 EMA/50 SMA on rising volume, or a test of the rising 200-day SMA support — before re-engaging.\n\n**Strategic Actions**: Trim AGI exposure to a below-benchmark weight given the confirmed medium-term downtrend and lack of fundamental support. Do not add at current levels — the bull's \"buy the dip\" thesis lacks a confirmed reversal signal, and the stock is below both the 50-day SMA and 10-day EMA, which now act as resistance. For existing holders, reduce position size by roughly one-third to one-half to manage downside risk toward the 200-day SMA at $10.44. Set a hard stop below the Bollinger lower band at $11.07 (or $10.90 per the bull's sizing) to protect against a break toward $9.50-$10.00. Re-engage only on confirmation: a reclaim of the 10-day EMA ($11.59) and 50-day SMA ($12.34) on above-average volume, or a successful hold and bounce off the rising 200-day SMA ($10.44). If the 200-day SMA breaks on volume, exit remaining position. Given the extreme oversold conditions in the gold complex and intact long-term trend, maintain a small core position to capture any mean-reversion bounce, but keep total exposure underweight until the medium-term downtrend shows clear signs of reversal.",
+    "investment_plan_sha256": "6764c63c076412a46b8f650808eb812c2e69ebf68486fe165d6b8261c29532b2"
+  },
+  "reusable_for_M2_08": true,
+  "role": "VALIDATION",
+  "schema_version": "M2-SEMANTIC-HANDOFF-v1",
+  "symbol": "AGI"
+}

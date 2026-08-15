@@ -1,0 +1,36 @@
+{
+  "case_id": "JBSS:2023-05-05",
+  "context": {
+    "company_of_interest": "JBSS",
+    "decision_session": "2023-05-05",
+    "deterministic_temporal_context": {
+      "frozen_decision_time": "2023-05-05T20:00:00+00:00",
+      "historical_as_of": "2023-05-05T20:00:00+00:00",
+      "run_mode": "historical"
+    },
+    "instrument_context": "The instrument to analyze is `JBSS`. Use this exact ticker in every tool call, report, and recommendation, preserving any exchange suffix (e.g. `.TO`, `.L`, `.HK`, `.T`, `-USD`).",
+    "ticker": "JBSS"
+  },
+  "decision_session": "2023-05-05",
+  "evidence_packet_sha256": "f5d2f11a2eca616b5ef47b407b6e0baf2672b01f39e3715a4c933c5ba2fc060b",
+  "prompt_trader": {
+    "normalized_action": "HOLD",
+    "proposal_sha256": "68dc592e6efe198f960af8c5f0d86ef4d9b4e9257898cd786b466bb06ae1ec5b",
+    "rendered_proposal": "**Action**: Hold\n\n**Reasoning**: The research plan presents a genuinely balanced case. The bull's evidence is compelling: a three-month base, volume-confirmed breakout on May 3 (3-4x average volume), perfect moving average alignment (price above 10 EMA, 50 SMA, 200 SMA with golden cross), accelerating MACD, and a fortress balance sheet (65.7% equity-to-assets, 0.52 debt-to-equity, $72.4M operating cash flow). However, the bear's caution is equally legitimate: RSI at 86.08 is extreme, price sits above the upper Bollinger Band, the 12% five-day move is parabolic, and critically, there is NO income statement data available to assess valuation, margins, or earnings. The risk/reward at $103.24 with a $96.21 stop (6.8% risk) against a $110 target (6.5% reward) is roughly 1:1, which is poor for a momentum trade. Given the unresolved valuation question and extreme overbought conditions, the prudent stance is to maintain the current position without adding or trimming—Hold—while awaiting the next quarterly filing to resolve the valuation opacity.\n\n**Entry Price**: 103.24\n\n**Stop Loss**: 96.21\n\n**Position Sizing**: 2-3% of portfolio\n\nFINAL TRANSACTION PROPOSAL: **HOLD**"
+  },
+  "provenance": {
+    "experiments_sha": "b4f3d22978048d079600752981694a5a7d0041ef",
+    "model_configuration_identity": "f2e15ee388ee60297930ddd2eb4ed5d73c27ee297472d97bb7d73bc49d2cd420",
+    "model_id": "deepseek-v4-flash",
+    "run_identity": "dde72aee61f9dd1f1c0b79090dedc63bc1af6aeaa35bb8fbf3243c90bd8ece2f",
+    "source_sha": "6d3c46b96b8935944e0f232b73020262d870d953"
+  },
+  "research_manager": {
+    "investment_plan": "**Recommendation**: Hold\n\n**Rationale**: Let me weigh both sides of this debate carefully, because there are genuinely strong arguments on each side.\n\nThe bull makes a compelling case built on structural strength: a three-month base-building phase, a volume-confirmed breakout on May 3 (3-4x average volume), perfect moving average alignment (price above the 10 EMA, 50 SMA, and 200 SMA with a golden cross structure), accelerating MACD momentum, and a fortress balance sheet (65.7% equity-to-assets, 0.52 debt-to-equity, $72.4M operating cash flow over nine months). The stock is at its 60-day peak with zero drawdown, which argues against distribution. The defensive consumer staples positioning is genuinely attractive in an uncertain macro environment.\n\nThe bear makes an equally rigorous case built on risk: RSI at 86.08 is in the extreme tail of the distribution and historically precedes pullbacks; price is above the upper Bollinger Band; the 12% five-day move is parabolic; there is no identifiable fundamental catalyst beyond a balance sheet that was largely known; and critically, there is NO income statement data available—we cannot assess valuation, margins, or earnings. The risk/reward at $103.24 with a stop at $96.21 (6.8% risk) against a $110 target (6.5% reward) is roughly 1:1, which is objectively poor for a momentum trade. The bear also correctly notes that the May 3 surge decelerated from 6.9% to 2.8% to 2.7% over three days, suggesting momentum rather than a sustained fundamental re-rating.\n\nWhere I land: The bull's technical and balance-sheet evidence is real and compelling, but the bear's points about valuation opacity and extreme overbought conditions are also legitimate. The critical missing piece is the income statement—without earnings, revenue, or valuation data, we cannot confirm the stock is fairly valued at $103.24. The bull is asking us to buy on price action and balance sheet strength alone, which is a real limitation. The bear is asking us to avoid a stock with strong momentum and a fortress balance sheet, which also feels overly cautious given the confirmed uptrend.\n\nThis is a genuinely balanced situation. The trend and fundamentals support the bull, but the extreme overbought readings, unknown valuation, and unfavorable near-term risk/reward support the bear's caution. Neither side has decisively won the argument. The prudent stance is to maintain the current position without adding or trimming aggressively—Hold—while acknowledging that a pullback toward the $96–$100 zone would create a more favorable entry for those looking to add.\n\n**Strategic Actions**: 1. Maintain current JBSS position at current levels; do not add new exposure at $103.24 given the extreme overbought readings (RSI 86, price above upper Bollinger Band) and the unknown valuation due to unavailable income statement data.\n\n2. For existing holders: hold the position but tighten risk management. Consider a stop-loss in the $96–$100 zone (below the 10 EMA at $96.21) to protect against a sharp mean-reversion, given the ATR of $2.69 and the elevated probability of a pullback from these stretched levels.\n\n3. For those looking to establish or add exposure: do NOT chase at current levels. Wait for a pullback to the $96–$100 zone (10 EMA / breakout retest) where the risk/reward becomes more favorable. This aligns with the bear's more prudent entry point while respecting the bull's confirmed uptrend.\n\n4. Monitor for the next quarterly filing to obtain income statement data (revenue, net income, EPS, margins). This is the critical missing piece that would resolve the valuation question and allow a more decisive stance.\n\n5. If the stock continues to hold above the 10 EMA and consolidates without breaking down, the bull's thesis gains credibility and a more constructive stance (Overweight) could be justified on a pullback entry.\n\n6. Position sizing: keep any JBSS position modest (e.g., 2-3% of portfolio) given the elevated volatility and the unresolved valuation question. Do not size as if this were a high-conviction, fully-validated investment.",
+    "investment_plan_sha256": "53879ee4d240b22ce98c2458b4f32c489cebe24820ddfc7e57d60064f87f1021"
+  },
+  "reusable_for_M2_08": true,
+  "role": "TRAIN",
+  "schema_version": "M2-SEMANTIC-HANDOFF-v1",
+  "symbol": "JBSS"
+}

@@ -1,0 +1,36 @@
+{
+  "case_id": "AEMD:2023-06-16",
+  "context": {
+    "company_of_interest": "AEMD",
+    "decision_session": "2023-06-16",
+    "deterministic_temporal_context": {
+      "frozen_decision_time": "2023-06-16T20:00:00+00:00",
+      "historical_as_of": "2023-06-16T20:00:00+00:00",
+      "run_mode": "historical"
+    },
+    "instrument_context": "The instrument to analyze is `AEMD`. Use this exact ticker in every tool call, report, and recommendation, preserving any exchange suffix (e.g. `.TO`, `.L`, `.HK`, `.T`, `-USD`).",
+    "ticker": "AEMD"
+  },
+  "decision_session": "2023-06-16",
+  "evidence_packet_sha256": "e30f9ff50d9bcb35fa5159982af69fd4e17c0d38c1579a1b7332884c9e8746f0",
+  "prompt_trader": {
+    "normalized_action": "HOLD",
+    "proposal_sha256": "d6279587b503efc844c7f136708a9a973fb5115ecd6b5e7f287700e898fdf4d7",
+    "rendered_proposal": "**Action**: Hold\n\n**Reasoning**: The plan's Underweight rating translates to a Hold for the trader: the short-term technicals have genuinely turned (MACD bullish crossover, price above 50 SMA, RSI 57.9, +19.35% 20-day return) and the balance sheet is not distressed (D/E 0.20, $17.28M equity), so a Sell is not justified. However, the extreme illiquidity (~169 shares/day, relative volume 0.689), 66% annualized realized volatility, unconfirmed catalyst, and structural downtrend (declining 200 SMA) make new long exposure a poor risk/reward. The correct action is to hold existing positions while trimming into strength toward the $300-$320 zone, and to avoid initiating new longs at current levels (~$296).\n\n**Entry Price**: 296.0\n\n**Stop Loss**: 240.0\n\n**Position Sizing**: Very small if any tactical long maintained; ATR of 22.60 (7.6% of price) and 66% annualized realized volatility demand minimal sizing. Trim into $300-$320 strength if holding.\n\nFINAL TRANSACTION PROPOSAL: **HOLD**"
+  },
+  "provenance": {
+    "experiments_sha": "b4f3d22978048d079600752981694a5a7d0041ef",
+    "model_configuration_identity": "f2e15ee388ee60297930ddd2eb4ed5d73c27ee297472d97bb7d73bc49d2cd420",
+    "model_id": "deepseek-v4-flash",
+    "run_identity": "78375373a632f4cbfb157bd94af447a14c4ebdb5191b60a985e2a72cd543b8d0",
+    "source_sha": "6d3c46b96b8935944e0f232b73020262d870d953"
+  },
+  "research_manager": {
+    "investment_plan": "**Recommendation**: Underweight\n\n**Rationale**: Let me walk through how I weighed this debate, because it was genuinely close on the technicals but not on the risk profile.\n\nThe bull made a legitimate point that the short-term technicals have turned: MACD bullish crossover, price reclaiming the 50 SMA, RSI at 57.9 with room before overbought, and a +19.35% 20-day return. These are real, price-derived signals. The bull also correctly noted the balance sheet is not distressed — D/E of 0.20, $17.28M equity against $3.45M liabilities, and a net positive cash position change of +$0.43M over nine months. That's a company that can survive, not one on the brink.\n\nBut the bear's core critique is the one that carries the day for me, and it's not really refuted by the bull: this is a stock trading roughly 169 shares a day with relative volume of 0.689. The bull's counter — that low volume cuts both ways and the absence of sellers is bullish — is clever but not persuasive in a name this illiquid. The January and April volume spikes (58,887 and 42,600 shares) were the only real institutional participation, and both were followed by collapses of 39% and 57%. The current advance is happening in a vacuum where a handful of retail orders can move price, and where exiting a position means becoming the exit liquidity. The ATR of 22.60 (7.6% of price) and 66% annualized realized volatility mean a single bad headline can erase the entire rally in one session.\n\nThe bear also wins on the catalyst question. The sentiment, macro, and income statement data are all unavailable in historical mode. There is no confirmed news, no FDA filing, no partnership, no clinical data in the evidence. The bull's \"optionality\" argument is a hope, not a fact. In a development-stage company burning ~$840K/month with no revenue, buying on the hope of an unconfirmed catalyst is speculation, not investment.\n\nOn risk/reward, the bear's math is more honest. Upside to the 200 SMA at $383 is +29%, downside to the $240 \"triple-bottom\" is -19% — roughly 1.5:1, and that $240 level is not a reliable floor in a stock with no institutional bid. The bull's claim of \"asymmetric upside\" rests on a declining 200 SMA converging toward price, but a declining 200 SMA is confirmation of a structural downtrend, not a tailwind.\n\nSo where does that leave me? The technicals have genuinely turned short-term, and the balance sheet supports survival, so I can't justify a Sell — the company is not in financial distress and momentum is real. But the illiquidity, the unconfirmed catalyst, the structural downtrend, and the poor risk/reward in a name this thin argue against adding exposure. The strongest arguments — the bear's on liquidity, catalyst absence, and risk/reward, plus the bull's on the balance sheet and short-term momentum — point to a cautious stance: don't chase this rally, and use any strength toward the $300-$320 zone to reduce exposure if holding. That's an Underweight.\n\n**Strategic Actions**: For the trader on AEMD:\n\n1. RATING: Underweight. Do not initiate new long positions at current levels (~$296). The short-term momentum is real but the illiquidity and unconfirmed catalyst make this a poor risk/reward for new capital.\n\n2. IF HOLDING: Use any strength toward the $300-$320 zone to trim/reduce exposure into the bid. This aligns with the bear's exit guidance and the reality that liquidity is scarce — exit in tranches rather than all at once to avoid moving the price against yourself.\n\n3. POSITION SIZING: If any tactical long is maintained, size it very small given ATR of 22.60 (7.6% of price) and 66% annualized realized volatility. A single adverse headline can erase the entire recent rally in one session.\n\n4. RISK MANAGEMENT: Any long position should have a hard stop below the $240 triple-bottom support. Note this is only ~2.5 ATRs below current price, so it is a speed bump, not a floor — do not treat it as a reliable support in a stock with no institutional bid.\n\n5. CONFIRMATION TRIGGERS TO UPGRADE: Only consider moving toward a more constructive stance on (a) a confirmed catalyst (FDA filing, partnership, clinical data) with a meaningful volume expansion, or (b) a break above the 200 SMA at $383 on volume at least several times current levels. Until one of these occurs, the structural downtrend and illiquidity dominate.\n\n6. AVOID: Do not average down into weakness. The company burns ~$840K/month with no revenue and will likely need to raise capital again within 18-24 months, creating future dilution risk at potentially lower prices.",
+    "investment_plan_sha256": "5d9b90e2ba935d4b4bab9bb2d6d6cc6539ebbcdbeba1155cd3a7b1de434a0b8b"
+  },
+  "reusable_for_M2_08": true,
+  "role": "TRAIN",
+  "schema_version": "M2-SEMANTIC-HANDOFF-v1",
+  "symbol": "AEMD"
+}

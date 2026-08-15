@@ -1,0 +1,1179 @@
+{
+  "cases": [
+    {
+      "actor_visible_state_sha256": "9525d1d2042ef9ad9056922857e333dc1bcca8042a69274521b047a5ad267004",
+      "case_files": {
+        "actor_visible_state.json": "9525d1d2042ef9ad9056922857e333dc1bcca8042a69274521b047a5ad267004",
+        "upstream_trace.json": "a4cd6038224466d94ee7ba044392094e615694b5ed6d481af44d4c49500b4b57",
+        "usage.json": "30f0323c13eb83ef53cd3d302157c3449f903fca0979a4e39eee844d3a3e76b8"
+      },
+      "case_id": "AAPL:2023-05-05",
+      "case_sha256_manifest_sha256": "9d9e341b94bd6f252647c3bac95720f6b1886b90d042251a9f21d95175d0cb51",
+      "decision_session": "2023-05-05",
+      "evidence_packet_sha256": "bc0be8fc1d0cfa8b4e5b118a8d269213c7efac7b410e5120641fe301279ed49b",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 1,
+      "role": "TRAIN",
+      "symbol": "AAPL"
+    },
+    {
+      "actor_visible_state_sha256": "33c2bd61cf887ef939dec6b4029674b4a4450f2b429ea369175f87f432dc95c9",
+      "case_files": {
+        "actor_visible_state.json": "33c2bd61cf887ef939dec6b4029674b4a4450f2b429ea369175f87f432dc95c9",
+        "upstream_trace.json": "e9262ca5b0641b715ae73fbdc958e859b235a76200dd6261446364f27a261d2b",
+        "usage.json": "a6831eb654a27894e27d11b2c6a0ea5c0874595187d0780c22aa0ab2d29c49f2"
+      },
+      "case_id": "AAPL:2023-05-12",
+      "case_sha256_manifest_sha256": "4f8dcaa233146333cb8b8ba23e78d6625cb382b35c452708927d4921e458289e",
+      "decision_session": "2023-05-12",
+      "evidence_packet_sha256": "53b91a2787e6d3be097aaa69dd0ed074643bac742f9944e7ae3bae0197055500",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 2,
+      "role": "TRAIN",
+      "symbol": "AAPL"
+    },
+    {
+      "actor_visible_state_sha256": "094a2d797af358ce46695f3443db252540c0ca92c57f7745adc7f2d6503acb94",
+      "case_files": {
+        "actor_visible_state.json": "094a2d797af358ce46695f3443db252540c0ca92c57f7745adc7f2d6503acb94",
+        "upstream_trace.json": "5f698cbb9139d90c10aba4bd2451be03c1a5a04463a178ea28ecff18fbf3098d",
+        "usage.json": "f28e4034a751b573b61d6b40a59c224d75212db3e2f532fe98d66ea7fcd32e0c"
+      },
+      "case_id": "AAPL:2023-05-19",
+      "case_sha256_manifest_sha256": "243a576343e4e10325ea223735ca8df76ca2ab6c908d8b6d549d85195771fca3",
+      "decision_session": "2023-05-19",
+      "evidence_packet_sha256": "579e47b13fb0d87bcd75f63afcec5b571646dd4447acc06696cb14f4a1460cea",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 3,
+      "role": "TRAIN",
+      "symbol": "AAPL"
+    },
+    {
+      "actor_visible_state_sha256": "5b73163cf3b766b02ca96a100ec35b28af6e4d26b6aead685c83d2115bee3e6e",
+      "case_files": {
+        "actor_visible_state.json": "5b73163cf3b766b02ca96a100ec35b28af6e4d26b6aead685c83d2115bee3e6e",
+        "upstream_trace.json": "0791a75e9bf1488d0b796dd16ad59d5cc7ac5f352e074a677f763d9434a7514b",
+        "usage.json": "6cbb26a7b3bd202f42ca3c4376f7dc1c5827872158ca95336f6eebb11fc81e0f"
+      },
+      "case_id": "AAPL:2023-05-26",
+      "case_sha256_manifest_sha256": "14cd2d92a94f36929cce39e94a0a06760bbeb55b020ffce81e0adb1d854f681a",
+      "decision_session": "2023-05-26",
+      "evidence_packet_sha256": "e6cd112af9030dcc19278de63b96b583518a4283f3c54d7638212c4d2b98a98a",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 4,
+      "role": "TRAIN",
+      "symbol": "AAPL"
+    },
+    {
+      "actor_visible_state_sha256": "ddada7442b1db4c3541745386eb50f3fc73ccc933f46e1a1b54cc2a5c5a959c9",
+      "case_files": {
+        "actor_visible_state.json": "ddada7442b1db4c3541745386eb50f3fc73ccc933f46e1a1b54cc2a5c5a959c9",
+        "upstream_trace.json": "bb895a3ca0e05ebe344c9da1322a31e2e1ec80d2f89fe79effb5ef8c0474fbbe",
+        "usage.json": "e92b88cdb84adb36fe68fb2af0a8151d32afd4d45f2e991b2e1c83a2b97963ac"
+      },
+      "case_id": "AAPL:2023-06-02",
+      "case_sha256_manifest_sha256": "679dd20a0e4278da522593318d3d918e7284485b6c1ec90ccd0d2bf552ec8b5c",
+      "decision_session": "2023-06-02",
+      "evidence_packet_sha256": "730dc7b33d468f5f962d8034ed6ceaf23f69dc12d849361a2ebba3f8291dbcae",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 5,
+      "role": "TRAIN",
+      "symbol": "AAPL"
+    },
+    {
+      "actor_visible_state_sha256": "0a28e6e8bd3df77a77202d0d0043058c498d51934e702c2f4745a56b9e219fb2",
+      "case_files": {
+        "actor_visible_state.json": "0a28e6e8bd3df77a77202d0d0043058c498d51934e702c2f4745a56b9e219fb2",
+        "upstream_trace.json": "d7502303233c87a70e3866eeb8f195344d9f18d63832933212dd5fcb06e44c52",
+        "usage.json": "ce97eee203443a8d8611ce72d90d31d4dc79eb4b991f026839d8ed0e3194dcff"
+      },
+      "case_id": "AAPL:2023-06-09",
+      "case_sha256_manifest_sha256": "d7de54be5f5754cbc72b1685b4e2f6d31e71052004b23c837bb035ca5e2913b1",
+      "decision_session": "2023-06-09",
+      "evidence_packet_sha256": "b273de525eb697f1142007b0882f9053b1f78f3624fb0bd81aa845859b60ee4e",
+      "generation_mode": "REUSE_M2_07",
+      "generation_order": 6,
+      "role": "TRAIN",
+      "symbol": "AAPL"
+    },
+    {
+      "actor_visible_state_sha256": "914eea1139cb4980266b8bc68cbd5e4b1cb69fae996c3d2b74edaaedbbfe6b8e",
+      "case_files": {
+        "actor_visible_state.json": "914eea1139cb4980266b8bc68cbd5e4b1cb69fae996c3d2b74edaaedbbfe6b8e",
+        "upstream_trace.json": "5a0381357470fa3cb080752da9f6caaaafe7d6b03552d93b56ba5c49e08ce1ee",
+        "usage.json": "788e86fa16e4842327cd121692fc71093c2314af67f07edbeeacd2c88bf4a850"
+      },
+      "case_id": "AAPL:2023-06-16",
+      "case_sha256_manifest_sha256": "02a0c34598e326993504bb59cae29ad06159e1253b3dccb48eaac3f1ffa5f24d",
+      "decision_session": "2023-06-16",
+      "evidence_packet_sha256": "496246214d291c86d6358b316cee4c54ec3c296ed9c9ea2293574ed061057d22",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 7,
+      "role": "TRAIN",
+      "symbol": "AAPL"
+    },
+    {
+      "actor_visible_state_sha256": "56bc676c477203a49ee7702e36f4f859ff8124924580c3cf5eb072d8763bb573",
+      "case_files": {
+        "actor_visible_state.json": "56bc676c477203a49ee7702e36f4f859ff8124924580c3cf5eb072d8763bb573",
+        "upstream_trace.json": "15097de46351fa4b8a6a6644037834421891198e0b1d0393c5ffd4085f17dab7",
+        "usage.json": "a547b37939105c4fe488067be3825a5125c99bab01527e787a7e2295f3aa4be5"
+      },
+      "case_id": "AMZN:2023-05-05",
+      "case_sha256_manifest_sha256": "f386ccd852341c40f5611980dae6c0e07a1e1fa34b71618da0b1f39d84e18180",
+      "decision_session": "2023-05-05",
+      "evidence_packet_sha256": "3c0a869d95d995d5a34f6f4a128b1b65e01154b5147c361d925503bb969407a6",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 8,
+      "role": "TRAIN",
+      "symbol": "AMZN"
+    },
+    {
+      "actor_visible_state_sha256": "1a15a17b837d1b623f417261761542d5fea1ae2d0632521719c636c8dc2cec3d",
+      "case_files": {
+        "actor_visible_state.json": "1a15a17b837d1b623f417261761542d5fea1ae2d0632521719c636c8dc2cec3d",
+        "upstream_trace.json": "45b9f46aca1994dd18e51ca34de0a9eecf549e3df1cb92155266991c9c671657",
+        "usage.json": "6d5889519d9475894c1e26de12d616a2c7be50536721a060f9a94ffa7ff25984"
+      },
+      "case_id": "AMZN:2023-05-12",
+      "case_sha256_manifest_sha256": "aa1f1a0477e016e9839c84b19ca0a353c960b088f2c4bb4b749ccfa319f255b1",
+      "decision_session": "2023-05-12",
+      "evidence_packet_sha256": "6906b810b5300e700c98769bc539cfd6802644b4799118ff61552988d459cebb",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 9,
+      "role": "TRAIN",
+      "symbol": "AMZN"
+    },
+    {
+      "actor_visible_state_sha256": "7d900d2c566c2c7ee9396133dd794ebc7f5d56da10cb80cdaab933fff1b91541",
+      "case_files": {
+        "actor_visible_state.json": "7d900d2c566c2c7ee9396133dd794ebc7f5d56da10cb80cdaab933fff1b91541",
+        "upstream_trace.json": "051b78567975fe6902f1790148985f5a33d7713a00c3efff72e8564ee5fc237a",
+        "usage.json": "1cf52dc0892f3cd5509497ede65bce8e86352f00d2aa1f37540a06fd2253f8f6"
+      },
+      "case_id": "AMZN:2023-05-19",
+      "case_sha256_manifest_sha256": "a1d2415ca78d15c3d85ec73f35eaf1557951fb6c7b759c1160cdda9d3a741069",
+      "decision_session": "2023-05-19",
+      "evidence_packet_sha256": "7ff7d1fea34fa4292198ea78cc0d8c801aa26db8bf0898ce9db6766477116602",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 10,
+      "role": "TRAIN",
+      "symbol": "AMZN"
+    },
+    {
+      "actor_visible_state_sha256": "092808ff9aacaceaef77efb6ccf8efe6e3ac77a761e5eba61abd0ebe66fa27ab",
+      "case_files": {
+        "actor_visible_state.json": "092808ff9aacaceaef77efb6ccf8efe6e3ac77a761e5eba61abd0ebe66fa27ab",
+        "upstream_trace.json": "c028c46d389a05ba6a746c3be5abfb59527049fe85507a625ebaddf01e02ba0d",
+        "usage.json": "fdf7b9da027ae3e3f3e9e6671118d6b25f3ab41811ddb3688ae81fee64005291"
+      },
+      "case_id": "AMZN:2023-05-26",
+      "case_sha256_manifest_sha256": "6f5f0a25149c56d9e9d3d918652dbbd48578aefaa4403a719a231295290395c6",
+      "decision_session": "2023-05-26",
+      "evidence_packet_sha256": "82c479e659af8d3c44ad327c716b936e93be833fd2b5a9d7a437bf221ce40a55",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 11,
+      "role": "TRAIN",
+      "symbol": "AMZN"
+    },
+    {
+      "actor_visible_state_sha256": "88498771397137bd8867a2bf4fd96725f98598549495dabd13521a27a8c92d12",
+      "case_files": {
+        "actor_visible_state.json": "88498771397137bd8867a2bf4fd96725f98598549495dabd13521a27a8c92d12",
+        "upstream_trace.json": "77473da57a98e419175e04ff96a89658776dedf18fa242dfa26d79381c38c921",
+        "usage.json": "89d80e10f9a49b3b3a29c6b503c63027c686d5f8208d2c628a06df6fa661e1e9"
+      },
+      "case_id": "AMZN:2023-06-02",
+      "case_sha256_manifest_sha256": "4a36d158664c271b6380baea47cdbabc2c7bd4fb90c76f1a00a844ce08288c48",
+      "decision_session": "2023-06-02",
+      "evidence_packet_sha256": "feb689864ca1ab89e9f0f15a983e5fa2a827b5f60f1ac8de510f90f8fe41ec7f",
+      "generation_mode": "REUSE_M2_07",
+      "generation_order": 12,
+      "role": "TRAIN",
+      "symbol": "AMZN"
+    },
+    {
+      "actor_visible_state_sha256": "74f494b6f2dc69c40b6f9989e329e935c1e7ef19970a26a3a9bd84150f91de8e",
+      "case_files": {
+        "actor_visible_state.json": "74f494b6f2dc69c40b6f9989e329e935c1e7ef19970a26a3a9bd84150f91de8e",
+        "upstream_trace.json": "ec311ad5b3f2e43213ddde8ab8564aac3fb4445972a31f8217ec90c31197cabf",
+        "usage.json": "cc18684fe485a8f70157bd7a840762dff5da482c14dd970b5a6de60d8e260d41"
+      },
+      "case_id": "AMZN:2023-06-09",
+      "case_sha256_manifest_sha256": "b922a0cda879ad84ffa1ee048912aa6905ab03af9d33dca6bfc6a31846833ed9",
+      "decision_session": "2023-06-09",
+      "evidence_packet_sha256": "c17f45290dd9122649b0a088d7d3ca6af1aae455cd7d4b9aac7057b066e36fe6",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 13,
+      "role": "TRAIN",
+      "symbol": "AMZN"
+    },
+    {
+      "actor_visible_state_sha256": "4827eb95347ebbcde48ddb069282adcfb250a61990f5d213c273e4d9594a6659",
+      "case_files": {
+        "actor_visible_state.json": "4827eb95347ebbcde48ddb069282adcfb250a61990f5d213c273e4d9594a6659",
+        "upstream_trace.json": "190e6e4ea321ab7962d8446fad572a8086b8869834d13d25d12bebaf24442bb3",
+        "usage.json": "21b929593c57cdea69dbeb51ec97cc9598bda46ed4fd5e481488f92cb7893524"
+      },
+      "case_id": "AMZN:2023-06-16",
+      "case_sha256_manifest_sha256": "bfbc1a26bd591fb8e0be626f2fea148156cc2ed30871c1ead0fb167f310387c6",
+      "decision_session": "2023-06-16",
+      "evidence_packet_sha256": "6096e49d4d3d62ceaec9f1ddbcfa73b09f05d16f34c1f7f15811488883b6103f",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 14,
+      "role": "TRAIN",
+      "symbol": "AMZN"
+    },
+    {
+      "actor_visible_state_sha256": "76d004b4d63c00ad3eebbb9ff81f31794a87ceb4877afe00700fb32a7cf1eea8",
+      "case_files": {
+        "actor_visible_state.json": "76d004b4d63c00ad3eebbb9ff81f31794a87ceb4877afe00700fb32a7cf1eea8",
+        "upstream_trace.json": "f0e05c0afaba12905e6fa103b59357e2fa3161124622cda6b775cec84fcc78a3",
+        "usage.json": "49fddb7fa97aa85d3b20467c1b89e4a679ca19ad5ec22fa61ff1abcff54b8490"
+      },
+      "case_id": "JPM:2023-05-05",
+      "case_sha256_manifest_sha256": "d2a23b4aa016d16d4a8eef1bc7882994f61e73128fe4bd81ba35924311611d45",
+      "decision_session": "2023-05-05",
+      "evidence_packet_sha256": "82195c164bc6660843277b7a9e11a1efd354da9ca7cbe053e202e3ee6b7ad344",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 15,
+      "role": "TRAIN",
+      "symbol": "JPM"
+    },
+    {
+      "actor_visible_state_sha256": "8b14edeae20a11c0210dd67f59a7e2fd66c923e27d1358300089265955d33b7f",
+      "case_files": {
+        "actor_visible_state.json": "8b14edeae20a11c0210dd67f59a7e2fd66c923e27d1358300089265955d33b7f",
+        "upstream_trace.json": "a185160dd2c8e527973de32029b638226105190a889bc430e3cb7f7d5b5bbea9",
+        "usage.json": "310b83e54a434b5f2827412beb51ef14feb3a0c8b5b905a33041d5f1fec89596"
+      },
+      "case_id": "JPM:2023-05-12",
+      "case_sha256_manifest_sha256": "ad15342033e6007a6f4bbf9d846a5f38f201e5f05279336c1cfa18869e35e13e",
+      "decision_session": "2023-05-12",
+      "evidence_packet_sha256": "ae5fc2869afe672fbcb53d4dd24f72d74b579e62e6c7d4be2d161d90e87eb595",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 16,
+      "role": "TRAIN",
+      "symbol": "JPM"
+    },
+    {
+      "actor_visible_state_sha256": "72da1abd8b013651b304e7aa07567cac4df7bc1a2e09256143c46c6923c73ab7",
+      "case_files": {
+        "actor_visible_state.json": "72da1abd8b013651b304e7aa07567cac4df7bc1a2e09256143c46c6923c73ab7",
+        "upstream_trace.json": "c2302331f024feec863b59f41437fe3d472393eb0dcf482ae7fdde1ce3ed5afb",
+        "usage.json": "36043914821fad215dda9a21c720ae98e0c0b672b50fe89fc1e594a4935f2b1d"
+      },
+      "case_id": "JPM:2023-05-19",
+      "case_sha256_manifest_sha256": "4f7bcd4944419972c800688ccea4d24ef818995ddb97b5763b5489cda9fc1991",
+      "decision_session": "2023-05-19",
+      "evidence_packet_sha256": "404b6b8f246192aaad380d2c8f72a0feac9b8aa6a499fbc3b54425c5d232f9a3",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 17,
+      "role": "TRAIN",
+      "symbol": "JPM"
+    },
+    {
+      "actor_visible_state_sha256": "9a9f84dde86c9c677cecb171a12ccd7d878bcd35b2213c138427247925b33465",
+      "case_files": {
+        "actor_visible_state.json": "9a9f84dde86c9c677cecb171a12ccd7d878bcd35b2213c138427247925b33465",
+        "upstream_trace.json": "46bc8385c1404be9b0374930c402572ca439d0be9d6caa1408b1202e72f5697f",
+        "usage.json": "efd4f2ff7197328c771b1545c3ced24619b5b75754a9bf0b4090616627952545"
+      },
+      "case_id": "JPM:2023-05-26",
+      "case_sha256_manifest_sha256": "7597a3ab0c52391c0874e9c6842f7f481cde93f51990f8ed7ee02187e8e157d3",
+      "decision_session": "2023-05-26",
+      "evidence_packet_sha256": "707519cad84b587b7e203ef3a2d842f3449483a9b8714bab3497aa36ceb98283",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 18,
+      "role": "TRAIN",
+      "symbol": "JPM"
+    },
+    {
+      "actor_visible_state_sha256": "d777a353aced757e22ed45a97414b64728f28aa60b827a211d9c163daae9f780",
+      "case_files": {
+        "actor_visible_state.json": "d777a353aced757e22ed45a97414b64728f28aa60b827a211d9c163daae9f780",
+        "upstream_trace.json": "8f525a660bb961850104ae68aa1bc2e8bfd2488c2b4b42a3c4669c02a12804c8",
+        "usage.json": "7e70c211270fd9fd348d874380052d8b3f0da7a66fe63266f4fc2d4c6ccb8569"
+      },
+      "case_id": "JPM:2023-06-02",
+      "case_sha256_manifest_sha256": "1eeeb002e144b581c17b74a9f14569f538418acdaa212da69186f267f80d2585",
+      "decision_session": "2023-06-02",
+      "evidence_packet_sha256": "893ac72f5002468cf16e78baa049bcd8f8ce6507603a6351f72210a87481bf98",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 19,
+      "role": "TRAIN",
+      "symbol": "JPM"
+    },
+    {
+      "actor_visible_state_sha256": "14a9004f50f1fdbe11fdb440bbe05bbee74cecadc2591b21c31135486cce771a",
+      "case_files": {
+        "actor_visible_state.json": "14a9004f50f1fdbe11fdb440bbe05bbee74cecadc2591b21c31135486cce771a",
+        "upstream_trace.json": "dfef819c5b1f4003bbb6cbfb33375b91fd2df7a5c1fa6cb632c0f6a4dbb155dd",
+        "usage.json": "87c4aed42c7e5a8833f6440b786bcd50ef5942a6e72e7b8724c9c5f8952b0670"
+      },
+      "case_id": "JPM:2023-06-09",
+      "case_sha256_manifest_sha256": "8ef6c1c40d2d258ea1b6e9abee8ed243077cf263e168b6852529b4645dedcdf0",
+      "decision_session": "2023-06-09",
+      "evidence_packet_sha256": "ef0692f351b5c484d60b81fb9b3ebda5ee959dfcb086f1aff6fab579d93c071d",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 20,
+      "role": "TRAIN",
+      "symbol": "JPM"
+    },
+    {
+      "actor_visible_state_sha256": "331524ec4aaeeddd7b1436106f4079c73f9a2b6117e63a6787f695da652299f5",
+      "case_files": {
+        "actor_visible_state.json": "331524ec4aaeeddd7b1436106f4079c73f9a2b6117e63a6787f695da652299f5",
+        "upstream_trace.json": "9b28db583a0f74add8fa3674704074a48348fd8802933de2a6b1012a08596ef6",
+        "usage.json": "65e689e3b3ec92b400c6a8dec92da996c240d9f90ddd1f3798085e0256e02cd6"
+      },
+      "case_id": "JPM:2023-06-16",
+      "case_sha256_manifest_sha256": "1dd894eb7be677ef2b52df61559f6b5e6258eee3c6662f936e535371de52d311",
+      "decision_session": "2023-06-16",
+      "evidence_packet_sha256": "5da35423012615f6f9eb7daf3df09ba444923c0f794998bece2f1d9a14a2d58d",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 21,
+      "role": "TRAIN",
+      "symbol": "JPM"
+    },
+    {
+      "actor_visible_state_sha256": "4a867f401809cd6750d89e50d18980a152e800936c6784c9cd53dbfe27edde19",
+      "case_files": {
+        "actor_visible_state.json": "4a867f401809cd6750d89e50d18980a152e800936c6784c9cd53dbfe27edde19",
+        "upstream_trace.json": "487ffc2b6fe63393ef805ea88fe17819246ae08b5c801c4ba0980c1205e30a20",
+        "usage.json": "f2f3a9cef346cb5c7d5dfc24bcb01e89b40e4566877ee048a5ac0775e1866c7e"
+      },
+      "case_id": "JBSS:2023-05-05",
+      "case_sha256_manifest_sha256": "afbda8b62d7c349599417cbe0d03b13c5f3a6e7d4dfb4356fdd696edd669a1ce",
+      "decision_session": "2023-05-05",
+      "evidence_packet_sha256": "f5d2f11a2eca616b5ef47b407b6e0baf2672b01f39e3715a4c933c5ba2fc060b",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 22,
+      "role": "TRAIN",
+      "symbol": "JBSS"
+    },
+    {
+      "actor_visible_state_sha256": "d42a338d002a1520eaeafa4053ac5f739fb18899f8a7932e136bc43f60e9c8d3",
+      "case_files": {
+        "actor_visible_state.json": "d42a338d002a1520eaeafa4053ac5f739fb18899f8a7932e136bc43f60e9c8d3",
+        "upstream_trace.json": "8acca3ff4122aff5ed5e26170d909815731dd316fb2b979337993faf7aa190a8",
+        "usage.json": "fa0551b7e955aec3e36f8856a0da0b6299881d6242945c9dbba11cc9471aeba0"
+      },
+      "case_id": "JBSS:2023-05-12",
+      "case_sha256_manifest_sha256": "41635f855a52e79c631df306b74f76e48669e9dffc9aa354a3ea2de51f0717de",
+      "decision_session": "2023-05-12",
+      "evidence_packet_sha256": "ff8633de7917f4d52f6b1d413100c7a4107b6f18247715342ee55c792490fc51",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 23,
+      "role": "TRAIN",
+      "symbol": "JBSS"
+    },
+    {
+      "actor_visible_state_sha256": "828fb848a1150675baaf130f64e4ee068bfa5e7bcef2aae646190f6d892a0cf7",
+      "case_files": {
+        "actor_visible_state.json": "828fb848a1150675baaf130f64e4ee068bfa5e7bcef2aae646190f6d892a0cf7",
+        "upstream_trace.json": "3ee26b7e61c93924658740ed3313aaf471967c990b5e6c113d1716204ef94697",
+        "usage.json": "7670afde45049a669abe4da6022446e845e089d066247ee8d582c830747cdae1"
+      },
+      "case_id": "JBSS:2023-05-19",
+      "case_sha256_manifest_sha256": "1fa55589c4b9fc7f23ee7ac0536508441098ad1d8c7d9534ddeef11ae53697ae",
+      "decision_session": "2023-05-19",
+      "evidence_packet_sha256": "84c7230fe9b2e42d5a37eec4fd8f87ba55cf855ab4e69124fe4a46f45a261fc3",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 24,
+      "role": "TRAIN",
+      "symbol": "JBSS"
+    },
+    {
+      "actor_visible_state_sha256": "2be2374e3be94c48e045138614d2085a144d23958a97ba2ea53773c079441df7",
+      "case_files": {
+        "actor_visible_state.json": "2be2374e3be94c48e045138614d2085a144d23958a97ba2ea53773c079441df7",
+        "upstream_trace.json": "d14d163fdb8173b99103b0c9a103ef077009ae259bbf98d123c9551e0da0e7a1",
+        "usage.json": "0561aa18883ed6ca359a18791a30aef109f861da6d4d3d698dbc7e884a6d25f7"
+      },
+      "case_id": "JBSS:2023-05-26",
+      "case_sha256_manifest_sha256": "b4e75d794a50f5ec834b694210185fd35f7e75a9a3a4e39f28e7b2cf205a8d46",
+      "decision_session": "2023-05-26",
+      "evidence_packet_sha256": "54ec937b7ecfafd34ab57035640818eeb271a0f67a529db1042521c22f262676",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 25,
+      "role": "TRAIN",
+      "symbol": "JBSS"
+    },
+    {
+      "actor_visible_state_sha256": "06f96dcfed75d21ace2de1f71d5ba063c97ac3a703622461cd6d85db92528432",
+      "case_files": {
+        "actor_visible_state.json": "06f96dcfed75d21ace2de1f71d5ba063c97ac3a703622461cd6d85db92528432",
+        "upstream_trace.json": "96dfe0c10f883c1e11104c59b78b9f46d7a106d9c2ece2231682564c3330243e",
+        "usage.json": "bcdc87b0b031620c7646ad6e5e4d5aa27666242fff7367f06944c81a20c85eb3"
+      },
+      "case_id": "JBSS:2023-06-02",
+      "case_sha256_manifest_sha256": "fbb41d403209bda4d08578cca49b63b5a00fc3a874646fcf304107b2c0679f64",
+      "decision_session": "2023-06-02",
+      "evidence_packet_sha256": "6e952e90b820c5f395216ffc2da246c11656091563d6f170c50226e0a1d9d62c",
+      "generation_mode": "REUSE_M2_07",
+      "generation_order": 26,
+      "role": "TRAIN",
+      "symbol": "JBSS"
+    },
+    {
+      "actor_visible_state_sha256": "72f49af953c2217a36ddde59fcc0818cd17a3e8f08a17a8ef9e59f2e8720581a",
+      "case_files": {
+        "actor_visible_state.json": "72f49af953c2217a36ddde59fcc0818cd17a3e8f08a17a8ef9e59f2e8720581a",
+        "upstream_trace.json": "0db1dcb1acec4480fe8ff510eb3dbb46a3476a82c9a81594a317a5f973ff6225",
+        "usage.json": "a6a907af252925cfef1ff5e4ccbcb4fde41413549ffcd4115d04bfa66458137c"
+      },
+      "case_id": "JBSS:2023-06-09",
+      "case_sha256_manifest_sha256": "79d86477ed0455c70fda67d1f7ce39cf57bc16c286c4e276bead734c6d9f4f77",
+      "decision_session": "2023-06-09",
+      "evidence_packet_sha256": "a9870f02af687b04f506cf23455d80c349db66655dddbde6980351392e117704",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 27,
+      "role": "TRAIN",
+      "symbol": "JBSS"
+    },
+    {
+      "actor_visible_state_sha256": "f8d8156255082f81feff43417f4e593878313452fa09d25bf520db8f134649c3",
+      "case_files": {
+        "actor_visible_state.json": "f8d8156255082f81feff43417f4e593878313452fa09d25bf520db8f134649c3",
+        "upstream_trace.json": "0a736c5b40c41bdde2400d1f9e0431aaa85943419b91cc1654a26856c87c17a6",
+        "usage.json": "6981b5a50e7e221cd4ecb08040fc34ad34bef55598869dfc01917faa654614b9"
+      },
+      "case_id": "JBSS:2023-06-16",
+      "case_sha256_manifest_sha256": "a9ed8910463d9d6923c253903b914a74c6c9367482561ce74854f033739c0f4e",
+      "decision_session": "2023-06-16",
+      "evidence_packet_sha256": "95fd3582bd0cf75be168e2554ff9be89cc61966d8e3a5b7c8aabd860a935b976",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 28,
+      "role": "TRAIN",
+      "symbol": "JBSS"
+    },
+    {
+      "actor_visible_state_sha256": "8a3886ba6d434adddaf143ff233e987c4ca086b8c8011e1612ed0060da463438",
+      "case_files": {
+        "actor_visible_state.json": "8a3886ba6d434adddaf143ff233e987c4ca086b8c8011e1612ed0060da463438",
+        "upstream_trace.json": "99e51f1367de97ebe4c4881b483223c8ffe52996939d37a9094ad38b341fabee",
+        "usage.json": "0cd7d5b6c89c9fee93b4a9a79b02cbb5d70a793991e547e3e4d0998a1f2c48fb"
+      },
+      "case_id": "EML:2023-05-05",
+      "case_sha256_manifest_sha256": "4df23c6597d102c4fc92bf7f85cba948ec3aa2177da204210729e6a0c8114dca",
+      "decision_session": "2023-05-05",
+      "evidence_packet_sha256": "8e7a0697603c7899771cbf8ce8996c194bdf9afd3584d37e9e3be6acfb1274b9",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 29,
+      "role": "TRAIN",
+      "symbol": "EML"
+    },
+    {
+      "actor_visible_state_sha256": "a0e306962217a653c68383f10020d6c7ba75d7a5d386365aebddf6421d613def",
+      "case_files": {
+        "actor_visible_state.json": "a0e306962217a653c68383f10020d6c7ba75d7a5d386365aebddf6421d613def",
+        "upstream_trace.json": "484e8bc604857b9e68649ce971456ac1e80c528fe6a05b57584854f2784b1fc0",
+        "usage.json": "19e900e7443b63ce32cdb205c6211ba0e4a6b3b11d9154d50a3f2c7dc9d8789c"
+      },
+      "case_id": "EML:2023-05-12",
+      "case_sha256_manifest_sha256": "abae10796835cdf1e8e4ec5c8c8b2c9406f01d25b558cccd7cb467713e58eb41",
+      "decision_session": "2023-05-12",
+      "evidence_packet_sha256": "97ac5901727c9d99ec3fbd46261f5af34c44139b2a9a57a71e5307ebc5ed0be1",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 30,
+      "role": "TRAIN",
+      "symbol": "EML"
+    },
+    {
+      "actor_visible_state_sha256": "5c053edf9267348b12ca7d348a0dc6fd1ce92c98f8c80647e6ea933e80a6c10b",
+      "case_files": {
+        "actor_visible_state.json": "5c053edf9267348b12ca7d348a0dc6fd1ce92c98f8c80647e6ea933e80a6c10b",
+        "upstream_trace.json": "e4d032bf9a24dcdfc20837b9e1f373acc9b0925ffe525128a3d2a284cb54c2d9",
+        "usage.json": "5106ecfd56c32fb5e7e0f9fa4081c48822c848dcc4af2b0f2fa23a1e9053fe84"
+      },
+      "case_id": "EML:2023-05-19",
+      "case_sha256_manifest_sha256": "41acfe288392016165b705d0c4f002af9cd760de8beef1d9d99fb42ec88aaa8e",
+      "decision_session": "2023-05-19",
+      "evidence_packet_sha256": "6ab410eda19be6fedaec54b2bc3266cb1d79c3be198f9f256ce7dfd3905fc2c3",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 31,
+      "role": "TRAIN",
+      "symbol": "EML"
+    },
+    {
+      "actor_visible_state_sha256": "f42af2b7d53439b972efcb6f6d66df9790ef64baf6c044ec21490e97d9df29f2",
+      "case_files": {
+        "actor_visible_state.json": "f42af2b7d53439b972efcb6f6d66df9790ef64baf6c044ec21490e97d9df29f2",
+        "upstream_trace.json": "e778c4128c7fcc733ca355b0d080b528f6534e9906c696dfc64fd8a916fd90d3",
+        "usage.json": "c403d2f76e6c8264057a351e33a9f42ca7b74f6b35b534a68a085e62578f3640"
+      },
+      "case_id": "EML:2023-05-26",
+      "case_sha256_manifest_sha256": "3dbcc0e6695aaa949b3dc11456f118d65932cfc2767b43d15bf3d6fd0ef5ec02",
+      "decision_session": "2023-05-26",
+      "evidence_packet_sha256": "5def65a2c25eba4af7bab08ed931ea7635da0d544623ec402938a02de76614da",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 32,
+      "role": "TRAIN",
+      "symbol": "EML"
+    },
+    {
+      "actor_visible_state_sha256": "57ebec144866048ee92a00fb13bebb1b6f1eb64acf943ce9a0535668e5cdb970",
+      "case_files": {
+        "actor_visible_state.json": "57ebec144866048ee92a00fb13bebb1b6f1eb64acf943ce9a0535668e5cdb970",
+        "upstream_trace.json": "490eb0e01627100c6edfdab9896560fb85b5aac0a9a24055e7ddd0fac9b66976",
+        "usage.json": "cd9f5215536917614df2a41bfe15e183701faedb8653ea2cc461022821181081"
+      },
+      "case_id": "EML:2023-06-02",
+      "case_sha256_manifest_sha256": "8ecd847c283091c57419b19e71faea108403087087a17652de774bb58bc9d2e9",
+      "decision_session": "2023-06-02",
+      "evidence_packet_sha256": "f573706073d2a4a1194f910e7f542647f06e040a5bfb1741b803d49a9cea7d5d",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 33,
+      "role": "TRAIN",
+      "symbol": "EML"
+    },
+    {
+      "actor_visible_state_sha256": "8c2e86491ef6b4c5853d1ccf1b1ea220b832581313ccee8220ad4937ba383276",
+      "case_files": {
+        "actor_visible_state.json": "8c2e86491ef6b4c5853d1ccf1b1ea220b832581313ccee8220ad4937ba383276",
+        "upstream_trace.json": "1f290acce9c097330900e07087fa935e43e953320c794d3edb25494676505833",
+        "usage.json": "8ad66119f47f12361307468696a3c864cadc28098d80276a8d5d65f5a1b6e1b3"
+      },
+      "case_id": "EML:2023-06-09",
+      "case_sha256_manifest_sha256": "401faf6ea5486cd29bc8cec77ec99ebcbcccf9a83e9ed1f4e9ca6162123ede06",
+      "decision_session": "2023-06-09",
+      "evidence_packet_sha256": "6e3e8408812d4aa07f408b8214482c24b758d290a0fe706f6b9a3c26132d8370",
+      "generation_mode": "REUSE_M2_07",
+      "generation_order": 34,
+      "role": "TRAIN",
+      "symbol": "EML"
+    },
+    {
+      "actor_visible_state_sha256": "126995aa49f1d9106a4bb53d3baaa0739b7b42a21545da8064a5776d694190c6",
+      "case_files": {
+        "actor_visible_state.json": "126995aa49f1d9106a4bb53d3baaa0739b7b42a21545da8064a5776d694190c6",
+        "upstream_trace.json": "413cf3c55d6d2da0beee47d57650107bc5ff72e5600e85af5967c5c89dd04758",
+        "usage.json": "3b03d03f4adbf4590f9aa9976e195e9b8ad96d02e3683c0497bdc7c45246630a"
+      },
+      "case_id": "EML:2023-06-16",
+      "case_sha256_manifest_sha256": "b683dbb57ae820192ca2a2ebf94d2bd3f890738bb25d705879826ab90fd7f1d4",
+      "decision_session": "2023-06-16",
+      "evidence_packet_sha256": "45d6f2d8f1503bb20f207778a2479ba74ba7387c1dcd18eb33882b1dcd6dc6ef",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 35,
+      "role": "TRAIN",
+      "symbol": "EML"
+    },
+    {
+      "actor_visible_state_sha256": "a02a244942482631ad6039e1d793425c829bf2ed94a4f21b9f09ede340b43485",
+      "case_files": {
+        "actor_visible_state.json": "a02a244942482631ad6039e1d793425c829bf2ed94a4f21b9f09ede340b43485",
+        "upstream_trace.json": "b9e35f9e35f1bff500425c70b88a89e4b14309f35e224ba3630b8393d4589ee5",
+        "usage.json": "750a0b81204b3554ee1c66f6eb26b2c4518c926bf0e987fd894bc91e290212fb"
+      },
+      "case_id": "AGI:2023-05-05",
+      "case_sha256_manifest_sha256": "d511afc46f786cc4041d05877e8dd113d24c06e11d620f2e0c9757772f236ee7",
+      "decision_session": "2023-05-05",
+      "evidence_packet_sha256": "98b2b5a945969d0950cc4fcb3aec770bfaf9467eb412fbeb60b65772a68b6df0",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 36,
+      "role": "TRAIN",
+      "symbol": "AGI"
+    },
+    {
+      "actor_visible_state_sha256": "8f8f750fa547746a2e4084040f090428581c71da074fe3b983789cd5de0896f3",
+      "case_files": {
+        "actor_visible_state.json": "8f8f750fa547746a2e4084040f090428581c71da074fe3b983789cd5de0896f3",
+        "upstream_trace.json": "25023e67f7ae6d9ab646400cd9df533b8b03aad27c8b086db8f8c6db8788a380",
+        "usage.json": "5b97d2c9f4513dc79241b2f0c18eaa6442cd6efb101e1a802c3eb8e8aab02daa"
+      },
+      "case_id": "AGI:2023-05-12",
+      "case_sha256_manifest_sha256": "482d1be4f7c04efd3b01cc8c34724ae0636420e381b0fe9b2a891881dc74e8de",
+      "decision_session": "2023-05-12",
+      "evidence_packet_sha256": "56fc76d31f578fd726d2e6f82966fd2429d716cbf403320f0b43f942e5445228",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 37,
+      "role": "TRAIN",
+      "symbol": "AGI"
+    },
+    {
+      "actor_visible_state_sha256": "397e4544e26ddb5fb1f3105392271b899626a0675fbae6a2bd98b3c58b0986ba",
+      "case_files": {
+        "actor_visible_state.json": "397e4544e26ddb5fb1f3105392271b899626a0675fbae6a2bd98b3c58b0986ba",
+        "upstream_trace.json": "2841130c56adc6b1b003610908a2ed81d611f9e91ae5df9e6481125288099aa3",
+        "usage.json": "1ce8f5c2d71e0c23d87e7e6c2a2174cf718d5e6b85251712b981bdecea5903a2"
+      },
+      "case_id": "AGI:2023-05-19",
+      "case_sha256_manifest_sha256": "42b96ce7bbf7ae959f6db9f0492f8fe48ae23c985668508763647be2a8ddf9bd",
+      "decision_session": "2023-05-19",
+      "evidence_packet_sha256": "1998ef0e917bc22b4ef769a9400335502adb8d237575a20557b9b4bdf20c5bbf",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 38,
+      "role": "TRAIN",
+      "symbol": "AGI"
+    },
+    {
+      "actor_visible_state_sha256": "06efd19a66c3384457539e35be14b58341a07f71634d18d8ec3285e44a4b7235",
+      "case_files": {
+        "actor_visible_state.json": "06efd19a66c3384457539e35be14b58341a07f71634d18d8ec3285e44a4b7235",
+        "upstream_trace.json": "e3fc7531de14006ab0e47179a0c70f740566b9d5a2bf3478f894975895d16cc9",
+        "usage.json": "137a89224e8fd5cbabd4d8c7a46c90b132ee9408dd75bea02e6e4c1884f4b27b"
+      },
+      "case_id": "AGI:2023-05-26",
+      "case_sha256_manifest_sha256": "7e71efc22299ca8d0db95ca978e31daa86e685f5df631e5385107740a6105d12",
+      "decision_session": "2023-05-26",
+      "evidence_packet_sha256": "b773b88ce5a02f2d18c35e66e735475b466a4b1cae18bd6d7d1963adb2febb40",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 39,
+      "role": "TRAIN",
+      "symbol": "AGI"
+    },
+    {
+      "actor_visible_state_sha256": "96b762d87f138d40c7662904eea2addd79a765656870dd8166341184337b8e9c",
+      "case_files": {
+        "actor_visible_state.json": "96b762d87f138d40c7662904eea2addd79a765656870dd8166341184337b8e9c",
+        "upstream_trace.json": "4c9829111333f9c17e0ea4522d143a51c942e42b721e1090fdd48c94aa127086",
+        "usage.json": "337cabf2da52612faf14a091f85a7ce00e0a1c4cea7bfc4d6766742757ae08cd"
+      },
+      "case_id": "AGI:2023-06-02",
+      "case_sha256_manifest_sha256": "114b00e95b1e6b16b35566461ecd9c42dff2545a2e4432de48325e7957b42177",
+      "decision_session": "2023-06-02",
+      "evidence_packet_sha256": "96a0fd89e4959e7d475d1c6d805b63995b13387ed4ba08602409c40fce6d6584",
+      "generation_mode": "REUSE_M2_07",
+      "generation_order": 40,
+      "role": "TRAIN",
+      "symbol": "AGI"
+    },
+    {
+      "actor_visible_state_sha256": "0afb33325eb32c2331ddde18bd3c8cc8a5be03c24ab93284bbd1b437ada31f8f",
+      "case_files": {
+        "actor_visible_state.json": "0afb33325eb32c2331ddde18bd3c8cc8a5be03c24ab93284bbd1b437ada31f8f",
+        "upstream_trace.json": "e3347bce0e65c226c64def3c988691789323f37ea794147cb8a3574d77530758",
+        "usage.json": "b1971d85260f55beab55ceedb5513594890360bb686bba578dba79be236e66fe"
+      },
+      "case_id": "AGI:2023-06-09",
+      "case_sha256_manifest_sha256": "cf7521fa6dabba0a9080f9df2cc5b3e60f2452717614cb2d9fb57474aec7b599",
+      "decision_session": "2023-06-09",
+      "evidence_packet_sha256": "cefd1337d6a1e8f9222459a0fcf9d3995bcb21846eb2da0d4e0fc8e467119f14",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 41,
+      "role": "TRAIN",
+      "symbol": "AGI"
+    },
+    {
+      "actor_visible_state_sha256": "e09455613b9eeaa109f791b5d2cbf185b204250e916c7a7878c75d13188f25fa",
+      "case_files": {
+        "actor_visible_state.json": "e09455613b9eeaa109f791b5d2cbf185b204250e916c7a7878c75d13188f25fa",
+        "upstream_trace.json": "91d8d6a2ac0d1a29aa10f78d6f0e54729ee66464708487a37801aa25b0d21d39",
+        "usage.json": "c7c0f318bf48dcbee309efb4b1d049b0d2a5c3085cb91bc2519c067db4f2ebfd"
+      },
+      "case_id": "AGI:2023-06-16",
+      "case_sha256_manifest_sha256": "341bad0b8deccab3c046fcdcf64074c949936ae1291e6cf57c1e16061cbb3fce",
+      "decision_session": "2023-06-16",
+      "evidence_packet_sha256": "182f9037cae23bf8f78da1b1137615335b636279ecaf4438964b7555d7ba3a5a",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 42,
+      "role": "TRAIN",
+      "symbol": "AGI"
+    },
+    {
+      "actor_visible_state_sha256": "e4fd1e781f259f710a3e1897f2333642fb482c6adc774008ed6bcb1c8aab44ca",
+      "case_files": {
+        "actor_visible_state.json": "e4fd1e781f259f710a3e1897f2333642fb482c6adc774008ed6bcb1c8aab44ca",
+        "upstream_trace.json": "4abf54448d0d7dc03f1b08477faeb8bc6bbcd849740ea12420f2aa1db2248e47",
+        "usage.json": "3539db228f32fba660ac0045f557c8da16a7152e983b450f86a89d88ed601c82"
+      },
+      "case_id": "ARR:2023-05-05",
+      "case_sha256_manifest_sha256": "2d11241f9fe02ba6ed74da390f22954b5bacf9d7b15a2124aaa8a504cad40ca9",
+      "decision_session": "2023-05-05",
+      "evidence_packet_sha256": "9406342f04701a30858842eb60c5bce055031a088054cecbe73da90c9bab3db6",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 43,
+      "role": "TRAIN",
+      "symbol": "ARR"
+    },
+    {
+      "actor_visible_state_sha256": "c14df863fdf78e7245a7ce6e8e798c2f3b8c816b86dce53c0f9bb9e264a7476a",
+      "case_files": {
+        "actor_visible_state.json": "c14df863fdf78e7245a7ce6e8e798c2f3b8c816b86dce53c0f9bb9e264a7476a",
+        "upstream_trace.json": "24ef2e9bcdf749e0b78777a388af095e5931060bc3b12a24af2b30590a17daee",
+        "usage.json": "ec8fa196b65a2dc4579cb259f2cf5624c524d8c2f2376c5b39043593dfb547bc"
+      },
+      "case_id": "ARR:2023-05-12",
+      "case_sha256_manifest_sha256": "40ac61a299ff70bb0515671c00bb9d025bba17bff8ccb9a3071222f39acb5aab",
+      "decision_session": "2023-05-12",
+      "evidence_packet_sha256": "ee0582fe8356fd955bbcebba211a2a3393dca6807450546645dbf35b4292be35",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 44,
+      "role": "TRAIN",
+      "symbol": "ARR"
+    },
+    {
+      "actor_visible_state_sha256": "17af78dea4b2a10e5d3e2a9c9aa528a50125f3a2d8a0df2e57e6a7a41edb561d",
+      "case_files": {
+        "actor_visible_state.json": "17af78dea4b2a10e5d3e2a9c9aa528a50125f3a2d8a0df2e57e6a7a41edb561d",
+        "upstream_trace.json": "d308c1c2c10b6e885686c9d2339b955cca3fabe2633492b783c3bc46e8af95a8",
+        "usage.json": "e70d9cf54ae7a901770eae9e428e57f9c313f84da0a8748cd7d7c70b737fd0cb"
+      },
+      "case_id": "ARR:2023-05-19",
+      "case_sha256_manifest_sha256": "3b549d2a3404fb643e36706de3d597305f23dc3b625b1bf1cee5939373c21c26",
+      "decision_session": "2023-05-19",
+      "evidence_packet_sha256": "68f9fd7f6554cc8a4a6e0fc366e7704fb718ec1c34098f95852786f961818c89",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 45,
+      "role": "TRAIN",
+      "symbol": "ARR"
+    },
+    {
+      "actor_visible_state_sha256": "bafd8af890573bc76f2a8fe8acff52041fa295dce0483528a0404e4351c66814",
+      "case_files": {
+        "actor_visible_state.json": "bafd8af890573bc76f2a8fe8acff52041fa295dce0483528a0404e4351c66814",
+        "upstream_trace.json": "495a6b6dda9d0b505f61149e8760e55cfcf52eeec8b9ab9b4aa60eff5d67bbde",
+        "usage.json": "f629e0175be2577da5d6dc7b35cdfeedfeac717f235385618dfb7575fb154c2d"
+      },
+      "case_id": "ARR:2023-05-26",
+      "case_sha256_manifest_sha256": "6f8c694bb71173059fbb2f0442939c8ba6aedbb2674a72eea12672c349b8ced5",
+      "decision_session": "2023-05-26",
+      "evidence_packet_sha256": "72256162f880b354300a15e5dbe275d179250e3285de9b8d070a1a70f1750c61",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 46,
+      "role": "TRAIN",
+      "symbol": "ARR"
+    },
+    {
+      "actor_visible_state_sha256": "98d063efba2e4fe1418dd70aa88d24a09133847cb0052a518467c727962d32f9",
+      "case_files": {
+        "actor_visible_state.json": "98d063efba2e4fe1418dd70aa88d24a09133847cb0052a518467c727962d32f9",
+        "upstream_trace.json": "18b90e038569522e310bfcc2ea4995f4971bb10a61ce4a70ab947571eef38d6b",
+        "usage.json": "fcc2838443d5d844ab1bf47b382c9f620e998e2e9869c01d74d2fe22a948231e"
+      },
+      "case_id": "ARR:2023-06-02",
+      "case_sha256_manifest_sha256": "7079ff717afde34a46210c75199238356d83994bbafe33c1736ae8e003ab8b1a",
+      "decision_session": "2023-06-02",
+      "evidence_packet_sha256": "937817d434a9d8993abba619c569f9fe7c8f5e30f45c1bde971f1cc09ca72d8d",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 47,
+      "role": "TRAIN",
+      "symbol": "ARR"
+    },
+    {
+      "actor_visible_state_sha256": "a96c73618a650cfa8c4a066bad595d40512c02734652309dd19ee7404c9b52ce",
+      "case_files": {
+        "actor_visible_state.json": "a96c73618a650cfa8c4a066bad595d40512c02734652309dd19ee7404c9b52ce",
+        "upstream_trace.json": "7d22fc05a6981e120e0606aab70ffa0390a1df4bf3bcd4e285ecb97f5a6ab39f",
+        "usage.json": "ee458e604c6f78dc3a500363bb061fa63454d3f720a12820662460c02791573b"
+      },
+      "case_id": "ARR:2023-06-09",
+      "case_sha256_manifest_sha256": "42f8f028055b88466811a6ce9e15ba238d2414074014897c9f1a10b9d2eb522f",
+      "decision_session": "2023-06-09",
+      "evidence_packet_sha256": "8b3af9c53d6f4c965721f3f221f0647cbafcfe661e92efdef1119e7c70c38adb",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 48,
+      "role": "TRAIN",
+      "symbol": "ARR"
+    },
+    {
+      "actor_visible_state_sha256": "e62118fab8b121c06c5be47bdcf332843c6868f03d5e65a87c5bb5d1eb3bb203",
+      "case_files": {
+        "actor_visible_state.json": "e62118fab8b121c06c5be47bdcf332843c6868f03d5e65a87c5bb5d1eb3bb203",
+        "upstream_trace.json": "adccef5bf881dc82b9a1051a95d2e598628b21799c190c2fb366ab1c7260731f",
+        "usage.json": "60267288dcc2d31d905c8389727ed0cf4c2cc2bfb92bcb1d31c2a00bc78e195f"
+      },
+      "case_id": "ARR:2023-06-16",
+      "case_sha256_manifest_sha256": "6876ff234468f905d343e124a4ae5209c4191ab385ed53b2ece83bc6d0485cde",
+      "decision_session": "2023-06-16",
+      "evidence_packet_sha256": "91e8f0ef1cdb111d57dab3e84072dc29031cd8a06c9a85d53a23dcd4c403cdb8",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 49,
+      "role": "TRAIN",
+      "symbol": "ARR"
+    },
+    {
+      "actor_visible_state_sha256": "47c6391b649776560602aea249dfb4d5f41748ff64092747a2aa437a9e29a6a1",
+      "case_files": {
+        "actor_visible_state.json": "47c6391b649776560602aea249dfb4d5f41748ff64092747a2aa437a9e29a6a1",
+        "upstream_trace.json": "9fd8f81ae6f166c380a4acdd948db90f23d2bc4aa9759821a2545574f24f4c0a",
+        "usage.json": "90425b679956bdb2a7817da4d88cbe058861e4d261cc36fbec79161da7bf9b31"
+      },
+      "case_id": "AEMD:2023-05-05",
+      "case_sha256_manifest_sha256": "a164ea22a1a0defd5b128c5a2935c5525d653daed1edf5be8f4da6176cef9a29",
+      "decision_session": "2023-05-05",
+      "evidence_packet_sha256": "08acbaf44e6167b118cd4e33439187c7e106080fcf014f2e00f478c43eedcb86",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 50,
+      "role": "TRAIN",
+      "symbol": "AEMD"
+    },
+    {
+      "actor_visible_state_sha256": "6f67d3922b10f2df378a5dec8cab88e535afe8c075e44f3ed952f761c3aac2a7",
+      "case_files": {
+        "actor_visible_state.json": "6f67d3922b10f2df378a5dec8cab88e535afe8c075e44f3ed952f761c3aac2a7",
+        "upstream_trace.json": "92312b4a015528c582e04f923401b0f1f3597bebffa43c75ba2d7f88b87b401b",
+        "usage.json": "6e1fc179198f29309b7bb4f5abce6fe536805573bd77d1b50c02f30ec9400e5c"
+      },
+      "case_id": "AEMD:2023-05-12",
+      "case_sha256_manifest_sha256": "3eae654ddfd60397fbafdd3c48394fcd64b10ba38c6a5dc8b4f7bbf3e8027a3a",
+      "decision_session": "2023-05-12",
+      "evidence_packet_sha256": "bf4315ffa8e0bd22904526de47a7dc7a267cb30a6e3dfefa519654b01e8cb79d",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 51,
+      "role": "TRAIN",
+      "symbol": "AEMD"
+    },
+    {
+      "actor_visible_state_sha256": "476ec99b976c3a29bb3ec67927b57485ecff3e3059c1fcab9eb5a7f350ca188e",
+      "case_files": {
+        "actor_visible_state.json": "476ec99b976c3a29bb3ec67927b57485ecff3e3059c1fcab9eb5a7f350ca188e",
+        "upstream_trace.json": "b9e788f9126c013f80aa84997f099412cd279d87e4bf8fe27168e15c471117bf",
+        "usage.json": "d0e236b09834a5537d6c4326e15831110188c9ef2c32a679cf624d09dd5c0f00"
+      },
+      "case_id": "AEMD:2023-05-19",
+      "case_sha256_manifest_sha256": "f5a89c3d0747c5daf1be739989789af26e202b3c27735afab5ea4ec3ac487dfe",
+      "decision_session": "2023-05-19",
+      "evidence_packet_sha256": "4aa6e91b0a152d3349b88aef2c26b014969763c44308f319cd91c2ef5878a536",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 52,
+      "role": "TRAIN",
+      "symbol": "AEMD"
+    },
+    {
+      "actor_visible_state_sha256": "98994c496df6aac354efc533648afc2283085ca2617aaae539ebcb0d3db60c4f",
+      "case_files": {
+        "actor_visible_state.json": "98994c496df6aac354efc533648afc2283085ca2617aaae539ebcb0d3db60c4f",
+        "upstream_trace.json": "57dfb3f118efd96d9ebffe735e3360a69be7a7bde223a17722ccffef71b8a757",
+        "usage.json": "31c3ea7854dfc731632ae9482897d4833b34beb14896b22297e3bedcaa4bf761"
+      },
+      "case_id": "AEMD:2023-05-26",
+      "case_sha256_manifest_sha256": "3946e8250dd711724c78f710f9b6a2fe45060dbd721b9c252f8182d349ae54c4",
+      "decision_session": "2023-05-26",
+      "evidence_packet_sha256": "ff128ba38a3b88bf5e80fe7a6cc1b90d6192577e308b63deee48b7e31b23910b",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 53,
+      "role": "TRAIN",
+      "symbol": "AEMD"
+    },
+    {
+      "actor_visible_state_sha256": "c0b7ebe1f691fbc09523db3e095cfcafe249394f70b79b0e279dfbd5c58663f8",
+      "case_files": {
+        "actor_visible_state.json": "c0b7ebe1f691fbc09523db3e095cfcafe249394f70b79b0e279dfbd5c58663f8",
+        "upstream_trace.json": "700bff1a93589e8c0f1a10cb5a51c577c4ba92584936562919989386e869e2ef",
+        "usage.json": "54db6c7b0a7581a9669cd99072cd2fe05c2f5dd8585df0028eae65921a214f2d"
+      },
+      "case_id": "AEMD:2023-06-02",
+      "case_sha256_manifest_sha256": "a38bb1b995bc03d582e2a0c5a8d2828428f626be0c3fabc4c4c5a6220fc1fb70",
+      "decision_session": "2023-06-02",
+      "evidence_packet_sha256": "92c535ac40f3416c707182015c34da8d9d89fd932ebf40d4e44c0a41b139954b",
+      "generation_mode": "REUSE_M2_07",
+      "generation_order": 54,
+      "role": "TRAIN",
+      "symbol": "AEMD"
+    },
+    {
+      "actor_visible_state_sha256": "c3c60f3cd90c35ffa68cdb9feea9b864d263f03506bd65e40866b3b2def33d7c",
+      "case_files": {
+        "actor_visible_state.json": "c3c60f3cd90c35ffa68cdb9feea9b864d263f03506bd65e40866b3b2def33d7c",
+        "upstream_trace.json": "d724baf3f1bbbbfc57344c3945c30f63ecf20710b3c76cd1932422eb020bd6b1",
+        "usage.json": "667fbc1682bc080ac7eaccb0554dd7d3d8a7819644a0ce1fd9f7852733f41d17"
+      },
+      "case_id": "AEMD:2023-06-09",
+      "case_sha256_manifest_sha256": "39d351f52a5387fa2165290362983957c8168aac4f82c5e04f8492992800a12e",
+      "decision_session": "2023-06-09",
+      "evidence_packet_sha256": "23648682d07e0e98ed6cd0f4695a7ca2218359874c4cce716813f34e54e1e9eb",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 55,
+      "role": "TRAIN",
+      "symbol": "AEMD"
+    },
+    {
+      "actor_visible_state_sha256": "5ce39f27ba682d0b797726728f5ea35ca9ce07999030949aae11fd1158db5c13",
+      "case_files": {
+        "actor_visible_state.json": "5ce39f27ba682d0b797726728f5ea35ca9ce07999030949aae11fd1158db5c13",
+        "upstream_trace.json": "025f1999eb6202b105b7f58ff748e6506f52e99de6b59c4c0c423827ec651408",
+        "usage.json": "03b2aa5a566d178ed0a7d139d7de2eaceb247788f8ad76e94bb9762c70a029f3"
+      },
+      "case_id": "AEMD:2023-06-16",
+      "case_sha256_manifest_sha256": "f4f0c40f672e3815855a7399b36e1a86626944a43a4c47e0a73364279cf9a9c0",
+      "decision_session": "2023-06-16",
+      "evidence_packet_sha256": "e30f9ff50d9bcb35fa5159982af69fd4e17c0d38c1579a1b7332884c9e8746f0",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 56,
+      "role": "TRAIN",
+      "symbol": "AEMD"
+    },
+    {
+      "actor_visible_state_sha256": "5da2b7d79d603d7627182a87f4859857c49251a62161f665c37fd7f44e89d324",
+      "case_files": {
+        "actor_visible_state.json": "5da2b7d79d603d7627182a87f4859857c49251a62161f665c37fd7f44e89d324",
+        "upstream_trace.json": "d56fc71c6002e1a188687809701e7f189d2e94c3b2e87a2292b37e313f9782ab",
+        "usage.json": "ffce602d137276bf6879bb39d5fbe99f20834ba15cae47ac7bce1f54e76de7bf"
+      },
+      "case_id": "AAPL:2023-06-30",
+      "case_sha256_manifest_sha256": "19b3949ad1548e18972a06eeb03280c19f38ed17b1d87b0830ac9fa1b9b370ad",
+      "decision_session": "2023-06-30",
+      "evidence_packet_sha256": "e2aa247ab3f43604c8debf213c9868ebb02e11533488d60b62f2113699ff79f3",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 57,
+      "role": "VALIDATION",
+      "symbol": "AAPL"
+    },
+    {
+      "actor_visible_state_sha256": "812b2da01514c2a2f555ca129c1fe2770b75fa1f83a7800d501c0b3dd7f24031",
+      "case_files": {
+        "actor_visible_state.json": "812b2da01514c2a2f555ca129c1fe2770b75fa1f83a7800d501c0b3dd7f24031",
+        "upstream_trace.json": "86c9aff17d1f828ad7a1fd2f245ddf8e3248221dc6098950c379266909b2a587",
+        "usage.json": "e76fe4af22fd0a59555b85e01e36becd0bd864f59eccd129969e40278f368ec0"
+      },
+      "case_id": "AAPL:2023-07-07",
+      "case_sha256_manifest_sha256": "20a72b9a7b86bb635d9672d5861540cbfacb9596adecd3d6b4ea42e7138ff51f",
+      "decision_session": "2023-07-07",
+      "evidence_packet_sha256": "f304d7b0d99744d9a61a0c26cffd495dc0abb2e27f58e7de49f34dedcbd9bcdb",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 58,
+      "role": "VALIDATION",
+      "symbol": "AAPL"
+    },
+    {
+      "actor_visible_state_sha256": "d296826cc63f326846e5533d89e7a7e9b1325a7dd09da9bc5e32926cb368b980",
+      "case_files": {
+        "actor_visible_state.json": "d296826cc63f326846e5533d89e7a7e9b1325a7dd09da9bc5e32926cb368b980",
+        "upstream_trace.json": "612452dcf40789f5ce3eb0c989e089c995e8dd5ec250bade32201e78e5b4a9ee",
+        "usage.json": "e4295d2ff9872df35d2cd7f2fc20638959ffeff2a940545a034f3b2fc7f25de5"
+      },
+      "case_id": "AMZN:2023-06-30",
+      "case_sha256_manifest_sha256": "4f37d3251d2b2363d430c217d7d5936b895aab514cdadbba4650ae82a5f96046",
+      "decision_session": "2023-06-30",
+      "evidence_packet_sha256": "decbd61369a6cf55455e9cc980b89b4d1e85e344b1fed1f49df4de32982fc738",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 59,
+      "role": "VALIDATION",
+      "symbol": "AMZN"
+    },
+    {
+      "actor_visible_state_sha256": "3ed25d7ce190510ed2668e5f7994d856f3d009a991b8ad9787c8aa0ad9f1ab44",
+      "case_files": {
+        "actor_visible_state.json": "3ed25d7ce190510ed2668e5f7994d856f3d009a991b8ad9787c8aa0ad9f1ab44",
+        "upstream_trace.json": "57ad5ce73c3eba7ef5a4b61aeb9df8eb0facde2b4f3808875a0d626898236a33",
+        "usage.json": "2fe9ad51f1b2eb5d98aedb34077873f8763fc30c42f4a694a2cca45d4796e2a7"
+      },
+      "case_id": "AMZN:2023-07-07",
+      "case_sha256_manifest_sha256": "4bd54e3ec6dc618b8d51c4697f8e5d74dfed43de2bf4eb16cba93e5fe3c75e0d",
+      "decision_session": "2023-07-07",
+      "evidence_packet_sha256": "3e08b0b7de3bc6a471d40c351b1c1d9575f3cc3d4305cba652543ae1b7cd7988",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 60,
+      "role": "VALIDATION",
+      "symbol": "AMZN"
+    },
+    {
+      "actor_visible_state_sha256": "4537b936e52d2271271e71ad139b21184bbc37955a6a9dfb9cd8db7eda49b027",
+      "case_files": {
+        "actor_visible_state.json": "4537b936e52d2271271e71ad139b21184bbc37955a6a9dfb9cd8db7eda49b027",
+        "upstream_trace.json": "88f7fbb0302727a1bcba4a00f709ae0241e4ac93f43bd1dbb4e112e84268d90d",
+        "usage.json": "05490252a3c3980453e200aeddafef69f3fc88e00ea6ff3d081bfcf1de7a9a2f"
+      },
+      "case_id": "JPM:2023-06-30",
+      "case_sha256_manifest_sha256": "f2d4ab4d46670f6d92076ebd32af3e36ce744d515aaa7ac716eecf9d7d0d95b0",
+      "decision_session": "2023-06-30",
+      "evidence_packet_sha256": "ab849ebd20f7da0d983bf0ad1bbd0b33b9597069d4420eee63b55dc5d7b5a2e7",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 61,
+      "role": "VALIDATION",
+      "symbol": "JPM"
+    },
+    {
+      "actor_visible_state_sha256": "5ea1b00f3afbd73fc12e8599ae3e0ca925153c432a340f982479159f15c8b6f6",
+      "case_files": {
+        "actor_visible_state.json": "5ea1b00f3afbd73fc12e8599ae3e0ca925153c432a340f982479159f15c8b6f6",
+        "upstream_trace.json": "63d235421b56df258d3f10c12d8a02e636252bd639816cbc6c057cf0e29fdd2b",
+        "usage.json": "adf4be9f5bd550a9e91ed430e63994315fa963bd93a0ca83e4eec1f2c3d72f21"
+      },
+      "case_id": "JPM:2023-07-07",
+      "case_sha256_manifest_sha256": "9a715f6ab890bab4d2e6632a515c2335b6ce899a76fc575387441b374c05e370",
+      "decision_session": "2023-07-07",
+      "evidence_packet_sha256": "15043547df2fc172c1c61178259ea83aa7a51e50511b0edaaedbb55faf1fef8d",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 62,
+      "role": "VALIDATION",
+      "symbol": "JPM"
+    },
+    {
+      "actor_visible_state_sha256": "d9529b77c33b4e44c98004b87238291173446790517b51d46f561b81164fe539",
+      "case_files": {
+        "actor_visible_state.json": "d9529b77c33b4e44c98004b87238291173446790517b51d46f561b81164fe539",
+        "upstream_trace.json": "5a4aea731300481fa579ba09a376fa9fbc46c58f6885a1d6b36c7e23a7be1b05",
+        "usage.json": "cb7a538f8164c0ffbbe783c0d164008daaf3662ad36389e15abee5508c21226e"
+      },
+      "case_id": "JBSS:2023-06-30",
+      "case_sha256_manifest_sha256": "cbbcd7ffb5223a79917bcd0583befe38fb075465c38768dbd4e4570e230edc45",
+      "decision_session": "2023-06-30",
+      "evidence_packet_sha256": "ef638df1a099c38d17611394f4041d60d5855fa39af8924dd8084dc69eb0c07e",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 63,
+      "role": "VALIDATION",
+      "symbol": "JBSS"
+    },
+    {
+      "actor_visible_state_sha256": "82799788f276e4f935cf4ef8a3de92a8022ca4f0f9bb649dfe1f208086d2e017",
+      "case_files": {
+        "actor_visible_state.json": "82799788f276e4f935cf4ef8a3de92a8022ca4f0f9bb649dfe1f208086d2e017",
+        "upstream_trace.json": "697011becde694ef87804440a5282629ee994cac5fb00d47cd4141e54fff6c2f",
+        "usage.json": "f89eebf9f129302c199dfc4e2fe77619f5768f39fcf3c162cfb00ac8e81a5e2d"
+      },
+      "case_id": "JBSS:2023-07-07",
+      "case_sha256_manifest_sha256": "9fa329d061847f1f64825a94426a07ac7732684a6629544c5397bed5eea65d7f",
+      "decision_session": "2023-07-07",
+      "evidence_packet_sha256": "2f087c0a2dd02b1e5601c92a64c27ef1152089bca845b0b173d69746b30da2b9",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 64,
+      "role": "VALIDATION",
+      "symbol": "JBSS"
+    },
+    {
+      "actor_visible_state_sha256": "d68c72f2c3b368eb58dea2e86bcb4974ed736277f91ce400db1198b8f6e6924f",
+      "case_files": {
+        "actor_visible_state.json": "d68c72f2c3b368eb58dea2e86bcb4974ed736277f91ce400db1198b8f6e6924f",
+        "upstream_trace.json": "ee8d295aa68730d917b3e28679d0ea2404f0f478292aaac3fdfc6b81d7141513",
+        "usage.json": "3c750b5deeb11181f48c24d01c45f10a4d07ddbf798e3b720c76003891e918cb"
+      },
+      "case_id": "EML:2023-06-30",
+      "case_sha256_manifest_sha256": "838a94229fd508f36246b29fda7f91fe9db51334074944fdd994c84820cede40",
+      "decision_session": "2023-06-30",
+      "evidence_packet_sha256": "001288ba913513dd78294712dd537cc71230954fc60a8d29cd0f86ea475c2fd7",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 65,
+      "role": "VALIDATION",
+      "symbol": "EML"
+    },
+    {
+      "actor_visible_state_sha256": "f92fcd4d72b6ac29339dbb457e18da46599362cb790e609756ce13b0f3798f16",
+      "case_files": {
+        "actor_visible_state.json": "f92fcd4d72b6ac29339dbb457e18da46599362cb790e609756ce13b0f3798f16",
+        "upstream_trace.json": "e3a47dc4b05be48cce2d602b2bfec06496da2de1b30aa99de70dfa194c58b4f5",
+        "usage.json": "f9aecbc772728d4c43216c0b31ba1dc90d5e5798877f4e71e01923b29fb83ed6"
+      },
+      "case_id": "EML:2023-07-07",
+      "case_sha256_manifest_sha256": "b75fe93fb966e484aacee457a0acfb5255ed85d910d8991d2bfdd4b0c3a6c819",
+      "decision_session": "2023-07-07",
+      "evidence_packet_sha256": "b22d1b2f4b490b5c654fb91a587680cbfd874b2c352248c2dec4b01c181ec584",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 66,
+      "role": "VALIDATION",
+      "symbol": "EML"
+    },
+    {
+      "actor_visible_state_sha256": "4b225d17a8c4affa366db2c75d8c8ede59f8519ffc112d186987a6f9ccfd30ac",
+      "case_files": {
+        "actor_visible_state.json": "4b225d17a8c4affa366db2c75d8c8ede59f8519ffc112d186987a6f9ccfd30ac",
+        "upstream_trace.json": "82ab43db029dc3b66f9e7055df034743a373a50d83dd0e87f79ef4988b6c0285",
+        "usage.json": "bb826fcebdbc2c29a076815735fee8a0d8f1643475cce8b9fbf52e030828be62"
+      },
+      "case_id": "AGI:2023-06-30",
+      "case_sha256_manifest_sha256": "7ebbff9ad650bbc9eb157652af4e2ad7c91f1b7a70233f25fe8011751ba925f4",
+      "decision_session": "2023-06-30",
+      "evidence_packet_sha256": "668612d5d1c7bb63c410021d33ca51f5104432bf7e0162bd628d481f94cef4a8",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 67,
+      "role": "VALIDATION",
+      "symbol": "AGI"
+    },
+    {
+      "actor_visible_state_sha256": "8f54eb37695460cb8467ff1bc99da3fb44c301de8514f7cebb865dcd760e215b",
+      "case_files": {
+        "actor_visible_state.json": "8f54eb37695460cb8467ff1bc99da3fb44c301de8514f7cebb865dcd760e215b",
+        "upstream_trace.json": "38b36f569988b9a972ccf8146e7fce1c433fd5b57b29074bba201d60859d52c8",
+        "usage.json": "fe5c8357a0446f0ceeece02a3f79651a301e4dfc5896fb1f218c9da79ceef1dd"
+      },
+      "case_id": "AGI:2023-07-07",
+      "case_sha256_manifest_sha256": "a4e22e756974326c8bc3bc0088ce293f0df48179efa8983652c3079cf12ab316",
+      "decision_session": "2023-07-07",
+      "evidence_packet_sha256": "4e08d78fe5a2267743e88898d979cdb7b5477ee9827b6d5834cd6e610563b69c",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 68,
+      "role": "VALIDATION",
+      "symbol": "AGI"
+    },
+    {
+      "actor_visible_state_sha256": "e229c7247ead5298ecc181df54b57c314e76698b02aa1d27c3cd90c26b50b75e",
+      "case_files": {
+        "actor_visible_state.json": "e229c7247ead5298ecc181df54b57c314e76698b02aa1d27c3cd90c26b50b75e",
+        "upstream_trace.json": "f9fd77026f2eb4e8a1331aa27b4d52971f0013d38ff0b69eafed3c664f4c37ef",
+        "usage.json": "152582fb9193b6bef758d95a3927442468ad58d35fdba501d29a7aee7bf0f2d9"
+      },
+      "case_id": "ARR:2023-06-30",
+      "case_sha256_manifest_sha256": "817be0e3a8d0dc15b31efb62b053f2817bc85b164bf08cad1e89d550492439a7",
+      "decision_session": "2023-06-30",
+      "evidence_packet_sha256": "35a9d633bf0f3f93d52440b9ab79525e7ecd91f7a4f018f6532ca8ef67332500",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 69,
+      "role": "VALIDATION",
+      "symbol": "ARR"
+    },
+    {
+      "actor_visible_state_sha256": "a5e732005cdae59cc2ce32c1b958b463afc7da7db2ec70ff91ee6adf86d96979",
+      "case_files": {
+        "actor_visible_state.json": "a5e732005cdae59cc2ce32c1b958b463afc7da7db2ec70ff91ee6adf86d96979",
+        "upstream_trace.json": "d45ef4ade4e343c453703700fc2ec52d60d5d2180f3720b6429ba0c3ecd05f83",
+        "usage.json": "ea78b9a15d03156e55ac18f516bfbb5d99a73fa6e78e91c6bab938e711a5d87c"
+      },
+      "case_id": "ARR:2023-07-07",
+      "case_sha256_manifest_sha256": "59e96159eee32b14969d8a70df1eaea2c38490de25b2a6bffd43af3389ce918c",
+      "decision_session": "2023-07-07",
+      "evidence_packet_sha256": "d849a2fd50700bfebb6fd7cf6e192d6c7483fc52f594066d36a8aa025bb04d79",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 70,
+      "role": "VALIDATION",
+      "symbol": "ARR"
+    },
+    {
+      "actor_visible_state_sha256": "eb719e839533c39f0cbc83ef7df81f60cdb9c3ad36cdae0283a8fffe51dbc1b9",
+      "case_files": {
+        "actor_visible_state.json": "eb719e839533c39f0cbc83ef7df81f60cdb9c3ad36cdae0283a8fffe51dbc1b9",
+        "upstream_trace.json": "1e2c8d5808766a84e312161ef8db59093e3088251f0a10446cb25ffcdce1783d",
+        "usage.json": "afc630245171291e18ec15592bc6eb04e4ab56f595a5f51cdbc288a5356941ef"
+      },
+      "case_id": "AEMD:2023-06-30",
+      "case_sha256_manifest_sha256": "9ce6466b638bb323076237a7a62fc4592297a76f74a63d09c39771791def3417",
+      "decision_session": "2023-06-30",
+      "evidence_packet_sha256": "3fe7774261005d23c9b0dd1b571d1109ba95f9ebe69cb55ad4697cbfff0e28ce",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 71,
+      "role": "VALIDATION",
+      "symbol": "AEMD"
+    },
+    {
+      "actor_visible_state_sha256": "3a33a39c7e83a3939f447005721616726051e85580344321a2c09cef98009d76",
+      "case_files": {
+        "actor_visible_state.json": "3a33a39c7e83a3939f447005721616726051e85580344321a2c09cef98009d76",
+        "upstream_trace.json": "f2f784da44e236ccca2a29c852d38c774ff39d15541f88babf9aa6c65985f845",
+        "usage.json": "5db48ab2dfd84014109f6c21edf3e9cee9cc83919995e12905e6b295c256e651"
+      },
+      "case_id": "AEMD:2023-07-07",
+      "case_sha256_manifest_sha256": "1f5261b3bc59bb8ae8e907f2f136578dd3dd8c7042d6e199b400bc9427ddb4b1",
+      "decision_session": "2023-07-07",
+      "evidence_packet_sha256": "c31895c00be36d33593bea13fb1bff1ea38803f52ea512408809155fcad29ce4",
+      "generation_mode": "GENERATE_M2_08",
+      "generation_order": 72,
+      "role": "VALIDATION",
+      "symbol": "AEMD"
+    }
+  ],
+  "contract": "M2-SEMANTIC-HANDOFF-v1",
+  "e2e_pilot": {
+    "deferred": 8,
+    "materialised": 0
+  },
+  "final_holdout": {
+    "deferred": 16,
+    "materialised": 0
+  },
+  "frozen_m2_07_generation_primitive_sha": "6d3c46b96b8935944e0f232b73020262d870d953",
+  "m2_07_reused": 6,
+  "m2_08_generated": 66,
+  "m2_08_orchestrator_sha": "d225316aa622fadbac116698c6deb19b4e19600c",
+  "m2_08_plan_sha": "b4f3d22978048d079600752981694a5a7d0041ef",
+  "materialised_case_count": 72,
+  "schema_version": "M2-SEMANTIC-TRAINVAL-CORPUS-MANIFEST-v1",
+  "selected_tier": "MAXIMUM",
+  "selected_tier_case_count": 96,
+  "selected_tier_identity": "68fbc780cbb454f78d0ae719f91665737ed6e04928eba91f4c9c0530745d601f",
+  "semantic_handoff_trainval_corpus_identity_sha256": "cc1fea692489a5b5791cae1fd96386bfbcf1f0a07f2ea3e22637dd3c43533a43",
+  "task_id": "M2-08",
+  "train": 56,
+  "validation": 16
+}

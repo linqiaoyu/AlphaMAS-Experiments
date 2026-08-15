@@ -1,0 +1,36 @@
+{
+  "case_id": "AMZN:2023-05-12",
+  "context": {
+    "company_of_interest": "AMZN",
+    "decision_session": "2023-05-12",
+    "deterministic_temporal_context": {
+      "frozen_decision_time": "2023-05-12T20:00:00+00:00",
+      "historical_as_of": "2023-05-12T20:00:00+00:00",
+      "run_mode": "historical"
+    },
+    "instrument_context": "The instrument to analyze is `AMZN`. Use this exact ticker in every tool call, report, and recommendation, preserving any exchange suffix (e.g. `.TO`, `.L`, `.HK`, `.T`, `-USD`).",
+    "ticker": "AMZN"
+  },
+  "decision_session": "2023-05-12",
+  "evidence_packet_sha256": "6906b810b5300e700c98769bc539cfd6802644b4799118ff61552988d459cebb",
+  "prompt_trader": {
+    "normalized_action": "HOLD",
+    "proposal_sha256": "4b94cf28fe5e720a505921bc0d6b8c478c1fefb75e30cfb481a97271251df004",
+    "rendered_proposal": "**Action**: Hold\n\n**Reasoning**: The evidence is genuinely balanced, supporting a Hold. The bull case rests on solid technicals — AMZN closed at $110.26 above all key moving averages with an imminent golden cross, healthy RSI at 61, and light-volume pullback (49.85M vs. 78.6M/74.9M on breakout days) suggesting accumulation. The structural fundamentals (AWS 32% CIPS share, $4.79B Q1 operating cash flow, $154.5B equity base) support a constructive long-term view. However, the bear's risk/reward concerns are equally compelling: the stock has rallied ~15% from the April low, sits near the upper Bollinger Band ($111.53), trades at ~59x operating cash flow and 60-70x forward earnings versus MSFT (~30x) and GOOGL (~20x), and the rally occurred on below-average volume (relative volume 0.719). With the golden cross potentially front-run (price $4 above the 200 SMA) and macro uncertainty from sticky inflation and an unclear Fed path, chasing at $110+ is unattractive. I will maintain current exposure at benchmark weight, not add aggressively at current levels, and not exit given the intact structural bull case.\n\n**Entry Price**: 107.0\n\n**Stop Loss**: 101.5\n\n**Position Sizing**: Maintain benchmark weight; add only on pullback to $106-108 zone on stronger volume; trim toward underweight if price breaks below $106 on expanding volume\n\nFINAL TRANSACTION PROPOSAL: **HOLD**"
+  },
+  "provenance": {
+    "experiments_sha": "b4f3d22978048d079600752981694a5a7d0041ef",
+    "model_configuration_identity": "f2e15ee388ee60297930ddd2eb4ed5d73c27ee297472d97bb7d73bc49d2cd420",
+    "model_id": "deepseek-v4-flash",
+    "run_identity": "d6f54587ffca3988a25363607e22625a6e9e192393024fcc85b576e19329e8e5",
+    "source_sha": "6d3c46b96b8935944e0f232b73020262d870d953"
+  },
+  "research_manager": {
+    "investment_plan": "**Recommendation**: Hold\n\n**Rationale**: Let me walk through how I weighed this debate, because it was genuinely close and I want to be transparent about where the evidence landed.\n\nThe bull made a strong case on the technicals. AMZN closed at $110.26, above all key moving averages, with the 50 SMA converging on the 200 SMA for what looks like an imminent golden cross. MACD is expanding, RSI at 61 is healthy without being overbought, and the pullback on May 12 came on notably lighter volume (49.85M vs. 78.6M and 74.9M on the breakout days). The bull's framing of \"heavy volume up, light volume down = accumulation\" is a legitimate technical read. The fundamentals also support a constructive long-term view: $4.79B in Q1 operating cash flow, AWS holding 32% CIPS share, and a $154.5B equity base funding aggressive reinvestment.\n\nBut the bear raised points that I can't dismiss. The most compelling is the risk/reward asymmetry at current levels. The stock has already rallied ~15% from the April low, sits near the upper Bollinger Band ($111.53), and the entire rally has occurred on volume that is at or below the 20-day average (relative volume 0.719 on May 12). The bear's point that the golden cross may already be \"front-run\" — price is $4 above the 200 SMA — has merit. The valuation concern is also real: at roughly 59x operating cash flow and 60-70x forward earnings, AMZN trades at a significant premium to peers like MSFT (~30x) and GOOGL (~20x) with comparable growth rates. The macro backdrop — sticky inflation, an unclear Fed path, and recession warnings from economists — adds genuine uncertainty for a high-multiple growth stock.\n\nWhere I land: the bull's long-term thesis is sound — AWS dominance, e-commerce scale, and the AI infrastructure opportunity are real structural advantages. But the bear's short-term caution is also justified — buying at $110 after a 15% run on below-average volume, near the upper Bollinger Band, with a declining 200 SMA, is not an attractive entry. The evidence on both sides is genuinely balanced: the trend and fundamentals argue for constructive exposure, while the valuation, volume, and macro argue against chasing at current levels. This is a case where the strongest arguments on each side are roughly equal in weight, so I'm committing to Hold rather than forcing a directional call that the evidence doesn't clearly support.\n\n**Strategic Actions**: For the trader: Maintain current AMZN exposure at roughly benchmark weight. Do not add aggressively at $110+ given the low-conviction volume profile and proximity to the upper Bollinger Band. Do not exit either — the structural bull case (AWS share, e-commerce scale, AI infrastructure) remains intact and the technical trend is still up.\n\nIf establishing a new position: Wait for a pullback toward the $106-108 zone (10 EMA / 200 SMA confluence) before initiating. If price holds that support on stronger volume, that is a more favorable entry with better risk/reward.\n\nRisk management: Place a stop-loss below $101.50 (50 SMA) for any existing position. If price breaks below $106 on expanding volume, that invalidates the bullish setup and warrants trimming toward underweight.\n\nUpside: If the golden cross fires and price breaks above $112-113 on volume above the 20-day average, that confirms institutional participation and supports adding toward overweight with a target of $119-124.\n\nTime horizon: 3-6 months. Reassess after the next earnings report and any Fed policy signals.",
+    "investment_plan_sha256": "d83375ce059c465c765c5a25f33828637d1f2f311ceaa7a1c341e8aedfb5443a"
+  },
+  "reusable_for_M2_08": true,
+  "role": "TRAIN",
+  "schema_version": "M2-SEMANTIC-HANDOFF-v1",
+  "symbol": "AMZN"
+}

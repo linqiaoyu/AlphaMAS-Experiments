@@ -1,0 +1,36 @@
+{
+  "case_id": "JBSS:2023-05-19",
+  "context": {
+    "company_of_interest": "JBSS",
+    "decision_session": "2023-05-19",
+    "deterministic_temporal_context": {
+      "frozen_decision_time": "2023-05-19T20:00:00+00:00",
+      "historical_as_of": "2023-05-19T20:00:00+00:00",
+      "run_mode": "historical"
+    },
+    "instrument_context": "The instrument to analyze is `JBSS`. Use this exact ticker in every tool call, report, and recommendation, preserving any exchange suffix (e.g. `.TO`, `.L`, `.HK`, `.T`, `-USD`).",
+    "ticker": "JBSS"
+  },
+  "decision_session": "2023-05-19",
+  "evidence_packet_sha256": "84c7230fe9b2e42d5a37eec4fd8f87ba55cf855ab4e69124fe4a46f45a261fc3",
+  "prompt_trader": {
+    "normalized_action": "HOLD",
+    "proposal_sha256": "e9513ff7446997f5391bb61457605ff500c5a8a8b20bcf2a2de6723b506741f9",
+    "rendered_proposal": "**Action**: Hold\n\n**Reasoning**: The evidence is genuinely balanced for JBSS. The bull case rests on verifiable fundamentals: a fortress balance sheet (65.7% equity-to-assets, 0.52x debt-to-equity), strong $72.4M operating cash flow over nine months, and a textbook bullish moving average stack with price above all key MAs. However, the bear case is equally compelling on near-term technicals: a widening negative MACD histogram (-0.02 to -0.40), RSI falling 21 points in 14 days, 14 consecutive sessions without a new high, and drying volume (relative volume 0.81). The critical unresolved evidence gap is the absence of income statement data to verify revenue growth and margin trends. At $99.51, the risk-reward is unfavorable for new entries (downside to 50 SMA at $90.90 is -8.7% vs. upside to May 3 high at $105.87 of only +6.4%). The prudent action is to maintain current positioning, tighten risk management with a stop below $90.90, and wait for either a pullback to the $90.90-$92 zone or a confirmed breakout above $105.87 on volume expansion before adding capital.\n\n**Entry Price**: 90.9\n\n**Stop Loss**: 90.9\n\n**Position Sizing**: Maintain current position; for new entries wait for pullback to $90.90-$92 (size 50-60%) or breakout above $105.87 on volume (size 60-75%)\n\nFINAL TRANSACTION PROPOSAL: **HOLD**"
+  },
+  "provenance": {
+    "experiments_sha": "b4f3d22978048d079600752981694a5a7d0041ef",
+    "model_configuration_identity": "f2e15ee388ee60297930ddd2eb4ed5d73c27ee297472d97bb7d73bc49d2cd420",
+    "model_id": "deepseek-v4-flash",
+    "run_identity": "219c2838af1ec530f4f0ca63f5a4b602b6edf04c676924c605690a00e1c030cc",
+    "source_sha": "6d3c46b96b8935944e0f232b73020262d870d953"
+  },
+  "research_manager": {
+    "investment_plan": "**Recommendation**: Hold\n\n**Rationale**: Let me walk through how I weighed this debate, because it was genuinely close and both sides made legitimate points.\n\nThe bull's case is anchored in real, verifiable fundamentals: a fortress balance sheet (65.7% equity-to-assets, 0.52x debt-to-equity), strong operating cash flow of $72.4M over nine months, and a textbook bullish moving average stack (price > 10 EMA > 50 SMA > 200 SMA). The stock is up 29.7% above its 200-day SMA and consolidating only 3.6% below its closing high after a 47% four-month rally. These are facts, not speculation. The bull also correctly notes that the MACD and signal line are both still well above zero, and RSI at 64.69 remains in bullish territory despite cooling from overbought.\n\nThe bear's case is anchored in equally real technical deterioration: a widening negative MACD histogram (-0.02 to -0.40 over five days), RSI falling 21 points in 14 days, 14 consecutive trading days without a new high, and volume drying up (relative volume 0.81) after the May 3 breakout spike. The bear also makes a strong point that the stock has no identifiable news catalyst and that we lack income statement data to verify profitability trends — a genuine evidence gap that neither side can fill.\n\nWhere I land: The bull wins the fundamental argument — this is a genuinely high-quality, cash-generative company with a conservative balance sheet. The bear wins the near-term technical argument — momentum is clearly rolling over and the risk-reward at $99.51 is not compelling for new entries (downside to the 50 SMA is -8.7% vs. upside to the May 3 high of only +6.4%).\n\nThe critical missing piece is the income statement. We cannot verify revenue growth, margin trends, or earnings trajectory. The bull's inference that $72.4M in operating cash flow implies profitability is reasonable but incomplete — a company can be profitable yet deteriorating. Without this data, and with momentum clearly fading, I cannot justify a Buy or Overweight at current levels. But the fundamental strength and confirmed uptrend prevent me from recommending Underweight or Sell — the stock is still above all key moving averages and the balance sheet provides genuine downside protection.\n\nThis is a genuine Hold: the evidence on both sides is balanced. The trend is up but momentum is fading; the fundamentals are strong but the valuation is stretched and unverifiable without income statement data. The prudent action is to maintain current positioning and wait for either a pullback to the 50 SMA ($90.90) for a better entry, or a confirmed breakout above $105.87 with volume expansion to confirm the next leg higher.\n\n**Strategic Actions**: 1. MAINTAIN current position in JBSS at current levels (~$99.51). Do not add new capital at this price given the unfavorable near-term risk-reward (downside to 50 SMA is -8.7% vs. upside to May 3 high of +6.4%).\n\n2. For existing holders: Hold the position but tighten risk management. Set a stop/invalidation at a close below $90.90 (50-day SMA). A close below this level would confirm a deeper correction and warrant trimming.\n\n3. For new entries: Do NOT initiate at current levels. Wait for one of two conditions:\n   - (a) A pullback to the $90.90-$92 zone (50 SMA) for a better risk-reward entry, OR\n   - (b) A confirmed breakout above $105.87 (May 3 intraday high) on volume expansion (relative volume > 1.5x) to confirm the consolidation has resolved to the upside.\n\n4. Position sizing: If entering on a pullback to the 50 SMA, size at roughly 50-60% of a full position given the elevated volatility (ATR of $2.15) and the unresolved momentum picture. If entering on a confirmed breakout, size at 60-75% given the stronger confirmation.\n\n5. Monitor the evidence gap: The absence of income statement data is the single most important unresolved item. If revenue growth and margin data become available and confirm the bull's profitability thesis, upgrade to Overweight. If they reveal margin compression or revenue stagnation, downgrade to Underweight.\n\n6. Time horizon: 3-6 months for the thesis to resolve. The stock is consolidating after a powerful rally; the resolution of this consolidation (either breakout or breakdown) will determine the next directional move.",
+    "investment_plan_sha256": "704b5319a9ce597618063cc2e1c6de729a94630e319f6fd3b29fbb7581008713"
+  },
+  "reusable_for_M2_08": true,
+  "role": "TRAIN",
+  "schema_version": "M2-SEMANTIC-HANDOFF-v1",
+  "symbol": "JBSS"
+}

@@ -1,0 +1,36 @@
+{
+  "case_id": "EML:2023-06-30",
+  "context": {
+    "company_of_interest": "EML",
+    "decision_session": "2023-06-30",
+    "deterministic_temporal_context": {
+      "frozen_decision_time": "2023-06-30T20:00:00+00:00",
+      "historical_as_of": "2023-06-30T20:00:00+00:00",
+      "run_mode": "historical"
+    },
+    "instrument_context": "The instrument to analyze is `EML`. Use this exact ticker in every tool call, report, and recommendation, preserving any exchange suffix (e.g. `.TO`, `.L`, `.HK`, `.T`, `-USD`).",
+    "ticker": "EML"
+  },
+  "decision_session": "2023-06-30",
+  "evidence_packet_sha256": "001288ba913513dd78294712dd537cc71230954fc60a8d29cd0f86ea475c2fd7",
+  "prompt_trader": {
+    "normalized_action": "HOLD",
+    "proposal_sha256": "3d56f5177591b668056d7098ef3d64d24e9ac07f627d41bb0fc7083b29923291",
+    "rendered_proposal": "**Action**: Hold\n\n**Reasoning**: The research plan recommends an Underweight stance, which translates to avoiding new exposure and trimming into strength rather than a full Sell. The evidence is genuinely incomplete — no revenue, earnings, margins, or EPS are available — and where data exists it leans cautious: 74% of operating cash flow going to financing, positive investing cash flow consistent with a shrinking asset base, and an unexplained 25% single-day crash in March. Technically, price sits below a declining 200-day SMA, both moving averages are falling, and the stock has failed at the $18.48 double top twice on declining volume. However, the company generates real operating cash flow, holds a moderate ~50% debt-to-assets ratio, and has built a higher low — fundamentals not broken enough to justify a full Sell. The prudent action is to hold existing positions while avoiding new adds at $17.00, which sits directly beneath the $18.29-$18.48 resistance zone with no catalyst and no earnings visibility.\n\n**Entry Price**: 17.0\n\n**Stop Loss**: 15.31\n\n**Position Sizing**: Conservative — keep any exposure small; do not initiate or add at current levels\n\nFINAL TRANSACTION PROPOSAL: **HOLD**"
+  },
+  "provenance": {
+    "experiments_sha": "b4f3d22978048d079600752981694a5a7d0041ef",
+    "model_configuration_identity": "f2e15ee388ee60297930ddd2eb4ed5d73c27ee297472d97bb7d73bc49d2cd420",
+    "model_id": "deepseek-v4-flash",
+    "run_identity": "6f06490be50710e2b90ef83f6c28f1ab5e4a05f915bc1cd221bc9971b3a338d2",
+    "source_sha": "6d3c46b96b8935944e0f232b73020262d870d953"
+  },
+  "research_manager": {
+    "investment_plan": "**Recommendation**: Underweight\n\n**Rationale**: After weighing both sides, the bear's case carries the stronger evidentiary weight, though not enough to justify a full Sell. The bull's thesis rests heavily on interpretation of ambiguous data: the positive investing cash flow is read as \"maturing investments\" rather than asset sales, the missing income statement is waved away, and low volume is spun as holder confidence. The bear correctly identifies that the available evidence is genuinely incomplete — no revenue, earnings, margins, or EPS — and that where the data does exist it leans cautious (74% of operating cash flow going to financing, positive investing cash flow consistent with a shrinking asset base). The most decisive point is the unexplained 25% single-day crash in March: we have no explanation for it, and the stock's demonstrated fragility means we cannot rule out a repeat. Technically, the picture is mixed-to-cautious rather than bullish: price sits below a declining 200-day SMA, both the 50- and 200-day averages are falling, the stock has failed at the $18.48 double top twice, and volume is at 0.62x average with VWMA above price. The bull's probability-weighted math is self-serving — assigning a 40% chance to a third breakout attempt at a level that has already failed twice on declining volume is not evidence-based, and the bull's own upside probabilities don't even sum to 100%. Under realistic assumptions the expected value is negative. That said, the company does generate real operating cash flow, holds a moderate ~50% debt-to-assets ratio, and has built a higher low — so the fundamentals are not broken enough to justify a full Sell. The prudent stance is to trim or avoid adding exposure at $17.00, which sits in a resistance zone with no catalyst and no earnings visibility.\n\n**Strategic Actions**: For EML, adopt a cautious Underweight stance. Do not initiate or add to a position at the current $17.00 level, which sits directly beneath the $18.29-$18.48 resistance zone (200-day SMA, upper Bollinger, and the double top) with no identifiable catalyst and no earnings visibility. If holding a position, trim into any strength toward $18.00-$18.30 rather than adding. Do not establish a fresh long until one of two confirmations appears: (1) a decisive close above $18.48 on above-average volume, which would invalidate the double top and signal a genuine trend reversal, or (2) a pullback to the $15.31 May low for a better-defined entry with tighter risk. Position sizing should be conservative given the unresolved March crash risk and the incomplete fundamental picture — keep any exposure small and define a hard stop below $15.31 (the May low) to cap downside toward the $12.12 measured-move target if the double top resolves lower. Avoid relying on the bull's optimistic probability-weighted expected value; treat the risk-reward as unfavorable at current levels until a confirmed breakout or a better entry presents itself.",
+    "investment_plan_sha256": "aff6e40025a3f541028cbe2e5fd7d37fa090bf6eead279038788eb14abb2a45f"
+  },
+  "reusable_for_M2_08": true,
+  "role": "VALIDATION",
+  "schema_version": "M2-SEMANTIC-HANDOFF-v1",
+  "symbol": "EML"
+}

@@ -1,0 +1,36 @@
+{
+  "case_id": "AMZN:2023-06-16",
+  "context": {
+    "company_of_interest": "AMZN",
+    "decision_session": "2023-06-16",
+    "deterministic_temporal_context": {
+      "frozen_decision_time": "2023-06-16T20:00:00+00:00",
+      "historical_as_of": "2023-06-16T20:00:00+00:00",
+      "run_mode": "historical"
+    },
+    "instrument_context": "The instrument to analyze is `AMZN`. Use this exact ticker in every tool call, report, and recommendation, preserving any exchange suffix (e.g. `.TO`, `.L`, `.HK`, `.T`, `-USD`).",
+    "ticker": "AMZN"
+  },
+  "decision_session": "2023-06-16",
+  "evidence_packet_sha256": "6096e49d4d3d62ceaec9f1ddbcfa73b09f05d16f34c1f7f15811488883b6103f",
+  "prompt_trader": {
+    "normalized_action": "HOLD",
+    "proposal_sha256": "a7775e50d2a6ca8175838797731e958acf726e10886eebbd52e1017b300d18a6",
+    "rendered_proposal": "**Action**: Hold\n\n**Reasoning**: The investment plan recommends an Overweight stance with a measured approach — maintaining existing positions while avoiding aggressive accumulation at current levels. The bull case is supported by strong momentum (+27.14% over 60 days), price above all major moving averages, an intact golden cross, and accelerating earnings estimates (+240% EPS growth expected). However, the bear's concerns about MACD bearish crossover, RSI rollover from 74.46 to 62.52, momentum deceleration, and ~80x forward P/E valuation warrant caution. The plan explicitly advises against chasing at $125.49 and recommends adding only on pullbacks toward the 10 EMA ($124.86) or Bollinger Middle Band ($122.02), with a stop-loss at $119.50. Given the stretched valuation and early technical warning signs, holding existing positions with a stop-loss in place is the appropriate action rather than adding aggressively ahead of the next earnings report.\n\n**Entry Price**: 124.86\n\n**Stop Loss**: 119.5\n\n**Position Sizing**: Maintain as core holding at moderate overweight; do not increase beyond current allocation\n\nFINAL TRANSACTION PROPOSAL: **HOLD**"
+  },
+  "provenance": {
+    "experiments_sha": "b4f3d22978048d079600752981694a5a7d0041ef",
+    "model_configuration_identity": "f2e15ee388ee60297930ddd2eb4ed5d73c27ee297472d97bb7d73bc49d2cd420",
+    "model_id": "deepseek-v4-flash",
+    "run_identity": "0e788a515a0f0ec400e5357c73b066c0de7b28407c3445b23d5081c7cb9276aa",
+    "source_sha": "6d3c46b96b8935944e0f232b73020262d870d953"
+  },
+  "research_manager": {
+    "investment_plan": "**Recommendation**: Overweight\n\n**Rationale**: Let me weigh both sides of this debate carefully.\n\nThe bull makes a compelling case built on strong momentum (+27.14% over 60 days with only -1.27% drawdown), price above all major moving averages (10 EMA, 50 SMA, 200 SMA), an intact golden cross, and accelerating earnings estimates (+240% EPS growth expected next quarter). The bull also correctly notes that Amazon's $15.8B quarterly investing outflow is capital deployment into AWS capacity and fulfillment infrastructure — the very things that sustain its competitive moats — not \"cash incineration.\" The balance sheet is genuinely strong at $464B in assets with $154.5B in equity.\n\nThe bear raises legitimate concerns that I cannot dismiss: the MACD bearish crossover (histogram -0.19) is the first confirmed negative reading since the rally began, RSI has rolled over from 74.46 to 62.52 (a bearish divergence), and the 5-day return of +1.67% versus the 20-day return of +6.21% shows clear momentum deceleration. The bear also correctly identifies that Amazon burned roughly $11B in free cash flow in Q1 (operating CF of +$4.79B vs. investing outflows of -$15.81B), and that the stock trades at ~80x forward earnings — a rich multiple that leaves little room for error.\n\nHowever, the bear's case overreaches in several ways. First, the MACD histogram at -0.19 is genuinely small relative to the MACD line at 4.17 — this is more consistent with a pause within an uptrend than a confirmed reversal, especially given the minimal drawdown. Second, the bear's characterization of Amazon's investing as \"cash incineration\" ignores that this is exactly how Amazon has operated for two decades — reinvesting aggressively to build moats that have created enormous shareholder value. Third, the bear's claim that Amazon is \"lagging\" is misleading: AMZN is up +9.45% over the past month versus +4.92% for its sector and +6.22% for the S&P 500 — it is outperforming, not lagging.\n\nThe honest assessment is that this is a high-quality company in a strong uptrend with accelerating earnings, but the valuation is stretched and momentum is showing early signs of deceleration. The risk-reward is no longer as asymmetric to the upside as it was 30 days ago. This argues for maintaining/gradually building exposure rather than aggressively adding or exiting. The trend is intact and the fundamentals are inflecting positively, but the stretched valuation and early technical warning signs warrant a measured approach rather than a full-throated Buy or a defensive Sell.\n\n**Strategic Actions**: 1. Maintain existing AMZN positions and consider gradually adding on any pullback toward the 10 EMA ($124.86) or the Bollinger Middle Band ($122.02) rather than chasing at current levels.\n\n2. Position sizing: Keep AMZN as a core holding but do not increase beyond a moderate overweight. Given the ~80x forward P/E and early momentum deceleration signals, avoid aggressive accumulation at $125.49.\n\n3. Risk management: Place a stop-loss at $119.50 (approximately 1.8x ATR below entry) as the bull suggested. This protects against a breakdown below the Bollinger Middle Band while allowing normal volatility.\n\n4. Key levels to monitor: A break below $122.02 (Bollinger Middle) would warrant trimming; a break below $112.38 (50 SMA) would signal a more serious correction and justify reducing to underweight. Upside targets: $130.72 (Bollinger Upper) in the near term, with $140+ achievable if earnings estimates continue to be revised upward.\n\n5. Catalyst watch: The next earnings report is the critical event. If the +240% EPS estimate is confirmed or beaten, the stock should re-rate higher. If it misses, the 80x multiple leaves significant downside. Position accordingly — do not add aggressively ahead of the print.\n\n6. Rebalance trigger: If AMZN's relative performance continues to lag the Nasdaq during AI-driven rallies, reassess the thesis. The stock should be compounding with the market, not trailing it.",
+    "investment_plan_sha256": "225d00bfa86e08c571be21be91e63b00eef545bdb5538de1db0e8d96b49cafe5"
+  },
+  "reusable_for_M2_08": true,
+  "role": "TRAIN",
+  "schema_version": "M2-SEMANTIC-HANDOFF-v1",
+  "symbol": "AMZN"
+}

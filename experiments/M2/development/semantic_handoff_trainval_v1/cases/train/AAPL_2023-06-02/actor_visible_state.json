@@ -1,0 +1,36 @@
+{
+  "case_id": "AAPL:2023-06-02",
+  "context": {
+    "company_of_interest": "AAPL",
+    "decision_session": "2023-06-02",
+    "deterministic_temporal_context": {
+      "frozen_decision_time": "2023-06-02T20:00:00+00:00",
+      "historical_as_of": "2023-06-02T20:00:00+00:00",
+      "run_mode": "historical"
+    },
+    "instrument_context": "The instrument to analyze is `AAPL`. Use this exact ticker in every tool call, report, and recommendation, preserving any exchange suffix (e.g. `.TO`, `.L`, `.HK`, `.T`, `-USD`).",
+    "ticker": "AAPL"
+  },
+  "decision_session": "2023-06-02",
+  "evidence_packet_sha256": "730dc7b33d468f5f962d8034ed6ceaf23f69dc12d849361a2ebba3f8291dbcae",
+  "prompt_trader": {
+    "normalized_action": "HOLD",
+    "proposal_sha256": "27fe30a0b5b736088c50e50cfddc7c967ef49b5b975f38b175acbe7cd11f5fc3",
+    "rendered_proposal": "**Action**: Hold\n\n**Reasoning**: The investment plan recommends HOLD, and the evidence supports this stance. The technical picture is genuinely bullish — price above the 10 EMA, 50 SMA, and 200 SMA with expanding MACD and strong cash generation of $62.6B in operating cash flow. However, RSI at 72.95 is the highest in the window, price is above the upper Bollinger Band, and the stock trades 19% above its 200 SMA, indicating a stretched condition. Critically, fundamental data (revenue, gross margin, operating income, net income) is UNAVAILABLE in the supplied evidence, so valuation and earnings growth cannot be confirmed. With no identifiable catalyst and overbought conditions, initiating new positions at $178.29 carries unfavorable risk/reward. Maintaining existing positions while waiting for either a pullback toward the 50 SMA at $165.73 or fundamental confirmation is the prudent course.\n\n**Entry Price**: 165.73\n\n**Stop Loss**: 173.93\n\n**Position Sizing**: Maintain existing positions at target weight. Do not add new exposure at current levels. New money should wait for a pullback toward the 50 SMA at $165.73.\n\nFINAL TRANSACTION PROPOSAL: **HOLD**"
+  },
+  "provenance": {
+    "experiments_sha": "b4f3d22978048d079600752981694a5a7d0041ef",
+    "model_configuration_identity": "f2e15ee388ee60297930ddd2eb4ed5d73c27ee297472d97bb7d73bc49d2cd420",
+    "model_id": "deepseek-v4-flash",
+    "run_identity": "88a0c0d7705d1f9da80b19a64d208c059d5eab771e6a07ce68b58e2802ade4db",
+    "source_sha": "6d3c46b96b8935944e0f232b73020262d870d953"
+  },
+  "research_manager": {
+    "investment_plan": "**Recommendation**: Hold\n\n**Rationale**: Let me weigh both sides of this debate carefully.\n\nThe bull makes a strong case on the technicals: a perfect moving average stack (price > 10 EMA > 50 SMA > 200 SMA), expanding MACD at 3.08 above its signal line, price above VWMA confirming institutional participation, and exceptional cash generation of $62.6 billion in operating cash flow over six months. The trend is genuinely powerful, and the bull correctly notes that overbought RSI readings can persist in strong uptrends. The capital return program is shareholder-friendly, and the balance sheet, while showing a high debt-to-equity ratio, is likely dominated by operational liabilities given the scale of cash generation.\n\nHowever, the bear raises concerns that I cannot dismiss. The most important issue is the data availability problem: revenue, gross margin, operating income, and net income are all UNAVAILABLE in the supplied evidence. We cannot confirm earnings growth, valuation, or profitability trends. RSI at 72.95 is the highest reading in the window, price is above the upper Bollinger Band, and the stock is 19% above its 200 SMA — all classic signs of a stretched, overbought condition. The bear's point that the risk/reward at current levels is unfavorable for NEW entries is well-taken, particularly given the absence of any fundamental catalyst or valuation confirmation.\n\nThe bull's counter that \"the trend is the catalyst\" is a momentum argument, not a fundamental one. While momentum can persist, buying at fresh highs with RSI at 72.95, no earnings data, and no identifiable catalyst carries meaningful near-term downside risk. The bear's recommendation to wait for a pullback toward the 50 SMA before initiating new positions is prudent.\n\nThat said, I do not believe the evidence supports a SELL or even a strong UNDERWEIGHT. The trend is genuinely bullish, cash generation is exceptional, and there is no evidence of fundamental deterioration — just missing data. The company's competitive moat and ecosystem are real strengths. Selling or aggressively trimming a stock in a powerful uptrend with exceptional cash flow would be fighting the tape without evidence of deterioration.\n\nThe honest conclusion is that the evidence on both sides is genuinely balanced: strong technical momentum and cash generation on one side, overbought conditions and missing fundamental data on the other. This is a case where HOLD is the appropriate stance — maintain existing positions, do not initiate new ones at current stretched levels, and wait for either a pullback to better entry levels or confirmation of fundamental strength before adding exposure.\n\n**Strategic Actions**: 1. Maintain existing AAPL positions at current levels. Do not add new exposure at $178.29 given RSI at 72.95, price above the upper Bollinger Band, and the stock trading 19% above its 200 SMA.\n\n2. For investors with existing long positions: tighten stops to just below the 10 EMA at approximately $173.93 (roughly 2.5% below current price) to protect gains while allowing the position to participate in continued upside if the trend persists.\n\n3. For investors considering new positions: do NOT initiate at current levels. Wait for a pullback toward the 50 SMA at $165.73 (approximately 7.6% below current price) before establishing new exposure. This provides a more favorable risk/reward entry.\n\n4. Monitor for fundamental confirmation: if income statement data becomes available showing growing revenue and margins, this would support upgrading the stance to Overweight or Buy. If earnings data reveals deterioration, downgrade to Underweight.\n\n5. Position sizing: for those who already hold, keep position sizes at target weight. Do not add. For new money, hold in cash or deploy in tranches only on pullbacks toward the 50 SMA.\n\n6. Set a review trigger: if price breaks below the 50 SMA at $165.73 on meaningful volume, reassess the thesis — this would signal the trend may be breaking and warrant further trimming.",
+    "investment_plan_sha256": "39d5d217446211734e6f9142d6151e70d9c84c5653d0ddfd846955cfb4ce7857"
+  },
+  "reusable_for_M2_08": true,
+  "role": "TRAIN",
+  "schema_version": "M2-SEMANTIC-HANDOFF-v1",
+  "symbol": "AAPL"
+}

@@ -1,0 +1,36 @@
+{
+  "case_id": "AAPL:2023-06-16",
+  "context": {
+    "company_of_interest": "AAPL",
+    "decision_session": "2023-06-16",
+    "deterministic_temporal_context": {
+      "frozen_decision_time": "2023-06-16T20:00:00+00:00",
+      "historical_as_of": "2023-06-16T20:00:00+00:00",
+      "run_mode": "historical"
+    },
+    "instrument_context": "The instrument to analyze is `AAPL`. Use this exact ticker in every tool call, report, and recommendation, preserving any exchange suffix (e.g. `.TO`, `.L`, `.HK`, `.T`, `-USD`).",
+    "ticker": "AAPL"
+  },
+  "decision_session": "2023-06-16",
+  "evidence_packet_sha256": "496246214d291c86d6358b316cee4c54ec3c296ed9c9ea2293574ed061057d22",
+  "prompt_trader": {
+    "normalized_action": "HOLD",
+    "proposal_sha256": "4cce466837a46a191316ca610f2c6f9eae06dffa8f79fce1524c97a0adf1a5cb",
+    "rendered_proposal": "**Action**: Hold\n\n**Reasoning**: The evidence is genuinely balanced at this decision point. The bull case is strong on fundamentals ($62.57B six-month operating cash flow) and trend (bullish MA stack, +17.33% 60-day momentum, minimal drawdown), arguing against selling. However, the bear's tactical case is compelling: RSI rolling over from 74.28, MACD histogram decelerating for two sessions, price rejecting the upper Bollinger Band on the highest relative volume in a month, and the stock 21% above its 200 SMA. Initiating a fresh long at $182.21 near the upper band offers poor risk/reward, but the underlying franchise and uptrend are too strong to justify exiting. Maintain existing positions at current sizing, tighten risk with a stop below the 10 EMA at $179.72, and reserve dry powder for the $176–$170 pullback zone for a better entry.\n\n**Entry Price**: 182.21\n\n**Stop Loss**: 179.72\n\n**Position Sizing**: Neutral benchmark-weight allocation; reserve dry powder for $176–$170 pullback zone\n\nFINAL TRANSACTION PROPOSAL: **HOLD**"
+  },
+  "provenance": {
+    "experiments_sha": "b4f3d22978048d079600752981694a5a7d0041ef",
+    "model_configuration_identity": "f2e15ee388ee60297930ddd2eb4ed5d73c27ee297472d97bb7d73bc49d2cd420",
+    "model_id": "deepseek-v4-flash",
+    "run_identity": "7d6e997a6da27cb694c42a67fa9f7629b1c506d9d7e6071d604c71d2621cddab",
+    "source_sha": "6d3c46b96b8935944e0f232b73020262d870d953"
+  },
+  "research_manager": {
+    "investment_plan": "**Recommendation**: Hold\n\n**Rationale**: Let me walk through how I weighed this debate, because it's genuinely close and I want to be honest about where the evidence lands.\n\nThe bull makes a strong case on the fundamentals and the trend. The $62.57B in six-month operating cash flow is real and impressive, the moving average stack is textbook bullish (price > 10 EMA > 50 SMA > 200 SMA), the 60-day momentum of +17.33% with a mere -0.59% drawdown is objectively strong, and volume at 1.64x the 20-day mean confirms institutional participation. The bull is right that this is a high-quality, cash-generating franchise with a durable uptrend, and that RSI can stay overbought in strong trends.\n\nBut the bear's technical warnings carry real weight at this specific decision point, and I can't dismiss them as mere noise. The RSI did post its largest single-session decline in the window (74.28 to 70.04), price rejected the upper Bollinger Band and closed $2.04 off the intraday high on the highest relative volume in a month, and the MACD histogram contracted for a second consecutive session while price made new highs — that is a legitimate momentum deceleration signal. The bear's point about the 1.4% stop to the 10 EMA being within a single ATR ($2.76) of normal daily movement is technically sound — a stop that tight is likely to be triggered by ordinary volatility, not a real trend break.\n\nWhere I part ways with the bear is on the fundamentals. Calling Apple a \"leveraged trap\" or a \"utility\" overstates the case. The 81% liabilities-to-assets ratio is a deliberate capital structure choice for an investment-grade borrower with extraordinary cash generation, and the capital return program is a legitimate shareholder-value mechanism, not a confession of no growth. The bear's fundamental critique is weaker than his technical one.\n\nSo where does this land? The bull has the stronger fundamental and trend case; the bear has the stronger tactical/entry-timing case. The stock is extended (21% above the 200 SMA), momentum is showing early signs of deceleration, and the risk/reward of initiating a fresh long at $182.21 right at the upper band is genuinely poor — the bear's 6:1 risk/reward framing, while aggressive, captures a real asymmetry at this exact price. But the underlying business and trend are too strong to justify selling or underweighting.\n\nThis is the definition of a balanced situation: a strong uptrend and franchise that argues against selling, but an extended, momentum-decelerating entry point that argues against chasing. That's why I'm landing on Hold rather than committing to either side — the evidence on both sides is genuinely balanced at this decision point, and the right move is to maintain the position while waiting for a better entry rather than adding at the top or exiting a strong trend.\n\n**Strategic Actions**: For the trader implementing this Hold rating on AAPL:\n\n1. MAINTAIN existing positions at current sizing — do not add and do not exit. The underlying trend and franchise quality argue against selling, but the extended entry point argues against chasing.\n\n2. DO NOT initiate a fresh long at market ($182.21). The stock is 21% above its 200 SMA, sitting at the upper Bollinger Band, with RSI rolling over from 74.28 and MACD histogram decelerating. The risk/reward of a new entry here is unfavorable.\n\n3. For existing holders, tighten risk management: place a stop below the 10 EMA at $179.72 (approximately $182.21 entry reference). Note this is within one ATR ($2.76) of price, so expect it may be triggered by normal volatility — that is acceptable as a defined risk level, not a trend-break signal.\n\n4. Establish a re-entry / add-on-pullback plan: scale into additional exposure in the $176–$170 zone (Bollinger middle band at $176.22 down to the 50 SMA at $169.74), which offers a materially better risk/reward than the current price.\n\n5. Monitor the momentum signals for confirmation of direction: a break and hold above $184.25 on strong volume would invalidate the bear's distribution thesis and justify upgrading to Overweight; a close below the 50 SMA ($169.74) would confirm the bear's trend-exhaustion case and warrant trimming to Underweight.\n\n6. Position sizing: keep AAPL at a neutral, benchmark-weight allocation consistent with a Hold. Reserve dry powder for the $176–$170 pullback zone rather than deploying at current levels.",
+    "investment_plan_sha256": "5aa96e2bb17ff0021159d140d2c752dd50fc93b7ed5a9287c0bd078181e35e5d"
+  },
+  "reusable_for_M2_08": true,
+  "role": "TRAIN",
+  "schema_version": "M2-SEMANTIC-HANDOFF-v1",
+  "symbol": "AAPL"
+}

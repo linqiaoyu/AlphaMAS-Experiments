@@ -1,0 +1,36 @@
+{
+  "case_id": "AEMD:2023-06-30",
+  "context": {
+    "company_of_interest": "AEMD",
+    "decision_session": "2023-06-30",
+    "deterministic_temporal_context": {
+      "frozen_decision_time": "2023-06-30T20:00:00+00:00",
+      "historical_as_of": "2023-06-30T20:00:00+00:00",
+      "run_mode": "historical"
+    },
+    "instrument_context": "The instrument to analyze is `AEMD`. Use this exact ticker in every tool call, report, and recommendation, preserving any exchange suffix (e.g. `.TO`, `.L`, `.HK`, `.T`, `-USD`).",
+    "ticker": "AEMD"
+  },
+  "decision_session": "2023-06-30",
+  "evidence_packet_sha256": "3fe7774261005d23c9b0dd1b571d1109ba95f9ebe69cb55ad4697cbfff0e28ce",
+  "prompt_trader": {
+    "normalized_action": "SELL",
+    "proposal_sha256": "5bd6b2b14d242c77937f111726177a980eb25f0dd6ed5d95410269557c0253aa",
+    "rendered_proposal": "**Action**: Sell\n\n**Reasoning**: The investment plan recommends Underweight, which translates to trimming or reducing exposure. However, given the totality of evidence — accelerating cash burn ($10.5M/year with only ~17 months runway), net cash declining $2.5M despite $8.9M raised (dilution risk), zero revenue and zero approved products, stock 20% below its 200-day SMA, collapsing MACD histogram (6.07→2.61), RSI falling from 70 to 49, and extreme illiquidity (159 shares traded on June 30 with 73.9% annualized volatility) — the risk-reward is decisively unfavorable. The 5-day return of -5.26% and 60-day return of -7.69% confirm the rally is fading and the longer-term trend remains down. With no identifiable near-term catalyst in the evidence window, the downside risks (dilution, clinical failure, continued downtrend) outweigh the platform optionality. I recommend a full Sell rather than a trim, given the deteriorating momentum and absence of any catalyst to justify holding a pre-revenue, cash-burning speculative name.\n\n**Entry Price**: 288.0\n\n**Stop Loss**: 240.0\n\n**Position Sizing**: Exit full position; if maintaining any exposure, no more than 1-2% of portfolio\n\nFINAL TRANSACTION PROPOSAL: **SELL**"
+  },
+  "provenance": {
+    "experiments_sha": "b4f3d22978048d079600752981694a5a7d0041ef",
+    "model_configuration_identity": "f2e15ee388ee60297930ddd2eb4ed5d73c27ee297472d97bb7d73bc49d2cd420",
+    "model_id": "deepseek-v4-flash",
+    "run_identity": "a4e57043348603016375c584d107bed096147f82cf3be8c979b52a5ad5fe9db5",
+    "source_sha": "6d3c46b96b8935944e0f232b73020262d870d953"
+  },
+  "research_manager": {
+    "investment_plan": "**Recommendation**: Underweight\n\n**Rationale**: Let me weigh both sides of this debate carefully.\n\nThe bull makes a genuinely compelling technical case: the stock is sitting right at its 50-day SMA ($288.64 vs. close of $288.00), MACD remains positive at 10.09 and above its signal line, RSI at 49 is neutral with room to run, and the 20-day return of +16.13% shows a meaningful recent rally. The bull also correctly notes the balance sheet is clean for a clinical-stage company — 86% equity-funded, only $2.4M in liabilities, and $8.9M raised in FY2023 demonstrating capital access. The platform technology (Hemopurifier) targeting both infectious disease and oncology does offer multiple shots on goal.\n\nHowever, the bear's fundamental points carry more weight for a disciplined investment decision. The most damning facts: (1) the company burns $10.5M/year with only ~17 months of runway, and critically, it raised $8.9M in FY2023 yet STILL saw net cash decline by $2.5M — meaning the burn is outpacing capital raises, which points to future dilution at lower prices; (2) there is zero revenue, zero approved products, and zero evidence of clinical trial success in the supplied data; (3) the stock is 20% below its 200-day SMA, below its 10-day EMA, and the 50-day SMA has technically been breached (close of $288.00 vs. SMA of $288.64); (4) the MACD histogram collapsed 57% in two days and RSI fell from 70 to 49 — momentum is clearly fading, not building; (5) liquidity is extremely thin at 159 shares traded on June 30 with 73.9% annualized volatility, making this a highly speculative vehicle; and (6) there is no identifiable near-term catalyst in the evidence window — the news/sentiment data is entirely unavailable.\n\nThe bull's strongest counter — that the 20-day +16% return and positive MACD show an uptrend — is undercut by the 5-day return of -5.26% and the 60-day return of -7.69%, which show the rally is already fading and the longer-term trend remains down. The bull's claim that the 10-K filing is a \"catalyst\" is weak, as the 10-K actually confirmed the cash burn and lack of revenue.\n\nThis is not a clean Sell because the bull is right that the balance sheet is not distressed, the stock is at a technical support level, and a clinical-stage platform with multiple indications does carry real option value. But it's also not a Buy or Overweight given the accelerating cash burn, dilution risk, absence of any catalyst, and deteriorating momentum. The honest assessment is that this is a high-risk speculative name where the downside risks (dilution, clinical failure, continued downtrend) outweigh the upside potential at current levels. I'm recommending Underweight — trim or avoid adding exposure, but not a full exit given the genuine platform optionality and support-level positioning.\n\n**Strategic Actions**: 1. For existing holders: Trim AEMD exposure to a reduced (underweight) position. The June 30 close at $288.00 below the 50-day SMA ($288.64) combined with the collapsing MACD histogram (6.07→2.61) and RSI falling from 70 to 49 signals deteriorating momentum. Take profits on any recent strength rather than adding.\n\n2. For new money: Do not initiate a position at current levels. The risk-reward is not favorable — the stock is 20% below its 200-day SMA, has a 17-month cash runway with burn outpacing capital raises (net cash declined $2.5M despite $8.9M raised), and has no identifiable near-term catalyst.\n\n3. Position sizing: If maintaining any exposure, keep it small (no more than 1-2% of portfolio) given the extreme volatility (73.9% annualized), minimal liquidity (159 shares on June 30), and pre-revenue status. This is a speculative, not core, holding.\n\n4. Risk management: Set a hard stop-loss at $240 (the June lows / 60-day support zone). A break below this level would confirm the bear case of continued downside toward $200 or lower. Conversely, only consider re-entering or adding on a confirmed catalyst (clinical data, regulatory milestone) accompanied by a significant volume spike — not on hope.\n\n5. Monitoring triggers: Watch for (a) any clinical trial data or regulatory news that would constitute a genuine catalyst, (b) the next capital raise terms — if the company raises at a price below $288, it confirms dilution risk and further downside, and (c) whether the stock reclaims and holds above the 10-day EMA ($303.43) and 200-day SMA ($361.84) on meaningful volume, which would signal a genuine trend reversal rather than a bounce.",
+    "investment_plan_sha256": "149d9255e96363d50907f001a79d8f1fbf8681c20d599227aef30978051e81cc"
+  },
+  "reusable_for_M2_08": true,
+  "role": "VALIDATION",
+  "schema_version": "M2-SEMANTIC-HANDOFF-v1",
+  "symbol": "AEMD"
+}

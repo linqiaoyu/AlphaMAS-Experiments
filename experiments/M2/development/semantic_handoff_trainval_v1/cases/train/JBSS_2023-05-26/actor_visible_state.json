@@ -1,0 +1,36 @@
+{
+  "case_id": "JBSS:2023-05-26",
+  "context": {
+    "company_of_interest": "JBSS",
+    "decision_session": "2023-05-26",
+    "deterministic_temporal_context": {
+      "frozen_decision_time": "2023-05-26T20:00:00+00:00",
+      "historical_as_of": "2023-05-26T20:00:00+00:00",
+      "run_mode": "historical"
+    },
+    "instrument_context": "The instrument to analyze is `JBSS`. Use this exact ticker in every tool call, report, and recommendation, preserving any exchange suffix (e.g. `.TO`, `.L`, `.HK`, `.T`, `-USD`).",
+    "ticker": "JBSS"
+  },
+  "decision_session": "2023-05-26",
+  "evidence_packet_sha256": "54ec937b7ecfafd34ab57035640818eeb271a0f67a529db1042521c22f262676",
+  "prompt_trader": {
+    "normalized_action": "HOLD",
+    "proposal_sha256": "a2b14259ec12d677d88569b553c2f4f779d99ae765b334a39691b58417359671",
+    "rendered_proposal": "**Action**: Hold\n\n**Reasoning**: The investment plan lands on Overweight, which translates to maintaining existing positions while being disciplined on new entries. The structural bull case is intact — multi-timeframe uptrend, strong balance sheet (65.7% equity ratio, 0.52x debt-to-equity), and defensive consumer-staples positioning — but the bear's tactical concerns are valid: RSI at 73.75 rolling over from 86.08, first negative MACD histogram since January, fading volume (52.2K vs 217.5K on May 3 breakout), and price extended 33% above the 200-day SMA. The plan explicitly advises NOT to chase at ~$103.54 and to scale in on pullbacks toward the 10 EMA (~$101) or 50 SMA (~$92.87), or on a confirmed breakout above $105.87 on strong volume. Since current price (~$103.54) is not at an attractive entry level and existing positions should be maintained, the appropriate action is Hold — neither adding aggressively at current levels nor exiting given the intact structural uptrend.\n\n**Entry Price**: 101.0\n\n**Stop Loss**: 92.87\n\n**Position Sizing**: Moderate-to-full position built in tranches; keep dry powder for pullback levels (~$101 and ~$92.87)\n\nFINAL TRANSACTION PROPOSAL: **HOLD**"
+  },
+  "provenance": {
+    "experiments_sha": "b4f3d22978048d079600752981694a5a7d0041ef",
+    "model_configuration_identity": "f2e15ee388ee60297930ddd2eb4ed5d73c27ee297472d97bb7d73bc49d2cd420",
+    "model_id": "deepseek-v4-flash",
+    "run_identity": "2e130dd53ac8830a158627ba1ee6e5d6f9aed8198706bd65a3ecdca9213d8e17",
+    "source_sha": "6d3c46b96b8935944e0f232b73020262d870d953"
+  },
+  "research_manager": {
+    "investment_plan": "**Recommendation**: Overweight\n\n**Rationale**: Let me weigh both sides of this debate honestly. The bull makes a compelling structural case: JBSS is in a textbook multi-timeframe uptrend with perfect moving average alignment (price above 10 EMA above 50 SMA above 200 SMA), backed by genuinely solid fundamentals — a 65.7% equity ratio, $72.4M in nine-month operating cash flow, and only 0.52x debt-to-equity. The stock has already demonstrated resilience by pulling back from $105.87 to $97.96 and then resuming its climb, which is the higher-highs/higher-lows pattern of a healthy trend. Positive returns across all timeframes and the defensive consumer-staples positioning add to the constructive picture.\n\nThe bear, however, raises legitimate short-term concerns that I can't dismiss. The RSI at 73.75 has rolled over from an 86.08 peak — a 12-14 point decline in momentum while price holds near highs. The MACD has printed its first negative histogram since January, a confirmed bearish crossover. Volume on the recent rally (52.2K shares) is a fraction of the May 3 breakout (217.5K), suggesting fading participation. And the stock is extended 33% above its 200-day SMA. The bear's risk/reward math — roughly 10% downside to the 50 SMA versus ~6% upside to the measured-move target — is arguably more realistic than the bull's optimistic 15-20% upside projection.\n\nThe decisive factor for me: the bear's concerns are tactical and short-term, while the bull's case is structural and fundamental. The trend is real, the balance sheet is strong, and the business is defensive. But the bear is right that this is not an attractive entry point at the top of a 40% rally with overbought conditions and fading momentum. The right posture is constructive on the trend and fundamentals, but disciplined on entry — add on pullbacks toward the 10 EMA ($101) or 50 SMA ($92.87) rather than chase at $103.54. That's why I land on Overweight rather than a full Buy: the long-term case is sound, but the near-term risk/reward argues against aggressive accumulation at current levels.\n\n**Strategic Actions**: 1. Maintain existing JBSS positions; do not exit on short-term overbought signals given the intact structural uptrend and solid balance sheet.\n\n2. For new or additional exposure, do NOT chase at current levels (~$103.54). Scale in on pullbacks: initiate/add toward the 10-day EMA (~$101) and add more aggressively toward the 50-day SMA (~$92.87), where the risk/reward becomes genuinely favorable.\n\n3. Alternatively, add on a confirmed breakout above the May 3 high ($105.87) on strong volume (well above the recent ~52K share participation) — this would signal renewed institutional conviction.\n\n4. Position sizing: given the Overweight rating, target a moderate-to-full position but build it in tranches rather than all at once. Keep dry powder for the pullback levels identified above.\n\n5. Risk management: place a stop below the 50-day SMA (~$92.87) for existing positions. A decisive break below this level would signal the trend is no longer intact and warrant trimming. The 200-day SMA (~$77.69) is the ultimate structural floor.\n\n6. Monitor the momentum signals the bear flagged: if RSI continues to roll over and the MACD histogram deepens negative while price fails to make new highs, tighten stops and reduce the pace of accumulation.",
+    "investment_plan_sha256": "7f12f8674bac70d23fa3c7f7e61007ecca3634444ab48f91587446aa921a54e3"
+  },
+  "reusable_for_M2_08": true,
+  "role": "TRAIN",
+  "schema_version": "M2-SEMANTIC-HANDOFF-v1",
+  "symbol": "JBSS"
+}

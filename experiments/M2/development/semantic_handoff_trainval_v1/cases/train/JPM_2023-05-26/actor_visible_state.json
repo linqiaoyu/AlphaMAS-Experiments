@@ -1,0 +1,36 @@
+{
+  "case_id": "JPM:2023-05-26",
+  "context": {
+    "company_of_interest": "JPM",
+    "decision_session": "2023-05-26",
+    "deterministic_temporal_context": {
+      "frozen_decision_time": "2023-05-26T20:00:00+00:00",
+      "historical_as_of": "2023-05-26T20:00:00+00:00",
+      "run_mode": "historical"
+    },
+    "instrument_context": "The instrument to analyze is `JPM`. Use this exact ticker in every tool call, report, and recommendation, preserving any exchange suffix (e.g. `.TO`, `.L`, `.HK`, `.T`, `-USD`).",
+    "ticker": "JPM"
+  },
+  "decision_session": "2023-05-26",
+  "evidence_packet_sha256": "707519cad84b587b7e203ef3a2d842f3449483a9b8714bab3497aa36ceb98283",
+  "prompt_trader": {
+    "normalized_action": "HOLD",
+    "proposal_sha256": "1aec2c3f0825004b8fc9cc6fda4f9abd663f5e1271a7f4ff3c22818df308b1dd",
+    "rendered_proposal": "**Action**: Hold\n\n**Reasoning**: The evidence is genuinely balanced between the bull's long-term structural thesis and the bear's short-term technical concerns. JPM trades above all major moving averages in a golden cross configuration with a fortress balance sheet ($303B equity), but the short-term picture is neutral-to-slightly-bearish: MACD has collapsed 83% (2.01 to 0.33), the stock is range-bound between $124.68-$131.28 with double rejection at resistance, and volume is 20% below average. At $127.32, risk/reward to the range boundaries is roughly 1:1, which does not justify fresh capital deployment. The disciplined approach is to maintain the current position and wait for either a pullback to the $124.40-$125.00 support zone (improving risk/reward to ~2:1) or a confirmed breakout above $131.50 on strong volume. Existing holders should tighten stops below $125.80, with a break below $123.66 warranting position reduction.\n\n**Entry Price**: 125.0\n\n**Stop Loss**: 123.66\n\n**Position Sizing**: 50% of a full position on pullback to $124.40-$125.00 zone; 25-33% on breakout above $131.50\n\nFINAL TRANSACTION PROPOSAL: **HOLD**"
+  },
+  "provenance": {
+    "experiments_sha": "b4f3d22978048d079600752981694a5a7d0041ef",
+    "model_configuration_identity": "f2e15ee388ee60297930ddd2eb4ed5d73c27ee297472d97bb7d73bc49d2cd420",
+    "model_id": "deepseek-v4-flash",
+    "run_identity": "c84ed16000d3565ce6bf16f51397eebbc33154ef584de520a32903f0b0c05f36",
+    "source_sha": "6d3c46b96b8935944e0f232b73020262d870d953"
+  },
+  "research_manager": {
+    "investment_plan": "**Recommendation**: Hold\n\n**Rationale**: Let me weigh both sides of this debate carefully.\n\nThe bull makes a compelling structural case: JPM is trading above all major moving averages in a golden cross configuration (50 SMA $124.41 above 200 SMA $119.19), the stock recovered 10.5% off its March crisis low, volatility has normalized (ATR down 33% from 3.68 to 2.48), and the balance sheet is a genuine fortress with $303 billion in equity. The bull also correctly identifies that the \"lower lows\" claim by the bear was actually a misread — the May 24 low of $125.80 is HIGHER than the May 12 low of $124.68, which is a higher low, a constructive pattern. The deposit-inflow narrative during the March banking crisis is well-documented and JPM was indeed the safe-haven beneficiary.\n\nHowever, the bear's short-term technical concerns are legitimate and not fully rebutted. The MACD has collapsed from 2.01 to 0.33 in under a month — an 83% momentum decline. The stock is range-bound between roughly $124.68 and $131.28, has been rejected at resistance twice ($131.47 and $131.28), and is trading on 20% below-average volume. The 5-day return is -1.61%, the 20-day is -0.94%, and the 60-day is -2.17%. The risk/reward at current levels ($127.32) is roughly 1:1 to the range boundaries — not compelling for a fresh long entry. The bear also correctly notes that we cannot fully verify the cause of the -$111.2 billion operating cash flow from the supplied data, and the -$22.9 billion net cash decline is a legitimate monitoring concern.\n\nThe key tension: the bull's long-term structural thesis is sound, but the short-term technical picture is genuinely neutral-to-slightly-bearish. The stock is not breaking out, momentum is fading, and there's no catalyst visible in the data. The bull's \"buy the dip\" at current levels is premature — the stock hasn't actually dipped to the support zone yet. The bear's \"wait for a better entry\" is the more disciplined approach.\n\nThis is a case where the evidence on both sides is genuinely balanced. The long-term trend is up (golden cross, rising 200 SMA, fortress balance sheet, strengthened competitive position), but the short-term setup is not compelling for new money at current levels. The prudent stance is to maintain the current position (not add aggressively, not exit) and wait for either a pullback to the $124.40-$125.00 support zone (where risk/reward improves) or a confirmed breakout above $131.50 on strong volume. That's a Hold with clear tactical guidance.\n\n**Strategic Actions**: 1. MAINTAIN current JPM position at current levels (~$127.32). Do not add aggressively at this price — the risk/reward to the range boundaries is roughly 1:1, which does not justify fresh capital deployment.\n\n2. For existing holders: tighten the stop to below $125.80 (recent May low). If that breaks, the next support is the 50 SMA at $124.41, then the Bollinger lower band at $123.66. A break below $123.66 would open the door to the 200 SMA at $119.19 and would warrant reducing the position.\n\n3. For new entries: wait for one of two triggers — (a) a pullback to the $124.40-$125.00 zone (50 SMA area), where the risk/reward improves to roughly 2:1 or better, or (b) a confirmed breakout above $131.50 on above-average volume, which would signal genuine buying interest and open the path to $135-$140.\n\n4. Position sizing: if adding on a pullback to the $124.40-$125.00 zone, size at roughly 50% of a full position with a stop below $123.66. If adding on a breakout above $131.50, size at roughly 25-33% of a full position given the extended nature of a breakout entry.\n\n5. Monitor the Q1 cash flow situation. The -$22.9 billion net cash decline and -$111.2 billion operating cash flow warrant continued monitoring, though the deposit-inflow interpretation is plausible given the documented March banking crisis. If future data confirms a genuine liquidity drain rather than balance-sheet growth, reassess.\n\n6. Re-evaluate on any of the following: a break above $131.50 (bullish trigger), a break below $123.66 (bearish trigger), or the release of new fundamental data (income statement, updated cash flow breakdown) that clarifies the Q1 cash flow picture.",
+    "investment_plan_sha256": "bc475d8e201c4db031070ab96e9ff0b580fff82c46fe7fd8a54d24755c404473"
+  },
+  "reusable_for_M2_08": true,
+  "role": "TRAIN",
+  "schema_version": "M2-SEMANTIC-HANDOFF-v1",
+  "symbol": "JPM"
+}

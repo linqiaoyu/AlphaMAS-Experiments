@@ -1,0 +1,36 @@
+{
+  "case_id": "AEMD:2023-05-19",
+  "context": {
+    "company_of_interest": "AEMD",
+    "decision_session": "2023-05-19",
+    "deterministic_temporal_context": {
+      "frozen_decision_time": "2023-05-19T20:00:00+00:00",
+      "historical_as_of": "2023-05-19T20:00:00+00:00",
+      "run_mode": "historical"
+    },
+    "instrument_context": "The instrument to analyze is `AEMD`. Use this exact ticker in every tool call, report, and recommendation, preserving any exchange suffix (e.g. `.TO`, `.L`, `.HK`, `.T`, `-USD`).",
+    "ticker": "AEMD"
+  },
+  "decision_session": "2023-05-19",
+  "evidence_packet_sha256": "4aa6e91b0a152d3349b88aef2c26b014969763c44308f319cd91c2ef5878a536",
+  "prompt_trader": {
+    "normalized_action": "SELL",
+    "proposal_sha256": "94acfbad881252885e8145e276f7b1197498fe5e5a5b5f5ce32c7fbc4ca918bc",
+    "rendered_proposal": "**Action**: Sell\n\n**Reasoning**: The investment plan recommends Underweight, which translates to trimming or exiting existing exposure. The technical picture is unambiguously bearish: price is 19% below the 50-day SMA, MACD is deeply negative (-21.97 vs signal -19.50) with no bullish crossover, RSI at 39.28 is below 50, and the stock is 26% below its pre-spike base. The liquidity situation is genuinely dangerous (~200 shares/day), meaning a position cannot be exited without crashing the price, and there is no identifiable catalyst in the evidence to reverse the downtrend. The downside is open-ended (no support below $195 in the evidence) while upside is capped by declining moving averages and speculative catalysts. Given the extreme illiquidity, the plan explicitly advises trimming to a minimal or zero position in small tranches over multiple sessions to avoid crashing the price against yourself.\n\n**Entry Price**: 248.0\n\n**Stop Loss**: 195.0\n\n**Position Sizing**: Reduce to zero or de minimis (well under 1% of portfolio); execute in small tranches over multiple sessions\n\nFINAL TRANSACTION PROPOSAL: **SELL**"
+  },
+  "provenance": {
+    "experiments_sha": "b4f3d22978048d079600752981694a5a7d0041ef",
+    "model_configuration_identity": "f2e15ee388ee60297930ddd2eb4ed5d73c27ee297472d97bb7d73bc49d2cd420",
+    "model_id": "deepseek-v4-flash",
+    "run_identity": "4e167b2411ba0f99c1d157588c8f26efa173e8645684a662b0521cdaf700e983",
+    "source_sha": "6d3c46b96b8935944e0f232b73020262d870d953"
+  },
+  "research_manager": {
+    "investment_plan": "**Recommendation**: Underweight\n\n**Rationale**: Let me weigh both sides of this debate carefully. The bull makes a coherent case for a clinical-stage catalyst play: a clean balance sheet (16.6% debt-to-assets, $17.28M equity), proven capital-raising ability ($8.92M raised), a stabilizing technical base at $248, and the argument that the stock has already priced in maximum pessimism. The bull's framing of the $427K net cash change as a surplus rather than a two-week buffer is a legitimate point — the delta is not the absolute cash level.\n\nHowever, the bear's evidence-based case is more compelling on the decisive points. First, the technical picture is unambiguously bearish: price is 19% below the 50-day SMA, MACD is deeply negative (-21.97 vs signal -19.50) with no bullish crossover, RSI at 39.28 is below 50 with no oversold signal, and the stock is 26% BELOW its pre-spike base — that's a breakdown, not a retest. Second, the liquidity situation is genuinely dangerous: 200 shares/day means a position cannot be exited without crashing the price, and the April volume spike proved to be a one-day event with no follow-through. Third, and most importantly, the bull's entire thesis rests on an unidentified, undated, and unevidenced catalyst. The bear is correct that you cannot build an investment thesis on a vacuum — the 10-Q shows no revenue, negative operating cash flow, and there is no evidence of any pending FDA approval, clinical readout, or partnership.\n\nThe bull's strongest point is the balance sheet resilience and the asymmetry argument, but the bear correctly notes the downside is actually open-ended (no support below $195 in the evidence) while the upside is capped by declining moving averages and speculative catalysts. For a pre-revenue clinical-stage company with extreme illiquidity, no identifiable catalyst, and confirmed bearish momentum, the risk-reward is genuinely asymmetric to the downside. This is not a case for a full Sell given the clean balance sheet and the possibility of a catalyst, but the evidence clearly favors reducing or avoiding exposure rather than accumulating. The prudent stance is Underweight — do not initiate a long position, and trim any existing exposure given the open-ended downside and inability to exit in a downturn.\n\n**Strategic Actions**: 1. DO NOT initiate a new long position in AEMD at $248. The technical trend is confirmed down (price 19% below 50 SMA, MACD negative, RSI below 50), and there is no identifiable catalyst in the evidence to reverse it.\n\n2. If holding AEMD, TRIM exposure to a minimal or zero position. Given the extreme illiquidity (~200 shares/day), execute any reduction in small tranches over multiple sessions to avoid crashing the price against yourself. The inability to exit quickly in a downturn is a structural risk that argues for reducing size now rather than later.\n\n3. Position sizing: If any speculative exposure is retained, cap it at a de minimis level (well under 1% of portfolio) and treat it strictly as an option-like bet on an unidentified catalyst — not as a core holding. Do not average down.\n\n4. Set a hard risk parameter: if the $248 support breaks, the next reference is the Bollinger lower band near $195 (~21% downside), and below that there is no defined support in the evidence — downside is open-ended. Any retained position must be sized to survive a move to $150 or lower.\n\n5. Re-evaluate only upon a concrete, verifiable catalyst: a clinical data readout, regulatory filing, partnership announcement, or a financing at a price above the current level. Absent such evidence, do not add exposure. The burden of proof for a bullish re-rating rests with new fundamental information, not with technical basing patterns.",
+    "investment_plan_sha256": "890f878cc4d417c6d6766d877781be4208a90b998d3317a7e74a6dbdc067d1c0"
+  },
+  "reusable_for_M2_08": true,
+  "role": "TRAIN",
+  "schema_version": "M2-SEMANTIC-HANDOFF-v1",
+  "symbol": "AEMD"
+}

@@ -1,0 +1,36 @@
+{
+  "case_id": "EML:2023-05-26",
+  "context": {
+    "company_of_interest": "EML",
+    "decision_session": "2023-05-26",
+    "deterministic_temporal_context": {
+      "frozen_decision_time": "2023-05-26T20:00:00+00:00",
+      "historical_as_of": "2023-05-26T20:00:00+00:00",
+      "run_mode": "historical"
+    },
+    "instrument_context": "The instrument to analyze is `EML`. Use this exact ticker in every tool call, report, and recommendation, preserving any exchange suffix (e.g. `.TO`, `.L`, `.HK`, `.T`, `-USD`).",
+    "ticker": "EML"
+  },
+  "decision_session": "2023-05-26",
+  "evidence_packet_sha256": "5def65a2c25eba4af7bab08ed931ea7635da0d544623ec402938a02de76614da",
+  "prompt_trader": {
+    "normalized_action": "SELL",
+    "proposal_sha256": "a03bce436c5e0c2ed78e65c18b169a6ddb500f3e072b2f8e1336477dbf1e9195",
+    "rendered_proposal": "**Action**: Sell\n\n**Reasoning**: The investment plan calls for an Underweight stance on EML, with explicit guidance to trim existing positions by one-third to one-half and to avoid initiating new longs. The technical picture is decisively bearish: the stock closed at $15.51 on the decision date, a new recent low below the 10 EMA, 50 SMA, and 200 SMA, with a death cross in place, MACD deeply negative at -0.26, and RSI at 39.97 below the 50 midline. The sequence of lower lows (May 26 at $15.51 vs. May 3 at $15.75 vs. April 26 at $16.10) confirms a downtrend, not base-building. Critically, the income statement is unavailable, leaving the fundamental picture incomplete, while the dividend yield sitting 2.09 standard deviations above its 5-year average signals potential dividend stress. Given the confirmed downtrend, lower lows, no identifiable catalyst, and hostile macro backdrop (Fed at 5.00-5.25%, inverted yield curve, unresolved debt ceiling), reducing exposure is the appropriate action. The plan explicitly states not to use the tight $14.80 stop (too close to ATR of 0.48), so a wider stop below the March crash low zone is appropriate, and any retained position should be kept small (1-2% of portfolio).\n\n**Entry Price**: 15.51\n\n**Stop Loss**: 14.5\n\n**Position Sizing**: Reduce to 1-2% of portfolio; trim existing position by one-third to one-half\n\nFINAL TRANSACTION PROPOSAL: **SELL**"
+  },
+  "provenance": {
+    "experiments_sha": "b4f3d22978048d079600752981694a5a7d0041ef",
+    "model_configuration_identity": "f2e15ee388ee60297930ddd2eb4ed5d73c27ee297472d97bb7d73bc49d2cd420",
+    "model_id": "deepseek-v4-flash",
+    "run_identity": "3055b66be5c56e6153f1bf02d6d140c032c8ee4e4daa2fc80adf29d5d46077a5",
+    "source_sha": "6d3c46b96b8935944e0f232b73020262d870d953"
+  },
+  "research_manager": {
+    "investment_plan": "**Recommendation**: Underweight\n\n**Rationale**: Let me walk through how I weighed this debate, teammate. The bull makes a genuinely compelling case on the fundamentals: positive operating cash flow of $6.86M, a net cash improvement of $2.85M, a balanced D/E of 1.02, and a dividend with a 22% payout ratio that looks well-covered. Those are real, verified numbers from the 10-Q, and they argue against any thesis of imminent financial distress. The bull also correctly notes the MACD histogram has turned positive and the stock is holding above the March crash low of $14.80.\n\nBut here's where the bear wins the argument on the technicals and the risk picture. The stock closed at $15.51 on the decision date — a new recent low, below the 10 EMA, 50 SMA, and 200 SMA, with a death cross in place. The MACD line is still deeply negative at -0.26, and RSI at 39.97 is below the 50 midline. The bear's point about the \"higher low\" claim is important: the May 26 low of $15.51 is actually LOWER than the May 3 low of $15.75 and the April 26 low of $16.10. That's a sequence of lower lows, not a base-building higher-low pattern. The bull's 4:1 reward-to-risk math also assumes the March low holds, but with an ATR of 0.48, the proposed stop at $14.80 is less than 1.5 ATRs away — likely to be triggered by noise.\n\nThe most decisive factor for me is the asymmetry of information. The income statement is unavailable — no revenue, no net income, no EPS. The bull is making a \"fundamentally sound\" case without the single most important fundamental document. Meanwhile, the positive investing cash flow (+$1.08M) is ambiguous at best and could signal asset sales or reduced capex, which for an industrial manufacturer is a caution flag, not a comfort. The dividend yield sitting 2.09 standard deviations above its 5-year average is a market signal that deserves respect, not dismissal.\n\nSo the balance tips this way: the fundamentals we CAN verify are not broken, which rules out a full SELL. But the technical trend is confirmed down, the price is making lower lows, there's no identifiable positive catalyst, the macro backdrop (Fed at 5.00-5.25%, inverted yield curve, unresolved debt ceiling) is still hostile, and the fundamental picture is incomplete. That's not a setup where you add exposure. It's a setup where you trim or stay light, and wait for either a confirmed break above the 50 SMA with volume or the Q2 earnings report to clarify the fundamental picture before committing capital.\n\n**Strategic Actions**: 1. REDUCE exposure to EML to a below-benchmark weight. For existing holders, trim the position by roughly one-third to one-half of the current allocation. Do not initiate new long positions at current levels.\n\n2. If a position is retained, do NOT use the bull's proposed stop at $14.80 — it is too tight relative to the ATR of 0.48 and will likely be triggered by normal volatility. Instead, place a wider stop below the March crash low zone, or manage the position on a time/event basis tied to the Q2 earnings release.\n\n3. Do not add on weakness. The stock is making lower lows (May 26 low of $15.51 vs. May 3 low of $15.75 vs. April 26 low of $16.10). Buying into a confirmed downtrend with no catalyst is catching a falling knife.\n\n4. Establish clear re-entry criteria before considering any new long: a confirmed daily close ABOVE the 50 SMA ($16.68) on above-average volume, which would be the first technical evidence of a genuine trend reversal. Alternatively, wait for the Q2 earnings report to confirm the fundamental picture (revenue, net income, EPS) before reassessing.\n\n5. Monitor the dividend as a risk flag. The yield at 2.09 standard deviations above its 5-year average is a market signal of potential dividend stress. The next dividend decision comes in late July alongside Q2 earnings — treat that as a key catalyst event.\n\n6. Position sizing: keep any retained EML position small (e.g., 1-2% of portfolio at most). This is a high-uncertainty, low-catalyst situation with an incomplete fundamental picture and a confirmed downtrend. Capital is better deployed elsewhere until the technical and fundamental evidence aligns.",
+    "investment_plan_sha256": "58df24f8fde9f6bab4a37718baaf58b0e277a74f161151a8303a2ac73d9c68e6"
+  },
+  "reusable_for_M2_08": true,
+  "role": "TRAIN",
+  "schema_version": "M2-SEMANTIC-HANDOFF-v1",
+  "symbol": "EML"
+}

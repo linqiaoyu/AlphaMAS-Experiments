@@ -1,0 +1,36 @@
+{
+  "case_id": "AEMD:2023-05-26",
+  "context": {
+    "company_of_interest": "AEMD",
+    "decision_session": "2023-05-26",
+    "deterministic_temporal_context": {
+      "frozen_decision_time": "2023-05-26T20:00:00+00:00",
+      "historical_as_of": "2023-05-26T20:00:00+00:00",
+      "run_mode": "historical"
+    },
+    "instrument_context": "The instrument to analyze is `AEMD`. Use this exact ticker in every tool call, report, and recommendation, preserving any exchange suffix (e.g. `.TO`, `.L`, `.HK`, `.T`, `-USD`).",
+    "ticker": "AEMD"
+  },
+  "decision_session": "2023-05-26",
+  "evidence_packet_sha256": "ff128ba38a3b88bf5e80fe7a6cc1b90d6192577e308b63deee48b7e31b23910b",
+  "prompt_trader": {
+    "normalized_action": "SELL",
+    "proposal_sha256": "7a6e02f9ea5833f82de0ee53fd12570c0698f7b8bfc55bc9b495d226939124c0",
+    "rendered_proposal": "**Action**: Sell\n\n**Reasoning**: The investment plan recommends an Underweight stance, which translates to trimming or avoiding exposure. The technical picture is firmly bearish: AEMD trades 42.7% below its 200-day SMA, below all major moving averages, and down 49.2% from its 60-day peak, with no confirmed reversal signal. The company is pre-revenue, burning ~$840K/month with ~20 months of runway, and there is zero evidence of clinical milestones, regulatory catalysts, or partnerships in the supplied data. While the balance sheet is not distressed ($17.28M equity vs $3.45M liabilities), the absence of any fundamental catalyst combined with a confirmed downtrend and dilution risk argues for reducing exposure to a small speculative allocation or exiting entirely. The MACD histogram turn and volatility compression are weak, unconfirmed signals that should not be treated as buy signals.\n\n**Stop Loss**: 233.0\n\n**Position Sizing**: Reduce to no more than 1-2% of portfolio if holding; do not initiate new positions\n\nFINAL TRANSACTION PROPOSAL: **SELL**"
+  },
+  "provenance": {
+    "experiments_sha": "b4f3d22978048d079600752981694a5a7d0041ef",
+    "model_configuration_identity": "f2e15ee388ee60297930ddd2eb4ed5d73c27ee297472d97bb7d73bc49d2cd420",
+    "model_id": "deepseek-v4-flash",
+    "run_identity": "ff227a96822f18e0844e482fd267892fcf9e6dbc3afcfcedcbff4652508078dd",
+    "source_sha": "6d3c46b96b8935944e0f232b73020262d870d953"
+  },
+  "research_manager": {
+    "investment_plan": "**Recommendation**: Underweight\n\n**Rationale**: Let me weigh both sides of this debate carefully.\n\nThe bull makes a genuine point about the balance sheet: $17.28M in equity against only $3.45M in liabilities, a 16.6% debt-to-assets ratio, and a successful $8.92M capital raise. That's a conservatively capitalized clinical-stage company, not one on the brink. The bull also correctly identifies some early technical stabilization signals — the MACD histogram turning positive, ATR compressing from 50 to 24.83, and volume drying up to 0.54x the 20-day average. These are real observations.\n\nHowever, the bear's counterarguments carry more weight on the critical issues. First, the technical picture is unambiguously bearish: the stock is 42.7% below its 200-day SMA, below all major moving averages, and down 49.2% from its 60-day peak. The MACD histogram turning positive from deeply negative levels (-18.67 vs -19.42) is a weak signal — it merely indicates the rate of decline is slowing, not that a reversal is underway. RSI at 40.86 is not oversold and does not indicate capitulation. Second, the company is pre-revenue, burning ~$840K/month with roughly 20 months of runway, and there is zero evidence of clinical trial results, regulatory milestones, or partnerships in the supplied data. The sentiment data is essentially a void — neutral at 5.0 with no news, no analyst coverage, and no institutional participation (167 shares of volume). Third, the \"asymmetric risk/reward\" the bull cites is overstated: the 233 support is a statistical artifact, not a fundamental floor, and the 50 SMA at 299.84 is resistance, not a target, absent a catalyst.\n\nThe bull's case rests heavily on hope — potential catalysts that are \"invisible in the current data\" — while the bear's case rests on what is actually observable: a downtrend, no revenue, no news, and no confirmed reversal. That said, the balance sheet is genuinely not distressed, and the company has demonstrated access to capital, which argues against a full Sell. The honest assessment is that this is a speculative, pre-revenue clinical-stage name with a clean balance sheet but no confirmed technical or fundamental catalyst. The evidence tilts bearish but not to the point of a conviction Sell given the low debt and capital access. Underweight is the appropriate stance — trim or avoid adding exposure, but the balance sheet prevents a full exit recommendation.\n\n**Strategic Actions**: 1. Do not initiate or add to a long position in AEMD at current levels. The technical trend is firmly down (below all major MAs, 42.7% below the 200 SMA) with no confirmed reversal signal.\n\n2. If holding a position, trim exposure to reduce risk. Set a strict stop below the $233 support level (Bollinger lower band). A break below this level removes the last near-term support and opens the door to further downside toward the 52-week low.\n\n3. Position sizing: Any existing position should be reduced to a small, speculative allocation (no more than 1-2% of portfolio) given the pre-revenue status, ~20-month cash runway, and binary clinical/regulatory risk profile.\n\n4. Do not rely on the MACD histogram turn or volatility compression as buy signals — these are weak, unconfirmed indicators in a deeply negative trend. Wait for confirmation: a close above the 10 EMA (~$253.85) on rising volume, followed by a reclaim of the 50 SMA (~$299.84), before reconsidering a long.\n\n5. Monitor for fundamental catalysts that are currently absent from the data: clinical trial results, regulatory filings, or partnership announcements. Until one of these materializes, the stock is trading on narrative rather than validated progress.\n\n6. Be aware of dilution risk: the company burned $7.56M in 9 months and will likely need to raise additional capital, potentially at lower prices, further pressuring the stock.",
+    "investment_plan_sha256": "8fb2fa1f9b3974b488950bf82da9c8eb264391552aef816a9ec4c5954e1d7531"
+  },
+  "reusable_for_M2_08": true,
+  "role": "TRAIN",
+  "schema_version": "M2-SEMANTIC-HANDOFF-v1",
+  "symbol": "AEMD"
+}

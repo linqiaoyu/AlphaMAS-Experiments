@@ -1,0 +1,36 @@
+{
+  "case_id": "AMZN:2023-05-05",
+  "context": {
+    "company_of_interest": "AMZN",
+    "decision_session": "2023-05-05",
+    "deterministic_temporal_context": {
+      "frozen_decision_time": "2023-05-05T20:00:00+00:00",
+      "historical_as_of": "2023-05-05T20:00:00+00:00",
+      "run_mode": "historical"
+    },
+    "instrument_context": "The instrument to analyze is `AMZN`. Use this exact ticker in every tool call, report, and recommendation, preserving any exchange suffix (e.g. `.TO`, `.L`, `.HK`, `.T`, `-USD`).",
+    "ticker": "AMZN"
+  },
+  "decision_session": "2023-05-05",
+  "evidence_packet_sha256": "3c0a869d95d995d5a34f6f4a128b1b65e01154b5147c361d925503bb969407a6",
+  "prompt_trader": {
+    "normalized_action": "SELL",
+    "proposal_sha256": "e8edf48355ddf551f9fb2913e0fde6b4080d535288c771187065248136f9cac6",
+    "rendered_proposal": "**Action**: Sell\n\n**Reasoning**: The research plan recommends an underweight stance on AMZN, and the evidence supports trimming exposure. The stock closed at $105.66, still below the 200-day SMA ($106.53), with a failed breakout at the April 27 high of $109.82 producing five consecutive lower highs (distribution). Momentum is rolling over (MACD fell 40% from 2.09 to 1.26 in eight sessions; RSI declined from 65.08), and the rally is occurring on below-average volume (relative volume 0.84), undermining the breakout thesis. The quarter also showed a real cash burn ($11B gap between $15.81B investing outflow and $4.79B operating cash flow, funded by $6.35B financing). With risk/reward not asymmetric in the bull's favor at current levels, trimming into strength toward the $106.53-$109.82 resistance zone is the prudent action.\n\n**Entry Price**: 106.53\n\n**Stop Loss**: 99.69\n\n**Position Sizing**: Reduce to underweight; keep remaining position modest (below benchmark weight)\n\nFINAL TRANSACTION PROPOSAL: **SELL**"
+  },
+  "provenance": {
+    "experiments_sha": "b4f3d22978048d079600752981694a5a7d0041ef",
+    "model_configuration_identity": "f2e15ee388ee60297930ddd2eb4ed5d73c27ee297472d97bb7d73bc49d2cd420",
+    "model_id": "deepseek-v4-flash",
+    "run_identity": "b34039e2182393836a5dfef33fa051bd27ab08c1f9b781775a7d5fa6a315847d",
+    "source_sha": "6d3c46b96b8935944e0f232b73020262d870d953"
+  },
+  "research_manager": {
+    "investment_plan": "**Recommendation**: Underweight\n\n**Rationale**: This was a genuinely close debate, but the weight of evidence tips modestly toward caution. The bull makes a legitimate case: AMZN is above its 10 EMA and 50 SMA, the 50 SMA has been rising for over a month, MACD remains positive above zero, RSI at 55.6 is neutral, and the balance sheet is a fortress with $464B in assets and $154.5B in equity. The medium-term uptrend is real and the stock is up 25% YTD.\n\nHowever, the bear's counterpoints carry more weight at the margin. The stock closed at $105.66, still below the 200-day SMA ($106.53) — the long-term trend is not yet reclaimed. The April 27 high of $109.82 was a failed breakout that has produced five consecutive lower highs, which is distribution, not consolidation. Momentum is rolling over: MACD fell 40% from 2.09 to 1.26 in eight sessions, and RSI has declined from 65.08. Critically, the rally is happening on below-average volume (relative volume 0.84), which undermines the breakout thesis. On fundamentals, the bear correctly notes the $11B gap between the $15.81B investing outflow and $4.79B operating cash flow, funded by $6.35B in financing — a real cash burn in the quarter. The Capgemini data point, while not a perfect proxy, does signal softening enterprise IT budgets that could pressure AWS.\n\nThe bull's \"golden cross\" hasn't happened yet and is weeks away, and his upside targets require breaking through multiple resistance levels on weak volume. The risk/reward at $105.66, just below a major resistance level with deteriorating momentum and a cash-burning quarter, is not clearly asymmetric in the bull's favor. The evidence on both sides is substantial, but the combination of a failed breakout, rolling momentum, weak volume, and a cash-burning quarter tips the balance toward caution rather than conviction buying.\n\n**Strategic Actions**: Recommend trimming existing AMZN exposure to a below-benchmark weight, or avoiding new long entries at current levels ($105.66). Do not initiate fresh longs here — the stock is below its 200-day SMA with rolling momentum and weak volume, so the risk/reward is not favorable for new capital.\n\nFor existing holders: reduce position size toward an underweight stance. Consider trimming into any strength toward the $106.53 (200 SMA) to $109.82 (April high) zone, which is likely to act as resistance given the failed breakout and below-average volume.\n\nFor traders: do not add on the current pullback. Wait for a confirmed breakout — a close above $109.82 on above-average volume — before re-establishing a constructive long. Alternatively, a breakdown below the 50 SMA support at $99.69 (and then the Bollinger lower band at $98.53) would confirm the bearish continuation and argue for further reduction, with the January low of $81.43 as the deeper downside reference.\n\nPosition sizing: keep any remaining AMZN position modest (underweight), with a stop-loss discipline below $99.69. Reassess on either a confirmed breakout above $109.82 on strong volume (bullish invalidation) or a break below $99.69 (bearish confirmation).",
+    "investment_plan_sha256": "ab4e947ab0248f370108411d46143b1379dc5a4e1c6da0a4dbef988956017a44"
+  },
+  "reusable_for_M2_08": true,
+  "role": "TRAIN",
+  "schema_version": "M2-SEMANTIC-HANDOFF-v1",
+  "symbol": "AMZN"
+}

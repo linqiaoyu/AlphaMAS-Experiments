@@ -1,0 +1,36 @@
+{
+  "case_id": "AMZN:2023-05-26",
+  "context": {
+    "company_of_interest": "AMZN",
+    "decision_session": "2023-05-26",
+    "deterministic_temporal_context": {
+      "frozen_decision_time": "2023-05-26T20:00:00+00:00",
+      "historical_as_of": "2023-05-26T20:00:00+00:00",
+      "run_mode": "historical"
+    },
+    "instrument_context": "The instrument to analyze is `AMZN`. Use this exact ticker in every tool call, report, and recommendation, preserving any exchange suffix (e.g. `.TO`, `.L`, `.HK`, `.T`, `-USD`).",
+    "ticker": "AMZN"
+  },
+  "decision_session": "2023-05-26",
+  "evidence_packet_sha256": "82c479e659af8d3c44ad327c716b936e93be833fd2b5a9d7a437bf221ce40a55",
+  "prompt_trader": {
+    "normalized_action": "BUY",
+    "proposal_sha256": "8c9b15bfbf154c28bd7b6e9ea52fe70fc6c1040cb63f741c4a9e6fed29478aa8",
+    "rendered_proposal": "**Action**: Buy\n\n**Reasoning**: The research plan recommends an Overweight stance on AMZN, which translates to a constructive but disciplined Buy. The technical trend is genuinely strong — price sits above all major moving averages (10 EMA $115.26, 50 SMA $105.55, 200 SMA $105.17), the golden cross has confirmed, MACD histogram is expanding, and volume confirms at 1.46x relative. However, the plan explicitly warns against chasing at the current $120.11 close near the upper Bollinger Band ($122.10) given the RSI divergence, declining 200 SMA, and lack of income statement data. Therefore I recommend a Buy executed via scaling in on pullbacks toward the $114-$116 support zone (10 EMA/VWMA), with a hard stop below $105 (50/200 SMA convergence) that invalidates the bullish thesis. Position sizing should be moderate (roughly 1.5-2x benchmark weight) to withstand the elevated 29.56% annualized volatility without forcing a panic exit.\n\n**Entry Price**: 115.0\n\n**Stop Loss**: 105.0\n\n**Position Sizing**: Moderate weight, ~1.5-2x benchmark weight; scale in on pullbacks toward $114-$116 rather than chasing at $120\n\nFINAL TRANSACTION PROPOSAL: **BUY**"
+  },
+  "provenance": {
+    "experiments_sha": "b4f3d22978048d079600752981694a5a7d0041ef",
+    "model_configuration_identity": "f2e15ee388ee60297930ddd2eb4ed5d73c27ee297472d97bb7d73bc49d2cd420",
+    "model_id": "deepseek-v4-flash",
+    "run_identity": "9798cd9d280de02812a97c474603d95e75111bfb15fa844edf3d93e4a41e1bd2",
+    "source_sha": "6d3c46b96b8935944e0f232b73020262d870d953"
+  },
+  "research_manager": {
+    "investment_plan": "**Recommendation**: Overweight\n\n**Rationale**: Let me weigh both sides of this debate carefully.\n\nThe bull makes a compelling technical case: AMZN is above all major moving averages (10 EMA at $115.26, 50 SMA at $105.55, 200 SMA at $105.17), the golden cross has confirmed, MACD histogram is expanding (+0.43 vs +0.27), volume is confirming at 1.46x relative, and there's zero drawdown from the 60-day peak. The macro backdrop — nine consecutive months of disinflation (CPI from 9.1% to 4.9%), a risk-on tech regime with the Nasdaq up 21-26% YTD, and positive operating cash flow of $4.79B — supports a constructive view. The DISH partnership talks add upside optionality.\n\nThe bear raises legitimate concerns that I can't dismiss. The 200 SMA is still declining ($106.85 → $105.17), which historically makes golden crosses less reliable. The RSI divergence (71.98 on May 18 vs 68.57 on May 26 with a higher price) is a genuine leading warning sign. The stock is extended — up 30.37% in 60 days with zero consolidation, sitting 1.6% below the upper Bollinger Band. Critically, the bear is right that we have NO income statement data — no revenue growth, no margin data, no earnings visibility. The available cash flow data shows a $10+ billion gap between operating cash flow ($4.79B) and investing outflows ($15.81B), funded by $6.35B in financing. That's a real concern about spending ahead of revenue growth.\n\nWeighing both: the technical trend is genuinely strong and the macro is improving, which argues against a Sell or Underweight. But the bear's points about extension, the declining 200 SMA, the RSI divergence, and the fundamental opacity are too substantive to ignore — buying aggressively at $120 near the upper Bollinger Band with no earnings visibility carries real near-term downside risk. The honest read is that the trend is up and the long-term story is intact, but the risk-reward at current levels is not compelling enough for a full Buy. A gradual accumulation approach — scaling in on pullbacks toward the $111-$116 support zone rather than chasing at $120 — captures the upside while respecting the extension risk. That's an Overweight stance: constructive, but disciplined on entry.\n\n**Strategic Actions**: 1. Establish or maintain a core AMZN position at a moderate weight (Overweight implies constructive but not maximal exposure — target roughly 1.5-2x benchmark weight rather than a full aggressive position).\n\n2. Do NOT chase at the current $120.11 close near the upper Bollinger Band ($122.10). Instead, scale in on pullbacks: initiate/add on dips toward the $114-$116 zone (10 EMA / VWMA support), with a second tranche near $111 (Bollinger middle band) if it gets there.\n\n3. For existing holders: hold the position and trail stops below the 10 EMA at $115.26. If the 10 EMA breaks, tighten to the $111 Bollinger middle band as the next line of defense; a break below $111 would warrant trimming toward the $105-$107 zone (50/200 SMA convergence).\n\n4. Add to the position on a decisive close above $122.10 (upper Bollinger Band breakout), which would confirm the next leg higher and justify increasing exposure toward full Buy weight.\n\n5. Risk management: use a hard stop below $105 (the 50/200 SMA convergence) for any new positions initiated in the $114-$116 zone, accepting that a break there invalidates the bullish thesis.\n\n6. Monitor for fundamental confirmation: since income statement data is unavailable in this historical run, treat any future revenue/margin data as the key catalyst to upgrade to Buy or downgrade to Hold. The DISH partnership announcement (possible as early as June) is a positive optionality catalyst to watch.\n\n7. Position sizing should reflect the elevated volatility (29.56% annualized, ATR $3.21) — keep position sizes moderate enough to withstand a 10-15% mean-reversion pullback without forcing a panic exit.",
+    "investment_plan_sha256": "cf9cde9716f3d53ec4ccf872c12c62bb0cb63c9fcb7aae2670d0181288ef283d"
+  },
+  "reusable_for_M2_08": true,
+  "role": "TRAIN",
+  "schema_version": "M2-SEMANTIC-HANDOFF-v1",
+  "symbol": "AMZN"
+}

@@ -1,0 +1,36 @@
+{
+  "case_id": "AEMD:2023-05-05",
+  "context": {
+    "company_of_interest": "AEMD",
+    "decision_session": "2023-05-05",
+    "deterministic_temporal_context": {
+      "frozen_decision_time": "2023-05-05T20:00:00+00:00",
+      "historical_as_of": "2023-05-05T20:00:00+00:00",
+      "run_mode": "historical"
+    },
+    "instrument_context": "The instrument to analyze is `AEMD`. Use this exact ticker in every tool call, report, and recommendation, preserving any exchange suffix (e.g. `.TO`, `.L`, `.HK`, `.T`, `-USD`).",
+    "ticker": "AEMD"
+  },
+  "decision_session": "2023-05-05",
+  "evidence_packet_sha256": "08acbaf44e6167b118cd4e33439187c7e106080fcf014f2e00f478c43eedcb86",
+  "prompt_trader": {
+    "normalized_action": "SELL",
+    "proposal_sha256": "5abe3f13379106990a2bb70391af05356552492e30f586670ad683077ab70268",
+    "rendered_proposal": "**Action**: Sell\n\n**Reasoning**: The investment plan makes a compelling case for exiting AEMD. The technical picture is decisively bearish: the stock at $264 has broken below its pre-spike consolidation range of $296-$336, sits 11% below the 10 EMA and 20% below the 50 SMA, with MACD deeply negative and expanding and RSI at 39.55 in bearish territory. The cash flow analysis is damning — the company raised $8.92M but ended with only $427K more than it started, implying the entire raise was consumed by operations at an $840K/month burn rate, creating a treadmill of dilutive financing tied directly to a falling stock price. With no verifiable clinical milestones, no revenue, no FDA announcements, and thin liquidity (relative volume 0.128, sub-500 share daily volume), the risk is asymmetric to the downside with the next support at the Bollinger lower band (~$198, another ~25% downside) and no defined floor below that. The disciplined call is to exit into any strength using limit orders and scale-out tactics given the thin liquidity.\n\n**Entry Price**: 264.0\n\n**Stop Loss**: 198.0\n\n**Position Sizing**: Reduce to zero or minimal residual. Do not add. Given 181% realized volatility and no fundamental floor, any position carries outsized tail risk.\n\nFINAL TRANSACTION PROPOSAL: **SELL**"
+  },
+  "provenance": {
+    "experiments_sha": "b4f3d22978048d079600752981694a5a7d0041ef",
+    "model_configuration_identity": "f2e15ee388ee60297930ddd2eb4ed5d73c27ee297472d97bb7d73bc49d2cd420",
+    "model_id": "deepseek-v4-flash",
+    "run_identity": "0cbd08e287de184ddae8fc26dc0b2c20d8a88a2488af840afe0675eaec4ccab5",
+    "source_sha": "6d3c46b96b8935944e0f232b73020262d870d953"
+  },
+  "research_manager": {
+    "investment_plan": "**Recommendation**: Sell\n\n**Rationale**: Let me walk through how I weighed this debate. The bull's case rests on three pillars: the technicals are \"backward-looking noise,\" the balance sheet is \"strong,\" and \"absence of evidence is not evidence of absence.\" Each of these fails under scrutiny.\n\nOn the technicals, the bear is right that even stripping out the 200 SMA (which the bull correctly notes is a lagging artifact), the stock is still 11% below the 10 EMA and 20% below the 50 SMA, with MACD deeply negative and expanding, and RSI at 39.55 — which is bearish territory, not oversold. Critically, the stock at $264 has broken BELOW the pre-spike consolidation range of $296-$336. The bull calls this \"support\"; the bear correctly identifies it as a breakdown below the base. The 46% drawdown in two weeks from a blow-off top is not a setup for a squeeze — that move already happened and went down.\n\nOn the balance sheet, the bull celebrates $17.28M in equity and $3.45M in liabilities. But the cash flow math is damning: the company raised $8.92M and ended with only $427K more than it started. That means the entire raise was consumed by operations and investing. At $840K/month burn, this is a treadmill requiring constant dilutive financing. And critically, the company's ability to raise capital is directly tied to its stock price — a falling price means more shares issued for the same capital, more dilution, and a potential death spiral. The bull's claim that \"downside is bounded by the balance sheet\" is false — the downside is bounded by investor sentiment, which is negative.\n\nOn the clinical story, the bull concedes there are no verifiable milestones, no revenue, no FDA announcements, no trial results in the evidence window. The bull calls this \"neutral\"; for a clinical-stage company burning cash with no visible progress, the absence of verifiable catalysts is itself a risk factor. The market is not mispricing this — it's rationally pricing a company with no revenue, heavy burn, and no near-term catalyst.\n\nFinally, liquidity is a genuine concern: relative volume at 0.128 means exits are difficult. In a stock with 181% realized volatility and sub-500 share daily volume, the risk is symmetric at best and asymmetric to the downside given the lack of any fundamental floor.\n\nThe bear's argument is grounded in the actual evidence we have; the bull's is grounded in hope about what might happen. When the strongest available evidence — technicals, cash flow, liquidity, and the absence of verifiable catalysts — all point the same direction, the disciplined call is to avoid or exit. This is asymmetric risk, not asymmetric opportunity.\n\n**Strategic Actions**: 1. EXIT/AVOID: Do not initiate or maintain a position in AEMD. If holding, exit into any strength given the thin liquidity (relative volume 0.128, sub-500 share daily volume) — use limit orders and scale out rather than market orders to avoid adverse fills.\n\n2. Position sizing: If the trader has an existing position, reduce to zero or minimal residual. Do not add. Given 181% realized volatility and no fundamental floor, any position carries outsized tail risk.\n\n3. Catalyst watch: The only reason to revisit AEMD is a verifiable fundamental inflection — a positive clinical data readout, FDA milestone, or partnership announcement. Absent such evidence, remain on the sidelines. Do not treat the absence of news as a buying opportunity.\n\n4. Risk management: Recognize the downside is not bounded by the balance sheet (as the bull claims) but by investor sentiment. The next support is the Bollinger lower band at ~$198 (another ~25% downside), and below that there is no defined floor given the company's dependence on dilutive financing at falling prices.\n\n5. Timeframe: This is a SELL/avoid call for the foreseeable future. Re-evaluate only if the company demonstrates it can fund operations without excessive dilution AND shows verifiable clinical progress toward commercialization.",
+    "investment_plan_sha256": "8c4b134a819ab46be70a6e283d97cfaa28f80a0d6decc9f4fcda53fed4b9faad"
+  },
+  "reusable_for_M2_08": true,
+  "role": "TRAIN",
+  "schema_version": "M2-SEMANTIC-HANDOFF-v1",
+  "symbol": "AEMD"
+}

@@ -1,0 +1,36 @@
+{
+  "case_id": "EML:2023-06-02",
+  "context": {
+    "company_of_interest": "EML",
+    "decision_session": "2023-06-02",
+    "deterministic_temporal_context": {
+      "frozen_decision_time": "2023-06-02T20:00:00+00:00",
+      "historical_as_of": "2023-06-02T20:00:00+00:00",
+      "run_mode": "historical"
+    },
+    "instrument_context": "The instrument to analyze is `EML`. Use this exact ticker in every tool call, report, and recommendation, preserving any exchange suffix (e.g. `.TO`, `.L`, `.HK`, `.T`, `-USD`).",
+    "ticker": "EML"
+  },
+  "decision_session": "2023-06-02",
+  "evidence_packet_sha256": "f573706073d2a4a1194f910e7f542647f06e040a5bfb1741b803d49a9cea7d5d",
+  "prompt_trader": {
+    "normalized_action": "HOLD",
+    "proposal_sha256": "02261a1116fdc38226cae727fa89a3f135db1cfa494e76e2c3ae24200f596373",
+    "rendered_proposal": "**Action**: Hold\n\n**Reasoning**: The research plan recommends an Underweight stance, which translates to a cautious Hold rather than a conviction Sell or Buy. The technical picture is unambiguously bearish (price below all moving averages, death cross, RSI below 50, 24.6% decline over 60 days, March 15 institutional selling on 10-50x volume), but the balance sheet is conservative ($126.8M equity, ~1.0x D/E) and operating cash flow is positive ($6.86M). The stock sits near the lower Bollinger band ($15.13) with plausible support at $14.80, so aggressive shorting is not warranted. The income statement data gap (no revenue, margins, or earnings) means the burden of proof sits with the buyer, and no confirmed reversal signal exists. I will not initiate or add to a position at $15.36; for existing holders, trim into strength toward the 10 EMA ($15.57) or 50 SMA ($16.58) and respect a hard stop below $14.80.\n\n**Entry Price**: 15.36\n\n**Stop Loss**: 14.8\n\n**Position Sizing**: Conservative - treat any exposure as a tactical trade, not a core holding; do not initiate or add at current levels\n\nFINAL TRANSACTION PROPOSAL: **HOLD**"
+  },
+  "provenance": {
+    "experiments_sha": "b4f3d22978048d079600752981694a5a7d0041ef",
+    "model_configuration_identity": "f2e15ee388ee60297930ddd2eb4ed5d73c27ee297472d97bb7d73bc49d2cd420",
+    "model_id": "deepseek-v4-flash",
+    "run_identity": "83d2858486e0c12d24f493ed557eca7a85a9d13e4e7a6f6d6e19094894448b08",
+    "source_sha": "6d3c46b96b8935944e0f232b73020262d870d953"
+  },
+  "research_manager": {
+    "investment_plan": "**Recommendation**: Underweight\n\n**Rationale**: The debate came down to a fundamental-vs-technical clash, and the bear carried the decisive arguments. The bull's case rests on one quarter of positive operating cash flow ($6.86M), a solid balance sheet ($126.8M equity, ~1.0x D/E), and a fresh May 9 10-Q — all real positives. But the bull repeatedly dismissed the complete absence of income statement data (no revenue, margins, or earnings) as a mere \"data limitation.\" In a stock down 24.6% over 60 days, with a March 15 crash on 10-50x normal volume (institutional selling), and zero analyst coverage or sentiment, the burden of proof sits with the buyer — and the bull is asking us to buy blind on profitability. The technical picture is unambiguously bearish: price below all moving averages, a death cross, RSI below 50 all month, and a +0.01 MACD histogram that is statistical noise, not a reversal signal. The bull's \"compression\" and \"5.6:1 reward-to-risk\" arguments ignore probability weighting — in a confirmed downtrend with no reversal signal, downside is more likely than a 20% rally, and the $14.80 support is not guaranteed. That said, a full Sell is not warranted: the balance sheet is genuinely conservative, operating cash flow is positive, and the stock sits near the lower Bollinger band with a plausible (if unconfirmed) support at $14.80. The fundamentals we can see are not catastrophic. The honest conclusion is a falling knife with no confirmed reversal and incomplete profitability data — a cautious, trim/avoid stance rather than a conviction short.\n\n**Strategic Actions**: Do not initiate or add to a position in EML at current levels ($15.36). If already long, trim exposure into any strength toward the 10 EMA ($15.57) or 50 SMA ($16.58), and respect a hard stop below the March low at $14.80 — a break of that level removes the only visible support and opens downside with no technical floor. Do not short aggressively: the stock is near the lower Bollinger band ($15.13) and a mean-reversion bounce is possible, so any short should be small and tightly risk-managed. Re-entry criteria for a constructive stance: a confirmed close above the 50 SMA ($16.58) on strong volume, OR fundamental evidence of a turnaround (positive earnings, revenue/margin data, new guidance, or a strategic announcement) that resolves the income statement information gap. Position sizing should be conservative given the incomplete profitability picture and confirmed downtrend — treat any exposure as a tactical trade, not a core holding, until the reversal or fundamental catalyst appears.",
+    "investment_plan_sha256": "496de999427b416247a718ecb63aa84822afd232c2b55b1a9918c8cd7eab10c1"
+  },
+  "reusable_for_M2_08": true,
+  "role": "TRAIN",
+  "schema_version": "M2-SEMANTIC-HANDOFF-v1",
+  "symbol": "EML"
+}

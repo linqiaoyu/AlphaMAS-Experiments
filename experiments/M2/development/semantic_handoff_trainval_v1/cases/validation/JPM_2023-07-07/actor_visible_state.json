@@ -1,0 +1,36 @@
+{
+  "case_id": "JPM:2023-07-07",
+  "context": {
+    "company_of_interest": "JPM",
+    "decision_session": "2023-07-07",
+    "deterministic_temporal_context": {
+      "frozen_decision_time": "2023-07-07T20:00:00+00:00",
+      "historical_as_of": "2023-07-07T20:00:00+00:00",
+      "run_mode": "historical"
+    },
+    "instrument_context": "The instrument to analyze is `JPM`. Use this exact ticker in every tool call, report, and recommendation, preserving any exchange suffix (e.g. `.TO`, `.L`, `.HK`, `.T`, `-USD`).",
+    "ticker": "JPM"
+  },
+  "decision_session": "2023-07-07",
+  "evidence_packet_sha256": "15043547df2fc172c1c61178259ea83aa7a51e50511b0edaaedbb55faf1fef8d",
+  "prompt_trader": {
+    "normalized_action": "BUY",
+    "proposal_sha256": "edf1eede60429d8f2abe67d6d5a0992639100c2291b403b4dd6ab8a4391a696c",
+    "rendered_proposal": "**Action**: Buy\n\n**Reasoning**: The research plan supports an Overweight rating on JPM, anchored in a confirmed technical uptrend: price trades above all major moving averages (10 EMA $133.51, 50 SMA $129.43, 200 SMA $122.50 in a bullish stack), with an expanding MACD histogram (+0.31) and RSI at 61.88 in bullish territory, only 0.87% from its 60-day peak. The fortress-grade balance sheet ($303.1B equity, $3.744T assets, +$64.6B deposit inflows) is a direct beneficiary of the regional banking crisis. However, the plan correctly flags legitimate caution: no income statement, sentiment, or macro data to confirm the rally, below-average volume (0.944), and the earnings blackout one week before Q2 results. Consistent with the plan's measured-conviction stance, I recommend scaling in with an initial tranche of ~40-50% of the intended position at current levels (~$135.12), with a hard stop below the 10 EMA at $133.51 (~1.2% risk) to manage earnings event risk, and the remainder to be deployed on either a volume-confirmed breakout above $137.12 or a pullback toward the 50 SMA at $129.43.\n\n**Entry Price**: 135.12\n\n**Stop Loss**: 133.51\n\n**Position Sizing**: Initial tranche 40-50% of intended position; scale in remainder on breakout above $137.12 or pullback to $129.43\n\nFINAL TRANSACTION PROPOSAL: **BUY**"
+  },
+  "provenance": {
+    "experiments_sha": "b4f3d22978048d079600752981694a5a7d0041ef",
+    "model_configuration_identity": "f2e15ee388ee60297930ddd2eb4ed5d73c27ee297472d97bb7d73bc49d2cd420",
+    "model_id": "deepseek-v4-flash",
+    "run_identity": "45bb554c50848cbafd5eb781a285045b8924606ec4ab2a1083a24b29b91302d4",
+    "source_sha": "6d3c46b96b8935944e0f232b73020262d870d953"
+  },
+  "research_manager": {
+    "investment_plan": "**Recommendation**: Overweight\n\n**Rationale**: The debate came down to a strong technical uptrend versus legitimate near-term caution. The bull won the technical argument: JPM is in a confirmed uptrend, trading above all major moving averages (10 EMA $133.51, 50 SMA $129.43, 200 SMA $122.50 in a bullish stack), with an expanding MACD histogram (+0.31) and RSI at 61.88 in bullish territory. The stock is only 0.87% from its 60-day peak with positive momentum across all timeframes, and the balance sheet is genuinely fortress-grade — $303.1B in equity, $3.744T in assets, and +$64.6B in deposit inflows as a direct beneficiary of the regional banking crisis. The bear's \"RSI divergence\" claim is weak because price never made a higher high, so it isn't a true divergence. However, the bear raised legitimate points that prevent a full Buy: the bull fabricated the $12.6B net income and 19% ROTCE figures (not in the supplied evidence, then withdrawn — a credibility lapse), volume is below average at 0.944, the stock failed to reclaim its July 3 high for four sessions, and critically, we have no income statement, sentiment, or macro data to confirm the rally. Buying one week before Q2 earnings with no fundamental confirmation carries real event risk. The trend and balance sheet support a constructive stance, but the data gaps and earnings blackout argue for measured conviction rather than aggressive accumulation at current levels.\n\n**Strategic Actions**: Establish or add to a JPM position but scale in gradually rather than buying the full size at once, consistent with an Overweight rating. A reasonable initial tranche is 40-50% of the intended position at current levels (~$135.12), with the remainder to be deployed on either (a) a volume-confirmed breakout above the $137.12 July 3 high, or (b) a pullback toward the 50 SMA at $129.43 for a better risk/reward entry. Set a hard stop below the 10 EMA at $133.51 (approximately 1.2% risk) to manage the earnings blackout risk — if the stock breaks this dynamic support on a 1x ATR move, exit rather than hold through uncertainty. Do not add aggressively ahead of the Q2 earnings print (due mid-July); wait for the income statement to confirm profitability before committing the full position. If earnings confirm strength and the stock breaks $137.12 on expanding volume, add the remaining tranche and trail the stop higher. If the stock breaks below the 50 SMA at $129.43, reassess the thesis entirely. Position size should reflect that this is a constructive-but-not-max-conviction call given the missing fundamental, sentiment, and macro data.",
+    "investment_plan_sha256": "c419a1bcb0de875894da416852670a080ad1640fe72e5a340c4e13340a2ac41e"
+  },
+  "reusable_for_M2_08": true,
+  "role": "VALIDATION",
+  "schema_version": "M2-SEMANTIC-HANDOFF-v1",
+  "symbol": "JPM"
+}

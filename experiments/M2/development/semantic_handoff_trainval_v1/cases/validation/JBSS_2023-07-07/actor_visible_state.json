@@ -1,0 +1,36 @@
+{
+  "case_id": "JBSS:2023-07-07",
+  "context": {
+    "company_of_interest": "JBSS",
+    "decision_session": "2023-07-07",
+    "deterministic_temporal_context": {
+      "frozen_decision_time": "2023-07-07T20:00:00+00:00",
+      "historical_as_of": "2023-07-07T20:00:00+00:00",
+      "run_mode": "historical"
+    },
+    "instrument_context": "The instrument to analyze is `JBSS`. Use this exact ticker in every tool call, report, and recommendation, preserving any exchange suffix (e.g. `.TO`, `.L`, `.HK`, `.T`, `-USD`).",
+    "ticker": "JBSS"
+  },
+  "decision_session": "2023-07-07",
+  "evidence_packet_sha256": "2f087c0a2dd02b1e5601c92a64c27ef1152089bca845b0b173d69746b30da2b9",
+  "prompt_trader": {
+    "normalized_action": "HOLD",
+    "proposal_sha256": "d3606d3b9f6aa5e1247164df4468119c42793c02c9de9763396ef4875dbda83a",
+    "rendered_proposal": "**Action**: Hold\n\n**Reasoning**: The evidence presents a genuinely balanced picture for JBSS. The long-term structure remains constructive: price sits ~20% above a rising 200-day SMA ($83.23), the 60-day return is +15.41%, and the balance sheet is conservative (0.52x D/E) with $72.4M operating cash flow and ~$53.2M FCF. However, short-term momentum is clearly deteriorating—price closed at the session low ($99.79) on July 7, broke below the psychological $100 level, sits below the 10 EMA, 50 SMA, Bollinger middle, and VWMA, with a negative and expanding MACD and RSI at 34.90 still in a downtrend (not yet oversold at <30). The fundamental picture is incomplete (no income statement, earnings, or news catalysts available), so profitability, margins, and EPS cannot be confirmed. Neither the bull's \"oversold bounce\" thesis (RSI hasn't hit 30) nor the bear's \"sell\" call (which skips intermediate supports at $95-97) is decisively supported. Given the conflicting signals and incomplete data, maintaining the current position without adding or trimming is the prudent stance. Risk framework: break and hold below $95-97 would warrant trimming; reclaim of the 50-day SMA at $103.86 on above-average volume would support adding exposure.\n\n**Entry Price**: 99.81\n\n**Stop Loss**: 95.0\n\n**Position Sizing**: Maintain current position; keep sizing modest and avoid leverage given incomplete fundamental data\n\nFINAL TRANSACTION PROPOSAL: **HOLD**"
+  },
+  "provenance": {
+    "experiments_sha": "b4f3d22978048d079600752981694a5a7d0041ef",
+    "model_configuration_identity": "f2e15ee388ee60297930ddd2eb4ed5d73c27ee297472d97bb7d73bc49d2cd420",
+    "model_id": "deepseek-v4-flash",
+    "run_identity": "ff1860d431d214b11214cc2f97317812ea8b1d0f4b2b3146735feafe5e2546b6",
+    "source_sha": "6d3c46b96b8935944e0f232b73020262d870d953"
+  },
+  "research_manager": {
+    "investment_plan": "**Recommendation**: Hold\n\n**Rationale**: Let me weigh this debate carefully. The bull makes a compelling case on the long-term structure: price sits ~20% above a rising 200-day SMA ($83.23), the 60-day return is +15.41%, the balance sheet is conservative (0.52x D/E), and operating cash flow of $72.4M with ~$53.2M FCF is genuinely constructive. The bull also correctly notes that the \"data unavailability\" on income statement, news, and sentiment is a limitation, not a bearish signal.\n\nHowever, the bear's technical counterpoints carry real weight. Price closed at the session low ($99.79) on July 7, broke below the psychological $100 level, and sits below the 10 EMA, 50 SMA, Bollinger middle, and VWMA. The MACD is negative and expanding, and RSI at 34.90 has not yet reached the oversold threshold of 30—it's still in a downtrend. The bear also correctly flags that the income statement is unavailable, so we genuinely cannot confirm profitability, margins, or EPS. The flat net cash change (-$50K) means all operating cash flow was consumed by capex and shareholder returns—there's no cash accumulation.\n\nThe honest assessment is that this is a genuinely balanced situation. The long-term trend and balance sheet are solid, but the short-term momentum is clearly deteriorating with no confirmed catalyst to reverse it. The bull's \"oversold bounce\" thesis is speculative—RSI hasn't even hit 30 yet, and in a downtrend price can ride the lower Bollinger band for extended periods. The bear's \"sell\" call, however, overstates the downside by skipping intermediate supports at $95-97 and treating the distant 200 SMA as the immediate risk. Neither side has decisively won. Given the incomplete fundamental picture (no income statement, no earnings, no news catalysts) and the conflicting technical signals (intact long-term uptrend vs. deteriorating short-term momentum), the prudent stance is to maintain the current position rather than commit to either extreme. This is a case where the evidence on both sides is genuinely balanced enough to warrant Hold.\n\n**Strategic Actions**: Maintain the current JBSS position at current levels (~$99.81) without adding or trimming. Do not initiate new longs on the \"oversold bounce\" thesis—RSI at 34.90 has not yet confirmed oversold (<30), and there is no confirmed catalyst. Do not sell into the weakness either, as the long-term uptrend (rising 200 SMA, +15.41% 60-day return) and fortress balance sheet (0.52x D/E, $72.4M operating CF) remain intact. Set a defined risk framework: if price breaks and holds below the $95-97 June low support zone, that would invalidate the bull's intermediate-support argument and warrant trimming to Underweight. If price reclaims the 50-day SMA at $103.86 on above-average volume, that would confirm the correction is over and support adding exposure. Given the incomplete fundamental data (no income statement, no earnings, no news/sentiment catalysts), keep position sizing modest and avoid leverage. Reassess upon the next earnings release or any confirmed fundamental catalyst, as the current evidence base is too incomplete to justify conviction in either direction.",
+    "investment_plan_sha256": "5faeadef27b78f7446232fc171683aeeb7584ce73a9866779fc45113f6004905"
+  },
+  "reusable_for_M2_08": true,
+  "role": "VALIDATION",
+  "schema_version": "M2-SEMANTIC-HANDOFF-v1",
+  "symbol": "JBSS"
+}

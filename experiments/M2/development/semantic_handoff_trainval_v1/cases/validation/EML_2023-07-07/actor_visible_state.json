@@ -1,0 +1,36 @@
+{
+  "case_id": "EML:2023-07-07",
+  "context": {
+    "company_of_interest": "EML",
+    "decision_session": "2023-07-07",
+    "deterministic_temporal_context": {
+      "frozen_decision_time": "2023-07-07T20:00:00+00:00",
+      "historical_as_of": "2023-07-07T20:00:00+00:00",
+      "run_mode": "historical"
+    },
+    "instrument_context": "The instrument to analyze is `EML`. Use this exact ticker in every tool call, report, and recommendation, preserving any exchange suffix (e.g. `.TO`, `.L`, `.HK`, `.T`, `-USD`).",
+    "ticker": "EML"
+  },
+  "decision_session": "2023-07-07",
+  "evidence_packet_sha256": "b22d1b2f4b490b5c654fb91a587680cbfd874b2c352248c2dec4b01c181ec584",
+  "prompt_trader": {
+    "normalized_action": "HOLD",
+    "proposal_sha256": "0548c64ec7ffa31d3d300549983faa205e313b387b3e769545ca66ca8f313350",
+    "rendered_proposal": "**Action**: Hold\n\n**Reasoning**: The evidence is genuinely balanced and incomplete, supporting a Hold. The bull case rests on positive operating cash flow ($6.86M Q1 FY2023), net cash accretion ($2.85M), price above the 50 SMA, and tested support at $16.50–$16.60. However, the bear case is equally compelling: the stock trades below its 200 SMA (long-term downtrend), the MACD histogram has been negative for five sessions, volume is drying up (relative volume 0.81), and critically, there is NO income statement data to verify profitability — the fundamentals report explicitly states a complete fundamental assessment cannot be made. The share count is unverified and the annualization of Q1 cash flow is heroic. With no identifiable catalyst, no sentiment data, and a data vacuum on the single most important variable (profitability), committing fresh capital would be speculative. The disciplined call is to hold at ~$16.92 and wait for confirmation: a breakout above the VWMA at $17.20 on above-average volume would trigger a Buy, while a decisive break below $16.50 support on rising volume would trigger a Sell. A protective stop at approximately $16.40 is appropriate for any existing position.\n\n**Entry Price**: 16.92\n\n**Stop Loss**: 16.4\n\n**Position Sizing**: Maintain neutral weight; do not increase. Do not establish new position until confirmation appears.\n\nFINAL TRANSACTION PROPOSAL: **HOLD**"
+  },
+  "provenance": {
+    "experiments_sha": "b4f3d22978048d079600752981694a5a7d0041ef",
+    "model_configuration_identity": "f2e15ee388ee60297930ddd2eb4ed5d73c27ee297472d97bb7d73bc49d2cd420",
+    "model_id": "deepseek-v4-flash",
+    "run_identity": "4e943a685e8343916f1e60dc7da16351b1313f434eeb2625e0bfb57925695f2e",
+    "source_sha": "6d3c46b96b8935944e0f232b73020262d870d953"
+  },
+  "research_manager": {
+    "investment_plan": "**Recommendation**: Hold\n\n**Rationale**: Let me weigh both sides of this debate carefully, because this is a genuinely close call with real evidence gaps on both sides.\n\nThe bull makes a compelling case on the fundamentals we DO have: $6.86M positive operating cash flow in Q1 FY2023, $2.85M net cash accretion, and a balanced balance sheet with liabilities at just 50.4% of assets. The stock is above its 50 SMA, holding tested support at $16.50–$16.60 for two weeks, RSI is neutral at 52.82, and the 20-day return is +7.07%. The bull's risk-reward framing (2.5% downside to support vs. 7–9% upside to the June peak) is reasonable on its face.\n\nBut the bear lands several decisive blows that I cannot dismiss. First, the valuation framework is genuinely shaky — the share count is invented, the annualization of Q1 cash flow is heroic, and critically, we have NO income statement data. We cannot verify profitability at all. The fundamentals report itself explicitly states a complete fundamental assessment cannot be made. Second, the technical picture is genuinely mixed-to-deteriorating: the stock is below its 200 SMA (long-term trend down), the MACD histogram has been negative for five sessions with the MACD line down 50% in two weeks, and volume is drying up (relative volume 0.81, today just 5,000 shares). Third, the bear correctly notes the March crash narrative is unproven — the bull invented the \"liquidity event\" characterization with zero supporting evidence.\n\nThe decisive issue is the burden of proof. The bull is asking us to buy based on a partial picture, extrapolating health from cash flow while ignoring that we cannot confirm profitability, and inventing both a share count and a crash narrative. The bear is asking us to sell based on a deteriorating technical picture and a data vacuum. Neither side has a fully confirmed thesis.\n\nThe technicals are genuinely balanced — price above the 50 SMA and holding support argues for the bull, but the MACD crossover, overhead VWMA, declining volume, and sub-200-SMA position argue for the bear. The fundamentals are positive but incomplete. The sentiment is a complete void. When the strongest arguments on both sides are this evenly matched, and when the fundamental picture is unverifiable, the disciplined call is to hold and wait for confirmation rather than commit capital into a data vacuum with no identifiable catalyst. This is a genuine Hold — not a cop-out, but a recognition that the evidence does not justify conviction in either direction.\n\n**Strategic Actions**: Maintain the current position in EML at ~$16.92 without adding or trimming. Do not initiate new exposure given the unverifiable fundamental picture and mixed technicals.\n\nPosition sizing: Keep any existing position at a neutral weight; do not increase. If not currently holding, do not establish a position until confirmation appears.\n\nConfirmation triggers to act on:\n1. BUY trigger — a confirmed breakout above the VWMA at $17.20 on above-average volume, ideally followed by a move through the Bollinger upper band ($18.13) and toward the 200 SMA ($18.28). This would flip the long-term trend constructive and justify upgrading to Overweight/Buy.\n2. SELL/trim trigger — a decisive break below the tested $16.50 support on rising volume, which would open the path toward the Bollinger lower band ($15.78) and June low ($15.30). This would justify downgrading to Underweight/Sell.\n\nRisk management: If holding, place a protective stop below the $16.50 support zone (approximately $16.40) to cap downside in the event of a breakdown. Do not chase the stock into resistance on fading momentum and thin volume.\n\nRe-evaluate upon the next earnings release or any fundamental data that confirms profitability (revenue, net income, EPS), which would resolve the single largest uncertainty in this debate. Until profitability is verifiable, treat the valuation as unconfirmed and avoid committing fresh capital.",
+    "investment_plan_sha256": "97233d804cb236cda25f80f9c800488ed52b8308af74831c0010b7d9ecd35cc1"
+  },
+  "reusable_for_M2_08": true,
+  "role": "VALIDATION",
+  "schema_version": "M2-SEMANTIC-HANDOFF-v1",
+  "symbol": "EML"
+}

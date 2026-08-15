@@ -1,0 +1,36 @@
+{
+  "case_id": "JBSS:2023-06-09",
+  "context": {
+    "company_of_interest": "JBSS",
+    "decision_session": "2023-06-09",
+    "deterministic_temporal_context": {
+      "frozen_decision_time": "2023-06-09T20:00:00+00:00",
+      "historical_as_of": "2023-06-09T20:00:00+00:00",
+      "run_mode": "historical"
+    },
+    "instrument_context": "The instrument to analyze is `JBSS`. Use this exact ticker in every tool call, report, and recommendation, preserving any exchange suffix (e.g. `.TO`, `.L`, `.HK`, `.T`, `-USD`).",
+    "ticker": "JBSS"
+  },
+  "decision_session": "2023-06-09",
+  "evidence_packet_sha256": "a9870f02af687b04f506cf23455d80c349db66655dddbde6980351392e117704",
+  "prompt_trader": {
+    "normalized_action": "HOLD",
+    "proposal_sha256": "b6bbe29faa1fb9dc42aa853cf76157150174d6daa340505fb04f6cc7a1c9a398",
+    "rendered_proposal": "**Action**: Hold\n\n**Reasoning**: The investment plan presents a genuinely balanced case for JBSS. The technical trend is undeniably strong—price sits above all key moving averages with a positive MACD and a +30.33% 60-day return—and the balance sheet data (65.7% equity-to-assets, 0.52x debt-to-equity, $72.4M operating cash flow) supports a quality business. However, the fundamental picture is critically incomplete with no revenue, net income, margins, or EPS data available, and the technical setup is stretched (RSI 72.69 overbought, price 38% above the 200 SMA, declining relative volume at 0.81). The 53% rally on declining volume without a fundamental catalyst creates asymmetric risk. Given the absence of deterioration but also the absence of confirmation, the prudent stance is to Hold—maintain existing positions without adding new capital at these stretched levels, and wait for either a pullback to the 50 SMA ($96.47) with volume confirmation or a high-volume breakout above $111 with a fundamental catalyst before committing new capital.\n\n**Entry Price**: 96.47\n\n**Stop Loss**: 106.72\n\n**Position Sizing**: 2-3% of portfolio\n\nFINAL TRANSACTION PROPOSAL: **HOLD**"
+  },
+  "provenance": {
+    "experiments_sha": "b4f3d22978048d079600752981694a5a7d0041ef",
+    "model_configuration_identity": "f2e15ee388ee60297930ddd2eb4ed5d73c27ee297472d97bb7d73bc49d2cd420",
+    "model_id": "deepseek-v4-flash",
+    "run_identity": "d8612afe1a528bd6f3d5a296a3102454df2e92acaa9d6a520bf0dbfb4d72fe52",
+    "source_sha": "6d3c46b96b8935944e0f232b73020262d870d953"
+  },
+  "research_manager": {
+    "investment_plan": "**Recommendation**: Hold\n\n**Rationale**: Let me weigh both sides of this debate carefully.\n\nThe bull makes a compelling case on the technical trend: price is above all moving averages (10 EMA $106.72, 50 SMA $96.47, 200 SMA $79.63), the MACD histogram is positive and expanding, and the stock has delivered a +30.33% 60-day return with virtually zero drawdown. The balance sheet data we do have is genuinely strong—65.7% equity-to-assets, 0.52x debt-to-equity, and $72.4M in operating cash flow over nine months with $53.3M returned to shareholders. These are real, verifiable facts that support a quality business.\n\nHowever, the bear raises points that I cannot dismiss. First, the fundamental picture is genuinely incomplete—we have no revenue, net income, margins, or EPS data. The bull's assertion that \"operating cash flow proves profitability\" is technically flawed; a company can generate operating cash flow while reporting net losses. Second, the technical setup is genuinely stretched: RSI at 72.69 is overbought, price is 38% above the 200 SMA and 14% above the 50 SMA, and relative volume at 0.81 shows declining participation. The bear's point about negative divergence (RSI declining from 74.81 to 72.69 while price stalled) is a legitimate concern, even if the bull dismisses it as noise.\n\nThe risk/reward math is genuinely contested. The bull argues downside to the 10 EMA is only -3% with upside of +4.5% to +9%, while the bear argues the realistic downside to the 50 SMA is -12.3% against upside of only +4.5% to +9.1%. Both are defensible depending on which support level you believe will hold.\n\nThe decisive factor for me is the asymmetry of information. The stock has rallied 53% in five months on declining volume with no identifiable fundamental catalyst and no income statement data to validate the move. That is a genuine risk. But the trend is undeniably intact, the balance sheet is strong, and there is no evidence of deterioration—only absence of confirmation.\n\nGiven the genuine balance here—a strong trend and solid balance sheet on one side, stretched technicals and incomplete fundamental data on the other—I cannot commit to a full Buy or a full Sell. The prudent stance is Hold: maintain any existing position, do not add aggressively at these stretched levels, and wait for either a pullback to the 50 SMA with volume confirmation or a high-volume breakout above $111 with a fundamental catalyst before committing new capital.\n\n**Strategic Actions**: 1. Maintain any existing JBSS position at current levels; do not add new capital at $109.99 given the stretched technical setup (38% above 200 SMA, RSI 72.69, declining volume).\n\n2. If initiating a new position, wait for one of two conditions: (a) a pullback toward the 50 SMA ($96.47) with volume confirmation and ideally fundamental data (earnings/revenue/margins), or (b) a high-volume breakout above $111 with a catalyst. Neither condition is met today.\n\n3. For existing holders, consider trimming a portion (e.g., 25-33%) of the position to lock in gains from the 53% rally, given the unfavorable risk/reward at current levels and the absence of fundamental confirmation.\n\n4. Set a stop-loss discipline: if price breaks below the 10 EMA ($106.72) on above-average volume, reduce exposure further; a break below the 50 SMA ($96.47) would signal trend deterioration and warrant exiting.\n\n5. Monitor for fundamental data (next earnings release, revenue, margins) as the highest-priority information gap. The absence of income statement data is the single largest uncertainty in this thesis.\n\n6. Position sizing: keep any position modest (e.g., 2-3% of portfolio) given the incomplete fundamental picture and stretched technicals. Do not scale up until fundamental confirmation arrives.",
+    "investment_plan_sha256": "a56eb1e9b3d3e303320a5970a577417cb2e2b91d47debbc6174c3948ad2647ce"
+  },
+  "reusable_for_M2_08": true,
+  "role": "TRAIN",
+  "schema_version": "M2-SEMANTIC-HANDOFF-v1",
+  "symbol": "JBSS"
+}

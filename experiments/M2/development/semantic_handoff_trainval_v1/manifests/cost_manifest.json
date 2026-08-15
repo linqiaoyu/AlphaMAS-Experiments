@@ -1,0 +1,17 @@
+{
+  "cumulative_task_ceiling_cny": "19.00",
+  "deepseek_requests": 1241,
+  "input_tokens": 11308914,
+  "m2_07_actual_cost_cny": "0.95720644",
+  "m2_07_plus_m2_08_cumulative_cost_cny": "11.95168772",
+  "m2_08_actual_cost_cny": "10.99448128",
+  "m2_08_failed_billed_spend_cny": "0",
+  "m2_08_hard_ceiling_cny": "18.00",
+  "m2_08_target_cny": "15.00",
+  "maximum_case_cost_cny": "0.20778572",
+  "new_correctness_valid_cases": 66,
+  "output_tokens": 1816143,
+  "preformal_hard_ceiling_cny": "50.00",
+  "preformal_target_cny": "40.00",
+  "schema_version": "M2-SEMANTIC-TRAINVAL-COST-MANIFEST-v1"
+}

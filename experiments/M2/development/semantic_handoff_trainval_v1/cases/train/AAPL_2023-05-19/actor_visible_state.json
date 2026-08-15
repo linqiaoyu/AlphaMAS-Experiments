@@ -1,0 +1,36 @@
+{
+  "case_id": "AAPL:2023-05-19",
+  "context": {
+    "company_of_interest": "AAPL",
+    "decision_session": "2023-05-19",
+    "deterministic_temporal_context": {
+      "frozen_decision_time": "2023-05-19T20:00:00+00:00",
+      "historical_as_of": "2023-05-19T20:00:00+00:00",
+      "run_mode": "historical"
+    },
+    "instrument_context": "The instrument to analyze is `AAPL`. Use this exact ticker in every tool call, report, and recommendation, preserving any exchange suffix (e.g. `.TO`, `.L`, `.HK`, `.T`, `-USD`).",
+    "ticker": "AAPL"
+  },
+  "decision_session": "2023-05-19",
+  "evidence_packet_sha256": "579e47b13fb0d87bcd75f63afcec5b571646dd4447acc06696cb14f4a1460cea",
+  "prompt_trader": {
+    "normalized_action": "HOLD",
+    "proposal_sha256": "663ea69dfb7b9883b38e2239a3a99c52317c92757a3087630dfb684481286ae8",
+    "rendered_proposal": "**Action**: Hold\n\n**Reasoning**: The research plan recommends a Hold, and the evidence supports maintaining current positions rather than initiating new ones. The technical picture is genuinely bullish — price sits above the 10-day EMA ($170.23), 50-day SMA, and 200-day SMA with a fresh MACD bullish crossover and strong operating cash flow of $62.57B over six months. However, the setup is late-stage: RSI at 67.31 is accelerating toward overbought, volume is fading (relative volume 0.99), the stock is up 17.4% in 60 days with zero drawdown, and the fundamental data environment is incomplete (no income statement, news, sentiment, or macro data). Chasing at $172.59 near the 60-day peak offers poor risk/reward. I will hold existing positions with a trailing stop below the 10-day EMA at $170.23, and consider adding only on a pullback into the $167-170 support zone. I will not short given the intact bullish trend structure.\n\n**Entry Price**: 168.5\n\n**Stop Loss**: 167.74\n\n**Position Sizing**: Moderate; avoid over-concentration given the data vacuum. Maintain current positions; add only on pullback into $167-170 support zone.\n\nFINAL TRANSACTION PROPOSAL: **HOLD**"
+  },
+  "provenance": {
+    "experiments_sha": "b4f3d22978048d079600752981694a5a7d0041ef",
+    "model_configuration_identity": "f2e15ee388ee60297930ddd2eb4ed5d73c27ee297472d97bb7d73bc49d2cd420",
+    "model_id": "deepseek-v4-flash",
+    "run_identity": "ea15e8e84dfb58ece155ff93d2073925cabf81611f21a50ae53c48ef0a8c8181",
+    "source_sha": "6d3c46b96b8935944e0f232b73020262d870d953"
+  },
+  "research_manager": {
+    "investment_plan": "**Recommendation**: Hold\n\n**Rationale**: Let me walk through how I weighed this debate. The bull makes a genuinely strong case on the technicals: perfect moving average stack (price above 10-day EMA, 50-day SMA, and 200-day SMA), zero drawdown from the 60-day peak, a fresh MACD bullish crossover, and declining ATR suggesting an orderly advance. The cash flow evidence is also compelling — $62.57 billion in operating cash flow over six months is exceptional and does speak to real business health. The bull is right that this is not a stock in distress.\n\nHowever, the bear raises concerns that I cannot dismiss. First, the data environment is genuinely incomplete: there is no income statement, no news flow, no sentiment data, no analyst estimates, and no macro indicators. The bull's claim that \"no news is good news\" is an interpretation, not evidence — and the bear correctly notes we have zero visibility into revenue trajectory, margins, iPhone demand, China exposure, or regulatory risk. Second, the technical setup is genuinely late-stage: RSI at 67.31 is accelerating toward overbought, volume is declining (relative volume 0.99, below average), and the stock is up 17.4% in 60 days with zero drawdown — a setup that historically carries elevated mean-reversion risk. Third, the leverage picture is more nuanced than the bull admits: $270 billion in liabilities and financing outflows consuming essentially all operating cash flow is a real structural consideration, even if it's partly a function of buybacks.\n\nThe key tension here is that the bull's evidence is real but the entry point is poor, while the bear's caution is prudent but his case relies heavily on the absence of data rather than evidence of deterioration. Neither side has demonstrated a decisive edge. The stock is in a genuine uptrend with strong cash generation, but it is extended, volume is fading, and we lack the fundamental confirmation needed to justify chasing at the 60-day peak. This is a genuinely balanced situation — the trend argues for holding, the extended technicals and data vacuum argue against initiating new longs at current levels. That balance warrants a Hold rather than a directional commitment.\n\n**Strategic Actions**: For the trader: Maintain current AAPL positions at current levels; do not initiate new long positions at $172.59 given the extended technicals (RSI 67.31 accelerating, declining volume, 1.4% below upper Bollinger Band) and the incomplete fundamental picture. If already long, hold with a trailing stop below the 10-day EMA at $170.23 to protect gains while allowing the trend to continue. Consider adding to the position on a pullback into the $167-170 support zone (Bollinger middle band / VWMA / 10-day EMA cluster), which would offer a materially better risk/reward than chasing at the 60-day peak. Do not short — the trend structure remains bullish and there is no evidence of a reversal catalyst. Position sizing should be moderate given the data vacuum; avoid over-concentration until income statement data or news flow provides fundamental confirmation. Reassess on any of the following triggers: a break below $167.74 (Bollinger middle band) would signal trend deterioration and warrant trimming; a high-volume breakout above $175.07 (upper Bollinger Band) with volume confirmation would justify adding; or the arrival of fundamental data (earnings, guidance, news) that resolves the information gap.",
+    "investment_plan_sha256": "c891c95241a9965d42d2571b8bd65d3e47e46e35804308ea6400502d8e3efa17"
+  },
+  "reusable_for_M2_08": true,
+  "role": "TRAIN",
+  "schema_version": "M2-SEMANTIC-HANDOFF-v1",
+  "symbol": "AAPL"
+}

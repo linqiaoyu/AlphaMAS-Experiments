@@ -1,0 +1,36 @@
+{
+  "case_id": "JPM:2023-05-05",
+  "context": {
+    "company_of_interest": "JPM",
+    "decision_session": "2023-05-05",
+    "deterministic_temporal_context": {
+      "frozen_decision_time": "2023-05-05T20:00:00+00:00",
+      "historical_as_of": "2023-05-05T20:00:00+00:00",
+      "run_mode": "historical"
+    },
+    "instrument_context": "The instrument to analyze is `JPM`. Use this exact ticker in every tool call, report, and recommendation, preserving any exchange suffix (e.g. `.TO`, `.L`, `.HK`, `.T`, `-USD`).",
+    "ticker": "JPM"
+  },
+  "decision_session": "2023-05-05",
+  "evidence_packet_sha256": "82195c164bc6660843277b7a9e11a1efd354da9ca7cbe053e202e3ee6b7ad344",
+  "prompt_trader": {
+    "normalized_action": "HOLD",
+    "proposal_sha256": "fe4d355c0e7f12620fc0ef81d8aaec9632a6d8a6eec178dfdfa62e8ded75ceec",
+    "rendered_proposal": "**Action**: Hold\n\n**Reasoning**: The research plan establishes a genuine Hold: JPM sits 8.2% above a rising 200-day SMA with a fortress $303B equity cushion and $64.6B raised during the March crisis, but near-term momentum is deteriorating (bearish MACD crossover, declining 10 EMA, price 4.16% below its 60-day peak, rolling 50 SMA). The risk-reward is roughly balanced rather than asymmetric in either direction, and the data picture is incomplete (no income statement, news, sentiment, or macro confirmation). The disciplined call is to maintain the current position at benchmark weight (~2-4%) without adding or trimming aggressively, setting an invalidation at a daily close below $124.34 (50 SMA) and a confirmation trigger at a close above $127.43 (10 EMA) with MACD turning up, or above $131.47 on above-average volume. I will hold at current levels (~$127.13) and monitor the Q1 cash flow situation as a potential tilt toward the bear case.\n\n**Entry Price**: 127.13\n\n**Stop Loss**: 124.34\n\n**Position Sizing**: Keep at benchmark weight (roughly 2-4% of a diversified equity portfolio)\n\nFINAL TRANSACTION PROPOSAL: **HOLD**"
+  },
+  "provenance": {
+    "experiments_sha": "b4f3d22978048d079600752981694a5a7d0041ef",
+    "model_configuration_identity": "f2e15ee388ee60297930ddd2eb4ed5d73c27ee297472d97bb7d73bc49d2cd420",
+    "model_id": "deepseek-v4-flash",
+    "run_identity": "19a8659ce08bbe817e5ad1d71fcafb31c8651638d6043fc01067eb1f4c89599c",
+    "source_sha": "6d3c46b96b8935944e0f232b73020262d870d953"
+  },
+  "research_manager": {
+    "investment_plan": "**Recommendation**: Hold\n\n**Rationale**: Let me work through this debate as the Research Manager. The bull makes a compelling structural case: JPM is 8.2% above a rising 200-day SMA, holds a $303B equity cushion, raised $64.6B in financing during the March banking crisis, and the pullback came on below-average volume with RSI reset to neutral. The bear counters with legitimate near-term concerns: price is below a declining 10 EMA, the MACD has crossed bearish and is deteriorating, the 50 SMA is rolling over, the stock is 4.16% below its 60-day peak, and the Q1 operating cash flow was -$111B.\n\nHere's where I land after weighing both sides. The bull's strongest points are the structural trend (price above both major MAs, rising 200 SMA) and the fortress balance sheet — these are real and verifiable. The bear's strongest points are the short-term momentum deterioration (MACD crossover, declining 10 EMA, lower highs since April 18) and the incomplete data picture — we genuinely lack news, sentiment, and macro confirmation, and the cash flow figure is at minimum a yellow flag that the bull hand-waves away too quickly.\n\nCritically, the risk-reward math is genuinely contested and neither side cleanly wins it. The bull's 3.3:1 asymmetry depends on extrapolating a crisis-recovery trend forward, which is aggressive. The bear's 1.5:1 (or worse) framing depends on assuming the 50 SMA breaks, which is speculative. The honest read is that this is roughly balanced: a high-quality asset in a confirmed long-term uptrend that is showing genuine short-term momentum deterioration at a precarious technical juncture.\n\nThe data gaps are material. We have no income statement, no news flow, no sentiment, and no macro confirmation. The bull fills these with narrative; the bear uses them to justify caution. Neither is fully honest about the uncertainty. Given that the long-term trend and fundamentals are genuinely constructive but the near-term technicals are genuinely deteriorating, and the risk-reward is roughly balanced rather than clearly asymmetric in either direction, the disciplined call is to maintain the current position rather than add or trim aggressively. This is a genuine Hold — not a cop-out, but a reflection that the strongest arguments on each side are real and roughly offsetting at this decision point.\n\n**Strategic Actions**: Maintain current JPM position at current levels (~$127.13). Do not add aggressively and do not exit. For the trader: (1) Hold existing position; consider a modest trim of any outsized overweight to bring exposure to benchmark weight given the near-term momentum deterioration and incomplete data picture. (2) Set a clear invalidation for the constructive thesis: a daily close below $124.34 (50 SMA) would confirm the bear's descending-peak pattern and warrant reducing to underweight, with next support at $118.34 (Bollinger lower) and $117.47 (200 SMA). (3) Set a confirmation trigger for adding: a daily close above $127.43 (10 EMA) with MACD turning up, or a close above $131.47 on above-average volume, would confirm the consolidation resolving upward and justify scaling back in toward targets of $136-137.50. (4) Position sizing: keep JPM at benchmark weight (roughly 2-4% of a diversified equity portfolio) until one of the two triggers resolves the direction; do not size up on the bull thesis alone given the contested risk-reward and missing macro/news/sentiment data. (5) Monitor the Q1 cash flow situation — if further data confirms sustained negative operating cash flow requiring external financing, that would tilt the balance toward the bear case and warrant trimming.",
+    "investment_plan_sha256": "31a98b240b6a800f4f94da1ce3fb877421dc0e39ab2492fe43ed557f5da406e9"
+  },
+  "reusable_for_M2_08": true,
+  "role": "TRAIN",
+  "schema_version": "M2-SEMANTIC-HANDOFF-v1",
+  "symbol": "JPM"
+}

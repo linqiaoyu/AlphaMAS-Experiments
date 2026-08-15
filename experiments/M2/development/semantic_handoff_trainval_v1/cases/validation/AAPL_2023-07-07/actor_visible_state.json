@@ -1,0 +1,36 @@
+{
+  "case_id": "AAPL:2023-07-07",
+  "context": {
+    "company_of_interest": "AAPL",
+    "decision_session": "2023-07-07",
+    "deterministic_temporal_context": {
+      "frozen_decision_time": "2023-07-07T20:00:00+00:00",
+      "historical_as_of": "2023-07-07T20:00:00+00:00",
+      "run_mode": "historical"
+    },
+    "instrument_context": "The instrument to analyze is `AAPL`. Use this exact ticker in every tool call, report, and recommendation, preserving any exchange suffix (e.g. `.TO`, `.L`, `.HK`, `.T`, `-USD`).",
+    "ticker": "AAPL"
+  },
+  "decision_session": "2023-07-07",
+  "evidence_packet_sha256": "f304d7b0d99744d9a61a0c26cffd495dc0abb2e27f58e7de49f34dedcbd9bcdb",
+  "prompt_trader": {
+    "normalized_action": "HOLD",
+    "proposal_sha256": "0331931752f661413abace9cd63733d129f097fd412862e93e3eeff2c72c2a66",
+    "rendered_proposal": "**Action**: Hold\n\n**Reasoning**: The evidence is genuinely balanced, supporting a Hold stance. The bull case rests on a confirmed uptrend with price at $187.88 holding above rising 10 EMA ($187.07), 50 SMA ($176.04), and 200 SMA ($152.75), plus rock-solid fundamentals ($62.57B operating cash flow in six months). However, the bear case is equally compelling on short-term timing: MACD histogram collapsed 95% from +0.41 to +0.02 in four days, RSI cooled from 77.69 to 65.22, relative volume at 0.85 shows buyers stepping away, and the stock is extended 6.7% above the 50 SMA and 23% above the 200 SMA. With no news or sentiment data available in this historical run, there is no catalyst to justify chasing at $187.88. The disciplined approach is to maintain existing exposure, not add at the top of the move, and look to add on a pullback toward the $184-$185 zone where risk/reward improves meaningfully.\n\n**Entry Price**: 184.5\n\n**Stop Loss**: 184.19\n\n**Position Sizing**: Neutral-to-slightly-constructive weight; do not overweight given absence of news/sentiment catalysts. Reserve dry powder to add on a pullback to $184-$185.\n\nFINAL TRANSACTION PROPOSAL: **HOLD**"
+  },
+  "provenance": {
+    "experiments_sha": "b4f3d22978048d079600752981694a5a7d0041ef",
+    "model_configuration_identity": "f2e15ee388ee60297930ddd2eb4ed5d73c27ee297472d97bb7d73bc49d2cd420",
+    "model_id": "deepseek-v4-flash",
+    "run_identity": "29aa05c0793a4b9a8b7284d990609d5f9b3002adb7e669fb1cc26f74fea5f2ad",
+    "source_sha": "6d3c46b96b8935944e0f232b73020262d870d953"
+  },
+  "research_manager": {
+    "investment_plan": "**Recommendation**: Hold\n\n**Rationale**: Let me walk through how I weighed this debate, because both sides made legitimate points and the evidence genuinely cuts both ways.\n\nThe bull's case is built on a powerful, confirmed uptrend: price at $187.88 holding above the 10 EMA ($187.07), 50 SMA ($176.04), and 200 SMA ($152.75), all of which are rising. The 60-day return of +18.75% with only a -1.70% drawdown from peak is objectively strong. The fundamentals are rock-solid — $62.57B operating cash flow in six months, a fortress balance sheet, and aggressive capital returns. The bull correctly notes that light-volume pullbacks in uptrends are often constructive, and that the moving averages are rising floors rather than static anchors.\n\nThe bear's case is built on momentum deceleration that is hard to dismiss. The MACD histogram collapsed from +0.41 to +0.02 in four days — a 95% reduction in bullish momentum. RSI fell from 77.69 to 65.22. Relative volume at 0.85 shows buyers stepping away. The stock is 6.7% above the 50 SMA and 23% above the 200 SMA, which is genuinely extended. The bear also makes a fair point that we are flying blind with no news or sentiment data available in this historical run — there is no catalyst to justify the next leg up.\n\nHere's where I land: the bull wins the fundamental and structural-trend argument, but the bear wins the short-term timing and risk/reward argument. The stock is not in a confirmed breakdown — the MACD is still above the signal line, price is still above all key moving averages, and the trend is intact. But the momentum deceleration, extended valuation relative to moving averages, and complete absence of news/sentiment data make chasing at $187.88 unattractive. The risk/reward of buying at the 10 EMA (the weakest support) with a stop below $184 is roughly 1:1.5 on the first target — not compelling enough to justify adding aggressively.\n\nThis is a case where the evidence on both sides is genuinely balanced. The trend argues for continued upside, but the momentum and extension argue for patience. I'm not willing to call this a Sell — the trend and fundamentals are too strong for that. But I'm also not willing to chase at current levels with a Buy. The disciplined stance is Hold: maintain existing exposure, don't add at the top of the move, and look to add on a pullback toward the $184-$185 zone where the risk/reward improves meaningfully.\n\n**Strategic Actions**: 1. Maintain current AAPL position at current levels ($187.88). Do not add new exposure at the top of the move given the momentum deceleration (MACD histogram near zero, RSI cooling from overbought) and the 6.7%/23% premium above the 50/200 SMAs.\n\n2. For existing holders: hold the position but tighten risk management. Consider a stop-loss below the 20 SMA at $184.19 to protect against a momentum unwind toward the 50 SMA at $176.04.\n\n3. For new or additional capital: do not chase at $187.88. Instead, place limit orders in the $184-$185.50 zone (20 SMA / VWMA support) where the risk/reward improves. This aligns with the bull's constructive long-term view while respecting the bear's valid short-term timing concerns.\n\n4. Position sizing: keep AAPL at a neutral-to-slightly-constructive weight. Do not overweight given the absence of news/sentiment data in this historical run — we are flying blind on catalysts. Reserve dry powder to add on a pullback.\n\n5. Monitor the MACD cross: if the MACD line crosses below the signal line (histogram turns negative), that confirms the bear's momentum-exhaustion thesis and would warrant trimming toward the $184 support. If price instead breaks above the upper Bollinger band ($191.74) on expanding volume, that confirms the bull's continuation thesis and would justify adding.\n\n6. Re-evaluate on any pullback to the $176-$184 zone (50 SMA / 20 SMA), where the risk/reward becomes favorable for a long entry with a tighter stop.",
+    "investment_plan_sha256": "d6f937df4f2289bd9e715659e985add250eb19fbbb805d72f8b3e6cdee244cb4"
+  },
+  "reusable_for_M2_08": true,
+  "role": "VALIDATION",
+  "schema_version": "M2-SEMANTIC-HANDOFF-v1",
+  "symbol": "AAPL"
+}
