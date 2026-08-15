@@ -1,0 +1,15 @@
+{
+  "driver_version": "595.91.07",
+  "final_training_torch_frozen": false,
+  "gpu_count": 1,
+  "gpu_name": "NVIDIA A10G",
+  "gpu_vram_mib": 23028,
+  "matrix_smoke_passed": true,
+  "nvidia_smi_cuda_compatibility": "13.2",
+  "nvidia_smi_passed": true,
+  "torch_cuda_available": true,
+  "torch_cuda_version": "13.0",
+  "torch_device_count": 1,
+  "torch_result_finite": true,
+  "torch_version": "2.13.0+cu130"
+}

@@ -1,0 +1,13 @@
+{
+  "cumulative_m2_05_estimate_usd": 0.444252,
+  "data_ebs_monthly_estimate_usd": 5.9392,
+  "estimated_project_budget_remaining_usd": 49.555748,
+  "g5_xlarge_price_source": "AWS Price List API",
+  "g5_xlarge_usd_per_hour": 1.277,
+  "persistent_idle_estimate_usd_per_day": 0.43,
+  "previous_m2_05_estimate_usd": 0.23,
+  "retry_2_conservative_runtime_seconds": 604,
+  "retry_2_ec2_estimate_usd": 0.214252,
+  "root_ebs_monthly_estimate_usd": 6.96,
+  "whole_project_budget_usd": 50
+}

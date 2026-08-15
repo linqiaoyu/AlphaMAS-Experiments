@@ -1,0 +1,35 @@
+{
+  "ami_id": "ami-0ad015dd04cfae0b4",
+  "ami_name": "Deep Learning Base OSS Nvidia Driver GPU AMI (Ubuntu 22.04) 20260814",
+  "availability_zone": "eu-west-2a",
+  "data_ebs": {
+    "delete_on_termination": false,
+    "encrypted": true,
+    "filesystem": "ext4",
+    "mount": "/mnt/alphamas",
+    "mount_by_uuid": true,
+    "size_gib": 64,
+    "type": "gp3"
+  },
+  "ephemeral_storage": {
+    "mount": "/opt/dlami/nvme",
+    "present": true,
+    "role": "disposable cache only",
+    "size_gib_approx": 232.8
+  },
+  "instance_type": "g5.xlarge",
+  "region": "eu-west-2",
+  "root_ebs": {
+    "encrypted": true,
+    "size_gib": 75,
+    "type": "gp3"
+  },
+  "s3": {
+    "encryption": "SSE-S3 AES256",
+    "public_access_blocked": true,
+    "region": "eu-west-2",
+    "versioning": true
+  },
+  "security_group_inbound_rule_count": 0,
+  "ssm_access": true
+}

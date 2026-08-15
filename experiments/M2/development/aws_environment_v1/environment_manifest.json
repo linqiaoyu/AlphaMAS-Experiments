@@ -1,0 +1,20 @@
+{
+  "access_method": "AWS Systems Manager Session Manager",
+  "architecture": "x86_64",
+  "auto_stop_minutes": 90,
+  "availability_zone": "eu-west-2a",
+  "deepseek_calls": 0,
+  "development_status": "PRE-FORMAL DEVELOPMENT - NOT FORMAL M2",
+  "ec2_final_state": "stopped",
+  "gpu_name": "NVIDIA A10G",
+  "instance_type": "g5.xlarge",
+  "os": "Ubuntu 22.04.5 LTS",
+  "python_version": "3.12.10",
+  "qwen_research_inference_calls": 0,
+  "region": "eu-west-2",
+  "selected_reward": "R3_HOLD_RELATIVE_DRAWDOWN_UTILITY",
+  "task_id": "M2-05-RETRY-2",
+  "uv_version": "0.12.5",
+  "verified_experiments_sha": "6c9e18d7d0ea1a2b91fd4ac5eefe829160a15cac",
+  "verified_runtime_source_sha": "1594ef850999ecb29f150cb4a8eedfe20c6ad7a6"
+}

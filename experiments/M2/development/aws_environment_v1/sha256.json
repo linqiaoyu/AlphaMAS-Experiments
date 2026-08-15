@@ -1,0 +1,11 @@
+{
+  "files": {
+    "README.md": "bc48934b6ec49c4895bbb8c23cf1ef94a020eba455c9926cd96a67f169ae83d3",
+    "cost_estimate.json": "05ed6440b2a96494e367179f06c8efd9f3a4dfe2092333a19ac784746000fb8d",
+    "cross_platform_smoke.json": "9621cf640ab504114677cf10038c6909a3decc3c9883c921f286bddaa3fb7daf",
+    "environment_manifest.json": "a6eca528c826e5b669845324fbbbf2a781beb2b69d25ce25488b34d15cb66e72",
+    "gpu_smoke.json": "b595291db9a29bf9c80ac9521a2b02de3ed4d758582f760f51954a064bad65d6",
+    "resource_manifest_sanitised.json": "44b01acd44cca2932f6a324a461d4bac0615662ced7d36577d0f6b84010779ce"
+  },
+  "schema_version": "1.0"
+}

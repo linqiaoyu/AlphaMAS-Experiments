@@ -1,0 +1,21 @@
+{
+  "aws_linux": {
+    "backtesting": "205 passed",
+    "m1_formal": "21 passed",
+    "m1_runtime": "23 passed, 0 skipped",
+    "m2": "86 passed",
+    "pilot_archive_target": "1 passed, 0 skipped",
+    "pit": "19 passed",
+    "reward_simulator": "44 passed",
+    "reward_study": "11 passed",
+    "synthetic_semantic_equivalence": "PASS"
+  },
+  "macos_baseline": {
+    "backtesting": "205 passed",
+    "m2": "86 passed"
+  },
+  "offline_reward_study_byte_identical": true,
+  "package_version_semantics_equal": true,
+  "platform_binary_wheel_identity_required": false,
+  "selected_reward": "R3_HOLD_RELATIVE_DRAWDOWN_UTILITY"
+}
