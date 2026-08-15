@@ -1,0 +1,71 @@
+=== FINMULTITIME EVIDENCE ===
+Symbol: ARR
+Decision session: 2023-06-16
+
+[TEXT]
+Status: AVAILABLE
+Evidence age (calendar days): 3
+Source: sp500_news/ARR.jsonl
+Article 1 date: 2023-06-13
+Article 1 title: Armour Residential REIT (ARR) Outpaces Stock Market Gains: What You Should Know
+Article 1 source: https://www.nasdaq.com/articles/armour-residential-reit-arr-outpaces-stock-market-gains%3A-what-you-should-know-6
+Article 1 text: Armour Residential REIT (ARR) closed the most recent trading day at $5.26, moving +0.77% from the previous trading session. This change outpaced the S&P 500's 0.69% gain on the day. Meanwhile, the Dow gained 0.43%, and the Nasdaq, a tech-heavy index, lost 8.94%. Coming into today, shares of the real estate investment trust had gained 6.97% in the past month. In that same time, the Finance sector gained 5.12%, while the S&P 500 gained 5.41%. Armour Residential REIT will be looking to display strength as it nears its next earnings release. In that report, analysts expect Armour Residential REIT to post earnings of $0.26 per share. This would mark a year-over-year decline of 10.34%. Meanwhile, the Zacks Consensus Estimate for revenue is projecting net sales of $66.6 million, up 90.01% from the year-ago period. ARR's full-year Zacks Consensus Estimates are calling for earnings of $1.11 per …
+Article 1 provenance: db578cdd7ca48cb6c575a6e5e7878efd172430167e151158b1fc46695c21c588
+Article 2 date: 2023-06-12
+Article 2 title: Ex-Dividend Reminder: ARMOUR Residential REIT, NexPoint Residential Trust and Stellar Bancorp
+Article 2 source: https://www.nasdaq.com/articles/ex-dividend-reminder%3A-armour-residential-reit-nexpoint-residential-trust-and-stellar
+Article 2 text: Looking at the universe of stocks we cover at Dividend Channel, on 6/14/23, ARMOUR Residential REIT Inc. (Symbol: ARR), NexPoint Residential Trust Inc (Symbol: NXRT), and Stellar Bancorp Inc (Symbol: STEL) will all trade ex-dividend for their respective upcoming dividends. ARMOUR Residential REIT Inc. will pay its monthly dividend of $0.08 on 6/29/23, NexPoint Residential Trust Inc will pay its quarterly dividend of $0.42 on 6/30/23, and Stellar Bancorp Inc will pay its quarterly dividend of $0.13 on 6/30/23. As a percentage of ARR's recent stock price of $5.14, this dividend works out to approximately 1.56%, so look for shares of ARMOUR Residential REIT Inc. to trade 1.56% lower — all else being equal — when ARR shares open for trading on 6/14/23. Similarly, investors should look for NXRT to open 0.90% lower in price and for STEL to open 0.52% lower, all else being equal. Below are div…
+Article 2 provenance: 9cf2c0dce715c07072475ef143c7bc3b15edff8205d19c3c0688c4068d9f8718
+Article 3 date: 2023-06-07
+Article 3 title: Armour Residential REIT (ARR) Gains As Market Dips: What You Should Know
+Article 3 source: https://www.nasdaq.com/articles/armour-residential-reit-arr-gains-as-market-dips%3A-what-you-should-know-3
+Article 3 text: Armour Residential REIT (ARR) closed the most recent trading day at $5.10, moving +0.79% from the previous trading session. The stock outpaced the S&P 500's daily loss of 0.38%. Elsewhere, the Dow gained 0.27%, while the tech-heavy Nasdaq lost 4.19%. Coming into today, shares of the real estate investment trust had lost 0.39% in the past month. In that same time, the Finance sector gained 2.65%, while the S&P 500 gained 3.78%. Investors will be hoping for strength from Armour Residential REIT as it approaches its next earnings release. On that day, Armour Residential REIT is projected to report earnings of $0.26 per share, which would represent a year-over-year decline of 10.34%. Meanwhile, the Zacks Consensus Estimate for revenue is projecting net sales of $66.6 million, up 90.01% from the year-ago period. ARR's full-year Zacks Consensus Estimates are calling for earnings of $1.11 per …
+Article 3 provenance: 067c8c50b87a7706834c47bff570847d283ce8f4d31668c792b43a7fa1107378
+Article 4 date: 2023-06-02
+Article 4 title: Validea Detailed Fundamental Analysis - ARR
+Article 4 source: https://www.nasdaq.com/articles/validea-detailed-fundamental-analysis-arr
+Article 4 text: Below is Validea's guru fundamental report for ARMOUR RESIDENTIAL REIT, INC. (ARR). Of the 22 guru strategies we follow, ARR rates highest using our Book/Market Investor model based on the published strategy of Joseph Piotroski. This value-quant strategy screens for high book-to-market stocks, and then separates out financially sound firms by looking at a host of improving financial criteria. ARMOUR RESIDENTIAL REIT, INC. (ARR) is a small-cap growth stock in the Real Estate Operations industry. The rating using this strategy is 40% based on the firm’s underlying fundamentals and the stock’s valuation. A score of 80% or above typically indicates that the strategy has some interest in the stock and a score above 90% typically indicates strong interest. The following table summarizes whether the stock meets each of this strategy's tests. Not all criteria in the below table receive equal we…
+Article 4 provenance: 48b49977770124c2269dcb246efc627f910e9c38dd2a1f428553652e723303a0
+Article 5 date: 2023-06-01
+Article 5 title: Armour Residential REIT (ARR) Outpaces Stock Market Gains: What You Should Know
+Article 5 source: https://www.nasdaq.com/articles/armour-residential-reit-arr-outpaces-stock-market-gains%3A-what-you-should-know-5
+Article 5 text: In the latest trading session, Armour Residential REIT (ARR) closed at $5.12, marking a +1.99% move from the previous day. This change outpaced the S&P 500's 0.99% gain on the day. Prior to today's trading, shares of the real estate investment trust had gained 0.8% over the past month. This has outpaced the Finance sector's loss of 3.22% and the S&P 500's gain of 0.42% in that time. Armour Residential REIT will be looking to display strength as it nears its next earnings release. The company is expected to report EPS of $0.26, down 10.34% from the prior-year quarter. Our most recent consensus estimate is calling for quarterly revenue of $66.6 million, up 90.01% from the year-ago period. For the full year, our Zacks Consensus Estimates are projecting earnings of $1.11 per share and revenue of $224.29 million, which would represent changes of -4.31% and +108.37%, respectively, from the pr…
+Article 5 provenance: a59da416ec754f2f06ed74bc5a36547fa1d720cc7b9654489cfe3698bcf5415c
+Article 6 date: 2023-05-31
+Article 6 title: ARMOUR Residential REIT (ARR) Declares $0.08 Dividend
+Article 6 source: https://www.nasdaq.com/articles/armour-residential-reit-arr-declares-%240.08-dividend-1
+Article 6 text: ARMOUR Residential REIT said on May 30, 2023 that its board of directors declared a regular monthly dividend of $0.08 per share ($0.96 annualized). Previously, the company paid $0.08 per share. Shares must be purchased before the ex-div date of June 14, 2023 to qualify for the dividend. Shareholders of record as of June 15, 2023 will receive the payment on June 29, 2023. At the current share price of $5.05 / share, the stock's dividend yield is 19.01%. Looking back five years and taking a sample every week, the average dividend yield has been 13.53%, the lowest has been 9.61%, and the highest has been 27.35%. The standard deviation of yields is 4.22 (n=237). The current dividend yield is 1.30 standard deviations above the historical average. Additionally, the company's dividend payout ratio is -0.96. The payout ratio tells us how much of a company's income is paid out in dividends. A pa…
+Article 6 provenance: edcc53ad3b8779784e6c5e073be33f1659eaa02280560aa981cfd0d2962ae688
+
+[TABLE]
+Status: AVAILABLE
+Source: financial_reports/arr/condensed_consolidated_balance_sheets.json;financial_reports/arr/condensed_consolidated_statement_of_cash_flows.json
+Assets: value=13249330000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-03-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-04-26; accession=0001428205-23-000094; provenance=d9876d0625bd81bc8b096eb444627d97a6ea2dd1d1db4bf138e5c02fa6260069
+Liabilities: value=12034197000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-03-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-04-26; accession=0001428205-23-000094; provenance=892363c383c9b9266098bfb4311d1a39292b85132d943469debdab9745e84347
+StockholdersEquity: value=1215133000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-03-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-04-26; accession=0001428205-23-000094; provenance=54811cb1b8cd733ab26ec5f12e414b61ac3d9652683c331be21abd5f9c575ede
+NetCashProvidedByUsedInOperatingActivities: value=54219000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-03-31; period_duration_days=90; period_duration_class=quarterly; filed_date=2023-04-26; accession=0001428205-23-000094; provenance=256fea318186a4526c7085f89639c0101d8a1ab1e9f60e5f4a465e048749bb27
+NetCashProvidedByUsedInInvestingActivities: value=-3926462000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-03-31; period_duration_days=90; period_duration_class=quarterly; filed_date=2023-04-26; accession=0001428205-23-000094; provenance=3c8588cd3125a69f5ed41da8d4385c6db7585772b33f40c07586852b908b23e3
+NetCashProvidedByUsedInFinancingActivities: value=4013480000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-03-31; period_duration_days=90; period_duration_class=quarterly; filed_date=2023-04-26; accession=0001428205-23-000094; provenance=c80d16da5be47d02e606cde85f06c3592da9d7aca5b4a25d7e32b8622b94d70d
+
+[TIME_SERIES]
+Status: AVAILABLE
+Through session: 2023-06-16
+Source: S&P500_time_series/arr.csv
+cumulative_return_5d: 0.02929997132963602
+cumulative_return_20d: 0.07761431203480429
+cumulative_return_60d: 0.13260061984147642
+realised_volatility_20d_annualised: 0.3211793950054583
+high_low_range_20d: 0.19450671702694478
+drawdown_from_60d_peak: -0.0019192088290845843
+relative_volume_vs_20d_mean: 2.161901321358222
+Provenance: 12f400a09d375ce4ade33ade5280c506153febb06d043be33dc0683f95726a7f
+
+[IMAGE]
+Status: AVAILABLE
+Chart period: 2022-H2
+Inferred period end: 2022-12-31
+Evidence age (calendar days): 167
+Source: arr_2022_H2_candlestick.png
+Canonical caption: {"candlestick_structure":"mostly green and red, with some green and red","confidence":"moderate","momentum_visual":"generally increasing then decreasing then increasing","notable_gap_or_reversal":"no significant gap or reversal","other_visible_pattern":"no other visible patterns","support_resistance_visual":"no clear support or resistance levels","trend":"upward then downward then upward","volatility_visual":"high volatility in early months, then decreasing","volume_visual":"no visible volume data"}
+Caption provenance: ecf45749d268e52ffcee3551fcd42727ba55ef9b389bbb4a1bde8859d1f940f6
+=== END FINMULTITIME EVIDENCE ===

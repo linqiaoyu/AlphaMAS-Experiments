@@ -1,0 +1,282 @@
+{
+  "IMAGE": {
+    "canonical_caption": {
+      "candlestick_structure": "mostly green and red, with some green and red",
+      "confidence": "moderate",
+      "momentum_visual": "generally increasing, then decreasing",
+      "notable_gap_or_reversal": "no significant gap or reversal",
+      "other_visible_pattern": "no other visible patterns",
+      "support_resistance_visual": "no clear support or resistance levels",
+      "trend": "upward to peak, then downward",
+      "volatility_visual": "high volatility, then decreasing",
+      "volume_visual": "no visible volume pattern"
+    },
+    "caption_sha256": "b4e2b78c71ab354b7177ebb2747ad14de8ec111c02747cf95d5a439782bdc7c9",
+    "caption_source": "NEW_QWEN_M2_06",
+    "caption_status": "GENERATED",
+    "chart_period": "2022-H2",
+    "evidence_age_calendar_days": 132,
+    "image_sha256": "f52b3a16034499f16b13eb1472ef9460cc5ea93f6b524e1e3683270c1debb2ae",
+    "inferred_period_end": "2022-12-31",
+    "provenance_hash_reference": "b4e2b78c71ab354b7177ebb2747ad14de8ec111c02747cf95d5a439782bdc7c9",
+    "reason": "",
+    "source_identity": "amzn_2022_H2_candlestick.png",
+    "status": "AVAILABLE"
+  },
+  "TABLE": {
+    "facts": {
+      "Assets": {
+        "accession": "0001018724-23-000008",
+        "filed_date": "2023-04-28",
+        "form": "10-Q",
+        "fp": "Q1",
+        "fy": 2023,
+        "period_duration_class": "point_in_time",
+        "period_duration_days": null,
+        "period_end": "2023-03-31",
+        "period_start": "",
+        "provenance_hash_reference": "83d3a69d48e18cf4802dad80c9d99f26d03d699c0ef5443e36fe42797aff3516",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 464378000000
+      },
+      "Liabilities": {
+        "reason": "no canonical PIT-safe selected fact",
+        "status": "UNAVAILABLE"
+      },
+      "NetCashProvidedByUsedInFinancingActivities": {
+        "accession": "0001018724-23-000008",
+        "filed_date": "2023-04-28",
+        "form": "10-Q",
+        "fp": "Q1",
+        "fy": 2023,
+        "period_duration_class": "quarterly",
+        "period_duration_days": 90,
+        "period_end": "2023-03-31",
+        "period_start": "2023-01-01",
+        "provenance_hash_reference": "547579fce07ab7f0145aea13264251fc03b4adeaa7afd2b6edfdd175109f4c25",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 6354000000
+      },
+      "NetCashProvidedByUsedInInvestingActivities": {
+        "accession": "0001018724-23-000008",
+        "filed_date": "2023-04-28",
+        "form": "10-Q",
+        "fp": "Q1",
+        "fy": 2023,
+        "period_duration_class": "quarterly",
+        "period_duration_days": 90,
+        "period_end": "2023-03-31",
+        "period_start": "2023-01-01",
+        "provenance_hash_reference": "6a1fabad46d1e8e9283aa1ce26dfa58ecb49d9df08518865bfe6a8780127dfe0",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": -15806000000
+      },
+      "NetCashProvidedByUsedInOperatingActivities": {
+        "accession": "0001018724-23-000008",
+        "filed_date": "2023-04-28",
+        "form": "10-Q",
+        "fp": "Q1",
+        "fy": 2023,
+        "period_duration_class": "quarterly",
+        "period_duration_days": 90,
+        "period_end": "2023-03-31",
+        "period_start": "2023-01-01",
+        "provenance_hash_reference": "2e10fadb5fb896172494ddedfe3d77cacfc60b47b3376320a6c4f6e087a71fed",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 4788000000
+      },
+      "StockholdersEquity": {
+        "accession": "0001018724-23-000008",
+        "filed_date": "2023-04-28",
+        "form": "10-Q",
+        "fp": "Q1",
+        "fy": 2023,
+        "period_duration_class": "point_in_time",
+        "period_duration_days": null,
+        "period_end": "2023-03-31",
+        "period_start": "",
+        "provenance_hash_reference": "c060b43c49bfed85aee694108f4c388e8a0d8607d57f7880cb65503d20376a2e",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 154526000000
+      }
+    },
+    "provenance_hash_reference": "ee295d0a5de8c29a47fc0dac2e3b115d9411539a63a2c90af51e827e6702a06d",
+    "reason": "",
+    "selection_rule": "frozen six-concept TABLE selection; filed_date < decision session",
+    "source_identity": "financial_reports/amzn/condensed_consolidated_balance_sheets.json;financial_reports/amzn/condensed_consolidated_statement_of_cash_flows.json",
+    "status": "AVAILABLE"
+  },
+  "TEXT": {
+    "evidence_age_calendar_days": 1,
+    "provenance_hash_reference": "2a87fc6b5f59493b70d3ddbcfd499c78e3aad11f73078c81916aea19aa706360",
+    "reason": "",
+    "records": [
+      {
+        "article_date": "2023-05-11",
+        "body": "Amazon (NASDAQ: AMZN) has been one of the best stocks to own ever. However, while it has soared over its three decades on the stock market, it's actually down 11% over the past three years. After sending its shares higher on its pandemic-related success, investors appear to have soured on the e-commerce giant in its more recent struggles. Still, there are many good reasons to be bullish on Amazon stock now -- and at this price, it looks like time to buy. Here are two more reasons you may not know. 1. Amazon Sidewalk Amazon Sidewalk is a digital network that Amazon offers to help users power their Internet of Things (IoT) devices like the Amazon Echo (for using Alexa) or Ring (for controlling home entry). It's kind of like a back-up to your WiFi system, stepping in if you lose your connection -- and also just simply helps your various devices function together more smoothly. Sidewalk all…",
+        "provenance_hash_reference": "f847f25a90b0fa1325102c6a5dc1eefcb26751f2309d6a89a4afdaafa697bcf5",
+        "source": "https://www.nasdaq.com/articles/2-reasons-to-buy-amazon-stock-that-you-dont-already-know-about",
+        "title": "2 Reasons to Buy Amazon Stock That You Don't Already Know About"
+      },
+      {
+        "article_date": "2023-05-11",
+        "body": "FAANG is an acronym representing five of the most prominent and influential tech companies in the United States: Facebook, Apple, Amazon, Netflix, and Alphabet. These companies are considered to be some of the largest and most powerful entities in the tech industry and, by extension, the entire stock market. Each of these companies has shown exceptional growth and innovation, leading to significant influence on the economy and financial markets. Investing in FAANG stocks essentially means investing in the leading tech giants, each with a unique business model. Facebook and Google dominate digital advertising, Apple has a stronghold on tech hardware and software, Amazon is a leader in e-commerce and cloud services, and Netflix is a significant player in the streaming content industry. However, like any investment, FAANG stocks come with their own set of risks. Factors like regulatory pre…",
+        "provenance_hash_reference": "b97bf24322c3dc0cdf16df45d33d24fee560f1ca5f3c579c1fc5d8e7792bba5d",
+        "source": "https://www.nasdaq.com/articles/3-faang-stocks-for-your-may-2023-watchlist",
+        "title": "3 FAANG Stocks For Your May 2023 Watchlist"
+      },
+      {
+        "article_date": "2023-05-11",
+        "body": "It's no secret that tech stocks have been volatile over the past year, with the tech-heavy Nasdaq Composite essentially flat over the past year. And while the roller-coaster ride has been understandably unnerving for investors, there are still some great tech segments that investors should consider. One of them is e-commerce, which is poised to become a $7 trillion market by 2025, according to eMarketer. Three companies already thriving in this space right now are Shopify (NYSE: SHOP), MercadoLibre (NASDAQ: MELI), and Amazon (NASDAQ: AMZN). Here's why investors should consider scooping up shares of these e-commerce leaders. Image source: Getty Images. 1. Shopify Shopify provides a platform for businesses of all sizes to sell their goods and services online, and its share price has surged 70% over the past year as the company has delivered impressive results. Shopify's revenue and earnin…",
+        "provenance_hash_reference": "007d66d289dd959b61cda93a71cdafcfa3832b82541958c5341e07aeca9eab40",
+        "source": "https://www.nasdaq.com/articles/3-top-e-commerce-stocks-to-buy-in-may",
+        "title": "3 Top E-Commerce Stocks to Buy in May"
+      },
+      {
+        "article_date": "2023-05-11",
+        "body": "Wall Street has remained rangebound since April barring 2-3 days of rally or decline. Market participants are clueless about the health of the U.S. economy. Although several economic indicators have fallen substantially in 2023, the labor market stays resilient. Moreover, inflation is well above the Fed’s 2% target rate despite a massive 5% hike in interest rate from March 2022 to May 2023. A large section of economists and financial experts have warned about a recession later this year. However, first-quarter 2023 earnings of corporate America are better-than-expected so far. In its May FOMC meeting, the Fed refrained from giving any clearcut signal regarding the end of the current rate hike regime. Investment Strategy Investors remain directionless about the future trajectory of the U.S. stock movement. In such a situation, a good investment strategy can provide strong returns in the …",
+        "provenance_hash_reference": "b3f4b2ce8458bfeda0bf9584967662655bfb49461e9d7ed44871f91856c8c850",
+        "source": "https://www.nasdaq.com/articles/5-high-flying-bigwigs-to-buy-for-long-term-gains",
+        "title": "5 High-Flying Bigwigs to Buy for Long -Term Gains"
+      },
+      {
+        "article_date": "2023-05-11",
+        "body": "Craig Martell, the Defense Department's chief digital and artificial intelligence (AI) officer, is reportedly \"scared to death\" about the potential for AI to be used to spread disinformation and for other nefarious aims. Warren Buffett recently likened AI to the creation of the atomic bomb and its associated dangers. Geoffrey Hinton, known by some as one of the \"godfathers of AI,\" warns that AI could be a more urgent threat than climate change. Perhaps unsurprisingly, given these and other warnings from prominent figures, thousands of technologists (including Elon Musk) have called for a six-month pause on the development of the most powerful AI systems due to their \"profound risks to society and humanity.\" The pause would offer an opportunity to consider appropriate regulations regarding how AI is used. Still, many others are convinced that AI has the potential to have a profoundly pos…",
+        "provenance_hash_reference": "548fd14e995569ef5995c49f1454811c8422a2f5e9089031c53cce7549cd0548",
+        "source": "https://www.nasdaq.com/articles/a-bull-market-in-artificial-intelligence-is-coming%3A-2-ai-stocks-to-buy-right-now",
+        "title": "A Bull Market in Artificial Intelligence Is Coming: 2 AI Stocks to Buy Right Now"
+      },
+      {
+        "article_date": "2023-05-11",
+        "body": "The concept of artificial intelligence (AI) has been around for thousands of years. In fact, Leonardo da Vinci constructed an automaton in 1495, building on work done centuries earlier by the philosopher Plato. But AI has evolved more rapidly in recent decades due to innovations in semiconductor design, and demand for AI solutions is expected to soar in the coming years. According to Ark Invest, AI software revenue could hit $14 trillion by 2030, up from $1 trillion in 2021. Many growth stocks will benefit from that trend, but Amazon (NASDAQ: AMZN) and Cognex (NASDAQ: CGNX) look particularly attractive given their current valuations. Here's what investors should know. Amazon: AI for software developers and advertisers Amazon Web Services (AWS) dominates the cloud computing industry. It accounted for 32% of cloud infrastructure and platform services (CIPS) in the first quarter, and consu…",
+        "provenance_hash_reference": "da65a03785120241ca76bebbf6fd7e38584a861ce81d10f252b6cda2a2e41ef2",
+        "source": "https://www.nasdaq.com/articles/ai-software-revenue-is-soaring-toward-%2414-trillion%3A-2-growth-stocks-to-buy-now-and-hold",
+        "title": "AI Software Revenue Is Soaring Toward $14 Trillion: 2 Growth Stocks to Buy Now and Hold"
+      },
+      {
+        "article_date": "2023-05-11",
+        "body": "By Jamie McGeever ORLANDO, Florida, May 11 (Reuters) - The U.S. stock market rally this year is so narrow that the S&P 500 index's .SPXgains have been entirely driven by just a handful of stocks, which are now significantly more expensive than more than 95% of the broader market. The question for investors is, does that valuation chasm begin to close, and will it influence the market's direction in the second half of the year as much as it did in the first? While the gap is extreme, the short-term correlation between valuation and performance is minimal unless you are coming off the sidelines and allocating fresh capital, analysts say. Performance over the next year or so will likely be driven by other factors like positioning and interest rate moves. Some of the numbers, however, are so startling they cannot be ignored. The top four stocks in the S&P 500 by weight - Apple Inc AAPL.O, M…",
+        "provenance_hash_reference": "36639ed068bc0ca67f8cb850c240dca74c898b7ebe85ee00669dd2dc65b0cd35",
+        "source": "https://www.nasdaq.com/articles/column-u.s.-mega-tech-is-expensive-but-may-be-unavoidable%3A-mcgeever",
+        "title": "COLUMN-U.S. mega tech is expensive, but may be unavoidable: McGeever"
+      },
+      {
+        "article_date": "2023-05-11",
+        "body": "Below is Validea's guru fundamental report for AMAZON.COM, INC. (AMZN). Of the 22 guru strategies we follow, AMZN rates highest using our P/B Growth Investor model based on the published strategy of Partha Mohanram. This growth model looks for low book-to-market stocks that exhibit characteristics associated with sustained future growth. AMAZON.COM, INC. (AMZN) is a large-cap growth stock in the Retail (Specialty) industry. The rating using this strategy is 88% based on the firm’s underlying fundamentals and the stock’s valuation. A score of 80% or above typically indicates that the strategy has some interest in the stock and a score above 90% typically indicates strong interest. The following table summarizes whether the stock meets each of this strategy's tests. Not all criteria in the below table receive equal weighting or are independent, but the table provides a brief overview of t…",
+        "provenance_hash_reference": "c8e7c610b505d9efdd4339bbafa39ea27a5bf1114146279a236b39b8635f5da5",
+        "source": "https://www.nasdaq.com/articles/guru-fundamental-report-for-amzn-32",
+        "title": "Guru Fundamental Report for AMZN"
+      }
+    ],
+    "selection_rule": "frozen bounded TEXT selection; Date < decision session; deterministic order",
+    "source_identity": "sp500_news/AMZN.jsonl",
+    "status": "AVAILABLE"
+  },
+  "TIME_SERIES": {
+    "provenance_hash_reference": "e27845298fd1cc30a084c05784ea5e1d82ff850f820b13587a62fe22ddac4dd0",
+    "reason": "",
+    "selection_rule": "frozen descriptive summaries from 61 completed source rows; session <= decision",
+    "source_identity": "S&P500_time_series/amzn.csv",
+    "status": "AVAILABLE",
+    "summaries": {
+      "cumulative_return_20d": 0.07560237868008879,
+      "cumulative_return_5d": 0.04353585382063252,
+      "cumulative_return_60d": 0.089956486206906,
+      "drawdown_from_60d_peak": -0.01711533396079623,
+      "high_low_range_20d": 0.1199208805776888,
+      "realised_volatility_20d_annualised": 0.3618740366290256,
+      "relative_volume_vs_20d_mean": 0.7189973262475935
+    },
+    "through_session": "2023-05-12"
+  },
+  "agent_text": "=== FINMULTITIME EVIDENCE ===\nSymbol: AMZN\nDecision session: 2023-05-12\n\n[TEXT]\nStatus: AVAILABLE\nEvidence age (calendar days): 1\nSource: sp500_news/AMZN.jsonl\nArticle 1 date: 2023-05-11\nArticle 1 title: 2 Reasons to Buy Amazon Stock That You Don't Already Know About\nArticle 1 source: https://www.nasdaq.com/articles/2-reasons-to-buy-amazon-stock-that-you-dont-already-know-about\nArticle 1 text: Amazon (NASDAQ: AMZN) has been one of the best stocks to own ever. However, while it has soared over its three decades on the stock market, it's actually down 11% over the past three years. After sending its shares higher on its pandemic-related success, investors appear to have soured on the e-commerce giant in its more recent struggles. Still, there are many good reasons to be bullish on Amazon stock now -- and at this price, it looks like time to buy. Here are two more reasons you may not know. 1. Amazon Sidewalk Amazon Sidewalk is a digital network that Amazon offers to help users power their Internet of Things (IoT) devices like the Amazon Echo (for using Alexa) or Ring (for controlling home entry). It's kind of like a back-up to your WiFi system, stepping in if you lose your connection -- and also just simply helps your various devices function together more smoothly. Sidewalk all…\nArticle 1 provenance: f847f25a90b0fa1325102c6a5dc1eefcb26751f2309d6a89a4afdaafa697bcf5\nArticle 2 date: 2023-05-11\nArticle 2 title: 3 FAANG Stocks For Your May 2023 Watchlist\nArticle 2 source: https://www.nasdaq.com/articles/3-faang-stocks-for-your-may-2023-watchlist\nArticle 2 text: FAANG is an acronym representing five of the most prominent and influential tech companies in the United States: Facebook, Apple, Amazon, Netflix, and Alphabet. These companies are considered to be some of the largest and most powerful entities in the tech industry and, by extension, the entire stock market. Each of these companies has shown exceptional growth and innovation, leading to significant influence on the economy and financial markets. Investing in FAANG stocks essentially means investing in the leading tech giants, each with a unique business model. Facebook and Google dominate digital advertising, Apple has a stronghold on tech hardware and software, Amazon is a leader in e-commerce and cloud services, and Netflix is a significant player in the streaming content industry. However, like any investment, FAANG stocks come with their own set of risks. Factors like regulatory pre…\nArticle 2 provenance: b97bf24322c3dc0cdf16df45d33d24fee560f1ca5f3c579c1fc5d8e7792bba5d\nArticle 3 date: 2023-05-11\nArticle 3 title: 3 Top E-Commerce Stocks to Buy in May\nArticle 3 source: https://www.nasdaq.com/articles/3-top-e-commerce-stocks-to-buy-in-may\nArticle 3 text: It's no secret that tech stocks have been volatile over the past year, with the tech-heavy Nasdaq Composite essentially flat over the past year. And while the roller-coaster ride has been understandably unnerving for investors, there are still some great tech segments that investors should consider. One of them is e-commerce, which is poised to become a $7 trillion market by 2025, according to eMarketer. Three companies already thriving in this space right now are Shopify (NYSE: SHOP), MercadoLibre (NASDAQ: MELI), and Amazon (NASDAQ: AMZN). Here's why investors should consider scooping up shares of these e-commerce leaders. Image source: Getty Images. 1. Shopify Shopify provides a platform for businesses of all sizes to sell their goods and services online, and its share price has surged 70% over the past year as the company has delivered impressive results. Shopify's revenue and earnin…\nArticle 3 provenance: 007d66d289dd959b61cda93a71cdafcfa3832b82541958c5341e07aeca9eab40\nArticle 4 date: 2023-05-11\nArticle 4 title: 5 High-Flying Bigwigs to Buy for Long -Term Gains\nArticle 4 source: https://www.nasdaq.com/articles/5-high-flying-bigwigs-to-buy-for-long-term-gains\nArticle 4 text: Wall Street has remained rangebound since April barring 2-3 days of rally or decline. Market participants are clueless about the health of the U.S. economy. Although several economic indicators have fallen substantially in 2023, the labor market stays resilient. Moreover, inflation is well above the Fed’s 2% target rate despite a massive 5% hike in interest rate from March 2022 to May 2023. A large section of economists and financial experts have warned about a recession later this year. However, first-quarter 2023 earnings of corporate America are better-than-expected so far. In its May FOMC meeting, the Fed refrained from giving any clearcut signal regarding the end of the current rate hike regime. Investment Strategy Investors remain directionless about the future trajectory of the U.S. stock movement. In such a situation, a good investment strategy can provide strong returns in the …\nArticle 4 provenance: b3f4b2ce8458bfeda0bf9584967662655bfb49461e9d7ed44871f91856c8c850\nArticle 5 date: 2023-05-11\nArticle 5 title: A Bull Market in Artificial Intelligence Is Coming: 2 AI Stocks to Buy Right Now\nArticle 5 source: https://www.nasdaq.com/articles/a-bull-market-in-artificial-intelligence-is-coming%3A-2-ai-stocks-to-buy-right-now\nArticle 5 text: Craig Martell, the Defense Department's chief digital and artificial intelligence (AI) officer, is reportedly \"scared to death\" about the potential for AI to be used to spread disinformation and for other nefarious aims. Warren Buffett recently likened AI to the creation of the atomic bomb and its associated dangers. Geoffrey Hinton, known by some as one of the \"godfathers of AI,\" warns that AI could be a more urgent threat than climate change. Perhaps unsurprisingly, given these and other warnings from prominent figures, thousands of technologists (including Elon Musk) have called for a six-month pause on the development of the most powerful AI systems due to their \"profound risks to society and humanity.\" The pause would offer an opportunity to consider appropriate regulations regarding how AI is used. Still, many others are convinced that AI has the potential to have a profoundly pos…\nArticle 5 provenance: 548fd14e995569ef5995c49f1454811c8422a2f5e9089031c53cce7549cd0548\nArticle 6 date: 2023-05-11\nArticle 6 title: AI Software Revenue Is Soaring Toward $14 Trillion: 2 Growth Stocks to Buy Now and Hold\nArticle 6 source: https://www.nasdaq.com/articles/ai-software-revenue-is-soaring-toward-%2414-trillion%3A-2-growth-stocks-to-buy-now-and-hold\nArticle 6 text: The concept of artificial intelligence (AI) has been around for thousands of years. In fact, Leonardo da Vinci constructed an automaton in 1495, building on work done centuries earlier by the philosopher Plato. But AI has evolved more rapidly in recent decades due to innovations in semiconductor design, and demand for AI solutions is expected to soar in the coming years. According to Ark Invest, AI software revenue could hit $14 trillion by 2030, up from $1 trillion in 2021. Many growth stocks will benefit from that trend, but Amazon (NASDAQ: AMZN) and Cognex (NASDAQ: CGNX) look particularly attractive given their current valuations. Here's what investors should know. Amazon: AI for software developers and advertisers Amazon Web Services (AWS) dominates the cloud computing industry. It accounted for 32% of cloud infrastructure and platform services (CIPS) in the first quarter, and consu…\nArticle 6 provenance: da65a03785120241ca76bebbf6fd7e38584a861ce81d10f252b6cda2a2e41ef2\nArticle 7 date: 2023-05-11\nArticle 7 title: COLUMN-U.S. mega tech is expensive, but may be unavoidable: McGeever\nArticle 7 source: https://www.nasdaq.com/articles/column-u.s.-mega-tech-is-expensive-but-may-be-unavoidable%3A-mcgeever\nArticle 7 text: By Jamie McGeever ORLANDO, Florida, May 11 (Reuters) - The U.S. stock market rally this year is so narrow that the S&P 500 index's .SPXgains have been entirely driven by just a handful of stocks, which are now significantly more expensive than more than 95% of the broader market. The question for investors is, does that valuation chasm begin to close, and will it influence the market's direction in the second half of the year as much as it did in the first? While the gap is extreme, the short-term correlation between valuation and performance is minimal unless you are coming off the sidelines and allocating fresh capital, analysts say. Performance over the next year or so will likely be driven by other factors like positioning and interest rate moves. Some of the numbers, however, are so startling they cannot be ignored. The top four stocks in the S&P 500 by weight - Apple Inc AAPL.O, M…\nArticle 7 provenance: 36639ed068bc0ca67f8cb850c240dca74c898b7ebe85ee00669dd2dc65b0cd35\nArticle 8 date: 2023-05-11\nArticle 8 title: Guru Fundamental Report for AMZN\nArticle 8 source: https://www.nasdaq.com/articles/guru-fundamental-report-for-amzn-32\nArticle 8 text: Below is Validea's guru fundamental report for AMAZON.COM, INC. (AMZN). Of the 22 guru strategies we follow, AMZN rates highest using our P/B Growth Investor model based on the published strategy of Partha Mohanram. This growth model looks for low book-to-market stocks that exhibit characteristics associated with sustained future growth. AMAZON.COM, INC. (AMZN) is a large-cap growth stock in the Retail (Specialty) industry. The rating using this strategy is 88% based on the firm’s underlying fundamentals and the stock’s valuation. A score of 80% or above typically indicates that the strategy has some interest in the stock and a score above 90% typically indicates strong interest. The following table summarizes whether the stock meets each of this strategy's tests. Not all criteria in the below table receive equal weighting or are independent, but the table provides a brief overview of t…\nArticle 8 provenance: c8e7c610b505d9efdd4339bbafa39ea27a5bf1114146279a236b39b8635f5da5\n\n[TABLE]\nStatus: AVAILABLE\nSource: financial_reports/amzn/condensed_consolidated_balance_sheets.json;financial_reports/amzn/condensed_consolidated_statement_of_cash_flows.json\nAssets: value=464378000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-03-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=83d3a69d48e18cf4802dad80c9d99f26d03d699c0ef5443e36fe42797aff3516\nLiabilities: UNAVAILABLE\nStockholdersEquity: value=154526000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-03-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=c060b43c49bfed85aee694108f4c388e8a0d8607d57f7880cb65503d20376a2e\nNetCashProvidedByUsedInOperatingActivities: value=4788000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-03-31; period_duration_days=90; period_duration_class=quarterly; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=2e10fadb5fb896172494ddedfe3d77cacfc60b47b3376320a6c4f6e087a71fed\nNetCashProvidedByUsedInInvestingActivities: value=-15806000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-03-31; period_duration_days=90; period_duration_class=quarterly; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=6a1fabad46d1e8e9283aa1ce26dfa58ecb49d9df08518865bfe6a8780127dfe0\nNetCashProvidedByUsedInFinancingActivities: value=6354000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-03-31; period_duration_days=90; period_duration_class=quarterly; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=547579fce07ab7f0145aea13264251fc03b4adeaa7afd2b6edfdd175109f4c25\n\n[TIME_SERIES]\nStatus: AVAILABLE\nThrough session: 2023-05-12\nSource: S&P500_time_series/amzn.csv\ncumulative_return_5d: 0.04353585382063252\ncumulative_return_20d: 0.07560237868008879\ncumulative_return_60d: 0.089956486206906\nrealised_volatility_20d_annualised: 0.3618740366290256\nhigh_low_range_20d: 0.1199208805776888\ndrawdown_from_60d_peak: -0.01711533396079623\nrelative_volume_vs_20d_mean: 0.7189973262475935\nProvenance: e27845298fd1cc30a084c05784ea5e1d82ff850f820b13587a62fe22ddac4dd0\n\n[IMAGE]\nStatus: AVAILABLE\nChart period: 2022-H2\nInferred period end: 2022-12-31\nEvidence age (calendar days): 132\nSource: amzn_2022_H2_candlestick.png\nCanonical caption: {\"candlestick_structure\":\"mostly green and red, with some green and red\",\"confidence\":\"moderate\",\"momentum_visual\":\"generally increasing, then decreasing\",\"notable_gap_or_reversal\":\"no significant gap or reversal\",\"other_visible_pattern\":\"no other visible patterns\",\"support_resistance_visual\":\"no clear support or resistance levels\",\"trend\":\"upward to peak, then downward\",\"volatility_visual\":\"high volatility, then decreasing\",\"volume_visual\":\"no visible volume pattern\"}\nCaption provenance: b4e2b78c71ab354b7177ebb2747ad14de8ec111c02747cf95d5a439782bdc7c9\n=== END FINMULTITIME EVIDENCE ===\n",
+  "available_for_training": true,
+  "available_for_validation": false,
+  "case_id": "AMZN:2023-05-12",
+  "character_counts": {
+    "complete": 12954,
+    "fundamentals": 1809,
+    "market": 1193,
+    "news": 9803
+  },
+  "contract_version": "M1-FINMULTITIME-v1.0.2",
+  "dataset_id": "m2_preformal_evidence_v1",
+  "decision_session": "2023-05-12",
+  "decision_time": "2023-05-12T20:00:00+00:00",
+  "engineering_only": false,
+  "m2_metadata": {
+    "available_for_training": true,
+    "available_for_validation": false,
+    "engineering_only": false,
+    "performance_for_selection": false,
+    "protected": false,
+    "role": "TRAIN",
+    "tier_membership": {
+      "in_compact": false,
+      "in_maximum": true,
+      "in_standard": false
+    }
+  },
+  "packet_sha256": "6906b810b5300e700c98769bc539cfd6802644b4799118ff61552988d459cebb",
+  "packet_status": "FINAL_FROZEN",
+  "performance_for_selection": false,
+  "protected": false,
+  "record_type": "m1_finmultitime_evidence_packet",
+  "role": "TRAIN",
+  "routed_projections": {
+    "fundamentals_analyst": {
+      "sections": [
+        "TABLE"
+      ],
+      "text": "Status: AVAILABLE\nSource: financial_reports/amzn/condensed_consolidated_balance_sheets.json;financial_reports/amzn/condensed_consolidated_statement_of_cash_flows.json\nAssets: value=464378000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-03-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=83d3a69d48e18cf4802dad80c9d99f26d03d699c0ef5443e36fe42797aff3516\nLiabilities: UNAVAILABLE\nStockholdersEquity: value=154526000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-03-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=c060b43c49bfed85aee694108f4c388e8a0d8607d57f7880cb65503d20376a2e\nNetCashProvidedByUsedInOperatingActivities: value=4788000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-03-31; period_duration_days=90; period_duration_class=quarterly; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=2e10fadb5fb896172494ddedfe3d77cacfc60b47b3376320a6c4f6e087a71fed\nNetCashProvidedByUsedInInvestingActivities: value=-15806000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-03-31; period_duration_days=90; period_duration_class=quarterly; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=6a1fabad46d1e8e9283aa1ce26dfa58ecb49d9df08518865bfe6a8780127dfe0\nNetCashProvidedByUsedInFinancingActivities: value=6354000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-03-31; period_duration_days=90; period_duration_class=quarterly; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=547579fce07ab7f0145aea13264251fc03b4adeaa7afd2b6edfdd175109f4c25"
+    },
+    "market_analyst": {
+      "sections": [
+        "TIME_SERIES",
+        "IMAGE"
+      ],
+      "text": "Status: AVAILABLE\nThrough session: 2023-05-12\nSource: S&P500_time_series/amzn.csv\ncumulative_return_5d: 0.04353585382063252\ncumulative_return_20d: 0.07560237868008879\ncumulative_return_60d: 0.089956486206906\nrealised_volatility_20d_annualised: 0.3618740366290256\nhigh_low_range_20d: 0.1199208805776888\ndrawdown_from_60d_peak: -0.01711533396079623\nrelative_volume_vs_20d_mean: 0.7189973262475935\nProvenance: e27845298fd1cc30a084c05784ea5e1d82ff850f820b13587a62fe22ddac4dd0\n\nStatus: AVAILABLE\nChart period: 2022-H2\nInferred period end: 2022-12-31\nEvidence age (calendar days): 132\nSource: amzn_2022_H2_candlestick.png\nCanonical caption: {\"candlestick_structure\":\"mostly green and red, with some green and red\",\"confidence\":\"moderate\",\"momentum_visual\":\"generally increasing, then decreasing\",\"notable_gap_or_reversal\":\"no significant gap or reversal\",\"other_visible_pattern\":\"no other visible patterns\",\"support_resistance_visual\":\"no clear support or resistance levels\",\"trend\":\"upward to peak, then downward\",\"volatility_visual\":\"high volatility, then decreasing\",\"volume_visual\":\"no visible volume pattern\"}\nCaption provenance: b4e2b78c71ab354b7177ebb2747ad14de8ec111c02747cf95d5a439782bdc7c9"
+    },
+    "news_analyst": {
+      "sections": [
+        "TEXT"
+      ],
+      "text": "Status: AVAILABLE\nEvidence age (calendar days): 1\nSource: sp500_news/AMZN.jsonl\nArticle 1 date: 2023-05-11\nArticle 1 title: 2 Reasons to Buy Amazon Stock That You Don't Already Know About\nArticle 1 source: https://www.nasdaq.com/articles/2-reasons-to-buy-amazon-stock-that-you-dont-already-know-about\nArticle 1 text: Amazon (NASDAQ: AMZN) has been one of the best stocks to own ever. However, while it has soared over its three decades on the stock market, it's actually down 11% over the past three years. After sending its shares higher on its pandemic-related success, investors appear to have soured on the e-commerce giant in its more recent struggles. Still, there are many good reasons to be bullish on Amazon stock now -- and at this price, it looks like time to buy. Here are two more reasons you may not know. 1. Amazon Sidewalk Amazon Sidewalk is a digital network that Amazon offers to help users power their Internet of Things (IoT) devices like the Amazon Echo (for using Alexa) or Ring (for controlling home entry). It's kind of like a back-up to your WiFi system, stepping in if you lose your connection -- and also just simply helps your various devices function together more smoothly. Sidewalk all…\nArticle 1 provenance: f847f25a90b0fa1325102c6a5dc1eefcb26751f2309d6a89a4afdaafa697bcf5\nArticle 2 date: 2023-05-11\nArticle 2 title: 3 FAANG Stocks For Your May 2023 Watchlist\nArticle 2 source: https://www.nasdaq.com/articles/3-faang-stocks-for-your-may-2023-watchlist\nArticle 2 text: FAANG is an acronym representing five of the most prominent and influential tech companies in the United States: Facebook, Apple, Amazon, Netflix, and Alphabet. These companies are considered to be some of the largest and most powerful entities in the tech industry and, by extension, the entire stock market. Each of these companies has shown exceptional growth and innovation, leading to significant influence on the economy and financial markets. Investing in FAANG stocks essentially means investing in the leading tech giants, each with a unique business model. Facebook and Google dominate digital advertising, Apple has a stronghold on tech hardware and software, Amazon is a leader in e-commerce and cloud services, and Netflix is a significant player in the streaming content industry. However, like any investment, FAANG stocks come with their own set of risks. Factors like regulatory pre…\nArticle 2 provenance: b97bf24322c3dc0cdf16df45d33d24fee560f1ca5f3c579c1fc5d8e7792bba5d\nArticle 3 date: 2023-05-11\nArticle 3 title: 3 Top E-Commerce Stocks to Buy in May\nArticle 3 source: https://www.nasdaq.com/articles/3-top-e-commerce-stocks-to-buy-in-may\nArticle 3 text: It's no secret that tech stocks have been volatile over the past year, with the tech-heavy Nasdaq Composite essentially flat over the past year. And while the roller-coaster ride has been understandably unnerving for investors, there are still some great tech segments that investors should consider. One of them is e-commerce, which is poised to become a $7 trillion market by 2025, according to eMarketer. Three companies already thriving in this space right now are Shopify (NYSE: SHOP), MercadoLibre (NASDAQ: MELI), and Amazon (NASDAQ: AMZN). Here's why investors should consider scooping up shares of these e-commerce leaders. Image source: Getty Images. 1. Shopify Shopify provides a platform for businesses of all sizes to sell their goods and services online, and its share price has surged 70% over the past year as the company has delivered impressive results. Shopify's revenue and earnin…\nArticle 3 provenance: 007d66d289dd959b61cda93a71cdafcfa3832b82541958c5341e07aeca9eab40\nArticle 4 date: 2023-05-11\nArticle 4 title: 5 High-Flying Bigwigs to Buy for Long -Term Gains\nArticle 4 source: https://www.nasdaq.com/articles/5-high-flying-bigwigs-to-buy-for-long-term-gains\nArticle 4 text: Wall Street has remained rangebound since April barring 2-3 days of rally or decline. Market participants are clueless about the health of the U.S. economy. Although several economic indicators have fallen substantially in 2023, the labor market stays resilient. Moreover, inflation is well above the Fed’s 2% target rate despite a massive 5% hike in interest rate from March 2022 to May 2023. A large section of economists and financial experts have warned about a recession later this year. However, first-quarter 2023 earnings of corporate America are better-than-expected so far. In its May FOMC meeting, the Fed refrained from giving any clearcut signal regarding the end of the current rate hike regime. Investment Strategy Investors remain directionless about the future trajectory of the U.S. stock movement. In such a situation, a good investment strategy can provide strong returns in the …\nArticle 4 provenance: b3f4b2ce8458bfeda0bf9584967662655bfb49461e9d7ed44871f91856c8c850\nArticle 5 date: 2023-05-11\nArticle 5 title: A Bull Market in Artificial Intelligence Is Coming: 2 AI Stocks to Buy Right Now\nArticle 5 source: https://www.nasdaq.com/articles/a-bull-market-in-artificial-intelligence-is-coming%3A-2-ai-stocks-to-buy-right-now\nArticle 5 text: Craig Martell, the Defense Department's chief digital and artificial intelligence (AI) officer, is reportedly \"scared to death\" about the potential for AI to be used to spread disinformation and for other nefarious aims. Warren Buffett recently likened AI to the creation of the atomic bomb and its associated dangers. Geoffrey Hinton, known by some as one of the \"godfathers of AI,\" warns that AI could be a more urgent threat than climate change. Perhaps unsurprisingly, given these and other warnings from prominent figures, thousands of technologists (including Elon Musk) have called for a six-month pause on the development of the most powerful AI systems due to their \"profound risks to society and humanity.\" The pause would offer an opportunity to consider appropriate regulations regarding how AI is used. Still, many others are convinced that AI has the potential to have a profoundly pos…\nArticle 5 provenance: 548fd14e995569ef5995c49f1454811c8422a2f5e9089031c53cce7549cd0548\nArticle 6 date: 2023-05-11\nArticle 6 title: AI Software Revenue Is Soaring Toward $14 Trillion: 2 Growth Stocks to Buy Now and Hold\nArticle 6 source: https://www.nasdaq.com/articles/ai-software-revenue-is-soaring-toward-%2414-trillion%3A-2-growth-stocks-to-buy-now-and-hold\nArticle 6 text: The concept of artificial intelligence (AI) has been around for thousands of years. In fact, Leonardo da Vinci constructed an automaton in 1495, building on work done centuries earlier by the philosopher Plato. But AI has evolved more rapidly in recent decades due to innovations in semiconductor design, and demand for AI solutions is expected to soar in the coming years. According to Ark Invest, AI software revenue could hit $14 trillion by 2030, up from $1 trillion in 2021. Many growth stocks will benefit from that trend, but Amazon (NASDAQ: AMZN) and Cognex (NASDAQ: CGNX) look particularly attractive given their current valuations. Here's what investors should know. Amazon: AI for software developers and advertisers Amazon Web Services (AWS) dominates the cloud computing industry. It accounted for 32% of cloud infrastructure and platform services (CIPS) in the first quarter, and consu…\nArticle 6 provenance: da65a03785120241ca76bebbf6fd7e38584a861ce81d10f252b6cda2a2e41ef2\nArticle 7 date: 2023-05-11\nArticle 7 title: COLUMN-U.S. mega tech is expensive, but may be unavoidable: McGeever\nArticle 7 source: https://www.nasdaq.com/articles/column-u.s.-mega-tech-is-expensive-but-may-be-unavoidable%3A-mcgeever\nArticle 7 text: By Jamie McGeever ORLANDO, Florida, May 11 (Reuters) - The U.S. stock market rally this year is so narrow that the S&P 500 index's .SPXgains have been entirely driven by just a handful of stocks, which are now significantly more expensive than more than 95% of the broader market. The question for investors is, does that valuation chasm begin to close, and will it influence the market's direction in the second half of the year as much as it did in the first? While the gap is extreme, the short-term correlation between valuation and performance is minimal unless you are coming off the sidelines and allocating fresh capital, analysts say. Performance over the next year or so will likely be driven by other factors like positioning and interest rate moves. Some of the numbers, however, are so startling they cannot be ignored. The top four stocks in the S&P 500 by weight - Apple Inc AAPL.O, M…\nArticle 7 provenance: 36639ed068bc0ca67f8cb850c240dca74c898b7ebe85ee00669dd2dc65b0cd35\nArticle 8 date: 2023-05-11\nArticle 8 title: Guru Fundamental Report for AMZN\nArticle 8 source: https://www.nasdaq.com/articles/guru-fundamental-report-for-amzn-32\nArticle 8 text: Below is Validea's guru fundamental report for AMAZON.COM, INC. (AMZN). Of the 22 guru strategies we follow, AMZN rates highest using our P/B Growth Investor model based on the published strategy of Partha Mohanram. This growth model looks for low book-to-market stocks that exhibit characteristics associated with sustained future growth. AMAZON.COM, INC. (AMZN) is a large-cap growth stock in the Retail (Specialty) industry. The rating using this strategy is 88% based on the firm’s underlying fundamentals and the stock’s valuation. A score of 80% or above typically indicates that the strategy has some interest in the stock and a score above 90% typically indicates strong interest. The following table summarizes whether the stock meets each of this strategy's tests. Not all criteria in the below table receive equal weighting or are independent, but the table provides a brief overview of t…\nArticle 8 provenance: c8e7c610b505d9efdd4339bbafa39ea27a5bf1114146279a236b39b8635f5da5"
+    },
+    "social_analyst": {
+      "sections": [],
+      "text": ""
+    }
+  },
+  "routing": {
+    "modality_to_analyst": {
+      "IMAGE": "Market Analyst",
+      "TABLE": "Fundamentals Analyst",
+      "TEXT": "News Analyst",
+      "TIME_SERIES": "Market Analyst"
+    },
+    "raw_packet_direct_injection": false,
+    "social_analyst": "NO_FINMULTITIME_EVIDENCE"
+  },
+  "section_sha256": {
+    "IMAGE": "eef4c2b6b7a1dd2a73f3c8172a69b5132cb38a8e3c8ed916925770ce7a3c5c45",
+    "TABLE": "101f58486f487d4bb9a2c2159ac9ebc0ca947bb0cf32054a820426b33abbc0a8",
+    "TEXT": "f7f81df7de0ea941c966089272ba4e16e1619929aa643d9c6d81b68d7af406e3",
+    "TIME_SERIES": "246292ee2147802046786ea867c358cf9839817f4193ab56d944666af6bf6668"
+  },
+  "source_provenance": {
+    "pit_cutoff": "2023-05-12",
+    "task_id": "M2-06"
+  },
+  "symbol": "AMZN",
+  "tier_membership": {
+    "in_compact": false,
+    "in_maximum": true,
+    "in_standard": false
+  }
+}

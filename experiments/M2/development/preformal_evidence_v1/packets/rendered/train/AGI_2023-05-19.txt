@@ -1,0 +1,82 @@
+=== FINMULTITIME EVIDENCE ===
+Symbol: AGI
+Decision session: 2023-05-19
+
+[TEXT]
+Status: AVAILABLE
+Evidence age (calendar days): 1
+Source: sp500_news/AGI.jsonl
+Article 1 date: 2023-05-18
+Article 1 title: Bunge (BG) to Boost Sustainable Practices With Nutrien Tie-Up
+Article 1 source: https://www.nasdaq.com/articles/bunge-bg-to-boost-sustainable-practices-with-nutrien-tie-up
+Article 1 text: Bunge Limited BG announced a strategic partnership with Nutrien Ltd.’s NTR retail division, Nutrien Ag Solutions. Through this alliance, the companies will boost the use of sustainable practices that improve soil health, thus providing new economic prospects to the field. The collaboration aligns with Bunge's commitment to continue investing in low-carbon projects.  The partnership will provide more whole-acre solutions to customers and end-consumers in the food, feed and fuel industries. It will increase sustainable agriculture across shared supply chains in North America.  The companies are targeting crop season 2023/2024 for this initiative. Initially, the initiative will concentrate on soybeans cultivated near Bunge's crushing plants in Council Bluffs, IA, and Decatur, with further scope of expansion. The program will include sustainable farming practices like cover crops, reduced t…
+Article 1 provenance: 0e8889b55a0e55ad1b5d7b57467c068f7de2e7c49b12fc08c7bc0d7f90a787d8
+Article 2 date: 2023-05-18
+Article 2 title: Franco-Nevada (FNV) Gains From Solid Portfolio & Metal Prices
+Article 2 source: https://www.nasdaq.com/articles/franco-nevada-fnv-gains-from-solid-portfolio-metal-prices
+Article 2 text: Franco-Nevada FNV has been gaining from its healthy portfolio of royalty and streaming agreements, and contributions from the recent buyouts. The company is well-poised to deliver strong earnings growth, aided by a focus on mine expansions and strong production from the Antamina mine.  Even though the company anticipates lower-than-estimated mining activities at Guadalupe, and decreased stream deliveries at Antamina and Antapaccay mines due to lower grades in the current year, these are likely to be offset by expected savings from its continued focus on cost management. The recent pickup in metal prices also bodes well for the company.  Shares of this Zacks Rank #1 (Strong Buy) company have gained 15.1% in the past year compared with the industry’s growth of 15.4%. You can see the complete list of today’s Zacks #1 Rank stocks here.   Image Source: Zacks Investment Research  Franco-Nevad…
+Article 2 provenance: 44c1493a55a4bba9a8bdc268c5bdd448f4617396a98f23847ee2931e66ea1386
+Article 3 date: 2023-05-18
+Article 3 title: Interesting AGI Put And Call Options For July 21st
+Article 3 source: https://www.nasdaq.com/articles/interesting-agi-put-and-call-options-for-july-21st
+Article 3 text: Investors in Alamos Gold Inc (Symbol: AGI) saw new options become available today, for the July 21st expiration. At Stock Options Channel, our YieldBoost formula has looked up and down the AGI options chain for the new July 21st contracts and identified one put and one call contract of particular interest. The put contract at the $12.00 strike price has a current bid of 45 cents. If an investor was to sell-to-open that put contract, they are committing to purchase the stock at $12.00, but will also collect the premium, putting the cost basis of the shares at $11.55 (before broker commissions). To an investor already interested in purchasing shares of AGI, that could represent an attractive alternative to paying $12.41/share today. Because the $12.00 strike represents an approximate 3% discount to the current trading price of the stock (in other words it is out-of-the-money by that perce…
+Article 3 provenance: e90a0c9f3b3a0063b74dc6146ba640813022d1ac07824cbf4aadad89f3c69a58
+Article 4 date: 2023-05-17
+Article 4 title: GrowGeneration (GRWG) Enters Mushroom Industry With GrowLife Deal
+Article 4 source: https://www.nasdaq.com/articles/growgeneration-grwg-enters-mushroom-industry-with-growlife-deal
+Article 4 text: GrowGeneration Corp. GRWG announced a multi-year partnership with GrowLife, Inc. PHOT. The deal will position both companies as early adopters in the rapidly increasing mushroom farming industry by focusing on the development and selling of mycology supplies.  GrowLife, in sync with its focus on investing and operating businesses in the promising mushroom industry, acquired Bridgetown Mushrooms in January 2023. According to the terms of the agreement between GrowLife and GRWG, the latter will be the sole distributor of Bridgetown's mycology products. The industry-leading products include Bridgetown's patented mix of commercial substrates, soils and nutrients created over the last ten years.  The collaboration will give mushroom farmers a suitable medium for optimizing mushroom production. With demand for mycology products on the rise, this partnership is likely to create considerable re…
+Article 4 provenance: 4cce1266de97f559d927019c026e52fd77f7fa8e4ec9cb6ff7e3182d470c101a
+Article 5 date: 2023-05-17
+Article 5 title: Is Alamos Gold (AGI) Outperforming Other Basic Materials Stocks This Year?
+Article 5 source: https://www.nasdaq.com/articles/is-alamos-gold-agi-outperforming-other-basic-materials-stocks-this-year
+Article 5 text: Investors interested in Basic Materials stocks should always be looking to find the best-performing companies in the group. Is Alamos Gold (AGI) one of those stocks right now? Let's take a closer look at the stock's year-to-date performance to find out. Alamos Gold is a member of our Basic Materials group, which includes 236 different companies and currently sits at #14 in the Zacks Sector Rank. The Zacks Sector Rank considers 16 different groups, measuring the average Zacks Rank of the individual stocks within the sector to gauge the strength of each group. The Zacks Rank is a proven system that emphasizes earnings estimates and estimate revisions, highlighting a variety of stocks that are displaying the right characteristics to beat the market over the next one to three months. Alamos Gold is currently sporting a Zacks Rank of #2 (Buy). Within the past quarter, the Zacks Consensus Est…
+Article 5 provenance: 8a0d25cd033a13cf6b96423d8d26a7cd6b13e562e2944115cb0d64225bcb659e
+Article 6 date: 2023-05-16
+Article 6 title: Fortuna Silver (FSM) Q1 Earnings Beat, Revenues Dip Y/Y
+Article 6 source: https://www.nasdaq.com/articles/fortuna-silver-fsm-q1-earnings-beat-revenues-dip-y-y
+Article 6 text: Fortuna Silver Mines Inc. FSM reported first-quarter 2023 adjusted earnings per share of 5 cents, beating the Zacks Consensus Estimate of 1 cent. The bottom line, however, marked a 55% slump from the year-ago quarter. Results were impacted by lower sales and operating margins at Yaramoko and Lindero due to lower head grades. Higher operating expenses also drove the downside. Including one-time items, Fortuna Silver reported earnings of 4 cents per share in the quarter under review compared with 9 cents in the year-ago quarter. Fortuna Silver’s revenues declined 4% year over year to $176 million in the quarter under review. The decline was attributed to lower silver prices. Consolidated All-In Sustaining Cost (AISC) per ounce of gold equivalent sold was $1,514. FSM reported a mine-operating profit of $40 million in the quarter under review, reflecting a year-over-year decline of 36%. The…
+Article 6 provenance: f5e5e37c22740504b8b8f7e990681f14d586e5687b00673035721e821afc3a8a
+Article 7 date: 2023-05-12
+Article 7 title: Avino Silver (ASM) Q1 Earnings Meet Estimates, Decline Y/Y
+Article 7 source: https://www.nasdaq.com/articles/avino-silver-asm-q1-earnings-meet-estimates-decline-y-y
+Article 7 text: Avino Silver & Gold Mines Ltd. ASM reported first-quarter 2023 adjusted earnings per share of 1 cent, in line with the Zacks Consensus Estimate. The company reported earnings per share of 3 cents in the prior-year quarter.  Including one-time items, it recorded break-even earnings in the first quarter compared with earnings per share of 1 cent in the year-ago quarter.  Avino Silver’s revenues fell 11% year over year to $9.8 million in the quarter under review from the $11 million reported in the prior year. The top line missed the Zacks Consensus Estimate of $11 million. The downside resulted from the negative impacts of the timing of concentrate shipments.  Avino Silver reported consolidation production of 678,247 silver equivalent ounces in the first quarter of 2023. This comprised 234,338 ounces of silver, 2,286 ounces of gold and 1,397,637 pounds of copper. Operational Update The co…
+Article 7 provenance: b3f9a5c72c5a35208fad8614a582970e6d715338ebc92d27ce7a1bcdcbf4bfda
+Article 8 date: 2023-05-10
+Article 8 title: B2Gold (BTG) Q1 Earnings and Sales Surpass Estimates, Up Y/Y
+Article 8 source: https://www.nasdaq.com/articles/b2gold-btg-q1-earnings-and-sales-surpass-estimates-up-y-y
+Article 8 text: B2Gold Corp BTG reported adjusted earnings per share (EPS) of 10 cents for first-quarter 2023, beating the Zacks Consensus Estimate of 7 cents. The bottom line surged 67% year over year.  Including one-time items, the company reported 8 cents per share earnings, flat year over year.  B2Gold generated revenues of $474 million in first-quarter 2023 compared with the prior-year quarter’s $366 million. The top line surpassed the Zacks Consensus Estimate of $316 million.  In the March-end quarter, B2Gold recorded consolidated gold production of 250,719 ounces, up 27.6% year over year. The total consolidated gold production for first-quarter 2023 was 266,856 ounces (including 16,137 ounces of attributable production from Calibre Mining Corp), up 27% from the prior-year quarter.  The company reported the consolidated cash operating costs of $576 per ounce in the reported quarter, down 14.8% ye…
+Article 8 provenance: aa7dd298785c22d9f93a9e2c22d7b09c4bbeba8eff7d71f793d613843c7a195d
+
+[TABLE]
+Status: UNAVAILABLE
+Missingness reason: no PIT-safe canonical fact for one or more concepts
+Source: 
+Assets: UNAVAILABLE
+Liabilities: UNAVAILABLE
+StockholdersEquity: UNAVAILABLE
+NetCashProvidedByUsedInOperatingActivities: UNAVAILABLE
+NetCashProvidedByUsedInInvestingActivities: UNAVAILABLE
+NetCashProvidedByUsedInFinancingActivities: UNAVAILABLE
+
+[TIME_SERIES]
+Status: AVAILABLE
+Through session: 2023-05-19
+Source: S&P500_time_series/agi.csv
+cumulative_return_5d: -0.04507898674344668
+cumulative_return_20d: -0.0023548160970862098
+cumulative_return_60d: 0.2701604378409195
+realised_volatility_20d_annualised: 0.26338114840544885
+high_low_range_20d: 0.14331984097168515
+drawdown_from_60d_peak: -0.08031842664631939
+relative_volume_vs_20d_mean: 0.6907761812363711
+Provenance: 8043102827cb3342097e9feaa556199b392c33e43eda4510a043370facb08b9f
+
+[IMAGE]
+Status: AVAILABLE
+Chart period: 2022-H2
+Inferred period end: 2022-12-31
+Evidence age (calendar days): 139
+Source: agi_2022_H2_candlestick.png
+Canonical caption: {"candlestick_structure":"mostly green and red","confidence":"high","momentum_visual":"increasing","notable_gap_or_reversal":"none","other_visible_pattern":"none","support_resistance_visual":"none","trend":"upward","volatility_visual":"moderate","volume_visual":"none"}
+Caption provenance: 131c2904cd82c850f94b00cc58e2b97b2ef69c7e805fa562ef2c8f2e00a568fe
+=== END FINMULTITIME EVIDENCE ===

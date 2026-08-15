@@ -1,0 +1,282 @@
+{
+  "IMAGE": {
+    "canonical_caption": {
+      "candlestick_structure": "mostly green and red, with some green and red",
+      "confidence": "moderate",
+      "momentum_visual": "generally increasing, then decreasing",
+      "notable_gap_or_reversal": "no significant gap or reversal",
+      "other_visible_pattern": "no other visible patterns",
+      "support_resistance_visual": "no clear support or resistance levels",
+      "trend": "upward to peak, then downward",
+      "volatility_visual": "high volatility, then decreasing",
+      "volume_visual": "no visible volume pattern"
+    },
+    "caption_sha256": "b4e2b78c71ab354b7177ebb2747ad14de8ec111c02747cf95d5a439782bdc7c9",
+    "caption_source": "NEW_QWEN_M2_06",
+    "caption_status": "GENERATED",
+    "chart_period": "2022-H2",
+    "evidence_age_calendar_days": 181,
+    "image_sha256": "f52b3a16034499f16b13eb1472ef9460cc5ea93f6b524e1e3683270c1debb2ae",
+    "inferred_period_end": "2022-12-31",
+    "provenance_hash_reference": "b4e2b78c71ab354b7177ebb2747ad14de8ec111c02747cf95d5a439782bdc7c9",
+    "reason": "",
+    "source_identity": "amzn_2022_H2_candlestick.png",
+    "status": "AVAILABLE"
+  },
+  "TABLE": {
+    "facts": {
+      "Assets": {
+        "accession": "0001018724-23-000008",
+        "filed_date": "2023-04-28",
+        "form": "10-Q",
+        "fp": "Q1",
+        "fy": 2023,
+        "period_duration_class": "point_in_time",
+        "period_duration_days": null,
+        "period_end": "2023-03-31",
+        "period_start": "",
+        "provenance_hash_reference": "83d3a69d48e18cf4802dad80c9d99f26d03d699c0ef5443e36fe42797aff3516",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 464378000000
+      },
+      "Liabilities": {
+        "reason": "no canonical PIT-safe selected fact",
+        "status": "UNAVAILABLE"
+      },
+      "NetCashProvidedByUsedInFinancingActivities": {
+        "accession": "0001018724-23-000008",
+        "filed_date": "2023-04-28",
+        "form": "10-Q",
+        "fp": "Q1",
+        "fy": 2023,
+        "period_duration_class": "quarterly",
+        "period_duration_days": 90,
+        "period_end": "2023-03-31",
+        "period_start": "2023-01-01",
+        "provenance_hash_reference": "547579fce07ab7f0145aea13264251fc03b4adeaa7afd2b6edfdd175109f4c25",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 6354000000
+      },
+      "NetCashProvidedByUsedInInvestingActivities": {
+        "accession": "0001018724-23-000008",
+        "filed_date": "2023-04-28",
+        "form": "10-Q",
+        "fp": "Q1",
+        "fy": 2023,
+        "period_duration_class": "quarterly",
+        "period_duration_days": 90,
+        "period_end": "2023-03-31",
+        "period_start": "2023-01-01",
+        "provenance_hash_reference": "6a1fabad46d1e8e9283aa1ce26dfa58ecb49d9df08518865bfe6a8780127dfe0",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": -15806000000
+      },
+      "NetCashProvidedByUsedInOperatingActivities": {
+        "accession": "0001018724-23-000008",
+        "filed_date": "2023-04-28",
+        "form": "10-Q",
+        "fp": "Q1",
+        "fy": 2023,
+        "period_duration_class": "quarterly",
+        "period_duration_days": 90,
+        "period_end": "2023-03-31",
+        "period_start": "2023-01-01",
+        "provenance_hash_reference": "2e10fadb5fb896172494ddedfe3d77cacfc60b47b3376320a6c4f6e087a71fed",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 4788000000
+      },
+      "StockholdersEquity": {
+        "accession": "0001018724-23-000008",
+        "filed_date": "2023-04-28",
+        "form": "10-Q",
+        "fp": "Q1",
+        "fy": 2023,
+        "period_duration_class": "point_in_time",
+        "period_duration_days": null,
+        "period_end": "2023-03-31",
+        "period_start": "",
+        "provenance_hash_reference": "c060b43c49bfed85aee694108f4c388e8a0d8607d57f7880cb65503d20376a2e",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 154526000000
+      }
+    },
+    "provenance_hash_reference": "ee295d0a5de8c29a47fc0dac2e3b115d9411539a63a2c90af51e827e6702a06d",
+    "reason": "",
+    "selection_rule": "frozen six-concept TABLE selection; filed_date < decision session",
+    "source_identity": "financial_reports/amzn/condensed_consolidated_balance_sheets.json;financial_reports/amzn/condensed_consolidated_statement_of_cash_flows.json",
+    "status": "AVAILABLE"
+  },
+  "TEXT": {
+    "evidence_age_calendar_days": 1,
+    "provenance_hash_reference": "a867384338e8f7fd6ec2d629cb6aca2b5e696f0decebca7b8c39038631909461",
+    "reason": "",
+    "records": [
+      {
+        "article_date": "2023-06-29",
+        "body": "Astute investors and market pundits were expecting the stock market returns to take a beating this year primarily due to the Federal Reserve’s aggressive monetary tightening measures to tackle stubbornly high inflation. The consensus was that persistent interest rate hikes would lead to an economic slump, dragging stocks down. An array of regional bank failures had further heightened concerns about economic growth. However, the economy is still chugging along, with the broader S&P 500 index well-poised to register its best half year in nearly two decades. This is because strength in the labor market overshadowed all kinds of headwinds, including the debt ceiling crisis. But it’s also true that big techs dominated the S&P 500’s rally for most of the year, thanks to the unprecedented progress in the field of artificial intelligence (AI). Driven by the AI frenzy, some of the notable S&P 50…",
+        "provenance_hash_reference": "8e0418fa9a5cc07926e1e13d0e775a7900fa3f3b9b6bf80c5516f854e4910df0",
+        "source": "https://www.nasdaq.com/articles/2-cruise-stocks-boosting-the-sp-500-rally-in-1h-2023",
+        "title": "2 Cruise Stocks Boosting the S&P 500 Rally in 1H 2023"
+      },
+      {
+        "article_date": "2023-06-29",
+        "body": "InvestorPlace - Stock Market News, Stock Advice & Trading Tips The popularity and overall interest in generative AI have investors clamoring for the next big AI company. Many companies that lead the stock market have jumped into the AI buzz, such as Microsoft (NASDAQ:MSFT), with their Azure AI technology being used across their many different platforms. Alphabet (NASDAQ:GOOGL) is using AI to help streamline its coding abilities. And Nvidia (NASDAQ:NVDA) has seen the most favorable results following its entrance into the AI space, with the production of chips that help power generative AI technology. This has led to the rise of AI stocks that are relatively unknown. With the enhanced interest in companies developing AI tools and services now, it is a field that can see massive growth potential in the near future. Exposure to AI stocks is a very good idea for investors looking to capture …",
+        "provenance_hash_reference": "11c0ff8aa7565dffea70dbb5c6346ea95c16c39c61e89e7986033fdb9634f73c",
+        "source": "https://www.nasdaq.com/articles/3-lesser-known-ai-stocks-you-havent-heard-of-yet",
+        "title": "3 Lesser Known AI Stocks You Haven’t Heard of Yet"
+      },
+      {
+        "article_date": "2023-06-29",
+        "body": "InvestorPlace - Stock Market News, Stock Advice & Trading Tips Longevity efforts are forefront of the news cycle today, due in large part to recent coverage of tech billionaire Bryan Johnson’s unique strategy to delay aging. This has investors trying to sniff out which biotech stocks to buy. But pumping millions into longevity research isn’t new. Big-ticket longevity backers include Amazon’s (NASDAQ:AMZN) Jeff Bezos and Palantir’s (NYSE:PLTR) Peter Thiel. In fact, longevity funding is so critical that one expert claims cash is holding the field back more than any other factor, and that “curing aging is a question of investment, not time.” Although most of us can take action in the fight against aging by eating well and exercising, opportunities for retail investment in longevity research have been sparse. These three biotech stocks to buy for the longevity trend can help investors cash …",
+        "provenance_hash_reference": "ecf1db14758db498cf97625a00d85dd54ec6eb20e6677810c0a494115ece4ee8",
+        "source": "https://www.nasdaq.com/articles/cash-in-on-the-longevity-boom%3A-3-biotech-stocks-to-buy-now",
+        "title": "Cash In on the Longevity Boom: 3 Biotech Stocks to Buy Now"
+      },
+      {
+        "article_date": "2023-06-29",
+        "body": "Cognizant Technology Solutions’ CTSH recently inked a strategic partnership with ServiceNow NOW to help clients adopt AI-driven automation across industries. The alliance aims to build a $1-billion combined business for both companies. The partnership leverages on Cognizant's ServiceNow Business Group, which offers AI-led platforms and industry solutions to transform IT, customer, employee and business experiences. The group will help clients improve operational effectiveness, enhance experience and expedite innovation. To optimize operations, organizations across sectors face challenges around platform silos and intensive manual workflows. To address these challenges, Cognizant integrates its deep industry expertise and enterprise AI solutions with ServiceNow’s powerful platform, delivering innovative and cost-effective solutions that enhance the value of clients' products. The collabo…",
+        "provenance_hash_reference": "821c394a51ecd2f1fac0c5730423d5f425f7e99fd2f18a39e7deedc9cddd3b87",
+        "source": "https://www.nasdaq.com/articles/cognizant-ctsh-boosts-ai-driven-automation-with-servicenow",
+        "title": "Cognizant (CTSH) Boosts AI-Driven Automation With ServiceNow"
+      },
+      {
+        "article_date": "2023-06-29",
+        "body": "Last year, Amazon (NASDAQ: AMZN) struggled with various economic headwinds, as well as other company-specific challenges. That led it to report its first annual loss in nearly a decade, and its shares dropped almost 50%. Things may be looking up, though. The company has made progress on its recovery plan, significantly reducing the outflow of cash and increasing operating income. Amazon may even have just the thing to boost revenue at Amazon Web Services (AWS), which is generally its biggest profit driver. I'm talking about artificial intelligence (AI). Let's find out more. The Amazon story First, it's important to consider Amazon's story over the past few years. A black swan event hurt many retailers -- but actually led to an enormous wave of demand for Amazon. The pandemic, in its early days, kept people at home and favoring online shopping. To keep up, Amazon doubled its fulfillment …",
+        "provenance_hash_reference": "1583df8af9b7e625e7af9858043d8b06abebd5085d26e77048eb2aefedf54bf6",
+        "source": "https://www.nasdaq.com/articles/could-ai-reignite-growth-at-amazons-aws",
+        "title": "Could AI Reignite Growth at Amazon's AWS?"
+      },
+      {
+        "article_date": "2023-06-29",
+        "body": "By Siddharth Cavale NEW YORK, June 29 (Reuters) - Top executives and major law enforcement agencies in the U.S. are fretting about organized crime rings targeting retailers' stores and trucks for goods they can resell online. Gangs of thieves coordinate to steal many millions of dollars of merchandise - often perfume, cosmetics, toiletries or power drills. They then resell the goods on the black market, generally at online auction sites, flea markets, to other retailers or even to third-party merchants on major e-commerce marketplaces such as Amazon.com and Walmart.com. Unlike amateur theft or spontaneous shoplifting by people with little to no pre-meditation, \"organized retail crime\" entails careful planning, deliberate targeting of retailers, and high-level coordination among perpetrators. The crime ring generally has two parts - those individuals who steal large quantities of merchan…",
+        "provenance_hash_reference": "b60ce46771323f2778c63a6d0bf817fc0ec0771c81bd76b01893010f1d2afecd",
+        "source": "https://www.nasdaq.com/articles/explainer-organized-retail-crime%3A-a-multi-billion-dollar-problem",
+        "title": "EXPLAINER-'Organized' retail crime: a 'multi-billion dollar problem'"
+      },
+      {
+        "article_date": "2023-06-29",
+        "body": "Rewrites throughout with focus on pricing June 29 (Reuters) - OVHcloud OVH.PA on Thursday said it would reap the full benefits of price hikes only in 2024, after the French cloud services provider's third-quarter sales came in a touch above forecasts. The company did not specify the quarter or month when the full benefits would be visible. It had previously said the price increases would fully kick in from the fourth quarter of the current fiscal year. \"We are keeping a close eye on tight cost management while continuing to invest,\" said CEO Michel Paulin in a statement. OVH, like many other cloud providers, has raised prices of its services to offset high costs of electricity, which cloud providers need to power their data centres. \"This gradual price increase has not affected the churn rate or customer acquisition momentum,\" the company said. Even as economic uncertainty has pushed te…",
+        "provenance_hash_reference": "2e9cd4bf3a53a3a387c074d354faf2f46b76ab9e62fec2e5e46ec27b706bb3b0",
+        "source": "https://www.nasdaq.com/articles/frances-ovhcloud-expects-full-pricing-benefits-in-2024",
+        "title": "France's OVHcloud expects full pricing benefits in 2024"
+      },
+      {
+        "article_date": "2023-06-29",
+        "body": "LONDON, June 29 (Reuters) - Markets are on the alert to which sectors will buckle under the sharpest jump in interest rates in decades, with big rate moves this month in Britain and Norway a reminder that the tightening is not over.      Central banks may need longer to lower inflation and a fresh bout of financial turbulence could make the process even more protracted, the International Monetary Fund warns.     Stability has returned since March's banks turmoil, but warning lights are flashing elsewhere and tensions in Russia provide another possible trigger for stress.      Here is a look at some of the pressure points.               1/ REAL ESTATE: PART 1     Just as hopes for an end to Federal Reserve rate hikes boost the U.S. housing market, European residential property is suffering under rate hikes.     UK rates have jumped to 5% from 0.25% two years ago and 2.4 million homeowner…",
+        "provenance_hash_reference": "ec79c6e57fba20d497f5a0619aaf5d9f1c17ccc3f42bc303b98870815d25eb98",
+        "source": "https://www.nasdaq.com/articles/graphic-what-could-break-as-interest-rates-rise",
+        "title": "GRAPHIC-What could break as interest rates rise?"
+      }
+    ],
+    "selection_rule": "frozen bounded TEXT selection; Date < decision session; deterministic order",
+    "source_identity": "sp500_news/AMZN.jsonl",
+    "status": "AVAILABLE"
+  },
+  "TIME_SERIES": {
+    "provenance_hash_reference": "34dce5c67f1344cb8c223832d50e80f8c5a9cb45299d770c1de579822ee4dd4c",
+    "reason": "",
+    "selection_rule": "frozen descriptive summaries from 61 completed source rows; session <= decision",
+    "source_identity": "S&P500_time_series/amzn.csv",
+    "status": "AVAILABLE",
+    "summaries": {
+      "cumulative_return_20d": 0.06182295491423573,
+      "cumulative_return_5d": 0.007964113235244374,
+      "cumulative_return_60d": 0.25406449675279164,
+      "drawdown_from_60d_peak": 0.0,
+      "high_low_range_20d": 0.09002742673475761,
+      "realised_volatility_20d_annualised": 0.2880827830293155,
+      "relative_volume_vs_20d_mean": 0.9140578907538367
+    },
+    "through_session": "2023-06-30"
+  },
+  "agent_text": "=== FINMULTITIME EVIDENCE ===\nSymbol: AMZN\nDecision session: 2023-06-30\n\n[TEXT]\nStatus: AVAILABLE\nEvidence age (calendar days): 1\nSource: sp500_news/AMZN.jsonl\nArticle 1 date: 2023-06-29\nArticle 1 title: 2 Cruise Stocks Boosting the S&P 500 Rally in 1H 2023\nArticle 1 source: https://www.nasdaq.com/articles/2-cruise-stocks-boosting-the-sp-500-rally-in-1h-2023\nArticle 1 text: Astute investors and market pundits were expecting the stock market returns to take a beating this year primarily due to the Federal Reserve’s aggressive monetary tightening measures to tackle stubbornly high inflation. The consensus was that persistent interest rate hikes would lead to an economic slump, dragging stocks down. An array of regional bank failures had further heightened concerns about economic growth. However, the economy is still chugging along, with the broader S&P 500 index well-poised to register its best half year in nearly two decades. This is because strength in the labor market overshadowed all kinds of headwinds, including the debt ceiling crisis. But it’s also true that big techs dominated the S&P 500’s rally for most of the year, thanks to the unprecedented progress in the field of artificial intelligence (AI). Driven by the AI frenzy, some of the notable S&P 50…\nArticle 1 provenance: 8e0418fa9a5cc07926e1e13d0e775a7900fa3f3b9b6bf80c5516f854e4910df0\nArticle 2 date: 2023-06-29\nArticle 2 title: 3 Lesser Known AI Stocks You Haven’t Heard of Yet\nArticle 2 source: https://www.nasdaq.com/articles/3-lesser-known-ai-stocks-you-havent-heard-of-yet\nArticle 2 text: InvestorPlace - Stock Market News, Stock Advice & Trading Tips The popularity and overall interest in generative AI have investors clamoring for the next big AI company. Many companies that lead the stock market have jumped into the AI buzz, such as Microsoft (NASDAQ:MSFT), with their Azure AI technology being used across their many different platforms. Alphabet (NASDAQ:GOOGL) is using AI to help streamline its coding abilities. And Nvidia (NASDAQ:NVDA) has seen the most favorable results following its entrance into the AI space, with the production of chips that help power generative AI technology. This has led to the rise of AI stocks that are relatively unknown. With the enhanced interest in companies developing AI tools and services now, it is a field that can see massive growth potential in the near future. Exposure to AI stocks is a very good idea for investors looking to capture …\nArticle 2 provenance: 11c0ff8aa7565dffea70dbb5c6346ea95c16c39c61e89e7986033fdb9634f73c\nArticle 3 date: 2023-06-29\nArticle 3 title: Cash In on the Longevity Boom: 3 Biotech Stocks to Buy Now\nArticle 3 source: https://www.nasdaq.com/articles/cash-in-on-the-longevity-boom%3A-3-biotech-stocks-to-buy-now\nArticle 3 text: InvestorPlace - Stock Market News, Stock Advice & Trading Tips Longevity efforts are forefront of the news cycle today, due in large part to recent coverage of tech billionaire Bryan Johnson’s unique strategy to delay aging. This has investors trying to sniff out which biotech stocks to buy. But pumping millions into longevity research isn’t new. Big-ticket longevity backers include Amazon’s (NASDAQ:AMZN) Jeff Bezos and Palantir’s (NYSE:PLTR) Peter Thiel. In fact, longevity funding is so critical that one expert claims cash is holding the field back more than any other factor, and that “curing aging is a question of investment, not time.” Although most of us can take action in the fight against aging by eating well and exercising, opportunities for retail investment in longevity research have been sparse. These three biotech stocks to buy for the longevity trend can help investors cash …\nArticle 3 provenance: ecf1db14758db498cf97625a00d85dd54ec6eb20e6677810c0a494115ece4ee8\nArticle 4 date: 2023-06-29\nArticle 4 title: Cognizant (CTSH) Boosts AI-Driven Automation With ServiceNow\nArticle 4 source: https://www.nasdaq.com/articles/cognizant-ctsh-boosts-ai-driven-automation-with-servicenow\nArticle 4 text: Cognizant Technology Solutions’ CTSH recently inked a strategic partnership with ServiceNow NOW to help clients adopt AI-driven automation across industries. The alliance aims to build a $1-billion combined business for both companies. The partnership leverages on Cognizant's ServiceNow Business Group, which offers AI-led platforms and industry solutions to transform IT, customer, employee and business experiences. The group will help clients improve operational effectiveness, enhance experience and expedite innovation. To optimize operations, organizations across sectors face challenges around platform silos and intensive manual workflows. To address these challenges, Cognizant integrates its deep industry expertise and enterprise AI solutions with ServiceNow’s powerful platform, delivering innovative and cost-effective solutions that enhance the value of clients' products. The collabo…\nArticle 4 provenance: 821c394a51ecd2f1fac0c5730423d5f425f7e99fd2f18a39e7deedc9cddd3b87\nArticle 5 date: 2023-06-29\nArticle 5 title: Could AI Reignite Growth at Amazon's AWS?\nArticle 5 source: https://www.nasdaq.com/articles/could-ai-reignite-growth-at-amazons-aws\nArticle 5 text: Last year, Amazon (NASDAQ: AMZN) struggled with various economic headwinds, as well as other company-specific challenges. That led it to report its first annual loss in nearly a decade, and its shares dropped almost 50%. Things may be looking up, though. The company has made progress on its recovery plan, significantly reducing the outflow of cash and increasing operating income. Amazon may even have just the thing to boost revenue at Amazon Web Services (AWS), which is generally its biggest profit driver. I'm talking about artificial intelligence (AI). Let's find out more. The Amazon story First, it's important to consider Amazon's story over the past few years. A black swan event hurt many retailers -- but actually led to an enormous wave of demand for Amazon. The pandemic, in its early days, kept people at home and favoring online shopping. To keep up, Amazon doubled its fulfillment …\nArticle 5 provenance: 1583df8af9b7e625e7af9858043d8b06abebd5085d26e77048eb2aefedf54bf6\nArticle 6 date: 2023-06-29\nArticle 6 title: EXPLAINER-'Organized' retail crime: a 'multi-billion dollar problem'\nArticle 6 source: https://www.nasdaq.com/articles/explainer-organized-retail-crime%3A-a-multi-billion-dollar-problem\nArticle 6 text: By Siddharth Cavale NEW YORK, June 29 (Reuters) - Top executives and major law enforcement agencies in the U.S. are fretting about organized crime rings targeting retailers' stores and trucks for goods they can resell online. Gangs of thieves coordinate to steal many millions of dollars of merchandise - often perfume, cosmetics, toiletries or power drills. They then resell the goods on the black market, generally at online auction sites, flea markets, to other retailers or even to third-party merchants on major e-commerce marketplaces such as Amazon.com and Walmart.com. Unlike amateur theft or spontaneous shoplifting by people with little to no pre-meditation, \"organized retail crime\" entails careful planning, deliberate targeting of retailers, and high-level coordination among perpetrators. The crime ring generally has two parts - those individuals who steal large quantities of merchan…\nArticle 6 provenance: b60ce46771323f2778c63a6d0bf817fc0ec0771c81bd76b01893010f1d2afecd\nArticle 7 date: 2023-06-29\nArticle 7 title: France's OVHcloud expects full pricing benefits in 2024\nArticle 7 source: https://www.nasdaq.com/articles/frances-ovhcloud-expects-full-pricing-benefits-in-2024\nArticle 7 text: Rewrites throughout with focus on pricing June 29 (Reuters) - OVHcloud OVH.PA on Thursday said it would reap the full benefits of price hikes only in 2024, after the French cloud services provider's third-quarter sales came in a touch above forecasts. The company did not specify the quarter or month when the full benefits would be visible. It had previously said the price increases would fully kick in from the fourth quarter of the current fiscal year. \"We are keeping a close eye on tight cost management while continuing to invest,\" said CEO Michel Paulin in a statement. OVH, like many other cloud providers, has raised prices of its services to offset high costs of electricity, which cloud providers need to power their data centres. \"This gradual price increase has not affected the churn rate or customer acquisition momentum,\" the company said. Even as economic uncertainty has pushed te…\nArticle 7 provenance: 2e9cd4bf3a53a3a387c074d354faf2f46b76ab9e62fec2e5e46ec27b706bb3b0\nArticle 8 date: 2023-06-29\nArticle 8 title: GRAPHIC-What could break as interest rates rise?\nArticle 8 source: https://www.nasdaq.com/articles/graphic-what-could-break-as-interest-rates-rise\nArticle 8 text: LONDON, June 29 (Reuters) - Markets are on the alert to which sectors will buckle under the sharpest jump in interest rates in decades, with big rate moves this month in Britain and Norway a reminder that the tightening is not over.      Central banks may need longer to lower inflation and a fresh bout of financial turbulence could make the process even more protracted, the International Monetary Fund warns.     Stability has returned since March's banks turmoil, but warning lights are flashing elsewhere and tensions in Russia provide another possible trigger for stress.      Here is a look at some of the pressure points.               1/ REAL ESTATE: PART 1     Just as hopes for an end to Federal Reserve rate hikes boost the U.S. housing market, European residential property is suffering under rate hikes.     UK rates have jumped to 5% from 0.25% two years ago and 2.4 million homeowner…\nArticle 8 provenance: ec79c6e57fba20d497f5a0619aaf5d9f1c17ccc3f42bc303b98870815d25eb98\n\n[TABLE]\nStatus: AVAILABLE\nSource: financial_reports/amzn/condensed_consolidated_balance_sheets.json;financial_reports/amzn/condensed_consolidated_statement_of_cash_flows.json\nAssets: value=464378000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-03-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=83d3a69d48e18cf4802dad80c9d99f26d03d699c0ef5443e36fe42797aff3516\nLiabilities: UNAVAILABLE\nStockholdersEquity: value=154526000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-03-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=c060b43c49bfed85aee694108f4c388e8a0d8607d57f7880cb65503d20376a2e\nNetCashProvidedByUsedInOperatingActivities: value=4788000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-03-31; period_duration_days=90; period_duration_class=quarterly; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=2e10fadb5fb896172494ddedfe3d77cacfc60b47b3376320a6c4f6e087a71fed\nNetCashProvidedByUsedInInvestingActivities: value=-15806000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-03-31; period_duration_days=90; period_duration_class=quarterly; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=6a1fabad46d1e8e9283aa1ce26dfa58ecb49d9df08518865bfe6a8780127dfe0\nNetCashProvidedByUsedInFinancingActivities: value=6354000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-03-31; period_duration_days=90; period_duration_class=quarterly; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=547579fce07ab7f0145aea13264251fc03b4adeaa7afd2b6edfdd175109f4c25\n\n[TIME_SERIES]\nStatus: AVAILABLE\nThrough session: 2023-06-30\nSource: S&P500_time_series/amzn.csv\ncumulative_return_5d: 0.007964113235244374\ncumulative_return_20d: 0.06182295491423573\ncumulative_return_60d: 0.25406449675279164\nrealised_volatility_20d_annualised: 0.2880827830293155\nhigh_low_range_20d: 0.09002742673475761\ndrawdown_from_60d_peak: 0.0\nrelative_volume_vs_20d_mean: 0.9140578907538367\nProvenance: 34dce5c67f1344cb8c223832d50e80f8c5a9cb45299d770c1de579822ee4dd4c\n\n[IMAGE]\nStatus: AVAILABLE\nChart period: 2022-H2\nInferred period end: 2022-12-31\nEvidence age (calendar days): 181\nSource: amzn_2022_H2_candlestick.png\nCanonical caption: {\"candlestick_structure\":\"mostly green and red, with some green and red\",\"confidence\":\"moderate\",\"momentum_visual\":\"generally increasing, then decreasing\",\"notable_gap_or_reversal\":\"no significant gap or reversal\",\"other_visible_pattern\":\"no other visible patterns\",\"support_resistance_visual\":\"no clear support or resistance levels\",\"trend\":\"upward to peak, then downward\",\"volatility_visual\":\"high volatility, then decreasing\",\"volume_visual\":\"no visible volume pattern\"}\nCaption provenance: b4e2b78c71ab354b7177ebb2747ad14de8ec111c02747cf95d5a439782bdc7c9\n=== END FINMULTITIME EVIDENCE ===\n",
+  "available_for_training": false,
+  "available_for_validation": true,
+  "case_id": "AMZN:2023-06-30",
+  "character_counts": {
+    "complete": 12873,
+    "fundamentals": 1809,
+    "market": 1180,
+    "news": 9735
+  },
+  "contract_version": "M1-FINMULTITIME-v1.0.2",
+  "dataset_id": "m2_preformal_evidence_v1",
+  "decision_session": "2023-06-30",
+  "decision_time": "2023-06-30T20:00:00+00:00",
+  "engineering_only": false,
+  "m2_metadata": {
+    "available_for_training": false,
+    "available_for_validation": true,
+    "engineering_only": false,
+    "performance_for_selection": false,
+    "protected": false,
+    "role": "VALIDATION",
+    "tier_membership": {
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    }
+  },
+  "packet_sha256": "decbd61369a6cf55455e9cc980b89b4d1e85e344b1fed1f49df4de32982fc738",
+  "packet_status": "FINAL_FROZEN",
+  "performance_for_selection": false,
+  "protected": false,
+  "record_type": "m1_finmultitime_evidence_packet",
+  "role": "VALIDATION",
+  "routed_projections": {
+    "fundamentals_analyst": {
+      "sections": [
+        "TABLE"
+      ],
+      "text": "Status: AVAILABLE\nSource: financial_reports/amzn/condensed_consolidated_balance_sheets.json;financial_reports/amzn/condensed_consolidated_statement_of_cash_flows.json\nAssets: value=464378000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-03-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=83d3a69d48e18cf4802dad80c9d99f26d03d699c0ef5443e36fe42797aff3516\nLiabilities: UNAVAILABLE\nStockholdersEquity: value=154526000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-03-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=c060b43c49bfed85aee694108f4c388e8a0d8607d57f7880cb65503d20376a2e\nNetCashProvidedByUsedInOperatingActivities: value=4788000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-03-31; period_duration_days=90; period_duration_class=quarterly; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=2e10fadb5fb896172494ddedfe3d77cacfc60b47b3376320a6c4f6e087a71fed\nNetCashProvidedByUsedInInvestingActivities: value=-15806000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-03-31; period_duration_days=90; period_duration_class=quarterly; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=6a1fabad46d1e8e9283aa1ce26dfa58ecb49d9df08518865bfe6a8780127dfe0\nNetCashProvidedByUsedInFinancingActivities: value=6354000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-03-31; period_duration_days=90; period_duration_class=quarterly; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=547579fce07ab7f0145aea13264251fc03b4adeaa7afd2b6edfdd175109f4c25"
+    },
+    "market_analyst": {
+      "sections": [
+        "TIME_SERIES",
+        "IMAGE"
+      ],
+      "text": "Status: AVAILABLE\nThrough session: 2023-06-30\nSource: S&P500_time_series/amzn.csv\ncumulative_return_5d: 0.007964113235244374\ncumulative_return_20d: 0.06182295491423573\ncumulative_return_60d: 0.25406449675279164\nrealised_volatility_20d_annualised: 0.2880827830293155\nhigh_low_range_20d: 0.09002742673475761\ndrawdown_from_60d_peak: 0.0\nrelative_volume_vs_20d_mean: 0.9140578907538367\nProvenance: 34dce5c67f1344cb8c223832d50e80f8c5a9cb45299d770c1de579822ee4dd4c\n\nStatus: AVAILABLE\nChart period: 2022-H2\nInferred period end: 2022-12-31\nEvidence age (calendar days): 181\nSource: amzn_2022_H2_candlestick.png\nCanonical caption: {\"candlestick_structure\":\"mostly green and red, with some green and red\",\"confidence\":\"moderate\",\"momentum_visual\":\"generally increasing, then decreasing\",\"notable_gap_or_reversal\":\"no significant gap or reversal\",\"other_visible_pattern\":\"no other visible patterns\",\"support_resistance_visual\":\"no clear support or resistance levels\",\"trend\":\"upward to peak, then downward\",\"volatility_visual\":\"high volatility, then decreasing\",\"volume_visual\":\"no visible volume pattern\"}\nCaption provenance: b4e2b78c71ab354b7177ebb2747ad14de8ec111c02747cf95d5a439782bdc7c9"
+    },
+    "news_analyst": {
+      "sections": [
+        "TEXT"
+      ],
+      "text": "Status: AVAILABLE\nEvidence age (calendar days): 1\nSource: sp500_news/AMZN.jsonl\nArticle 1 date: 2023-06-29\nArticle 1 title: 2 Cruise Stocks Boosting the S&P 500 Rally in 1H 2023\nArticle 1 source: https://www.nasdaq.com/articles/2-cruise-stocks-boosting-the-sp-500-rally-in-1h-2023\nArticle 1 text: Astute investors and market pundits were expecting the stock market returns to take a beating this year primarily due to the Federal Reserve’s aggressive monetary tightening measures to tackle stubbornly high inflation. The consensus was that persistent interest rate hikes would lead to an economic slump, dragging stocks down. An array of regional bank failures had further heightened concerns about economic growth. However, the economy is still chugging along, with the broader S&P 500 index well-poised to register its best half year in nearly two decades. This is because strength in the labor market overshadowed all kinds of headwinds, including the debt ceiling crisis. But it’s also true that big techs dominated the S&P 500’s rally for most of the year, thanks to the unprecedented progress in the field of artificial intelligence (AI). Driven by the AI frenzy, some of the notable S&P 50…\nArticle 1 provenance: 8e0418fa9a5cc07926e1e13d0e775a7900fa3f3b9b6bf80c5516f854e4910df0\nArticle 2 date: 2023-06-29\nArticle 2 title: 3 Lesser Known AI Stocks You Haven’t Heard of Yet\nArticle 2 source: https://www.nasdaq.com/articles/3-lesser-known-ai-stocks-you-havent-heard-of-yet\nArticle 2 text: InvestorPlace - Stock Market News, Stock Advice & Trading Tips The popularity and overall interest in generative AI have investors clamoring for the next big AI company. Many companies that lead the stock market have jumped into the AI buzz, such as Microsoft (NASDAQ:MSFT), with their Azure AI technology being used across their many different platforms. Alphabet (NASDAQ:GOOGL) is using AI to help streamline its coding abilities. And Nvidia (NASDAQ:NVDA) has seen the most favorable results following its entrance into the AI space, with the production of chips that help power generative AI technology. This has led to the rise of AI stocks that are relatively unknown. With the enhanced interest in companies developing AI tools and services now, it is a field that can see massive growth potential in the near future. Exposure to AI stocks is a very good idea for investors looking to capture …\nArticle 2 provenance: 11c0ff8aa7565dffea70dbb5c6346ea95c16c39c61e89e7986033fdb9634f73c\nArticle 3 date: 2023-06-29\nArticle 3 title: Cash In on the Longevity Boom: 3 Biotech Stocks to Buy Now\nArticle 3 source: https://www.nasdaq.com/articles/cash-in-on-the-longevity-boom%3A-3-biotech-stocks-to-buy-now\nArticle 3 text: InvestorPlace - Stock Market News, Stock Advice & Trading Tips Longevity efforts are forefront of the news cycle today, due in large part to recent coverage of tech billionaire Bryan Johnson’s unique strategy to delay aging. This has investors trying to sniff out which biotech stocks to buy. But pumping millions into longevity research isn’t new. Big-ticket longevity backers include Amazon’s (NASDAQ:AMZN) Jeff Bezos and Palantir’s (NYSE:PLTR) Peter Thiel. In fact, longevity funding is so critical that one expert claims cash is holding the field back more than any other factor, and that “curing aging is a question of investment, not time.” Although most of us can take action in the fight against aging by eating well and exercising, opportunities for retail investment in longevity research have been sparse. These three biotech stocks to buy for the longevity trend can help investors cash …\nArticle 3 provenance: ecf1db14758db498cf97625a00d85dd54ec6eb20e6677810c0a494115ece4ee8\nArticle 4 date: 2023-06-29\nArticle 4 title: Cognizant (CTSH) Boosts AI-Driven Automation With ServiceNow\nArticle 4 source: https://www.nasdaq.com/articles/cognizant-ctsh-boosts-ai-driven-automation-with-servicenow\nArticle 4 text: Cognizant Technology Solutions’ CTSH recently inked a strategic partnership with ServiceNow NOW to help clients adopt AI-driven automation across industries. The alliance aims to build a $1-billion combined business for both companies. The partnership leverages on Cognizant's ServiceNow Business Group, which offers AI-led platforms and industry solutions to transform IT, customer, employee and business experiences. The group will help clients improve operational effectiveness, enhance experience and expedite innovation. To optimize operations, organizations across sectors face challenges around platform silos and intensive manual workflows. To address these challenges, Cognizant integrates its deep industry expertise and enterprise AI solutions with ServiceNow’s powerful platform, delivering innovative and cost-effective solutions that enhance the value of clients' products. The collabo…\nArticle 4 provenance: 821c394a51ecd2f1fac0c5730423d5f425f7e99fd2f18a39e7deedc9cddd3b87\nArticle 5 date: 2023-06-29\nArticle 5 title: Could AI Reignite Growth at Amazon's AWS?\nArticle 5 source: https://www.nasdaq.com/articles/could-ai-reignite-growth-at-amazons-aws\nArticle 5 text: Last year, Amazon (NASDAQ: AMZN) struggled with various economic headwinds, as well as other company-specific challenges. That led it to report its first annual loss in nearly a decade, and its shares dropped almost 50%. Things may be looking up, though. The company has made progress on its recovery plan, significantly reducing the outflow of cash and increasing operating income. Amazon may even have just the thing to boost revenue at Amazon Web Services (AWS), which is generally its biggest profit driver. I'm talking about artificial intelligence (AI). Let's find out more. The Amazon story First, it's important to consider Amazon's story over the past few years. A black swan event hurt many retailers -- but actually led to an enormous wave of demand for Amazon. The pandemic, in its early days, kept people at home and favoring online shopping. To keep up, Amazon doubled its fulfillment …\nArticle 5 provenance: 1583df8af9b7e625e7af9858043d8b06abebd5085d26e77048eb2aefedf54bf6\nArticle 6 date: 2023-06-29\nArticle 6 title: EXPLAINER-'Organized' retail crime: a 'multi-billion dollar problem'\nArticle 6 source: https://www.nasdaq.com/articles/explainer-organized-retail-crime%3A-a-multi-billion-dollar-problem\nArticle 6 text: By Siddharth Cavale NEW YORK, June 29 (Reuters) - Top executives and major law enforcement agencies in the U.S. are fretting about organized crime rings targeting retailers' stores and trucks for goods they can resell online. Gangs of thieves coordinate to steal many millions of dollars of merchandise - often perfume, cosmetics, toiletries or power drills. They then resell the goods on the black market, generally at online auction sites, flea markets, to other retailers or even to third-party merchants on major e-commerce marketplaces such as Amazon.com and Walmart.com. Unlike amateur theft or spontaneous shoplifting by people with little to no pre-meditation, \"organized retail crime\" entails careful planning, deliberate targeting of retailers, and high-level coordination among perpetrators. The crime ring generally has two parts - those individuals who steal large quantities of merchan…\nArticle 6 provenance: b60ce46771323f2778c63a6d0bf817fc0ec0771c81bd76b01893010f1d2afecd\nArticle 7 date: 2023-06-29\nArticle 7 title: France's OVHcloud expects full pricing benefits in 2024\nArticle 7 source: https://www.nasdaq.com/articles/frances-ovhcloud-expects-full-pricing-benefits-in-2024\nArticle 7 text: Rewrites throughout with focus on pricing June 29 (Reuters) - OVHcloud OVH.PA on Thursday said it would reap the full benefits of price hikes only in 2024, after the French cloud services provider's third-quarter sales came in a touch above forecasts. The company did not specify the quarter or month when the full benefits would be visible. It had previously said the price increases would fully kick in from the fourth quarter of the current fiscal year. \"We are keeping a close eye on tight cost management while continuing to invest,\" said CEO Michel Paulin in a statement. OVH, like many other cloud providers, has raised prices of its services to offset high costs of electricity, which cloud providers need to power their data centres. \"This gradual price increase has not affected the churn rate or customer acquisition momentum,\" the company said. Even as economic uncertainty has pushed te…\nArticle 7 provenance: 2e9cd4bf3a53a3a387c074d354faf2f46b76ab9e62fec2e5e46ec27b706bb3b0\nArticle 8 date: 2023-06-29\nArticle 8 title: GRAPHIC-What could break as interest rates rise?\nArticle 8 source: https://www.nasdaq.com/articles/graphic-what-could-break-as-interest-rates-rise\nArticle 8 text: LONDON, June 29 (Reuters) - Markets are on the alert to which sectors will buckle under the sharpest jump in interest rates in decades, with big rate moves this month in Britain and Norway a reminder that the tightening is not over.      Central banks may need longer to lower inflation and a fresh bout of financial turbulence could make the process even more protracted, the International Monetary Fund warns.     Stability has returned since March's banks turmoil, but warning lights are flashing elsewhere and tensions in Russia provide another possible trigger for stress.      Here is a look at some of the pressure points.               1/ REAL ESTATE: PART 1     Just as hopes for an end to Federal Reserve rate hikes boost the U.S. housing market, European residential property is suffering under rate hikes.     UK rates have jumped to 5% from 0.25% two years ago and 2.4 million homeowner…\nArticle 8 provenance: ec79c6e57fba20d497f5a0619aaf5d9f1c17ccc3f42bc303b98870815d25eb98"
+    },
+    "social_analyst": {
+      "sections": [],
+      "text": ""
+    }
+  },
+  "routing": {
+    "modality_to_analyst": {
+      "IMAGE": "Market Analyst",
+      "TABLE": "Fundamentals Analyst",
+      "TEXT": "News Analyst",
+      "TIME_SERIES": "Market Analyst"
+    },
+    "raw_packet_direct_injection": false,
+    "social_analyst": "NO_FINMULTITIME_EVIDENCE"
+  },
+  "section_sha256": {
+    "IMAGE": "fbd851734595b00302b5cdffa0604c85a3719e42d2ec9e5ca5d24f7a93a12282",
+    "TABLE": "101f58486f487d4bb9a2c2159ac9ebc0ca947bb0cf32054a820426b33abbc0a8",
+    "TEXT": "775abb3b8373c28338ae7a1ee636b64de3a3f75efd88f61811976a92667b6996",
+    "TIME_SERIES": "03185463ff4949b8d1425cb1300f4be2606e1172cee5c02fe13528d7dce48ac0"
+  },
+  "source_provenance": {
+    "pit_cutoff": "2023-06-30",
+    "task_id": "M2-06"
+  },
+  "symbol": "AMZN",
+  "tier_membership": {
+    "in_compact": true,
+    "in_maximum": true,
+    "in_standard": true
+  }
+}

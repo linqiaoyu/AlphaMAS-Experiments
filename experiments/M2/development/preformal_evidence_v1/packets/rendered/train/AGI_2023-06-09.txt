@@ -1,0 +1,82 @@
+=== FINMULTITIME EVIDENCE ===
+Symbol: AGI
+Decision session: 2023-06-09
+
+[TEXT]
+Status: AVAILABLE
+Evidence age (calendar days): 1
+Source: sp500_news/AGI.jsonl
+Article 1 date: 2023-06-08
+Article 1 title: Hong Kong's LET Group securing $446 mln loan for Philippine casino
+Article 1 source: https://www.nasdaq.com/articles/hong-kongs-let-group-securing-%24446-mln-loan-for-philippine-casino
+Article 1 text: MANILA, June 9 (Reuters) - The Philippine unit of Hong Kong's LET Group Holdings 1383.HK, formerly junket operator Suncity, is securing a bank loan of up to 25 billion pesos ($446 million) to fund a megacasino in the capital Manila, the firm told the stock exchange on Friday. The unit, Suntrust Resort Holdings SUN.PS, has signed a loan facility agreement with China Banking Corp CHIB.PS that will allow LET Group to complete and start operations of a $2 billion integrated casino-resort next year, a source with direct knowledge of the transaction told Reuters. The Philippines boasts of one of the most freewheeling casino industries in Asia, where many countries outlaw gambling. LET Group's casino project, in partnership with domestic conglomerate Alliance Global Group Inc AGI.PS, will be one of five major casinos in Manila and the fourth billion-dollar complex to operate in Entertainment C…
+Article 1 provenance: b79812e7ae2b87879256f3707e44f2faa6836f05df4490b4e5faad67fee89665
+Article 2 date: 2023-06-06
+Article 2 title: Alamos Gold Inc. - (AGI) Declares $0.02 Dividend
+Article 2 source: https://www.nasdaq.com/articles/alamos-gold-inc.-agi-declares-%240.02-dividend
+Article 2 text: Alamos Gold Inc. - said on June 5, 2023 that its board of directors declared a regular quarterly dividend of $0.02 per share ($0.10 annualized). Previously, the company paid $0.02 per share. Shares must be purchased before the ex-div date of June 14, 2023 to qualify for the dividend. Shareholders of record as of June 15, 2023 will receive the payment on June 29, 2023. At the current share price of $12.35 / share, the stock's dividend yield is 0.81%. Looking back five years and taking a sample every week, the average dividend yield has been 1.03%, the lowest has been 0.33%, and the highest has been 2.40%. The standard deviation of yields is 0.43 (n=237). The current dividend yield is 0.51 standard deviations below the historical average. Additionally, the company's dividend payout ratio is 0.42. The payout ratio tells us how much of a company's income is paid out in dividends. A payout r…
+Article 2 provenance: 93a0d9f3e1fb7b7073bc220db251ef7b352c60e9ddb1d59a824691cece67b403
+Article 3 date: 2023-06-05
+Article 3 title: Zacks Industry Outlook Highlights Franco-Nevada Corporation, Gold Fields Limited, AngloGold Ashanti and Alamos Gold
+Article 3 source: https://www.nasdaq.com/articles/zacks-industry-outlook-highlights-franco-nevada-corporation-gold-fields-limited-anglogold
+Article 3 text: For Immediate Release Chicago, IL – June 5, 2023 – Today, Zacks Equity Research discusses Franco-Nevada Corporation FNV, Gold Fields Limited GFI, AngloGold Ashanti AU and Alamos Gold AGI. Industry: Mining - Gold  Link to article: https://www.zacks.com/commentary/2103224/4-gold-stocks-to-watch-in-a-promising-industry?art_rec=home-home-investment_ideas_stocks-ID04-txt-2103224 The prospects for the Zacks Mining - Gold industry look bright at the moment on the back of improving gold prices. The yellow metal has been gaining this year on safe-haven demand, fueled by the turmoil in the banking sector, ongoing geopolitical tensions and a challenging economic environment. With gold prices anticipated to gain further on demand-supply imbalance, companies like Franco-Nevada Corporation, Gold Fields Limited, AngloGold Ashantiand Alamos Gold are well-poised for growth, backed by their strong balanc…
+Article 3 provenance: 31f9477a5ba90637f27fa170aad0e43df201e87795c31ecf3ea7304035da28e5
+Article 4 date: 2023-06-02
+Article 4 title: 4 Gold Stocks to Watch in a Promising Industry
+Article 4 source: https://www.nasdaq.com/articles/4-gold-stocks-to-watch-in-a-promising-industry-0
+Article 4 text: The prospects for the Zacks Mining - Gold industry look bright at the moment on the back of improving gold prices. The yellow metal has been gaining this year on safe-haven demand, fueled by the turmoil in the banking sector, ongoing geopolitical tensions and a challenging economic environment.  With gold prices anticipated to gain further on demand-supply imbalance, companies like Franco-Nevada Corporation FNV, Gold Fields Limited GFI, AngloGold Ashanti AU and Alamos Gold AGI are well-poised for growth, backed by their strong balance sheets, efforts to lower costs and growth initiatives. About the Industry The Zacks Mining - Gold industry mainly comprises companies engaged in extracting gold from mines. The mines may either be underground or open pits. Mining is a long and complex process, and requires significant financial resources. It involves exploration to evaluate a deposit's siz…
+Article 4 provenance: 0973c85ebe7b138c4b44df5b3bb0a57d2e161d3e04c8d2142e64bc5000ac0284
+Article 5 date: 2023-06-02
+Article 5 title: Is Alamos Gold (AGI) Stock Outpacing Its Basic Materials Peers This Year?
+Article 5 source: https://www.nasdaq.com/articles/is-alamos-gold-agi-stock-outpacing-its-basic-materials-peers-this-year-0
+Article 5 text: Investors interested in Basic Materials stocks should always be looking to find the best-performing companies in the group. Alamos Gold (AGI) is a stock that can certainly grab the attention of many investors, but do its recent returns compare favorably to the sector as a whole? A quick glance at the company's year-to-date performance in comparison to the rest of the Basic Materials sector should help us answer this question. Alamos Gold is a member of our Basic Materials group, which includes 236 different companies and currently sits at #13 in the Zacks Sector Rank. The Zacks Sector Rank considers 16 different sector groups. The average Zacks Rank of the individual stocks within the groups is measured, and the sectors are listed from best to worst. The Zacks Rank is a successful stock-picking model that emphasizes earnings estimates and estimate revisions. The system highlights a numb…
+Article 5 provenance: 89bcaa54316c784986205c2ae328a73980349b2113d3cfec99af10314285bb16
+Article 6 date: 2023-06-02
+Article 6 title: Rio Tinto (RIO) to Invest $395M in Water Desalination Plant
+Article 6 source: https://www.nasdaq.com/articles/rio-tinto-rio-to-invest-%24395m-in-water-desalination-plant
+Article 6 text: Rio Tinto RIO announced intentions to invest $395 million in a saltwater desalination plant in the Pilbara region of Western Australia. This project will use reverse osmosis to filter salt and other impurities from ocean water and provide a future water supply for RIO's coastal operations and local communities in 2026.  The project is subject to Commonwealth and State Government and other relevant approvals. The plant’s construction is projected to start in 2024 and is anticipated to be operational and generate water in 2026. Rio Tinto intends to create roughly 300 jobs during the plant's peak construction period.  The plant will be built within the company's existing iron ore port operations at Parker Point. Water from the plant will be transferred to the West Pilbara Water Supply Scheme, which is owned and operated by the Water Corporation. From there, it will be distributed to Rio Ti…
+Article 6 provenance: 52c7b8e11f035d9ae615c7ebaf6f3c60ea5b437e0a908b1e1c8e69235f19a95f
+Article 7 date: 2023-06-01
+Article 7 title: Alamos Gold Reaches Analyst Target Price
+Article 7 source: https://www.nasdaq.com/articles/alamos-gold-reaches-analyst-target-price-0
+Article 7 text: In recent trading, shares of Alamos Gold Inc (Symbol: AGI) have crossed above the average analyst 12-month target price of $12.16, changing hands for $12.34/share. When a stock reaches the target an analyst has set, the analyst logically has two ways to react: downgrade on valuation, or, re-adjust their target price to a higher level. Analyst reaction may also depend on the fundamental business developments that may be responsible for driving the stock price higher — if things are looking up for the company, perhaps it is time for that target price to be raised. There are 10 different analyst targets within the Zacks coverage universe contributing to that average for Alamos Gold Inc , but the average is just that — a mathematical average. There are analysts with lower targets than the average, including one looking for a price of $8.08. And then on the other side of the spectrum one ana…
+Article 7 provenance: c8774ed9cb1aff4aef57fd03577f7916f5956c3f9761cf409b38582ab8a90480
+Article 8 date: 2023-05-31
+Article 8 title: Mercer (MERC) Receives Court Approval to Acquire Structurlam
+Article 8 source: https://www.nasdaq.com/articles/mercer-merc-receives-court-approval-to-acquire-structurlam
+Article 8 text: Mercer International MERC announced that it has received bankruptcy court approval for the acquisition of Structurlam Mass Timber Corporation and its subsidiaries for $81 million. This deal, which is expected to close soon (subject to satisfaction of customary conditions), will fortify MERC’s position as a leading mass timber provider in North America. The addition of glued laminated timber (glulam) capability will expand its product offering and enable it to serve its growing customer base. Structurlam had entered into a stalking horse asset purchase agreement with Mercer in April 2023. Structurlam subsequently filed for bankruptcy under Chapter 11 of the U.S. code. The assets include a state-of-the-art mass timber facility in Conway, AR with has an annual capacity of approximately 75,000 cubic meters. It can produce both (glulam and cross-laminated timber (CLT). The acquisition also i…
+Article 8 provenance: 1b818f1184aa3aeff5c897b49155f8a36870f2947385ec2179ab961b9cba2d57
+
+[TABLE]
+Status: UNAVAILABLE
+Missingness reason: no PIT-safe canonical fact for one or more concepts
+Source: 
+Assets: UNAVAILABLE
+Liabilities: UNAVAILABLE
+StockholdersEquity: UNAVAILABLE
+NetCashProvidedByUsedInOperatingActivities: UNAVAILABLE
+NetCashProvidedByUsedInInvestingActivities: UNAVAILABLE
+NetCashProvidedByUsedInFinancingActivities: UNAVAILABLE
+
+[TIME_SERIES]
+Status: AVAILABLE
+Through session: 2023-06-09
+Source: S&P500_time_series/agi.csv
+cumulative_return_5d: 0.006514551372797994
+cumulative_return_20d: -0.06716978496966197
+cumulative_return_60d: 0.16384195557675563
+realised_volatility_20d_annualised: 0.2926563746886117
+high_low_range_20d: 0.1360994892829892
+drawdown_from_60d_peak: -0.10564397059460418
+relative_volume_vs_20d_mean: 0.4991144617024278
+Provenance: 99f5c79de28e864e6ac5a0f98ae65aec53b8fa7b71a3ea66a143d9053612840c
+
+[IMAGE]
+Status: AVAILABLE
+Chart period: 2022-H2
+Inferred period end: 2022-12-31
+Evidence age (calendar days): 160
+Source: agi_2022_H2_candlestick.png
+Canonical caption: {"candlestick_structure":"mostly green and red","confidence":"high","momentum_visual":"increasing","notable_gap_or_reversal":"none","other_visible_pattern":"none","support_resistance_visual":"none","trend":"upward","volatility_visual":"moderate","volume_visual":"none"}
+Caption provenance: 131c2904cd82c850f94b00cc58e2b97b2ef69c7e805fa562ef2c8f2e00a568fe
+=== END FINMULTITIME EVIDENCE ===

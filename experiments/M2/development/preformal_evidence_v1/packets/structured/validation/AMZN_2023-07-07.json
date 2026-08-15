@@ -1,0 +1,282 @@
+{
+  "IMAGE": {
+    "canonical_caption": {
+      "candlestick_structure": "mostly green and red",
+      "confidence": "high",
+      "momentum_visual": "increasing",
+      "notable_gap_or_reversal": "none",
+      "other_visible_pattern": "none",
+      "support_resistance_visual": "none",
+      "trend": "upward",
+      "volatility_visual": "moderate",
+      "volume_visual": "none"
+    },
+    "caption_sha256": "131c2904cd82c850f94b00cc58e2b97b2ef69c7e805fa562ef2c8f2e00a568fe",
+    "caption_source": "NEW_QWEN_M2_06",
+    "caption_status": "GENERATED",
+    "chart_period": "2023-H1",
+    "evidence_age_calendar_days": 7,
+    "image_sha256": "899bad419ff4adce9c5617d82791a99608071412ceefb6defff79c7ca2420e57",
+    "inferred_period_end": "2023-06-30",
+    "provenance_hash_reference": "131c2904cd82c850f94b00cc58e2b97b2ef69c7e805fa562ef2c8f2e00a568fe",
+    "reason": "",
+    "source_identity": "amzn_2023_H1_candlestick.png",
+    "status": "AVAILABLE"
+  },
+  "TABLE": {
+    "facts": {
+      "Assets": {
+        "accession": "0001018724-23-000008",
+        "filed_date": "2023-04-28",
+        "form": "10-Q",
+        "fp": "Q1",
+        "fy": 2023,
+        "period_duration_class": "point_in_time",
+        "period_duration_days": null,
+        "period_end": "2023-03-31",
+        "period_start": "",
+        "provenance_hash_reference": "83d3a69d48e18cf4802dad80c9d99f26d03d699c0ef5443e36fe42797aff3516",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 464378000000
+      },
+      "Liabilities": {
+        "reason": "no canonical PIT-safe selected fact",
+        "status": "UNAVAILABLE"
+      },
+      "NetCashProvidedByUsedInFinancingActivities": {
+        "accession": "0001018724-23-000008",
+        "filed_date": "2023-04-28",
+        "form": "10-Q",
+        "fp": "Q1",
+        "fy": 2023,
+        "period_duration_class": "quarterly",
+        "period_duration_days": 90,
+        "period_end": "2023-03-31",
+        "period_start": "2023-01-01",
+        "provenance_hash_reference": "547579fce07ab7f0145aea13264251fc03b4adeaa7afd2b6edfdd175109f4c25",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 6354000000
+      },
+      "NetCashProvidedByUsedInInvestingActivities": {
+        "accession": "0001018724-23-000008",
+        "filed_date": "2023-04-28",
+        "form": "10-Q",
+        "fp": "Q1",
+        "fy": 2023,
+        "period_duration_class": "quarterly",
+        "period_duration_days": 90,
+        "period_end": "2023-03-31",
+        "period_start": "2023-01-01",
+        "provenance_hash_reference": "6a1fabad46d1e8e9283aa1ce26dfa58ecb49d9df08518865bfe6a8780127dfe0",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": -15806000000
+      },
+      "NetCashProvidedByUsedInOperatingActivities": {
+        "accession": "0001018724-23-000008",
+        "filed_date": "2023-04-28",
+        "form": "10-Q",
+        "fp": "Q1",
+        "fy": 2023,
+        "period_duration_class": "quarterly",
+        "period_duration_days": 90,
+        "period_end": "2023-03-31",
+        "period_start": "2023-01-01",
+        "provenance_hash_reference": "2e10fadb5fb896172494ddedfe3d77cacfc60b47b3376320a6c4f6e087a71fed",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 4788000000
+      },
+      "StockholdersEquity": {
+        "accession": "0001018724-23-000008",
+        "filed_date": "2023-04-28",
+        "form": "10-Q",
+        "fp": "Q1",
+        "fy": 2023,
+        "period_duration_class": "point_in_time",
+        "period_duration_days": null,
+        "period_end": "2023-03-31",
+        "period_start": "",
+        "provenance_hash_reference": "c060b43c49bfed85aee694108f4c388e8a0d8607d57f7880cb65503d20376a2e",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 154526000000
+      }
+    },
+    "provenance_hash_reference": "ee295d0a5de8c29a47fc0dac2e3b115d9411539a63a2c90af51e827e6702a06d",
+    "reason": "",
+    "selection_rule": "frozen six-concept TABLE selection; filed_date < decision session",
+    "source_identity": "financial_reports/amzn/condensed_consolidated_balance_sheets.json;financial_reports/amzn/condensed_consolidated_statement_of_cash_flows.json",
+    "status": "AVAILABLE"
+  },
+  "TEXT": {
+    "evidence_age_calendar_days": 1,
+    "provenance_hash_reference": "b0231919c15c2563128a8308cd525c2c896c97674da55db8b5ff86132a266558",
+    "reason": "",
+    "records": [
+      {
+        "article_date": "2023-07-06",
+        "body": "History tells us that a good start to the year is usually followed up by another positive second half. In this video, I will talk about four exciting companies that are worth your attention as we enter the second half of this year, especially during these uncertain times. I chose a mix of companies in different industries that could provide significant upside for long-term investors. *Stock prices used were from the trading day of July 5, 2023. The video was published on July 5, 2023. Find out why Amazon.com is one of the 10 best stocks to buy now Our analyst team has spent more than a decade beating the market. After all, the newsletter they have run for over a decade, Motley Fool Stock Advisor, has tripled the market.* They just revealed their ten top stock picks for investors to buy right now. Amazon.com is on the list -- but there are nine others you may be overlooking. Click here t…",
+        "provenance_hash_reference": "fc6e5aa8faa0cb14154af0fd421cd63ff2acc9c6582db64f0d32648c846fe531",
+        "source": "https://www.nasdaq.com/articles/4-top-stocks-to-buy-in-the-second-half-of-2023",
+        "title": "4 Top Stocks to Buy in the Second Half of 2023"
+      },
+      {
+        "article_date": "2023-07-06",
+        "body": "Israel Englander of Millennium Management and David Tepper of Appaloosa rank among the most successful hedge fund managers in recent decades -- and both have a spot on the Bloomberg Billionaires Index. Those bona fides put Englander and Tepper in a rarified class, and both have been buying shares of Amazon (NASDAQ: AMZN) throughout the bear market. In the past year, Englander upped his stake in the company by 4,600%, making Amazon his largest holding. Meanwhile, Tepper increased his position by 2,200%, which made Amazon his second-largest holding. Those purchases send a clear message: Two of the most successful hedge fund managers see Amazon as undervalued ahead of the next bull market. Here's why this growth stock is worth buying. Amazon is a leader in e-commerce Amazon's retail roots reach back to the mid-'90s when the company was nothing more than an online bookstore. But it has sinc…",
+        "provenance_hash_reference": "19596fdad831970ec4cd72ad240888bb1faa6d105eb7d6d98c73c68fa6da6ea5",
+        "source": "https://www.nasdaq.com/articles/a-bull-market-is-coming%3A-1-remarkable-growth-stock-has-billionaire-investors-betting-big",
+        "title": "A Bull Market Is Coming: 1 Remarkable Growth Stock Has Billionaire Investors Betting Big"
+      },
+      {
+        "article_date": "2023-07-06",
+        "body": "The NASDAQ 100 After Hours Indicator is down -10.17 to 15,079.28. The total After hours volume is currently 90,699,965 shares traded.  The following are the most active stocks for the after hours session:  Intel Corporation (INTC) is unchanged at $31.97, with 4,309,947 shares traded. INTC's current last sale is 101.49% of the target price of $31.5.  Kenvue Inc. (KVUE) is +0.01 at $25.62, with 3,145,514 shares traded. KVUE's current last sale is 91.5% of the target price of $28.  Lumen Technologies, Inc. (LUMN) is unchanged at $2.09, with 2,819,074 shares traded. LUMN's current last sale is 59.71% of the target price of $3.5.  KeyCorp (KEY) is -0.0392 at $9.39, with 2,812,392 shares traded. KEY's current last sale is 64.76% of the target price of $14.5.  Apple Inc. (AAPL) is +0.04 at $191.85, with 2,662,616 shares traded. As reported by Zacks, the current mean recommendation for AAPL is …",
+        "provenance_hash_reference": "c6e805e5eea2654ab0227ad6d6e3093edd9752a240d052a6fc2547d5cbe90999",
+        "source": "https://www.nasdaq.com/articles/after-hours-most-active-for-jul-6-2023-%3A-intc-kvue-lumn-key-aapl-bac-rivn-amzn-gern-qqq",
+        "title": "After Hours Most Active for Jul 6, 2023 : INTC, KVUE, LUMN, KEY, AAPL, BAC, RIVN, AMZN, GERN, QQQ, BEKE, T"
+      },
+      {
+        "article_date": "2023-07-06",
+        "body": "(RTTNews) - Online retail giant Amazon.com, Inc. (AMZN) said Thursday that its Prime Day deals, where prime members across the globe will have 48 hours of exclusive access to shop millions of deals, will start on July 11. New deals will drop every 30 minutes during select periods. Starting July 6, prime members can preview the prime day deals and save it to their watchlists. They will get a notification once their deals are live during the Prime Day. Members can also filter their searches to discover products from small businesses with the small business search filter. Top brands like Dyson, Theragun, essie, and Frigidaire will be included in the deals featured by Amazon. Members can sign up for Amazon's all-new Invite-only deals program to request an invitation that gives them access to exclusive Prime Day deals that are expected to sell out. Memebrs can save up to 75 percent on select…",
+        "provenance_hash_reference": "79993996187632aacfa50746ee05426caaf91ed79ec623d118030ff3a7970c5c",
+        "source": "https://www.nasdaq.com/articles/amazon-prime-day-deals-starting-july-11",
+        "title": "Amazon Prime Day Deals Starting July 11"
+      },
+      {
+        "article_date": "2023-07-06",
+        "body": "By Foo Yun Chee BRUSSELS, July 6 (Reuters) - Amazon's AMZN.O $1.7 billion acquisition of robot vacuum cleaner maker iRobot IRBT.O may reduce competition and strengthen Amazon's position as online marketplace provider, EU antitrust regulators warned on Thursday. The European Commission opened a full-scale investigation and will decide by November 15 whether to clear or block the deal. Antitrust enforcers around the world have stepped up scrutiny of Big Tech acquiring smaller rivals, concerned about the accumulation of troves of data by a few companies, and big players leveraging their dominance into new markets. The acquisition announced in August last year would add iRobot's Roomba robot vacuum to Amazon's portfolio of smart devices, which include the Alexa voice assistant, smart thermostats, security devices and wall-mounted smart displays. IRobot made its first Roomba robot vacuum in …",
+        "provenance_hash_reference": "a80a85d7d9e68ca90ebaaf2c448f82fc35688733faea82f993c4c44c56fb9b9c",
+        "source": "https://www.nasdaq.com/articles/amazons-irobot-deal-in-eu-antitrust-crosshairs",
+        "title": "Amazon's iRobot deal in EU antitrust crosshairs"
+      },
+      {
+        "article_date": "2023-07-06",
+        "body": "By Arpan Chaturvedi and Aditya Kalra NEW DELHI, July 6 (Reuters) - Google has accused India's antitrust body of ordering changes to its business model \"only to protect\" rival Amazon, which complained about its struggles to develop a modified version of the Android system due to Google's restrictions, legal papers show. Google has approached India's Supreme Court to quash the Competition Commission of India's (CCI) October order asking the company to make 10 changes to its business model after the CCI found it abused its dominant position in the market with its Android operating system, which powers 97% of India's smartphones. Google's latest Supreme Court filing shows its deepening disagreement with how the CCI conducted its Android investigation. In an earlier December filing in a lower tribunal, Google said CCI officers had \"copypasted\" parts of a European ruling against the U.S. firm…",
+        "provenance_hash_reference": "55f675f6db073b374e7eb19a1524e2444c729539a5e2050ab8f8b3c4a560c5e9",
+        "source": "https://www.nasdaq.com/articles/google-accuses-india-antitrust-body-of-protecting-amazon-in-android-probe",
+        "title": "Google accuses India antitrust body of protecting Amazon in Android probe"
+      },
+      {
+        "article_date": "2023-07-06",
+        "body": "Exchange-Traded Funds (ETFs) have seen a rapid progress since their inception. In its initial days, plain vanilla ETFs used to track broad market indices, but these have grown to cover a wide array of investment themes, sectors, and styles over the years. In this pursuit, one of the latest changes in the ETF space has been the advent of single-stock ETFs. These funds, as the name suggests, focus on a single stock rather than a bunch. In the past one year, single-stock ETFs made up 7% of total  new U.S .ETF listings, per a J.P. Morgan report. Since July 2022, about 30 single stock ETFs have been listed in the United States, which have gathered about $1.1 billion in total assets. Inside Single-Stock ETFs Single-Stock ETFs are fundamentally a new type of funds that look to track the performance of a single company’s stock. While traditional ETFs follow a basket of multiple stocks or other …",
+        "provenance_hash_reference": "75d9b2f5e6a760a4a9d31d3ca836297d54c32ca7d31c654295ecf653fed90d3c",
+        "source": "https://www.nasdaq.com/articles/guide-to-single-stock-etf-investing",
+        "title": "Guide to Single-Stock ETF Investing"
+      },
+      {
+        "article_date": "2023-07-06",
+        "body": "Below is Validea's guru fundamental report for AMAZON.COM, INC. (AMZN). Of the 22 guru strategies we follow, AMZN rates highest using our P/B Growth Investor model based on the published strategy of Partha Mohanram. This growth model looks for low book-to-market stocks that exhibit characteristics associated with sustained future growth. AMAZON.COM, INC. (AMZN) is a large-cap growth stock in the Retail (Specialty) industry. The rating using this strategy is 88% based on the firm’s underlying fundamentals and the stock’s valuation. A score of 80% or above typically indicates that the strategy has some interest in the stock and a score above 90% typically indicates strong interest. The following table summarizes whether the stock meets each of this strategy's tests. Not all criteria in the below table receive equal weighting or are independent, but the table provides a brief overview of t…",
+        "provenance_hash_reference": "b067f39c983117cf0d0fcbecd5e0a871f5661473ecfb5109a3be60d12caeb725",
+        "source": "https://www.nasdaq.com/articles/guru-fundamental-report-for-amzn-58",
+        "title": "Guru Fundamental Report for AMZN"
+      }
+    ],
+    "selection_rule": "frozen bounded TEXT selection; Date < decision session; deterministic order",
+    "source_identity": "sp500_news/AMZN.jsonl",
+    "status": "AVAILABLE"
+  },
+  "TIME_SERIES": {
+    "provenance_hash_reference": "825f88acc467f113f6ce6e05a9231202f61daa83f6e3919a9d73edf412712826",
+    "reason": "",
+    "selection_rule": "frozen descriptive summaries from 61 completed source rows; session <= decision",
+    "source_identity": "S&P500_time_series/amzn.csv",
+    "status": "AVAILABLE",
+    "summaries": {
+      "cumulative_return_20d": 0.0705270575402841,
+      "cumulative_return_5d": 0.01469896193111131,
+      "cumulative_return_60d": 0.298839082841696,
+      "drawdown_from_60d_peak": -0.0046019794527153435,
+      "high_low_range_20d": 0.07843942253983704,
+      "realised_volatility_20d_annualised": 0.24273022624199975,
+      "relative_volume_vs_20d_mean": 0.7367457862694476
+    },
+    "through_session": "2023-07-07"
+  },
+  "agent_text": "=== FINMULTITIME EVIDENCE ===\nSymbol: AMZN\nDecision session: 2023-07-07\n\n[TEXT]\nStatus: AVAILABLE\nEvidence age (calendar days): 1\nSource: sp500_news/AMZN.jsonl\nArticle 1 date: 2023-07-06\nArticle 1 title: 4 Top Stocks to Buy in the Second Half of 2023\nArticle 1 source: https://www.nasdaq.com/articles/4-top-stocks-to-buy-in-the-second-half-of-2023\nArticle 1 text: History tells us that a good start to the year is usually followed up by another positive second half. In this video, I will talk about four exciting companies that are worth your attention as we enter the second half of this year, especially during these uncertain times. I chose a mix of companies in different industries that could provide significant upside for long-term investors. *Stock prices used were from the trading day of July 5, 2023. The video was published on July 5, 2023. Find out why Amazon.com is one of the 10 best stocks to buy now Our analyst team has spent more than a decade beating the market. After all, the newsletter they have run for over a decade, Motley Fool Stock Advisor, has tripled the market.* They just revealed their ten top stock picks for investors to buy right now. Amazon.com is on the list -- but there are nine others you may be overlooking. Click here t…\nArticle 1 provenance: fc6e5aa8faa0cb14154af0fd421cd63ff2acc9c6582db64f0d32648c846fe531\nArticle 2 date: 2023-07-06\nArticle 2 title: A Bull Market Is Coming: 1 Remarkable Growth Stock Has Billionaire Investors Betting Big\nArticle 2 source: https://www.nasdaq.com/articles/a-bull-market-is-coming%3A-1-remarkable-growth-stock-has-billionaire-investors-betting-big\nArticle 2 text: Israel Englander of Millennium Management and David Tepper of Appaloosa rank among the most successful hedge fund managers in recent decades -- and both have a spot on the Bloomberg Billionaires Index. Those bona fides put Englander and Tepper in a rarified class, and both have been buying shares of Amazon (NASDAQ: AMZN) throughout the bear market. In the past year, Englander upped his stake in the company by 4,600%, making Amazon his largest holding. Meanwhile, Tepper increased his position by 2,200%, which made Amazon his second-largest holding. Those purchases send a clear message: Two of the most successful hedge fund managers see Amazon as undervalued ahead of the next bull market. Here's why this growth stock is worth buying. Amazon is a leader in e-commerce Amazon's retail roots reach back to the mid-'90s when the company was nothing more than an online bookstore. But it has sinc…\nArticle 2 provenance: 19596fdad831970ec4cd72ad240888bb1faa6d105eb7d6d98c73c68fa6da6ea5\nArticle 3 date: 2023-07-06\nArticle 3 title: After Hours Most Active for Jul 6, 2023 : INTC, KVUE, LUMN, KEY, AAPL, BAC, RIVN, AMZN, GERN, QQQ, BEKE, T\nArticle 3 source: https://www.nasdaq.com/articles/after-hours-most-active-for-jul-6-2023-%3A-intc-kvue-lumn-key-aapl-bac-rivn-amzn-gern-qqq\nArticle 3 text: The NASDAQ 100 After Hours Indicator is down -10.17 to 15,079.28. The total After hours volume is currently 90,699,965 shares traded.  The following are the most active stocks for the after hours session:  Intel Corporation (INTC) is unchanged at $31.97, with 4,309,947 shares traded. INTC's current last sale is 101.49% of the target price of $31.5.  Kenvue Inc. (KVUE) is +0.01 at $25.62, with 3,145,514 shares traded. KVUE's current last sale is 91.5% of the target price of $28.  Lumen Technologies, Inc. (LUMN) is unchanged at $2.09, with 2,819,074 shares traded. LUMN's current last sale is 59.71% of the target price of $3.5.  KeyCorp (KEY) is -0.0392 at $9.39, with 2,812,392 shares traded. KEY's current last sale is 64.76% of the target price of $14.5.  Apple Inc. (AAPL) is +0.04 at $191.85, with 2,662,616 shares traded. As reported by Zacks, the current mean recommendation for AAPL is …\nArticle 3 provenance: c6e805e5eea2654ab0227ad6d6e3093edd9752a240d052a6fc2547d5cbe90999\nArticle 4 date: 2023-07-06\nArticle 4 title: Amazon Prime Day Deals Starting July 11\nArticle 4 source: https://www.nasdaq.com/articles/amazon-prime-day-deals-starting-july-11\nArticle 4 text: (RTTNews) - Online retail giant Amazon.com, Inc. (AMZN) said Thursday that its Prime Day deals, where prime members across the globe will have 48 hours of exclusive access to shop millions of deals, will start on July 11. New deals will drop every 30 minutes during select periods. Starting July 6, prime members can preview the prime day deals and save it to their watchlists. They will get a notification once their deals are live during the Prime Day. Members can also filter their searches to discover products from small businesses with the small business search filter. Top brands like Dyson, Theragun, essie, and Frigidaire will be included in the deals featured by Amazon. Members can sign up for Amazon's all-new Invite-only deals program to request an invitation that gives them access to exclusive Prime Day deals that are expected to sell out. Memebrs can save up to 75 percent on select…\nArticle 4 provenance: 79993996187632aacfa50746ee05426caaf91ed79ec623d118030ff3a7970c5c\nArticle 5 date: 2023-07-06\nArticle 5 title: Amazon's iRobot deal in EU antitrust crosshairs\nArticle 5 source: https://www.nasdaq.com/articles/amazons-irobot-deal-in-eu-antitrust-crosshairs\nArticle 5 text: By Foo Yun Chee BRUSSELS, July 6 (Reuters) - Amazon's AMZN.O $1.7 billion acquisition of robot vacuum cleaner maker iRobot IRBT.O may reduce competition and strengthen Amazon's position as online marketplace provider, EU antitrust regulators warned on Thursday. The European Commission opened a full-scale investigation and will decide by November 15 whether to clear or block the deal. Antitrust enforcers around the world have stepped up scrutiny of Big Tech acquiring smaller rivals, concerned about the accumulation of troves of data by a few companies, and big players leveraging their dominance into new markets. The acquisition announced in August last year would add iRobot's Roomba robot vacuum to Amazon's portfolio of smart devices, which include the Alexa voice assistant, smart thermostats, security devices and wall-mounted smart displays. IRobot made its first Roomba robot vacuum in …\nArticle 5 provenance: a80a85d7d9e68ca90ebaaf2c448f82fc35688733faea82f993c4c44c56fb9b9c\nArticle 6 date: 2023-07-06\nArticle 6 title: Google accuses India antitrust body of protecting Amazon in Android probe\nArticle 6 source: https://www.nasdaq.com/articles/google-accuses-india-antitrust-body-of-protecting-amazon-in-android-probe\nArticle 6 text: By Arpan Chaturvedi and Aditya Kalra NEW DELHI, July 6 (Reuters) - Google has accused India's antitrust body of ordering changes to its business model \"only to protect\" rival Amazon, which complained about its struggles to develop a modified version of the Android system due to Google's restrictions, legal papers show. Google has approached India's Supreme Court to quash the Competition Commission of India's (CCI) October order asking the company to make 10 changes to its business model after the CCI found it abused its dominant position in the market with its Android operating system, which powers 97% of India's smartphones. Google's latest Supreme Court filing shows its deepening disagreement with how the CCI conducted its Android investigation. In an earlier December filing in a lower tribunal, Google said CCI officers had \"copypasted\" parts of a European ruling against the U.S. firm…\nArticle 6 provenance: 55f675f6db073b374e7eb19a1524e2444c729539a5e2050ab8f8b3c4a560c5e9\nArticle 7 date: 2023-07-06\nArticle 7 title: Guide to Single-Stock ETF Investing\nArticle 7 source: https://www.nasdaq.com/articles/guide-to-single-stock-etf-investing\nArticle 7 text: Exchange-Traded Funds (ETFs) have seen a rapid progress since their inception. In its initial days, plain vanilla ETFs used to track broad market indices, but these have grown to cover a wide array of investment themes, sectors, and styles over the years. In this pursuit, one of the latest changes in the ETF space has been the advent of single-stock ETFs. These funds, as the name suggests, focus on a single stock rather than a bunch. In the past one year, single-stock ETFs made up 7% of total  new U.S .ETF listings, per a J.P. Morgan report. Since July 2022, about 30 single stock ETFs have been listed in the United States, which have gathered about $1.1 billion in total assets. Inside Single-Stock ETFs Single-Stock ETFs are fundamentally a new type of funds that look to track the performance of a single company’s stock. While traditional ETFs follow a basket of multiple stocks or other …\nArticle 7 provenance: 75d9b2f5e6a760a4a9d31d3ca836297d54c32ca7d31c654295ecf653fed90d3c\nArticle 8 date: 2023-07-06\nArticle 8 title: Guru Fundamental Report for AMZN\nArticle 8 source: https://www.nasdaq.com/articles/guru-fundamental-report-for-amzn-58\nArticle 8 text: Below is Validea's guru fundamental report for AMAZON.COM, INC. (AMZN). Of the 22 guru strategies we follow, AMZN rates highest using our P/B Growth Investor model based on the published strategy of Partha Mohanram. This growth model looks for low book-to-market stocks that exhibit characteristics associated with sustained future growth. AMAZON.COM, INC. (AMZN) is a large-cap growth stock in the Retail (Specialty) industry. The rating using this strategy is 88% based on the firm’s underlying fundamentals and the stock’s valuation. A score of 80% or above typically indicates that the strategy has some interest in the stock and a score above 90% typically indicates strong interest. The following table summarizes whether the stock meets each of this strategy's tests. Not all criteria in the below table receive equal weighting or are independent, but the table provides a brief overview of t…\nArticle 8 provenance: b067f39c983117cf0d0fcbecd5e0a871f5661473ecfb5109a3be60d12caeb725\n\n[TABLE]\nStatus: AVAILABLE\nSource: financial_reports/amzn/condensed_consolidated_balance_sheets.json;financial_reports/amzn/condensed_consolidated_statement_of_cash_flows.json\nAssets: value=464378000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-03-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=83d3a69d48e18cf4802dad80c9d99f26d03d699c0ef5443e36fe42797aff3516\nLiabilities: UNAVAILABLE\nStockholdersEquity: value=154526000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-03-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=c060b43c49bfed85aee694108f4c388e8a0d8607d57f7880cb65503d20376a2e\nNetCashProvidedByUsedInOperatingActivities: value=4788000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-03-31; period_duration_days=90; period_duration_class=quarterly; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=2e10fadb5fb896172494ddedfe3d77cacfc60b47b3376320a6c4f6e087a71fed\nNetCashProvidedByUsedInInvestingActivities: value=-15806000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-03-31; period_duration_days=90; period_duration_class=quarterly; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=6a1fabad46d1e8e9283aa1ce26dfa58ecb49d9df08518865bfe6a8780127dfe0\nNetCashProvidedByUsedInFinancingActivities: value=6354000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-03-31; period_duration_days=90; period_duration_class=quarterly; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=547579fce07ab7f0145aea13264251fc03b4adeaa7afd2b6edfdd175109f4c25\n\n[TIME_SERIES]\nStatus: AVAILABLE\nThrough session: 2023-07-07\nSource: S&P500_time_series/amzn.csv\ncumulative_return_5d: 0.01469896193111131\ncumulative_return_20d: 0.0705270575402841\ncumulative_return_60d: 0.298839082841696\nrealised_volatility_20d_annualised: 0.24273022624199975\nhigh_low_range_20d: 0.07843942253983704\ndrawdown_from_60d_peak: -0.0046019794527153435\nrelative_volume_vs_20d_mean: 0.7367457862694476\nProvenance: 825f88acc467f113f6ce6e05a9231202f61daa83f6e3919a9d73edf412712826\n\n[IMAGE]\nStatus: AVAILABLE\nChart period: 2023-H1\nInferred period end: 2023-06-30\nEvidence age (calendar days): 7\nSource: amzn_2023_H1_candlestick.png\nCanonical caption: {\"candlestick_structure\":\"mostly green and red\",\"confidence\":\"high\",\"momentum_visual\":\"increasing\",\"notable_gap_or_reversal\":\"none\",\"other_visible_pattern\":\"none\",\"support_resistance_visual\":\"none\",\"trend\":\"upward\",\"volatility_visual\":\"moderate\",\"volume_visual\":\"none\"}\nCaption provenance: 131c2904cd82c850f94b00cc58e2b97b2ef69c7e805fa562ef2c8f2e00a568fe\n=== END FINMULTITIME EVIDENCE ===\n",
+  "available_for_training": false,
+  "available_for_validation": true,
+  "case_id": "AMZN:2023-07-07",
+  "character_counts": {
+    "complete": 12746,
+    "fundamentals": 1809,
+    "market": 990,
+    "news": 9798
+  },
+  "contract_version": "M1-FINMULTITIME-v1.0.2",
+  "dataset_id": "m2_preformal_evidence_v1",
+  "decision_session": "2023-07-07",
+  "decision_time": "2023-07-07T20:00:00+00:00",
+  "engineering_only": false,
+  "m2_metadata": {
+    "available_for_training": false,
+    "available_for_validation": true,
+    "engineering_only": false,
+    "performance_for_selection": false,
+    "protected": false,
+    "role": "VALIDATION",
+    "tier_membership": {
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    }
+  },
+  "packet_sha256": "3e08b0b7de3bc6a471d40c351b1c1d9575f3cc3d4305cba652543ae1b7cd7988",
+  "packet_status": "FINAL_FROZEN",
+  "performance_for_selection": false,
+  "protected": false,
+  "record_type": "m1_finmultitime_evidence_packet",
+  "role": "VALIDATION",
+  "routed_projections": {
+    "fundamentals_analyst": {
+      "sections": [
+        "TABLE"
+      ],
+      "text": "Status: AVAILABLE\nSource: financial_reports/amzn/condensed_consolidated_balance_sheets.json;financial_reports/amzn/condensed_consolidated_statement_of_cash_flows.json\nAssets: value=464378000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-03-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=83d3a69d48e18cf4802dad80c9d99f26d03d699c0ef5443e36fe42797aff3516\nLiabilities: UNAVAILABLE\nStockholdersEquity: value=154526000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-03-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=c060b43c49bfed85aee694108f4c388e8a0d8607d57f7880cb65503d20376a2e\nNetCashProvidedByUsedInOperatingActivities: value=4788000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-03-31; period_duration_days=90; period_duration_class=quarterly; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=2e10fadb5fb896172494ddedfe3d77cacfc60b47b3376320a6c4f6e087a71fed\nNetCashProvidedByUsedInInvestingActivities: value=-15806000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-03-31; period_duration_days=90; period_duration_class=quarterly; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=6a1fabad46d1e8e9283aa1ce26dfa58ecb49d9df08518865bfe6a8780127dfe0\nNetCashProvidedByUsedInFinancingActivities: value=6354000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-03-31; period_duration_days=90; period_duration_class=quarterly; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=547579fce07ab7f0145aea13264251fc03b4adeaa7afd2b6edfdd175109f4c25"
+    },
+    "market_analyst": {
+      "sections": [
+        "TIME_SERIES",
+        "IMAGE"
+      ],
+      "text": "Status: AVAILABLE\nThrough session: 2023-07-07\nSource: S&P500_time_series/amzn.csv\ncumulative_return_5d: 0.01469896193111131\ncumulative_return_20d: 0.0705270575402841\ncumulative_return_60d: 0.298839082841696\nrealised_volatility_20d_annualised: 0.24273022624199975\nhigh_low_range_20d: 0.07843942253983704\ndrawdown_from_60d_peak: -0.0046019794527153435\nrelative_volume_vs_20d_mean: 0.7367457862694476\nProvenance: 825f88acc467f113f6ce6e05a9231202f61daa83f6e3919a9d73edf412712826\n\nStatus: AVAILABLE\nChart period: 2023-H1\nInferred period end: 2023-06-30\nEvidence age (calendar days): 7\nSource: amzn_2023_H1_candlestick.png\nCanonical caption: {\"candlestick_structure\":\"mostly green and red\",\"confidence\":\"high\",\"momentum_visual\":\"increasing\",\"notable_gap_or_reversal\":\"none\",\"other_visible_pattern\":\"none\",\"support_resistance_visual\":\"none\",\"trend\":\"upward\",\"volatility_visual\":\"moderate\",\"volume_visual\":\"none\"}\nCaption provenance: 131c2904cd82c850f94b00cc58e2b97b2ef69c7e805fa562ef2c8f2e00a568fe"
+    },
+    "news_analyst": {
+      "sections": [
+        "TEXT"
+      ],
+      "text": "Status: AVAILABLE\nEvidence age (calendar days): 1\nSource: sp500_news/AMZN.jsonl\nArticle 1 date: 2023-07-06\nArticle 1 title: 4 Top Stocks to Buy in the Second Half of 2023\nArticle 1 source: https://www.nasdaq.com/articles/4-top-stocks-to-buy-in-the-second-half-of-2023\nArticle 1 text: History tells us that a good start to the year is usually followed up by another positive second half. In this video, I will talk about four exciting companies that are worth your attention as we enter the second half of this year, especially during these uncertain times. I chose a mix of companies in different industries that could provide significant upside for long-term investors. *Stock prices used were from the trading day of July 5, 2023. The video was published on July 5, 2023. Find out why Amazon.com is one of the 10 best stocks to buy now Our analyst team has spent more than a decade beating the market. After all, the newsletter they have run for over a decade, Motley Fool Stock Advisor, has tripled the market.* They just revealed their ten top stock picks for investors to buy right now. Amazon.com is on the list -- but there are nine others you may be overlooking. Click here t…\nArticle 1 provenance: fc6e5aa8faa0cb14154af0fd421cd63ff2acc9c6582db64f0d32648c846fe531\nArticle 2 date: 2023-07-06\nArticle 2 title: A Bull Market Is Coming: 1 Remarkable Growth Stock Has Billionaire Investors Betting Big\nArticle 2 source: https://www.nasdaq.com/articles/a-bull-market-is-coming%3A-1-remarkable-growth-stock-has-billionaire-investors-betting-big\nArticle 2 text: Israel Englander of Millennium Management and David Tepper of Appaloosa rank among the most successful hedge fund managers in recent decades -- and both have a spot on the Bloomberg Billionaires Index. Those bona fides put Englander and Tepper in a rarified class, and both have been buying shares of Amazon (NASDAQ: AMZN) throughout the bear market. In the past year, Englander upped his stake in the company by 4,600%, making Amazon his largest holding. Meanwhile, Tepper increased his position by 2,200%, which made Amazon his second-largest holding. Those purchases send a clear message: Two of the most successful hedge fund managers see Amazon as undervalued ahead of the next bull market. Here's why this growth stock is worth buying. Amazon is a leader in e-commerce Amazon's retail roots reach back to the mid-'90s when the company was nothing more than an online bookstore. But it has sinc…\nArticle 2 provenance: 19596fdad831970ec4cd72ad240888bb1faa6d105eb7d6d98c73c68fa6da6ea5\nArticle 3 date: 2023-07-06\nArticle 3 title: After Hours Most Active for Jul 6, 2023 : INTC, KVUE, LUMN, KEY, AAPL, BAC, RIVN, AMZN, GERN, QQQ, BEKE, T\nArticle 3 source: https://www.nasdaq.com/articles/after-hours-most-active-for-jul-6-2023-%3A-intc-kvue-lumn-key-aapl-bac-rivn-amzn-gern-qqq\nArticle 3 text: The NASDAQ 100 After Hours Indicator is down -10.17 to 15,079.28. The total After hours volume is currently 90,699,965 shares traded.  The following are the most active stocks for the after hours session:  Intel Corporation (INTC) is unchanged at $31.97, with 4,309,947 shares traded. INTC's current last sale is 101.49% of the target price of $31.5.  Kenvue Inc. (KVUE) is +0.01 at $25.62, with 3,145,514 shares traded. KVUE's current last sale is 91.5% of the target price of $28.  Lumen Technologies, Inc. (LUMN) is unchanged at $2.09, with 2,819,074 shares traded. LUMN's current last sale is 59.71% of the target price of $3.5.  KeyCorp (KEY) is -0.0392 at $9.39, with 2,812,392 shares traded. KEY's current last sale is 64.76% of the target price of $14.5.  Apple Inc. (AAPL) is +0.04 at $191.85, with 2,662,616 shares traded. As reported by Zacks, the current mean recommendation for AAPL is …\nArticle 3 provenance: c6e805e5eea2654ab0227ad6d6e3093edd9752a240d052a6fc2547d5cbe90999\nArticle 4 date: 2023-07-06\nArticle 4 title: Amazon Prime Day Deals Starting July 11\nArticle 4 source: https://www.nasdaq.com/articles/amazon-prime-day-deals-starting-july-11\nArticle 4 text: (RTTNews) - Online retail giant Amazon.com, Inc. (AMZN) said Thursday that its Prime Day deals, where prime members across the globe will have 48 hours of exclusive access to shop millions of deals, will start on July 11. New deals will drop every 30 minutes during select periods. Starting July 6, prime members can preview the prime day deals and save it to their watchlists. They will get a notification once their deals are live during the Prime Day. Members can also filter their searches to discover products from small businesses with the small business search filter. Top brands like Dyson, Theragun, essie, and Frigidaire will be included in the deals featured by Amazon. Members can sign up for Amazon's all-new Invite-only deals program to request an invitation that gives them access to exclusive Prime Day deals that are expected to sell out. Memebrs can save up to 75 percent on select…\nArticle 4 provenance: 79993996187632aacfa50746ee05426caaf91ed79ec623d118030ff3a7970c5c\nArticle 5 date: 2023-07-06\nArticle 5 title: Amazon's iRobot deal in EU antitrust crosshairs\nArticle 5 source: https://www.nasdaq.com/articles/amazons-irobot-deal-in-eu-antitrust-crosshairs\nArticle 5 text: By Foo Yun Chee BRUSSELS, July 6 (Reuters) - Amazon's AMZN.O $1.7 billion acquisition of robot vacuum cleaner maker iRobot IRBT.O may reduce competition and strengthen Amazon's position as online marketplace provider, EU antitrust regulators warned on Thursday. The European Commission opened a full-scale investigation and will decide by November 15 whether to clear or block the deal. Antitrust enforcers around the world have stepped up scrutiny of Big Tech acquiring smaller rivals, concerned about the accumulation of troves of data by a few companies, and big players leveraging their dominance into new markets. The acquisition announced in August last year would add iRobot's Roomba robot vacuum to Amazon's portfolio of smart devices, which include the Alexa voice assistant, smart thermostats, security devices and wall-mounted smart displays. IRobot made its first Roomba robot vacuum in …\nArticle 5 provenance: a80a85d7d9e68ca90ebaaf2c448f82fc35688733faea82f993c4c44c56fb9b9c\nArticle 6 date: 2023-07-06\nArticle 6 title: Google accuses India antitrust body of protecting Amazon in Android probe\nArticle 6 source: https://www.nasdaq.com/articles/google-accuses-india-antitrust-body-of-protecting-amazon-in-android-probe\nArticle 6 text: By Arpan Chaturvedi and Aditya Kalra NEW DELHI, July 6 (Reuters) - Google has accused India's antitrust body of ordering changes to its business model \"only to protect\" rival Amazon, which complained about its struggles to develop a modified version of the Android system due to Google's restrictions, legal papers show. Google has approached India's Supreme Court to quash the Competition Commission of India's (CCI) October order asking the company to make 10 changes to its business model after the CCI found it abused its dominant position in the market with its Android operating system, which powers 97% of India's smartphones. Google's latest Supreme Court filing shows its deepening disagreement with how the CCI conducted its Android investigation. In an earlier December filing in a lower tribunal, Google said CCI officers had \"copypasted\" parts of a European ruling against the U.S. firm…\nArticle 6 provenance: 55f675f6db073b374e7eb19a1524e2444c729539a5e2050ab8f8b3c4a560c5e9\nArticle 7 date: 2023-07-06\nArticle 7 title: Guide to Single-Stock ETF Investing\nArticle 7 source: https://www.nasdaq.com/articles/guide-to-single-stock-etf-investing\nArticle 7 text: Exchange-Traded Funds (ETFs) have seen a rapid progress since their inception. In its initial days, plain vanilla ETFs used to track broad market indices, but these have grown to cover a wide array of investment themes, sectors, and styles over the years. In this pursuit, one of the latest changes in the ETF space has been the advent of single-stock ETFs. These funds, as the name suggests, focus on a single stock rather than a bunch. In the past one year, single-stock ETFs made up 7% of total  new U.S .ETF listings, per a J.P. Morgan report. Since July 2022, about 30 single stock ETFs have been listed in the United States, which have gathered about $1.1 billion in total assets. Inside Single-Stock ETFs Single-Stock ETFs are fundamentally a new type of funds that look to track the performance of a single company’s stock. While traditional ETFs follow a basket of multiple stocks or other …\nArticle 7 provenance: 75d9b2f5e6a760a4a9d31d3ca836297d54c32ca7d31c654295ecf653fed90d3c\nArticle 8 date: 2023-07-06\nArticle 8 title: Guru Fundamental Report for AMZN\nArticle 8 source: https://www.nasdaq.com/articles/guru-fundamental-report-for-amzn-58\nArticle 8 text: Below is Validea's guru fundamental report for AMAZON.COM, INC. (AMZN). Of the 22 guru strategies we follow, AMZN rates highest using our P/B Growth Investor model based on the published strategy of Partha Mohanram. This growth model looks for low book-to-market stocks that exhibit characteristics associated with sustained future growth. AMAZON.COM, INC. (AMZN) is a large-cap growth stock in the Retail (Specialty) industry. The rating using this strategy is 88% based on the firm’s underlying fundamentals and the stock’s valuation. A score of 80% or above typically indicates that the strategy has some interest in the stock and a score above 90% typically indicates strong interest. The following table summarizes whether the stock meets each of this strategy's tests. Not all criteria in the below table receive equal weighting or are independent, but the table provides a brief overview of t…\nArticle 8 provenance: b067f39c983117cf0d0fcbecd5e0a871f5661473ecfb5109a3be60d12caeb725"
+    },
+    "social_analyst": {
+      "sections": [],
+      "text": ""
+    }
+  },
+  "routing": {
+    "modality_to_analyst": {
+      "IMAGE": "Market Analyst",
+      "TABLE": "Fundamentals Analyst",
+      "TEXT": "News Analyst",
+      "TIME_SERIES": "Market Analyst"
+    },
+    "raw_packet_direct_injection": false,
+    "social_analyst": "NO_FINMULTITIME_EVIDENCE"
+  },
+  "section_sha256": {
+    "IMAGE": "19165bb2aedde1760f3c79399ef718946c3241abcbf798e083637e83fc0d8870",
+    "TABLE": "101f58486f487d4bb9a2c2159ac9ebc0ca947bb0cf32054a820426b33abbc0a8",
+    "TEXT": "6b3be4c328c810f567bb7e7a4ea2c6933b3d789e7127d75f487657e13542e5d0",
+    "TIME_SERIES": "2d2b266e3bda66b4299a49e422d7f1a44554d1c872833c6de33f1a548a4ff21b"
+  },
+  "source_provenance": {
+    "pit_cutoff": "2023-07-07",
+    "task_id": "M2-06"
+  },
+  "symbol": "AMZN",
+  "tier_membership": {
+    "in_compact": true,
+    "in_maximum": true,
+    "in_standard": true
+  }
+}

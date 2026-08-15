@@ -1,0 +1,227 @@
+{
+  "IMAGE": {
+    "canonical_caption": {
+      "candlestick_structure": "mostly green, with some red, indicating mostly bullish, with some bearish",
+      "confidence": "moderate",
+      "momentum_visual": "generally increasing, then decreasing, then increasing, then decreasing",
+      "notable_gap_or_reversal": "no significant gap or reversal",
+      "other_visible_pattern": "no other visible patterns",
+      "support_resistance_visual": "no clear support or resistance levels visible",
+      "trend": "upward, then downward, then upward, then downward",
+      "volatility_visual": "high in early months, then moderate, then high again",
+      "volume_visual": "not visible"
+    },
+    "caption_sha256": "556627f4fc452be5b3a35bd80c2ab31b07b70ae358a166f54093338aadf6c312",
+    "caption_source": "NEW_QWEN_M2_06",
+    "caption_status": "GENERATED",
+    "chart_period": "2023-H1",
+    "evidence_age_calendar_days": 98,
+    "image_sha256": "88e4d13673a4574aaa10b91ea6a161eecbd26a3cc888a594e88c9605ba77baf8",
+    "inferred_period_end": "2023-06-30",
+    "provenance_hash_reference": "556627f4fc452be5b3a35bd80c2ab31b07b70ae358a166f54093338aadf6c312",
+    "reason": "",
+    "source_identity": "agi_2023_H1_candlestick.png",
+    "status": "AVAILABLE"
+  },
+  "TABLE": {
+    "facts": {
+      "Assets": {
+        "reason": "no canonical PIT-safe selected fact",
+        "status": "UNAVAILABLE"
+      },
+      "Liabilities": {
+        "reason": "no canonical PIT-safe selected fact",
+        "status": "UNAVAILABLE"
+      },
+      "NetCashProvidedByUsedInFinancingActivities": {
+        "reason": "no canonical PIT-safe selected fact",
+        "status": "UNAVAILABLE"
+      },
+      "NetCashProvidedByUsedInInvestingActivities": {
+        "reason": "no canonical PIT-safe selected fact",
+        "status": "UNAVAILABLE"
+      },
+      "NetCashProvidedByUsedInOperatingActivities": {
+        "reason": "no canonical PIT-safe selected fact",
+        "status": "UNAVAILABLE"
+      },
+      "StockholdersEquity": {
+        "reason": "no canonical PIT-safe selected fact",
+        "status": "UNAVAILABLE"
+      }
+    },
+    "provenance_hash_reference": "31ed97d48e36ee55b3b17701feea5389c90606b5d1870f8cbaf95d6d468f5ad9",
+    "reason": "no PIT-safe canonical fact for one or more concepts",
+    "selection_rule": "frozen six-concept TABLE selection; filed_date < decision session",
+    "source_identity": "",
+    "status": "UNAVAILABLE"
+  },
+  "TEXT": {
+    "evidence_age_calendar_days": 3,
+    "provenance_hash_reference": "ae5b579b5fa73f5a910c5a46d9ba2ac0959ce9622086d5ba245036c8f8e18590",
+    "reason": "",
+    "records": [
+      {
+        "article_date": "2023-10-03",
+        "body": "Eastman Chemical Company EMN recently announced a definitive agreement to sell its Texas City Operations in Texas City, TX, to INEOS Acetyls, a globally recognized manufacturer and supplier of acetic acid and related chemicals under the INEOS Group. This Texas City Operations unit currently falls under Eastman's Chemical Intermediates segment. As part of this deal, Eastman will maintain ownership of its plasticizer business at the site, which INEOS will operate on Eastman's behalf. Eastman and INEOS have also signed a Memorandum of Understanding to explore potential options for a long-term agreement concerning the supply of vinyl acetate monomer (VAM) to Eastman. The transaction's total sale price is $490 million, with around $415 million to be paid in cash at closing, and the remaining sum will be distributed in equal installments on the first and second anniversaries following the clo…",
+        "provenance_hash_reference": "d6f31762752dd7257d4805b619698be5f3d9a025e8efb8037c91476717a5f91f",
+        "source": "https://www.nasdaq.com/articles/eastman-emn-to-divest-texas-city-operations-to-ineos-acetyls",
+        "title": "Eastman (EMN) to Divest Texas City Operations to INEOS Acetyls"
+      },
+      {
+        "article_date": "2023-10-03",
+        "body": "Olin Corporation OLN officially completed its previously-announced acquisition of White Flyer Targets, a leading provider of recreational trap, skeet and sporting clay targets in North America. White Flyer will now be integrated into the Winchester Ammunition business. This acquisition encompasses White Flyer's five cutting-edge manufacturing facilities situated in Coal Township, PA, Dalton, GA, Webb City, MO, Knox, IN, and San Bernardino, CA. It also includes White Flyer's recently introduced ECO FLYER target product line. Brett Flaugher, the president of Winchester Ammunition, expressed a warm welcome to the new White Flyer team, emphasizing the collaborative potential to further enhance the growth of trap, skeet, sporting clays, and other shotgun sports. These two highly respected brands are well-known for their unparalleled quality. They will provide even greater value to customers …",
+        "provenance_hash_reference": "0f69e1a526e2ebab64867a6a11ec8310afd39a5cb027ab2f87745a44addfc073",
+        "source": "https://www.nasdaq.com/articles/olin-oln-completes-acquisition-of-white-flyer-targets",
+        "title": "Olin (OLN) Completes Acquisition of White Flyer Targets"
+      },
+      {
+        "article_date": "2023-10-03",
+        "body": "Reliance Steel & Aluminum Co.’s RS shares have gained 28.4% year to date. The company has also outperformed its industry’s rise of 6% over the same time frame. Moreover, it has topped the S&P 500’s 11.7% rise over the same period.  Let’s dive into the factors behind this Zacks Rank #3 (Hold) stock’s price appreciation.   Image Source: Zacks Investment Research  What’s Aiding RS? Reliance Steel is benefiting from strong underlying demand in its major markets. It envisions healthy demand to continue in most of its end markets in the third quarter of 2023.  Demand in non-residential construction, the company’s biggest market, increased in the second quarter. Based on the current customer state and backlogs, the company remains cautiously optimistic that non-residential construction activity in the sectors in which it participates will continue to be healthy in the third quarter.  Reliance …",
+        "provenance_hash_reference": "fea8b1df127e3fdcea9f22bb2f87d8f12fadcaf5e558f2d3b5881e2debdc3bb7",
+        "source": "https://www.nasdaq.com/articles/reliance-steel-rs-up-28-ytd%3A-whats-driving-the-stock",
+        "title": "Reliance Steel (RS) Up 28% YTD: What's Driving the Stock?"
+      },
+      {
+        "article_date": "2023-10-03",
+        "body": "PPG Industries, Inc. PPG is gaining from pricing actions, enhanced manufacturing efficiencies, cost discipline and acquisitions.  We are positive on the company’s prospects and believe that the time is right for you to add the stock to portfolio as it looks promising and is poised to carry the momentum ahead.  Let's see what makes this Zacks Rank #2 (Buy) stock an attractive investment option at the moment. Estimates Northbound The Zacks Consensus Estimate for PPG's 2023 earnings has increased roughly 3.6% over the past three months. The consensus estimate for 2024 has also been revised around 6.2% upward during the same period. The favorable estimate revisions instill investor confidence in the stock. Positive Earnings Surprise History PPG outperformed the Zacks Consensus Estimate in three of the last four quarters. It delivered a trailing four-quarter average earnings surprise of 7.3%…",
+        "provenance_hash_reference": "b3ae6a457c883d72c531b1ef1d964397b563e6a4555849cd9be365c83e8aa2ac",
+        "source": "https://www.nasdaq.com/articles/why-you-should-add-ppg-industries-ppg-stock-to-your-portfolio-0",
+        "title": "Why You Should Add PPG Industries (PPG) Stock to Your Portfolio"
+      },
+      {
+        "article_date": "2023-09-29",
+        "body": "Eastman Chemical Company EMN is gaining from cost-cutting and productivity actions as well as its innovation-driven growth model. However, it is exposed to certain headwinds including soft demand and consumer de-stocking.  Shares of this leading chemical maker are up 8.2% over the past year compared with 8.5% rise of its industry.   Image Source: Zacks Investment Research   Let’s find out why this Zacks Rank #3 (Hold) stock is worth retaining at the moment.  Cost Cuts and Innovation Aid EMN Eastman is benefiting from its actions to manage costs. The company is expected to benefit from lower operating costs from its operational transformation program. EMN was able to offset $1.3 billion in inflation from higher raw material, energy and distribution costs through price increases in 2022. It is on track to reduce manufacturing, supply chain and non-manufacturing costs by more than $200 mil…",
+        "provenance_hash_reference": "2244c36073c97f2ee401c2c68c1fcd86370e97285e9cda81430812377a9cb0e2",
+        "source": "https://www.nasdaq.com/articles/why-you-should-retain-eastman-chemical-emn-in-your-portfolio-0",
+        "title": "Why You Should Retain Eastman Chemical (EMN) in Your Portfolio"
+      },
+      {
+        "article_date": "2023-09-28",
+        "body": "Albemarle Corporation ALB inked an agreement with Caterpillar Inc. CAT to collaborate on initiatives to support a sustainable battery value chain and environmentally responsible mining operations. The primary objective of this collaboration is to facilitate Albemarle's efforts in establishing the first-ever zero-emissions lithium mining site in North America, located in Kings Mountain, NC. A vital aspect of this endeavor involves adopting cutting-edge, battery-powered mining equipment. The companies have also signed an agreement that allows Caterpillar to utilize Albemarle's lithium, produced in North America, in its battery manufacturing processes. The firms are exploring potential partnerships in researching and developing battery cell technology and recycling methods. The partnership between Albemarle and Caterpillar exemplifies Albemarle's unwavering commitment to pioneering innovat…",
+        "provenance_hash_reference": "c57be2853e0c8dcb893c8cc2b3f6a2b28cee596808149f45ade14cef527cb681",
+        "source": "https://www.nasdaq.com/articles/albemarle-alb-caterpillar-join-forces-for-sustainable-mining",
+        "title": "Albemarle (ALB)-Caterpillar Join Forces for Sustainable Mining"
+      },
+      {
+        "article_date": "2023-09-28",
+        "body": "Arkema S.A. ARKAY revealed plans for substantially increasing organic peroxide production capabilities at its Changshu facility in China. This strategic investment, totaling approximately €50 million (roughly $53 million), aims to better serve the rapidly growing Asian markets, particularly in the field of renewable energies. The Luperox brand organic peroxides manufactured by Arkema are vital components as reaction initiators for various polymers and, notably, are crucial in producing photovoltaic panels, playing a pivotal role in the global shift towards clean energy. By significantly expanding its presence in Changshu, China, Arkema aims to support the increasing demand from Asian manufacturers participating in the booming global market. This expansion in organic peroxide operations in China is in addition to the company's previously announced 70% increase in organic peroxide capacit…",
+        "provenance_hash_reference": "360dc10be8df2cb5cf8dd7f5257fb9a01531297a55e0e7665a41a6cfe616b1b9",
+        "source": "https://www.nasdaq.com/articles/arkema-arkay-expands-organic-peroxide-production-in-china",
+        "title": "Arkema (ARKAY) Expands Organic Peroxide Production in China"
+      },
+      {
+        "article_date": "2023-09-28",
+        "body": "FMC Corporation FMC is benefiting from pricing actions and new product launches amid headwinds from demand weakness due to inventory management by farmers.  The company’s shares are down 37.9% in the past year compared with an 8.7% rise of the industry.   Image Source: Zacks Investment Research   FMC Corp, a Zacks Rank #3 (Hold) stock, remains focused on boosting its market position and strengthening its product portfolio. It is investing in technologies and products as well as new launches to enhance value to the farmers. New products launched in Europe, North America and Asia are gaining significant traction. Product introductions are expected to support the company’s results this year.  The acquisition of BioPhero ApS, a Denmark-based pheromone research and production company, also adds biologically produced state-of-the-art pheromone insect control technology to the company’s produc…",
+        "provenance_hash_reference": "08177aa9479e57c2d65b29d066a1ec93c5b258fcb47576317c2b4c6e3459f1b3",
+        "source": "https://www.nasdaq.com/articles/fmc-corp-fmc-gains-on-pricing-new-products-amid-demand-woes",
+        "title": "FMC Corp (FMC) Gains on Pricing & New Products Amid Demand Woes"
+      }
+    ],
+    "selection_rule": "frozen bounded TEXT selection; Date < decision session; deterministic order",
+    "source_identity": "sp500_news/AGI.jsonl",
+    "status": "AVAILABLE"
+  },
+  "TIME_SERIES": {
+    "provenance_hash_reference": "7213a9c07e512198d09b3aaee1bd6073ecfe85cde75d799a68740e00b83c14d0",
+    "reason": "",
+    "selection_rule": "frozen descriptive summaries from 61 completed source rows; session <= decision",
+    "source_identity": "S&P500_time_series/agi.csv",
+    "status": "AVAILABLE",
+    "summaries": {
+      "cumulative_return_20d": -0.01996148975769596,
+      "cumulative_return_5d": 0.023029298384221963,
+      "cumulative_return_60d": -0.08648338130234812,
+      "drawdown_from_60d_peak": -0.10761332003588175,
+      "high_low_range_20d": 0.20129873357424843,
+      "realised_volatility_20d_annualised": 0.3277927947035734,
+      "relative_volume_vs_20d_mean": 0.9215271879752711
+    },
+    "through_session": "2023-10-06"
+  },
+  "agent_text": "=== FINMULTITIME EVIDENCE ===\nSymbol: AGI\nDecision session: 2023-10-06\n\n[TEXT]\nStatus: AVAILABLE\nEvidence age (calendar days): 3\nSource: sp500_news/AGI.jsonl\nArticle 1 date: 2023-10-03\nArticle 1 title: Eastman (EMN) to Divest Texas City Operations to INEOS Acetyls\nArticle 1 source: https://www.nasdaq.com/articles/eastman-emn-to-divest-texas-city-operations-to-ineos-acetyls\nArticle 1 text: Eastman Chemical Company EMN recently announced a definitive agreement to sell its Texas City Operations in Texas City, TX, to INEOS Acetyls, a globally recognized manufacturer and supplier of acetic acid and related chemicals under the INEOS Group. This Texas City Operations unit currently falls under Eastman's Chemical Intermediates segment. As part of this deal, Eastman will maintain ownership of its plasticizer business at the site, which INEOS will operate on Eastman's behalf. Eastman and INEOS have also signed a Memorandum of Understanding to explore potential options for a long-term agreement concerning the supply of vinyl acetate monomer (VAM) to Eastman. The transaction's total sale price is $490 million, with around $415 million to be paid in cash at closing, and the remaining sum will be distributed in equal installments on the first and second anniversaries following the clo…\nArticle 1 provenance: d6f31762752dd7257d4805b619698be5f3d9a025e8efb8037c91476717a5f91f\nArticle 2 date: 2023-10-03\nArticle 2 title: Olin (OLN) Completes Acquisition of White Flyer Targets\nArticle 2 source: https://www.nasdaq.com/articles/olin-oln-completes-acquisition-of-white-flyer-targets\nArticle 2 text: Olin Corporation OLN officially completed its previously-announced acquisition of White Flyer Targets, a leading provider of recreational trap, skeet and sporting clay targets in North America. White Flyer will now be integrated into the Winchester Ammunition business. This acquisition encompasses White Flyer's five cutting-edge manufacturing facilities situated in Coal Township, PA, Dalton, GA, Webb City, MO, Knox, IN, and San Bernardino, CA. It also includes White Flyer's recently introduced ECO FLYER target product line. Brett Flaugher, the president of Winchester Ammunition, expressed a warm welcome to the new White Flyer team, emphasizing the collaborative potential to further enhance the growth of trap, skeet, sporting clays, and other shotgun sports. These two highly respected brands are well-known for their unparalleled quality. They will provide even greater value to customers …\nArticle 2 provenance: 0f69e1a526e2ebab64867a6a11ec8310afd39a5cb027ab2f87745a44addfc073\nArticle 3 date: 2023-10-03\nArticle 3 title: Reliance Steel (RS) Up 28% YTD: What's Driving the Stock?\nArticle 3 source: https://www.nasdaq.com/articles/reliance-steel-rs-up-28-ytd%3A-whats-driving-the-stock\nArticle 3 text: Reliance Steel & Aluminum Co.’s RS shares have gained 28.4% year to date. The company has also outperformed its industry’s rise of 6% over the same time frame. Moreover, it has topped the S&P 500’s 11.7% rise over the same period.  Let’s dive into the factors behind this Zacks Rank #3 (Hold) stock’s price appreciation.   Image Source: Zacks Investment Research  What’s Aiding RS? Reliance Steel is benefiting from strong underlying demand in its major markets. It envisions healthy demand to continue in most of its end markets in the third quarter of 2023.  Demand in non-residential construction, the company’s biggest market, increased in the second quarter. Based on the current customer state and backlogs, the company remains cautiously optimistic that non-residential construction activity in the sectors in which it participates will continue to be healthy in the third quarter.  Reliance …\nArticle 3 provenance: fea8b1df127e3fdcea9f22bb2f87d8f12fadcaf5e558f2d3b5881e2debdc3bb7\nArticle 4 date: 2023-10-03\nArticle 4 title: Why You Should Add PPG Industries (PPG) Stock to Your Portfolio\nArticle 4 source: https://www.nasdaq.com/articles/why-you-should-add-ppg-industries-ppg-stock-to-your-portfolio-0\nArticle 4 text: PPG Industries, Inc. PPG is gaining from pricing actions, enhanced manufacturing efficiencies, cost discipline and acquisitions.  We are positive on the company’s prospects and believe that the time is right for you to add the stock to portfolio as it looks promising and is poised to carry the momentum ahead.  Let's see what makes this Zacks Rank #2 (Buy) stock an attractive investment option at the moment. Estimates Northbound The Zacks Consensus Estimate for PPG's 2023 earnings has increased roughly 3.6% over the past three months. The consensus estimate for 2024 has also been revised around 6.2% upward during the same period. The favorable estimate revisions instill investor confidence in the stock. Positive Earnings Surprise History PPG outperformed the Zacks Consensus Estimate in three of the last four quarters. It delivered a trailing four-quarter average earnings surprise of 7.3%…\nArticle 4 provenance: b3ae6a457c883d72c531b1ef1d964397b563e6a4555849cd9be365c83e8aa2ac\nArticle 5 date: 2023-09-29\nArticle 5 title: Why You Should Retain Eastman Chemical (EMN) in Your Portfolio\nArticle 5 source: https://www.nasdaq.com/articles/why-you-should-retain-eastman-chemical-emn-in-your-portfolio-0\nArticle 5 text: Eastman Chemical Company EMN is gaining from cost-cutting and productivity actions as well as its innovation-driven growth model. However, it is exposed to certain headwinds including soft demand and consumer de-stocking.  Shares of this leading chemical maker are up 8.2% over the past year compared with 8.5% rise of its industry.   Image Source: Zacks Investment Research   Let’s find out why this Zacks Rank #3 (Hold) stock is worth retaining at the moment.  Cost Cuts and Innovation Aid EMN Eastman is benefiting from its actions to manage costs. The company is expected to benefit from lower operating costs from its operational transformation program. EMN was able to offset $1.3 billion in inflation from higher raw material, energy and distribution costs through price increases in 2022. It is on track to reduce manufacturing, supply chain and non-manufacturing costs by more than $200 mil…\nArticle 5 provenance: 2244c36073c97f2ee401c2c68c1fcd86370e97285e9cda81430812377a9cb0e2\nArticle 6 date: 2023-09-28\nArticle 6 title: Albemarle (ALB)-Caterpillar Join Forces for Sustainable Mining\nArticle 6 source: https://www.nasdaq.com/articles/albemarle-alb-caterpillar-join-forces-for-sustainable-mining\nArticle 6 text: Albemarle Corporation ALB inked an agreement with Caterpillar Inc. CAT to collaborate on initiatives to support a sustainable battery value chain and environmentally responsible mining operations. The primary objective of this collaboration is to facilitate Albemarle's efforts in establishing the first-ever zero-emissions lithium mining site in North America, located in Kings Mountain, NC. A vital aspect of this endeavor involves adopting cutting-edge, battery-powered mining equipment. The companies have also signed an agreement that allows Caterpillar to utilize Albemarle's lithium, produced in North America, in its battery manufacturing processes. The firms are exploring potential partnerships in researching and developing battery cell technology and recycling methods. The partnership between Albemarle and Caterpillar exemplifies Albemarle's unwavering commitment to pioneering innovat…\nArticle 6 provenance: c57be2853e0c8dcb893c8cc2b3f6a2b28cee596808149f45ade14cef527cb681\nArticle 7 date: 2023-09-28\nArticle 7 title: Arkema (ARKAY) Expands Organic Peroxide Production in China\nArticle 7 source: https://www.nasdaq.com/articles/arkema-arkay-expands-organic-peroxide-production-in-china\nArticle 7 text: Arkema S.A. ARKAY revealed plans for substantially increasing organic peroxide production capabilities at its Changshu facility in China. This strategic investment, totaling approximately €50 million (roughly $53 million), aims to better serve the rapidly growing Asian markets, particularly in the field of renewable energies. The Luperox brand organic peroxides manufactured by Arkema are vital components as reaction initiators for various polymers and, notably, are crucial in producing photovoltaic panels, playing a pivotal role in the global shift towards clean energy. By significantly expanding its presence in Changshu, China, Arkema aims to support the increasing demand from Asian manufacturers participating in the booming global market. This expansion in organic peroxide operations in China is in addition to the company's previously announced 70% increase in organic peroxide capacit…\nArticle 7 provenance: 360dc10be8df2cb5cf8dd7f5257fb9a01531297a55e0e7665a41a6cfe616b1b9\nArticle 8 date: 2023-09-28\nArticle 8 title: FMC Corp (FMC) Gains on Pricing & New Products Amid Demand Woes\nArticle 8 source: https://www.nasdaq.com/articles/fmc-corp-fmc-gains-on-pricing-new-products-amid-demand-woes\nArticle 8 text: FMC Corporation FMC is benefiting from pricing actions and new product launches amid headwinds from demand weakness due to inventory management by farmers.  The company’s shares are down 37.9% in the past year compared with an 8.7% rise of the industry.   Image Source: Zacks Investment Research   FMC Corp, a Zacks Rank #3 (Hold) stock, remains focused on boosting its market position and strengthening its product portfolio. It is investing in technologies and products as well as new launches to enhance value to the farmers. New products launched in Europe, North America and Asia are gaining significant traction. Product introductions are expected to support the company’s results this year.  The acquisition of BioPhero ApS, a Denmark-based pheromone research and production company, also adds biologically produced state-of-the-art pheromone insect control technology to the company’s produc…\nArticle 8 provenance: 08177aa9479e57c2d65b29d066a1ec93c5b258fcb47576317c2b4c6e3459f1b3\n\n[TABLE]\nStatus: UNAVAILABLE\nMissingness reason: no PIT-safe canonical fact for one or more concepts\nSource: \nAssets: UNAVAILABLE\nLiabilities: UNAVAILABLE\nStockholdersEquity: UNAVAILABLE\nNetCashProvidedByUsedInOperatingActivities: UNAVAILABLE\nNetCashProvidedByUsedInInvestingActivities: UNAVAILABLE\nNetCashProvidedByUsedInFinancingActivities: UNAVAILABLE\n\n[TIME_SERIES]\nStatus: AVAILABLE\nThrough session: 2023-10-06\nSource: S&P500_time_series/agi.csv\ncumulative_return_5d: 0.023029298384221963\ncumulative_return_20d: -0.01996148975769596\ncumulative_return_60d: -0.08648338130234812\nrealised_volatility_20d_annualised: 0.3277927947035734\nhigh_low_range_20d: 0.20129873357424843\ndrawdown_from_60d_peak: -0.10761332003588175\nrelative_volume_vs_20d_mean: 0.9215271879752711\nProvenance: 7213a9c07e512198d09b3aaee1bd6073ecfe85cde75d799a68740e00b83c14d0\n\n[IMAGE]\nStatus: AVAILABLE\nChart period: 2023-H1\nInferred period end: 2023-06-30\nEvidence age (calendar days): 98\nSource: agi_2023_H1_candlestick.png\nCanonical caption: {\"candlestick_structure\":\"mostly green, with some red, indicating mostly bullish, with some bearish\",\"confidence\":\"moderate\",\"momentum_visual\":\"generally increasing, then decreasing, then increasing, then decreasing\",\"notable_gap_or_reversal\":\"no significant gap or reversal\",\"other_visible_pattern\":\"no other visible patterns\",\"support_resistance_visual\":\"no clear support or resistance levels visible\",\"trend\":\"upward, then downward, then upward, then downward\",\"volatility_visual\":\"high in early months, then moderate, then high again\",\"volume_visual\":\"not visible\"}\nCaption provenance: 556627f4fc452be5b3a35bd80c2ab31b07b70ae358a166f54093338aadf6c312\n=== END FINMULTITIME EVIDENCE ===\n",
+  "available_for_training": false,
+  "available_for_validation": false,
+  "case_id": "AGI:2023-10-06",
+  "character_counts": {
+    "complete": 11614,
+    "fundamentals": 345,
+    "market": 1292,
+    "news": 9829
+  },
+  "contract_version": "M1-FINMULTITIME-v1.0.2",
+  "dataset_id": "m2_preformal_evidence_v1",
+  "decision_session": "2023-10-06",
+  "decision_time": "2023-10-06T20:00:00+00:00",
+  "engineering_only": true,
+  "m2_metadata": {
+    "available_for_training": false,
+    "available_for_validation": false,
+    "engineering_only": true,
+    "performance_for_selection": false,
+    "protected": false,
+    "role": "E2E_PILOT",
+    "tier_membership": {
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    }
+  },
+  "packet_sha256": "5d45e8d24175d5f3026e697fa446eea057387ca51a456dcb814074fcc7407904",
+  "packet_status": "FINAL_FROZEN",
+  "performance_for_selection": false,
+  "protected": false,
+  "record_type": "m1_finmultitime_evidence_packet",
+  "role": "E2E_PILOT",
+  "routed_projections": {
+    "fundamentals_analyst": {
+      "sections": [
+        "TABLE"
+      ],
+      "text": "Status: UNAVAILABLE\nMissingness reason: no PIT-safe canonical fact for one or more concepts\nSource: \nAssets: UNAVAILABLE\nLiabilities: UNAVAILABLE\nStockholdersEquity: UNAVAILABLE\nNetCashProvidedByUsedInOperatingActivities: UNAVAILABLE\nNetCashProvidedByUsedInInvestingActivities: UNAVAILABLE\nNetCashProvidedByUsedInFinancingActivities: UNAVAILABLE"
+    },
+    "market_analyst": {
+      "sections": [
+        "TIME_SERIES",
+        "IMAGE"
+      ],
+      "text": "Status: AVAILABLE\nThrough session: 2023-10-06\nSource: S&P500_time_series/agi.csv\ncumulative_return_5d: 0.023029298384221963\ncumulative_return_20d: -0.01996148975769596\ncumulative_return_60d: -0.08648338130234812\nrealised_volatility_20d_annualised: 0.3277927947035734\nhigh_low_range_20d: 0.20129873357424843\ndrawdown_from_60d_peak: -0.10761332003588175\nrelative_volume_vs_20d_mean: 0.9215271879752711\nProvenance: 7213a9c07e512198d09b3aaee1bd6073ecfe85cde75d799a68740e00b83c14d0\n\nStatus: AVAILABLE\nChart period: 2023-H1\nInferred period end: 2023-06-30\nEvidence age (calendar days): 98\nSource: agi_2023_H1_candlestick.png\nCanonical caption: {\"candlestick_structure\":\"mostly green, with some red, indicating mostly bullish, with some bearish\",\"confidence\":\"moderate\",\"momentum_visual\":\"generally increasing, then decreasing, then increasing, then decreasing\",\"notable_gap_or_reversal\":\"no significant gap or reversal\",\"other_visible_pattern\":\"no other visible patterns\",\"support_resistance_visual\":\"no clear support or resistance levels visible\",\"trend\":\"upward, then downward, then upward, then downward\",\"volatility_visual\":\"high in early months, then moderate, then high again\",\"volume_visual\":\"not visible\"}\nCaption provenance: 556627f4fc452be5b3a35bd80c2ab31b07b70ae358a166f54093338aadf6c312"
+    },
+    "news_analyst": {
+      "sections": [
+        "TEXT"
+      ],
+      "text": "Status: AVAILABLE\nEvidence age (calendar days): 3\nSource: sp500_news/AGI.jsonl\nArticle 1 date: 2023-10-03\nArticle 1 title: Eastman (EMN) to Divest Texas City Operations to INEOS Acetyls\nArticle 1 source: https://www.nasdaq.com/articles/eastman-emn-to-divest-texas-city-operations-to-ineos-acetyls\nArticle 1 text: Eastman Chemical Company EMN recently announced a definitive agreement to sell its Texas City Operations in Texas City, TX, to INEOS Acetyls, a globally recognized manufacturer and supplier of acetic acid and related chemicals under the INEOS Group. This Texas City Operations unit currently falls under Eastman's Chemical Intermediates segment. As part of this deal, Eastman will maintain ownership of its plasticizer business at the site, which INEOS will operate on Eastman's behalf. Eastman and INEOS have also signed a Memorandum of Understanding to explore potential options for a long-term agreement concerning the supply of vinyl acetate monomer (VAM) to Eastman. The transaction's total sale price is $490 million, with around $415 million to be paid in cash at closing, and the remaining sum will be distributed in equal installments on the first and second anniversaries following the clo…\nArticle 1 provenance: d6f31762752dd7257d4805b619698be5f3d9a025e8efb8037c91476717a5f91f\nArticle 2 date: 2023-10-03\nArticle 2 title: Olin (OLN) Completes Acquisition of White Flyer Targets\nArticle 2 source: https://www.nasdaq.com/articles/olin-oln-completes-acquisition-of-white-flyer-targets\nArticle 2 text: Olin Corporation OLN officially completed its previously-announced acquisition of White Flyer Targets, a leading provider of recreational trap, skeet and sporting clay targets in North America. White Flyer will now be integrated into the Winchester Ammunition business. This acquisition encompasses White Flyer's five cutting-edge manufacturing facilities situated in Coal Township, PA, Dalton, GA, Webb City, MO, Knox, IN, and San Bernardino, CA. It also includes White Flyer's recently introduced ECO FLYER target product line. Brett Flaugher, the president of Winchester Ammunition, expressed a warm welcome to the new White Flyer team, emphasizing the collaborative potential to further enhance the growth of trap, skeet, sporting clays, and other shotgun sports. These two highly respected brands are well-known for their unparalleled quality. They will provide even greater value to customers …\nArticle 2 provenance: 0f69e1a526e2ebab64867a6a11ec8310afd39a5cb027ab2f87745a44addfc073\nArticle 3 date: 2023-10-03\nArticle 3 title: Reliance Steel (RS) Up 28% YTD: What's Driving the Stock?\nArticle 3 source: https://www.nasdaq.com/articles/reliance-steel-rs-up-28-ytd%3A-whats-driving-the-stock\nArticle 3 text: Reliance Steel & Aluminum Co.’s RS shares have gained 28.4% year to date. The company has also outperformed its industry’s rise of 6% over the same time frame. Moreover, it has topped the S&P 500’s 11.7% rise over the same period.  Let’s dive into the factors behind this Zacks Rank #3 (Hold) stock’s price appreciation.   Image Source: Zacks Investment Research  What’s Aiding RS? Reliance Steel is benefiting from strong underlying demand in its major markets. It envisions healthy demand to continue in most of its end markets in the third quarter of 2023.  Demand in non-residential construction, the company’s biggest market, increased in the second quarter. Based on the current customer state and backlogs, the company remains cautiously optimistic that non-residential construction activity in the sectors in which it participates will continue to be healthy in the third quarter.  Reliance …\nArticle 3 provenance: fea8b1df127e3fdcea9f22bb2f87d8f12fadcaf5e558f2d3b5881e2debdc3bb7\nArticle 4 date: 2023-10-03\nArticle 4 title: Why You Should Add PPG Industries (PPG) Stock to Your Portfolio\nArticle 4 source: https://www.nasdaq.com/articles/why-you-should-add-ppg-industries-ppg-stock-to-your-portfolio-0\nArticle 4 text: PPG Industries, Inc. PPG is gaining from pricing actions, enhanced manufacturing efficiencies, cost discipline and acquisitions.  We are positive on the company’s prospects and believe that the time is right for you to add the stock to portfolio as it looks promising and is poised to carry the momentum ahead.  Let's see what makes this Zacks Rank #2 (Buy) stock an attractive investment option at the moment. Estimates Northbound The Zacks Consensus Estimate for PPG's 2023 earnings has increased roughly 3.6% over the past three months. The consensus estimate for 2024 has also been revised around 6.2% upward during the same period. The favorable estimate revisions instill investor confidence in the stock. Positive Earnings Surprise History PPG outperformed the Zacks Consensus Estimate in three of the last four quarters. It delivered a trailing four-quarter average earnings surprise of 7.3%…\nArticle 4 provenance: b3ae6a457c883d72c531b1ef1d964397b563e6a4555849cd9be365c83e8aa2ac\nArticle 5 date: 2023-09-29\nArticle 5 title: Why You Should Retain Eastman Chemical (EMN) in Your Portfolio\nArticle 5 source: https://www.nasdaq.com/articles/why-you-should-retain-eastman-chemical-emn-in-your-portfolio-0\nArticle 5 text: Eastman Chemical Company EMN is gaining from cost-cutting and productivity actions as well as its innovation-driven growth model. However, it is exposed to certain headwinds including soft demand and consumer de-stocking.  Shares of this leading chemical maker are up 8.2% over the past year compared with 8.5% rise of its industry.   Image Source: Zacks Investment Research   Let’s find out why this Zacks Rank #3 (Hold) stock is worth retaining at the moment.  Cost Cuts and Innovation Aid EMN Eastman is benefiting from its actions to manage costs. The company is expected to benefit from lower operating costs from its operational transformation program. EMN was able to offset $1.3 billion in inflation from higher raw material, energy and distribution costs through price increases in 2022. It is on track to reduce manufacturing, supply chain and non-manufacturing costs by more than $200 mil…\nArticle 5 provenance: 2244c36073c97f2ee401c2c68c1fcd86370e97285e9cda81430812377a9cb0e2\nArticle 6 date: 2023-09-28\nArticle 6 title: Albemarle (ALB)-Caterpillar Join Forces for Sustainable Mining\nArticle 6 source: https://www.nasdaq.com/articles/albemarle-alb-caterpillar-join-forces-for-sustainable-mining\nArticle 6 text: Albemarle Corporation ALB inked an agreement with Caterpillar Inc. CAT to collaborate on initiatives to support a sustainable battery value chain and environmentally responsible mining operations. The primary objective of this collaboration is to facilitate Albemarle's efforts in establishing the first-ever zero-emissions lithium mining site in North America, located in Kings Mountain, NC. A vital aspect of this endeavor involves adopting cutting-edge, battery-powered mining equipment. The companies have also signed an agreement that allows Caterpillar to utilize Albemarle's lithium, produced in North America, in its battery manufacturing processes. The firms are exploring potential partnerships in researching and developing battery cell technology and recycling methods. The partnership between Albemarle and Caterpillar exemplifies Albemarle's unwavering commitment to pioneering innovat…\nArticle 6 provenance: c57be2853e0c8dcb893c8cc2b3f6a2b28cee596808149f45ade14cef527cb681\nArticle 7 date: 2023-09-28\nArticle 7 title: Arkema (ARKAY) Expands Organic Peroxide Production in China\nArticle 7 source: https://www.nasdaq.com/articles/arkema-arkay-expands-organic-peroxide-production-in-china\nArticle 7 text: Arkema S.A. ARKAY revealed plans for substantially increasing organic peroxide production capabilities at its Changshu facility in China. This strategic investment, totaling approximately €50 million (roughly $53 million), aims to better serve the rapidly growing Asian markets, particularly in the field of renewable energies. The Luperox brand organic peroxides manufactured by Arkema are vital components as reaction initiators for various polymers and, notably, are crucial in producing photovoltaic panels, playing a pivotal role in the global shift towards clean energy. By significantly expanding its presence in Changshu, China, Arkema aims to support the increasing demand from Asian manufacturers participating in the booming global market. This expansion in organic peroxide operations in China is in addition to the company's previously announced 70% increase in organic peroxide capacit…\nArticle 7 provenance: 360dc10be8df2cb5cf8dd7f5257fb9a01531297a55e0e7665a41a6cfe616b1b9\nArticle 8 date: 2023-09-28\nArticle 8 title: FMC Corp (FMC) Gains on Pricing & New Products Amid Demand Woes\nArticle 8 source: https://www.nasdaq.com/articles/fmc-corp-fmc-gains-on-pricing-new-products-amid-demand-woes\nArticle 8 text: FMC Corporation FMC is benefiting from pricing actions and new product launches amid headwinds from demand weakness due to inventory management by farmers.  The company’s shares are down 37.9% in the past year compared with an 8.7% rise of the industry.   Image Source: Zacks Investment Research   FMC Corp, a Zacks Rank #3 (Hold) stock, remains focused on boosting its market position and strengthening its product portfolio. It is investing in technologies and products as well as new launches to enhance value to the farmers. New products launched in Europe, North America and Asia are gaining significant traction. Product introductions are expected to support the company’s results this year.  The acquisition of BioPhero ApS, a Denmark-based pheromone research and production company, also adds biologically produced state-of-the-art pheromone insect control technology to the company’s produc…\nArticle 8 provenance: 08177aa9479e57c2d65b29d066a1ec93c5b258fcb47576317c2b4c6e3459f1b3"
+    },
+    "social_analyst": {
+      "sections": [],
+      "text": ""
+    }
+  },
+  "routing": {
+    "modality_to_analyst": {
+      "IMAGE": "Market Analyst",
+      "TABLE": "Fundamentals Analyst",
+      "TEXT": "News Analyst",
+      "TIME_SERIES": "Market Analyst"
+    },
+    "raw_packet_direct_injection": false,
+    "social_analyst": "NO_FINMULTITIME_EVIDENCE"
+  },
+  "section_sha256": {
+    "IMAGE": "ce6f19581affc65ac1fe988c649043227442d161a074fb3eef4c34728c00ec79",
+    "TABLE": "e05af090ec3974ea4ca645ebeb821a170aaa1d13accd6b1e3e944907f2ee88cc",
+    "TEXT": "0fe39d1ab7f7803b857ae99deda0f8817cbbff3a250be0e5c9a49885a72ac6bd",
+    "TIME_SERIES": "ba725dc92bfed1d0b9b89e0cb328817e566c68faa27a654e81c7667d843bd9d5"
+  },
+  "source_provenance": {
+    "pit_cutoff": "2023-10-06",
+    "task_id": "M2-06"
+  },
+  "symbol": "AGI",
+  "tier_membership": {
+    "in_compact": true,
+    "in_maximum": true,
+    "in_standard": true
+  }
+}

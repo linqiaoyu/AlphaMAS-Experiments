@@ -1,0 +1,52 @@
+=== FINMULTITIME EVIDENCE ===
+Symbol: AGI
+Decision session: 2023-07-28
+
+[TEXT]
+Status: AVAILABLE
+Evidence age (calendar days): 15
+Source: sp500_news/AGI.jsonl
+Article 1 date: 2023-07-13
+Article 1 title: AGI Crosses Above Average Analyst Target
+Article 1 source: https://www.nasdaq.com/articles/agi-crosses-above-average-analyst-target-0
+Article 1 text: In recent trading, shares of Alamos Gold Inc (Symbol: AGI) have crossed above the average analyst 12-month target price of $12.22, changing hands for $12.68/share. When a stock reaches the target an analyst has set, the analyst logically has two ways to react: downgrade on valuation, or, re-adjust their target price to a higher level. Analyst reaction may also depend on the fundamental business developments that may be responsible for driving the stock price higher — if things are looking up for the company, perhaps it is time for that target price to be raised. There are 11 different analyst targets within the Zacks coverage universe contributing to that average for Alamos Gold Inc , but the average is just that — a mathematical average. There are analysts with lower targets than the average, including one looking for a price of $8.08. And then on the other side of the spectrum one ana…
+Article 1 provenance: e146800ce59d946c8f303a5e5eadd76f5a059657fb6585712ae67f3ee52f4888
+Article 2 date: 2023-07-07
+Article 2 title: First Week of August 18th Options Trading For Alamos Gold (AGI)
+Article 2 source: https://www.nasdaq.com/articles/first-week-of-august-18th-options-trading-for-alamos-gold-agi
+Article 2 text: Investors in Alamos Gold Inc (Symbol: AGI) saw new options become available this week, for the August 18th expiration. At Stock Options Channel, our YieldBoost formula has looked up and down the AGI options chain for the new August 18th contracts and identified one put and one call contract of particular interest. The put contract at the $11.00 strike price has a current bid of 20 cents. If an investor was to sell-to-open that put contract, they are committing to purchase the stock at $11.00, but will also collect the premium, putting the cost basis of the shares at $10.80 (before broker commissions). To an investor already interested in purchasing shares of AGI, that could represent an attractive alternative to paying $11.66/share today. Because the $11.00 strike represents an approximate 6% discount to the current trading price of the stock (in other words it is out-of-the-money by th…
+Article 2 provenance: 0b198a033374efad7473a87d55f4323b27d0aed08f79bbf40fa3ddb54dcb6821
+
+[TABLE]
+Status: UNAVAILABLE
+Missingness reason: no PIT-safe canonical fact for one or more concepts
+Source: 
+Assets: UNAVAILABLE
+Liabilities: UNAVAILABLE
+StockholdersEquity: UNAVAILABLE
+NetCashProvidedByUsedInOperatingActivities: UNAVAILABLE
+NetCashProvidedByUsedInInvestingActivities: UNAVAILABLE
+NetCashProvidedByUsedInFinancingActivities: UNAVAILABLE
+
+[TIME_SERIES]
+Status: AVAILABLE
+Through session: 2023-07-28
+Source: S&P500_time_series/agi.csv
+cumulative_return_5d: -0.020128898553957053
+cumulative_return_20d: 0.03751074815348243
+cumulative_return_60d: -0.0960262657923977
+realised_volatility_20d_annualised: 0.38622200164370984
+high_low_range_20d: 0.13454850934801477
+drawdown_from_60d_peak: -0.11761174993990164
+relative_volume_vs_20d_mean: 1.0365602597743666
+Provenance: 594924155640e4077ddb0561823afa46a9fe539debeebe6aaed46e668bf7f292
+
+[IMAGE]
+Status: AVAILABLE
+Chart period: 2023-H1
+Inferred period end: 2023-06-30
+Evidence age (calendar days): 28
+Source: agi_2023_H1_candlestick.png
+Canonical caption: {"candlestick_structure":"mostly green, with some red, indicating mostly bullish, with some bearish","confidence":"moderate","momentum_visual":"generally increasing, then decreasing, then increasing, then decreasing","notable_gap_or_reversal":"no significant gap or reversal","other_visible_pattern":"no other visible patterns","support_resistance_visual":"no clear support or resistance levels visible","trend":"upward, then downward, then upward, then downward","volatility_visual":"high in early months, then moderate, then high again","volume_visual":"not visible"}
+Caption provenance: 556627f4fc452be5b3a35bd80c2ab31b07b70ae358a166f54093338aadf6c312
+=== END FINMULTITIME EVIDENCE ===

@@ -1,0 +1,56 @@
+=== FINMULTITIME EVIDENCE ===
+Symbol: EML
+Decision session: 2023-05-05
+
+[TEXT]
+Status: AVAILABLE
+Evidence age (calendar days): 1
+Source: sp500_news/EML.jsonl
+Article 1 date: 2023-05-04
+Article 1 title: Top ex-Google AI researchers raise funding from Thrive Capital -sources
+Article 1 source: https://www.nasdaq.com/articles/top-ex-google-ai-researchers-raise-funding-from-thrive-capital-sources
+Article 1 text: By Anna Tong and Krystal Hu May 4 (Reuters) - Two prominent former Google GOOGL.O researchers who authored the groundbreaking paper that paved the way for the generative AI boom, have raised $8 million for their new startup Essential AI, four sources told Reuters. Thrive Capital had led the round in Essential AI, founded by Ashish Vaswani and Niki Parmar. The company is still in stealth mode and hasn't launched any product. Conviction and angel investor Elad Gil also participated in the round, one source close to the company added. Thrive Capital, founded by Joshua Kushner, is also an investor in Microsoft-backed OpenAI. Essential AI aims to build software for enterprises to use large language models, the core software of a new artificial intelligence system that has powered generative AI applications such as ChatGPT, sources said. Thrive Capital declined to comment. Vaswani and Parmar …
+Article 1 provenance: 3b468bf009be1150979eca857fc7906627a240793f646d939d12ac15460b8fca
+Article 2 date: 2023-04-30
+Article 2 title: Eastern (EML) Declares $0.11 Dividend
+Article 2 source: https://www.nasdaq.com/articles/eastern-eml-declares-%240.11-dividend-1
+Article 2 text: Eastern said on April 27, 2023 that its board of directors declared a regular quarterly dividend of $0.11 per share ($0.44 annualized). Previously, the company paid $0.11 per share. Shares must be purchased before the ex-div date of May 12, 2023 to qualify for the dividend. Shareholders of record as of May 15, 2023 will receive the payment on June 15, 2023. At the current share price of $17.75 / share, the stock's dividend yield is 2.48%. Looking back five years and taking a sample every week, the average dividend yield has been 1.83%, the lowest has been 1.33%, and the highest has been 2.62%. The standard deviation of yields is 0.31 (n=236). The current dividend yield is 2.09 standard deviations above the historical average. Additionally, the company's dividend payout ratio is 0.22. The payout ratio tells us how much of a company's income is paid out in dividends. A payout ratio of one…
+Article 2 provenance: 7049192dc80bc18425b140336b0a1f081daa43e1eb72f3f6a9173058307cb992
+Article 3 date: 2023-04-16
+Article 3 title: Australian shares rise on boost from financials, technology stocks
+Article 3 source: https://www.nasdaq.com/articles/australian-shares-rise-on-boost-from-financials-technology-stocks
+Article 3 text: April 17 (Reuters) - Australian shares edged higher on Monday boosted by banks and technology stocks, while a commodity drag capped gains on the benchmark index as cautious investors looked for cues in a high-cash rate environment. The S&P/ASX 200 index .AXJO rose 0.4% to 7,389.0 by 0036 GMT. The benchmark posted a 2% weekly gain on Friday. Local financial stocks .AXFJ rose 1.2% as lenders continue to enjoy a higher interest rate environment. All of the "Big Four" banks traded between 0.8% and 1.6%. Tech stocks .AXIJ also gained 0.6%, with ASX-listed shares of Megaport MP1.AX and Xero XRO.AX rising 2.6% and 1.2%, respectively. Energy companies .AXEJ fell 0.2%, even as oil prices firmed. Health .AXHJ and real estate stocks .AXRE also tracked the broader index. They were up 0.4% and 0.9%, respectively. Gold stocks .AXGD were among the top losers after bullion prices retreated on Friday du…
+Article 3 provenance: 6cfb7afd2bd6cdb532cdd67c91f87ad114d7107f19d2b1ff1cbf66b348c6596f
+
+[TABLE]
+Status: AVAILABLE
+Source: financial_reports/eml/condensed_consolidated_balance_sheets.json;financial_reports/eml/condensed_consolidated_statement_of_cash_flows.json
+Assets: value=261523033; unit=USD; form=10-K; fy=2022; fp=FY; period_start=; period_end=2022-12-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-03-14; accession=0001654954-23-002848; provenance=f8e005232915718792307e1d49b52931cc1ba62db5ce8a9dfeeaabf9ea9d2ae1
+Liabilities: value=134908338; unit=USD; form=10-K; fy=2022; fp=FY; period_start=; period_end=2022-12-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-03-14; accession=0001654954-23-002848; provenance=6863b3f1a16233f60a250b48dc17cd339dea02c28392337618f71631692625fa
+StockholdersEquity: value=126614695; unit=USD; form=10-K; fy=2022; fp=FY; period_start=; period_end=2022-12-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-03-14; accession=0001654954-23-002848; provenance=1337321684a42f830e2c5219563b686e6e0c0ae63d6360167e7021df24b7135a
+NetCashProvidedByUsedInOperatingActivities: value=7328346; unit=USD; form=10-K; fy=2022; fp=FY; period_start=2022-01-02; period_end=2022-12-31; period_duration_days=364; period_duration_class=annual; filed_date=2023-03-14; accession=0001654954-23-002848; provenance=21417bf26f82a30852d29341cc5edd1db5f1afe21e29e75d1a790420bcb2c5c4
+NetCashProvidedByUsedInInvestingActivities: value=5090269; unit=USD; form=10-K; fy=2022; fp=FY; period_start=2022-01-02; period_end=2022-12-31; period_duration_days=364; period_duration_class=annual; filed_date=2023-03-14; accession=0001654954-23-002848; provenance=7b1c72a1908c27720bdcf49b2731beff35cb522c83395ebe23c7cec750070dc3
+NetCashProvidedByUsedInFinancingActivities: value=-11775857; unit=USD; form=10-K; fy=2022; fp=FY; period_start=2022-01-02; period_end=2022-12-31; period_duration_days=364; period_duration_class=annual; filed_date=2023-03-14; accession=0001654954-23-002848; provenance=43c9a9c320eacbb7188b8fedda2e84007e7bedc0751148764bdb1d33685e7844
+
+[TIME_SERIES]
+Status: AVAILABLE
+Through session: 2023-05-05
+Source: S&P500_time_series/eml.csv
+cumulative_return_5d: -0.03170988621677395
+cumulative_return_20d: -0.10471200983189732
+cumulative_return_60d: -0.2166761055731553
+realised_volatility_20d_annualised: 0.40324447987253753
+high_low_range_20d: 0.19145102784977097
+drawdown_from_60d_peak: -0.21703294659008388
+relative_volume_vs_20d_mean: 0.46846846846846846
+Provenance: 3a806f48061a008dec1bf0ee6df3ab79195381e16769b17688c4ad9881964dd5
+
+[IMAGE]
+Status: AVAILABLE
+Chart period: 2022-H2
+Inferred period end: 2022-12-31
+Evidence age (calendar days): 125
+Source: eml_2022_H2_candlestick.png
+Canonical caption: {"candlestick_structure":"mostly green and red, with some white","confidence":"moderate","momentum_visual":"mixed, with periods of strong momentum","notable_gap_or_reversal":"a gap in early 2022, followed by a reversal","other_visible_pattern":"no clear pattern beyond the candlestick structure","support_resistance_visual":"support around 18-19, resistance around 22-23","trend":"upward then downward then upward","volatility_visual":"high volatility, especially in late 2022","volume_visual":"not visible"}
+Caption provenance: d953ffdbb16aadc95e81229de3fce18c9a224d0e22313eb08d5486bb0c175afb
+=== END FINMULTITIME EVIDENCE ===

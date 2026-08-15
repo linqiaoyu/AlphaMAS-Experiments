@@ -1,0 +1,81 @@
+=== FINMULTITIME EVIDENCE ===
+Symbol: AMZN
+Decision session: 2023-05-05
+
+[TEXT]
+Status: AVAILABLE
+Evidence age (calendar days): 1
+Source: sp500_news/AMZN.jsonl
+Article 1 date: 2023-05-04
+Article 1 title: 2 Growth Stocks That Are Screaming Buys in May
+Article 1 source: https://www.nasdaq.com/articles/2-growth-stocks-that-are-screaming-buys-in-may
+Article 1 text: Data equipment company Vertiv (NYSE: VRT) and oil and natural gas equipment and services company Baker Hughes (NASDAQ: BKR) reported excellent first-quarter earnings in the latter half of April. In doing so, they dispelled investor fears and signaled that they were on course to deliver solid earnings growth and excellent returns for the rest of the year and beyond. Here's why these two companies' shares are currently great values. Vertiv is silencing the doubters The data equipment provider has heavyweight backing in the form of activist value investor Starboard Value, and its executive chairman is longtime Honeywell CEO Dave Cote. However, though it operates in desirable end markets, its operational performance hasn't always lived up to its potential. For example, colocation data center companies like Equinix and Digital Realty Trust are guiding for double-digit percentage growth this …
+Article 1 provenance: c7d7b1620180b1cc63db2185ba3334daf4a6255d3ff3e61d06359c59f9932dd2
+Article 2 date: 2023-05-04
+Article 2 title: 3 Best Cloud Stocks to Buy in May
+Article 2 source: https://www.nasdaq.com/articles/3-best-cloud-stocks-to-buy-in-may
+Article 2 text: Cloud computing stocks are a favorite among many technology investors, in part, because their market potential is massive. The global cloud computing industry will operate in a market estimated to grow to about $1.6 trillion by 2030, up from $524 billion right now, according to a report from Precedence Research. Of course, not all companies will benefit equally. The tech companies that have established their leads in specific niches are likely to benefit the most in the coming years. That means investors might want to pay close attention to the strong cloud positions that The Trade Desk (NASDAQ: TTD), CrowdStrike Holdings (NASDAQ: CRWD), and Amazon (NASDAQ: AMZN) have established. Here's why these three cloud stocks are worth considering this month. Image source: Getty Images. 1. The Trade Desk The Trade Desk has been a bright spot in an otherwise dim tech sector lately. The company, wh…
+Article 2 provenance: 3ceb8a5a787313c39a064fe8ba78d0fac2180299582331af20d4eae1dfe3c949
+Article 3 date: 2023-05-04
+Article 3 title: 3 Stocks That AI Predicts Will Dominate Their Industries
+Article 3 source: https://www.nasdaq.com/articles/3-stocks-that-ai-predicts-will-dominate-their-industries
+Article 3 text: InvestorPlace - Stock Market News, Stock Advice & Trading Tips Should investors use AI stock picks to inform their decisions? Search engines have been using artificial intelligence for some time to offer up results to a query. But generative AI takes it one step further by not just referring you to sources, but crafting its own recommendations based on those sources.   So should I be concerned that the Bing bot picked a slew of tech stocks when we asked it about companies that will dominate their industries? Maybe, but that’s a story for another day. At the moment though, Bing did come up with some solid picks.  As you’ll see in the descriptions below, what AI will be and what it is today are different things. So you’ll still want to do your own due diligence. But here are three of the AI stock picks with a little of my own human “color” to add some additional information.   Apple (AAPL…
+Article 3 provenance: 55670590973ebc9943b2e96f4059ae450920cb3f5aad6c4d8cf88a2042685dbf
+Article 4 date: 2023-05-04
+Article 4 title: Amazon's Stock Looks Like a Bargain. Here's Why It's Time to Buy
+Article 4 source: https://www.nasdaq.com/articles/amazons-stock-looks-like-a-bargain.-heres-why-its-time-to-buy
+Article 4 text: Even though Amazon (NASDAQ: AMZN) has had an incredible start to the year (its stock is up 25%), it's nowhere near its historical valuation levels. That means there may be a lot of upside left in the stock. Considering that Amazon reported a mediocre quarter, the business hasn't returned to its full potential, causing many investors to lose confidence in the stock. I think this is a mistake, as most of Amazon's headwinds are temporary. The long-term trajectory for Amazon is still positive, and I think there are a few key reasons why investors should consider the stock right now. Other segments are taking the reins from its online store After Amazon became the go-to e-commerce store during the height of the pandemic, it spent heavily on building out its fulfillment infrastructure to satisfy the demand. However, people reverted to their usual in-person shopping habits after the risk subsi…
+Article 4 provenance: 48e7d378fdb24c5d59c7f9c2d6b22d5e33071240bfdca7666e4b23b13d938325
+Article 5 date: 2023-05-04
+Article 5 title: ANALYSIS-Fed's hiking pause may not signal all-clear for US stocks
+Article 5 source: https://www.nasdaq.com/articles/analysis-feds-hiking-pause-may-not-signal-all-clear-for-us-stocks
+Article 5 text: By Lewis Krauskopf and David Randall NEW YORK, May 4 (Reuters) - The end of a market-punishing rate hiking cycle may be in sight, but uncertainty over stock valuations and the economic outlook is keeping investors on alert for more turbulence ahead. The Federal Reserve on Wednesday signaled it may pause interest rate increases after raising rates by 500 basis points over the last 14 months to fight inflation in its most aggressive monetary policy tightening since the 1980s. In theory, that should be welcome news for stocks and other so-called risk assets, which wilted under the barrage of hikes last year. Yet some investors worry this year's 6.5% rebound in the S&P 500 has made equities expensive. Many are also wary that the Fed's rate hikes may precipitate a recession later this year. "The Fed getting ready to move to the sidelines is one step but it won't be a cure all," said Angelo K…
+Article 5 provenance: 149ca78a8ab9148090364d433ad99617c949505f7551878afbe2e65399cdb6ba
+Article 6 date: 2023-05-04
+Article 6 title: Buying Opendoor Stock Now Could Be Like Buying AMZN in 1997
+Article 6 source: https://www.nasdaq.com/articles/buying-opendoor-stock-now-could-be-like-buying-amzn-in-1997
+Article 6 text: InvestorPlace - Stock Market News, Stock Advice & Trading Tips Editor’s note: “Buying Opendoor Stock Now Could Be Like Buying AMZN in 1997” was previously published in May 2023. It has since been updated to include the most relevant information available. Anyone who follows me knows this: I’m super bullish on Opendoor (OPEN) stock. Indeed, buying Opendoor stock today could be like buying Amazon (AMZN) stock back in 1997, before it ruled retail. Now, with the state of the housing market, you might think that sounds a little bananas. But from where I sit, Opendoor makes a rather compelling case. In fact, I’ve researched this company top to bottom, inside and out. I see it becoming the “Amazon of houses” over the coming decade – and taking over the multi-trillion-dollar housing market. In that case, Opendoor stock will soar in the 2020s like Amazon stock did in the 2010s. I could go on and…
+Article 6 provenance: ab4e40d54f98f08d1786d6f98a748dbf01c41c3e66722f62659ba60693fb6fda
+Article 7 date: 2023-05-04
+Article 7 title: Capgemini posts weaker revenue growth in first quarter
+Article 7 source: https://www.nasdaq.com/articles/capgemini-posts-weaker-revenue-growth-in-first-quarter
+Article 7 text: Adds context about sector and headcount May 4 (Reuters) - French IT consulting group Capgemini CAPP.PA on Thursday reported a weaker revenue growth in the first quarter of 2023, compared with a year-ago period, citing a tense economic environment with clients adopting a "wait-and-watch stance". Still, the company's revenue reached 5.73 billion euros ($6.35 billion) in the reported period, 10.9% above the first three months in 2022. Cloud services for years have been one of the largest and most dependable sources of growth for some of the biggest tech companies, including during the pandemic as people worked and studied from home. ($1 = 0.9024 euros) (Reporting by Matteo Allievi and Victor Goury-Laffont in Gdansk; Editing by Muralikumar Anantharaman and Sherry Jacob-Phillips) ((matteo.allievi@thomsonreuters.com; victor.goury-laffont@thomsonreuters.com)) The views and opinions expressed h…
+Article 7 provenance: 0b62aa4e82d0e2159a1d9c666d86012e275fdd26cf953325bcf4fe50869749f4
+Article 8 date: 2023-05-04
+Article 8 title: Cloud Business In Focus As Akamai Reports Q1 Results
+Article 8 source: https://www.nasdaq.com/articles/cloud-business-in-focus-as-akamai-reports-q1-results
+Article 8 text: Akamai (NASDAQ:AKAM) is slated to report its Q1 FY’23 results on May 9. We estimate that Akamai’s revenue will come in at about $916 million for the quarter, slightly ahead of consensus estimates and about 1% higher compared to last year. We estimate that earnings will stand at close to $1.20 per share, compared to a consensus of $1.18 per share. So what are some of the trends that are likely to drive Akamai’s results? See our dashboard analysis on Akamai Earnings Preview for more details on how Akamai’s revenues and earnings are likely to trend for the quarter. We expect Akamai’s security business to remain a key driver of its business over Q1, largely helping to offset declines in the delivery business. For perspective, the business grew by about 10% year-over-year during Q4 2022, while delivery sales fell by almost 12%.  We will be closely watching Akamai’s progress in the computing …
+Article 8 provenance: 72489fd4ed76fb791c711023f95dc262fe0e5cd4152ae9379f4b8f731058e46d
+
+[TABLE]
+Status: AVAILABLE
+Source: financial_reports/amzn/condensed_consolidated_balance_sheets.json;financial_reports/amzn/condensed_consolidated_statement_of_cash_flows.json
+Assets: value=464378000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-03-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=83d3a69d48e18cf4802dad80c9d99f26d03d699c0ef5443e36fe42797aff3516
+Liabilities: UNAVAILABLE
+StockholdersEquity: value=154526000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-03-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=c060b43c49bfed85aee694108f4c388e8a0d8607d57f7880cb65503d20376a2e
+NetCashProvidedByUsedInOperatingActivities: value=4788000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-03-31; period_duration_days=90; period_duration_class=quarterly; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=2e10fadb5fb896172494ddedfe3d77cacfc60b47b3376320a6c4f6e087a71fed
+NetCashProvidedByUsedInInvestingActivities: value=-15806000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-03-31; period_duration_days=90; period_duration_class=quarterly; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=6a1fabad46d1e8e9283aa1ce26dfa58ecb49d9df08518865bfe6a8780127dfe0
+NetCashProvidedByUsedInFinancingActivities: value=6354000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-03-31; period_duration_days=90; period_duration_class=quarterly; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=547579fce07ab7f0145aea13264251fc03b4adeaa7afd2b6edfdd175109f4c25
+
+[TIME_SERIES]
+Status: AVAILABLE
+Through session: 2023-05-05
+Source: S&P500_time_series/amzn.csv
+cumulative_return_5d: 0.0019915288757217375
+cumulative_return_20d: 0.03527342925369781
+cumulative_return_60d: 0.05607196840813078
+realised_volatility_20d_annualised: 0.388915586802627
+high_low_range_20d: 0.13458194298528658
+drawdown_from_60d_peak: -0.03788013152681613
+relative_volume_vs_20d_mean: 0.8445899395334988
+Provenance: 5f4930c7e8753c63195f521f3b5c6243134f67f3293dd67d83597643c60c1e6a
+
+[IMAGE]
+Status: AVAILABLE
+Chart period: 2022-H2
+Inferred period end: 2022-12-31
+Evidence age (calendar days): 125
+Source: amzn_2022_H2_candlestick.png
+Canonical caption: {"candlestick_structure":"mostly green and red, with some green and red","confidence":"moderate","momentum_visual":"generally increasing, then decreasing","notable_gap_or_reversal":"no significant gap or reversal","other_visible_pattern":"no other visible patterns","support_resistance_visual":"no clear support or resistance levels","trend":"upward to peak, then downward","volatility_visual":"high volatility, then decreasing","volume_visual":"no visible volume pattern"}
+Caption provenance: b4e2b78c71ab354b7177ebb2747ad14de8ec111c02747cf95d5a439782bdc7c9
+=== END FINMULTITIME EVIDENCE ===

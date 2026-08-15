@@ -1,0 +1,227 @@
+{
+  "IMAGE": {
+    "canonical_caption": {
+      "candlestick_structure": "mostly green and red",
+      "confidence": "high",
+      "momentum_visual": "increasing",
+      "notable_gap_or_reversal": "none",
+      "other_visible_pattern": "none",
+      "support_resistance_visual": "none",
+      "trend": "upward",
+      "volatility_visual": "moderate",
+      "volume_visual": "none"
+    },
+    "caption_sha256": "131c2904cd82c850f94b00cc58e2b97b2ef69c7e805fa562ef2c8f2e00a568fe",
+    "caption_source": "NEW_QWEN_M2_06",
+    "caption_status": "GENERATED",
+    "chart_period": "2022-H2",
+    "evidence_age_calendar_days": 146,
+    "image_sha256": "fb4f6e3b146397e577983c29f78d45bffa4ad21c661752075ce9edcec40172c9",
+    "inferred_period_end": "2022-12-31",
+    "provenance_hash_reference": "131c2904cd82c850f94b00cc58e2b97b2ef69c7e805fa562ef2c8f2e00a568fe",
+    "reason": "",
+    "source_identity": "agi_2022_H2_candlestick.png",
+    "status": "AVAILABLE"
+  },
+  "TABLE": {
+    "facts": {
+      "Assets": {
+        "reason": "no canonical PIT-safe selected fact",
+        "status": "UNAVAILABLE"
+      },
+      "Liabilities": {
+        "reason": "no canonical PIT-safe selected fact",
+        "status": "UNAVAILABLE"
+      },
+      "NetCashProvidedByUsedInFinancingActivities": {
+        "reason": "no canonical PIT-safe selected fact",
+        "status": "UNAVAILABLE"
+      },
+      "NetCashProvidedByUsedInInvestingActivities": {
+        "reason": "no canonical PIT-safe selected fact",
+        "status": "UNAVAILABLE"
+      },
+      "NetCashProvidedByUsedInOperatingActivities": {
+        "reason": "no canonical PIT-safe selected fact",
+        "status": "UNAVAILABLE"
+      },
+      "StockholdersEquity": {
+        "reason": "no canonical PIT-safe selected fact",
+        "status": "UNAVAILABLE"
+      }
+    },
+    "provenance_hash_reference": "31ed97d48e36ee55b3b17701feea5389c90606b5d1870f8cbaf95d6d468f5ad9",
+    "reason": "no PIT-safe canonical fact for one or more concepts",
+    "selection_rule": "frozen six-concept TABLE selection; filed_date < decision session",
+    "source_identity": "",
+    "status": "UNAVAILABLE"
+  },
+  "TEXT": {
+    "evidence_age_calendar_days": 1,
+    "provenance_hash_reference": "87c3156167a751145050b96ae0cfd7033e4e55d8447e1e5a570af19843d76392",
+    "reason": "",
+    "records": [
+      {
+        "article_date": "2023-05-25",
+        "body": "B2Gold Corp. BTG has been benefiting from improved mine performances and recent acquisitions despite inflationary costs. The company continues to generate solid operating results, owing to its focus on growth through further exploration, development and expansion of the existing projects. The recent pickup in the gold price will aid the company’s performance in the upcoming quarters.  Shares of this Zacks Rank #3 (Hold) company have gained 14.3% in the past six months compared with the industry’s growth of 20.1%.   Image Source: Zacks Investment Research  Mines to Meet Production Guidance for 2023 B2Gold reported a total gold production of 266,856 ounces in the first quarter of 2023, including 16,137 ounces of attributable production from Calibre Mining Corp. The Fekola Mine produced 165,864 ounces in the quarter, aided by a favorable mine phasing sequence that will begin in 2023, with …",
+        "provenance_hash_reference": "d9c7293475615d3c96dc859f61d27b4d1baa05c83908a401564d6f008e5d1d33",
+        "source": "https://www.nasdaq.com/articles/b2gold-btg-gains-from-solid-mine-performance-amid-cost-woes",
+        "title": "B2Gold (BTG) Gains From Solid Mine Performance Amid Cost Woes"
+      },
+      {
+        "article_date": "2023-05-25",
+        "body": "DuPont de Nemours DD recently declared that it will launch its latest Tedlar frontsheet materials to potential partners and end users in the photovoltaic industry at the 2023 SNEC International Photovoltaic Power Generation and Smart Energy Exhibition.  Replacing glass frontsheets while preserving mechanical stability and weatherability is a key problem for lightweight PV modules. Tedlar frontsheet provides a one-of-a-kind combination of durability, UV resistance, high light transmittance, long-lasting UV protection, mechanical toughness, abrasion resistance, chemical resistance and strong adhesion to encapsulant. This innovative approach, according to the company, can offer the frontsheet of solar modules.  DuPont will additionally showcase battery pack thermal management solutions in energy storage applications during the exhibition. Experts from DuPont will share their findings at te…",
+        "provenance_hash_reference": "be2b46f5a0897996f51d0a4f97bff1a878bc4d829f7c842fb7aa1f85fe64adbc",
+        "source": "https://www.nasdaq.com/articles/dupont-dd-to-unveil-tedler-frontsheet-at-snec-pv-power-expo",
+        "title": "DuPont (DD) to Unveil Tedler Frontsheet at SNEC PV Power Expo"
+      },
+      {
+        "article_date": "2023-05-25",
+        "body": "Shares of International Paper Company IP have lost 12.1% in the past six months, reflecting a decline in volumes witnessed by the company in the past few quarters. IP has, however, fared better than the industry it belongs to, which witnessed a 17% fall in the same timeframe. Weak Volumes & Low Pricing Ail IP International Paper has been witnessing weak demand as current inflationary pressures have been impacting consumers, leading to lower demand for goods. This had a large impact on packaging demand, as consumer priorities have shifted towards non-discretionary goods and services. Also, International Papers’ customers and the broader retail channel have been trying to lower their elevated inventories, which further impacted the demand. In fiscal 2022, the company had reported a 5.7% decline in sales volumes in the Industrial Packaging segment and 2.6% lower volumes in the Global Cellu…",
+        "provenance_hash_reference": "91d304937eb4b0c6006bbc35677bef4a6b1dfee2420cfa18812ebf9c527ecbfa",
+        "source": "https://www.nasdaq.com/articles/international-paper-ip-down-12-in-6-months%3A-will-it-recover",
+        "title": "International Paper (IP) Down 12% in 6 Months: Will It Recover?"
+      },
+      {
+        "article_date": "2023-05-25",
+        "body": "PPG Industries, Inc. PPG recently announced that PPG Advanced Surface Technologies, a new joint venture set up with Entrotech, Inc., a producer of technology-driven film solutions, will supply paint and clear film solutions for automotive and industrial customers. PPG owns the majority of this joint venture. Financial and ownership information was not provided.  This alliance will position PPG's paint film product portfolio for expedited commercialization, providing customers with novel solutions with excellent performance and considerable sustainability benefits. This collaboration will aid in rapid worldwide expansion and complement PPG's portfolio.  PPG acquired its paint films capabilities in 2021 with the acquisition of Worwag, a coatings supplier based in Germany that supplies film materials for a wide range of automotive parts and panels. The joint venture will consist of PPG Wor…",
+        "provenance_hash_reference": "ae3a5ee369542a385100bb5ff91a01d53c5415260360ca09f66c28e5f58d88aa",
+        "source": "https://www.nasdaq.com/articles/ppg-industries-ppg-entrotech-unveil-paint-films-solutions",
+        "title": "PPG Industries (PPG) & Entrotech Unveil Paint Films Solutions"
+      },
+      {
+        "article_date": "2023-05-24",
+        "body": "GrowGeneration Corp. GRWG announced that it acquired Alaska’s largest indoor/outdoor garden center, Southside Garden Supply. Under the agreement, the company acquired two existing store locations in the state. This move officially expands the number of states that GRWG operates in to 18. It is also the second state that the company has made its foray into this year.  The deal expands GrowGeneration’s overall store portfolio to better serve commercial and home-grow consumers. Located in Southern Alaska, Southside Garden Supply has supplied the growing Alaskan market for many years. It is well-known for high-quality product options and exceptional customer service. GrowGeneration is well-set to gain from this, and further provide the same high-quality services to the local and nearby rising markets. The acquisition of stores is in line with the company's strategic focus to grow its presen…",
+        "provenance_hash_reference": "c7c272af879d0679f848e1a393ed61666e1a6368b162ad6bfa4e2cae2c26bb9e",
+        "source": "https://www.nasdaq.com/articles/growgeneration-grwg-buys-stores-in-alaska-to-boost-portfolio",
+        "title": "GrowGeneration (GRWG) Buys Stores in Alaska to Boost Portfolio"
+      },
+      {
+        "article_date": "2023-05-22",
+        "body": "Hecla Mining Company HL received an interim order from the Supreme Court of British Columbia related to its proposed acquisition of all of the issued and outstanding common shares of ATAC Resources Ltd. (“ATAC”). The acquisition is in sync with HL's strategy of acquiring large land packages in highly promising and tier-one mining jurisdictions.  Previously, on Apr 12, Hecla Mining announced that its wholly owned subsidiary, Alexco Resource Corp., entered a definitive deal with ATAC to acquire ATAC, and its Rackla and Connaught projects in Canada.  The Rackla and Connaught projects will solidify the company's position in Yukon. The ATAC buyout follows Hecla Mining’s strategic acquisition of Keno Hill, which is anticipated to be Canada's largest and highest-grade primary silver mine.  Under the agreement, HL's subsidiary will acquire all of ATAC's issued and existing shares for CAN$31 mil…",
+        "provenance_hash_reference": "eea0db9e77652f4885d36c28fc3ff0ca6759d30e9ecf651f8317ad3262a5c8af",
+        "source": "https://www.nasdaq.com/articles/hecla-mining-hl-gets-interim-order-for-atac-acquisition",
+        "title": "Hecla Mining (HL) Gets Interim Order for ATAC Acquisition"
+      },
+      {
+        "article_date": "2023-05-18",
+        "body": "Bunge Limited BG announced a strategic partnership with Nutrien Ltd.’s NTR retail division, Nutrien Ag Solutions. Through this alliance, the companies will boost the use of sustainable practices that improve soil health, thus providing new economic prospects to the field. The collaboration aligns with Bunge's commitment to continue investing in low-carbon projects.  The partnership will provide more whole-acre solutions to customers and end-consumers in the food, feed and fuel industries. It will increase sustainable agriculture across shared supply chains in North America.  The companies are targeting crop season 2023/2024 for this initiative. Initially, the initiative will concentrate on soybeans cultivated near Bunge's crushing plants in Council Bluffs, IA, and Decatur, with further scope of expansion. The program will include sustainable farming practices like cover crops, reduced t…",
+        "provenance_hash_reference": "0e8889b55a0e55ad1b5d7b57467c068f7de2e7c49b12fc08c7bc0d7f90a787d8",
+        "source": "https://www.nasdaq.com/articles/bunge-bg-to-boost-sustainable-practices-with-nutrien-tie-up",
+        "title": "Bunge (BG) to Boost Sustainable Practices With Nutrien Tie-Up"
+      },
+      {
+        "article_date": "2023-05-18",
+        "body": "Franco-Nevada FNV has been gaining from its healthy portfolio of royalty and streaming agreements, and contributions from the recent buyouts. The company is well-poised to deliver strong earnings growth, aided by a focus on mine expansions and strong production from the Antamina mine.  Even though the company anticipates lower-than-estimated mining activities at Guadalupe, and decreased stream deliveries at Antamina and Antapaccay mines due to lower grades in the current year, these are likely to be offset by expected savings from its continued focus on cost management. The recent pickup in metal prices also bodes well for the company.  Shares of this Zacks Rank #1 (Strong Buy) company have gained 15.1% in the past year compared with the industry’s growth of 15.4%. You can see the complete list of today’s Zacks #1 Rank stocks here.   Image Source: Zacks Investment Research  Franco-Nevad…",
+        "provenance_hash_reference": "44c1493a55a4bba9a8bdc268c5bdd448f4617396a98f23847ee2931e66ea1386",
+        "source": "https://www.nasdaq.com/articles/franco-nevada-fnv-gains-from-solid-portfolio-metal-prices",
+        "title": "Franco-Nevada (FNV) Gains From Solid Portfolio & Metal Prices"
+      }
+    ],
+    "selection_rule": "frozen bounded TEXT selection; Date < decision session; deterministic order",
+    "source_identity": "sp500_news/AGI.jsonl",
+    "status": "AVAILABLE"
+  },
+  "TIME_SERIES": {
+    "provenance_hash_reference": "ecdebd79720269e581eaef05e52da285a72e1b7af3f42917920b91ca5930413f",
+    "reason": "",
+    "selection_rule": "frozen descriptive summaries from 61 completed source rows; session <= decision",
+    "source_identity": "S&P500_time_series/agi.csv",
+    "status": "AVAILABLE",
+    "summaries": {
+      "cumulative_return_20d": -0.04253674030766763,
+      "cumulative_return_5d": -0.025963662807781618,
+      "cumulative_return_60d": 0.20241675496455036,
+      "drawdown_from_60d_peak": -0.10419672890740439,
+      "high_low_range_20d": 0.15171302701404765,
+      "realised_volatility_20d_annualised": 0.28196585321750683,
+      "relative_volume_vs_20d_mean": 0.5135282233886516
+    },
+    "through_session": "2023-05-26"
+  },
+  "agent_text": "=== FINMULTITIME EVIDENCE ===\nSymbol: AGI\nDecision session: 2023-05-26\n\n[TEXT]\nStatus: AVAILABLE\nEvidence age (calendar days): 1\nSource: sp500_news/AGI.jsonl\nArticle 1 date: 2023-05-25\nArticle 1 title: B2Gold (BTG) Gains From Solid Mine Performance Amid Cost Woes\nArticle 1 source: https://www.nasdaq.com/articles/b2gold-btg-gains-from-solid-mine-performance-amid-cost-woes\nArticle 1 text: B2Gold Corp. BTG has been benefiting from improved mine performances and recent acquisitions despite inflationary costs. The company continues to generate solid operating results, owing to its focus on growth through further exploration, development and expansion of the existing projects. The recent pickup in the gold price will aid the company’s performance in the upcoming quarters.  Shares of this Zacks Rank #3 (Hold) company have gained 14.3% in the past six months compared with the industry’s growth of 20.1%.   Image Source: Zacks Investment Research  Mines to Meet Production Guidance for 2023 B2Gold reported a total gold production of 266,856 ounces in the first quarter of 2023, including 16,137 ounces of attributable production from Calibre Mining Corp. The Fekola Mine produced 165,864 ounces in the quarter, aided by a favorable mine phasing sequence that will begin in 2023, with …\nArticle 1 provenance: d9c7293475615d3c96dc859f61d27b4d1baa05c83908a401564d6f008e5d1d33\nArticle 2 date: 2023-05-25\nArticle 2 title: DuPont (DD) to Unveil Tedler Frontsheet at SNEC PV Power Expo\nArticle 2 source: https://www.nasdaq.com/articles/dupont-dd-to-unveil-tedler-frontsheet-at-snec-pv-power-expo\nArticle 2 text: DuPont de Nemours DD recently declared that it will launch its latest Tedlar frontsheet materials to potential partners and end users in the photovoltaic industry at the 2023 SNEC International Photovoltaic Power Generation and Smart Energy Exhibition.  Replacing glass frontsheets while preserving mechanical stability and weatherability is a key problem for lightweight PV modules. Tedlar frontsheet provides a one-of-a-kind combination of durability, UV resistance, high light transmittance, long-lasting UV protection, mechanical toughness, abrasion resistance, chemical resistance and strong adhesion to encapsulant. This innovative approach, according to the company, can offer the frontsheet of solar modules.  DuPont will additionally showcase battery pack thermal management solutions in energy storage applications during the exhibition. Experts from DuPont will share their findings at te…\nArticle 2 provenance: be2b46f5a0897996f51d0a4f97bff1a878bc4d829f7c842fb7aa1f85fe64adbc\nArticle 3 date: 2023-05-25\nArticle 3 title: International Paper (IP) Down 12% in 6 Months: Will It Recover?\nArticle 3 source: https://www.nasdaq.com/articles/international-paper-ip-down-12-in-6-months%3A-will-it-recover\nArticle 3 text: Shares of International Paper Company IP have lost 12.1% in the past six months, reflecting a decline in volumes witnessed by the company in the past few quarters. IP has, however, fared better than the industry it belongs to, which witnessed a 17% fall in the same timeframe. Weak Volumes & Low Pricing Ail IP International Paper has been witnessing weak demand as current inflationary pressures have been impacting consumers, leading to lower demand for goods. This had a large impact on packaging demand, as consumer priorities have shifted towards non-discretionary goods and services. Also, International Papers’ customers and the broader retail channel have been trying to lower their elevated inventories, which further impacted the demand. In fiscal 2022, the company had reported a 5.7% decline in sales volumes in the Industrial Packaging segment and 2.6% lower volumes in the Global Cellu…\nArticle 3 provenance: 91d304937eb4b0c6006bbc35677bef4a6b1dfee2420cfa18812ebf9c527ecbfa\nArticle 4 date: 2023-05-25\nArticle 4 title: PPG Industries (PPG) & Entrotech Unveil Paint Films Solutions\nArticle 4 source: https://www.nasdaq.com/articles/ppg-industries-ppg-entrotech-unveil-paint-films-solutions\nArticle 4 text: PPG Industries, Inc. PPG recently announced that PPG Advanced Surface Technologies, a new joint venture set up with Entrotech, Inc., a producer of technology-driven film solutions, will supply paint and clear film solutions for automotive and industrial customers. PPG owns the majority of this joint venture. Financial and ownership information was not provided.  This alliance will position PPG's paint film product portfolio for expedited commercialization, providing customers with novel solutions with excellent performance and considerable sustainability benefits. This collaboration will aid in rapid worldwide expansion and complement PPG's portfolio.  PPG acquired its paint films capabilities in 2021 with the acquisition of Worwag, a coatings supplier based in Germany that supplies film materials for a wide range of automotive parts and panels. The joint venture will consist of PPG Wor…\nArticle 4 provenance: ae3a5ee369542a385100bb5ff91a01d53c5415260360ca09f66c28e5f58d88aa\nArticle 5 date: 2023-05-24\nArticle 5 title: GrowGeneration (GRWG) Buys Stores in Alaska to Boost Portfolio\nArticle 5 source: https://www.nasdaq.com/articles/growgeneration-grwg-buys-stores-in-alaska-to-boost-portfolio\nArticle 5 text: GrowGeneration Corp. GRWG announced that it acquired Alaska’s largest indoor/outdoor garden center, Southside Garden Supply. Under the agreement, the company acquired two existing store locations in the state. This move officially expands the number of states that GRWG operates in to 18. It is also the second state that the company has made its foray into this year.  The deal expands GrowGeneration’s overall store portfolio to better serve commercial and home-grow consumers. Located in Southern Alaska, Southside Garden Supply has supplied the growing Alaskan market for many years. It is well-known for high-quality product options and exceptional customer service. GrowGeneration is well-set to gain from this, and further provide the same high-quality services to the local and nearby rising markets. The acquisition of stores is in line with the company's strategic focus to grow its presen…\nArticle 5 provenance: c7c272af879d0679f848e1a393ed61666e1a6368b162ad6bfa4e2cae2c26bb9e\nArticle 6 date: 2023-05-22\nArticle 6 title: Hecla Mining (HL) Gets Interim Order for ATAC Acquisition\nArticle 6 source: https://www.nasdaq.com/articles/hecla-mining-hl-gets-interim-order-for-atac-acquisition\nArticle 6 text: Hecla Mining Company HL received an interim order from the Supreme Court of British Columbia related to its proposed acquisition of all of the issued and outstanding common shares of ATAC Resources Ltd. (“ATAC”). The acquisition is in sync with HL's strategy of acquiring large land packages in highly promising and tier-one mining jurisdictions.  Previously, on Apr 12, Hecla Mining announced that its wholly owned subsidiary, Alexco Resource Corp., entered a definitive deal with ATAC to acquire ATAC, and its Rackla and Connaught projects in Canada.  The Rackla and Connaught projects will solidify the company's position in Yukon. The ATAC buyout follows Hecla Mining’s strategic acquisition of Keno Hill, which is anticipated to be Canada's largest and highest-grade primary silver mine.  Under the agreement, HL's subsidiary will acquire all of ATAC's issued and existing shares for CAN$31 mil…\nArticle 6 provenance: eea0db9e77652f4885d36c28fc3ff0ca6759d30e9ecf651f8317ad3262a5c8af\nArticle 7 date: 2023-05-18\nArticle 7 title: Bunge (BG) to Boost Sustainable Practices With Nutrien Tie-Up\nArticle 7 source: https://www.nasdaq.com/articles/bunge-bg-to-boost-sustainable-practices-with-nutrien-tie-up\nArticle 7 text: Bunge Limited BG announced a strategic partnership with Nutrien Ltd.’s NTR retail division, Nutrien Ag Solutions. Through this alliance, the companies will boost the use of sustainable practices that improve soil health, thus providing new economic prospects to the field. The collaboration aligns with Bunge's commitment to continue investing in low-carbon projects.  The partnership will provide more whole-acre solutions to customers and end-consumers in the food, feed and fuel industries. It will increase sustainable agriculture across shared supply chains in North America.  The companies are targeting crop season 2023/2024 for this initiative. Initially, the initiative will concentrate on soybeans cultivated near Bunge's crushing plants in Council Bluffs, IA, and Decatur, with further scope of expansion. The program will include sustainable farming practices like cover crops, reduced t…\nArticle 7 provenance: 0e8889b55a0e55ad1b5d7b57467c068f7de2e7c49b12fc08c7bc0d7f90a787d8\nArticle 8 date: 2023-05-18\nArticle 8 title: Franco-Nevada (FNV) Gains From Solid Portfolio & Metal Prices\nArticle 8 source: https://www.nasdaq.com/articles/franco-nevada-fnv-gains-from-solid-portfolio-metal-prices\nArticle 8 text: Franco-Nevada FNV has been gaining from its healthy portfolio of royalty and streaming agreements, and contributions from the recent buyouts. The company is well-poised to deliver strong earnings growth, aided by a focus on mine expansions and strong production from the Antamina mine.  Even though the company anticipates lower-than-estimated mining activities at Guadalupe, and decreased stream deliveries at Antamina and Antapaccay mines due to lower grades in the current year, these are likely to be offset by expected savings from its continued focus on cost management. The recent pickup in metal prices also bodes well for the company.  Shares of this Zacks Rank #1 (Strong Buy) company have gained 15.1% in the past year compared with the industry’s growth of 15.4%. You can see the complete list of today’s Zacks #1 Rank stocks here.   Image Source: Zacks Investment Research  Franco-Nevad…\nArticle 8 provenance: 44c1493a55a4bba9a8bdc268c5bdd448f4617396a98f23847ee2931e66ea1386\n\n[TABLE]\nStatus: UNAVAILABLE\nMissingness reason: no PIT-safe canonical fact for one or more concepts\nSource: \nAssets: UNAVAILABLE\nLiabilities: UNAVAILABLE\nStockholdersEquity: UNAVAILABLE\nNetCashProvidedByUsedInOperatingActivities: UNAVAILABLE\nNetCashProvidedByUsedInInvestingActivities: UNAVAILABLE\nNetCashProvidedByUsedInFinancingActivities: UNAVAILABLE\n\n[TIME_SERIES]\nStatus: AVAILABLE\nThrough session: 2023-05-26\nSource: S&P500_time_series/agi.csv\ncumulative_return_5d: -0.025963662807781618\ncumulative_return_20d: -0.04253674030766763\ncumulative_return_60d: 0.20241675496455036\nrealised_volatility_20d_annualised: 0.28196585321750683\nhigh_low_range_20d: 0.15171302701404765\ndrawdown_from_60d_peak: -0.10419672890740439\nrelative_volume_vs_20d_mean: 0.5135282233886516\nProvenance: ecdebd79720269e581eaef05e52da285a72e1b7af3f42917920b91ca5930413f\n\n[IMAGE]\nStatus: AVAILABLE\nChart period: 2022-H2\nInferred period end: 2022-12-31\nEvidence age (calendar days): 146\nSource: agi_2022_H2_candlestick.png\nCanonical caption: {\"candlestick_structure\":\"mostly green and red\",\"confidence\":\"high\",\"momentum_visual\":\"increasing\",\"notable_gap_or_reversal\":\"none\",\"other_visible_pattern\":\"none\",\"support_resistance_visual\":\"none\",\"trend\":\"upward\",\"volatility_visual\":\"moderate\",\"volume_visual\":\"none\"}\nCaption provenance: 131c2904cd82c850f94b00cc58e2b97b2ef69c7e805fa562ef2c8f2e00a568fe\n=== END FINMULTITIME EVIDENCE ===\n",
+  "available_for_training": true,
+  "available_for_validation": false,
+  "case_id": "AGI:2023-05-26",
+  "character_counts": {
+    "complete": 11319,
+    "fundamentals": 345,
+    "market": 994,
+    "news": 9832
+  },
+  "contract_version": "M1-FINMULTITIME-v1.0.2",
+  "dataset_id": "m2_preformal_evidence_v1",
+  "decision_session": "2023-05-26",
+  "decision_time": "2023-05-26T20:00:00+00:00",
+  "engineering_only": false,
+  "m2_metadata": {
+    "available_for_training": true,
+    "available_for_validation": false,
+    "engineering_only": false,
+    "performance_for_selection": false,
+    "protected": false,
+    "role": "TRAIN",
+    "tier_membership": {
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    }
+  },
+  "packet_sha256": "b773b88ce5a02f2d18c35e66e735475b466a4b1cae18bd6d7d1963adb2febb40",
+  "packet_status": "FINAL_FROZEN",
+  "performance_for_selection": false,
+  "protected": false,
+  "record_type": "m1_finmultitime_evidence_packet",
+  "role": "TRAIN",
+  "routed_projections": {
+    "fundamentals_analyst": {
+      "sections": [
+        "TABLE"
+      ],
+      "text": "Status: UNAVAILABLE\nMissingness reason: no PIT-safe canonical fact for one or more concepts\nSource: \nAssets: UNAVAILABLE\nLiabilities: UNAVAILABLE\nStockholdersEquity: UNAVAILABLE\nNetCashProvidedByUsedInOperatingActivities: UNAVAILABLE\nNetCashProvidedByUsedInInvestingActivities: UNAVAILABLE\nNetCashProvidedByUsedInFinancingActivities: UNAVAILABLE"
+    },
+    "market_analyst": {
+      "sections": [
+        "TIME_SERIES",
+        "IMAGE"
+      ],
+      "text": "Status: AVAILABLE\nThrough session: 2023-05-26\nSource: S&P500_time_series/agi.csv\ncumulative_return_5d: -0.025963662807781618\ncumulative_return_20d: -0.04253674030766763\ncumulative_return_60d: 0.20241675496455036\nrealised_volatility_20d_annualised: 0.28196585321750683\nhigh_low_range_20d: 0.15171302701404765\ndrawdown_from_60d_peak: -0.10419672890740439\nrelative_volume_vs_20d_mean: 0.5135282233886516\nProvenance: ecdebd79720269e581eaef05e52da285a72e1b7af3f42917920b91ca5930413f\n\nStatus: AVAILABLE\nChart period: 2022-H2\nInferred period end: 2022-12-31\nEvidence age (calendar days): 146\nSource: agi_2022_H2_candlestick.png\nCanonical caption: {\"candlestick_structure\":\"mostly green and red\",\"confidence\":\"high\",\"momentum_visual\":\"increasing\",\"notable_gap_or_reversal\":\"none\",\"other_visible_pattern\":\"none\",\"support_resistance_visual\":\"none\",\"trend\":\"upward\",\"volatility_visual\":\"moderate\",\"volume_visual\":\"none\"}\nCaption provenance: 131c2904cd82c850f94b00cc58e2b97b2ef69c7e805fa562ef2c8f2e00a568fe"
+    },
+    "news_analyst": {
+      "sections": [
+        "TEXT"
+      ],
+      "text": "Status: AVAILABLE\nEvidence age (calendar days): 1\nSource: sp500_news/AGI.jsonl\nArticle 1 date: 2023-05-25\nArticle 1 title: B2Gold (BTG) Gains From Solid Mine Performance Amid Cost Woes\nArticle 1 source: https://www.nasdaq.com/articles/b2gold-btg-gains-from-solid-mine-performance-amid-cost-woes\nArticle 1 text: B2Gold Corp. BTG has been benefiting from improved mine performances and recent acquisitions despite inflationary costs. The company continues to generate solid operating results, owing to its focus on growth through further exploration, development and expansion of the existing projects. The recent pickup in the gold price will aid the company’s performance in the upcoming quarters.  Shares of this Zacks Rank #3 (Hold) company have gained 14.3% in the past six months compared with the industry’s growth of 20.1%.   Image Source: Zacks Investment Research  Mines to Meet Production Guidance for 2023 B2Gold reported a total gold production of 266,856 ounces in the first quarter of 2023, including 16,137 ounces of attributable production from Calibre Mining Corp. The Fekola Mine produced 165,864 ounces in the quarter, aided by a favorable mine phasing sequence that will begin in 2023, with …\nArticle 1 provenance: d9c7293475615d3c96dc859f61d27b4d1baa05c83908a401564d6f008e5d1d33\nArticle 2 date: 2023-05-25\nArticle 2 title: DuPont (DD) to Unveil Tedler Frontsheet at SNEC PV Power Expo\nArticle 2 source: https://www.nasdaq.com/articles/dupont-dd-to-unveil-tedler-frontsheet-at-snec-pv-power-expo\nArticle 2 text: DuPont de Nemours DD recently declared that it will launch its latest Tedlar frontsheet materials to potential partners and end users in the photovoltaic industry at the 2023 SNEC International Photovoltaic Power Generation and Smart Energy Exhibition.  Replacing glass frontsheets while preserving mechanical stability and weatherability is a key problem for lightweight PV modules. Tedlar frontsheet provides a one-of-a-kind combination of durability, UV resistance, high light transmittance, long-lasting UV protection, mechanical toughness, abrasion resistance, chemical resistance and strong adhesion to encapsulant. This innovative approach, according to the company, can offer the frontsheet of solar modules.  DuPont will additionally showcase battery pack thermal management solutions in energy storage applications during the exhibition. Experts from DuPont will share their findings at te…\nArticle 2 provenance: be2b46f5a0897996f51d0a4f97bff1a878bc4d829f7c842fb7aa1f85fe64adbc\nArticle 3 date: 2023-05-25\nArticle 3 title: International Paper (IP) Down 12% in 6 Months: Will It Recover?\nArticle 3 source: https://www.nasdaq.com/articles/international-paper-ip-down-12-in-6-months%3A-will-it-recover\nArticle 3 text: Shares of International Paper Company IP have lost 12.1% in the past six months, reflecting a decline in volumes witnessed by the company in the past few quarters. IP has, however, fared better than the industry it belongs to, which witnessed a 17% fall in the same timeframe. Weak Volumes & Low Pricing Ail IP International Paper has been witnessing weak demand as current inflationary pressures have been impacting consumers, leading to lower demand for goods. This had a large impact on packaging demand, as consumer priorities have shifted towards non-discretionary goods and services. Also, International Papers’ customers and the broader retail channel have been trying to lower their elevated inventories, which further impacted the demand. In fiscal 2022, the company had reported a 5.7% decline in sales volumes in the Industrial Packaging segment and 2.6% lower volumes in the Global Cellu…\nArticle 3 provenance: 91d304937eb4b0c6006bbc35677bef4a6b1dfee2420cfa18812ebf9c527ecbfa\nArticle 4 date: 2023-05-25\nArticle 4 title: PPG Industries (PPG) & Entrotech Unveil Paint Films Solutions\nArticle 4 source: https://www.nasdaq.com/articles/ppg-industries-ppg-entrotech-unveil-paint-films-solutions\nArticle 4 text: PPG Industries, Inc. PPG recently announced that PPG Advanced Surface Technologies, a new joint venture set up with Entrotech, Inc., a producer of technology-driven film solutions, will supply paint and clear film solutions for automotive and industrial customers. PPG owns the majority of this joint venture. Financial and ownership information was not provided.  This alliance will position PPG's paint film product portfolio for expedited commercialization, providing customers with novel solutions with excellent performance and considerable sustainability benefits. This collaboration will aid in rapid worldwide expansion and complement PPG's portfolio.  PPG acquired its paint films capabilities in 2021 with the acquisition of Worwag, a coatings supplier based in Germany that supplies film materials for a wide range of automotive parts and panels. The joint venture will consist of PPG Wor…\nArticle 4 provenance: ae3a5ee369542a385100bb5ff91a01d53c5415260360ca09f66c28e5f58d88aa\nArticle 5 date: 2023-05-24\nArticle 5 title: GrowGeneration (GRWG) Buys Stores in Alaska to Boost Portfolio\nArticle 5 source: https://www.nasdaq.com/articles/growgeneration-grwg-buys-stores-in-alaska-to-boost-portfolio\nArticle 5 text: GrowGeneration Corp. GRWG announced that it acquired Alaska’s largest indoor/outdoor garden center, Southside Garden Supply. Under the agreement, the company acquired two existing store locations in the state. This move officially expands the number of states that GRWG operates in to 18. It is also the second state that the company has made its foray into this year.  The deal expands GrowGeneration’s overall store portfolio to better serve commercial and home-grow consumers. Located in Southern Alaska, Southside Garden Supply has supplied the growing Alaskan market for many years. It is well-known for high-quality product options and exceptional customer service. GrowGeneration is well-set to gain from this, and further provide the same high-quality services to the local and nearby rising markets. The acquisition of stores is in line with the company's strategic focus to grow its presen…\nArticle 5 provenance: c7c272af879d0679f848e1a393ed61666e1a6368b162ad6bfa4e2cae2c26bb9e\nArticle 6 date: 2023-05-22\nArticle 6 title: Hecla Mining (HL) Gets Interim Order for ATAC Acquisition\nArticle 6 source: https://www.nasdaq.com/articles/hecla-mining-hl-gets-interim-order-for-atac-acquisition\nArticle 6 text: Hecla Mining Company HL received an interim order from the Supreme Court of British Columbia related to its proposed acquisition of all of the issued and outstanding common shares of ATAC Resources Ltd. (“ATAC”). The acquisition is in sync with HL's strategy of acquiring large land packages in highly promising and tier-one mining jurisdictions.  Previously, on Apr 12, Hecla Mining announced that its wholly owned subsidiary, Alexco Resource Corp., entered a definitive deal with ATAC to acquire ATAC, and its Rackla and Connaught projects in Canada.  The Rackla and Connaught projects will solidify the company's position in Yukon. The ATAC buyout follows Hecla Mining’s strategic acquisition of Keno Hill, which is anticipated to be Canada's largest and highest-grade primary silver mine.  Under the agreement, HL's subsidiary will acquire all of ATAC's issued and existing shares for CAN$31 mil…\nArticle 6 provenance: eea0db9e77652f4885d36c28fc3ff0ca6759d30e9ecf651f8317ad3262a5c8af\nArticle 7 date: 2023-05-18\nArticle 7 title: Bunge (BG) to Boost Sustainable Practices With Nutrien Tie-Up\nArticle 7 source: https://www.nasdaq.com/articles/bunge-bg-to-boost-sustainable-practices-with-nutrien-tie-up\nArticle 7 text: Bunge Limited BG announced a strategic partnership with Nutrien Ltd.’s NTR retail division, Nutrien Ag Solutions. Through this alliance, the companies will boost the use of sustainable practices that improve soil health, thus providing new economic prospects to the field. The collaboration aligns with Bunge's commitment to continue investing in low-carbon projects.  The partnership will provide more whole-acre solutions to customers and end-consumers in the food, feed and fuel industries. It will increase sustainable agriculture across shared supply chains in North America.  The companies are targeting crop season 2023/2024 for this initiative. Initially, the initiative will concentrate on soybeans cultivated near Bunge's crushing plants in Council Bluffs, IA, and Decatur, with further scope of expansion. The program will include sustainable farming practices like cover crops, reduced t…\nArticle 7 provenance: 0e8889b55a0e55ad1b5d7b57467c068f7de2e7c49b12fc08c7bc0d7f90a787d8\nArticle 8 date: 2023-05-18\nArticle 8 title: Franco-Nevada (FNV) Gains From Solid Portfolio & Metal Prices\nArticle 8 source: https://www.nasdaq.com/articles/franco-nevada-fnv-gains-from-solid-portfolio-metal-prices\nArticle 8 text: Franco-Nevada FNV has been gaining from its healthy portfolio of royalty and streaming agreements, and contributions from the recent buyouts. The company is well-poised to deliver strong earnings growth, aided by a focus on mine expansions and strong production from the Antamina mine.  Even though the company anticipates lower-than-estimated mining activities at Guadalupe, and decreased stream deliveries at Antamina and Antapaccay mines due to lower grades in the current year, these are likely to be offset by expected savings from its continued focus on cost management. The recent pickup in metal prices also bodes well for the company.  Shares of this Zacks Rank #1 (Strong Buy) company have gained 15.1% in the past year compared with the industry’s growth of 15.4%. You can see the complete list of today’s Zacks #1 Rank stocks here.   Image Source: Zacks Investment Research  Franco-Nevad…\nArticle 8 provenance: 44c1493a55a4bba9a8bdc268c5bdd448f4617396a98f23847ee2931e66ea1386"
+    },
+    "social_analyst": {
+      "sections": [],
+      "text": ""
+    }
+  },
+  "routing": {
+    "modality_to_analyst": {
+      "IMAGE": "Market Analyst",
+      "TABLE": "Fundamentals Analyst",
+      "TEXT": "News Analyst",
+      "TIME_SERIES": "Market Analyst"
+    },
+    "raw_packet_direct_injection": false,
+    "social_analyst": "NO_FINMULTITIME_EVIDENCE"
+  },
+  "section_sha256": {
+    "IMAGE": "42a201b07ea88edfd256a31a4ccded79fb1947f9e26e29a55791481af4691e0a",
+    "TABLE": "e05af090ec3974ea4ca645ebeb821a170aaa1d13accd6b1e3e944907f2ee88cc",
+    "TEXT": "0dcbaa70521c3550f606d310daca9e158d3ce5d2b74be32f80aa71ee7f172d84",
+    "TIME_SERIES": "ff6a1adbae30a8ffd5543950abe18d56d54f303e6d1f690d9c2e4f0e483c2fb8"
+  },
+  "source_provenance": {
+    "pit_cutoff": "2023-05-26",
+    "task_id": "M2-06"
+  },
+  "symbol": "AGI",
+  "tier_membership": {
+    "in_compact": true,
+    "in_maximum": true,
+    "in_standard": true
+  }
+}

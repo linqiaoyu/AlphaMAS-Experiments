@@ -1,0 +1,9 @@
+trend: upward, then downward, then upward, then downward
+momentum_visual: generally increasing, then decreasing, then increasing, then decreasing
+volatility_visual: high in early months, then moderate, then high again
+candlestick_structure: mostly green, with some red, indicating mostly bullish, with some bearish
+notable_gap_or_reversal: no significant gap or reversal
+support_resistance_visual: no clear support or resistance levels visible
+volume_visual: not visible
+other_visible_pattern: no other visible patterns
+confidence: moderate

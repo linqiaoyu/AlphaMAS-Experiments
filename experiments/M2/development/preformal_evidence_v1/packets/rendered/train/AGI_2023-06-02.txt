@@ -1,0 +1,82 @@
+=== FINMULTITIME EVIDENCE ===
+Symbol: AGI
+Decision session: 2023-06-02
+
+[TEXT]
+Status: AVAILABLE
+Evidence age (calendar days): 1
+Source: sp500_news/AGI.jsonl
+Article 1 date: 2023-06-01
+Article 1 title: Alamos Gold Reaches Analyst Target Price
+Article 1 source: https://www.nasdaq.com/articles/alamos-gold-reaches-analyst-target-price-0
+Article 1 text: In recent trading, shares of Alamos Gold Inc (Symbol: AGI) have crossed above the average analyst 12-month target price of $12.16, changing hands for $12.34/share. When a stock reaches the target an analyst has set, the analyst logically has two ways to react: downgrade on valuation, or, re-adjust their target price to a higher level. Analyst reaction may also depend on the fundamental business developments that may be responsible for driving the stock price higher — if things are looking up for the company, perhaps it is time for that target price to be raised. There are 10 different analyst targets within the Zacks coverage universe contributing to that average for Alamos Gold Inc , but the average is just that — a mathematical average. There are analysts with lower targets than the average, including one looking for a price of $8.08. And then on the other side of the spectrum one ana…
+Article 1 provenance: c8774ed9cb1aff4aef57fd03577f7916f5956c3f9761cf409b38582ab8a90480
+Article 2 date: 2023-05-31
+Article 2 title: Mercer (MERC) Receives Court Approval to Acquire Structurlam
+Article 2 source: https://www.nasdaq.com/articles/mercer-merc-receives-court-approval-to-acquire-structurlam
+Article 2 text: Mercer International MERC announced that it has received bankruptcy court approval for the acquisition of Structurlam Mass Timber Corporation and its subsidiaries for $81 million. This deal, which is expected to close soon (subject to satisfaction of customary conditions), will fortify MERC’s position as a leading mass timber provider in North America. The addition of glued laminated timber (glulam) capability will expand its product offering and enable it to serve its growing customer base. Structurlam had entered into a stalking horse asset purchase agreement with Mercer in April 2023. Structurlam subsequently filed for bankruptcy under Chapter 11 of the U.S. code. The assets include a state-of-the-art mass timber facility in Conway, AR with has an annual capacity of approximately 75,000 cubic meters. It can produce both (glulam and cross-laminated timber (CLT). The acquisition also i…
+Article 2 provenance: 1b818f1184aa3aeff5c897b49155f8a36870f2947385ec2179ab961b9cba2d57
+Article 3 date: 2023-05-30
+Article 3 title: AGI Stock Crowded With Sellers
+Article 3 source: https://www.nasdaq.com/articles/agi-stock-crowded-with-sellers
+Article 3 text: In trading on Tuesday, shares of Alamos Gold Inc (Symbol: AGI) entered into oversold territory, changing hands as low as $12.05 per share. We define oversold territory using the Relative Strength Index, or RSI, which is a technical analysis indicator used to measure momentum on a scale of zero to 100. A stock is considered to be oversold if the RSI reading falls below 30. In the case of Alamos Gold Inc, the RSI reading has hit 29.7 — by comparison, the universe of metals and mining stocks covered by Metals Channel currently has an average RSI of 37.4, the RSI of Spot Gold is at 6.5, and the RSI of Spot Silver is presently 12.0. A bullish investor could look at AGI's 29.7 reading as a sign that the recent heavy selling is in the process of exhausting itself, and begin to look for entry point opportunities on the buy side. Looking at a chart of one year performance (below), AGI's low poin…
+Article 3 provenance: ce9ced8b4dbd83a4d51c4d43187dadd15f662b2f79c65aaafa01d9500c40c440
+Article 4 date: 2023-05-26
+Article 4 title: Nucor (NUE) Steel Longview Plate Mill to Cease Production
+Article 4 source: https://www.nasdaq.com/articles/nucor-nue-steel-longview-plate-mill-to-cease-production
+Article 4 text: Nucor Corporation NUE has announced that it will reorganize its plate group, including the closure of production at Nucor Steel Longview, LLC. All Nucor Steel Longview teammates will be offered jobs at other Nucor divisions.  The mill, which Nucor purchased in 2016 for around $29 million, manufactures heavy steel plates and has a rated annual capacity of 100,000 tons. Longview assets will be reviewed and deployed across Nucor's mills as required.  Nucor expects production to be phased off in the third quarter of 2023. Production will be moved to Nucor's other plate mills, including the company's new state-of-the-art plate mill in Brandenburg, KY, which started operating earlier this year. The Brandenburg mill will manufacture discrete, coiled and heat-treated plates in widths ranging from 60 to 168 inches and gauges ranging from 3/16 to 14 inches.  Nucor's plate group is well-placed to …
+Article 4 provenance: 19fa83f670ce0c1f117f593fac48225f1564c5af136a6ecaff84cc1304474a0c
+Article 5 date: 2023-05-25
+Article 5 title: B2Gold (BTG) Gains From Solid Mine Performance Amid Cost Woes
+Article 5 source: https://www.nasdaq.com/articles/b2gold-btg-gains-from-solid-mine-performance-amid-cost-woes
+Article 5 text: B2Gold Corp. BTG has been benefiting from improved mine performances and recent acquisitions despite inflationary costs. The company continues to generate solid operating results, owing to its focus on growth through further exploration, development and expansion of the existing projects. The recent pickup in the gold price will aid the company’s performance in the upcoming quarters.  Shares of this Zacks Rank #3 (Hold) company have gained 14.3% in the past six months compared with the industry’s growth of 20.1%.   Image Source: Zacks Investment Research  Mines to Meet Production Guidance for 2023 B2Gold reported a total gold production of 266,856 ounces in the first quarter of 2023, including 16,137 ounces of attributable production from Calibre Mining Corp. The Fekola Mine produced 165,864 ounces in the quarter, aided by a favorable mine phasing sequence that will begin in 2023, with …
+Article 5 provenance: d9c7293475615d3c96dc859f61d27b4d1baa05c83908a401564d6f008e5d1d33
+Article 6 date: 2023-05-25
+Article 6 title: DuPont (DD) to Unveil Tedler Frontsheet at SNEC PV Power Expo
+Article 6 source: https://www.nasdaq.com/articles/dupont-dd-to-unveil-tedler-frontsheet-at-snec-pv-power-expo
+Article 6 text: DuPont de Nemours DD recently declared that it will launch its latest Tedlar frontsheet materials to potential partners and end users in the photovoltaic industry at the 2023 SNEC International Photovoltaic Power Generation and Smart Energy Exhibition.  Replacing glass frontsheets while preserving mechanical stability and weatherability is a key problem for lightweight PV modules. Tedlar frontsheet provides a one-of-a-kind combination of durability, UV resistance, high light transmittance, long-lasting UV protection, mechanical toughness, abrasion resistance, chemical resistance and strong adhesion to encapsulant. This innovative approach, according to the company, can offer the frontsheet of solar modules.  DuPont will additionally showcase battery pack thermal management solutions in energy storage applications during the exhibition. Experts from DuPont will share their findings at te…
+Article 6 provenance: be2b46f5a0897996f51d0a4f97bff1a878bc4d829f7c842fb7aa1f85fe64adbc
+Article 7 date: 2023-05-25
+Article 7 title: International Paper (IP) Down 12% in 6 Months: Will It Recover?
+Article 7 source: https://www.nasdaq.com/articles/international-paper-ip-down-12-in-6-months%3A-will-it-recover
+Article 7 text: Shares of International Paper Company IP have lost 12.1% in the past six months, reflecting a decline in volumes witnessed by the company in the past few quarters. IP has, however, fared better than the industry it belongs to, which witnessed a 17% fall in the same timeframe. Weak Volumes & Low Pricing Ail IP International Paper has been witnessing weak demand as current inflationary pressures have been impacting consumers, leading to lower demand for goods. This had a large impact on packaging demand, as consumer priorities have shifted towards non-discretionary goods and services. Also, International Papers’ customers and the broader retail channel have been trying to lower their elevated inventories, which further impacted the demand. In fiscal 2022, the company had reported a 5.7% decline in sales volumes in the Industrial Packaging segment and 2.6% lower volumes in the Global Cellu…
+Article 7 provenance: 91d304937eb4b0c6006bbc35677bef4a6b1dfee2420cfa18812ebf9c527ecbfa
+Article 8 date: 2023-05-25
+Article 8 title: PPG Industries (PPG) & Entrotech Unveil Paint Films Solutions
+Article 8 source: https://www.nasdaq.com/articles/ppg-industries-ppg-entrotech-unveil-paint-films-solutions
+Article 8 text: PPG Industries, Inc. PPG recently announced that PPG Advanced Surface Technologies, a new joint venture set up with Entrotech, Inc., a producer of technology-driven film solutions, will supply paint and clear film solutions for automotive and industrial customers. PPG owns the majority of this joint venture. Financial and ownership information was not provided.  This alliance will position PPG's paint film product portfolio for expedited commercialization, providing customers with novel solutions with excellent performance and considerable sustainability benefits. This collaboration will aid in rapid worldwide expansion and complement PPG's portfolio.  PPG acquired its paint films capabilities in 2021 with the acquisition of Worwag, a coatings supplier based in Germany that supplies film materials for a wide range of automotive parts and panels. The joint venture will consist of PPG Wor…
+Article 8 provenance: ae3a5ee369542a385100bb5ff91a01d53c5415260360ca09f66c28e5f58d88aa
+
+[TABLE]
+Status: UNAVAILABLE
+Missingness reason: no PIT-safe canonical fact for one or more concepts
+Source: 
+Assets: UNAVAILABLE
+Liabilities: UNAVAILABLE
+StockholdersEquity: UNAVAILABLE
+NetCashProvidedByUsedInOperatingActivities: UNAVAILABLE
+NetCashProvidedByUsedInInvestingActivities: UNAVAILABLE
+NetCashProvidedByUsedInFinancingActivities: UNAVAILABLE
+
+[TIME_SERIES]
+Status: AVAILABLE
+Through session: 2023-06-02
+Source: S&P500_time_series/agi.csv
+cumulative_return_5d: -0.0032465053461452342
+cumulative_return_20d: -0.10690902305722694
+cumulative_return_60d: 0.24079703280000198
+realised_volatility_20d_annualised: 0.2730393193280111
+high_low_range_20d: 0.15850613837660488
+drawdown_from_60d_peak: -0.11143258864407635
+relative_volume_vs_20d_mean: 1.0564712864724042
+Provenance: db439f5e80fe3e171dbd60a54e45e15833d15331c55b66143fd34cae53980bf2
+
+[IMAGE]
+Status: AVAILABLE
+Chart period: 2022-H2
+Inferred period end: 2022-12-31
+Evidence age (calendar days): 153
+Source: agi_2022_H2_candlestick.png
+Canonical caption: {"candlestick_structure":"mostly green and red","confidence":"high","momentum_visual":"increasing","notable_gap_or_reversal":"none","other_visible_pattern":"none","support_resistance_visual":"none","trend":"upward","volatility_visual":"moderate","volume_visual":"none"}
+Caption provenance: 131c2904cd82c850f94b00cc58e2b97b2ef69c7e805fa562ef2c8f2e00a568fe
+=== END FINMULTITIME EVIDENCE ===

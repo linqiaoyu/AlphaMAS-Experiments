@@ -1,0 +1,227 @@
+{
+  "IMAGE": {
+    "canonical_caption": {
+      "candlestick_structure": "mostly green and red",
+      "confidence": "high",
+      "momentum_visual": "increasing",
+      "notable_gap_or_reversal": "none",
+      "other_visible_pattern": "none",
+      "support_resistance_visual": "none",
+      "trend": "upward",
+      "volatility_visual": "moderate",
+      "volume_visual": "none"
+    },
+    "caption_sha256": "131c2904cd82c850f94b00cc58e2b97b2ef69c7e805fa562ef2c8f2e00a568fe",
+    "caption_source": "NEW_QWEN_M2_06",
+    "caption_status": "GENERATED",
+    "chart_period": "2022-H2",
+    "evidence_age_calendar_days": 125,
+    "image_sha256": "fb4f6e3b146397e577983c29f78d45bffa4ad21c661752075ce9edcec40172c9",
+    "inferred_period_end": "2022-12-31",
+    "provenance_hash_reference": "131c2904cd82c850f94b00cc58e2b97b2ef69c7e805fa562ef2c8f2e00a568fe",
+    "reason": "",
+    "source_identity": "agi_2022_H2_candlestick.png",
+    "status": "AVAILABLE"
+  },
+  "TABLE": {
+    "facts": {
+      "Assets": {
+        "reason": "no canonical PIT-safe selected fact",
+        "status": "UNAVAILABLE"
+      },
+      "Liabilities": {
+        "reason": "no canonical PIT-safe selected fact",
+        "status": "UNAVAILABLE"
+      },
+      "NetCashProvidedByUsedInFinancingActivities": {
+        "reason": "no canonical PIT-safe selected fact",
+        "status": "UNAVAILABLE"
+      },
+      "NetCashProvidedByUsedInInvestingActivities": {
+        "reason": "no canonical PIT-safe selected fact",
+        "status": "UNAVAILABLE"
+      },
+      "NetCashProvidedByUsedInOperatingActivities": {
+        "reason": "no canonical PIT-safe selected fact",
+        "status": "UNAVAILABLE"
+      },
+      "StockholdersEquity": {
+        "reason": "no canonical PIT-safe selected fact",
+        "status": "UNAVAILABLE"
+      }
+    },
+    "provenance_hash_reference": "31ed97d48e36ee55b3b17701feea5389c90606b5d1870f8cbaf95d6d468f5ad9",
+    "reason": "no PIT-safe canonical fact for one or more concepts",
+    "selection_rule": "frozen six-concept TABLE selection; filed_date < decision session",
+    "source_identity": "",
+    "status": "UNAVAILABLE"
+  },
+  "TEXT": {
+    "evidence_age_calendar_days": 2,
+    "provenance_hash_reference": "fcdb883ae93bc08c0518db3a1b4b7ae8c516bb27e084cb7aff8f0932f12e416f",
+    "reason": "",
+    "records": [
+      {
+        "article_date": "2023-05-03",
+        "body": "There are several reasons why being consistently profitable over the long run in the stock market is challenging: 1.   Markets are inherently unpredictable, and even the most seasoned investors cannot predict the future of individual stocks or markets. 2.   Wall Street is highly competitive, and investors of all kinds (especially large ones) must contend with other savvy investors with access to the same information and resources.   3.   Regardless of how well thought out a position is, even the most well-researched positions can encounter unexpected “tape bombs” or negative news which adversely impacts the position. These factors make it challenging for investors to consistently outperform the market over the long term. Considering the abovementioned factors, Stanley Druckenmiller’s consistent performance over his long career is much more impressive. Druckenmiller, who was mentored by …",
+        "provenance_hash_reference": "a8a3dc4c0ae770aacefef79001803989808d03b9bd45250142f0a4edf55b9d39",
+        "source": "https://www.nasdaq.com/articles/druckenmiller-interview%3A-10-key-takeaways",
+        "title": "Druckenmiller Interview: 10 Key Takeaways"
+      },
+      {
+        "article_date": "2023-05-02",
+        "body": "CF Industries Holdings, Inc. CF reported a profit of $560 million or $2.85 per share in the first quarter of 2023, down from $883 million or $4.21 per share in the year-ago quarter. Earnings per share  surpassed the Zacks Consensus Estimate of $2.63.  Net sales fell 29.8% year over year to $2,012 million in the quarter. The figure topped the Zacks Consensus Estimate of $1,893.7 million. The downside was driven by lower average selling prices due to higher worldwide supply availability, as lower global energy costs led to higher global operating rates.  Sales volumes were also down year over year in the reported quarter, owing to lower UAN, ammonia and AN sales volumes. This was partly offset by higher granular urea sales volumes. CF Industries Holdings, Inc. Price, Consensus and EPS Surprise   CF Industries Holdings, Inc. price-consensus-eps-surprise-chart | CF Industries Holdings, Inc.…",
+        "provenance_hash_reference": "66ff597c434f2ed03b8b3628e02a13d7e53e053fef65e4607b7bb729ccda5a2b",
+        "source": "https://www.nasdaq.com/articles/cf-industries-cf-earnings-and-sales-surpass-estimates-in-q1",
+        "title": "CF Industries (CF) Earnings and Sales Surpass Estimates in Q1"
+      },
+      {
+        "article_date": "2023-05-02",
+        "body": "It shouldn’t come as much of a surprise that gold mining stocks would post solid earnings. The price of gold has been flirting with a price of $2,000 per ounce as many investors are seeking alternatives to the U.S. dollar.   When considering mining stocks, however, production is a key metric to watch. Commodity prices rise and fall and even gold has faced some resistance after climbing over $2,000 an ounce. What investors are looking for is a company that has proven assets and rising production from those assets.   All three of these companies delivered solid earnings reports for investors to digest. But after the earnings report does one stand out above the others? If you're a momentum investor, one does look to shine more brightly than the others.   Eldorado Gold   Eldorado Gold Corporation (NYSE: EGO) posted earnings per share (EPS) of 14 cents beating analysts’ expectations by 180%.…",
+        "provenance_hash_reference": "9c303652eaabfe5627966d8f37b054e46e35eb910844af3aae8762ea5cdd9832",
+        "source": "https://www.nasdaq.com/articles/which-of-these-gold-mining-stocks-is-glittering-after-earnings",
+        "title": "Which of these Gold Mining Stocks is Glittering After Earnings?"
+      },
+      {
+        "article_date": "2023-05-01",
+        "body": "Momentum investing is all about the idea of following a stock's recent trend, which can be in either direction. In the 'long' context, investors will essentially be \"buying high, but hoping to sell even higher.\" And for investors following this methodology, taking advantage of trends in a stock's price is key; once a stock establishes a course, it is more than likely to continue moving in that direction. The goal is that once a stock heads down a fixed path, it will lead to timely and profitable trades. Even though momentum is a popular stock characteristic, it can be tough to define. Debate surrounding which are the best and worst metrics to focus on is lengthy, but the Zacks Momentum Style Score, part of the Zacks Style Scores, helps address this issue for us. Below, we take a look at Alamos Gold (AGI), a company that currently holds a Momentum Style Score of A. We also talk about pri…",
+        "provenance_hash_reference": "1277932bed7fc8dbbc0f44285f0c585b6fbef5a43bf7a89c31876ea643d892af",
+        "source": "https://www.nasdaq.com/articles/alamos-gold-agi-is-a-great-momentum-stock%3A-should-you-buy",
+        "title": "Alamos Gold (AGI) is a Great Momentum Stock: Should You Buy?"
+      },
+      {
+        "article_date": "2023-04-28",
+        "body": "For those looking to find strong Basic Materials stocks, it is prudent to search for companies in the group that are outperforming their peers. Has Alamos Gold (AGI) been one of those stocks this year? Let's take a closer look at the stock's year-to-date performance to find out. Alamos Gold is one of 236 companies in the Basic Materials group. The Basic Materials group currently sits at #14 within the Zacks Sector Rank. The Zacks Sector Rank gauges the strength of our 16 individual sector groups by measuring the average Zacks Rank of the individual stocks within the groups. The Zacks Rank is a proven system that emphasizes earnings estimates and estimate revisions, highlighting a variety of stocks that are displaying the right characteristics to beat the market over the next one to three months. Alamos Gold is currently sporting a Zacks Rank of #2 (Buy). Over the past three months, the …",
+        "provenance_hash_reference": "3826ff3fa8c8e28c0a81e7250e9bb976d357a14edf5bf3a3211839f9a4b505b0",
+        "source": "https://www.nasdaq.com/articles/are-basic-materials-stocks-lagging-alamos-gold-agi-this-year",
+        "title": "Are Basic Materials Stocks Lagging Alamos Gold (AGI) This Year?"
+      },
+      {
+        "article_date": "2023-04-12",
+        "body": "Alamos Gold Inc. - Class A (AGI) shares closed 0.7% higher than its previous 52 week high, giving the company a market cap of $5B. The stock is currently up 33.4% year-to-date, up 54.4% over the past 12 months, and up 156.3% over the past five years. This week, the Dow Jones Industrial Average rose 0.5%, and the S&P 500 rose 0.1%. Trading Activity Trading volume this week was 32.1% lower than the 20-day average. Beta, a measure of the stock’s volatility relative to the overall market stands at 0.8. Technical Indicators The Relative Strength Index (RSI) on the stock was above 70, indicating it may be overbought. MACD, a trend-following momentum indicator, indicates an upward trend. The stock closed below its Bollinger band, indicating it may be oversold. Market Comparative Performance The company's share price is the same as the S&P 500 Index , beats it on a 1-year basis, and beats it on…",
+        "provenance_hash_reference": "4b37ee1dad52043d3a6b3dd59a6860c57056116752a930d4a63e1ead9967df15",
+        "source": "https://www.nasdaq.com/articles/alamos-gold-inc.-class-a-shares-climb-0.7-past-previous-52-week-high-market-mover-0",
+        "title": "Alamos Gold Inc. - Class A Shares Climb 0.7% Past Previous 52-Week High - Market Mover"
+      },
+      {
+        "article_date": "2023-04-12",
+        "body": "Royal Gold, Inc. RGLD issued a stream sales update for first-quarter 2023. During the quarter, RGLD Gold AG — the fully-owned subsidiary of Royal Gold — sold 60,800 gold equivalent ounces (GEOs), comprising 42,100 gold ounces, 808,100 silver ounces and 2,000 tons of copper related to its streaming agreements. The reported figure exceeded the company's guidance for stream segment sales of 54,000-59,000 GEOs.  The average realized price of gold was $1,869 per ounce in the first quarter of 2023 compared with $1,710 per ounce in the fourth quarter of 2022. The average realized price of silver was $22.66 per ounce, up from the last reported quarter’s figure of $20.09. Average realized copper prices were $8,851 per ton, up 10.6% sequentially. The company ended the quarter with 18,600 ounces of gold and 512,300 ounces of silver in inventory.  During the three months ended Mar 31, 2023, cost of…",
+        "provenance_hash_reference": "0176d44071981ef7bcc25b95acac510074eaffed7ef5b2443d2990d46c2cd5e7",
+        "source": "https://www.nasdaq.com/articles/royal-gold-rgld-issues-stream-segment-sales-update-for-q1",
+        "title": "Royal Gold (RGLD) Issues Stream Segment Sales Update for Q1"
+      },
+      {
+        "article_date": "2023-04-11",
+        "body": "Bunge Limited BG announced that it signed a deal with Fuji Oil New Orleans, LLC to acquire Fuji Oil's newly built, port-based refinery in IMTT's (International-Matex Tank Terminals) Avondale Terminal in Louisiana. The acquisition aligns with Bunge's long-term strategy of expanding its value-added oils business by growing its presence across North America.  Bunge expects to expand its existing customer base following the acquisition of the multi-oil refining capabilities of the cutting-edge facility. It will gain a scalable, complementary port-based footprint that will allow it to connect North America food, feed, and fuel customers to global markets.  The company intends to significantly increase the current capacity of the facility, developing job opportunities for the local community. Operations at this facility are expected to begin in the second quarter of 2023.  The completion of t…",
+        "provenance_hash_reference": "1259d728eecab392db5cb5318b94e24a0ed0d7a5f8edfeb54d76e77f010a674b",
+        "source": "https://www.nasdaq.com/articles/bunge-bg-inks-deal-to-buy-fuji-oils-refinery-in-louisiana",
+        "title": "Bunge (BG) Inks Deal to Buy Fuji Oil's Refinery in Louisiana"
+      }
+    ],
+    "selection_rule": "frozen bounded TEXT selection; Date < decision session; deterministic order",
+    "source_identity": "sp500_news/AGI.jsonl",
+    "status": "AVAILABLE"
+  },
+  "TIME_SERIES": {
+    "provenance_hash_reference": "e17d6eb86fcec02466bcc0ed8701dfa95014baa38ee041e1af964763294f51f4",
+    "reason": "",
+    "selection_rule": "frozen descriptive summaries from 61 completed source rows; session <= decision",
+    "source_identity": "S&P500_time_series/agi.csv",
+    "status": "AVAILABLE",
+    "summaries": {
+      "cumulative_return_20d": 0.0647648672668959,
+      "cumulative_return_5d": 0.06805870995206398,
+      "cumulative_return_60d": 0.2746116598387307,
+      "drawdown_from_60d_peak": 0.0,
+      "high_low_range_20d": 0.13870978928629518,
+      "realised_volatility_20d_annualised": 0.23757405552666658,
+      "relative_volume_vs_20d_mean": 1.0670291829916574
+    },
+    "through_session": "2023-05-05"
+  },
+  "agent_text": "=== FINMULTITIME EVIDENCE ===\nSymbol: AGI\nDecision session: 2023-05-05\n\n[TEXT]\nStatus: AVAILABLE\nEvidence age (calendar days): 2\nSource: sp500_news/AGI.jsonl\nArticle 1 date: 2023-05-03\nArticle 1 title: Druckenmiller Interview: 10 Key Takeaways\nArticle 1 source: https://www.nasdaq.com/articles/druckenmiller-interview%3A-10-key-takeaways\nArticle 1 text: There are several reasons why being consistently profitable over the long run in the stock market is challenging: 1.   Markets are inherently unpredictable, and even the most seasoned investors cannot predict the future of individual stocks or markets. 2.   Wall Street is highly competitive, and investors of all kinds (especially large ones) must contend with other savvy investors with access to the same information and resources.   3.   Regardless of how well thought out a position is, even the most well-researched positions can encounter unexpected “tape bombs” or negative news which adversely impacts the position. These factors make it challenging for investors to consistently outperform the market over the long term. Considering the abovementioned factors, Stanley Druckenmiller’s consistent performance over his long career is much more impressive. Druckenmiller, who was mentored by …\nArticle 1 provenance: a8a3dc4c0ae770aacefef79001803989808d03b9bd45250142f0a4edf55b9d39\nArticle 2 date: 2023-05-02\nArticle 2 title: CF Industries (CF) Earnings and Sales Surpass Estimates in Q1\nArticle 2 source: https://www.nasdaq.com/articles/cf-industries-cf-earnings-and-sales-surpass-estimates-in-q1\nArticle 2 text: CF Industries Holdings, Inc. CF reported a profit of $560 million or $2.85 per share in the first quarter of 2023, down from $883 million or $4.21 per share in the year-ago quarter. Earnings per share  surpassed the Zacks Consensus Estimate of $2.63.  Net sales fell 29.8% year over year to $2,012 million in the quarter. The figure topped the Zacks Consensus Estimate of $1,893.7 million. The downside was driven by lower average selling prices due to higher worldwide supply availability, as lower global energy costs led to higher global operating rates.  Sales volumes were also down year over year in the reported quarter, owing to lower UAN, ammonia and AN sales volumes. This was partly offset by higher granular urea sales volumes. CF Industries Holdings, Inc. Price, Consensus and EPS Surprise   CF Industries Holdings, Inc. price-consensus-eps-surprise-chart | CF Industries Holdings, Inc.…\nArticle 2 provenance: 66ff597c434f2ed03b8b3628e02a13d7e53e053fef65e4607b7bb729ccda5a2b\nArticle 3 date: 2023-05-02\nArticle 3 title: Which of these Gold Mining Stocks is Glittering After Earnings?\nArticle 3 source: https://www.nasdaq.com/articles/which-of-these-gold-mining-stocks-is-glittering-after-earnings\nArticle 3 text: It shouldn’t come as much of a surprise that gold mining stocks would post solid earnings. The price of gold has been flirting with a price of $2,000 per ounce as many investors are seeking alternatives to the U.S. dollar.   When considering mining stocks, however, production is a key metric to watch. Commodity prices rise and fall and even gold has faced some resistance after climbing over $2,000 an ounce. What investors are looking for is a company that has proven assets and rising production from those assets.   All three of these companies delivered solid earnings reports for investors to digest. But after the earnings report does one stand out above the others? If you're a momentum investor, one does look to shine more brightly than the others.   Eldorado Gold   Eldorado Gold Corporation (NYSE: EGO) posted earnings per share (EPS) of 14 cents beating analysts’ expectations by 180%.…\nArticle 3 provenance: 9c303652eaabfe5627966d8f37b054e46e35eb910844af3aae8762ea5cdd9832\nArticle 4 date: 2023-05-01\nArticle 4 title: Alamos Gold (AGI) is a Great Momentum Stock: Should You Buy?\nArticle 4 source: https://www.nasdaq.com/articles/alamos-gold-agi-is-a-great-momentum-stock%3A-should-you-buy\nArticle 4 text: Momentum investing is all about the idea of following a stock's recent trend, which can be in either direction. In the 'long' context, investors will essentially be \"buying high, but hoping to sell even higher.\" And for investors following this methodology, taking advantage of trends in a stock's price is key; once a stock establishes a course, it is more than likely to continue moving in that direction. The goal is that once a stock heads down a fixed path, it will lead to timely and profitable trades. Even though momentum is a popular stock characteristic, it can be tough to define. Debate surrounding which are the best and worst metrics to focus on is lengthy, but the Zacks Momentum Style Score, part of the Zacks Style Scores, helps address this issue for us. Below, we take a look at Alamos Gold (AGI), a company that currently holds a Momentum Style Score of A. We also talk about pri…\nArticle 4 provenance: 1277932bed7fc8dbbc0f44285f0c585b6fbef5a43bf7a89c31876ea643d892af\nArticle 5 date: 2023-04-28\nArticle 5 title: Are Basic Materials Stocks Lagging Alamos Gold (AGI) This Year?\nArticle 5 source: https://www.nasdaq.com/articles/are-basic-materials-stocks-lagging-alamos-gold-agi-this-year\nArticle 5 text: For those looking to find strong Basic Materials stocks, it is prudent to search for companies in the group that are outperforming their peers. Has Alamos Gold (AGI) been one of those stocks this year? Let's take a closer look at the stock's year-to-date performance to find out. Alamos Gold is one of 236 companies in the Basic Materials group. The Basic Materials group currently sits at #14 within the Zacks Sector Rank. The Zacks Sector Rank gauges the strength of our 16 individual sector groups by measuring the average Zacks Rank of the individual stocks within the groups. The Zacks Rank is a proven system that emphasizes earnings estimates and estimate revisions, highlighting a variety of stocks that are displaying the right characteristics to beat the market over the next one to three months. Alamos Gold is currently sporting a Zacks Rank of #2 (Buy). Over the past three months, the …\nArticle 5 provenance: 3826ff3fa8c8e28c0a81e7250e9bb976d357a14edf5bf3a3211839f9a4b505b0\nArticle 6 date: 2023-04-12\nArticle 6 title: Alamos Gold Inc. - Class A Shares Climb 0.7% Past Previous 52-Week High - Market Mover\nArticle 6 source: https://www.nasdaq.com/articles/alamos-gold-inc.-class-a-shares-climb-0.7-past-previous-52-week-high-market-mover-0\nArticle 6 text: Alamos Gold Inc. - Class A (AGI) shares closed 0.7% higher than its previous 52 week high, giving the company a market cap of $5B. The stock is currently up 33.4% year-to-date, up 54.4% over the past 12 months, and up 156.3% over the past five years. This week, the Dow Jones Industrial Average rose 0.5%, and the S&P 500 rose 0.1%. Trading Activity Trading volume this week was 32.1% lower than the 20-day average. Beta, a measure of the stock’s volatility relative to the overall market stands at 0.8. Technical Indicators The Relative Strength Index (RSI) on the stock was above 70, indicating it may be overbought. MACD, a trend-following momentum indicator, indicates an upward trend. The stock closed below its Bollinger band, indicating it may be oversold. Market Comparative Performance The company's share price is the same as the S&P 500 Index , beats it on a 1-year basis, and beats it on…\nArticle 6 provenance: 4b37ee1dad52043d3a6b3dd59a6860c57056116752a930d4a63e1ead9967df15\nArticle 7 date: 2023-04-12\nArticle 7 title: Royal Gold (RGLD) Issues Stream Segment Sales Update for Q1\nArticle 7 source: https://www.nasdaq.com/articles/royal-gold-rgld-issues-stream-segment-sales-update-for-q1\nArticle 7 text: Royal Gold, Inc. RGLD issued a stream sales update for first-quarter 2023. During the quarter, RGLD Gold AG — the fully-owned subsidiary of Royal Gold — sold 60,800 gold equivalent ounces (GEOs), comprising 42,100 gold ounces, 808,100 silver ounces and 2,000 tons of copper related to its streaming agreements. The reported figure exceeded the company's guidance for stream segment sales of 54,000-59,000 GEOs.  The average realized price of gold was $1,869 per ounce in the first quarter of 2023 compared with $1,710 per ounce in the fourth quarter of 2022. The average realized price of silver was $22.66 per ounce, up from the last reported quarter’s figure of $20.09. Average realized copper prices were $8,851 per ton, up 10.6% sequentially. The company ended the quarter with 18,600 ounces of gold and 512,300 ounces of silver in inventory.  During the three months ended Mar 31, 2023, cost of…\nArticle 7 provenance: 0176d44071981ef7bcc25b95acac510074eaffed7ef5b2443d2990d46c2cd5e7\nArticle 8 date: 2023-04-11\nArticle 8 title: Bunge (BG) Inks Deal to Buy Fuji Oil's Refinery in Louisiana\nArticle 8 source: https://www.nasdaq.com/articles/bunge-bg-inks-deal-to-buy-fuji-oils-refinery-in-louisiana\nArticle 8 text: Bunge Limited BG announced that it signed a deal with Fuji Oil New Orleans, LLC to acquire Fuji Oil's newly built, port-based refinery in IMTT's (International-Matex Tank Terminals) Avondale Terminal in Louisiana. The acquisition aligns with Bunge's long-term strategy of expanding its value-added oils business by growing its presence across North America.  Bunge expects to expand its existing customer base following the acquisition of the multi-oil refining capabilities of the cutting-edge facility. It will gain a scalable, complementary port-based footprint that will allow it to connect North America food, feed, and fuel customers to global markets.  The company intends to significantly increase the current capacity of the facility, developing job opportunities for the local community. Operations at this facility are expected to begin in the second quarter of 2023.  The completion of t…\nArticle 8 provenance: 1259d728eecab392db5cb5318b94e24a0ed0d7a5f8edfeb54d76e77f010a674b\n\n[TABLE]\nStatus: UNAVAILABLE\nMissingness reason: no PIT-safe canonical fact for one or more concepts\nSource: \nAssets: UNAVAILABLE\nLiabilities: UNAVAILABLE\nStockholdersEquity: UNAVAILABLE\nNetCashProvidedByUsedInOperatingActivities: UNAVAILABLE\nNetCashProvidedByUsedInInvestingActivities: UNAVAILABLE\nNetCashProvidedByUsedInFinancingActivities: UNAVAILABLE\n\n[TIME_SERIES]\nStatus: AVAILABLE\nThrough session: 2023-05-05\nSource: S&P500_time_series/agi.csv\ncumulative_return_5d: 0.06805870995206398\ncumulative_return_20d: 0.0647648672668959\ncumulative_return_60d: 0.2746116598387307\nrealised_volatility_20d_annualised: 0.23757405552666658\nhigh_low_range_20d: 0.13870978928629518\ndrawdown_from_60d_peak: 0.0\nrelative_volume_vs_20d_mean: 1.0670291829916574\nProvenance: e17d6eb86fcec02466bcc0ed8701dfa95014baa38ee041e1af964763294f51f4\n\n[IMAGE]\nStatus: AVAILABLE\nChart period: 2022-H2\nInferred period end: 2022-12-31\nEvidence age (calendar days): 125\nSource: agi_2022_H2_candlestick.png\nCanonical caption: {\"candlestick_structure\":\"mostly green and red\",\"confidence\":\"high\",\"momentum_visual\":\"increasing\",\"notable_gap_or_reversal\":\"none\",\"other_visible_pattern\":\"none\",\"support_resistance_visual\":\"none\",\"trend\":\"upward\",\"volatility_visual\":\"moderate\",\"volume_visual\":\"none\"}\nCaption provenance: 131c2904cd82c850f94b00cc58e2b97b2ef69c7e805fa562ef2c8f2e00a568fe\n=== END FINMULTITIME EVIDENCE ===\n",
+  "available_for_training": true,
+  "available_for_validation": false,
+  "case_id": "AGI:2023-05-05",
+  "character_counts": {
+    "complete": 11316,
+    "fundamentals": 345,
+    "market": 972,
+    "news": 9851
+  },
+  "contract_version": "M1-FINMULTITIME-v1.0.2",
+  "dataset_id": "m2_preformal_evidence_v1",
+  "decision_session": "2023-05-05",
+  "decision_time": "2023-05-05T20:00:00+00:00",
+  "engineering_only": false,
+  "m2_metadata": {
+    "available_for_training": true,
+    "available_for_validation": false,
+    "engineering_only": false,
+    "performance_for_selection": false,
+    "protected": false,
+    "role": "TRAIN",
+    "tier_membership": {
+      "in_compact": false,
+      "in_maximum": true,
+      "in_standard": false
+    }
+  },
+  "packet_sha256": "98b2b5a945969d0950cc4fcb3aec770bfaf9467eb412fbeb60b65772a68b6df0",
+  "packet_status": "FINAL_FROZEN",
+  "performance_for_selection": false,
+  "protected": false,
+  "record_type": "m1_finmultitime_evidence_packet",
+  "role": "TRAIN",
+  "routed_projections": {
+    "fundamentals_analyst": {
+      "sections": [
+        "TABLE"
+      ],
+      "text": "Status: UNAVAILABLE\nMissingness reason: no PIT-safe canonical fact for one or more concepts\nSource: \nAssets: UNAVAILABLE\nLiabilities: UNAVAILABLE\nStockholdersEquity: UNAVAILABLE\nNetCashProvidedByUsedInOperatingActivities: UNAVAILABLE\nNetCashProvidedByUsedInInvestingActivities: UNAVAILABLE\nNetCashProvidedByUsedInFinancingActivities: UNAVAILABLE"
+    },
+    "market_analyst": {
+      "sections": [
+        "TIME_SERIES",
+        "IMAGE"
+      ],
+      "text": "Status: AVAILABLE\nThrough session: 2023-05-05\nSource: S&P500_time_series/agi.csv\ncumulative_return_5d: 0.06805870995206398\ncumulative_return_20d: 0.0647648672668959\ncumulative_return_60d: 0.2746116598387307\nrealised_volatility_20d_annualised: 0.23757405552666658\nhigh_low_range_20d: 0.13870978928629518\ndrawdown_from_60d_peak: 0.0\nrelative_volume_vs_20d_mean: 1.0670291829916574\nProvenance: e17d6eb86fcec02466bcc0ed8701dfa95014baa38ee041e1af964763294f51f4\n\nStatus: AVAILABLE\nChart period: 2022-H2\nInferred period end: 2022-12-31\nEvidence age (calendar days): 125\nSource: agi_2022_H2_candlestick.png\nCanonical caption: {\"candlestick_structure\":\"mostly green and red\",\"confidence\":\"high\",\"momentum_visual\":\"increasing\",\"notable_gap_or_reversal\":\"none\",\"other_visible_pattern\":\"none\",\"support_resistance_visual\":\"none\",\"trend\":\"upward\",\"volatility_visual\":\"moderate\",\"volume_visual\":\"none\"}\nCaption provenance: 131c2904cd82c850f94b00cc58e2b97b2ef69c7e805fa562ef2c8f2e00a568fe"
+    },
+    "news_analyst": {
+      "sections": [
+        "TEXT"
+      ],
+      "text": "Status: AVAILABLE\nEvidence age (calendar days): 2\nSource: sp500_news/AGI.jsonl\nArticle 1 date: 2023-05-03\nArticle 1 title: Druckenmiller Interview: 10 Key Takeaways\nArticle 1 source: https://www.nasdaq.com/articles/druckenmiller-interview%3A-10-key-takeaways\nArticle 1 text: There are several reasons why being consistently profitable over the long run in the stock market is challenging: 1.   Markets are inherently unpredictable, and even the most seasoned investors cannot predict the future of individual stocks or markets. 2.   Wall Street is highly competitive, and investors of all kinds (especially large ones) must contend with other savvy investors with access to the same information and resources.   3.   Regardless of how well thought out a position is, even the most well-researched positions can encounter unexpected “tape bombs” or negative news which adversely impacts the position. These factors make it challenging for investors to consistently outperform the market over the long term. Considering the abovementioned factors, Stanley Druckenmiller’s consistent performance over his long career is much more impressive. Druckenmiller, who was mentored by …\nArticle 1 provenance: a8a3dc4c0ae770aacefef79001803989808d03b9bd45250142f0a4edf55b9d39\nArticle 2 date: 2023-05-02\nArticle 2 title: CF Industries (CF) Earnings and Sales Surpass Estimates in Q1\nArticle 2 source: https://www.nasdaq.com/articles/cf-industries-cf-earnings-and-sales-surpass-estimates-in-q1\nArticle 2 text: CF Industries Holdings, Inc. CF reported a profit of $560 million or $2.85 per share in the first quarter of 2023, down from $883 million or $4.21 per share in the year-ago quarter. Earnings per share  surpassed the Zacks Consensus Estimate of $2.63.  Net sales fell 29.8% year over year to $2,012 million in the quarter. The figure topped the Zacks Consensus Estimate of $1,893.7 million. The downside was driven by lower average selling prices due to higher worldwide supply availability, as lower global energy costs led to higher global operating rates.  Sales volumes were also down year over year in the reported quarter, owing to lower UAN, ammonia and AN sales volumes. This was partly offset by higher granular urea sales volumes. CF Industries Holdings, Inc. Price, Consensus and EPS Surprise   CF Industries Holdings, Inc. price-consensus-eps-surprise-chart | CF Industries Holdings, Inc.…\nArticle 2 provenance: 66ff597c434f2ed03b8b3628e02a13d7e53e053fef65e4607b7bb729ccda5a2b\nArticle 3 date: 2023-05-02\nArticle 3 title: Which of these Gold Mining Stocks is Glittering After Earnings?\nArticle 3 source: https://www.nasdaq.com/articles/which-of-these-gold-mining-stocks-is-glittering-after-earnings\nArticle 3 text: It shouldn’t come as much of a surprise that gold mining stocks would post solid earnings. The price of gold has been flirting with a price of $2,000 per ounce as many investors are seeking alternatives to the U.S. dollar.   When considering mining stocks, however, production is a key metric to watch. Commodity prices rise and fall and even gold has faced some resistance after climbing over $2,000 an ounce. What investors are looking for is a company that has proven assets and rising production from those assets.   All three of these companies delivered solid earnings reports for investors to digest. But after the earnings report does one stand out above the others? If you're a momentum investor, one does look to shine more brightly than the others.   Eldorado Gold   Eldorado Gold Corporation (NYSE: EGO) posted earnings per share (EPS) of 14 cents beating analysts’ expectations by 180%.…\nArticle 3 provenance: 9c303652eaabfe5627966d8f37b054e46e35eb910844af3aae8762ea5cdd9832\nArticle 4 date: 2023-05-01\nArticle 4 title: Alamos Gold (AGI) is a Great Momentum Stock: Should You Buy?\nArticle 4 source: https://www.nasdaq.com/articles/alamos-gold-agi-is-a-great-momentum-stock%3A-should-you-buy\nArticle 4 text: Momentum investing is all about the idea of following a stock's recent trend, which can be in either direction. In the 'long' context, investors will essentially be \"buying high, but hoping to sell even higher.\" And for investors following this methodology, taking advantage of trends in a stock's price is key; once a stock establishes a course, it is more than likely to continue moving in that direction. The goal is that once a stock heads down a fixed path, it will lead to timely and profitable trades. Even though momentum is a popular stock characteristic, it can be tough to define. Debate surrounding which are the best and worst metrics to focus on is lengthy, but the Zacks Momentum Style Score, part of the Zacks Style Scores, helps address this issue for us. Below, we take a look at Alamos Gold (AGI), a company that currently holds a Momentum Style Score of A. We also talk about pri…\nArticle 4 provenance: 1277932bed7fc8dbbc0f44285f0c585b6fbef5a43bf7a89c31876ea643d892af\nArticle 5 date: 2023-04-28\nArticle 5 title: Are Basic Materials Stocks Lagging Alamos Gold (AGI) This Year?\nArticle 5 source: https://www.nasdaq.com/articles/are-basic-materials-stocks-lagging-alamos-gold-agi-this-year\nArticle 5 text: For those looking to find strong Basic Materials stocks, it is prudent to search for companies in the group that are outperforming their peers. Has Alamos Gold (AGI) been one of those stocks this year? Let's take a closer look at the stock's year-to-date performance to find out. Alamos Gold is one of 236 companies in the Basic Materials group. The Basic Materials group currently sits at #14 within the Zacks Sector Rank. The Zacks Sector Rank gauges the strength of our 16 individual sector groups by measuring the average Zacks Rank of the individual stocks within the groups. The Zacks Rank is a proven system that emphasizes earnings estimates and estimate revisions, highlighting a variety of stocks that are displaying the right characteristics to beat the market over the next one to three months. Alamos Gold is currently sporting a Zacks Rank of #2 (Buy). Over the past three months, the …\nArticle 5 provenance: 3826ff3fa8c8e28c0a81e7250e9bb976d357a14edf5bf3a3211839f9a4b505b0\nArticle 6 date: 2023-04-12\nArticle 6 title: Alamos Gold Inc. - Class A Shares Climb 0.7% Past Previous 52-Week High - Market Mover\nArticle 6 source: https://www.nasdaq.com/articles/alamos-gold-inc.-class-a-shares-climb-0.7-past-previous-52-week-high-market-mover-0\nArticle 6 text: Alamos Gold Inc. - Class A (AGI) shares closed 0.7% higher than its previous 52 week high, giving the company a market cap of $5B. The stock is currently up 33.4% year-to-date, up 54.4% over the past 12 months, and up 156.3% over the past five years. This week, the Dow Jones Industrial Average rose 0.5%, and the S&P 500 rose 0.1%. Trading Activity Trading volume this week was 32.1% lower than the 20-day average. Beta, a measure of the stock’s volatility relative to the overall market stands at 0.8. Technical Indicators The Relative Strength Index (RSI) on the stock was above 70, indicating it may be overbought. MACD, a trend-following momentum indicator, indicates an upward trend. The stock closed below its Bollinger band, indicating it may be oversold. Market Comparative Performance The company's share price is the same as the S&P 500 Index , beats it on a 1-year basis, and beats it on…\nArticle 6 provenance: 4b37ee1dad52043d3a6b3dd59a6860c57056116752a930d4a63e1ead9967df15\nArticle 7 date: 2023-04-12\nArticle 7 title: Royal Gold (RGLD) Issues Stream Segment Sales Update for Q1\nArticle 7 source: https://www.nasdaq.com/articles/royal-gold-rgld-issues-stream-segment-sales-update-for-q1\nArticle 7 text: Royal Gold, Inc. RGLD issued a stream sales update for first-quarter 2023. During the quarter, RGLD Gold AG — the fully-owned subsidiary of Royal Gold — sold 60,800 gold equivalent ounces (GEOs), comprising 42,100 gold ounces, 808,100 silver ounces and 2,000 tons of copper related to its streaming agreements. The reported figure exceeded the company's guidance for stream segment sales of 54,000-59,000 GEOs.  The average realized price of gold was $1,869 per ounce in the first quarter of 2023 compared with $1,710 per ounce in the fourth quarter of 2022. The average realized price of silver was $22.66 per ounce, up from the last reported quarter’s figure of $20.09. Average realized copper prices were $8,851 per ton, up 10.6% sequentially. The company ended the quarter with 18,600 ounces of gold and 512,300 ounces of silver in inventory.  During the three months ended Mar 31, 2023, cost of…\nArticle 7 provenance: 0176d44071981ef7bcc25b95acac510074eaffed7ef5b2443d2990d46c2cd5e7\nArticle 8 date: 2023-04-11\nArticle 8 title: Bunge (BG) Inks Deal to Buy Fuji Oil's Refinery in Louisiana\nArticle 8 source: https://www.nasdaq.com/articles/bunge-bg-inks-deal-to-buy-fuji-oils-refinery-in-louisiana\nArticle 8 text: Bunge Limited BG announced that it signed a deal with Fuji Oil New Orleans, LLC to acquire Fuji Oil's newly built, port-based refinery in IMTT's (International-Matex Tank Terminals) Avondale Terminal in Louisiana. The acquisition aligns with Bunge's long-term strategy of expanding its value-added oils business by growing its presence across North America.  Bunge expects to expand its existing customer base following the acquisition of the multi-oil refining capabilities of the cutting-edge facility. It will gain a scalable, complementary port-based footprint that will allow it to connect North America food, feed, and fuel customers to global markets.  The company intends to significantly increase the current capacity of the facility, developing job opportunities for the local community. Operations at this facility are expected to begin in the second quarter of 2023.  The completion of t…\nArticle 8 provenance: 1259d728eecab392db5cb5318b94e24a0ed0d7a5f8edfeb54d76e77f010a674b"
+    },
+    "social_analyst": {
+      "sections": [],
+      "text": ""
+    }
+  },
+  "routing": {
+    "modality_to_analyst": {
+      "IMAGE": "Market Analyst",
+      "TABLE": "Fundamentals Analyst",
+      "TEXT": "News Analyst",
+      "TIME_SERIES": "Market Analyst"
+    },
+    "raw_packet_direct_injection": false,
+    "social_analyst": "NO_FINMULTITIME_EVIDENCE"
+  },
+  "section_sha256": {
+    "IMAGE": "4f2b83bda3f1ae1c4cbfd868e67d49f1a3521216f55cfe962cb971b96ebf33da",
+    "TABLE": "e05af090ec3974ea4ca645ebeb821a170aaa1d13accd6b1e3e944907f2ee88cc",
+    "TEXT": "be20fcad374ce583da232b99cb085ffc7cb71d1a95ea46246f7b72079018afcc",
+    "TIME_SERIES": "1da14faf7827a9903b8f285fe63b17027a2fd77bf05160c226e63f3ff4deecd4"
+  },
+  "source_provenance": {
+    "pit_cutoff": "2023-05-05",
+    "task_id": "M2-06"
+  },
+  "symbol": "AGI",
+  "tier_membership": {
+    "in_compact": false,
+    "in_maximum": true,
+    "in_standard": false
+  }
+}

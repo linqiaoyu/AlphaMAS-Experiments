@@ -1,0 +1,35 @@
+=== FINMULTITIME EVIDENCE ===
+Symbol: AAPL
+Decision session: 2023-07-07
+
+[TEXT]
+Status: UNAVAILABLE
+Missingness reason: M1 frozen AAPL source-integrity policy
+
+[TABLE]
+Status: AVAILABLE
+Source: financial_reports/aapl/condensed_consolidated_balance_sheets.json;financial_reports/aapl/condensed_consolidated_statement_of_cash_flows.json
+Assets: value=332160000000; unit=USD; form=10-Q; fy=2023; fp=Q2; period_start=; period_end=2023-04-01; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-05-05; accession=0000320193-23-000064; provenance=45fba6cf3f3005d66b2932a9d9a817d3b34febe2626675c73b985dd66c3adff4
+Liabilities: value=270002000000; unit=USD; form=10-Q; fy=2023; fp=Q2; period_start=; period_end=2023-04-01; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-05-05; accession=0000320193-23-000064; provenance=3b47dc8434ea1ca07c94f60b8cf70e0bd80a56ef5db51a40975b01b6e1cfd0d5
+StockholdersEquity: value=62158000000; unit=USD; form=10-Q; fy=2023; fp=Q2; period_start=; period_end=2023-04-01; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-05-05; accession=0000320193-23-000064; provenance=a122ea8fc37a54e58a4e52641009ffd5a5b2e1009a7f02453ad57fc8b4d5a2d7
+NetCashProvidedByUsedInOperatingActivities: value=62565000000; unit=USD; form=10-Q; fy=2023; fp=Q2; period_start=2022-09-25; period_end=2023-04-01; period_duration_days=189; period_duration_class=year_to_date_6m; filed_date=2023-05-05; accession=0000320193-23-000064; provenance=dbacc76849bec1b5a540da434f5806104f08c33cd00efe444dcb7262f062fda2
+NetCashProvidedByUsedInInvestingActivities: value=874000000; unit=USD; form=10-Q; fy=2023; fp=Q2; period_start=2022-09-25; period_end=2023-04-01; period_duration_days=189; period_duration_class=year_to_date_6m; filed_date=2023-05-05; accession=0000320193-23-000064; provenance=3b9bfa49a41d0c318abfa670ccd0c19b07ee8d82c828a6c2d7bde999fe8779e1
+NetCashProvidedByUsedInFinancingActivities: value=-61287000000; unit=USD; form=10-Q; fy=2023; fp=Q2; period_start=2022-09-25; period_end=2023-04-01; period_duration_days=189; period_duration_class=year_to_date_6m; filed_date=2023-05-05; accession=0000320193-23-000064; provenance=de5e5ece5bccf2b93167c041372641bec466c779953767c7255a0b8960753b78
+
+[TIME_SERIES]
+Status: AVAILABLE
+Through session: 2023-07-07
+Source: S&P500_time_series/aapl.csv
+cumulative_return_5d: 0.005749260042249071
+cumulative_return_20d: 0.07232027088551929
+cumulative_return_60d: 0.1874609890792427
+realised_volatility_20d_annualised: 0.15112048908776748
+high_low_range_20d: 0.09590880248555633
+drawdown_from_60d_peak: -0.01696138578130635
+relative_volume_vs_20d_mean: 0.8482486624506893
+Provenance: 9418e96bab0b14b0a22a07acf7831299051c7c1db0a18b4710c5100056334f2d
+
+[IMAGE]
+Status: UNAVAILABLE
+Missingness reason: M1 frozen AAPL IMAGE policy
+=== END FINMULTITIME EVIDENCE ===

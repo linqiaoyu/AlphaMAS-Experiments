@@ -1,0 +1,40 @@
+=== FINMULTITIME EVIDENCE ===
+Symbol: AEMD
+Decision session: 2023-07-21
+
+[TEXT]
+Status: UNAVAILABLE
+Missingness reason: no PIT-safe article inside fixed 30-calendar-day lookback
+
+[TABLE]
+Status: AVAILABLE
+Source: financial_reports/aemd/condensed_consolidated_balance_sheets.json;financial_reports/aemd/condensed_consolidated_statement_of_cash_flows.json
+Assets: value=17508940; unit=USD; form=10-K; fy=2023; fp=FY; period_start=; period_end=2023-03-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-06-28; accession=0001683168-23-004487; provenance=5e4e687345720625744705b7b5880140a918a894db75410a7c7bc79ee8edeb28
+Liabilities: value=2444731; unit=USD; form=10-K; fy=2023; fp=FY; period_start=; period_end=2023-03-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-06-28; accession=0001683168-23-004487; provenance=608616208ff3ee2b4c4791bd636ad1404cdf6b689745db61de187da4a7831876
+StockholdersEquity: value=15064209; unit=USD; form=10-K; fy=2023; fp=FY; period_start=; period_end=2023-03-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-06-28; accession=0001683168-23-004487; provenance=1439cd09df334c735d26a3a72ce010ef95f49f05609a2f93109037bd95736e96
+NetCashProvidedByUsedInOperatingActivities: value=-10505128; unit=USD; form=10-K; fy=2023; fp=FY; period_start=2022-04-01; period_end=2023-03-31; period_duration_days=365; period_duration_class=annual; filed_date=2023-06-28; accession=0001683168-23-004487; provenance=5a19201ee2d6ce8983263db2f5d7c719e84e4f147558d39a0559dca5c4b4bc72
+NetCashProvidedByUsedInInvestingActivities: value=-943109; unit=USD; form=10-K; fy=2023; fp=FY; period_start=2022-04-01; period_end=2023-03-31; period_duration_days=365; period_duration_class=annual; filed_date=2023-06-28; accession=0001683168-23-004487; provenance=192de9ff43b75d728ad2040e8e7be185e97d5ba31774ce1e72f4bbada994e521
+NetCashProvidedByUsedInFinancingActivities: value=8914718; unit=USD; form=10-K; fy=2023; fp=FY; period_start=2022-04-01; period_end=2023-03-31; period_duration_days=365; period_duration_class=annual; filed_date=2023-06-28; accession=0001683168-23-004487; provenance=42e84eafa55f7d1c99b0757c558e747ee8e5c2b554611f7e9aa30b33d8c0ddd2
+
+[TIME_SERIES]
+Status: AVAILABLE
+Through session: 2023-07-21
+Source: S&P500_time_series/aemd.csv
+cumulative_return_5d: -0.15909091647991447
+cumulative_return_20d: -0.026315764707210976
+cumulative_return_60d: -0.17777776718139648
+realised_volatility_20d_annualised: 1.1797437893852853
+high_low_range_20d: 0.5151515370448652
+drawdown_from_60d_peak: -0.17777776718139648
+relative_volume_vs_20d_mean: 0.30428111094061683
+Provenance: ec09904a39dda3900ed7c965f74f0c1b0b063dc9539e0151ef98f6c9f96de034
+
+[IMAGE]
+Status: AVAILABLE
+Chart period: 2023-H1
+Inferred period end: 2023-06-30
+Evidence age (calendar days): 21
+Source: aemd_2023_H1_candlestick.png
+Canonical caption: {"candlestick_structure":"mostly green and red, with some green and red in the middle","confidence":"moderate","momentum_visual":"mixed, with periods of strong momentum","notable_gap_or_reversal":"a significant gap in early February, followed by a reversal","other_visible_pattern":"no clear pattern beyond the candlestick structure","support_resistance_visual":"support around 3.5, resistance around 7.5","trend":"upward then downward then upward","volatility_visual":"high volatility in early months, then moderate","volume_visual":"not visible"}
+Caption provenance: b638f57299c3f410de69e813f60248638dcbe533a3b86c1f1a2b84fed22e78f3
+=== END FINMULTITIME EVIDENCE ===

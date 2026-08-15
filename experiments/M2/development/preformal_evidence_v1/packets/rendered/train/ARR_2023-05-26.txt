@@ -1,0 +1,46 @@
+=== FINMULTITIME EVIDENCE ===
+Symbol: ARR
+Decision session: 2023-05-26
+
+[TEXT]
+Status: AVAILABLE
+Evidence age (calendar days): 23
+Source: sp500_news/ARR.jsonl
+Article 1 date: 2023-05-03
+Article 1 title: These 10%+ Yields are Mystery Meats - Avoid!
+Article 1 source: https://www.nasdaq.com/articles/these-10-yields-are-mystery-meats-avoid
+Article 1 text: Hey kid, want some candy? Don't worry about the wrapper. It, um, came like that. No? No candy for you? You're sure? OK fine. Maybe you're not hungry, but how about this 31% dividend? Don't worry. The stock made its last dividend payment of $0.27 just fine. No? No 31% yield for you? You're sure? OK fine. And, honestly, smart move. I would imagine that January dividend payment is the last one we ever see from First Republic Bank (FRC). Fundamentally, FRC (and other banks, for this matter) are flawed, perhaps fatally so. They are not paying competitive rates. Check out this screenshot I took from FRC's website last Friday--just prior to the fire sale to JPMorgan Chase (JPM):  Wow, what a deal. We can open a savings account with a bank that is about to fail and receive a 1.29% interest rate. One point two nine percent. In a five percent world! The rates for big opening deposits of $500,000 …
+Article 1 provenance: 31a0b53e9c8472220db09960fab00bac22b34ad8d2c501f3a619d2b156cb5b13
+
+[TABLE]
+Status: AVAILABLE
+Source: financial_reports/arr/condensed_consolidated_balance_sheets.json;financial_reports/arr/condensed_consolidated_statement_of_cash_flows.json
+Assets: value=13249330000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-03-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-04-26; accession=0001428205-23-000094; provenance=d9876d0625bd81bc8b096eb444627d97a6ea2dd1d1db4bf138e5c02fa6260069
+Liabilities: value=12034197000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-03-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-04-26; accession=0001428205-23-000094; provenance=892363c383c9b9266098bfb4311d1a39292b85132d943469debdab9745e84347
+StockholdersEquity: value=1215133000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-03-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-04-26; accession=0001428205-23-000094; provenance=54811cb1b8cd733ab26ec5f12e414b61ac3d9652683c331be21abd5f9c575ede
+NetCashProvidedByUsedInOperatingActivities: value=54219000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-03-31; period_duration_days=90; period_duration_class=quarterly; filed_date=2023-04-26; accession=0001428205-23-000094; provenance=256fea318186a4526c7085f89639c0101d8a1ab1e9f60e5f4a465e048749bb27
+NetCashProvidedByUsedInInvestingActivities: value=-3926462000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-03-31; period_duration_days=90; period_duration_class=quarterly; filed_date=2023-04-26; accession=0001428205-23-000094; provenance=3c8588cd3125a69f5ed41da8d4385c6db7585772b33f40c07586852b908b23e3
+NetCashProvidedByUsedInFinancingActivities: value=4013480000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-03-31; period_duration_days=90; period_duration_class=quarterly; filed_date=2023-04-26; accession=0001428205-23-000094; provenance=c80d16da5be47d02e606cde85f06c3592da9d7aca5b4a25d7e32b8622b94d70d
+
+[TIME_SERIES]
+Status: AVAILABLE
+Through session: 2023-05-26
+Source: S&P500_time_series/arr.csv
+cumulative_return_5d: -0.008298897600394817
+cumulative_return_20d: -0.04774911197958609
+cumulative_return_60d: -0.043910456107737694
+realised_volatility_20d_annualised: 0.316501110080979
+high_low_range_20d: 0.1380414390389244
+drawdown_from_60d_peak: -0.08163362290189513
+relative_volume_vs_20d_mean: 1.0813293994294213
+Provenance: dfc07a358857e0586c3e7e40d0d42026fc66bd246456eb56d97988dec5835727
+
+[IMAGE]
+Status: AVAILABLE
+Chart period: 2022-H2
+Inferred period end: 2022-12-31
+Evidence age (calendar days): 146
+Source: arr_2022_H2_candlestick.png
+Canonical caption: {"candlestick_structure":"mostly green and red, with some green and red","confidence":"moderate","momentum_visual":"generally increasing then decreasing then increasing","notable_gap_or_reversal":"no significant gap or reversal","other_visible_pattern":"no other visible patterns","support_resistance_visual":"no clear support or resistance levels","trend":"upward then downward then upward","volatility_visual":"high volatility in early months, then decreasing","volume_visual":"no visible volume data"}
+Caption provenance: ecf45749d268e52ffcee3551fcd42727ba55ef9b389bbb4a1bde8859d1f940f6
+=== END FINMULTITIME EVIDENCE ===

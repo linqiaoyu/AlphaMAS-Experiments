@@ -1,0 +1,227 @@
+{
+  "IMAGE": {
+    "canonical_caption": {
+      "candlestick_structure": "mostly green and red",
+      "confidence": "high",
+      "momentum_visual": "increasing",
+      "notable_gap_or_reversal": "none",
+      "other_visible_pattern": "none",
+      "support_resistance_visual": "none",
+      "trend": "upward",
+      "volatility_visual": "moderate",
+      "volume_visual": "none"
+    },
+    "caption_sha256": "131c2904cd82c850f94b00cc58e2b97b2ef69c7e805fa562ef2c8f2e00a568fe",
+    "caption_source": "NEW_QWEN_M2_06",
+    "caption_status": "GENERATED",
+    "chart_period": "2022-H2",
+    "evidence_age_calendar_days": 181,
+    "image_sha256": "fb4f6e3b146397e577983c29f78d45bffa4ad21c661752075ce9edcec40172c9",
+    "inferred_period_end": "2022-12-31",
+    "provenance_hash_reference": "131c2904cd82c850f94b00cc58e2b97b2ef69c7e805fa562ef2c8f2e00a568fe",
+    "reason": "",
+    "source_identity": "agi_2022_H2_candlestick.png",
+    "status": "AVAILABLE"
+  },
+  "TABLE": {
+    "facts": {
+      "Assets": {
+        "reason": "no canonical PIT-safe selected fact",
+        "status": "UNAVAILABLE"
+      },
+      "Liabilities": {
+        "reason": "no canonical PIT-safe selected fact",
+        "status": "UNAVAILABLE"
+      },
+      "NetCashProvidedByUsedInFinancingActivities": {
+        "reason": "no canonical PIT-safe selected fact",
+        "status": "UNAVAILABLE"
+      },
+      "NetCashProvidedByUsedInInvestingActivities": {
+        "reason": "no canonical PIT-safe selected fact",
+        "status": "UNAVAILABLE"
+      },
+      "NetCashProvidedByUsedInOperatingActivities": {
+        "reason": "no canonical PIT-safe selected fact",
+        "status": "UNAVAILABLE"
+      },
+      "StockholdersEquity": {
+        "reason": "no canonical PIT-safe selected fact",
+        "status": "UNAVAILABLE"
+      }
+    },
+    "provenance_hash_reference": "31ed97d48e36ee55b3b17701feea5389c90606b5d1870f8cbaf95d6d468f5ad9",
+    "reason": "no PIT-safe canonical fact for one or more concepts",
+    "selection_rule": "frozen six-concept TABLE selection; filed_date < decision session",
+    "source_identity": "",
+    "status": "UNAVAILABLE"
+  },
+  "TEXT": {
+    "evidence_age_calendar_days": 3,
+    "provenance_hash_reference": "44187cda26f137162904e6a346943142091f9c33589736e80315619c80d37569",
+    "reason": "",
+    "records": [
+      {
+        "article_date": "2023-06-27",
+        "body": "In trading on Tuesday, shares of Alamos Gold Inc (Symbol: AGI) entered into oversold territory, changing hands as low as $11.41 per share. We define oversold territory using the Relative Strength Index, or RSI, which is a technical analysis indicator used to measure momentum on a scale of zero to 100. A stock is considered to be oversold if the RSI reading falls below 30. In the case of Alamos Gold Inc, the RSI reading has hit 29.8 — by comparison, the universe of metals and mining stocks covered by Metals Channel currently has an average RSI of 45.0, the RSI of Spot Gold is at 6.2, and the RSI of Spot Silver is presently 14.9. A bullish investor could look at AGI's 29.8 reading as a sign that the recent heavy selling is in the process of exhausting itself, and begin to look for entry point opportunities on the buy side. Looking at a chart of one year performance (below), AGI's low poin…",
+        "provenance_hash_reference": "383f94fccdc78f3893e10ba4f5c6364ceb880af303df2648f9d6b850cdc0fe8c",
+        "source": "https://www.nasdaq.com/articles/agi-stock-crowded-with-sellers-0",
+        "title": "AGI Stock Crowded With Sellers"
+      },
+      {
+        "article_date": "2023-06-13",
+        "body": "Alamos Gold Inc. (NYSE: AGI) is forming a bullish consolidation below an early May high of $14.12. For the past three weeks, shares have closed in a tight range, with week-ending prices ending less than one percentage point from the previous week.  That kind of narrow range can signal confidence among investors as they hold shares at a certain level. You also want to see muted trading volume as a stock trades in a tight range, and that’s exactly what’s been happening with Alamos Gold. This price action can be a precursor to gains, as investors sit patiently and hold their shares.  A Safe-Haven Rally Gold stocks began rallying in March, as precious metals were perceived as a safe haven from the banking crisis. The SPDR Gold Shares ETF (NYSEARCE: GLD) returned 7.92% in March, although it, too, began correcting in May. Alamos’ current base could mean the stock will offer a potential entry …",
+        "provenance_hash_reference": "399fb7f84f32612ec2855e4deae6a7f80b97f8626e35a4749de24798349bc897",
+        "source": "https://www.nasdaq.com/articles/alamos-gold-in-tight-trading-range-sets-up-for-potential-gains",
+        "title": "Alamos Gold In Tight Trading Range, Sets Up For Potential Gains"
+      },
+      {
+        "article_date": "2023-06-12",
+        "body": "Looking at the universe of stocks we cover at Dividend Channel, on 6/14/23, Installed Building Products Inc (Symbol: IBP), Alamos Gold Inc (Symbol: AGI), and Eastman Chemical Co (Symbol: EMN) will all trade ex-dividend for their respective upcoming dividends. Installed Building Products Inc will pay its quarterly dividend of $0.33 on 6/30/23, Alamos Gold Inc will pay its quarterly dividend of $0.025 on 6/29/23, and Eastman Chemical Co will pay its quarterly dividend of $0.79 on 7/7/23. As a percentage of IBP's recent stock price of $116.73, this dividend works out to approximately 0.28%, so look for shares of Installed Building Products Inc to trade 0.28% lower — all else being equal — when IBP shares open for trading on 6/14/23. Similarly, investors should look for AGI to open 0.20% lower in price and for EMN to open 0.98% lower, all else being equal. Below are dividend history charts …",
+        "provenance_hash_reference": "5351d3304f1a46db33c64a0c37258ad2b730ffc3a3aaeb62446f2b3570381ca2",
+        "source": "https://www.nasdaq.com/articles/ex-dividend-reminder%3A-installed-building-products-alamos-gold-and-eastman-chemical",
+        "title": "Ex-Dividend Reminder: Installed Building Products, Alamos Gold and Eastman Chemical"
+      },
+      {
+        "article_date": "2023-06-08",
+        "body": "MANILA, June 9 (Reuters) - The Philippine unit of Hong Kong's LET Group Holdings 1383.HK, formerly junket operator Suncity, is securing a bank loan of up to 25 billion pesos ($446 million) to fund a megacasino in the capital Manila, the firm told the stock exchange on Friday. The unit, Suntrust Resort Holdings SUN.PS, has signed a loan facility agreement with China Banking Corp CHIB.PS that will allow LET Group to complete and start operations of a $2 billion integrated casino-resort next year, a source with direct knowledge of the transaction told Reuters. The Philippines boasts of one of the most freewheeling casino industries in Asia, where many countries outlaw gambling. LET Group's casino project, in partnership with domestic conglomerate Alliance Global Group Inc AGI.PS, will be one of five major casinos in Manila and the fourth billion-dollar complex to operate in Entertainment C…",
+        "provenance_hash_reference": "b79812e7ae2b87879256f3707e44f2faa6836f05df4490b4e5faad67fee89665",
+        "source": "https://www.nasdaq.com/articles/hong-kongs-let-group-securing-%24446-mln-loan-for-philippine-casino",
+        "title": "Hong Kong's LET Group securing $446 mln loan for Philippine casino"
+      },
+      {
+        "article_date": "2023-06-06",
+        "body": "Alamos Gold Inc. - said on June 5, 2023 that its board of directors declared a regular quarterly dividend of $0.02 per share ($0.10 annualized). Previously, the company paid $0.02 per share. Shares must be purchased before the ex-div date of June 14, 2023 to qualify for the dividend. Shareholders of record as of June 15, 2023 will receive the payment on June 29, 2023. At the current share price of $12.35 / share, the stock's dividend yield is 0.81%. Looking back five years and taking a sample every week, the average dividend yield has been 1.03%, the lowest has been 0.33%, and the highest has been 2.40%. The standard deviation of yields is 0.43 (n=237). The current dividend yield is 0.51 standard deviations below the historical average. Additionally, the company's dividend payout ratio is 0.42. The payout ratio tells us how much of a company's income is paid out in dividends. A payout r…",
+        "provenance_hash_reference": "93a0d9f3e1fb7b7073bc220db251ef7b352c60e9ddb1d59a824691cece67b403",
+        "source": "https://www.nasdaq.com/articles/alamos-gold-inc.-agi-declares-%240.02-dividend",
+        "title": "Alamos Gold Inc. - (AGI) Declares $0.02 Dividend"
+      },
+      {
+        "article_date": "2023-06-05",
+        "body": "For Immediate Release Chicago, IL – June 5, 2023 – Today, Zacks Equity Research discusses Franco-Nevada Corporation FNV, Gold Fields Limited GFI, AngloGold Ashanti AU and Alamos Gold AGI. Industry: Mining - Gold  Link to article: https://www.zacks.com/commentary/2103224/4-gold-stocks-to-watch-in-a-promising-industry?art_rec=home-home-investment_ideas_stocks-ID04-txt-2103224 The prospects for the Zacks Mining - Gold industry look bright at the moment on the back of improving gold prices. The yellow metal has been gaining this year on safe-haven demand, fueled by the turmoil in the banking sector, ongoing geopolitical tensions and a challenging economic environment. With gold prices anticipated to gain further on demand-supply imbalance, companies like Franco-Nevada Corporation, Gold Fields Limited, AngloGold Ashantiand Alamos Gold are well-poised for growth, backed by their strong balanc…",
+        "provenance_hash_reference": "31f9477a5ba90637f27fa170aad0e43df201e87795c31ecf3ea7304035da28e5",
+        "source": "https://www.nasdaq.com/articles/zacks-industry-outlook-highlights-franco-nevada-corporation-gold-fields-limited-anglogold",
+        "title": "Zacks Industry Outlook Highlights Franco-Nevada Corporation, Gold Fields Limited, AngloGold Ashanti and Alamos Gold"
+      },
+      {
+        "article_date": "2023-06-02",
+        "body": "The prospects for the Zacks Mining - Gold industry look bright at the moment on the back of improving gold prices. The yellow metal has been gaining this year on safe-haven demand, fueled by the turmoil in the banking sector, ongoing geopolitical tensions and a challenging economic environment.  With gold prices anticipated to gain further on demand-supply imbalance, companies like Franco-Nevada Corporation FNV, Gold Fields Limited GFI, AngloGold Ashanti AU and Alamos Gold AGI are well-poised for growth, backed by their strong balance sheets, efforts to lower costs and growth initiatives. About the Industry The Zacks Mining - Gold industry mainly comprises companies engaged in extracting gold from mines. The mines may either be underground or open pits. Mining is a long and complex process, and requires significant financial resources. It involves exploration to evaluate a deposit's siz…",
+        "provenance_hash_reference": "0973c85ebe7b138c4b44df5b3bb0a57d2e161d3e04c8d2142e64bc5000ac0284",
+        "source": "https://www.nasdaq.com/articles/4-gold-stocks-to-watch-in-a-promising-industry-0",
+        "title": "4 Gold Stocks to Watch in a Promising Industry"
+      },
+      {
+        "article_date": "2023-06-02",
+        "body": "Investors interested in Basic Materials stocks should always be looking to find the best-performing companies in the group. Alamos Gold (AGI) is a stock that can certainly grab the attention of many investors, but do its recent returns compare favorably to the sector as a whole? A quick glance at the company's year-to-date performance in comparison to the rest of the Basic Materials sector should help us answer this question. Alamos Gold is a member of our Basic Materials group, which includes 236 different companies and currently sits at #13 in the Zacks Sector Rank. The Zacks Sector Rank considers 16 different sector groups. The average Zacks Rank of the individual stocks within the groups is measured, and the sectors are listed from best to worst. The Zacks Rank is a successful stock-picking model that emphasizes earnings estimates and estimate revisions. The system highlights a numb…",
+        "provenance_hash_reference": "89bcaa54316c784986205c2ae328a73980349b2113d3cfec99af10314285bb16",
+        "source": "https://www.nasdaq.com/articles/is-alamos-gold-agi-stock-outpacing-its-basic-materials-peers-this-year-0",
+        "title": "Is Alamos Gold (AGI) Stock Outpacing Its Basic Materials Peers This Year?"
+      }
+    ],
+    "selection_rule": "frozen bounded TEXT selection; Date < decision session; deterministic order",
+    "source_identity": "sp500_news/AGI.jsonl",
+    "status": "AVAILABLE"
+  },
+  "TIME_SERIES": {
+    "provenance_hash_reference": "01b98abfce0f3db3a569558720d3cb6301b306a057b86f1eb0ca9d16cb9cec34",
+    "reason": "",
+    "selection_rule": "frozen descriptive summaries from 61 completed source rows; session <= decision",
+    "source_identity": "S&P500_time_series/agi.csv",
+    "status": "AVAILABLE",
+    "summaries": {
+      "cumulative_return_20d": -0.049036567264565956,
+      "cumulative_return_5d": 0.017064893473573317,
+      "cumulative_return_60d": -0.07338241535340462,
+      "drawdown_from_60d_peak": -0.13573797784099462,
+      "high_low_range_20d": 0.13502916849059088,
+      "realised_volatility_20d_annualised": 0.27037441880863883,
+      "relative_volume_vs_20d_mean": 0.5054761399939065
+    },
+    "through_session": "2023-06-30"
+  },
+  "agent_text": "=== FINMULTITIME EVIDENCE ===\nSymbol: AGI\nDecision session: 2023-06-30\n\n[TEXT]\nStatus: AVAILABLE\nEvidence age (calendar days): 3\nSource: sp500_news/AGI.jsonl\nArticle 1 date: 2023-06-27\nArticle 1 title: AGI Stock Crowded With Sellers\nArticle 1 source: https://www.nasdaq.com/articles/agi-stock-crowded-with-sellers-0\nArticle 1 text: In trading on Tuesday, shares of Alamos Gold Inc (Symbol: AGI) entered into oversold territory, changing hands as low as $11.41 per share. We define oversold territory using the Relative Strength Index, or RSI, which is a technical analysis indicator used to measure momentum on a scale of zero to 100. A stock is considered to be oversold if the RSI reading falls below 30. In the case of Alamos Gold Inc, the RSI reading has hit 29.8 — by comparison, the universe of metals and mining stocks covered by Metals Channel currently has an average RSI of 45.0, the RSI of Spot Gold is at 6.2, and the RSI of Spot Silver is presently 14.9. A bullish investor could look at AGI's 29.8 reading as a sign that the recent heavy selling is in the process of exhausting itself, and begin to look for entry point opportunities on the buy side. Looking at a chart of one year performance (below), AGI's low poin…\nArticle 1 provenance: 383f94fccdc78f3893e10ba4f5c6364ceb880af303df2648f9d6b850cdc0fe8c\nArticle 2 date: 2023-06-13\nArticle 2 title: Alamos Gold In Tight Trading Range, Sets Up For Potential Gains\nArticle 2 source: https://www.nasdaq.com/articles/alamos-gold-in-tight-trading-range-sets-up-for-potential-gains\nArticle 2 text: Alamos Gold Inc. (NYSE: AGI) is forming a bullish consolidation below an early May high of $14.12. For the past three weeks, shares have closed in a tight range, with week-ending prices ending less than one percentage point from the previous week.  That kind of narrow range can signal confidence among investors as they hold shares at a certain level. You also want to see muted trading volume as a stock trades in a tight range, and that’s exactly what’s been happening with Alamos Gold. This price action can be a precursor to gains, as investors sit patiently and hold their shares.  A Safe-Haven Rally Gold stocks began rallying in March, as precious metals were perceived as a safe haven from the banking crisis. The SPDR Gold Shares ETF (NYSEARCE: GLD) returned 7.92% in March, although it, too, began correcting in May. Alamos’ current base could mean the stock will offer a potential entry …\nArticle 2 provenance: 399fb7f84f32612ec2855e4deae6a7f80b97f8626e35a4749de24798349bc897\nArticle 3 date: 2023-06-12\nArticle 3 title: Ex-Dividend Reminder: Installed Building Products, Alamos Gold and Eastman Chemical\nArticle 3 source: https://www.nasdaq.com/articles/ex-dividend-reminder%3A-installed-building-products-alamos-gold-and-eastman-chemical\nArticle 3 text: Looking at the universe of stocks we cover at Dividend Channel, on 6/14/23, Installed Building Products Inc (Symbol: IBP), Alamos Gold Inc (Symbol: AGI), and Eastman Chemical Co (Symbol: EMN) will all trade ex-dividend for their respective upcoming dividends. Installed Building Products Inc will pay its quarterly dividend of $0.33 on 6/30/23, Alamos Gold Inc will pay its quarterly dividend of $0.025 on 6/29/23, and Eastman Chemical Co will pay its quarterly dividend of $0.79 on 7/7/23. As a percentage of IBP's recent stock price of $116.73, this dividend works out to approximately 0.28%, so look for shares of Installed Building Products Inc to trade 0.28% lower — all else being equal — when IBP shares open for trading on 6/14/23. Similarly, investors should look for AGI to open 0.20% lower in price and for EMN to open 0.98% lower, all else being equal. Below are dividend history charts …\nArticle 3 provenance: 5351d3304f1a46db33c64a0c37258ad2b730ffc3a3aaeb62446f2b3570381ca2\nArticle 4 date: 2023-06-08\nArticle 4 title: Hong Kong's LET Group securing $446 mln loan for Philippine casino\nArticle 4 source: https://www.nasdaq.com/articles/hong-kongs-let-group-securing-%24446-mln-loan-for-philippine-casino\nArticle 4 text: MANILA, June 9 (Reuters) - The Philippine unit of Hong Kong's LET Group Holdings 1383.HK, formerly junket operator Suncity, is securing a bank loan of up to 25 billion pesos ($446 million) to fund a megacasino in the capital Manila, the firm told the stock exchange on Friday. The unit, Suntrust Resort Holdings SUN.PS, has signed a loan facility agreement with China Banking Corp CHIB.PS that will allow LET Group to complete and start operations of a $2 billion integrated casino-resort next year, a source with direct knowledge of the transaction told Reuters. The Philippines boasts of one of the most freewheeling casino industries in Asia, where many countries outlaw gambling. LET Group's casino project, in partnership with domestic conglomerate Alliance Global Group Inc AGI.PS, will be one of five major casinos in Manila and the fourth billion-dollar complex to operate in Entertainment C…\nArticle 4 provenance: b79812e7ae2b87879256f3707e44f2faa6836f05df4490b4e5faad67fee89665\nArticle 5 date: 2023-06-06\nArticle 5 title: Alamos Gold Inc. - (AGI) Declares $0.02 Dividend\nArticle 5 source: https://www.nasdaq.com/articles/alamos-gold-inc.-agi-declares-%240.02-dividend\nArticle 5 text: Alamos Gold Inc. - said on June 5, 2023 that its board of directors declared a regular quarterly dividend of $0.02 per share ($0.10 annualized). Previously, the company paid $0.02 per share. Shares must be purchased before the ex-div date of June 14, 2023 to qualify for the dividend. Shareholders of record as of June 15, 2023 will receive the payment on June 29, 2023. At the current share price of $12.35 / share, the stock's dividend yield is 0.81%. Looking back five years and taking a sample every week, the average dividend yield has been 1.03%, the lowest has been 0.33%, and the highest has been 2.40%. The standard deviation of yields is 0.43 (n=237). The current dividend yield is 0.51 standard deviations below the historical average. Additionally, the company's dividend payout ratio is 0.42. The payout ratio tells us how much of a company's income is paid out in dividends. A payout r…\nArticle 5 provenance: 93a0d9f3e1fb7b7073bc220db251ef7b352c60e9ddb1d59a824691cece67b403\nArticle 6 date: 2023-06-05\nArticle 6 title: Zacks Industry Outlook Highlights Franco-Nevada Corporation, Gold Fields Limited, AngloGold Ashanti and Alamos Gold\nArticle 6 source: https://www.nasdaq.com/articles/zacks-industry-outlook-highlights-franco-nevada-corporation-gold-fields-limited-anglogold\nArticle 6 text: For Immediate Release Chicago, IL – June 5, 2023 – Today, Zacks Equity Research discusses Franco-Nevada Corporation FNV, Gold Fields Limited GFI, AngloGold Ashanti AU and Alamos Gold AGI. Industry: Mining - Gold  Link to article: https://www.zacks.com/commentary/2103224/4-gold-stocks-to-watch-in-a-promising-industry?art_rec=home-home-investment_ideas_stocks-ID04-txt-2103224 The prospects for the Zacks Mining - Gold industry look bright at the moment on the back of improving gold prices. The yellow metal has been gaining this year on safe-haven demand, fueled by the turmoil in the banking sector, ongoing geopolitical tensions and a challenging economic environment. With gold prices anticipated to gain further on demand-supply imbalance, companies like Franco-Nevada Corporation, Gold Fields Limited, AngloGold Ashantiand Alamos Gold are well-poised for growth, backed by their strong balanc…\nArticle 6 provenance: 31f9477a5ba90637f27fa170aad0e43df201e87795c31ecf3ea7304035da28e5\nArticle 7 date: 2023-06-02\nArticle 7 title: 4 Gold Stocks to Watch in a Promising Industry\nArticle 7 source: https://www.nasdaq.com/articles/4-gold-stocks-to-watch-in-a-promising-industry-0\nArticle 7 text: The prospects for the Zacks Mining - Gold industry look bright at the moment on the back of improving gold prices. The yellow metal has been gaining this year on safe-haven demand, fueled by the turmoil in the banking sector, ongoing geopolitical tensions and a challenging economic environment.  With gold prices anticipated to gain further on demand-supply imbalance, companies like Franco-Nevada Corporation FNV, Gold Fields Limited GFI, AngloGold Ashanti AU and Alamos Gold AGI are well-poised for growth, backed by their strong balance sheets, efforts to lower costs and growth initiatives. About the Industry The Zacks Mining - Gold industry mainly comprises companies engaged in extracting gold from mines. The mines may either be underground or open pits. Mining is a long and complex process, and requires significant financial resources. It involves exploration to evaluate a deposit's siz…\nArticle 7 provenance: 0973c85ebe7b138c4b44df5b3bb0a57d2e161d3e04c8d2142e64bc5000ac0284\nArticle 8 date: 2023-06-02\nArticle 8 title: Is Alamos Gold (AGI) Stock Outpacing Its Basic Materials Peers This Year?\nArticle 8 source: https://www.nasdaq.com/articles/is-alamos-gold-agi-stock-outpacing-its-basic-materials-peers-this-year-0\nArticle 8 text: Investors interested in Basic Materials stocks should always be looking to find the best-performing companies in the group. Alamos Gold (AGI) is a stock that can certainly grab the attention of many investors, but do its recent returns compare favorably to the sector as a whole? A quick glance at the company's year-to-date performance in comparison to the rest of the Basic Materials sector should help us answer this question. Alamos Gold is a member of our Basic Materials group, which includes 236 different companies and currently sits at #13 in the Zacks Sector Rank. The Zacks Sector Rank considers 16 different sector groups. The average Zacks Rank of the individual stocks within the groups is measured, and the sectors are listed from best to worst. The Zacks Rank is a successful stock-picking model that emphasizes earnings estimates and estimate revisions. The system highlights a numb…\nArticle 8 provenance: 89bcaa54316c784986205c2ae328a73980349b2113d3cfec99af10314285bb16\n\n[TABLE]\nStatus: UNAVAILABLE\nMissingness reason: no PIT-safe canonical fact for one or more concepts\nSource: \nAssets: UNAVAILABLE\nLiabilities: UNAVAILABLE\nStockholdersEquity: UNAVAILABLE\nNetCashProvidedByUsedInOperatingActivities: UNAVAILABLE\nNetCashProvidedByUsedInInvestingActivities: UNAVAILABLE\nNetCashProvidedByUsedInFinancingActivities: UNAVAILABLE\n\n[TIME_SERIES]\nStatus: AVAILABLE\nThrough session: 2023-06-30\nSource: S&P500_time_series/agi.csv\ncumulative_return_5d: 0.017064893473573317\ncumulative_return_20d: -0.049036567264565956\ncumulative_return_60d: -0.07338241535340462\nrealised_volatility_20d_annualised: 0.27037441880863883\nhigh_low_range_20d: 0.13502916849059088\ndrawdown_from_60d_peak: -0.13573797784099462\nrelative_volume_vs_20d_mean: 0.5054761399939065\nProvenance: 01b98abfce0f3db3a569558720d3cb6301b306a057b86f1eb0ca9d16cb9cec34\n\n[IMAGE]\nStatus: AVAILABLE\nChart period: 2022-H2\nInferred period end: 2022-12-31\nEvidence age (calendar days): 181\nSource: agi_2022_H2_candlestick.png\nCanonical caption: {\"candlestick_structure\":\"mostly green and red\",\"confidence\":\"high\",\"momentum_visual\":\"increasing\",\"notable_gap_or_reversal\":\"none\",\"other_visible_pattern\":\"none\",\"support_resistance_visual\":\"none\",\"trend\":\"upward\",\"volatility_visual\":\"moderate\",\"volume_visual\":\"none\"}\nCaption provenance: 131c2904cd82c850f94b00cc58e2b97b2ef69c7e805fa562ef2c8f2e00a568fe\n=== END FINMULTITIME EVIDENCE ===\n",
+  "available_for_training": false,
+  "available_for_validation": true,
+  "case_id": "AGI:2023-06-30",
+  "character_counts": {
+    "complete": 11390,
+    "fundamentals": 345,
+    "market": 995,
+    "news": 9902
+  },
+  "contract_version": "M1-FINMULTITIME-v1.0.2",
+  "dataset_id": "m2_preformal_evidence_v1",
+  "decision_session": "2023-06-30",
+  "decision_time": "2023-06-30T20:00:00+00:00",
+  "engineering_only": false,
+  "m2_metadata": {
+    "available_for_training": false,
+    "available_for_validation": true,
+    "engineering_only": false,
+    "performance_for_selection": false,
+    "protected": false,
+    "role": "VALIDATION",
+    "tier_membership": {
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    }
+  },
+  "packet_sha256": "668612d5d1c7bb63c410021d33ca51f5104432bf7e0162bd628d481f94cef4a8",
+  "packet_status": "FINAL_FROZEN",
+  "performance_for_selection": false,
+  "protected": false,
+  "record_type": "m1_finmultitime_evidence_packet",
+  "role": "VALIDATION",
+  "routed_projections": {
+    "fundamentals_analyst": {
+      "sections": [
+        "TABLE"
+      ],
+      "text": "Status: UNAVAILABLE\nMissingness reason: no PIT-safe canonical fact for one or more concepts\nSource: \nAssets: UNAVAILABLE\nLiabilities: UNAVAILABLE\nStockholdersEquity: UNAVAILABLE\nNetCashProvidedByUsedInOperatingActivities: UNAVAILABLE\nNetCashProvidedByUsedInInvestingActivities: UNAVAILABLE\nNetCashProvidedByUsedInFinancingActivities: UNAVAILABLE"
+    },
+    "market_analyst": {
+      "sections": [
+        "TIME_SERIES",
+        "IMAGE"
+      ],
+      "text": "Status: AVAILABLE\nThrough session: 2023-06-30\nSource: S&P500_time_series/agi.csv\ncumulative_return_5d: 0.017064893473573317\ncumulative_return_20d: -0.049036567264565956\ncumulative_return_60d: -0.07338241535340462\nrealised_volatility_20d_annualised: 0.27037441880863883\nhigh_low_range_20d: 0.13502916849059088\ndrawdown_from_60d_peak: -0.13573797784099462\nrelative_volume_vs_20d_mean: 0.5054761399939065\nProvenance: 01b98abfce0f3db3a569558720d3cb6301b306a057b86f1eb0ca9d16cb9cec34\n\nStatus: AVAILABLE\nChart period: 2022-H2\nInferred period end: 2022-12-31\nEvidence age (calendar days): 181\nSource: agi_2022_H2_candlestick.png\nCanonical caption: {\"candlestick_structure\":\"mostly green and red\",\"confidence\":\"high\",\"momentum_visual\":\"increasing\",\"notable_gap_or_reversal\":\"none\",\"other_visible_pattern\":\"none\",\"support_resistance_visual\":\"none\",\"trend\":\"upward\",\"volatility_visual\":\"moderate\",\"volume_visual\":\"none\"}\nCaption provenance: 131c2904cd82c850f94b00cc58e2b97b2ef69c7e805fa562ef2c8f2e00a568fe"
+    },
+    "news_analyst": {
+      "sections": [
+        "TEXT"
+      ],
+      "text": "Status: AVAILABLE\nEvidence age (calendar days): 3\nSource: sp500_news/AGI.jsonl\nArticle 1 date: 2023-06-27\nArticle 1 title: AGI Stock Crowded With Sellers\nArticle 1 source: https://www.nasdaq.com/articles/agi-stock-crowded-with-sellers-0\nArticle 1 text: In trading on Tuesday, shares of Alamos Gold Inc (Symbol: AGI) entered into oversold territory, changing hands as low as $11.41 per share. We define oversold territory using the Relative Strength Index, or RSI, which is a technical analysis indicator used to measure momentum on a scale of zero to 100. A stock is considered to be oversold if the RSI reading falls below 30. In the case of Alamos Gold Inc, the RSI reading has hit 29.8 — by comparison, the universe of metals and mining stocks covered by Metals Channel currently has an average RSI of 45.0, the RSI of Spot Gold is at 6.2, and the RSI of Spot Silver is presently 14.9. A bullish investor could look at AGI's 29.8 reading as a sign that the recent heavy selling is in the process of exhausting itself, and begin to look for entry point opportunities on the buy side. Looking at a chart of one year performance (below), AGI's low poin…\nArticle 1 provenance: 383f94fccdc78f3893e10ba4f5c6364ceb880af303df2648f9d6b850cdc0fe8c\nArticle 2 date: 2023-06-13\nArticle 2 title: Alamos Gold In Tight Trading Range, Sets Up For Potential Gains\nArticle 2 source: https://www.nasdaq.com/articles/alamos-gold-in-tight-trading-range-sets-up-for-potential-gains\nArticle 2 text: Alamos Gold Inc. (NYSE: AGI) is forming a bullish consolidation below an early May high of $14.12. For the past three weeks, shares have closed in a tight range, with week-ending prices ending less than one percentage point from the previous week.  That kind of narrow range can signal confidence among investors as they hold shares at a certain level. You also want to see muted trading volume as a stock trades in a tight range, and that’s exactly what’s been happening with Alamos Gold. This price action can be a precursor to gains, as investors sit patiently and hold their shares.  A Safe-Haven Rally Gold stocks began rallying in March, as precious metals were perceived as a safe haven from the banking crisis. The SPDR Gold Shares ETF (NYSEARCE: GLD) returned 7.92% in March, although it, too, began correcting in May. Alamos’ current base could mean the stock will offer a potential entry …\nArticle 2 provenance: 399fb7f84f32612ec2855e4deae6a7f80b97f8626e35a4749de24798349bc897\nArticle 3 date: 2023-06-12\nArticle 3 title: Ex-Dividend Reminder: Installed Building Products, Alamos Gold and Eastman Chemical\nArticle 3 source: https://www.nasdaq.com/articles/ex-dividend-reminder%3A-installed-building-products-alamos-gold-and-eastman-chemical\nArticle 3 text: Looking at the universe of stocks we cover at Dividend Channel, on 6/14/23, Installed Building Products Inc (Symbol: IBP), Alamos Gold Inc (Symbol: AGI), and Eastman Chemical Co (Symbol: EMN) will all trade ex-dividend for their respective upcoming dividends. Installed Building Products Inc will pay its quarterly dividend of $0.33 on 6/30/23, Alamos Gold Inc will pay its quarterly dividend of $0.025 on 6/29/23, and Eastman Chemical Co will pay its quarterly dividend of $0.79 on 7/7/23. As a percentage of IBP's recent stock price of $116.73, this dividend works out to approximately 0.28%, so look for shares of Installed Building Products Inc to trade 0.28% lower — all else being equal — when IBP shares open for trading on 6/14/23. Similarly, investors should look for AGI to open 0.20% lower in price and for EMN to open 0.98% lower, all else being equal. Below are dividend history charts …\nArticle 3 provenance: 5351d3304f1a46db33c64a0c37258ad2b730ffc3a3aaeb62446f2b3570381ca2\nArticle 4 date: 2023-06-08\nArticle 4 title: Hong Kong's LET Group securing $446 mln loan for Philippine casino\nArticle 4 source: https://www.nasdaq.com/articles/hong-kongs-let-group-securing-%24446-mln-loan-for-philippine-casino\nArticle 4 text: MANILA, June 9 (Reuters) - The Philippine unit of Hong Kong's LET Group Holdings 1383.HK, formerly junket operator Suncity, is securing a bank loan of up to 25 billion pesos ($446 million) to fund a megacasino in the capital Manila, the firm told the stock exchange on Friday. The unit, Suntrust Resort Holdings SUN.PS, has signed a loan facility agreement with China Banking Corp CHIB.PS that will allow LET Group to complete and start operations of a $2 billion integrated casino-resort next year, a source with direct knowledge of the transaction told Reuters. The Philippines boasts of one of the most freewheeling casino industries in Asia, where many countries outlaw gambling. LET Group's casino project, in partnership with domestic conglomerate Alliance Global Group Inc AGI.PS, will be one of five major casinos in Manila and the fourth billion-dollar complex to operate in Entertainment C…\nArticle 4 provenance: b79812e7ae2b87879256f3707e44f2faa6836f05df4490b4e5faad67fee89665\nArticle 5 date: 2023-06-06\nArticle 5 title: Alamos Gold Inc. - (AGI) Declares $0.02 Dividend\nArticle 5 source: https://www.nasdaq.com/articles/alamos-gold-inc.-agi-declares-%240.02-dividend\nArticle 5 text: Alamos Gold Inc. - said on June 5, 2023 that its board of directors declared a regular quarterly dividend of $0.02 per share ($0.10 annualized). Previously, the company paid $0.02 per share. Shares must be purchased before the ex-div date of June 14, 2023 to qualify for the dividend. Shareholders of record as of June 15, 2023 will receive the payment on June 29, 2023. At the current share price of $12.35 / share, the stock's dividend yield is 0.81%. Looking back five years and taking a sample every week, the average dividend yield has been 1.03%, the lowest has been 0.33%, and the highest has been 2.40%. The standard deviation of yields is 0.43 (n=237). The current dividend yield is 0.51 standard deviations below the historical average. Additionally, the company's dividend payout ratio is 0.42. The payout ratio tells us how much of a company's income is paid out in dividends. A payout r…\nArticle 5 provenance: 93a0d9f3e1fb7b7073bc220db251ef7b352c60e9ddb1d59a824691cece67b403\nArticle 6 date: 2023-06-05\nArticle 6 title: Zacks Industry Outlook Highlights Franco-Nevada Corporation, Gold Fields Limited, AngloGold Ashanti and Alamos Gold\nArticle 6 source: https://www.nasdaq.com/articles/zacks-industry-outlook-highlights-franco-nevada-corporation-gold-fields-limited-anglogold\nArticle 6 text: For Immediate Release Chicago, IL – June 5, 2023 – Today, Zacks Equity Research discusses Franco-Nevada Corporation FNV, Gold Fields Limited GFI, AngloGold Ashanti AU and Alamos Gold AGI. Industry: Mining - Gold  Link to article: https://www.zacks.com/commentary/2103224/4-gold-stocks-to-watch-in-a-promising-industry?art_rec=home-home-investment_ideas_stocks-ID04-txt-2103224 The prospects for the Zacks Mining - Gold industry look bright at the moment on the back of improving gold prices. The yellow metal has been gaining this year on safe-haven demand, fueled by the turmoil in the banking sector, ongoing geopolitical tensions and a challenging economic environment. With gold prices anticipated to gain further on demand-supply imbalance, companies like Franco-Nevada Corporation, Gold Fields Limited, AngloGold Ashantiand Alamos Gold are well-poised for growth, backed by their strong balanc…\nArticle 6 provenance: 31f9477a5ba90637f27fa170aad0e43df201e87795c31ecf3ea7304035da28e5\nArticle 7 date: 2023-06-02\nArticle 7 title: 4 Gold Stocks to Watch in a Promising Industry\nArticle 7 source: https://www.nasdaq.com/articles/4-gold-stocks-to-watch-in-a-promising-industry-0\nArticle 7 text: The prospects for the Zacks Mining - Gold industry look bright at the moment on the back of improving gold prices. The yellow metal has been gaining this year on safe-haven demand, fueled by the turmoil in the banking sector, ongoing geopolitical tensions and a challenging economic environment.  With gold prices anticipated to gain further on demand-supply imbalance, companies like Franco-Nevada Corporation FNV, Gold Fields Limited GFI, AngloGold Ashanti AU and Alamos Gold AGI are well-poised for growth, backed by their strong balance sheets, efforts to lower costs and growth initiatives. About the Industry The Zacks Mining - Gold industry mainly comprises companies engaged in extracting gold from mines. The mines may either be underground or open pits. Mining is a long and complex process, and requires significant financial resources. It involves exploration to evaluate a deposit's siz…\nArticle 7 provenance: 0973c85ebe7b138c4b44df5b3bb0a57d2e161d3e04c8d2142e64bc5000ac0284\nArticle 8 date: 2023-06-02\nArticle 8 title: Is Alamos Gold (AGI) Stock Outpacing Its Basic Materials Peers This Year?\nArticle 8 source: https://www.nasdaq.com/articles/is-alamos-gold-agi-stock-outpacing-its-basic-materials-peers-this-year-0\nArticle 8 text: Investors interested in Basic Materials stocks should always be looking to find the best-performing companies in the group. Alamos Gold (AGI) is a stock that can certainly grab the attention of many investors, but do its recent returns compare favorably to the sector as a whole? A quick glance at the company's year-to-date performance in comparison to the rest of the Basic Materials sector should help us answer this question. Alamos Gold is a member of our Basic Materials group, which includes 236 different companies and currently sits at #13 in the Zacks Sector Rank. The Zacks Sector Rank considers 16 different sector groups. The average Zacks Rank of the individual stocks within the groups is measured, and the sectors are listed from best to worst. The Zacks Rank is a successful stock-picking model that emphasizes earnings estimates and estimate revisions. The system highlights a numb…\nArticle 8 provenance: 89bcaa54316c784986205c2ae328a73980349b2113d3cfec99af10314285bb16"
+    },
+    "social_analyst": {
+      "sections": [],
+      "text": ""
+    }
+  },
+  "routing": {
+    "modality_to_analyst": {
+      "IMAGE": "Market Analyst",
+      "TABLE": "Fundamentals Analyst",
+      "TEXT": "News Analyst",
+      "TIME_SERIES": "Market Analyst"
+    },
+    "raw_packet_direct_injection": false,
+    "social_analyst": "NO_FINMULTITIME_EVIDENCE"
+  },
+  "section_sha256": {
+    "IMAGE": "73bd5dc19cc0ce620f1c4d801a3e2b9caa025d6d61e1f90070871e355554fc65",
+    "TABLE": "e05af090ec3974ea4ca645ebeb821a170aaa1d13accd6b1e3e944907f2ee88cc",
+    "TEXT": "4154081b0ea0d2348172448e9c8502086f176b38b0852c9e4b63d4593f454de8",
+    "TIME_SERIES": "be4738f245957b3a36765b22085503f3a1de938b4fa1121aaa663bdf320b6f5d"
+  },
+  "source_provenance": {
+    "pit_cutoff": "2023-06-30",
+    "task_id": "M2-06"
+  },
+  "symbol": "AGI",
+  "tier_membership": {
+    "in_compact": true,
+    "in_maximum": true,
+    "in_standard": true
+  }
+}

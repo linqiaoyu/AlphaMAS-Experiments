@@ -1,0 +1,51 @@
+=== FINMULTITIME EVIDENCE ===
+Symbol: EML
+Decision session: 2023-06-02
+
+[TEXT]
+Status: AVAILABLE
+Evidence age (calendar days): 4
+Source: sp500_news/EML.jsonl
+Article 1 date: 2023-05-29
+Article 1 title: MIDEAST STOCKS-Gulf stock markets volatile on US debt deal, economic worries
+Article 1 source: https://www.nasdaq.com/articles/mideast-stocks-gulf-stock-markets-volatile-on-us-debt-deal-economic-worries
+Article 1 text: By Ateeq Shariff May 29 (Reuters) - Stock markets in the Gulf ended in different directions on Monday after U.S. lawmakers reached a tentative agreement on the debt ceiling, while concerns about more Federal Reserve interest rate hikes weighed on sentiment. U.S. President Joe Biden and House Speaker Kevin McCarthy forged an agreement at the weekend to suspend the $31.4 trillion debt ceiling and cap government spending for two years. Both leaders expressed confidence that members of the Democratic and Republican parties would vote to support the deal. Dubai's main share index .DFMGI edged 0.1% higher, supported by a 1.2% rise in sharia-compliant lender Dubai Islamic Bank DISB.DU. In Abu Dhabi, the index .FTFADGI dropped 0.4%. The Abu Dhabi bourse remained on a downtrend as sentiment remained cautious and energy markets were under pressure, said Farah Mourad, senior market analyst at XTB …
+Article 1 provenance: 78019f50639a5df50e2d539577070f2ef85ddfde5f95c6a4a41117b8a9404f74
+Article 2 date: 2023-05-04
+Article 2 title: Top ex-Google AI researchers raise funding from Thrive Capital -sources
+Article 2 source: https://www.nasdaq.com/articles/top-ex-google-ai-researchers-raise-funding-from-thrive-capital-sources
+Article 2 text: By Anna Tong and Krystal Hu May 4 (Reuters) - Two prominent former Google GOOGL.O researchers who authored the groundbreaking paper that paved the way for the generative AI boom, have raised $8 million for their new startup Essential AI, four sources told Reuters. Thrive Capital had led the round in Essential AI, founded by Ashish Vaswani and Niki Parmar. The company is still in stealth mode and hasn't launched any product. Conviction and angel investor Elad Gil also participated in the round, one source close to the company added. Thrive Capital, founded by Joshua Kushner, is also an investor in Microsoft-backed OpenAI. Essential AI aims to build software for enterprises to use large language models, the core software of a new artificial intelligence system that has powered generative AI applications such as ChatGPT, sources said. Thrive Capital declined to comment. Vaswani and Parmar …
+Article 2 provenance: 3b468bf009be1150979eca857fc7906627a240793f646d939d12ac15460b8fca
+
+[TABLE]
+Status: AVAILABLE
+Source: financial_reports/eml/condensed_consolidated_balance_sheets.json;financial_reports/eml/condensed_consolidated_statement_of_cash_flows.json
+Assets: value=255751589; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-04-01; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-05-09; accession=0001654954-23-006022; provenance=9c2977c840897ca07c236b798a7e3046ec9d4e14e0f123aea44a401893ccabe9
+Liabilities: value=128951553; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-04-01; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-05-09; accession=0001654954-23-006022; provenance=028122aa155b9288980f2fe03c29cdf6cd8e449b9fd3647cc0127d3e72bcfbc6
+StockholdersEquity: value=126800036; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-04-01; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-05-09; accession=0001654954-23-006022; provenance=986602f7c3c2379f50e05a7de9506ea34ad5ef40dd22f18f5c222fce8eb95943
+NetCashProvidedByUsedInOperatingActivities: value=6860258; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-04-01; period_duration_days=91; period_duration_class=quarterly; filed_date=2023-05-09; accession=0001654954-23-006022; provenance=56a2501ace6526aef4da8bb50067fa360ddf6d7c4cac63570e244830f9edb3d2
+NetCashProvidedByUsedInInvestingActivities: value=1081987; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-04-01; period_duration_days=91; period_duration_class=quarterly; filed_date=2023-05-09; accession=0001654954-23-006022; provenance=0f3326686c826471fff8dd1be67ade9a58015fbbf815cdc3fd11056e788cc1aa
+NetCashProvidedByUsedInFinancingActivities: value=-5087288; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-04-01; period_duration_days=91; period_duration_class=quarterly; filed_date=2023-05-09; accession=0001654954-23-006022; provenance=99693a84f21127d09c259da212bdb8c3f5820e2091b1f3ea371d5f0f7bffb807
+
+[TIME_SERIES]
+Status: AVAILABLE
+Through session: 2023-06-02
+Source: S&P500_time_series/eml.csv
+cumulative_return_5d: -0.018018039857688573
+cumulative_return_20d: -0.020371543083619104
+cumulative_return_60d: -0.24574892269225257
+realised_volatility_20d_annualised: 0.2454740498153296
+high_low_range_20d: 0.11588122909466803
+drawdown_from_60d_peak: -0.23452292973896682
+relative_volume_vs_20d_mean: 1.5771812080536913
+Provenance: 6326ba678a00947c08aedea138be6176ed38ba2dbc32eccb1f8452a41a0abdcc
+
+[IMAGE]
+Status: AVAILABLE
+Chart period: 2022-H2
+Inferred period end: 2022-12-31
+Evidence age (calendar days): 153
+Source: eml_2022_H2_candlestick.png
+Canonical caption: {"candlestick_structure":"mostly green and red, with some white","confidence":"moderate","momentum_visual":"mixed, with periods of strong momentum","notable_gap_or_reversal":"a gap in early 2022, followed by a reversal","other_visible_pattern":"no clear pattern beyond the candlestick structure","support_resistance_visual":"support around 18-19, resistance around 22-23","trend":"upward then downward then upward","volatility_visual":"high volatility, especially in late 2022","volume_visual":"not visible"}
+Caption provenance: d953ffdbb16aadc95e81229de3fce18c9a224d0e22313eb08d5486bb0c175afb
+=== END FINMULTITIME EVIDENCE ===

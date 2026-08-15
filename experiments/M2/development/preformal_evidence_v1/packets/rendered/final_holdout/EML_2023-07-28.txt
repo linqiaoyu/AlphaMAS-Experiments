@@ -1,0 +1,46 @@
+=== FINMULTITIME EVIDENCE ===
+Symbol: EML
+Decision session: 2023-07-28
+
+[TEXT]
+Status: AVAILABLE
+Evidence age (calendar days): 3
+Source: sp500_news/EML.jsonl
+Article 1 date: 2023-07-25
+Article 1 title: MIDEAST STOCKS-Most Gulf markets gain on oil, earnings; Abu Dhabi slips
+Article 1 source: https://www.nasdaq.com/articles/mideast-stocks-most-gulf-markets-gain-on-oil-earnings-abu-dhabi-slips
+Article 1 text: By Ateeq Shariff July 25 (Reuters) - Most stock markets in the Gulf ended higher on Tuesday on the back of rising oil prices and corporate earnings, although gains were limited as focus shifted to the Federal Reserve's monetary policy decision due on Wednesday. Oil prices - a key catalyst for the Gulf's financial markets - were steady. They hovered near three-month highs as signs of tighter supplies and pledges by Chinese authorities to shore up the world's second-biggest economy lifted sentiment, while weaker Western economic data weighed. Saudi Arabia's benchmark index .TASI gained 0.7%, led by a 8.5% surge in Alinma Bank 1150.SE after it reported a sharp rise in quarterly earnings. The lender, which saw its biggest intraday gain in over three years, posted second-quarter net profit of 1.23 billion riyals ($327.97 million), up from 925.1 million riyals year ago. Dubai's main share ind…
+Article 1 provenance: 9bd19e3db1a7e778703e178b4fb6a1ee8571f92b24ff95a2705ae5fc299f05ad
+
+[TABLE]
+Status: AVAILABLE
+Source: financial_reports/eml/condensed_consolidated_balance_sheets.json;financial_reports/eml/condensed_consolidated_statement_of_cash_flows.json
+Assets: value=255751589; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-04-01; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-05-09; accession=0001654954-23-006022; provenance=9c2977c840897ca07c236b798a7e3046ec9d4e14e0f123aea44a401893ccabe9
+Liabilities: value=128951553; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-04-01; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-05-09; accession=0001654954-23-006022; provenance=028122aa155b9288980f2fe03c29cdf6cd8e449b9fd3647cc0127d3e72bcfbc6
+StockholdersEquity: value=126800036; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-04-01; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-05-09; accession=0001654954-23-006022; provenance=986602f7c3c2379f50e05a7de9506ea34ad5ef40dd22f18f5c222fce8eb95943
+NetCashProvidedByUsedInOperatingActivities: value=6860258; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-04-01; period_duration_days=91; period_duration_class=quarterly; filed_date=2023-05-09; accession=0001654954-23-006022; provenance=56a2501ace6526aef4da8bb50067fa360ddf6d7c4cac63570e244830f9edb3d2
+NetCashProvidedByUsedInInvestingActivities: value=1081987; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-04-01; period_duration_days=91; period_duration_class=quarterly; filed_date=2023-05-09; accession=0001654954-23-006022; provenance=0f3326686c826471fff8dd1be67ade9a58015fbbf815cdc3fd11056e788cc1aa
+NetCashProvidedByUsedInFinancingActivities: value=-5087288; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-04-01; period_duration_days=91; period_duration_class=quarterly; filed_date=2023-05-09; accession=0001654954-23-006022; provenance=99693a84f21127d09c259da212bdb8c3f5820e2091b1f3ea371d5f0f7bffb807
+
+[TIME_SERIES]
+Status: AVAILABLE
+Through session: 2023-07-28
+Source: S&P500_time_series/eml.csv
+cumulative_return_5d: -0.009729794162080974
+cumulative_return_20d: 0.01834351906980003
+cumulative_return_60d: 0.08666720077996115
+realised_volatility_20d_annualised: 0.2110200681069634
+high_low_range_20d: 0.11059634982090749
+drawdown_from_60d_peak: -0.06863244311910344
+relative_volume_vs_20d_mean: 1.2054794520547945
+Provenance: 890f9cb03734ed01e635302c1876ba69e472922b040ba8c8981091a710079fef
+
+[IMAGE]
+Status: AVAILABLE
+Chart period: 2023-H1
+Inferred period end: 2023-06-30
+Evidence age (calendar days): 28
+Source: eml_2023_H1_candlestick.png
+Canonical caption: {"candlestick_structure":"mostly green and red, with a few green candles in the middle","confidence":"moderate","momentum_visual":"mixed, with periods of strength and weakness","notable_gap_or_reversal":"a significant drop around March 2023","other_visible_pattern":"a few small clusters of green and red candles","support_resistance_visual":"a clear support level around 19.5, resistance around 18.5","trend":"upward followed by downward","volatility_visual":"moderate, with some sharp fluctuations","volume_visual":"not visible"}
+Caption provenance: 04b69af7c31b219af849850a1d259e5c069e44434feae6a02b5b2692bdca76ec
+=== END FINMULTITIME EVIDENCE ===

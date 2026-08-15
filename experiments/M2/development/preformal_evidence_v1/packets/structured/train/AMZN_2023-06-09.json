@@ -1,0 +1,282 @@
+{
+  "IMAGE": {
+    "canonical_caption": {
+      "candlestick_structure": "mostly green and red, with some green and red",
+      "confidence": "moderate",
+      "momentum_visual": "generally increasing, then decreasing",
+      "notable_gap_or_reversal": "no significant gap or reversal",
+      "other_visible_pattern": "no other visible patterns",
+      "support_resistance_visual": "no clear support or resistance levels",
+      "trend": "upward to peak, then downward",
+      "volatility_visual": "high volatility, then decreasing",
+      "volume_visual": "no visible volume pattern"
+    },
+    "caption_sha256": "b4e2b78c71ab354b7177ebb2747ad14de8ec111c02747cf95d5a439782bdc7c9",
+    "caption_source": "NEW_QWEN_M2_06",
+    "caption_status": "GENERATED",
+    "chart_period": "2022-H2",
+    "evidence_age_calendar_days": 160,
+    "image_sha256": "f52b3a16034499f16b13eb1472ef9460cc5ea93f6b524e1e3683270c1debb2ae",
+    "inferred_period_end": "2022-12-31",
+    "provenance_hash_reference": "b4e2b78c71ab354b7177ebb2747ad14de8ec111c02747cf95d5a439782bdc7c9",
+    "reason": "",
+    "source_identity": "amzn_2022_H2_candlestick.png",
+    "status": "AVAILABLE"
+  },
+  "TABLE": {
+    "facts": {
+      "Assets": {
+        "accession": "0001018724-23-000008",
+        "filed_date": "2023-04-28",
+        "form": "10-Q",
+        "fp": "Q1",
+        "fy": 2023,
+        "period_duration_class": "point_in_time",
+        "period_duration_days": null,
+        "period_end": "2023-03-31",
+        "period_start": "",
+        "provenance_hash_reference": "83d3a69d48e18cf4802dad80c9d99f26d03d699c0ef5443e36fe42797aff3516",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 464378000000
+      },
+      "Liabilities": {
+        "reason": "no canonical PIT-safe selected fact",
+        "status": "UNAVAILABLE"
+      },
+      "NetCashProvidedByUsedInFinancingActivities": {
+        "accession": "0001018724-23-000008",
+        "filed_date": "2023-04-28",
+        "form": "10-Q",
+        "fp": "Q1",
+        "fy": 2023,
+        "period_duration_class": "quarterly",
+        "period_duration_days": 90,
+        "period_end": "2023-03-31",
+        "period_start": "2023-01-01",
+        "provenance_hash_reference": "547579fce07ab7f0145aea13264251fc03b4adeaa7afd2b6edfdd175109f4c25",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 6354000000
+      },
+      "NetCashProvidedByUsedInInvestingActivities": {
+        "accession": "0001018724-23-000008",
+        "filed_date": "2023-04-28",
+        "form": "10-Q",
+        "fp": "Q1",
+        "fy": 2023,
+        "period_duration_class": "quarterly",
+        "period_duration_days": 90,
+        "period_end": "2023-03-31",
+        "period_start": "2023-01-01",
+        "provenance_hash_reference": "6a1fabad46d1e8e9283aa1ce26dfa58ecb49d9df08518865bfe6a8780127dfe0",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": -15806000000
+      },
+      "NetCashProvidedByUsedInOperatingActivities": {
+        "accession": "0001018724-23-000008",
+        "filed_date": "2023-04-28",
+        "form": "10-Q",
+        "fp": "Q1",
+        "fy": 2023,
+        "period_duration_class": "quarterly",
+        "period_duration_days": 90,
+        "period_end": "2023-03-31",
+        "period_start": "2023-01-01",
+        "provenance_hash_reference": "2e10fadb5fb896172494ddedfe3d77cacfc60b47b3376320a6c4f6e087a71fed",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 4788000000
+      },
+      "StockholdersEquity": {
+        "accession": "0001018724-23-000008",
+        "filed_date": "2023-04-28",
+        "form": "10-Q",
+        "fp": "Q1",
+        "fy": 2023,
+        "period_duration_class": "point_in_time",
+        "period_duration_days": null,
+        "period_end": "2023-03-31",
+        "period_start": "",
+        "provenance_hash_reference": "c060b43c49bfed85aee694108f4c388e8a0d8607d57f7880cb65503d20376a2e",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 154526000000
+      }
+    },
+    "provenance_hash_reference": "ee295d0a5de8c29a47fc0dac2e3b115d9411539a63a2c90af51e827e6702a06d",
+    "reason": "",
+    "selection_rule": "frozen six-concept TABLE selection; filed_date < decision session",
+    "source_identity": "financial_reports/amzn/condensed_consolidated_balance_sheets.json;financial_reports/amzn/condensed_consolidated_statement_of_cash_flows.json",
+    "status": "AVAILABLE"
+  },
+  "TEXT": {
+    "evidence_age_calendar_days": 1,
+    "provenance_hash_reference": "415c1247cee582e495b39fe07acc85f560c219c4dc6b4a2564303e639dc7736a",
+    "reason": "",
+    "records": [
+      {
+        "article_date": "2023-06-08",
+        "body": "InvestorPlace - Stock Market News, Stock Advice & Trading Tips Some of the market’s top momentum stocks appear to be on the cusp of a breakout. Whether it is due to strong earnings, new products, or improving sentiment, some of these stocks have a buzz about them. Better, many can reasonably be expected to move higher over the coming year. Plus, if economic conditions improve and we manage to avoid a deep and prolonged recession, we may enter a full-fledged bull market, which could boost these top momentum stocks. AAPL Apple $180.57 LULU Lululemon $354.95 AMZN Amazon $124.25 GS Goldman Sachs $335.47 WMT Walmart $152.17 FDX FedEx $225.01 DKS Dick’s Sporting Goods $134.97 Top Momentum Stocks: Apple (AAPL) Source: Wright Studio/Shutterstock.com Apple (NASDAQ:AAPL) recently hit an all-time high after the company introduced its long-awaited augmented reality headset called the “Vision Pro.” …",
+        "provenance_hash_reference": "fb9a5f4be89282ba33f0edb305135d060e12b1bf3e1531358d7ca4ad4e645a6d",
+        "source": "https://www.nasdaq.com/articles/7-momentum-stocks-that-could-skyrocket-in-the-next-12-months",
+        "title": "7 Momentum Stocks That Could Skyrocket in the Next 12 Months"
+      },
+      {
+        "article_date": "2023-06-08",
+        "body": "By Foo Yun Chee LUXEMBOURG, June 8 (Reuters) - Amazon AMZN.O should not pay 250 million euros ($268 million)in back taxes to Luxembourg as ordered by EU competition enforcers, an adviser to Europe's top court said on Thursday, as she cited errors inthe EU regulator'sassessment. The European Commission in its 2017 decision said Amazon paid no taxes on almost three-quarters of its profits from EU operations due to a Luxembourg tax arrangement allowing it to channel profits to a holding company tax-free. The EU antitrust watchdog equated the tax deal to illegal state aid. However, a lower tribunal in 2021 scrapped the EU decision, dealing a blow to EU competition chief Margrethe Vestager's crackdown on preferential deals. \"The Commission erred in deciding that Luxembourg had granted unauthorised state aid to Amazon in the form of tax advantages,\" Advocate General Juliane Kokott at the EU C…",
+        "provenance_hash_reference": "2d925133e2d2426b02bfb9ef600f2b5ea3a677bf55483bde8da3753db10f1212",
+        "source": "https://www.nasdaq.com/articles/amazon-should-not-pay-%24268-mln-in-luxembourg-back-taxes-eu-court-adviser-says",
+        "title": "Amazon should not pay $268 mln in Luxembourg back taxes, EU court adviser says"
+      },
+      {
+        "article_date": "2023-06-08",
+        "body": "Many stocks that had a terrible 2022 are rebounding strongly in 2023. Take Amazon (NASDAQ: AMZN), for example; its stock fell 50% in 2022 and has now risen about 45% in 2023. However, that doesn't equate to approaching a break-even figure. When a stock loses 50%, it must double (return 100%) to achieve its previous price. Think of it this way: If you had $1 and lost 50%, you'd have 50 cents. To return to the previous $1, you'd need to double what you have. Doubling a stock price is no easy feat and often takes time. So with Amazon's stock closing in on a 50% gain in just under six months, is it still a buy? Or has it reached a limit? Let's find out. Amazon's businesses are mostly doing well Amazon's business likely needs no introduction. Its online stores revolutionized how consumers shop and how quickly packages are delivered, but Amazon is much bigger than that. While Amazon is known …",
+        "provenance_hash_reference": "92089656516afac304c4cdfec0238e1dba0b3b9df11ac261e9a39bc23fdd2c8c",
+        "source": "https://www.nasdaq.com/articles/amazon-stock-is-up-50-this-year.-is-it-still-a-buy",
+        "title": "Amazon Stock Is Up 50% This Year. Is It Still a Buy?"
+      },
+      {
+        "article_date": "2023-06-08",
+        "body": "Adds dates of strike in paragraph 2, background in paragraphs 3-4 June 8 (Reuters) - UK labour union GMB said on Thursday that Amazon AMZN.O workers at a warehouse in Coventry will strike for three days in June over a pay dispute. The union said workers at the warehouse will walk out from June 12 to June 14. Workers at the site had staged the first strike at Amazon's operations in Britain in January, and followed it up with strikes in February, March and April. Labour unions representing nurses, teachers, civil servants and transport staff, have been calling strikes amid inflationary pressures. (Reporting by Sinchita Mitra in Bengaluru; Editing by Savio D'Souza and Shounak Dasgupta) ((Sinchita.Mitra@thomsonreuters.com)) The views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+        "provenance_hash_reference": "c33bb43a5150cea29ad8409beaa4f07c888dc40e2787f95c4de28fb7c809f49e",
+        "source": "https://www.nasdaq.com/articles/amazon-workers-at-uk-warehouse-to-strike-for-three-days-in-june",
+        "title": "Amazon workers at UK warehouse to strike for three days in June"
+      },
+      {
+        "article_date": "2023-06-08",
+        "body": "Corrects to remove extraneous words June 8 (Reuters) - UK labour union GMB said on Thursday that Amazon AMZN.O workers at a warehouse in Coventry will strike for three days in June in a dispute over pay. (Reporting by Sinchita Mitra in Bengaluru; Editing by Savio D'Souza) ((Sinchita.Mitra@thomsonreuters.com;)) The views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+        "provenance_hash_reference": "d27c3bfc2f466f40dc8b7685f1b2ea3f6ff340667960fcad47ed6a194f2dc43b",
+        "source": "https://www.nasdaq.com/articles/amazon-workers-at-uk-warehouse-to-strike-for-three-days-in-june-0",
+        "title": "Amazon workers at UK warehouse to strike for three days in June"
+      },
+      {
+        "article_date": "2023-06-08",
+        "body": "Apple (NASDAQ:AAPL) stock is off to a gain of over 40% year-to-date, and it has a coveted 'Perfect 10' TipRanks Smart Score. Excitement about the company’s newly-unveiled VR headset is starting to build. Even Warren Buffett is a fan of the stock. Apple has been Berkshire Hathaway’s (NYSE:BRK.B) largest position for a long time. In fact, after its 2023 run-up, it currently accounts for nearly half of Berkshire’s equity portfolio. Investors looking to invest in Apple through ETFs are in luck because Apple is the largest company in the world by market cap (with a $2.8 trillion valuation), and it isn’t hard to find ETFs with a large position in it. Therefore, without further ado, here are three of the top ETFs with Apple stock exposure. 1. Vanguard Information Technology ETF (NYSEARCA:VGT) Apple is the VGT ETF's top holding with a massive 23.5% weighting. Vanguard funds are known for their …",
+        "provenance_hash_reference": "fb1d7b771be74528ce535148ff6ddfdcfe4003c15caff0352614f60727feab33",
+        "source": "https://www.nasdaq.com/articles/apple-stock-is-on-fire.-invest-in-it-with-these-3-etfs",
+        "title": "Apple Stock is on Fire. Invest in it with These 3 ETFs"
+      },
+      {
+        "article_date": "2023-06-08",
+        "body": "By Chuck Mikolajczak NEW YORK, June 8 (Reuters) - S&P 500 .SPX advanced on Thursday, putting the benchmark index up 20% from its October 12 closing low and heralding the start of a new bull market, at least by the definition of some market participants. Part of the uncertainty is that there is no set definition of a bull or bear market, or any sort of regulatory body that declares one, such as the National Bureau of Economic Research (NBER) does with recessions. The most commonly accepted definition is a 20% rise off a low for a bull market and a 20% decline from a high for a bear market, but even that is open to interpretation. \"The problem is there is no authority of rules or regulations on there, 20% came back from the really olden days, like during the First World War, it was the first time we see it,\" said Howard Silverblatt, senior index analyst at S&P Dow Jones Indices in New Yor…",
+        "provenance_hash_reference": "fda996c1ec37a69e94170aa1fafe31df6b1ab74f27368592cc24f91dafd9ec5a",
+        "source": "https://www.nasdaq.com/articles/behold-wall-streets-new-bull-market-maybe",
+        "title": "Behold Wall Street's new bull market, maybe"
+      },
+      {
+        "article_date": "2023-06-08",
+        "body": "By Chuck Mikolajczak NEW YORK, June 8 (Reuters) - S&P 500 .SPX advanced on Thursday, putting the benchmark index up 20% from its Oct. 12 closing low and heralding the start of a new bull market, at least by the definition of some market participants. Part of the uncertainty is that there is no set definition of a bull or bear market, or any sort of regulatory body that declares one, such as the National Bureau of Economic Research (NBER) does with recessions. The S&P 500 rose 0.6% in Thursday's session, lifted by technology stocks, while volatility dropped to record lows ahead of an eventful economic and policy calendar next week. The Nasdaq .IXIC added 1%, and it is now up nearly 30% from its closing low last December. The most commonly accepted definition is a 20% rise off a low for a bull market and a 20% decline from a high for a bear market, but even that is open to interpretation.…",
+        "provenance_hash_reference": "1616860104e930d940edeeaa6a0aed84d2720c8cc6829c633eb6a14033b8b697",
+        "source": "https://www.nasdaq.com/articles/behold-wall-streets-new-bull-market-maybe-0",
+        "title": "Behold Wall Street's new bull market, maybe"
+      }
+    ],
+    "selection_rule": "frozen bounded TEXT selection; Date < decision session; deterministic order",
+    "source_identity": "sp500_news/AMZN.jsonl",
+    "status": "AVAILABLE"
+  },
+  "TIME_SERIES": {
+    "provenance_hash_reference": "0171ef0115f49a4aee38a28b32187d8e20eb9734ea7a087a49af9ad996b1a341",
+    "reason": "",
+    "selection_rule": "frozen descriptive summaries from 61 completed source rows; session <= decision",
+    "source_identity": "S&P500_time_series/amzn.csv",
+    "status": "AVAILABLE",
+    "summaries": {
+      "cumulative_return_20d": 0.1002852555660132,
+      "cumulative_return_5d": -0.006599595129369917,
+      "cumulative_return_60d": 0.283056176930899,
+      "drawdown_from_60d_peak": -0.02511650177589353,
+      "high_low_range_20d": 0.16613273707898313,
+      "realised_volatility_20d_annualised": 0.311344575658672,
+      "relative_volume_vs_20d_mean": 0.7822942711232598
+    },
+    "through_session": "2023-06-09"
+  },
+  "agent_text": "=== FINMULTITIME EVIDENCE ===\nSymbol: AMZN\nDecision session: 2023-06-09\n\n[TEXT]\nStatus: AVAILABLE\nEvidence age (calendar days): 1\nSource: sp500_news/AMZN.jsonl\nArticle 1 date: 2023-06-08\nArticle 1 title: 7 Momentum Stocks That Could Skyrocket in the Next 12 Months\nArticle 1 source: https://www.nasdaq.com/articles/7-momentum-stocks-that-could-skyrocket-in-the-next-12-months\nArticle 1 text: InvestorPlace - Stock Market News, Stock Advice & Trading Tips Some of the market’s top momentum stocks appear to be on the cusp of a breakout. Whether it is due to strong earnings, new products, or improving sentiment, some of these stocks have a buzz about them. Better, many can reasonably be expected to move higher over the coming year. Plus, if economic conditions improve and we manage to avoid a deep and prolonged recession, we may enter a full-fledged bull market, which could boost these top momentum stocks. AAPL Apple $180.57 LULU Lululemon $354.95 AMZN Amazon $124.25 GS Goldman Sachs $335.47 WMT Walmart $152.17 FDX FedEx $225.01 DKS Dick’s Sporting Goods $134.97 Top Momentum Stocks: Apple (AAPL) Source: Wright Studio/Shutterstock.com Apple (NASDAQ:AAPL) recently hit an all-time high after the company introduced its long-awaited augmented reality headset called the “Vision Pro.” …\nArticle 1 provenance: fb9a5f4be89282ba33f0edb305135d060e12b1bf3e1531358d7ca4ad4e645a6d\nArticle 2 date: 2023-06-08\nArticle 2 title: Amazon should not pay $268 mln in Luxembourg back taxes, EU court adviser says\nArticle 2 source: https://www.nasdaq.com/articles/amazon-should-not-pay-%24268-mln-in-luxembourg-back-taxes-eu-court-adviser-says\nArticle 2 text: By Foo Yun Chee LUXEMBOURG, June 8 (Reuters) - Amazon AMZN.O should not pay 250 million euros ($268 million)in back taxes to Luxembourg as ordered by EU competition enforcers, an adviser to Europe's top court said on Thursday, as she cited errors inthe EU regulator'sassessment. The European Commission in its 2017 decision said Amazon paid no taxes on almost three-quarters of its profits from EU operations due to a Luxembourg tax arrangement allowing it to channel profits to a holding company tax-free. The EU antitrust watchdog equated the tax deal to illegal state aid. However, a lower tribunal in 2021 scrapped the EU decision, dealing a blow to EU competition chief Margrethe Vestager's crackdown on preferential deals. \"The Commission erred in deciding that Luxembourg had granted unauthorised state aid to Amazon in the form of tax advantages,\" Advocate General Juliane Kokott at the EU C…\nArticle 2 provenance: 2d925133e2d2426b02bfb9ef600f2b5ea3a677bf55483bde8da3753db10f1212\nArticle 3 date: 2023-06-08\nArticle 3 title: Amazon Stock Is Up 50% This Year. Is It Still a Buy?\nArticle 3 source: https://www.nasdaq.com/articles/amazon-stock-is-up-50-this-year.-is-it-still-a-buy\nArticle 3 text: Many stocks that had a terrible 2022 are rebounding strongly in 2023. Take Amazon (NASDAQ: AMZN), for example; its stock fell 50% in 2022 and has now risen about 45% in 2023. However, that doesn't equate to approaching a break-even figure. When a stock loses 50%, it must double (return 100%) to achieve its previous price. Think of it this way: If you had $1 and lost 50%, you'd have 50 cents. To return to the previous $1, you'd need to double what you have. Doubling a stock price is no easy feat and often takes time. So with Amazon's stock closing in on a 50% gain in just under six months, is it still a buy? Or has it reached a limit? Let's find out. Amazon's businesses are mostly doing well Amazon's business likely needs no introduction. Its online stores revolutionized how consumers shop and how quickly packages are delivered, but Amazon is much bigger than that. While Amazon is known …\nArticle 3 provenance: 92089656516afac304c4cdfec0238e1dba0b3b9df11ac261e9a39bc23fdd2c8c\nArticle 4 date: 2023-06-08\nArticle 4 title: Amazon workers at UK warehouse to strike for three days in June\nArticle 4 source: https://www.nasdaq.com/articles/amazon-workers-at-uk-warehouse-to-strike-for-three-days-in-june\nArticle 4 text: Adds dates of strike in paragraph 2, background in paragraphs 3-4 June 8 (Reuters) - UK labour union GMB said on Thursday that Amazon AMZN.O workers at a warehouse in Coventry will strike for three days in June over a pay dispute. The union said workers at the warehouse will walk out from June 12 to June 14. Workers at the site had staged the first strike at Amazon's operations in Britain in January, and followed it up with strikes in February, March and April. Labour unions representing nurses, teachers, civil servants and transport staff, have been calling strikes amid inflationary pressures. (Reporting by Sinchita Mitra in Bengaluru; Editing by Savio D'Souza and Shounak Dasgupta) ((Sinchita.Mitra@thomsonreuters.com)) The views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.\nArticle 4 provenance: c33bb43a5150cea29ad8409beaa4f07c888dc40e2787f95c4de28fb7c809f49e\nArticle 5 date: 2023-06-08\nArticle 5 title: Amazon workers at UK warehouse to strike for three days in June\nArticle 5 source: https://www.nasdaq.com/articles/amazon-workers-at-uk-warehouse-to-strike-for-three-days-in-june-0\nArticle 5 text: Corrects to remove extraneous words June 8 (Reuters) - UK labour union GMB said on Thursday that Amazon AMZN.O workers at a warehouse in Coventry will strike for three days in June in a dispute over pay. (Reporting by Sinchita Mitra in Bengaluru; Editing by Savio D'Souza) ((Sinchita.Mitra@thomsonreuters.com;)) The views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.\nArticle 5 provenance: d27c3bfc2f466f40dc8b7685f1b2ea3f6ff340667960fcad47ed6a194f2dc43b\nArticle 6 date: 2023-06-08\nArticle 6 title: Apple Stock is on Fire. Invest in it with These 3 ETFs\nArticle 6 source: https://www.nasdaq.com/articles/apple-stock-is-on-fire.-invest-in-it-with-these-3-etfs\nArticle 6 text: Apple (NASDAQ:AAPL) stock is off to a gain of over 40% year-to-date, and it has a coveted 'Perfect 10' TipRanks Smart Score. Excitement about the company’s newly-unveiled VR headset is starting to build. Even Warren Buffett is a fan of the stock. Apple has been Berkshire Hathaway’s (NYSE:BRK.B) largest position for a long time. In fact, after its 2023 run-up, it currently accounts for nearly half of Berkshire’s equity portfolio. Investors looking to invest in Apple through ETFs are in luck because Apple is the largest company in the world by market cap (with a $2.8 trillion valuation), and it isn’t hard to find ETFs with a large position in it. Therefore, without further ado, here are three of the top ETFs with Apple stock exposure. 1. Vanguard Information Technology ETF (NYSEARCA:VGT) Apple is the VGT ETF's top holding with a massive 23.5% weighting. Vanguard funds are known for their …\nArticle 6 provenance: fb1d7b771be74528ce535148ff6ddfdcfe4003c15caff0352614f60727feab33\nArticle 7 date: 2023-06-08\nArticle 7 title: Behold Wall Street's new bull market, maybe\nArticle 7 source: https://www.nasdaq.com/articles/behold-wall-streets-new-bull-market-maybe\nArticle 7 text: By Chuck Mikolajczak NEW YORK, June 8 (Reuters) - S&P 500 .SPX advanced on Thursday, putting the benchmark index up 20% from its October 12 closing low and heralding the start of a new bull market, at least by the definition of some market participants. Part of the uncertainty is that there is no set definition of a bull or bear market, or any sort of regulatory body that declares one, such as the National Bureau of Economic Research (NBER) does with recessions. The most commonly accepted definition is a 20% rise off a low for a bull market and a 20% decline from a high for a bear market, but even that is open to interpretation. \"The problem is there is no authority of rules or regulations on there, 20% came back from the really olden days, like during the First World War, it was the first time we see it,\" said Howard Silverblatt, senior index analyst at S&P Dow Jones Indices in New Yor…\nArticle 7 provenance: fda996c1ec37a69e94170aa1fafe31df6b1ab74f27368592cc24f91dafd9ec5a\nArticle 8 date: 2023-06-08\nArticle 8 title: Behold Wall Street's new bull market, maybe\nArticle 8 source: https://www.nasdaq.com/articles/behold-wall-streets-new-bull-market-maybe-0\nArticle 8 text: By Chuck Mikolajczak NEW YORK, June 8 (Reuters) - S&P 500 .SPX advanced on Thursday, putting the benchmark index up 20% from its Oct. 12 closing low and heralding the start of a new bull market, at least by the definition of some market participants. Part of the uncertainty is that there is no set definition of a bull or bear market, or any sort of regulatory body that declares one, such as the National Bureau of Economic Research (NBER) does with recessions. The S&P 500 rose 0.6% in Thursday's session, lifted by technology stocks, while volatility dropped to record lows ahead of an eventful economic and policy calendar next week. The Nasdaq .IXIC added 1%, and it is now up nearly 30% from its closing low last December. The most commonly accepted definition is a 20% rise off a low for a bull market and a 20% decline from a high for a bear market, but even that is open to interpretation.…\nArticle 8 provenance: 1616860104e930d940edeeaa6a0aed84d2720c8cc6829c633eb6a14033b8b697\n\n[TABLE]\nStatus: AVAILABLE\nSource: financial_reports/amzn/condensed_consolidated_balance_sheets.json;financial_reports/amzn/condensed_consolidated_statement_of_cash_flows.json\nAssets: value=464378000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-03-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=83d3a69d48e18cf4802dad80c9d99f26d03d699c0ef5443e36fe42797aff3516\nLiabilities: UNAVAILABLE\nStockholdersEquity: value=154526000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-03-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=c060b43c49bfed85aee694108f4c388e8a0d8607d57f7880cb65503d20376a2e\nNetCashProvidedByUsedInOperatingActivities: value=4788000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-03-31; period_duration_days=90; period_duration_class=quarterly; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=2e10fadb5fb896172494ddedfe3d77cacfc60b47b3376320a6c4f6e087a71fed\nNetCashProvidedByUsedInInvestingActivities: value=-15806000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-03-31; period_duration_days=90; period_duration_class=quarterly; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=6a1fabad46d1e8e9283aa1ce26dfa58ecb49d9df08518865bfe6a8780127dfe0\nNetCashProvidedByUsedInFinancingActivities: value=6354000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-03-31; period_duration_days=90; period_duration_class=quarterly; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=547579fce07ab7f0145aea13264251fc03b4adeaa7afd2b6edfdd175109f4c25\n\n[TIME_SERIES]\nStatus: AVAILABLE\nThrough session: 2023-06-09\nSource: S&P500_time_series/amzn.csv\ncumulative_return_5d: -0.006599595129369917\ncumulative_return_20d: 0.1002852555660132\ncumulative_return_60d: 0.283056176930899\nrealised_volatility_20d_annualised: 0.311344575658672\nhigh_low_range_20d: 0.16613273707898313\ndrawdown_from_60d_peak: -0.02511650177589353\nrelative_volume_vs_20d_mean: 0.7822942711232598\nProvenance: 0171ef0115f49a4aee38a28b32187d8e20eb9734ea7a087a49af9ad996b1a341\n\n[IMAGE]\nStatus: AVAILABLE\nChart period: 2022-H2\nInferred period end: 2022-12-31\nEvidence age (calendar days): 160\nSource: amzn_2022_H2_candlestick.png\nCanonical caption: {\"candlestick_structure\":\"mostly green and red, with some green and red\",\"confidence\":\"moderate\",\"momentum_visual\":\"generally increasing, then decreasing\",\"notable_gap_or_reversal\":\"no significant gap or reversal\",\"other_visible_pattern\":\"no other visible patterns\",\"support_resistance_visual\":\"no clear support or resistance levels\",\"trend\":\"upward to peak, then downward\",\"volatility_visual\":\"high volatility, then decreasing\",\"volume_visual\":\"no visible volume pattern\"}\nCaption provenance: b4e2b78c71ab354b7177ebb2747ad14de8ec111c02747cf95d5a439782bdc7c9\n=== END FINMULTITIME EVIDENCE ===\n",
+  "available_for_training": true,
+  "available_for_validation": false,
+  "case_id": "AMZN:2023-06-09",
+  "character_counts": {
+    "complete": 12450,
+    "fundamentals": 1809,
+    "market": 1194,
+    "news": 9298
+  },
+  "contract_version": "M1-FINMULTITIME-v1.0.2",
+  "dataset_id": "m2_preformal_evidence_v1",
+  "decision_session": "2023-06-09",
+  "decision_time": "2023-06-09T20:00:00+00:00",
+  "engineering_only": false,
+  "m2_metadata": {
+    "available_for_training": true,
+    "available_for_validation": false,
+    "engineering_only": false,
+    "performance_for_selection": false,
+    "protected": false,
+    "role": "TRAIN",
+    "tier_membership": {
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    }
+  },
+  "packet_sha256": "c17f45290dd9122649b0a088d7d3ca6af1aae455cd7d4b9aac7057b066e36fe6",
+  "packet_status": "FINAL_FROZEN",
+  "performance_for_selection": false,
+  "protected": false,
+  "record_type": "m1_finmultitime_evidence_packet",
+  "role": "TRAIN",
+  "routed_projections": {
+    "fundamentals_analyst": {
+      "sections": [
+        "TABLE"
+      ],
+      "text": "Status: AVAILABLE\nSource: financial_reports/amzn/condensed_consolidated_balance_sheets.json;financial_reports/amzn/condensed_consolidated_statement_of_cash_flows.json\nAssets: value=464378000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-03-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=83d3a69d48e18cf4802dad80c9d99f26d03d699c0ef5443e36fe42797aff3516\nLiabilities: UNAVAILABLE\nStockholdersEquity: value=154526000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-03-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=c060b43c49bfed85aee694108f4c388e8a0d8607d57f7880cb65503d20376a2e\nNetCashProvidedByUsedInOperatingActivities: value=4788000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-03-31; period_duration_days=90; period_duration_class=quarterly; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=2e10fadb5fb896172494ddedfe3d77cacfc60b47b3376320a6c4f6e087a71fed\nNetCashProvidedByUsedInInvestingActivities: value=-15806000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-03-31; period_duration_days=90; period_duration_class=quarterly; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=6a1fabad46d1e8e9283aa1ce26dfa58ecb49d9df08518865bfe6a8780127dfe0\nNetCashProvidedByUsedInFinancingActivities: value=6354000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-03-31; period_duration_days=90; period_duration_class=quarterly; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=547579fce07ab7f0145aea13264251fc03b4adeaa7afd2b6edfdd175109f4c25"
+    },
+    "market_analyst": {
+      "sections": [
+        "TIME_SERIES",
+        "IMAGE"
+      ],
+      "text": "Status: AVAILABLE\nThrough session: 2023-06-09\nSource: S&P500_time_series/amzn.csv\ncumulative_return_5d: -0.006599595129369917\ncumulative_return_20d: 0.1002852555660132\ncumulative_return_60d: 0.283056176930899\nrealised_volatility_20d_annualised: 0.311344575658672\nhigh_low_range_20d: 0.16613273707898313\ndrawdown_from_60d_peak: -0.02511650177589353\nrelative_volume_vs_20d_mean: 0.7822942711232598\nProvenance: 0171ef0115f49a4aee38a28b32187d8e20eb9734ea7a087a49af9ad996b1a341\n\nStatus: AVAILABLE\nChart period: 2022-H2\nInferred period end: 2022-12-31\nEvidence age (calendar days): 160\nSource: amzn_2022_H2_candlestick.png\nCanonical caption: {\"candlestick_structure\":\"mostly green and red, with some green and red\",\"confidence\":\"moderate\",\"momentum_visual\":\"generally increasing, then decreasing\",\"notable_gap_or_reversal\":\"no significant gap or reversal\",\"other_visible_pattern\":\"no other visible patterns\",\"support_resistance_visual\":\"no clear support or resistance levels\",\"trend\":\"upward to peak, then downward\",\"volatility_visual\":\"high volatility, then decreasing\",\"volume_visual\":\"no visible volume pattern\"}\nCaption provenance: b4e2b78c71ab354b7177ebb2747ad14de8ec111c02747cf95d5a439782bdc7c9"
+    },
+    "news_analyst": {
+      "sections": [
+        "TEXT"
+      ],
+      "text": "Status: AVAILABLE\nEvidence age (calendar days): 1\nSource: sp500_news/AMZN.jsonl\nArticle 1 date: 2023-06-08\nArticle 1 title: 7 Momentum Stocks That Could Skyrocket in the Next 12 Months\nArticle 1 source: https://www.nasdaq.com/articles/7-momentum-stocks-that-could-skyrocket-in-the-next-12-months\nArticle 1 text: InvestorPlace - Stock Market News, Stock Advice & Trading Tips Some of the market’s top momentum stocks appear to be on the cusp of a breakout. Whether it is due to strong earnings, new products, or improving sentiment, some of these stocks have a buzz about them. Better, many can reasonably be expected to move higher over the coming year. Plus, if economic conditions improve and we manage to avoid a deep and prolonged recession, we may enter a full-fledged bull market, which could boost these top momentum stocks. AAPL Apple $180.57 LULU Lululemon $354.95 AMZN Amazon $124.25 GS Goldman Sachs $335.47 WMT Walmart $152.17 FDX FedEx $225.01 DKS Dick’s Sporting Goods $134.97 Top Momentum Stocks: Apple (AAPL) Source: Wright Studio/Shutterstock.com Apple (NASDAQ:AAPL) recently hit an all-time high after the company introduced its long-awaited augmented reality headset called the “Vision Pro.” …\nArticle 1 provenance: fb9a5f4be89282ba33f0edb305135d060e12b1bf3e1531358d7ca4ad4e645a6d\nArticle 2 date: 2023-06-08\nArticle 2 title: Amazon should not pay $268 mln in Luxembourg back taxes, EU court adviser says\nArticle 2 source: https://www.nasdaq.com/articles/amazon-should-not-pay-%24268-mln-in-luxembourg-back-taxes-eu-court-adviser-says\nArticle 2 text: By Foo Yun Chee LUXEMBOURG, June 8 (Reuters) - Amazon AMZN.O should not pay 250 million euros ($268 million)in back taxes to Luxembourg as ordered by EU competition enforcers, an adviser to Europe's top court said on Thursday, as she cited errors inthe EU regulator'sassessment. The European Commission in its 2017 decision said Amazon paid no taxes on almost three-quarters of its profits from EU operations due to a Luxembourg tax arrangement allowing it to channel profits to a holding company tax-free. The EU antitrust watchdog equated the tax deal to illegal state aid. However, a lower tribunal in 2021 scrapped the EU decision, dealing a blow to EU competition chief Margrethe Vestager's crackdown on preferential deals. \"The Commission erred in deciding that Luxembourg had granted unauthorised state aid to Amazon in the form of tax advantages,\" Advocate General Juliane Kokott at the EU C…\nArticle 2 provenance: 2d925133e2d2426b02bfb9ef600f2b5ea3a677bf55483bde8da3753db10f1212\nArticle 3 date: 2023-06-08\nArticle 3 title: Amazon Stock Is Up 50% This Year. Is It Still a Buy?\nArticle 3 source: https://www.nasdaq.com/articles/amazon-stock-is-up-50-this-year.-is-it-still-a-buy\nArticle 3 text: Many stocks that had a terrible 2022 are rebounding strongly in 2023. Take Amazon (NASDAQ: AMZN), for example; its stock fell 50% in 2022 and has now risen about 45% in 2023. However, that doesn't equate to approaching a break-even figure. When a stock loses 50%, it must double (return 100%) to achieve its previous price. Think of it this way: If you had $1 and lost 50%, you'd have 50 cents. To return to the previous $1, you'd need to double what you have. Doubling a stock price is no easy feat and often takes time. So with Amazon's stock closing in on a 50% gain in just under six months, is it still a buy? Or has it reached a limit? Let's find out. Amazon's businesses are mostly doing well Amazon's business likely needs no introduction. Its online stores revolutionized how consumers shop and how quickly packages are delivered, but Amazon is much bigger than that. While Amazon is known …\nArticle 3 provenance: 92089656516afac304c4cdfec0238e1dba0b3b9df11ac261e9a39bc23fdd2c8c\nArticle 4 date: 2023-06-08\nArticle 4 title: Amazon workers at UK warehouse to strike for three days in June\nArticle 4 source: https://www.nasdaq.com/articles/amazon-workers-at-uk-warehouse-to-strike-for-three-days-in-june\nArticle 4 text: Adds dates of strike in paragraph 2, background in paragraphs 3-4 June 8 (Reuters) - UK labour union GMB said on Thursday that Amazon AMZN.O workers at a warehouse in Coventry will strike for three days in June over a pay dispute. The union said workers at the warehouse will walk out from June 12 to June 14. Workers at the site had staged the first strike at Amazon's operations in Britain in January, and followed it up with strikes in February, March and April. Labour unions representing nurses, teachers, civil servants and transport staff, have been calling strikes amid inflationary pressures. (Reporting by Sinchita Mitra in Bengaluru; Editing by Savio D'Souza and Shounak Dasgupta) ((Sinchita.Mitra@thomsonreuters.com)) The views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.\nArticle 4 provenance: c33bb43a5150cea29ad8409beaa4f07c888dc40e2787f95c4de28fb7c809f49e\nArticle 5 date: 2023-06-08\nArticle 5 title: Amazon workers at UK warehouse to strike for three days in June\nArticle 5 source: https://www.nasdaq.com/articles/amazon-workers-at-uk-warehouse-to-strike-for-three-days-in-june-0\nArticle 5 text: Corrects to remove extraneous words June 8 (Reuters) - UK labour union GMB said on Thursday that Amazon AMZN.O workers at a warehouse in Coventry will strike for three days in June in a dispute over pay. (Reporting by Sinchita Mitra in Bengaluru; Editing by Savio D'Souza) ((Sinchita.Mitra@thomsonreuters.com;)) The views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.\nArticle 5 provenance: d27c3bfc2f466f40dc8b7685f1b2ea3f6ff340667960fcad47ed6a194f2dc43b\nArticle 6 date: 2023-06-08\nArticle 6 title: Apple Stock is on Fire. Invest in it with These 3 ETFs\nArticle 6 source: https://www.nasdaq.com/articles/apple-stock-is-on-fire.-invest-in-it-with-these-3-etfs\nArticle 6 text: Apple (NASDAQ:AAPL) stock is off to a gain of over 40% year-to-date, and it has a coveted 'Perfect 10' TipRanks Smart Score. Excitement about the company’s newly-unveiled VR headset is starting to build. Even Warren Buffett is a fan of the stock. Apple has been Berkshire Hathaway’s (NYSE:BRK.B) largest position for a long time. In fact, after its 2023 run-up, it currently accounts for nearly half of Berkshire’s equity portfolio. Investors looking to invest in Apple through ETFs are in luck because Apple is the largest company in the world by market cap (with a $2.8 trillion valuation), and it isn’t hard to find ETFs with a large position in it. Therefore, without further ado, here are three of the top ETFs with Apple stock exposure. 1. Vanguard Information Technology ETF (NYSEARCA:VGT) Apple is the VGT ETF's top holding with a massive 23.5% weighting. Vanguard funds are known for their …\nArticle 6 provenance: fb1d7b771be74528ce535148ff6ddfdcfe4003c15caff0352614f60727feab33\nArticle 7 date: 2023-06-08\nArticle 7 title: Behold Wall Street's new bull market, maybe\nArticle 7 source: https://www.nasdaq.com/articles/behold-wall-streets-new-bull-market-maybe\nArticle 7 text: By Chuck Mikolajczak NEW YORK, June 8 (Reuters) - S&P 500 .SPX advanced on Thursday, putting the benchmark index up 20% from its October 12 closing low and heralding the start of a new bull market, at least by the definition of some market participants. Part of the uncertainty is that there is no set definition of a bull or bear market, or any sort of regulatory body that declares one, such as the National Bureau of Economic Research (NBER) does with recessions. The most commonly accepted definition is a 20% rise off a low for a bull market and a 20% decline from a high for a bear market, but even that is open to interpretation. \"The problem is there is no authority of rules or regulations on there, 20% came back from the really olden days, like during the First World War, it was the first time we see it,\" said Howard Silverblatt, senior index analyst at S&P Dow Jones Indices in New Yor…\nArticle 7 provenance: fda996c1ec37a69e94170aa1fafe31df6b1ab74f27368592cc24f91dafd9ec5a\nArticle 8 date: 2023-06-08\nArticle 8 title: Behold Wall Street's new bull market, maybe\nArticle 8 source: https://www.nasdaq.com/articles/behold-wall-streets-new-bull-market-maybe-0\nArticle 8 text: By Chuck Mikolajczak NEW YORK, June 8 (Reuters) - S&P 500 .SPX advanced on Thursday, putting the benchmark index up 20% from its Oct. 12 closing low and heralding the start of a new bull market, at least by the definition of some market participants. Part of the uncertainty is that there is no set definition of a bull or bear market, or any sort of regulatory body that declares one, such as the National Bureau of Economic Research (NBER) does with recessions. The S&P 500 rose 0.6% in Thursday's session, lifted by technology stocks, while volatility dropped to record lows ahead of an eventful economic and policy calendar next week. The Nasdaq .IXIC added 1%, and it is now up nearly 30% from its closing low last December. The most commonly accepted definition is a 20% rise off a low for a bull market and a 20% decline from a high for a bear market, but even that is open to interpretation.…\nArticle 8 provenance: 1616860104e930d940edeeaa6a0aed84d2720c8cc6829c633eb6a14033b8b697"
+    },
+    "social_analyst": {
+      "sections": [],
+      "text": ""
+    }
+  },
+  "routing": {
+    "modality_to_analyst": {
+      "IMAGE": "Market Analyst",
+      "TABLE": "Fundamentals Analyst",
+      "TEXT": "News Analyst",
+      "TIME_SERIES": "Market Analyst"
+    },
+    "raw_packet_direct_injection": false,
+    "social_analyst": "NO_FINMULTITIME_EVIDENCE"
+  },
+  "section_sha256": {
+    "IMAGE": "3c4916429398dc61ae2f691297bd87d3dc747ea2677d1143fc2ed8dd20a83187",
+    "TABLE": "101f58486f487d4bb9a2c2159ac9ebc0ca947bb0cf32054a820426b33abbc0a8",
+    "TEXT": "8e22d0e291b11e6f62809393c29da7f2b19d08620da6dbefebf368246fd3d682",
+    "TIME_SERIES": "74211fb9aef9a22ca8885235a17cb84a8d7a901020dea41dd4a065ac2cfde063"
+  },
+  "source_provenance": {
+    "pit_cutoff": "2023-06-09",
+    "task_id": "M2-06"
+  },
+  "symbol": "AMZN",
+  "tier_membership": {
+    "in_compact": true,
+    "in_maximum": true,
+    "in_standard": true
+  }
+}

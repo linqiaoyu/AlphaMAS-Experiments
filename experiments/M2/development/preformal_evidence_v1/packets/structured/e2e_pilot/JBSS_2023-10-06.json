@@ -1,0 +1,236 @@
+{
+  "IMAGE": {
+    "canonical_caption": {
+      "candlestick_structure": "mostly green, with some red",
+      "confidence": "high",
+      "momentum_visual": "increasing",
+      "notable_gap_or_reversal": "none",
+      "other_visible_pattern": "none",
+      "support_resistance_visual": "none",
+      "trend": "upward",
+      "volatility_visual": "moderate",
+      "volume_visual": "none"
+    },
+    "caption_sha256": "44e980fa7768c0cf36961d6c42ea769157e4b989d02b60b37618256028b04d70",
+    "caption_source": "NEW_QWEN_M2_06",
+    "caption_status": "GENERATED",
+    "chart_period": "2023-H1",
+    "evidence_age_calendar_days": 98,
+    "image_sha256": "c7a2a3c59e3762553f94be891d8b2aad22bd0bd9a818ed0061d4869ac98ae628",
+    "inferred_period_end": "2023-06-30",
+    "provenance_hash_reference": "44e980fa7768c0cf36961d6c42ea769157e4b989d02b60b37618256028b04d70",
+    "reason": "",
+    "source_identity": "jbss_2023_H1_candlestick.png",
+    "status": "AVAILABLE"
+  },
+  "TABLE": {
+    "facts": {
+      "Assets": {
+        "accession": "0000950170-23-044160",
+        "filed_date": "2023-08-23",
+        "form": "10-K",
+        "fp": "FY",
+        "fy": 2023,
+        "period_duration_class": "point_in_time",
+        "period_duration_days": null,
+        "period_end": "2023-06-29",
+        "period_start": "",
+        "provenance_hash_reference": "af5c18c2cb7fc1a844d41fe8a140b079b921019e4a9b899802e48b0f97adc986",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 425287000
+      },
+      "Liabilities": {
+        "accession": "0000950170-23-044160",
+        "filed_date": "2023-08-23",
+        "form": "10-K",
+        "fp": "FY",
+        "fy": 2023,
+        "period_duration_class": "point_in_time",
+        "period_duration_days": null,
+        "period_end": "2023-06-29",
+        "period_start": "",
+        "provenance_hash_reference": "aed88b097fa3ff885a4b01da05828d2e3a8163c772b718e7f4e1f7c7227d305a",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 133080000
+      },
+      "NetCashProvidedByUsedInFinancingActivities": {
+        "accession": "0000950170-23-044160",
+        "filed_date": "2023-08-23",
+        "form": "10-K",
+        "fp": "FY",
+        "fy": 2023,
+        "period_duration_class": "annual",
+        "period_duration_days": 364,
+        "period_end": "2023-06-29",
+        "period_start": "2022-07-01",
+        "provenance_hash_reference": "765ba8f98bdf45045bbb88524633db7f2198d07e3acb2555b217ad35470c17fa",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": -98835000
+      },
+      "NetCashProvidedByUsedInInvestingActivities": {
+        "accession": "0000950170-23-044160",
+        "filed_date": "2023-08-23",
+        "form": "10-K",
+        "fp": "FY",
+        "fy": 2023,
+        "period_duration_class": "annual",
+        "period_duration_days": 364,
+        "period_end": "2023-06-29",
+        "period_start": "2022-07-01",
+        "provenance_hash_reference": "7ca389f4b8bb32b2925ce3ecc948cf2043844859adfda735fb785425b6ccd318",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": -24287000
+      },
+      "NetCashProvidedByUsedInOperatingActivities": {
+        "accession": "0000950170-23-044160",
+        "filed_date": "2023-08-23",
+        "form": "10-K",
+        "fp": "FY",
+        "fy": 2023,
+        "period_duration_class": "annual",
+        "period_duration_days": 364,
+        "period_end": "2023-06-29",
+        "period_start": "2022-07-01",
+        "provenance_hash_reference": "188756c9b53f068164d21e8758a0dc9c9474b0d8c43ae4796635cfa432403984",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 124655000
+      },
+      "StockholdersEquity": {
+        "accession": "0000950170-23-044160",
+        "filed_date": "2023-08-23",
+        "form": "10-K",
+        "fp": "FY",
+        "fy": 2023,
+        "period_duration_class": "point_in_time",
+        "period_duration_days": null,
+        "period_end": "2023-06-29",
+        "period_start": "",
+        "provenance_hash_reference": "b5da46bcac1f14bff4882a2e8a4215d8327709ba02d78f7e5f486acfa0cc0d93",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 292207000
+      }
+    },
+    "provenance_hash_reference": "b877d90cea35588301189c663892e48ea451550d5a61c376ad1f6b47c6c932c7",
+    "reason": "",
+    "selection_rule": "frozen six-concept TABLE selection; filed_date < decision session",
+    "source_identity": "financial_reports/jbss/condensed_consolidated_balance_sheets.json;financial_reports/jbss/condensed_consolidated_statement_of_cash_flows.json",
+    "status": "AVAILABLE"
+  },
+  "TEXT": {
+    "evidence_age_calendar_days": null,
+    "provenance_hash_reference": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "reason": "no FinMultiTime news member for target symbol",
+    "records": [],
+    "selection_rule": "frozen bounded TEXT selection; Date < decision session; deterministic order",
+    "source_identity": "",
+    "status": "UNAVAILABLE"
+  },
+  "TIME_SERIES": {
+    "provenance_hash_reference": "571ec3484ffbe96622270514bab2b0dcd8127c69697441d35d9218c9b09dd2c5",
+    "reason": "",
+    "selection_rule": "frozen descriptive summaries from 61 completed source rows; session <= decision",
+    "source_identity": "S&P500_time_series/jbss.csv",
+    "status": "AVAILABLE",
+    "summaries": {
+      "cumulative_return_20d": -0.04256334985511534,
+      "cumulative_return_5d": 0.00860324740995555,
+      "cumulative_return_60d": -0.06320522710681498,
+      "drawdown_from_60d_peak": -0.11662925898190701,
+      "high_low_range_20d": 0.103549485381073,
+      "realised_volatility_20d_annualised": 0.212208571605755,
+      "relative_volume_vs_20d_mean": 0.5832183619716543
+    },
+    "through_session": "2023-10-06"
+  },
+  "agent_text": "=== FINMULTITIME EVIDENCE ===\nSymbol: JBSS\nDecision session: 2023-10-06\n\n[TEXT]\nStatus: UNAVAILABLE\nMissingness reason: no FinMultiTime news member for target symbol\n\n[TABLE]\nStatus: AVAILABLE\nSource: financial_reports/jbss/condensed_consolidated_balance_sheets.json;financial_reports/jbss/condensed_consolidated_statement_of_cash_flows.json\nAssets: value=425287000; unit=USD; form=10-K; fy=2023; fp=FY; period_start=; period_end=2023-06-29; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-08-23; accession=0000950170-23-044160; provenance=af5c18c2cb7fc1a844d41fe8a140b079b921019e4a9b899802e48b0f97adc986\nLiabilities: value=133080000; unit=USD; form=10-K; fy=2023; fp=FY; period_start=; period_end=2023-06-29; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-08-23; accession=0000950170-23-044160; provenance=aed88b097fa3ff885a4b01da05828d2e3a8163c772b718e7f4e1f7c7227d305a\nStockholdersEquity: value=292207000; unit=USD; form=10-K; fy=2023; fp=FY; period_start=; period_end=2023-06-29; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-08-23; accession=0000950170-23-044160; provenance=b5da46bcac1f14bff4882a2e8a4215d8327709ba02d78f7e5f486acfa0cc0d93\nNetCashProvidedByUsedInOperatingActivities: value=124655000; unit=USD; form=10-K; fy=2023; fp=FY; period_start=2022-07-01; period_end=2023-06-29; period_duration_days=364; period_duration_class=annual; filed_date=2023-08-23; accession=0000950170-23-044160; provenance=188756c9b53f068164d21e8758a0dc9c9474b0d8c43ae4796635cfa432403984\nNetCashProvidedByUsedInInvestingActivities: value=-24287000; unit=USD; form=10-K; fy=2023; fp=FY; period_start=2022-07-01; period_end=2023-06-29; period_duration_days=364; period_duration_class=annual; filed_date=2023-08-23; accession=0000950170-23-044160; provenance=7ca389f4b8bb32b2925ce3ecc948cf2043844859adfda735fb785425b6ccd318\nNetCashProvidedByUsedInFinancingActivities: value=-98835000; unit=USD; form=10-K; fy=2023; fp=FY; period_start=2022-07-01; period_end=2023-06-29; period_duration_days=364; period_duration_class=annual; filed_date=2023-08-23; accession=0000950170-23-044160; provenance=765ba8f98bdf45045bbb88524633db7f2198d07e3acb2555b217ad35470c17fa\n\n[TIME_SERIES]\nStatus: AVAILABLE\nThrough session: 2023-10-06\nSource: S&P500_time_series/jbss.csv\ncumulative_return_5d: 0.00860324740995555\ncumulative_return_20d: -0.04256334985511534\ncumulative_return_60d: -0.06320522710681498\nrealised_volatility_20d_annualised: 0.212208571605755\nhigh_low_range_20d: 0.103549485381073\ndrawdown_from_60d_peak: -0.11662925898190701\nrelative_volume_vs_20d_mean: 0.5832183619716543\nProvenance: 571ec3484ffbe96622270514bab2b0dcd8127c69697441d35d9218c9b09dd2c5\n\n[IMAGE]\nStatus: AVAILABLE\nChart period: 2023-H1\nInferred period end: 2023-06-30\nEvidence age (calendar days): 98\nSource: jbss_2023_H1_candlestick.png\nCanonical caption: {\"candlestick_structure\":\"mostly green, with some red\",\"confidence\":\"high\",\"momentum_visual\":\"increasing\",\"notable_gap_or_reversal\":\"none\",\"other_visible_pattern\":\"none\",\"support_resistance_visual\":\"none\",\"trend\":\"upward\",\"volatility_visual\":\"moderate\",\"volume_visual\":\"none\"}\nCaption provenance: 44e980fa7768c0cf36961d6c42ea769157e4b989d02b60b37618256028b04d70\n=== END FINMULTITIME EVIDENCE ===\n",
+  "available_for_training": false,
+  "available_for_validation": false,
+  "case_id": "JBSS:2023-10-06",
+  "character_counts": {
+    "complete": 3298,
+    "fundamentals": 2067,
+    "market": 997,
+    "news": 85
+  },
+  "contract_version": "M1-FINMULTITIME-v1.0.2",
+  "dataset_id": "m2_preformal_evidence_v1",
+  "decision_session": "2023-10-06",
+  "decision_time": "2023-10-06T20:00:00+00:00",
+  "engineering_only": true,
+  "m2_metadata": {
+    "available_for_training": false,
+    "available_for_validation": false,
+    "engineering_only": true,
+    "performance_for_selection": false,
+    "protected": false,
+    "role": "E2E_PILOT",
+    "tier_membership": {
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    }
+  },
+  "packet_sha256": "bbaccd0a3dfdc6dd6eb1bae5a35a05f05a7574271abecf1f20eda7ac722b85b8",
+  "packet_status": "FINAL_FROZEN",
+  "performance_for_selection": false,
+  "protected": false,
+  "record_type": "m1_finmultitime_evidence_packet",
+  "role": "E2E_PILOT",
+  "routed_projections": {
+    "fundamentals_analyst": {
+      "sections": [
+        "TABLE"
+      ],
+      "text": "Status: AVAILABLE\nSource: financial_reports/jbss/condensed_consolidated_balance_sheets.json;financial_reports/jbss/condensed_consolidated_statement_of_cash_flows.json\nAssets: value=425287000; unit=USD; form=10-K; fy=2023; fp=FY; period_start=; period_end=2023-06-29; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-08-23; accession=0000950170-23-044160; provenance=af5c18c2cb7fc1a844d41fe8a140b079b921019e4a9b899802e48b0f97adc986\nLiabilities: value=133080000; unit=USD; form=10-K; fy=2023; fp=FY; period_start=; period_end=2023-06-29; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-08-23; accession=0000950170-23-044160; provenance=aed88b097fa3ff885a4b01da05828d2e3a8163c772b718e7f4e1f7c7227d305a\nStockholdersEquity: value=292207000; unit=USD; form=10-K; fy=2023; fp=FY; period_start=; period_end=2023-06-29; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-08-23; accession=0000950170-23-044160; provenance=b5da46bcac1f14bff4882a2e8a4215d8327709ba02d78f7e5f486acfa0cc0d93\nNetCashProvidedByUsedInOperatingActivities: value=124655000; unit=USD; form=10-K; fy=2023; fp=FY; period_start=2022-07-01; period_end=2023-06-29; period_duration_days=364; period_duration_class=annual; filed_date=2023-08-23; accession=0000950170-23-044160; provenance=188756c9b53f068164d21e8758a0dc9c9474b0d8c43ae4796635cfa432403984\nNetCashProvidedByUsedInInvestingActivities: value=-24287000; unit=USD; form=10-K; fy=2023; fp=FY; period_start=2022-07-01; period_end=2023-06-29; period_duration_days=364; period_duration_class=annual; filed_date=2023-08-23; accession=0000950170-23-044160; provenance=7ca389f4b8bb32b2925ce3ecc948cf2043844859adfda735fb785425b6ccd318\nNetCashProvidedByUsedInFinancingActivities: value=-98835000; unit=USD; form=10-K; fy=2023; fp=FY; period_start=2022-07-01; period_end=2023-06-29; period_duration_days=364; period_duration_class=annual; filed_date=2023-08-23; accession=0000950170-23-044160; provenance=765ba8f98bdf45045bbb88524633db7f2198d07e3acb2555b217ad35470c17fa"
+    },
+    "market_analyst": {
+      "sections": [
+        "TIME_SERIES",
+        "IMAGE"
+      ],
+      "text": "Status: AVAILABLE\nThrough session: 2023-10-06\nSource: S&P500_time_series/jbss.csv\ncumulative_return_5d: 0.00860324740995555\ncumulative_return_20d: -0.04256334985511534\ncumulative_return_60d: -0.06320522710681498\nrealised_volatility_20d_annualised: 0.212208571605755\nhigh_low_range_20d: 0.103549485381073\ndrawdown_from_60d_peak: -0.11662925898190701\nrelative_volume_vs_20d_mean: 0.5832183619716543\nProvenance: 571ec3484ffbe96622270514bab2b0dcd8127c69697441d35d9218c9b09dd2c5\n\nStatus: AVAILABLE\nChart period: 2023-H1\nInferred period end: 2023-06-30\nEvidence age (calendar days): 98\nSource: jbss_2023_H1_candlestick.png\nCanonical caption: {\"candlestick_structure\":\"mostly green, with some red\",\"confidence\":\"high\",\"momentum_visual\":\"increasing\",\"notable_gap_or_reversal\":\"none\",\"other_visible_pattern\":\"none\",\"support_resistance_visual\":\"none\",\"trend\":\"upward\",\"volatility_visual\":\"moderate\",\"volume_visual\":\"none\"}\nCaption provenance: 44e980fa7768c0cf36961d6c42ea769157e4b989d02b60b37618256028b04d70"
+    },
+    "news_analyst": {
+      "sections": [
+        "TEXT"
+      ],
+      "text": "Status: UNAVAILABLE\nMissingness reason: no FinMultiTime news member for target symbol"
+    },
+    "social_analyst": {
+      "sections": [],
+      "text": ""
+    }
+  },
+  "routing": {
+    "modality_to_analyst": {
+      "IMAGE": "Market Analyst",
+      "TABLE": "Fundamentals Analyst",
+      "TEXT": "News Analyst",
+      "TIME_SERIES": "Market Analyst"
+    },
+    "raw_packet_direct_injection": false,
+    "social_analyst": "NO_FINMULTITIME_EVIDENCE"
+  },
+  "section_sha256": {
+    "IMAGE": "298777d58aea49887b1966a3c3945fe08533a68030155366b676697af2d6c788",
+    "TABLE": "573f38af4688cd5c4d871c2ff2d138681803842338ff406f2f058909f7f7d7a8",
+    "TEXT": "d3f2a8de4dad7f38eceb9748107aab161a9efa17964919658eb5d5bd81d8e1c6",
+    "TIME_SERIES": "43476275cd875bcdb73e3334d6c778c27e77a77625e41abf3486c14104c0484f"
+  },
+  "source_provenance": {
+    "pit_cutoff": "2023-10-06",
+    "task_id": "M2-06"
+  },
+  "symbol": "JBSS",
+  "tier_membership": {
+    "in_compact": true,
+    "in_maximum": true,
+    "in_standard": true
+  }
+}

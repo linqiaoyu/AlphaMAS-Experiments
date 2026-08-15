@@ -1,0 +1,185 @@
+{
+  "IMAGE": {
+    "canonical_caption": {
+      "candlestick_structure": "mostly green, with some red, indicating mostly bullish, with some bearish",
+      "confidence": "moderate",
+      "momentum_visual": "generally increasing, then decreasing, then increasing, then decreasing",
+      "notable_gap_or_reversal": "no significant gap or reversal",
+      "other_visible_pattern": "no other visible patterns",
+      "support_resistance_visual": "no clear support or resistance levels visible",
+      "trend": "upward, then downward, then upward, then downward",
+      "volatility_visual": "high in early months, then moderate, then high again",
+      "volume_visual": "not visible"
+    },
+    "caption_sha256": "556627f4fc452be5b3a35bd80c2ab31b07b70ae358a166f54093338aadf6c312",
+    "caption_source": "NEW_QWEN_M2_06",
+    "caption_status": "GENERATED",
+    "chart_period": "2023-H1",
+    "evidence_age_calendar_days": 28,
+    "image_sha256": "88e4d13673a4574aaa10b91ea6a161eecbd26a3cc888a594e88c9605ba77baf8",
+    "inferred_period_end": "2023-06-30",
+    "provenance_hash_reference": "556627f4fc452be5b3a35bd80c2ab31b07b70ae358a166f54093338aadf6c312",
+    "reason": "",
+    "source_identity": "agi_2023_H1_candlestick.png",
+    "status": "AVAILABLE"
+  },
+  "TABLE": {
+    "facts": {
+      "Assets": {
+        "reason": "no canonical PIT-safe selected fact",
+        "status": "UNAVAILABLE"
+      },
+      "Liabilities": {
+        "reason": "no canonical PIT-safe selected fact",
+        "status": "UNAVAILABLE"
+      },
+      "NetCashProvidedByUsedInFinancingActivities": {
+        "reason": "no canonical PIT-safe selected fact",
+        "status": "UNAVAILABLE"
+      },
+      "NetCashProvidedByUsedInInvestingActivities": {
+        "reason": "no canonical PIT-safe selected fact",
+        "status": "UNAVAILABLE"
+      },
+      "NetCashProvidedByUsedInOperatingActivities": {
+        "reason": "no canonical PIT-safe selected fact",
+        "status": "UNAVAILABLE"
+      },
+      "StockholdersEquity": {
+        "reason": "no canonical PIT-safe selected fact",
+        "status": "UNAVAILABLE"
+      }
+    },
+    "provenance_hash_reference": "31ed97d48e36ee55b3b17701feea5389c90606b5d1870f8cbaf95d6d468f5ad9",
+    "reason": "no PIT-safe canonical fact for one or more concepts",
+    "selection_rule": "frozen six-concept TABLE selection; filed_date < decision session",
+    "source_identity": "",
+    "status": "UNAVAILABLE"
+  },
+  "TEXT": {
+    "evidence_age_calendar_days": 15,
+    "provenance_hash_reference": "fd2e1055ac9e4e6cdad7ca0eed16fa448d8484d1fda18e6256efcf66e5497995",
+    "reason": "",
+    "records": [
+      {
+        "article_date": "2023-07-13",
+        "body": "In recent trading, shares of Alamos Gold Inc (Symbol: AGI) have crossed above the average analyst 12-month target price of $12.22, changing hands for $12.68/share. When a stock reaches the target an analyst has set, the analyst logically has two ways to react: downgrade on valuation, or, re-adjust their target price to a higher level. Analyst reaction may also depend on the fundamental business developments that may be responsible for driving the stock price higher — if things are looking up for the company, perhaps it is time for that target price to be raised. There are 11 different analyst targets within the Zacks coverage universe contributing to that average for Alamos Gold Inc , but the average is just that — a mathematical average. There are analysts with lower targets than the average, including one looking for a price of $8.08. And then on the other side of the spectrum one ana…",
+        "provenance_hash_reference": "e146800ce59d946c8f303a5e5eadd76f5a059657fb6585712ae67f3ee52f4888",
+        "source": "https://www.nasdaq.com/articles/agi-crosses-above-average-analyst-target-0",
+        "title": "AGI Crosses Above Average Analyst Target"
+      },
+      {
+        "article_date": "2023-07-07",
+        "body": "Investors in Alamos Gold Inc (Symbol: AGI) saw new options become available this week, for the August 18th expiration. At Stock Options Channel, our YieldBoost formula has looked up and down the AGI options chain for the new August 18th contracts and identified one put and one call contract of particular interest. The put contract at the $11.00 strike price has a current bid of 20 cents. If an investor was to sell-to-open that put contract, they are committing to purchase the stock at $11.00, but will also collect the premium, putting the cost basis of the shares at $10.80 (before broker commissions). To an investor already interested in purchasing shares of AGI, that could represent an attractive alternative to paying $11.66/share today. Because the $11.00 strike represents an approximate 6% discount to the current trading price of the stock (in other words it is out-of-the-money by th…",
+        "provenance_hash_reference": "0b198a033374efad7473a87d55f4323b27d0aed08f79bbf40fa3ddb54dcb6821",
+        "source": "https://www.nasdaq.com/articles/first-week-of-august-18th-options-trading-for-alamos-gold-agi",
+        "title": "First Week of August 18th Options Trading For Alamos Gold (AGI)"
+      }
+    ],
+    "selection_rule": "frozen bounded TEXT selection; Date < decision session; deterministic order",
+    "source_identity": "sp500_news/AGI.jsonl",
+    "status": "AVAILABLE"
+  },
+  "TIME_SERIES": {
+    "provenance_hash_reference": "594924155640e4077ddb0561823afa46a9fe539debeebe6aaed46e668bf7f292",
+    "reason": "",
+    "selection_rule": "frozen descriptive summaries from 61 completed source rows; session <= decision",
+    "source_identity": "S&P500_time_series/agi.csv",
+    "status": "AVAILABLE",
+    "summaries": {
+      "cumulative_return_20d": 0.03751074815348243,
+      "cumulative_return_5d": -0.020128898553957053,
+      "cumulative_return_60d": -0.0960262657923977,
+      "drawdown_from_60d_peak": -0.11761174993990164,
+      "high_low_range_20d": 0.13454850934801477,
+      "realised_volatility_20d_annualised": 0.38622200164370984,
+      "relative_volume_vs_20d_mean": 1.0365602597743666
+    },
+    "through_session": "2023-07-28"
+  },
+  "agent_text": "=== FINMULTITIME EVIDENCE ===\nSymbol: AGI\nDecision session: 2023-07-28\n\n[TEXT]\nStatus: AVAILABLE\nEvidence age (calendar days): 15\nSource: sp500_news/AGI.jsonl\nArticle 1 date: 2023-07-13\nArticle 1 title: AGI Crosses Above Average Analyst Target\nArticle 1 source: https://www.nasdaq.com/articles/agi-crosses-above-average-analyst-target-0\nArticle 1 text: In recent trading, shares of Alamos Gold Inc (Symbol: AGI) have crossed above the average analyst 12-month target price of $12.22, changing hands for $12.68/share. When a stock reaches the target an analyst has set, the analyst logically has two ways to react: downgrade on valuation, or, re-adjust their target price to a higher level. Analyst reaction may also depend on the fundamental business developments that may be responsible for driving the stock price higher — if things are looking up for the company, perhaps it is time for that target price to be raised. There are 11 different analyst targets within the Zacks coverage universe contributing to that average for Alamos Gold Inc , but the average is just that — a mathematical average. There are analysts with lower targets than the average, including one looking for a price of $8.08. And then on the other side of the spectrum one ana…\nArticle 1 provenance: e146800ce59d946c8f303a5e5eadd76f5a059657fb6585712ae67f3ee52f4888\nArticle 2 date: 2023-07-07\nArticle 2 title: First Week of August 18th Options Trading For Alamos Gold (AGI)\nArticle 2 source: https://www.nasdaq.com/articles/first-week-of-august-18th-options-trading-for-alamos-gold-agi\nArticle 2 text: Investors in Alamos Gold Inc (Symbol: AGI) saw new options become available this week, for the August 18th expiration. At Stock Options Channel, our YieldBoost formula has looked up and down the AGI options chain for the new August 18th contracts and identified one put and one call contract of particular interest. The put contract at the $11.00 strike price has a current bid of 20 cents. If an investor was to sell-to-open that put contract, they are committing to purchase the stock at $11.00, but will also collect the premium, putting the cost basis of the shares at $10.80 (before broker commissions). To an investor already interested in purchasing shares of AGI, that could represent an attractive alternative to paying $11.66/share today. Because the $11.00 strike represents an approximate 6% discount to the current trading price of the stock (in other words it is out-of-the-money by th…\nArticle 2 provenance: 0b198a033374efad7473a87d55f4323b27d0aed08f79bbf40fa3ddb54dcb6821\n\n[TABLE]\nStatus: UNAVAILABLE\nMissingness reason: no PIT-safe canonical fact for one or more concepts\nSource: \nAssets: UNAVAILABLE\nLiabilities: UNAVAILABLE\nStockholdersEquity: UNAVAILABLE\nNetCashProvidedByUsedInOperatingActivities: UNAVAILABLE\nNetCashProvidedByUsedInInvestingActivities: UNAVAILABLE\nNetCashProvidedByUsedInFinancingActivities: UNAVAILABLE\n\n[TIME_SERIES]\nStatus: AVAILABLE\nThrough session: 2023-07-28\nSource: S&P500_time_series/agi.csv\ncumulative_return_5d: -0.020128898553957053\ncumulative_return_20d: 0.03751074815348243\ncumulative_return_60d: -0.0960262657923977\nrealised_volatility_20d_annualised: 0.38622200164370984\nhigh_low_range_20d: 0.13454850934801477\ndrawdown_from_60d_peak: -0.11761174993990164\nrelative_volume_vs_20d_mean: 1.0365602597743666\nProvenance: 594924155640e4077ddb0561823afa46a9fe539debeebe6aaed46e668bf7f292\n\n[IMAGE]\nStatus: AVAILABLE\nChart period: 2023-H1\nInferred period end: 2023-06-30\nEvidence age (calendar days): 28\nSource: agi_2023_H1_candlestick.png\nCanonical caption: {\"candlestick_structure\":\"mostly green, with some red, indicating mostly bullish, with some bearish\",\"confidence\":\"moderate\",\"momentum_visual\":\"generally increasing, then decreasing, then increasing, then decreasing\",\"notable_gap_or_reversal\":\"no significant gap or reversal\",\"other_visible_pattern\":\"no other visible patterns\",\"support_resistance_visual\":\"no clear support or resistance levels visible\",\"trend\":\"upward, then downward, then upward, then downward\",\"volatility_visual\":\"high in early months, then moderate, then high again\",\"volume_visual\":\"not visible\"}\nCaption provenance: 556627f4fc452be5b3a35bd80c2ab31b07b70ae358a166f54093338aadf6c312\n=== END FINMULTITIME EVIDENCE ===\n",
+  "available_for_training": false,
+  "available_for_validation": false,
+  "case_id": "AGI:2023-07-28",
+  "character_counts": {
+    "complete": 4270,
+    "fundamentals": 345,
+    "market": 1292,
+    "news": 2485
+  },
+  "contract_version": "M1-FINMULTITIME-v1.0.2",
+  "dataset_id": "m2_preformal_evidence_v1",
+  "decision_session": "2023-07-28",
+  "decision_time": "2023-07-28T20:00:00+00:00",
+  "engineering_only": false,
+  "m2_metadata": {
+    "available_for_training": false,
+    "available_for_validation": false,
+    "engineering_only": false,
+    "performance_for_selection": false,
+    "protected": true,
+    "role": "FINAL_HOLDOUT",
+    "tier_membership": {
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    }
+  },
+  "packet_sha256": "01bca0a68b2f1fe932484288f648876ce0a1f687b89a89fffac51fdf55c6bb35",
+  "packet_status": "FINAL_FROZEN",
+  "performance_for_selection": false,
+  "protected": true,
+  "record_type": "m1_finmultitime_evidence_packet",
+  "role": "FINAL_HOLDOUT",
+  "routed_projections": {
+    "fundamentals_analyst": {
+      "sections": [
+        "TABLE"
+      ],
+      "text": "Status: UNAVAILABLE\nMissingness reason: no PIT-safe canonical fact for one or more concepts\nSource: \nAssets: UNAVAILABLE\nLiabilities: UNAVAILABLE\nStockholdersEquity: UNAVAILABLE\nNetCashProvidedByUsedInOperatingActivities: UNAVAILABLE\nNetCashProvidedByUsedInInvestingActivities: UNAVAILABLE\nNetCashProvidedByUsedInFinancingActivities: UNAVAILABLE"
+    },
+    "market_analyst": {
+      "sections": [
+        "TIME_SERIES",
+        "IMAGE"
+      ],
+      "text": "Status: AVAILABLE\nThrough session: 2023-07-28\nSource: S&P500_time_series/agi.csv\ncumulative_return_5d: -0.020128898553957053\ncumulative_return_20d: 0.03751074815348243\ncumulative_return_60d: -0.0960262657923977\nrealised_volatility_20d_annualised: 0.38622200164370984\nhigh_low_range_20d: 0.13454850934801477\ndrawdown_from_60d_peak: -0.11761174993990164\nrelative_volume_vs_20d_mean: 1.0365602597743666\nProvenance: 594924155640e4077ddb0561823afa46a9fe539debeebe6aaed46e668bf7f292\n\nStatus: AVAILABLE\nChart period: 2023-H1\nInferred period end: 2023-06-30\nEvidence age (calendar days): 28\nSource: agi_2023_H1_candlestick.png\nCanonical caption: {\"candlestick_structure\":\"mostly green, with some red, indicating mostly bullish, with some bearish\",\"confidence\":\"moderate\",\"momentum_visual\":\"generally increasing, then decreasing, then increasing, then decreasing\",\"notable_gap_or_reversal\":\"no significant gap or reversal\",\"other_visible_pattern\":\"no other visible patterns\",\"support_resistance_visual\":\"no clear support or resistance levels visible\",\"trend\":\"upward, then downward, then upward, then downward\",\"volatility_visual\":\"high in early months, then moderate, then high again\",\"volume_visual\":\"not visible\"}\nCaption provenance: 556627f4fc452be5b3a35bd80c2ab31b07b70ae358a166f54093338aadf6c312"
+    },
+    "news_analyst": {
+      "sections": [
+        "TEXT"
+      ],
+      "text": "Status: AVAILABLE\nEvidence age (calendar days): 15\nSource: sp500_news/AGI.jsonl\nArticle 1 date: 2023-07-13\nArticle 1 title: AGI Crosses Above Average Analyst Target\nArticle 1 source: https://www.nasdaq.com/articles/agi-crosses-above-average-analyst-target-0\nArticle 1 text: In recent trading, shares of Alamos Gold Inc (Symbol: AGI) have crossed above the average analyst 12-month target price of $12.22, changing hands for $12.68/share. When a stock reaches the target an analyst has set, the analyst logically has two ways to react: downgrade on valuation, or, re-adjust their target price to a higher level. Analyst reaction may also depend on the fundamental business developments that may be responsible for driving the stock price higher — if things are looking up for the company, perhaps it is time for that target price to be raised. There are 11 different analyst targets within the Zacks coverage universe contributing to that average for Alamos Gold Inc , but the average is just that — a mathematical average. There are analysts with lower targets than the average, including one looking for a price of $8.08. And then on the other side of the spectrum one ana…\nArticle 1 provenance: e146800ce59d946c8f303a5e5eadd76f5a059657fb6585712ae67f3ee52f4888\nArticle 2 date: 2023-07-07\nArticle 2 title: First Week of August 18th Options Trading For Alamos Gold (AGI)\nArticle 2 source: https://www.nasdaq.com/articles/first-week-of-august-18th-options-trading-for-alamos-gold-agi\nArticle 2 text: Investors in Alamos Gold Inc (Symbol: AGI) saw new options become available this week, for the August 18th expiration. At Stock Options Channel, our YieldBoost formula has looked up and down the AGI options chain for the new August 18th contracts and identified one put and one call contract of particular interest. The put contract at the $11.00 strike price has a current bid of 20 cents. If an investor was to sell-to-open that put contract, they are committing to purchase the stock at $11.00, but will also collect the premium, putting the cost basis of the shares at $10.80 (before broker commissions). To an investor already interested in purchasing shares of AGI, that could represent an attractive alternative to paying $11.66/share today. Because the $11.00 strike represents an approximate 6% discount to the current trading price of the stock (in other words it is out-of-the-money by th…\nArticle 2 provenance: 0b198a033374efad7473a87d55f4323b27d0aed08f79bbf40fa3ddb54dcb6821"
+    },
+    "social_analyst": {
+      "sections": [],
+      "text": ""
+    }
+  },
+  "routing": {
+    "modality_to_analyst": {
+      "IMAGE": "Market Analyst",
+      "TABLE": "Fundamentals Analyst",
+      "TEXT": "News Analyst",
+      "TIME_SERIES": "Market Analyst"
+    },
+    "raw_packet_direct_injection": false,
+    "social_analyst": "NO_FINMULTITIME_EVIDENCE"
+  },
+  "section_sha256": {
+    "IMAGE": "50b1e27b9e9c79e3a66c8eb68843eb74c066bb1588b0fc988e127b96b1cf0eaf",
+    "TABLE": "e05af090ec3974ea4ca645ebeb821a170aaa1d13accd6b1e3e944907f2ee88cc",
+    "TEXT": "5bdbb621f4c633a6e4eb19c22e4408a655bf954ea08ce158bd12bd47d00af881",
+    "TIME_SERIES": "687eeb7234b8835824266dffd2d80962ec951cf4e4265ec1b69cc34be601fb79"
+  },
+  "source_provenance": {
+    "pit_cutoff": "2023-07-28",
+    "task_id": "M2-06"
+  },
+  "symbol": "AGI",
+  "tier_membership": {
+    "in_compact": true,
+    "in_maximum": true,
+    "in_standard": true
+  }
+}

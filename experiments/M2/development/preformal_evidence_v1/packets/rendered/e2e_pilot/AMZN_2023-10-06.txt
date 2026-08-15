@@ -1,0 +1,81 @@
+=== FINMULTITIME EVIDENCE ===
+Symbol: AMZN
+Decision session: 2023-10-06
+
+[TEXT]
+Status: AVAILABLE
+Evidence age (calendar days): 1
+Source: sp500_news/AMZN.jsonl
+Article 1 date: 2023-10-05
+Article 1 title: 3 Top E-Commerce Stocks to Buy in October
+Article 1 source: https://www.nasdaq.com/articles/3-top-e-commerce-stocks-to-buy-in-october-0
+Article 1 text: Growth stocks took a big hit in the market sell-off last year, and within this group, the sector that took one of the hardest hits was online retail (e-commerce) stocks. As the market inches toward recovery in 2023 and inflation concerns ease, investors who focus on purchasing stock in leading e-commerce brands could position their portfolios for above-average returns. Part of the reason why this sector holds such potential is still in recovery mode. Another big reason is that global e-commerce spending is on track to top $6 trillion this year (up from $5.54 trillion in 2022), and eMarketer estimates it will grow to $7.4 trillion by 2025. Given all that potential e-commerce growth, here are three stocks set to benefit that you might want to consider buying in October. 1. Apple Apple (NASDAQ: AAPL) sees more of its total sales coming from what it sells on its Apple.com online store with …
+Article 1 provenance: 081383a838dab7decaf5228e28e4e4f8ce6da28f40595e39364e7c6699703bf3
+Article 2 date: 2023-10-05
+Article 2 title: 5 Large-Cap Growth Stocks to Buy for Q4 2023
+Article 2 source: https://www.nasdaq.com/articles/5-large-cap-growth-stocks-to-buy-for-q4-2023
+Article 2 text: Wall Street started October with a volatile trading pattern like the last two months. The Fed kept the benchmark lending rate unchanged at the existing 5.25-5.5% range at its September FOMC meeting. Market participants were widely expecting a status quo. However, the post-FOMC statement of Fed Chairman Jerome Powell created uncertainty among investors. Although the Fed paused its rate hike in the September FOMC meeting, the current dot-plot has shown a strong likelihood of one more hike of 25 basis points in 2023. That will take the terminal interest rate of this hiking cycle to 5.6%, well above the 5.1% forecast in June. Notably, the current range of the Fed fund rate is the highest level since March 2001. More importantly, the central bank said it would keep interest rates higher for a longer time. The new projection has shown two rate cuts in 2024 instead of four projected in June. T…
+Article 2 provenance: d2eebd2396c8fbabc8112d246b7b08505241b1cfb7a075dbd06e4b4ece7aa560
+Article 3 date: 2023-10-05
+Article 3 title: Amazon Stock: 3 Reasons Why the 13% Pullback Looks Like a Great Buying Opportunity
+Article 3 source: https://www.nasdaq.com/articles/amazon-stock%3A-3-reasons-why-the-13-pullback-looks-like-a-great-buying-opportunity
+Article 3 text: Amazon (AMZN) stock has not been able to steer clear of broader market volatility, with the stock sinking as low as 15% off its 52-week highs of nearly $146 per share before bouncing back modestly. Today, shares of the e-commerce and cloud darling are down around 13% from those early August highs - and plenty of analysts seem to think the dip is worth buying into, as the company continues innovating on numerous fronts. www.barchart.com Indeed, it's been quite a recovery year for Amazon stock, which is up nearly 49% year to date. Though shares are still over 33% off the all-time highs set in 2021 - thanks in part to overinvestment in capacity amid short-lived pandemic tailwinds - I do view the newer highs as breachable over the medium term, especially as the company looks to put the finishing touches a couple of new growth drivers. Generative AI Could Drive Growth First, Amazon is bettin…
+Article 3 provenance: 8a414ebc355622f15602caacad0449b30e3ed6705c38763a6a51a3081b29432c
+Article 4 date: 2023-10-05
+Article 4 title: Amazon Stock (NASDAQ:AMZN): What’s Ahead as It Eyes Profitability, Prioritizes AI
+Article 4 source: https://www.nasdaq.com/articles/amazon-stock-nasdaq%3Aamzn%3A-whats-ahead-as-it-eyes-profitability-prioritizes-ai
+Article 4 text: 2023 is the year of efficiency for Amazon (NASDAQ:AMZN), as the company is looking to enhance its profitability through cost discipline. In addition, the Internet commerce and cloud company is prioritizing its AI (artificial intelligence) strategy to integrate this transformative technology into its AWS’ (Amazon Web Services) suite of services to maintain its leadership in the cloud space. These initiatives keep analysts, who see substantial upside potential in AMZN stock, optimistic about its prospects.  Therefore, let’s delve into AMZN’s initiatives aimed at driving profitability and strengthening its position in the AI space. Amazon Shuttering Businesses As part of its broader cost restructuring strategy, Amazon is closing down several of its businesses, as they weren’t producing the returns the company hoped for. Amazon is winding down its live radio app Amp, which enabled users to …
+Article 4 provenance: ca3c66caecc1d04e0fd7bc2c26d77bab5e3bf6c9e98b830465b1e58301514657
+Article 5 date: 2023-10-05
+Article 5 title: Amazon's 'Prime Big Deal Days' Starts On 10th October
+Article 5 source: https://www.nasdaq.com/articles/amazons-prime-big-deal-days-starts-on-10th-october
+Article 5 text: (RTTNews) - Amazon's Prime Big Deal Days starts on October 10 and will continue through October 11. The prime deals are expected to start at 3 am EST Tuesday morning. The company noted that Prime Big Deal Days will offer some of its best savings of the holiday season, exclusively for Prime members, including millions of deals worldwide and even more deals than last year's October holiday kick-off event. The two-day savings bonanza will offer savings across top categories, including electronics, toys, home, fashion, beauty, and Amazon devices. Amazon noted that prime members can sign up now for Invite-only deals at an exclusive deal price before the event begins. These include 60% off the 50-inch Amazon Fire TV Omni Series, the Hisense 50-inch U6 4K QLED Fire TV, and Blink smart home security, and additional savings across brands like SodaStream, Citizen, and Jabra. The prime members can…
+Article 5 provenance: 6adfca440088ec233ab54d1b66f7c23ec9bb49f241928151769770c93137e2db
+Article 6 date: 2023-10-05
+Article 6 title: Company News for Oct 5, 2023
+Article 6 source: https://www.nasdaq.com/articles/company-news-for-oct-5-2023
+Article 6 text: Shares of RPM International Inc. RPM gained 6.3% after the company reported first-quarter fiscal 2024 revenues of $2.01 billion, beating the Zacks Consensus Estimate of $1.96 billion. Shares of Amazon.com, Inc. AMZN rose 1.8% on mega-cap growth stocks rebounding in the session. Shares of Acuity Brands, Inc. AYI jumped 6.9% after the company reported fourth-quarter fiscal 2023 earnings of $3.97 per share, beating the Zacks Consensus Estimate of $3.57. Shares of Devon Energy Corporation DVN plunged 5.3% on the energy slump. Zacks Names #1 Semiconductor Stock It's only 1/9,000th the size of NVIDIA which skyrocketed more than +800% since we recommended it. NVIDIA is still strong, but our new top chip stock has much more room to boom. With strong earnings growth and an expanding customer base, it's positioned to feed the rampant demand for Artificial Intelligence, Machine Learning, and Inter…
+Article 6 provenance: 14a1cdf651c8034f1ed123f18351f4927faa9e642dd204a77a37284e2c766b56
+Article 7 date: 2023-10-05
+Article 7 title: Disney's (DIS) World Resort Announces New Discounted Tickets
+Article 7 source: https://www.nasdaq.com/articles/disneys-dis-world-resort-announces-new-discounted-tickets
+Article 7 text: Walt Disney DIS-owned Walt Disney World has announced new and limited-time discounts on children’s tickets at Disneyland and Disney World, which will run in spring and summer 2024.  Starting on Nov 14, 2023, Walt Disney World is set to offer a special package for families. Children's (aged three to nine years) theme park tickets and dining plans will be half off with the purchase of a non-discounted four-night, four-day Walt Disney Travel Co. package. This package includes a room at a selected Disney Resort hotel, theme park tickets and a dining plan. The offer is valid for stays from Mar 3 to Jun 30, 2024.  Starting from Jan 9, 2024, theme park reservations will no longer be required for standard and date-based tickets. However, certain admission types may still require reservations and one can check the DisneyWorld.com website for details.  There are more than 25 Disney Resorts to cho…
+Article 7 provenance: 0bc6fa40ee185a6b7aed03875ab7ada19baf37ed996df6e17e42edea287f4166
+Article 8 date: 2023-10-05
+Article 8 title: ETFs That Could Be Impacted by the Student Loan Payment Restart
+Article 8 source: https://www.nasdaq.com/articles/etfs-that-could-be-impacted-by-the-student-loan-payment-restart
+Article 8 text: As one of the largest forms of consumer borrowing recently, student debt has surged significantly in the last decade. According to Council on Foreign Relations, $1.6 trillion which is collectively owed by around 44 million U.S. borrowers raise questions about the current federal lending policies. Over the last two decades, student debt has experienced a twofold increase in quantity. When factoring in additional private loans, this total is more than $1.7 trillion, surpassing both auto loans and credit card debt. The staggering $1.7 trillion debt is only eclipsed by home mortgage debt, which comes in at $12 trillion. According to Education Initiative Data, the economic effect of increasing student debt has a similar effect as a recession, restricting business growth and reducing consumer expenditure. Between 2019 and 2023, average student loan debt increased by 3.6%, while the U.S. econo…
+Article 8 provenance: c46df433607dedcf9083baed369160a263d367a735c96a96b080b042fa3fdca4
+
+[TABLE]
+Status: AVAILABLE
+Source: financial_reports/amzn/condensed_consolidated_balance_sheets.json;financial_reports/amzn/condensed_consolidated_statement_of_cash_flows.json
+Assets: value=477607000000; unit=USD; form=10-Q; fy=2023; fp=Q2; period_start=; period_end=2023-06-30; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-08-04; accession=0001018724-23-000012; provenance=30e6763b8f7b6e9d1941aadf42d009edb180fe6a0ec3c1a7db79ee800afe4590
+Liabilities: UNAVAILABLE
+StockholdersEquity: value=168602000000; unit=USD; form=10-Q; fy=2023; fp=Q2; period_start=; period_end=2023-06-30; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-08-04; accession=0001018724-23-000012; provenance=2aa415fff973a601e62b502b36c7e87e0d8dab2c948599daa7f417e011327670
+NetCashProvidedByUsedInOperatingActivities: value=21264000000; unit=USD; form=10-Q; fy=2023; fp=Q2; period_start=2023-01-01; period_end=2023-06-30; period_duration_days=181; period_duration_class=year_to_date_6m; filed_date=2023-08-04; accession=0001018724-23-000012; provenance=f0fdd240064c50a24e508e1bd2f64d82713e318c37b9c1ecfd033de8f823c3d0
+NetCashProvidedByUsedInInvestingActivities: value=-25479000000; unit=USD; form=10-Q; fy=2023; fp=Q2; period_start=2023-01-01; period_end=2023-06-30; period_duration_days=181; period_duration_class=year_to_date_6m; filed_date=2023-08-04; accession=0001018724-23-000012; provenance=5a854abb447f1e8ad9a77403245030d78a1101c8265140800b5e6d90a7e3e619
+NetCashProvidedByUsedInFinancingActivities: value=-185000000; unit=USD; form=10-Q; fy=2023; fp=Q2; period_start=2023-01-01; period_end=2023-06-30; period_duration_days=181; period_duration_class=year_to_date_6m; filed_date=2023-08-04; accession=0001018724-23-000012; provenance=59397bc708e302299969cdc22a5e214b6542b177c8405ccd5a1a722b6e601a10
+
+[TIME_SERIES]
+Status: AVAILABLE
+Through session: 2023-10-06
+Source: S&P500_time_series/amzn.csv
+cumulative_return_5d: 0.006607900564360225
+cumulative_return_20d: -0.07429644042895933
+cumulative_return_60d: -0.04720777232478379
+realised_volatility_20d_annualised: 0.35576235415484797
+high_low_range_20d: 0.18546813658178696
+drawdown_from_60d_peak: -0.11660342635382903
+relative_volume_vs_20d_mean: 0.8268837084954814
+Provenance: 36d50e92fb77b5a09f3b45302e91e775cf4572f352235619bd6af11ba2a52e07
+
+[IMAGE]
+Status: AVAILABLE
+Chart period: 2023-H1
+Inferred period end: 2023-06-30
+Evidence age (calendar days): 98
+Source: amzn_2023_H1_candlestick.png
+Canonical caption: {"candlestick_structure":"mostly green and red","confidence":"high","momentum_visual":"increasing","notable_gap_or_reversal":"none","other_visible_pattern":"none","support_resistance_visual":"none","trend":"upward","volatility_visual":"moderate","volume_visual":"none"}
+Caption provenance: 131c2904cd82c850f94b00cc58e2b97b2ef69c7e805fa562ef2c8f2e00a568fe
+=== END FINMULTITIME EVIDENCE ===

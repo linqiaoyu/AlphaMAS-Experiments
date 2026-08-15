@@ -1,0 +1,225 @@
+{
+  "IMAGE": {
+    "canonical_caption": null,
+    "caption_sha256": null,
+    "caption_status": "NOT_APPLICABLE",
+    "chart_period": null,
+    "evidence_age_calendar_days": null,
+    "image_sha256": null,
+    "inferred_period_end": null,
+    "provenance_hash_reference": "",
+    "reason": "M1 frozen AAPL IMAGE policy",
+    "source_identity": "",
+    "status": "UNAVAILABLE"
+  },
+  "TABLE": {
+    "facts": {
+      "Assets": {
+        "accession": "0000320193-23-000006",
+        "filed_date": "2023-02-03",
+        "form": "10-Q",
+        "fp": "Q1",
+        "fy": 2023,
+        "period_duration_class": "point_in_time",
+        "period_duration_days": null,
+        "period_end": "2022-12-31",
+        "period_start": "",
+        "provenance_hash_reference": "b020231ee13bb182ad219015febc6b138f420d49d8db3a2af0ee6ec0cb2c1acd",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 346747000000
+      },
+      "Liabilities": {
+        "accession": "0000320193-23-000006",
+        "filed_date": "2023-02-03",
+        "form": "10-Q",
+        "fp": "Q1",
+        "fy": 2023,
+        "period_duration_class": "point_in_time",
+        "period_duration_days": null,
+        "period_end": "2022-12-31",
+        "period_start": "",
+        "provenance_hash_reference": "19f12084df2b161f82bb0f3c5d57d4cba1a053d91e4258ef1a484a38ac274277",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 290020000000
+      },
+      "NetCashProvidedByUsedInFinancingActivities": {
+        "accession": "0000320193-23-000006",
+        "filed_date": "2023-02-03",
+        "form": "10-Q",
+        "fp": "Q1",
+        "fy": 2023,
+        "period_duration_class": "quarterly",
+        "period_duration_days": 98,
+        "period_end": "2022-12-31",
+        "period_start": "2022-09-25",
+        "provenance_hash_reference": "8f14338a2229e0b5531b1c575f6ea04f0f9ddcfade88f7a9a478d0e9e1e49b44",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": -35563000000
+      },
+      "NetCashProvidedByUsedInInvestingActivities": {
+        "accession": "0000320193-23-000006",
+        "filed_date": "2023-02-03",
+        "form": "10-Q",
+        "fp": "Q1",
+        "fy": 2023,
+        "period_duration_class": "quarterly",
+        "period_duration_days": 98,
+        "period_end": "2022-12-31",
+        "period_start": "2022-09-25",
+        "provenance_hash_reference": "2d1f82eda63e97843c860470ab5dba33b1ab712c8cc7d542b081274c89d3676c",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": -1445000000
+      },
+      "NetCashProvidedByUsedInOperatingActivities": {
+        "accession": "0000320193-23-000006",
+        "filed_date": "2023-02-03",
+        "form": "10-Q",
+        "fp": "Q1",
+        "fy": 2023,
+        "period_duration_class": "quarterly",
+        "period_duration_days": 98,
+        "period_end": "2022-12-31",
+        "period_start": "2022-09-25",
+        "provenance_hash_reference": "c024b018d7c7b47f5a90ac5da2296e6daf0e37126ca4b5093394dd28f65c3a5c",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 34005000000
+      },
+      "StockholdersEquity": {
+        "accession": "0000320193-23-000006",
+        "filed_date": "2023-02-03",
+        "form": "10-Q",
+        "fp": "Q1",
+        "fy": 2023,
+        "period_duration_class": "point_in_time",
+        "period_duration_days": null,
+        "period_end": "2022-12-31",
+        "period_start": "",
+        "provenance_hash_reference": "378c557ecfba30354b45cda8eec4f710bf69fb3e61a4e9b7c4a27bb8d472763e",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 56727000000
+      }
+    },
+    "provenance_hash_reference": "10ff059bcc3d029df35da29101227fe8974f1d6504ea1f66086b54dafeb98d10",
+    "reason": "",
+    "selection_rule": "frozen six-concept TABLE selection; filed_date < decision session",
+    "source_identity": "financial_reports/aapl/condensed_consolidated_balance_sheets.json;financial_reports/aapl/condensed_consolidated_statement_of_cash_flows.json",
+    "status": "AVAILABLE"
+  },
+  "TEXT": {
+    "evidence_age_calendar_days": null,
+    "provenance_hash_reference": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "reason": "M1 frozen AAPL source-integrity policy",
+    "records": [],
+    "selection_rule": "frozen bounded TEXT selection; Date < decision session; deterministic order",
+    "source_identity": "",
+    "status": "UNAVAILABLE"
+  },
+  "TIME_SERIES": {
+    "provenance_hash_reference": "9a84b3a969123586dd2239977a947aedd5b57d3a50fb9cb42d49cf9a70ff073f",
+    "reason": "",
+    "selection_rule": "frozen descriptive summaries from 61 completed source rows; session <= decision",
+    "source_identity": "S&P500_time_series/aapl.csv",
+    "status": "AVAILABLE",
+    "summaries": {
+      "cumulative_return_20d": 0.05411161484086824,
+      "cumulative_return_5d": 0.022925620603419405,
+      "cumulative_return_60d": 0.14425359182263398,
+      "drawdown_from_60d_peak": 0.0,
+      "high_low_range_20d": 0.09087514728325696,
+      "realised_volatility_20d_annualised": 0.25540676711121707,
+      "relative_volume_vs_20d_mean": 2.133589904477772
+    },
+    "through_session": "2023-05-05"
+  },
+  "agent_text": "=== FINMULTITIME EVIDENCE ===\nSymbol: AAPL\nDecision session: 2023-05-05\n\n[TEXT]\nStatus: UNAVAILABLE\nMissingness reason: M1 frozen AAPL source-integrity policy\n\n[TABLE]\nStatus: AVAILABLE\nSource: financial_reports/aapl/condensed_consolidated_balance_sheets.json;financial_reports/aapl/condensed_consolidated_statement_of_cash_flows.json\nAssets: value=346747000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2022-12-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-02-03; accession=0000320193-23-000006; provenance=b020231ee13bb182ad219015febc6b138f420d49d8db3a2af0ee6ec0cb2c1acd\nLiabilities: value=290020000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2022-12-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-02-03; accession=0000320193-23-000006; provenance=19f12084df2b161f82bb0f3c5d57d4cba1a053d91e4258ef1a484a38ac274277\nStockholdersEquity: value=56727000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2022-12-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-02-03; accession=0000320193-23-000006; provenance=378c557ecfba30354b45cda8eec4f710bf69fb3e61a4e9b7c4a27bb8d472763e\nNetCashProvidedByUsedInOperatingActivities: value=34005000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2022-09-25; period_end=2022-12-31; period_duration_days=98; period_duration_class=quarterly; filed_date=2023-02-03; accession=0000320193-23-000006; provenance=c024b018d7c7b47f5a90ac5da2296e6daf0e37126ca4b5093394dd28f65c3a5c\nNetCashProvidedByUsedInInvestingActivities: value=-1445000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2022-09-25; period_end=2022-12-31; period_duration_days=98; period_duration_class=quarterly; filed_date=2023-02-03; accession=0000320193-23-000006; provenance=2d1f82eda63e97843c860470ab5dba33b1ab712c8cc7d542b081274c89d3676c\nNetCashProvidedByUsedInFinancingActivities: value=-35563000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2022-09-25; period_end=2022-12-31; period_duration_days=98; period_duration_class=quarterly; filed_date=2023-02-03; accession=0000320193-23-000006; provenance=8f14338a2229e0b5531b1c575f6ea04f0f9ddcfade88f7a9a478d0e9e1e49b44\n\n[TIME_SERIES]\nStatus: AVAILABLE\nThrough session: 2023-05-05\nSource: S&P500_time_series/aapl.csv\ncumulative_return_5d: 0.022925620603419405\ncumulative_return_20d: 0.05411161484086824\ncumulative_return_60d: 0.14425359182263398\nrealised_volatility_20d_annualised: 0.25540676711121707\nhigh_low_range_20d: 0.09087514728325696\ndrawdown_from_60d_peak: 0.0\nrelative_volume_vs_20d_mean: 2.133589904477772\nProvenance: 9a84b3a969123586dd2239977a947aedd5b57d3a50fb9cb42d49cf9a70ff073f\n\n[IMAGE]\nStatus: UNAVAILABLE\nMissingness reason: M1 frozen AAPL IMAGE policy\n=== END FINMULTITIME EVIDENCE ===\n",
+  "available_for_training": true,
+  "available_for_validation": false,
+  "case_id": "AAPL:2023-05-05",
+  "character_counts": {
+    "complete": 2842,
+    "fundamentals": 2088,
+    "market": 527,
+    "news": 78
+  },
+  "contract_version": "M1-FINMULTITIME-v1.0.2",
+  "dataset_id": "m2_preformal_evidence_v1",
+  "decision_session": "2023-05-05",
+  "decision_time": "2023-05-05T20:00:00+00:00",
+  "engineering_only": false,
+  "m2_metadata": {
+    "available_for_training": true,
+    "available_for_validation": false,
+    "engineering_only": false,
+    "performance_for_selection": false,
+    "protected": false,
+    "role": "TRAIN",
+    "tier_membership": {
+      "in_compact": false,
+      "in_maximum": true,
+      "in_standard": false
+    }
+  },
+  "packet_sha256": "bc0be8fc1d0cfa8b4e5b118a8d269213c7efac7b410e5120641fe301279ed49b",
+  "packet_status": "FINAL_FROZEN",
+  "performance_for_selection": false,
+  "protected": false,
+  "record_type": "m1_finmultitime_evidence_packet",
+  "role": "TRAIN",
+  "routed_projections": {
+    "fundamentals_analyst": {
+      "sections": [
+        "TABLE"
+      ],
+      "text": "Status: AVAILABLE\nSource: financial_reports/aapl/condensed_consolidated_balance_sheets.json;financial_reports/aapl/condensed_consolidated_statement_of_cash_flows.json\nAssets: value=346747000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2022-12-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-02-03; accession=0000320193-23-000006; provenance=b020231ee13bb182ad219015febc6b138f420d49d8db3a2af0ee6ec0cb2c1acd\nLiabilities: value=290020000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2022-12-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-02-03; accession=0000320193-23-000006; provenance=19f12084df2b161f82bb0f3c5d57d4cba1a053d91e4258ef1a484a38ac274277\nStockholdersEquity: value=56727000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2022-12-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-02-03; accession=0000320193-23-000006; provenance=378c557ecfba30354b45cda8eec4f710bf69fb3e61a4e9b7c4a27bb8d472763e\nNetCashProvidedByUsedInOperatingActivities: value=34005000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2022-09-25; period_end=2022-12-31; period_duration_days=98; period_duration_class=quarterly; filed_date=2023-02-03; accession=0000320193-23-000006; provenance=c024b018d7c7b47f5a90ac5da2296e6daf0e37126ca4b5093394dd28f65c3a5c\nNetCashProvidedByUsedInInvestingActivities: value=-1445000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2022-09-25; period_end=2022-12-31; period_duration_days=98; period_duration_class=quarterly; filed_date=2023-02-03; accession=0000320193-23-000006; provenance=2d1f82eda63e97843c860470ab5dba33b1ab712c8cc7d542b081274c89d3676c\nNetCashProvidedByUsedInFinancingActivities: value=-35563000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2022-09-25; period_end=2022-12-31; period_duration_days=98; period_duration_class=quarterly; filed_date=2023-02-03; accession=0000320193-23-000006; provenance=8f14338a2229e0b5531b1c575f6ea04f0f9ddcfade88f7a9a478d0e9e1e49b44"
+    },
+    "market_analyst": {
+      "sections": [
+        "TIME_SERIES",
+        "IMAGE"
+      ],
+      "text": "Status: AVAILABLE\nThrough session: 2023-05-05\nSource: S&P500_time_series/aapl.csv\ncumulative_return_5d: 0.022925620603419405\ncumulative_return_20d: 0.05411161484086824\ncumulative_return_60d: 0.14425359182263398\nrealised_volatility_20d_annualised: 0.25540676711121707\nhigh_low_range_20d: 0.09087514728325696\ndrawdown_from_60d_peak: 0.0\nrelative_volume_vs_20d_mean: 2.133589904477772\nProvenance: 9a84b3a969123586dd2239977a947aedd5b57d3a50fb9cb42d49cf9a70ff073f\n\nStatus: UNAVAILABLE\nMissingness reason: M1 frozen AAPL IMAGE policy"
+    },
+    "news_analyst": {
+      "sections": [
+        "TEXT"
+      ],
+      "text": "Status: UNAVAILABLE\nMissingness reason: M1 frozen AAPL source-integrity policy"
+    },
+    "social_analyst": {
+      "sections": [],
+      "text": ""
+    }
+  },
+  "routing": {
+    "modality_to_analyst": {
+      "IMAGE": "Market Analyst",
+      "TABLE": "Fundamentals Analyst",
+      "TEXT": "News Analyst",
+      "TIME_SERIES": "Market Analyst"
+    },
+    "raw_packet_direct_injection": false,
+    "social_analyst": "NO_FINMULTITIME_EVIDENCE"
+  },
+  "section_sha256": {
+    "IMAGE": "570094115768fc9346b067c2ce66543bbe3a0aee13eec14ae951187260884a60",
+    "TABLE": "ad31d747791f49c9ef8a4baf0dc5aba110fc5be0e72dbb0ba7e7338fe1d20b8b",
+    "TEXT": "7da0fab61a715fb36d7880347b1f59f198628d032d884cc2876b136c7d9f4a54",
+    "TIME_SERIES": "54d197293e5ab3f875793281f440b0f0e6524e31e943315247a9ad2c67d22eb1"
+  },
+  "source_provenance": {
+    "pit_cutoff": "2023-05-05",
+    "task_id": "M2-06"
+  },
+  "symbol": "AAPL",
+  "tier_membership": {
+    "in_compact": false,
+    "in_maximum": true,
+    "in_standard": false
+  }
+}

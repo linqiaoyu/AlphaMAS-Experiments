@@ -1,0 +1,293 @@
+{
+  "IMAGE": {
+    "canonical_caption": {
+      "candlestick_structure": "mostly green, with some red, and a few green and red",
+      "confidence": "moderate",
+      "momentum_visual": "generally increasing, then decreasing, then increasing",
+      "notable_gap_or_reversal": "a gap in early April, then a reversal in mid-June",
+      "other_visible_pattern": "no clear pattern",
+      "support_resistance_visual": "support around 19, resistance around 22",
+      "trend": "upward, then downward, then upward",
+      "volatility_visual": "high volatility in early period, then moderate, then increasing",
+      "volume_visual": "not visible"
+    },
+    "caption_sha256": "cefc5225207e24c5c1b873ee1d4fc3718786fe81c1c6335f78514a97e592fdf7",
+    "caption_source": "NEW_QWEN_M2_06",
+    "caption_status": "GENERATED",
+    "chart_period": "2023-H1",
+    "evidence_age_calendar_days": 98,
+    "image_sha256": "39e399c33e123177ab49f2604da12cc9e23cfc59f5eeb928a0520d31e100eedb",
+    "inferred_period_end": "2023-06-30",
+    "provenance_hash_reference": "cefc5225207e24c5c1b873ee1d4fc3718786fe81c1c6335f78514a97e592fdf7",
+    "reason": "",
+    "source_identity": "arr_2023_H1_candlestick.png",
+    "status": "AVAILABLE"
+  },
+  "TABLE": {
+    "facts": {
+      "Assets": {
+        "accession": "0001428205-23-000144",
+        "filed_date": "2023-07-26",
+        "form": "10-Q",
+        "fp": "Q2",
+        "fy": 2023,
+        "period_duration_class": "point_in_time",
+        "period_duration_days": null,
+        "period_end": "2023-06-30",
+        "period_start": "",
+        "provenance_hash_reference": "4763f2192807e78c112d489b02df8cf8209d1fbab67290a88abd196ffbd059e7",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 12539120000
+      },
+      "Liabilities": {
+        "accession": "0001428205-23-000144",
+        "filed_date": "2023-07-26",
+        "form": "10-Q",
+        "fp": "Q2",
+        "fy": 2023,
+        "period_duration_class": "point_in_time",
+        "period_duration_days": null,
+        "period_end": "2023-06-30",
+        "period_start": "",
+        "provenance_hash_reference": "4b41d10c9f8efadf13bc8e8a011dbd71624ae75dc08dc26b4b5c98d095e119a5",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 11256131000
+      },
+      "NetCashProvidedByUsedInFinancingActivities": {
+        "accession": "0001428205-23-000144",
+        "filed_date": "2023-07-26",
+        "form": "10-Q",
+        "fp": "Q2",
+        "fy": 2023,
+        "period_duration_class": "year_to_date_6m",
+        "period_duration_days": 181,
+        "period_end": "2023-06-30",
+        "period_start": "2023-01-01",
+        "provenance_hash_reference": "28c35902f6c9beec8718f27f1189c16329aa8065d6964fdb1c56fd61bf7ce42f",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 2608803000
+      },
+      "NetCashProvidedByUsedInInvestingActivities": {
+        "accession": "0001428205-23-000144",
+        "filed_date": "2023-07-26",
+        "form": "10-Q",
+        "fp": "Q2",
+        "fy": 2023,
+        "period_duration_class": "year_to_date_6m",
+        "period_duration_days": 181,
+        "period_end": "2023-06-30",
+        "period_start": "2023-01-01",
+        "provenance_hash_reference": "bf50b6d80a032854aa33cb05dcf1bb12ea438769a9fb6c10dd05f5637c96d36c",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": -2555968000
+      },
+      "NetCashProvidedByUsedInOperatingActivities": {
+        "accession": "0001428205-23-000144",
+        "filed_date": "2023-07-26",
+        "form": "10-Q",
+        "fp": "Q2",
+        "fy": 2023,
+        "period_duration_class": "year_to_date_6m",
+        "period_duration_days": 181,
+        "period_end": "2023-06-30",
+        "period_start": "2023-01-01",
+        "provenance_hash_reference": "6888cd1262ee3e4532b191fc20ce4531bdccbf1cf63fbc6577dc7bbbb7a01873",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 45298000
+      },
+      "StockholdersEquity": {
+        "accession": "0001428205-23-000144",
+        "filed_date": "2023-07-26",
+        "form": "10-Q",
+        "fp": "Q2",
+        "fy": 2023,
+        "period_duration_class": "point_in_time",
+        "period_duration_days": null,
+        "period_end": "2023-06-30",
+        "period_start": "",
+        "provenance_hash_reference": "01aefcb77f26e60ff809046d6db0d46d128f91ab246080ef3ecc1e13ac45b7cd",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 1282989000
+      }
+    },
+    "provenance_hash_reference": "e43f2486b0f58a1eea2e1e28d7ab02b29661d66bb69842987c290b7c20290094",
+    "reason": "",
+    "selection_rule": "frozen six-concept TABLE selection; filed_date < decision session",
+    "source_identity": "financial_reports/arr/condensed_consolidated_balance_sheets.json;financial_reports/arr/condensed_consolidated_statement_of_cash_flows.json",
+    "status": "AVAILABLE"
+  },
+  "TEXT": {
+    "evidence_age_calendar_days": 1,
+    "provenance_hash_reference": "003191fba35e75fa859147b40e7245500bf793b6cfd2077842e7df5977ad5164",
+    "reason": "",
+    "records": [
+      {
+        "article_date": "2023-10-05",
+        "body": "The average one-year price target for ARMOUR Residential REIT (NYSE:ARR) has been revised to 30.60 / share. This is an increase of 445.45% from the prior estimate of 5.61 dated August 31, 2023. The price target is an average of many targets provided by analysts. The latest targets range from a low of 30.30 to a high of 31.50 / share. The average price target represents an increase of 63.46% from the latest reported closing price of 18.72 / share. ARMOUR Residential REIT Declares $0.08 Dividend On August 29, 2023 the company declared a regular monthly dividend of $0.08 per share ($0.96 annualized). Shareholders of record as of September 15, 2023 received the payment on September 28, 2023. Previously, the company paid $0.08 per share. At the current share price of $18.72 / share, the stock's dividend yield is 5.13%. Looking back five years and taking a sample every week, the average divid…",
+        "provenance_hash_reference": "1eb5b2dc770aaf5278a45fdfd7de5ba24e0aa7ae0e058c07a2bd1b055c140553",
+        "source": "https://www.nasdaq.com/articles/armour-residential-reit-arr-price-target-increased-by-445.45-to-30.60",
+        "title": "ARMOUR Residential REIT (ARR) Price Target Increased by 445.45% to 30.60"
+      },
+      {
+        "article_date": "2023-10-04",
+        "body": "Armour Residential REIT (ARR) closed the most recent trading day at $18.72, moving -1.99% from the previous trading session. This move lagged the S&P 500's daily gain of 0.81%. Meanwhile, the Dow experienced a rise of 0.39%, and the technology-dominated Nasdaq saw an increase of 1.35%. Heading into today, shares of the real estate investment trust had lost 21.56% over the past month, lagging the Finance sector's loss of 6.45% and the S&P 500's loss of 6.19% in that time. The upcoming earnings release of Armour Residential REIT will be of great interest to investors. The company's earnings per share (EPS) are projected to be $1.15, reflecting a 28.13% decrease from the same quarter last year. In the meantime, our current consensus estimate forecasts the revenue to be $4.51 million, indicating an 82.08% decline compared to the corresponding quarter of the prior year. For the entire fiscal…",
+        "provenance_hash_reference": "b307f384004cf814dd3075b6898d77ef43af26e386a055a835db55d29d5bdae0",
+        "source": "https://www.nasdaq.com/articles/armour-residential-reit-arr-stock-falls-amid-market-uptick%3A-what-investors-need-to-know",
+        "title": "Armour Residential REIT (ARR) Stock Falls Amid Market Uptick: What Investors Need to Know"
+      },
+      {
+        "article_date": "2023-09-28",
+        "body": "Armour Residential REIT (ARR) closed the most recent trading day at $4.21, moving -0.24% from the previous trading session. This change lagged the S&P 500's 0.59% gain on the day. Meanwhile, the Dow gained 0.35%, and the Nasdaq, a tech-heavy index, added 0.83%. Prior to today's trading, shares of the real estate investment trust had lost 13.88% over the past month. This has lagged the Finance sector's loss of 1.79% and the S&P 500's loss of 2.84% in that time. Investors will be hoping for strength from Armour Residential REIT as it approaches its next earnings release. The company is expected to report EPS of $0.23, down 28.13% from the prior-year quarter. Our most recent consensus estimate is calling for quarterly revenue of $4.51 million, down 82.08% from the year-ago period. For the full year, our Zacks Consensus Estimates are projecting earnings of $0.98 per share and revenue of $26…",
+        "provenance_hash_reference": "5ea84b96b7ae71525f89d68b77d1a97ec164677581e80d4e3dff17dfb8be3b7a",
+        "source": "https://www.nasdaq.com/articles/armour-residential-reit-arr-stock-sinks-as-market-gains%3A-what-you-should-know-7",
+        "title": "Armour Residential REIT (ARR) Stock Sinks As Market Gains: What You Should Know"
+      },
+      {
+        "article_date": "2023-09-26",
+        "body": "In trading on Tuesday, the SPDR S&P Biotech ETF is outperforming other ETFs, up about 2.9% on the day. Components of that ETF showing particular strength include shares of Immunovant, up about 100.9% and shares of Intercept Pharmaceuticals, up about 79.1% on the day. And underperforming other ETFs today is the iShares Mortgage Real Estate ETF, off about 3.8% in Tuesday afternoon trading. Among components of that ETF with the weakest showing on Tuesday were shares of Angel Oak Mortgage Reit, lower by about 3%, and shares of Armour Residential Reit, lower by about 2.4% on the day. VIDEO: Tuesday's ETF Movers: XBI, REM The views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+        "provenance_hash_reference": "413849c995c892013670f7907a91777975071420570d9b7676c076207dc023d4",
+        "source": "https://www.nasdaq.com/articles/tuesdays-etf-movers%3A-xbi-rem",
+        "title": "Tuesday's ETF Movers: XBI, REM"
+      },
+      {
+        "article_date": "2023-09-25",
+        "body": "Legendary investor Warren Buffett advises to be fearful when others are greedy, and be greedy when others are fearful. One way we can try to measure the level of fear in a given stock is through a technical analysis indicator called the Relative Strength Index, or RSI, which measures momentum on a scale of zero to 100. A stock is considered to be oversold if the RSI reading falls below 30. In trading on Monday, shares of ARMOUR Residential REIT Inc. (Symbol: ARR) entered into oversold territory, hitting an RSI reading of 29.99, after changing hands as low as $4.50 per share. By comparison, the current RSI reading of the S&P 500 ETF (SPY) is 33.9. A bullish investor could look at ARR's 29.99 RSI reading today as a sign that the recent heavy selling is in the process of exhausting itself, and begin to look for entry point opportunities on the buy side. The chart below shows the one year p…",
+        "provenance_hash_reference": "24f3a2da1657f8e5cf6521e3dc2239bda8e46c70c38be06094f9e0bf93d54fd4",
+        "source": "https://www.nasdaq.com/articles/oversold-conditions-for-armour-residential-reit",
+        "title": "Oversold Conditions For ARMOUR Residential REIT"
+      },
+      {
+        "article_date": "2023-09-22",
+        "body": "In the latest trading session, Armour Residential REIT (ARR) closed at $4.63, marking a +0.43% move from the previous day. This change outpaced the S&P 500's 0.23% loss on the day. At the same time, the Dow lost 0.31%, and the tech-heavy Nasdaq lost 0.09%. Coming into today, shares of the real estate investment trust had lost 4.36% in the past month. In that same time, the Finance sector gained 0.34%, while the S&P 500 lost 1.43%. Wall Street will be looking for positivity from Armour Residential REIT as it approaches its next earnings report date. In that report, analysts expect Armour Residential REIT to post earnings of $0.23 per share. This would mark a year-over-year decline of 28.13%. Meanwhile, our latest consensus estimate is calling for revenue of $4.51 million, down 82.08% from the prior-year quarter. ARR's full-year Zacks Consensus Estimates are calling for earnings of $0.98 …",
+        "provenance_hash_reference": "bd6cb7f6566f480301af2a928c92085c3af3e17d5566854477203f294031a061",
+        "source": "https://www.nasdaq.com/articles/armour-residential-reit-arr-gains-as-market-dips%3A-what-you-should-know-7",
+        "title": "Armour Residential REIT (ARR) Gains As Market Dips: What You Should Know"
+      },
+      {
+        "article_date": "2023-09-19",
+        "body": "If you're interested in broad exposure to the Financials - Broad segment of the equity market, look no further than the Invesco KBW High Dividend Yield Financial ETF (KBWD), a passively managed exchange traded fund launched on 12/02/2010. While an excellent vehicle for long term investors, passively managed ETFs are a popular choice among institutional and retail investors due to their low costs, transparency, flexibility, and tax efficiency. Sector ETFs also provide investors access to a broad group of companies in particular sectors that offer low risk and diversified exposure. Financials - Broad is one of the 16 broad Zacks sectors within the Zacks Industry classification. It is currently ranked 11, placing it in bottom 31%. Index Details The fund is sponsored by Invesco. It has amassed assets over $381.44 million, making it one of the average sized ETFs attempting to match the perfo…",
+        "provenance_hash_reference": "848f57fd2dfa6cb7514d6b860b3a6236fcdbe23f842ec22015f90965564c5504",
+        "source": "https://www.nasdaq.com/articles/should-you-invest-in-the-invesco-kbw-high-dividend-yield-financial-etf-kbwd-9",
+        "title": "Should You Invest in the Invesco KBW High Dividend Yield Financial ETF (KBWD)?"
+      },
+      {
+        "article_date": "2023-09-15",
+        "body": "In the latest trading session, Armour Residential REIT (ARR) closed at $4.90, marking a +0.62% move from the previous day. This change outpaced the S&P 500's 1.22% loss on the day. Elsewhere, the Dow lost 0.83%, while the tech-heavy Nasdaq lost 1.56%. Prior to today's trading, shares of the real estate investment trust had gained 3.84% over the past month. This has outpaced the Finance sector's gain of 0.72% and the S&P 500's gain of 0.54% in that time. Wall Street will be looking for positivity from Armour Residential REIT as it approaches its next earnings report date. The company is expected to report EPS of $0.23, down 28.13% from the prior-year quarter. Meanwhile, the Zacks Consensus Estimate for revenue is projecting net sales of $4.51 million, down 82.08% from the year-ago period. ARR's full-year Zacks Consensus Estimates are calling for earnings of $0.98 per share and revenue of…",
+        "provenance_hash_reference": "31baa6b1e2099ff9304b2c280e1f229ae6bdf4cf4d4bdf1d64ed041cc872b543",
+        "source": "https://www.nasdaq.com/articles/armour-residential-reit-arr-gains-as-market-dips%3A-what-you-should-know-6",
+        "title": "Armour Residential REIT (ARR) Gains As Market Dips: What You Should Know"
+      }
+    ],
+    "selection_rule": "frozen bounded TEXT selection; Date < decision session; deterministic order",
+    "source_identity": "sp500_news/ARR.jsonl",
+    "status": "AVAILABLE"
+  },
+  "TIME_SERIES": {
+    "provenance_hash_reference": "7d5c108004328e59cd94c89fa13f48049969f8221c5cfd74617fd39782bff92f",
+    "reason": "",
+    "selection_rule": "frozen descriptive summaries from 61 completed source rows; session <= decision",
+    "source_identity": "S&P500_time_series/arr.csv",
+    "status": "AVAILABLE",
+    "summaries": {
+      "cumulative_return_20d": -0.20987432678819073,
+      "cumulative_return_5d": -0.11670579017321392,
+      "cumulative_return_60d": -0.2485246230719731,
+      "drawdown_from_60d_peak": -0.25286839713059905,
+      "high_low_range_20d": 0.3498105773569522,
+      "realised_volatility_20d_annualised": 0.3406715282040861,
+      "relative_volume_vs_20d_mean": 0.8051804890536308
+    },
+    "through_session": "2023-10-06"
+  },
+  "agent_text": "=== FINMULTITIME EVIDENCE ===\nSymbol: ARR\nDecision session: 2023-10-06\n\n[TEXT]\nStatus: AVAILABLE\nEvidence age (calendar days): 1\nSource: sp500_news/ARR.jsonl\nArticle 1 date: 2023-10-05\nArticle 1 title: ARMOUR Residential REIT (ARR) Price Target Increased by 445.45% to 30.60\nArticle 1 source: https://www.nasdaq.com/articles/armour-residential-reit-arr-price-target-increased-by-445.45-to-30.60\nArticle 1 text: The average one-year price target for ARMOUR Residential REIT (NYSE:ARR) has been revised to 30.60 / share. This is an increase of 445.45% from the prior estimate of 5.61 dated August 31, 2023. The price target is an average of many targets provided by analysts. The latest targets range from a low of 30.30 to a high of 31.50 / share. The average price target represents an increase of 63.46% from the latest reported closing price of 18.72 / share. ARMOUR Residential REIT Declares $0.08 Dividend On August 29, 2023 the company declared a regular monthly dividend of $0.08 per share ($0.96 annualized). Shareholders of record as of September 15, 2023 received the payment on September 28, 2023. Previously, the company paid $0.08 per share. At the current share price of $18.72 / share, the stock's dividend yield is 5.13%. Looking back five years and taking a sample every week, the average divid…\nArticle 1 provenance: 1eb5b2dc770aaf5278a45fdfd7de5ba24e0aa7ae0e058c07a2bd1b055c140553\nArticle 2 date: 2023-10-04\nArticle 2 title: Armour Residential REIT (ARR) Stock Falls Amid Market Uptick: What Investors Need to Know\nArticle 2 source: https://www.nasdaq.com/articles/armour-residential-reit-arr-stock-falls-amid-market-uptick%3A-what-investors-need-to-know\nArticle 2 text: Armour Residential REIT (ARR) closed the most recent trading day at $18.72, moving -1.99% from the previous trading session. This move lagged the S&P 500's daily gain of 0.81%. Meanwhile, the Dow experienced a rise of 0.39%, and the technology-dominated Nasdaq saw an increase of 1.35%. Heading into today, shares of the real estate investment trust had lost 21.56% over the past month, lagging the Finance sector's loss of 6.45% and the S&P 500's loss of 6.19% in that time. The upcoming earnings release of Armour Residential REIT will be of great interest to investors. The company's earnings per share (EPS) are projected to be $1.15, reflecting a 28.13% decrease from the same quarter last year. In the meantime, our current consensus estimate forecasts the revenue to be $4.51 million, indicating an 82.08% decline compared to the corresponding quarter of the prior year. For the entire fiscal…\nArticle 2 provenance: b307f384004cf814dd3075b6898d77ef43af26e386a055a835db55d29d5bdae0\nArticle 3 date: 2023-09-28\nArticle 3 title: Armour Residential REIT (ARR) Stock Sinks As Market Gains: What You Should Know\nArticle 3 source: https://www.nasdaq.com/articles/armour-residential-reit-arr-stock-sinks-as-market-gains%3A-what-you-should-know-7\nArticle 3 text: Armour Residential REIT (ARR) closed the most recent trading day at $4.21, moving -0.24% from the previous trading session. This change lagged the S&P 500's 0.59% gain on the day. Meanwhile, the Dow gained 0.35%, and the Nasdaq, a tech-heavy index, added 0.83%. Prior to today's trading, shares of the real estate investment trust had lost 13.88% over the past month. This has lagged the Finance sector's loss of 1.79% and the S&P 500's loss of 2.84% in that time. Investors will be hoping for strength from Armour Residential REIT as it approaches its next earnings release. The company is expected to report EPS of $0.23, down 28.13% from the prior-year quarter. Our most recent consensus estimate is calling for quarterly revenue of $4.51 million, down 82.08% from the year-ago period. For the full year, our Zacks Consensus Estimates are projecting earnings of $0.98 per share and revenue of $26…\nArticle 3 provenance: 5ea84b96b7ae71525f89d68b77d1a97ec164677581e80d4e3dff17dfb8be3b7a\nArticle 4 date: 2023-09-26\nArticle 4 title: Tuesday's ETF Movers: XBI, REM\nArticle 4 source: https://www.nasdaq.com/articles/tuesdays-etf-movers%3A-xbi-rem\nArticle 4 text: In trading on Tuesday, the SPDR S&P Biotech ETF is outperforming other ETFs, up about 2.9% on the day. Components of that ETF showing particular strength include shares of Immunovant, up about 100.9% and shares of Intercept Pharmaceuticals, up about 79.1% on the day. And underperforming other ETFs today is the iShares Mortgage Real Estate ETF, off about 3.8% in Tuesday afternoon trading. Among components of that ETF with the weakest showing on Tuesday were shares of Angel Oak Mortgage Reit, lower by about 3%, and shares of Armour Residential Reit, lower by about 2.4% on the day. VIDEO: Tuesday's ETF Movers: XBI, REM The views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.\nArticle 4 provenance: 413849c995c892013670f7907a91777975071420570d9b7676c076207dc023d4\nArticle 5 date: 2023-09-25\nArticle 5 title: Oversold Conditions For ARMOUR Residential REIT\nArticle 5 source: https://www.nasdaq.com/articles/oversold-conditions-for-armour-residential-reit\nArticle 5 text: Legendary investor Warren Buffett advises to be fearful when others are greedy, and be greedy when others are fearful. One way we can try to measure the level of fear in a given stock is through a technical analysis indicator called the Relative Strength Index, or RSI, which measures momentum on a scale of zero to 100. A stock is considered to be oversold if the RSI reading falls below 30. In trading on Monday, shares of ARMOUR Residential REIT Inc. (Symbol: ARR) entered into oversold territory, hitting an RSI reading of 29.99, after changing hands as low as $4.50 per share. By comparison, the current RSI reading of the S&P 500 ETF (SPY) is 33.9. A bullish investor could look at ARR's 29.99 RSI reading today as a sign that the recent heavy selling is in the process of exhausting itself, and begin to look for entry point opportunities on the buy side. The chart below shows the one year p…\nArticle 5 provenance: 24f3a2da1657f8e5cf6521e3dc2239bda8e46c70c38be06094f9e0bf93d54fd4\nArticle 6 date: 2023-09-22\nArticle 6 title: Armour Residential REIT (ARR) Gains As Market Dips: What You Should Know\nArticle 6 source: https://www.nasdaq.com/articles/armour-residential-reit-arr-gains-as-market-dips%3A-what-you-should-know-7\nArticle 6 text: In the latest trading session, Armour Residential REIT (ARR) closed at $4.63, marking a +0.43% move from the previous day. This change outpaced the S&P 500's 0.23% loss on the day. At the same time, the Dow lost 0.31%, and the tech-heavy Nasdaq lost 0.09%. Coming into today, shares of the real estate investment trust had lost 4.36% in the past month. In that same time, the Finance sector gained 0.34%, while the S&P 500 lost 1.43%. Wall Street will be looking for positivity from Armour Residential REIT as it approaches its next earnings report date. In that report, analysts expect Armour Residential REIT to post earnings of $0.23 per share. This would mark a year-over-year decline of 28.13%. Meanwhile, our latest consensus estimate is calling for revenue of $4.51 million, down 82.08% from the prior-year quarter. ARR's full-year Zacks Consensus Estimates are calling for earnings of $0.98 …\nArticle 6 provenance: bd6cb7f6566f480301af2a928c92085c3af3e17d5566854477203f294031a061\nArticle 7 date: 2023-09-19\nArticle 7 title: Should You Invest in the Invesco KBW High Dividend Yield Financial ETF (KBWD)?\nArticle 7 source: https://www.nasdaq.com/articles/should-you-invest-in-the-invesco-kbw-high-dividend-yield-financial-etf-kbwd-9\nArticle 7 text: If you're interested in broad exposure to the Financials - Broad segment of the equity market, look no further than the Invesco KBW High Dividend Yield Financial ETF (KBWD), a passively managed exchange traded fund launched on 12/02/2010. While an excellent vehicle for long term investors, passively managed ETFs are a popular choice among institutional and retail investors due to their low costs, transparency, flexibility, and tax efficiency. Sector ETFs also provide investors access to a broad group of companies in particular sectors that offer low risk and diversified exposure. Financials - Broad is one of the 16 broad Zacks sectors within the Zacks Industry classification. It is currently ranked 11, placing it in bottom 31%. Index Details The fund is sponsored by Invesco. It has amassed assets over $381.44 million, making it one of the average sized ETFs attempting to match the perfo…\nArticle 7 provenance: 848f57fd2dfa6cb7514d6b860b3a6236fcdbe23f842ec22015f90965564c5504\nArticle 8 date: 2023-09-15\nArticle 8 title: Armour Residential REIT (ARR) Gains As Market Dips: What You Should Know\nArticle 8 source: https://www.nasdaq.com/articles/armour-residential-reit-arr-gains-as-market-dips%3A-what-you-should-know-6\nArticle 8 text: In the latest trading session, Armour Residential REIT (ARR) closed at $4.90, marking a +0.62% move from the previous day. This change outpaced the S&P 500's 1.22% loss on the day. Elsewhere, the Dow lost 0.83%, while the tech-heavy Nasdaq lost 1.56%. Prior to today's trading, shares of the real estate investment trust had gained 3.84% over the past month. This has outpaced the Finance sector's gain of 0.72% and the S&P 500's gain of 0.54% in that time. Wall Street will be looking for positivity from Armour Residential REIT as it approaches its next earnings report date. The company is expected to report EPS of $0.23, down 28.13% from the prior-year quarter. Meanwhile, the Zacks Consensus Estimate for revenue is projecting net sales of $4.51 million, down 82.08% from the year-ago period. ARR's full-year Zacks Consensus Estimates are calling for earnings of $0.98 per share and revenue of…\nArticle 8 provenance: 31baa6b1e2099ff9304b2c280e1f229ae6bdf4cf4d4bdf1d64ed041cc872b543\n\n[TABLE]\nStatus: AVAILABLE\nSource: financial_reports/arr/condensed_consolidated_balance_sheets.json;financial_reports/arr/condensed_consolidated_statement_of_cash_flows.json\nAssets: value=12539120000; unit=USD; form=10-Q; fy=2023; fp=Q2; period_start=; period_end=2023-06-30; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-07-26; accession=0001428205-23-000144; provenance=4763f2192807e78c112d489b02df8cf8209d1fbab67290a88abd196ffbd059e7\nLiabilities: value=11256131000; unit=USD; form=10-Q; fy=2023; fp=Q2; period_start=; period_end=2023-06-30; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-07-26; accession=0001428205-23-000144; provenance=4b41d10c9f8efadf13bc8e8a011dbd71624ae75dc08dc26b4b5c98d095e119a5\nStockholdersEquity: value=1282989000; unit=USD; form=10-Q; fy=2023; fp=Q2; period_start=; period_end=2023-06-30; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-07-26; accession=0001428205-23-000144; provenance=01aefcb77f26e60ff809046d6db0d46d128f91ab246080ef3ecc1e13ac45b7cd\nNetCashProvidedByUsedInOperatingActivities: value=45298000; unit=USD; form=10-Q; fy=2023; fp=Q2; period_start=2023-01-01; period_end=2023-06-30; period_duration_days=181; period_duration_class=year_to_date_6m; filed_date=2023-07-26; accession=0001428205-23-000144; provenance=6888cd1262ee3e4532b191fc20ce4531bdccbf1cf63fbc6577dc7bbbb7a01873\nNetCashProvidedByUsedInInvestingActivities: value=-2555968000; unit=USD; form=10-Q; fy=2023; fp=Q2; period_start=2023-01-01; period_end=2023-06-30; period_duration_days=181; period_duration_class=year_to_date_6m; filed_date=2023-07-26; accession=0001428205-23-000144; provenance=bf50b6d80a032854aa33cb05dcf1bb12ea438769a9fb6c10dd05f5637c96d36c\nNetCashProvidedByUsedInFinancingActivities: value=2608803000; unit=USD; form=10-Q; fy=2023; fp=Q2; period_start=2023-01-01; period_end=2023-06-30; period_duration_days=181; period_duration_class=year_to_date_6m; filed_date=2023-07-26; accession=0001428205-23-000144; provenance=28c35902f6c9beec8718f27f1189c16329aa8065d6964fdb1c56fd61bf7ce42f\n\n[TIME_SERIES]\nStatus: AVAILABLE\nThrough session: 2023-10-06\nSource: S&P500_time_series/arr.csv\ncumulative_return_5d: -0.11670579017321392\ncumulative_return_20d: -0.20987432678819073\ncumulative_return_60d: -0.2485246230719731\nrealised_volatility_20d_annualised: 0.3406715282040861\nhigh_low_range_20d: 0.3498105773569522\ndrawdown_from_60d_peak: -0.25286839713059905\nrelative_volume_vs_20d_mean: 0.8051804890536308\nProvenance: 7d5c108004328e59cd94c89fa13f48049969f8221c5cfd74617fd39782bff92f\n\n[IMAGE]\nStatus: AVAILABLE\nChart period: 2023-H1\nInferred period end: 2023-06-30\nEvidence age (calendar days): 98\nSource: arr_2023_H1_candlestick.png\nCanonical caption: {\"candlestick_structure\":\"mostly green, with some red, and a few green and red\",\"confidence\":\"moderate\",\"momentum_visual\":\"generally increasing, then decreasing, then increasing\",\"notable_gap_or_reversal\":\"a gap in early April, then a reversal in mid-June\",\"other_visible_pattern\":\"no clear pattern\",\"support_resistance_visual\":\"support around 19, resistance around 22\",\"trend\":\"upward, then downward, then upward\",\"volatility_visual\":\"high volatility in early period, then moderate, then increasing\",\"volume_visual\":\"not visible\"}\nCaption provenance: cefc5225207e24c5c1b873ee1d4fc3718786fe81c1c6335f78514a97e592fdf7\n=== END FINMULTITIME EVIDENCE ===\n",
+  "available_for_training": false,
+  "available_for_validation": false,
+  "case_id": "ARR:2023-10-06",
+  "character_counts": {
+    "complete": 13314,
+    "fundamentals": 2099,
+    "market": 1252,
+    "news": 9815
+  },
+  "contract_version": "M1-FINMULTITIME-v1.0.2",
+  "dataset_id": "m2_preformal_evidence_v1",
+  "decision_session": "2023-10-06",
+  "decision_time": "2023-10-06T20:00:00+00:00",
+  "engineering_only": true,
+  "m2_metadata": {
+    "available_for_training": false,
+    "available_for_validation": false,
+    "engineering_only": true,
+    "performance_for_selection": false,
+    "protected": false,
+    "role": "E2E_PILOT",
+    "tier_membership": {
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    }
+  },
+  "packet_sha256": "99f8b19f213fbce80f79dd135534b8a2d699cdde865a4eff377c2cfd9b4cde7d",
+  "packet_status": "FINAL_FROZEN",
+  "performance_for_selection": false,
+  "protected": false,
+  "record_type": "m1_finmultitime_evidence_packet",
+  "role": "E2E_PILOT",
+  "routed_projections": {
+    "fundamentals_analyst": {
+      "sections": [
+        "TABLE"
+      ],
+      "text": "Status: AVAILABLE\nSource: financial_reports/arr/condensed_consolidated_balance_sheets.json;financial_reports/arr/condensed_consolidated_statement_of_cash_flows.json\nAssets: value=12539120000; unit=USD; form=10-Q; fy=2023; fp=Q2; period_start=; period_end=2023-06-30; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-07-26; accession=0001428205-23-000144; provenance=4763f2192807e78c112d489b02df8cf8209d1fbab67290a88abd196ffbd059e7\nLiabilities: value=11256131000; unit=USD; form=10-Q; fy=2023; fp=Q2; period_start=; period_end=2023-06-30; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-07-26; accession=0001428205-23-000144; provenance=4b41d10c9f8efadf13bc8e8a011dbd71624ae75dc08dc26b4b5c98d095e119a5\nStockholdersEquity: value=1282989000; unit=USD; form=10-Q; fy=2023; fp=Q2; period_start=; period_end=2023-06-30; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-07-26; accession=0001428205-23-000144; provenance=01aefcb77f26e60ff809046d6db0d46d128f91ab246080ef3ecc1e13ac45b7cd\nNetCashProvidedByUsedInOperatingActivities: value=45298000; unit=USD; form=10-Q; fy=2023; fp=Q2; period_start=2023-01-01; period_end=2023-06-30; period_duration_days=181; period_duration_class=year_to_date_6m; filed_date=2023-07-26; accession=0001428205-23-000144; provenance=6888cd1262ee3e4532b191fc20ce4531bdccbf1cf63fbc6577dc7bbbb7a01873\nNetCashProvidedByUsedInInvestingActivities: value=-2555968000; unit=USD; form=10-Q; fy=2023; fp=Q2; period_start=2023-01-01; period_end=2023-06-30; period_duration_days=181; period_duration_class=year_to_date_6m; filed_date=2023-07-26; accession=0001428205-23-000144; provenance=bf50b6d80a032854aa33cb05dcf1bb12ea438769a9fb6c10dd05f5637c96d36c\nNetCashProvidedByUsedInFinancingActivities: value=2608803000; unit=USD; form=10-Q; fy=2023; fp=Q2; period_start=2023-01-01; period_end=2023-06-30; period_duration_days=181; period_duration_class=year_to_date_6m; filed_date=2023-07-26; accession=0001428205-23-000144; provenance=28c35902f6c9beec8718f27f1189c16329aa8065d6964fdb1c56fd61bf7ce42f"
+    },
+    "market_analyst": {
+      "sections": [
+        "TIME_SERIES",
+        "IMAGE"
+      ],
+      "text": "Status: AVAILABLE\nThrough session: 2023-10-06\nSource: S&P500_time_series/arr.csv\ncumulative_return_5d: -0.11670579017321392\ncumulative_return_20d: -0.20987432678819073\ncumulative_return_60d: -0.2485246230719731\nrealised_volatility_20d_annualised: 0.3406715282040861\nhigh_low_range_20d: 0.3498105773569522\ndrawdown_from_60d_peak: -0.25286839713059905\nrelative_volume_vs_20d_mean: 0.8051804890536308\nProvenance: 7d5c108004328e59cd94c89fa13f48049969f8221c5cfd74617fd39782bff92f\n\nStatus: AVAILABLE\nChart period: 2023-H1\nInferred period end: 2023-06-30\nEvidence age (calendar days): 98\nSource: arr_2023_H1_candlestick.png\nCanonical caption: {\"candlestick_structure\":\"mostly green, with some red, and a few green and red\",\"confidence\":\"moderate\",\"momentum_visual\":\"generally increasing, then decreasing, then increasing\",\"notable_gap_or_reversal\":\"a gap in early April, then a reversal in mid-June\",\"other_visible_pattern\":\"no clear pattern\",\"support_resistance_visual\":\"support around 19, resistance around 22\",\"trend\":\"upward, then downward, then upward\",\"volatility_visual\":\"high volatility in early period, then moderate, then increasing\",\"volume_visual\":\"not visible\"}\nCaption provenance: cefc5225207e24c5c1b873ee1d4fc3718786fe81c1c6335f78514a97e592fdf7"
+    },
+    "news_analyst": {
+      "sections": [
+        "TEXT"
+      ],
+      "text": "Status: AVAILABLE\nEvidence age (calendar days): 1\nSource: sp500_news/ARR.jsonl\nArticle 1 date: 2023-10-05\nArticle 1 title: ARMOUR Residential REIT (ARR) Price Target Increased by 445.45% to 30.60\nArticle 1 source: https://www.nasdaq.com/articles/armour-residential-reit-arr-price-target-increased-by-445.45-to-30.60\nArticle 1 text: The average one-year price target for ARMOUR Residential REIT (NYSE:ARR) has been revised to 30.60 / share. This is an increase of 445.45% from the prior estimate of 5.61 dated August 31, 2023. The price target is an average of many targets provided by analysts. The latest targets range from a low of 30.30 to a high of 31.50 / share. The average price target represents an increase of 63.46% from the latest reported closing price of 18.72 / share. ARMOUR Residential REIT Declares $0.08 Dividend On August 29, 2023 the company declared a regular monthly dividend of $0.08 per share ($0.96 annualized). Shareholders of record as of September 15, 2023 received the payment on September 28, 2023. Previously, the company paid $0.08 per share. At the current share price of $18.72 / share, the stock's dividend yield is 5.13%. Looking back five years and taking a sample every week, the average divid…\nArticle 1 provenance: 1eb5b2dc770aaf5278a45fdfd7de5ba24e0aa7ae0e058c07a2bd1b055c140553\nArticle 2 date: 2023-10-04\nArticle 2 title: Armour Residential REIT (ARR) Stock Falls Amid Market Uptick: What Investors Need to Know\nArticle 2 source: https://www.nasdaq.com/articles/armour-residential-reit-arr-stock-falls-amid-market-uptick%3A-what-investors-need-to-know\nArticle 2 text: Armour Residential REIT (ARR) closed the most recent trading day at $18.72, moving -1.99% from the previous trading session. This move lagged the S&P 500's daily gain of 0.81%. Meanwhile, the Dow experienced a rise of 0.39%, and the technology-dominated Nasdaq saw an increase of 1.35%. Heading into today, shares of the real estate investment trust had lost 21.56% over the past month, lagging the Finance sector's loss of 6.45% and the S&P 500's loss of 6.19% in that time. The upcoming earnings release of Armour Residential REIT will be of great interest to investors. The company's earnings per share (EPS) are projected to be $1.15, reflecting a 28.13% decrease from the same quarter last year. In the meantime, our current consensus estimate forecasts the revenue to be $4.51 million, indicating an 82.08% decline compared to the corresponding quarter of the prior year. For the entire fiscal…\nArticle 2 provenance: b307f384004cf814dd3075b6898d77ef43af26e386a055a835db55d29d5bdae0\nArticle 3 date: 2023-09-28\nArticle 3 title: Armour Residential REIT (ARR) Stock Sinks As Market Gains: What You Should Know\nArticle 3 source: https://www.nasdaq.com/articles/armour-residential-reit-arr-stock-sinks-as-market-gains%3A-what-you-should-know-7\nArticle 3 text: Armour Residential REIT (ARR) closed the most recent trading day at $4.21, moving -0.24% from the previous trading session. This change lagged the S&P 500's 0.59% gain on the day. Meanwhile, the Dow gained 0.35%, and the Nasdaq, a tech-heavy index, added 0.83%. Prior to today's trading, shares of the real estate investment trust had lost 13.88% over the past month. This has lagged the Finance sector's loss of 1.79% and the S&P 500's loss of 2.84% in that time. Investors will be hoping for strength from Armour Residential REIT as it approaches its next earnings release. The company is expected to report EPS of $0.23, down 28.13% from the prior-year quarter. Our most recent consensus estimate is calling for quarterly revenue of $4.51 million, down 82.08% from the year-ago period. For the full year, our Zacks Consensus Estimates are projecting earnings of $0.98 per share and revenue of $26…\nArticle 3 provenance: 5ea84b96b7ae71525f89d68b77d1a97ec164677581e80d4e3dff17dfb8be3b7a\nArticle 4 date: 2023-09-26\nArticle 4 title: Tuesday's ETF Movers: XBI, REM\nArticle 4 source: https://www.nasdaq.com/articles/tuesdays-etf-movers%3A-xbi-rem\nArticle 4 text: In trading on Tuesday, the SPDR S&P Biotech ETF is outperforming other ETFs, up about 2.9% on the day. Components of that ETF showing particular strength include shares of Immunovant, up about 100.9% and shares of Intercept Pharmaceuticals, up about 79.1% on the day. And underperforming other ETFs today is the iShares Mortgage Real Estate ETF, off about 3.8% in Tuesday afternoon trading. Among components of that ETF with the weakest showing on Tuesday were shares of Angel Oak Mortgage Reit, lower by about 3%, and shares of Armour Residential Reit, lower by about 2.4% on the day. VIDEO: Tuesday's ETF Movers: XBI, REM The views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.\nArticle 4 provenance: 413849c995c892013670f7907a91777975071420570d9b7676c076207dc023d4\nArticle 5 date: 2023-09-25\nArticle 5 title: Oversold Conditions For ARMOUR Residential REIT\nArticle 5 source: https://www.nasdaq.com/articles/oversold-conditions-for-armour-residential-reit\nArticle 5 text: Legendary investor Warren Buffett advises to be fearful when others are greedy, and be greedy when others are fearful. One way we can try to measure the level of fear in a given stock is through a technical analysis indicator called the Relative Strength Index, or RSI, which measures momentum on a scale of zero to 100. A stock is considered to be oversold if the RSI reading falls below 30. In trading on Monday, shares of ARMOUR Residential REIT Inc. (Symbol: ARR) entered into oversold territory, hitting an RSI reading of 29.99, after changing hands as low as $4.50 per share. By comparison, the current RSI reading of the S&P 500 ETF (SPY) is 33.9. A bullish investor could look at ARR's 29.99 RSI reading today as a sign that the recent heavy selling is in the process of exhausting itself, and begin to look for entry point opportunities on the buy side. The chart below shows the one year p…\nArticle 5 provenance: 24f3a2da1657f8e5cf6521e3dc2239bda8e46c70c38be06094f9e0bf93d54fd4\nArticle 6 date: 2023-09-22\nArticle 6 title: Armour Residential REIT (ARR) Gains As Market Dips: What You Should Know\nArticle 6 source: https://www.nasdaq.com/articles/armour-residential-reit-arr-gains-as-market-dips%3A-what-you-should-know-7\nArticle 6 text: In the latest trading session, Armour Residential REIT (ARR) closed at $4.63, marking a +0.43% move from the previous day. This change outpaced the S&P 500's 0.23% loss on the day. At the same time, the Dow lost 0.31%, and the tech-heavy Nasdaq lost 0.09%. Coming into today, shares of the real estate investment trust had lost 4.36% in the past month. In that same time, the Finance sector gained 0.34%, while the S&P 500 lost 1.43%. Wall Street will be looking for positivity from Armour Residential REIT as it approaches its next earnings report date. In that report, analysts expect Armour Residential REIT to post earnings of $0.23 per share. This would mark a year-over-year decline of 28.13%. Meanwhile, our latest consensus estimate is calling for revenue of $4.51 million, down 82.08% from the prior-year quarter. ARR's full-year Zacks Consensus Estimates are calling for earnings of $0.98 …\nArticle 6 provenance: bd6cb7f6566f480301af2a928c92085c3af3e17d5566854477203f294031a061\nArticle 7 date: 2023-09-19\nArticle 7 title: Should You Invest in the Invesco KBW High Dividend Yield Financial ETF (KBWD)?\nArticle 7 source: https://www.nasdaq.com/articles/should-you-invest-in-the-invesco-kbw-high-dividend-yield-financial-etf-kbwd-9\nArticle 7 text: If you're interested in broad exposure to the Financials - Broad segment of the equity market, look no further than the Invesco KBW High Dividend Yield Financial ETF (KBWD), a passively managed exchange traded fund launched on 12/02/2010. While an excellent vehicle for long term investors, passively managed ETFs are a popular choice among institutional and retail investors due to their low costs, transparency, flexibility, and tax efficiency. Sector ETFs also provide investors access to a broad group of companies in particular sectors that offer low risk and diversified exposure. Financials - Broad is one of the 16 broad Zacks sectors within the Zacks Industry classification. It is currently ranked 11, placing it in bottom 31%. Index Details The fund is sponsored by Invesco. It has amassed assets over $381.44 million, making it one of the average sized ETFs attempting to match the perfo…\nArticle 7 provenance: 848f57fd2dfa6cb7514d6b860b3a6236fcdbe23f842ec22015f90965564c5504\nArticle 8 date: 2023-09-15\nArticle 8 title: Armour Residential REIT (ARR) Gains As Market Dips: What You Should Know\nArticle 8 source: https://www.nasdaq.com/articles/armour-residential-reit-arr-gains-as-market-dips%3A-what-you-should-know-6\nArticle 8 text: In the latest trading session, Armour Residential REIT (ARR) closed at $4.90, marking a +0.62% move from the previous day. This change outpaced the S&P 500's 1.22% loss on the day. Elsewhere, the Dow lost 0.83%, while the tech-heavy Nasdaq lost 1.56%. Prior to today's trading, shares of the real estate investment trust had gained 3.84% over the past month. This has outpaced the Finance sector's gain of 0.72% and the S&P 500's gain of 0.54% in that time. Wall Street will be looking for positivity from Armour Residential REIT as it approaches its next earnings report date. The company is expected to report EPS of $0.23, down 28.13% from the prior-year quarter. Meanwhile, the Zacks Consensus Estimate for revenue is projecting net sales of $4.51 million, down 82.08% from the year-ago period. ARR's full-year Zacks Consensus Estimates are calling for earnings of $0.98 per share and revenue of…\nArticle 8 provenance: 31baa6b1e2099ff9304b2c280e1f229ae6bdf4cf4d4bdf1d64ed041cc872b543"
+    },
+    "social_analyst": {
+      "sections": [],
+      "text": ""
+    }
+  },
+  "routing": {
+    "modality_to_analyst": {
+      "IMAGE": "Market Analyst",
+      "TABLE": "Fundamentals Analyst",
+      "TEXT": "News Analyst",
+      "TIME_SERIES": "Market Analyst"
+    },
+    "raw_packet_direct_injection": false,
+    "social_analyst": "NO_FINMULTITIME_EVIDENCE"
+  },
+  "section_sha256": {
+    "IMAGE": "4493a9eeda77743c27d7ad36fa848aab52dacb3da588d6bb25164ee2a23c72a0",
+    "TABLE": "dd31aa7f54cc8e868da1a81e27602eb5c58926f2f594b7a41e75e5cab1cf124f",
+    "TEXT": "f8889c6c278c1a3ede62203362128ca07990ce940d74d11239b91a15a1d6757f",
+    "TIME_SERIES": "5f8c72d8a914837c32b1ad37e88ed4d0e5e2f81a275c8fc7179f5c2a05493543"
+  },
+  "source_provenance": {
+    "pit_cutoff": "2023-10-06",
+    "task_id": "M2-06"
+  },
+  "symbol": "ARR",
+  "tier_membership": {
+    "in_compact": true,
+    "in_maximum": true,
+    "in_standard": true
+  }
+}

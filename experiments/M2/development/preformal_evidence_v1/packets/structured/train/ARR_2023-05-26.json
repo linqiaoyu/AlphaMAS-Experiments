@@ -1,0 +1,244 @@
+{
+  "IMAGE": {
+    "canonical_caption": {
+      "candlestick_structure": "mostly green and red, with some green and red",
+      "confidence": "moderate",
+      "momentum_visual": "generally increasing then decreasing then increasing",
+      "notable_gap_or_reversal": "no significant gap or reversal",
+      "other_visible_pattern": "no other visible patterns",
+      "support_resistance_visual": "no clear support or resistance levels",
+      "trend": "upward then downward then upward",
+      "volatility_visual": "high volatility in early months, then decreasing",
+      "volume_visual": "no visible volume data"
+    },
+    "caption_sha256": "ecf45749d268e52ffcee3551fcd42727ba55ef9b389bbb4a1bde8859d1f940f6",
+    "caption_source": "NEW_QWEN_M2_06",
+    "caption_status": "GENERATED",
+    "chart_period": "2022-H2",
+    "evidence_age_calendar_days": 146,
+    "image_sha256": "def7ae39023bfa6da4103d7a84e91a66a891093db310f209bf2fb68e7e9f64c4",
+    "inferred_period_end": "2022-12-31",
+    "provenance_hash_reference": "ecf45749d268e52ffcee3551fcd42727ba55ef9b389bbb4a1bde8859d1f940f6",
+    "reason": "",
+    "source_identity": "arr_2022_H2_candlestick.png",
+    "status": "AVAILABLE"
+  },
+  "TABLE": {
+    "facts": {
+      "Assets": {
+        "accession": "0001428205-23-000094",
+        "filed_date": "2023-04-26",
+        "form": "10-Q",
+        "fp": "Q1",
+        "fy": 2023,
+        "period_duration_class": "point_in_time",
+        "period_duration_days": null,
+        "period_end": "2023-03-31",
+        "period_start": "",
+        "provenance_hash_reference": "d9876d0625bd81bc8b096eb444627d97a6ea2dd1d1db4bf138e5c02fa6260069",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 13249330000
+      },
+      "Liabilities": {
+        "accession": "0001428205-23-000094",
+        "filed_date": "2023-04-26",
+        "form": "10-Q",
+        "fp": "Q1",
+        "fy": 2023,
+        "period_duration_class": "point_in_time",
+        "period_duration_days": null,
+        "period_end": "2023-03-31",
+        "period_start": "",
+        "provenance_hash_reference": "892363c383c9b9266098bfb4311d1a39292b85132d943469debdab9745e84347",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 12034197000
+      },
+      "NetCashProvidedByUsedInFinancingActivities": {
+        "accession": "0001428205-23-000094",
+        "filed_date": "2023-04-26",
+        "form": "10-Q",
+        "fp": "Q1",
+        "fy": 2023,
+        "period_duration_class": "quarterly",
+        "period_duration_days": 90,
+        "period_end": "2023-03-31",
+        "period_start": "2023-01-01",
+        "provenance_hash_reference": "c80d16da5be47d02e606cde85f06c3592da9d7aca5b4a25d7e32b8622b94d70d",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 4013480000
+      },
+      "NetCashProvidedByUsedInInvestingActivities": {
+        "accession": "0001428205-23-000094",
+        "filed_date": "2023-04-26",
+        "form": "10-Q",
+        "fp": "Q1",
+        "fy": 2023,
+        "period_duration_class": "quarterly",
+        "period_duration_days": 90,
+        "period_end": "2023-03-31",
+        "period_start": "2023-01-01",
+        "provenance_hash_reference": "3c8588cd3125a69f5ed41da8d4385c6db7585772b33f40c07586852b908b23e3",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": -3926462000
+      },
+      "NetCashProvidedByUsedInOperatingActivities": {
+        "accession": "0001428205-23-000094",
+        "filed_date": "2023-04-26",
+        "form": "10-Q",
+        "fp": "Q1",
+        "fy": 2023,
+        "period_duration_class": "quarterly",
+        "period_duration_days": 90,
+        "period_end": "2023-03-31",
+        "period_start": "2023-01-01",
+        "provenance_hash_reference": "256fea318186a4526c7085f89639c0101d8a1ab1e9f60e5f4a465e048749bb27",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 54219000
+      },
+      "StockholdersEquity": {
+        "accession": "0001428205-23-000094",
+        "filed_date": "2023-04-26",
+        "form": "10-Q",
+        "fp": "Q1",
+        "fy": 2023,
+        "period_duration_class": "point_in_time",
+        "period_duration_days": null,
+        "period_end": "2023-03-31",
+        "period_start": "",
+        "provenance_hash_reference": "54811cb1b8cd733ab26ec5f12e414b61ac3d9652683c331be21abd5f9c575ede",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 1215133000
+      }
+    },
+    "provenance_hash_reference": "614f242fdb7d19d60dc3abc489ca684707223a751a1090b27adde494bdade875",
+    "reason": "",
+    "selection_rule": "frozen six-concept TABLE selection; filed_date < decision session",
+    "source_identity": "financial_reports/arr/condensed_consolidated_balance_sheets.json;financial_reports/arr/condensed_consolidated_statement_of_cash_flows.json",
+    "status": "AVAILABLE"
+  },
+  "TEXT": {
+    "evidence_age_calendar_days": 23,
+    "provenance_hash_reference": "29311fecfbe755bc8080f8c57c4f7cadeb4afb036a013546f3fdb0148bfb99ef",
+    "reason": "",
+    "records": [
+      {
+        "article_date": "2023-05-03",
+        "body": "Hey kid, want some candy? Don't worry about the wrapper. It, um, came like that. No? No candy for you? You're sure? OK fine. Maybe you're not hungry, but how about this 31% dividend? Don't worry. The stock made its last dividend payment of $0.27 just fine. No? No 31% yield for you? You're sure? OK fine. And, honestly, smart move. I would imagine that January dividend payment is the last one we ever see from First Republic Bank (FRC). Fundamentally, FRC (and other banks, for this matter) are flawed, perhaps fatally so. They are not paying competitive rates. Check out this screenshot I took from FRC's website last Friday--just prior to the fire sale to JPMorgan Chase (JPM):  Wow, what a deal. We can open a savings account with a bank that is about to fail and receive a 1.29% interest rate. One point two nine percent. In a five percent world! The rates for big opening deposits of $500,000 …",
+        "provenance_hash_reference": "31a0b53e9c8472220db09960fab00bac22b34ad8d2c501f3a619d2b156cb5b13",
+        "source": "https://www.nasdaq.com/articles/these-10-yields-are-mystery-meats-avoid",
+        "title": "These 10%+ Yields are Mystery Meats - Avoid!"
+      }
+    ],
+    "selection_rule": "frozen bounded TEXT selection; Date < decision session; deterministic order",
+    "source_identity": "sp500_news/ARR.jsonl",
+    "status": "AVAILABLE"
+  },
+  "TIME_SERIES": {
+    "provenance_hash_reference": "dfc07a358857e0586c3e7e40d0d42026fc66bd246456eb56d97988dec5835727",
+    "reason": "",
+    "selection_rule": "frozen descriptive summaries from 61 completed source rows; session <= decision",
+    "source_identity": "S&P500_time_series/arr.csv",
+    "status": "AVAILABLE",
+    "summaries": {
+      "cumulative_return_20d": -0.04774911197958609,
+      "cumulative_return_5d": -0.008298897600394817,
+      "cumulative_return_60d": -0.043910456107737694,
+      "drawdown_from_60d_peak": -0.08163362290189513,
+      "high_low_range_20d": 0.1380414390389244,
+      "realised_volatility_20d_annualised": 0.316501110080979,
+      "relative_volume_vs_20d_mean": 1.0813293994294213
+    },
+    "through_session": "2023-05-26"
+  },
+  "agent_text": "=== FINMULTITIME EVIDENCE ===\nSymbol: ARR\nDecision session: 2023-05-26\n\n[TEXT]\nStatus: AVAILABLE\nEvidence age (calendar days): 23\nSource: sp500_news/ARR.jsonl\nArticle 1 date: 2023-05-03\nArticle 1 title: These 10%+ Yields are Mystery Meats - Avoid!\nArticle 1 source: https://www.nasdaq.com/articles/these-10-yields-are-mystery-meats-avoid\nArticle 1 text: Hey kid, want some candy? Don't worry about the wrapper. It, um, came like that. No? No candy for you? You're sure? OK fine. Maybe you're not hungry, but how about this 31% dividend? Don't worry. The stock made its last dividend payment of $0.27 just fine. No? No 31% yield for you? You're sure? OK fine. And, honestly, smart move. I would imagine that January dividend payment is the last one we ever see from First Republic Bank (FRC). Fundamentally, FRC (and other banks, for this matter) are flawed, perhaps fatally so. They are not paying competitive rates. Check out this screenshot I took from FRC's website last Friday--just prior to the fire sale to JPMorgan Chase (JPM):  Wow, what a deal. We can open a savings account with a bank that is about to fail and receive a 1.29% interest rate. One point two nine percent. In a five percent world! The rates for big opening deposits of $500,000 …\nArticle 1 provenance: 31a0b53e9c8472220db09960fab00bac22b34ad8d2c501f3a619d2b156cb5b13\n\n[TABLE]\nStatus: AVAILABLE\nSource: financial_reports/arr/condensed_consolidated_balance_sheets.json;financial_reports/arr/condensed_consolidated_statement_of_cash_flows.json\nAssets: value=13249330000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-03-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-04-26; accession=0001428205-23-000094; provenance=d9876d0625bd81bc8b096eb444627d97a6ea2dd1d1db4bf138e5c02fa6260069\nLiabilities: value=12034197000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-03-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-04-26; accession=0001428205-23-000094; provenance=892363c383c9b9266098bfb4311d1a39292b85132d943469debdab9745e84347\nStockholdersEquity: value=1215133000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-03-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-04-26; accession=0001428205-23-000094; provenance=54811cb1b8cd733ab26ec5f12e414b61ac3d9652683c331be21abd5f9c575ede\nNetCashProvidedByUsedInOperatingActivities: value=54219000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-03-31; period_duration_days=90; period_duration_class=quarterly; filed_date=2023-04-26; accession=0001428205-23-000094; provenance=256fea318186a4526c7085f89639c0101d8a1ab1e9f60e5f4a465e048749bb27\nNetCashProvidedByUsedInInvestingActivities: value=-3926462000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-03-31; period_duration_days=90; period_duration_class=quarterly; filed_date=2023-04-26; accession=0001428205-23-000094; provenance=3c8588cd3125a69f5ed41da8d4385c6db7585772b33f40c07586852b908b23e3\nNetCashProvidedByUsedInFinancingActivities: value=4013480000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-03-31; period_duration_days=90; period_duration_class=quarterly; filed_date=2023-04-26; accession=0001428205-23-000094; provenance=c80d16da5be47d02e606cde85f06c3592da9d7aca5b4a25d7e32b8622b94d70d\n\n[TIME_SERIES]\nStatus: AVAILABLE\nThrough session: 2023-05-26\nSource: S&P500_time_series/arr.csv\ncumulative_return_5d: -0.008298897600394817\ncumulative_return_20d: -0.04774911197958609\ncumulative_return_60d: -0.043910456107737694\nrealised_volatility_20d_annualised: 0.316501110080979\nhigh_low_range_20d: 0.1380414390389244\ndrawdown_from_60d_peak: -0.08163362290189513\nrelative_volume_vs_20d_mean: 1.0813293994294213\nProvenance: dfc07a358857e0586c3e7e40d0d42026fc66bd246456eb56d97988dec5835727\n\n[IMAGE]\nStatus: AVAILABLE\nChart period: 2022-H2\nInferred period end: 2022-12-31\nEvidence age (calendar days): 146\nSource: arr_2022_H2_candlestick.png\nCanonical caption: {\"candlestick_structure\":\"mostly green and red, with some green and red\",\"confidence\":\"moderate\",\"momentum_visual\":\"generally increasing then decreasing then increasing\",\"notable_gap_or_reversal\":\"no significant gap or reversal\",\"other_visible_pattern\":\"no other visible patterns\",\"support_resistance_visual\":\"no clear support or resistance levels\",\"trend\":\"upward then downward then upward\",\"volatility_visual\":\"high volatility in early months, then decreasing\",\"volume_visual\":\"no visible volume data\"}\nCaption provenance: ecf45749d268e52ffcee3551fcd42727ba55ef9b389bbb4a1bde8859d1f940f6\n=== END FINMULTITIME EVIDENCE ===\n",
+  "available_for_training": true,
+  "available_for_validation": false,
+  "case_id": "ARR:2023-05-26",
+  "character_counts": {
+    "complete": 4716,
+    "fundamentals": 2078,
+    "market": 1228,
+    "news": 1262
+  },
+  "contract_version": "M1-FINMULTITIME-v1.0.2",
+  "dataset_id": "m2_preformal_evidence_v1",
+  "decision_session": "2023-05-26",
+  "decision_time": "2023-05-26T20:00:00+00:00",
+  "engineering_only": false,
+  "m2_metadata": {
+    "available_for_training": true,
+    "available_for_validation": false,
+    "engineering_only": false,
+    "performance_for_selection": false,
+    "protected": false,
+    "role": "TRAIN",
+    "tier_membership": {
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    }
+  },
+  "packet_sha256": "72256162f880b354300a15e5dbe275d179250e3285de9b8d070a1a70f1750c61",
+  "packet_status": "FINAL_FROZEN",
+  "performance_for_selection": false,
+  "protected": false,
+  "record_type": "m1_finmultitime_evidence_packet",
+  "role": "TRAIN",
+  "routed_projections": {
+    "fundamentals_analyst": {
+      "sections": [
+        "TABLE"
+      ],
+      "text": "Status: AVAILABLE\nSource: financial_reports/arr/condensed_consolidated_balance_sheets.json;financial_reports/arr/condensed_consolidated_statement_of_cash_flows.json\nAssets: value=13249330000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-03-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-04-26; accession=0001428205-23-000094; provenance=d9876d0625bd81bc8b096eb444627d97a6ea2dd1d1db4bf138e5c02fa6260069\nLiabilities: value=12034197000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-03-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-04-26; accession=0001428205-23-000094; provenance=892363c383c9b9266098bfb4311d1a39292b85132d943469debdab9745e84347\nStockholdersEquity: value=1215133000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-03-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-04-26; accession=0001428205-23-000094; provenance=54811cb1b8cd733ab26ec5f12e414b61ac3d9652683c331be21abd5f9c575ede\nNetCashProvidedByUsedInOperatingActivities: value=54219000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-03-31; period_duration_days=90; period_duration_class=quarterly; filed_date=2023-04-26; accession=0001428205-23-000094; provenance=256fea318186a4526c7085f89639c0101d8a1ab1e9f60e5f4a465e048749bb27\nNetCashProvidedByUsedInInvestingActivities: value=-3926462000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-03-31; period_duration_days=90; period_duration_class=quarterly; filed_date=2023-04-26; accession=0001428205-23-000094; provenance=3c8588cd3125a69f5ed41da8d4385c6db7585772b33f40c07586852b908b23e3\nNetCashProvidedByUsedInFinancingActivities: value=4013480000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-03-31; period_duration_days=90; period_duration_class=quarterly; filed_date=2023-04-26; accession=0001428205-23-000094; provenance=c80d16da5be47d02e606cde85f06c3592da9d7aca5b4a25d7e32b8622b94d70d"
+    },
+    "market_analyst": {
+      "sections": [
+        "TIME_SERIES",
+        "IMAGE"
+      ],
+      "text": "Status: AVAILABLE\nThrough session: 2023-05-26\nSource: S&P500_time_series/arr.csv\ncumulative_return_5d: -0.008298897600394817\ncumulative_return_20d: -0.04774911197958609\ncumulative_return_60d: -0.043910456107737694\nrealised_volatility_20d_annualised: 0.316501110080979\nhigh_low_range_20d: 0.1380414390389244\ndrawdown_from_60d_peak: -0.08163362290189513\nrelative_volume_vs_20d_mean: 1.0813293994294213\nProvenance: dfc07a358857e0586c3e7e40d0d42026fc66bd246456eb56d97988dec5835727\n\nStatus: AVAILABLE\nChart period: 2022-H2\nInferred period end: 2022-12-31\nEvidence age (calendar days): 146\nSource: arr_2022_H2_candlestick.png\nCanonical caption: {\"candlestick_structure\":\"mostly green and red, with some green and red\",\"confidence\":\"moderate\",\"momentum_visual\":\"generally increasing then decreasing then increasing\",\"notable_gap_or_reversal\":\"no significant gap or reversal\",\"other_visible_pattern\":\"no other visible patterns\",\"support_resistance_visual\":\"no clear support or resistance levels\",\"trend\":\"upward then downward then upward\",\"volatility_visual\":\"high volatility in early months, then decreasing\",\"volume_visual\":\"no visible volume data\"}\nCaption provenance: ecf45749d268e52ffcee3551fcd42727ba55ef9b389bbb4a1bde8859d1f940f6"
+    },
+    "news_analyst": {
+      "sections": [
+        "TEXT"
+      ],
+      "text": "Status: AVAILABLE\nEvidence age (calendar days): 23\nSource: sp500_news/ARR.jsonl\nArticle 1 date: 2023-05-03\nArticle 1 title: These 10%+ Yields are Mystery Meats - Avoid!\nArticle 1 source: https://www.nasdaq.com/articles/these-10-yields-are-mystery-meats-avoid\nArticle 1 text: Hey kid, want some candy? Don't worry about the wrapper. It, um, came like that. No? No candy for you? You're sure? OK fine. Maybe you're not hungry, but how about this 31% dividend? Don't worry. The stock made its last dividend payment of $0.27 just fine. No? No 31% yield for you? You're sure? OK fine. And, honestly, smart move. I would imagine that January dividend payment is the last one we ever see from First Republic Bank (FRC). Fundamentally, FRC (and other banks, for this matter) are flawed, perhaps fatally so. They are not paying competitive rates. Check out this screenshot I took from FRC's website last Friday--just prior to the fire sale to JPMorgan Chase (JPM):  Wow, what a deal. We can open a savings account with a bank that is about to fail and receive a 1.29% interest rate. One point two nine percent. In a five percent world! The rates for big opening deposits of $500,000 …\nArticle 1 provenance: 31a0b53e9c8472220db09960fab00bac22b34ad8d2c501f3a619d2b156cb5b13"
+    },
+    "social_analyst": {
+      "sections": [],
+      "text": ""
+    }
+  },
+  "routing": {
+    "modality_to_analyst": {
+      "IMAGE": "Market Analyst",
+      "TABLE": "Fundamentals Analyst",
+      "TEXT": "News Analyst",
+      "TIME_SERIES": "Market Analyst"
+    },
+    "raw_packet_direct_injection": false,
+    "social_analyst": "NO_FINMULTITIME_EVIDENCE"
+  },
+  "section_sha256": {
+    "IMAGE": "0acc349a8f5e7f1fcde578c9bbd42b9b4c058ad1c6775d327455f8108d98dfc6",
+    "TABLE": "43bbdfab26151d24318edb08606c8153026e6c55a678d6e05a0d09a1e2a1e1e5",
+    "TEXT": "d2b4423a43a8ff63ca497c28e9fa89c15820bcef0505a8d20d1840ecb578116f",
+    "TIME_SERIES": "474aa8d9f62776200725f908d5748adcc28b2c350474ef08550d17dc842fc141"
+  },
+  "source_provenance": {
+    "pit_cutoff": "2023-05-26",
+    "task_id": "M2-06"
+  },
+  "symbol": "ARR",
+  "tier_membership": {
+    "in_compact": true,
+    "in_maximum": true,
+    "in_standard": true
+  }
+}

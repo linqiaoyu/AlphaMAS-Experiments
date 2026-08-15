@@ -1,0 +1,40 @@
+=== FINMULTITIME EVIDENCE ===
+Symbol: EML
+Decision session: 2023-10-06
+
+[TEXT]
+Status: UNAVAILABLE
+Missingness reason: no PIT-safe article inside fixed 30-calendar-day lookback
+
+[TABLE]
+Status: AVAILABLE
+Source: financial_reports/eml/condensed_consolidated_balance_sheets.json;financial_reports/eml/condensed_consolidated_statement_of_cash_flows.json
+Assets: value=256545457; unit=USD; form=10-Q; fy=2023; fp=Q2; period_start=; period_end=2023-07-01; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-08-08; accession=0001654954-23-010295; provenance=98b73944b1bf6b1c779e3cb702d800106a3ea17e23f66d2cee3bd33e1ebd275e
+Liabilities: value=130322871; unit=USD; form=10-Q; fy=2023; fp=Q2; period_start=; period_end=2023-07-01; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-08-08; accession=0001654954-23-010295; provenance=d48a1c067a2f4b4434cb559d277d533f83ea1919f7118e26d0cb32eb8804fe06
+StockholdersEquity: value=126222586; unit=USD; form=10-Q; fy=2023; fp=Q2; period_start=; period_end=2023-07-01; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-08-08; accession=0001654954-23-010295; provenance=bea62fd93f1d6d39829ac610e2c0f84843ba42990c9eea2a3c22d88d4bd21693
+NetCashProvidedByUsedInOperatingActivities: value=13558455; unit=USD; form=10-Q; fy=2023; fp=Q2; period_start=2023-01-01; period_end=2023-07-01; period_duration_days=182; period_duration_class=year_to_date_6m; filed_date=2023-08-08; accession=0001654954-23-010295; provenance=18e524fa2b3f80dc93fb1b847536a4c09deaeb7e4fb5773a2394bbff00e4a09e
+NetCashProvidedByUsedInInvestingActivities: value=-217186; unit=USD; form=10-Q; fy=2023; fp=Q2; period_start=2023-01-01; period_end=2023-07-01; period_duration_days=182; period_duration_class=year_to_date_6m; filed_date=2023-08-08; accession=0001654954-23-010295; provenance=160c07955288cf0b7a06e5a7bfa6476eb9fd02906c874814c3fe2861cf70b189
+NetCashProvidedByUsedInFinancingActivities: value=-10196151; unit=USD; form=10-Q; fy=2023; fp=Q2; period_start=2023-01-01; period_end=2023-07-01; period_duration_days=182; period_duration_class=year_to_date_6m; filed_date=2023-08-08; accession=0001654954-23-010295; provenance=bdb2e12cb7f8cb25901b853fb4ad3a6ed35da6def1ddfbb3a651502158f8ad22
+
+[TIME_SERIES]
+Status: AVAILABLE
+Through session: 2023-10-06
+Source: S&P500_time_series/eml.csv
+cumulative_return_5d: -0.016529058437863897
+cumulative_return_20d: -0.037735705690791654
+cumulative_return_60d: -0.013576608901773257
+realised_volatility_20d_annualised: 0.17578608264385265
+high_low_range_20d: 0.0791572779250389
+drawdown_from_60d_peak: -0.07506913557755068
+relative_volume_vs_20d_mean: 1.1021671826625388
+Provenance: 05140d4003c5cb5c6686d9f354333c2a377a655974c8c4acdb0a33b9ca84b10e
+
+[IMAGE]
+Status: AVAILABLE
+Chart period: 2023-H1
+Inferred period end: 2023-06-30
+Evidence age (calendar days): 98
+Source: eml_2023_H1_candlestick.png
+Canonical caption: {"candlestick_structure":"mostly green and red, with a few green candles in the middle","confidence":"moderate","momentum_visual":"mixed, with periods of strength and weakness","notable_gap_or_reversal":"a significant drop around March 2023","other_visible_pattern":"a few small clusters of green and red candles","support_resistance_visual":"a clear support level around 19.5, resistance around 18.5","trend":"upward followed by downward","volatility_visual":"moderate, with some sharp fluctuations","volume_visual":"not visible"}
+Caption provenance: 04b69af7c31b219af849850a1d259e5c069e44434feae6a02b5b2692bdca76ec
+=== END FINMULTITIME EVIDENCE ===

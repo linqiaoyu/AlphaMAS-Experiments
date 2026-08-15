@@ -1,0 +1,236 @@
+{
+  "IMAGE": {
+    "canonical_caption": {
+      "candlestick_structure": "mostly green and red, with some green and red in the middle",
+      "confidence": "moderate",
+      "momentum_visual": "mixed, with periods of strong momentum",
+      "notable_gap_or_reversal": "a significant gap in early February, followed by a reversal",
+      "other_visible_pattern": "no clear pattern beyond the candlestick structure",
+      "support_resistance_visual": "support around 3.5, resistance around 7.5",
+      "trend": "upward then downward then upward",
+      "volatility_visual": "high volatility in early months, then moderate",
+      "volume_visual": "not visible"
+    },
+    "caption_sha256": "b638f57299c3f410de69e813f60248638dcbe533a3b86c1f1a2b84fed22e78f3",
+    "caption_source": "NEW_QWEN_M2_06",
+    "caption_status": "GENERATED",
+    "chart_period": "2023-H1",
+    "evidence_age_calendar_days": 7,
+    "image_sha256": "9ae5f3ad69d03ab30482e16db325d10a4e7b4e951f0d80009c6e7f7e8004983a",
+    "inferred_period_end": "2023-06-30",
+    "provenance_hash_reference": "b638f57299c3f410de69e813f60248638dcbe533a3b86c1f1a2b84fed22e78f3",
+    "reason": "",
+    "source_identity": "aemd_2023_H1_candlestick.png",
+    "status": "AVAILABLE"
+  },
+  "TABLE": {
+    "facts": {
+      "Assets": {
+        "accession": "0001683168-23-004487",
+        "filed_date": "2023-06-28",
+        "form": "10-K",
+        "fp": "FY",
+        "fy": 2023,
+        "period_duration_class": "point_in_time",
+        "period_duration_days": null,
+        "period_end": "2023-03-31",
+        "period_start": "",
+        "provenance_hash_reference": "5e4e687345720625744705b7b5880140a918a894db75410a7c7bc79ee8edeb28",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 17508940
+      },
+      "Liabilities": {
+        "accession": "0001683168-23-004487",
+        "filed_date": "2023-06-28",
+        "form": "10-K",
+        "fp": "FY",
+        "fy": 2023,
+        "period_duration_class": "point_in_time",
+        "period_duration_days": null,
+        "period_end": "2023-03-31",
+        "period_start": "",
+        "provenance_hash_reference": "608616208ff3ee2b4c4791bd636ad1404cdf6b689745db61de187da4a7831876",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 2444731
+      },
+      "NetCashProvidedByUsedInFinancingActivities": {
+        "accession": "0001683168-23-004487",
+        "filed_date": "2023-06-28",
+        "form": "10-K",
+        "fp": "FY",
+        "fy": 2023,
+        "period_duration_class": "annual",
+        "period_duration_days": 365,
+        "period_end": "2023-03-31",
+        "period_start": "2022-04-01",
+        "provenance_hash_reference": "42e84eafa55f7d1c99b0757c558e747ee8e5c2b554611f7e9aa30b33d8c0ddd2",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 8914718
+      },
+      "NetCashProvidedByUsedInInvestingActivities": {
+        "accession": "0001683168-23-004487",
+        "filed_date": "2023-06-28",
+        "form": "10-K",
+        "fp": "FY",
+        "fy": 2023,
+        "period_duration_class": "annual",
+        "period_duration_days": 365,
+        "period_end": "2023-03-31",
+        "period_start": "2022-04-01",
+        "provenance_hash_reference": "192de9ff43b75d728ad2040e8e7be185e97d5ba31774ce1e72f4bbada994e521",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": -943109
+      },
+      "NetCashProvidedByUsedInOperatingActivities": {
+        "accession": "0001683168-23-004487",
+        "filed_date": "2023-06-28",
+        "form": "10-K",
+        "fp": "FY",
+        "fy": 2023,
+        "period_duration_class": "annual",
+        "period_duration_days": 365,
+        "period_end": "2023-03-31",
+        "period_start": "2022-04-01",
+        "provenance_hash_reference": "5a19201ee2d6ce8983263db2f5d7c719e84e4f147558d39a0559dca5c4b4bc72",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": -10505128
+      },
+      "StockholdersEquity": {
+        "accession": "0001683168-23-004487",
+        "filed_date": "2023-06-28",
+        "form": "10-K",
+        "fp": "FY",
+        "fy": 2023,
+        "period_duration_class": "point_in_time",
+        "period_duration_days": null,
+        "period_end": "2023-03-31",
+        "period_start": "",
+        "provenance_hash_reference": "1439cd09df334c735d26a3a72ce010ef95f49f05609a2f93109037bd95736e96",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 15064209
+      }
+    },
+    "provenance_hash_reference": "79346b7ceb7bb3a0fb1615b246e101d2459517d39760defdc46196ae5b14217c",
+    "reason": "",
+    "selection_rule": "frozen six-concept TABLE selection; filed_date < decision session",
+    "source_identity": "financial_reports/aemd/condensed_consolidated_balance_sheets.json;financial_reports/aemd/condensed_consolidated_statement_of_cash_flows.json",
+    "status": "AVAILABLE"
+  },
+  "TEXT": {
+    "evidence_age_calendar_days": null,
+    "provenance_hash_reference": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "reason": "no PIT-safe article inside fixed 30-calendar-day lookback",
+    "records": [],
+    "selection_rule": "frozen bounded TEXT selection; Date < decision session; deterministic order",
+    "source_identity": "sp500_news/AEMD.jsonl",
+    "status": "UNAVAILABLE"
+  },
+  "TIME_SERIES": {
+    "provenance_hash_reference": "221ec4e7b7f91d85dc326bfff278d09a562c62a8f1f0be3637874bdaea702511",
+    "reason": "",
+    "selection_rule": "frozen descriptive summaries from 61 completed source rows; session <= decision",
+    "source_identity": "S&P500_time_series/aemd.csv",
+    "status": "AVAILABLE",
+    "summaries": {
+      "cumulative_return_20d": 0.22222228109100883,
+      "cumulative_return_5d": 0.10000002384185791,
+      "cumulative_return_60d": 0.1578947764684624,
+      "drawdown_from_60d_peak": -0.27868849767917103,
+      "high_low_range_20d": 0.5624999767169361,
+      "realised_volatility_20d_annualised": 1.1387788034041126,
+      "relative_volume_vs_20d_mean": 1.2612926218774347
+    },
+    "through_session": "2023-07-07"
+  },
+  "agent_text": "=== FINMULTITIME EVIDENCE ===\nSymbol: AEMD\nDecision session: 2023-07-07\n\n[TEXT]\nStatus: UNAVAILABLE\nMissingness reason: no PIT-safe article inside fixed 30-calendar-day lookback\n\n[TABLE]\nStatus: AVAILABLE\nSource: financial_reports/aemd/condensed_consolidated_balance_sheets.json;financial_reports/aemd/condensed_consolidated_statement_of_cash_flows.json\nAssets: value=17508940; unit=USD; form=10-K; fy=2023; fp=FY; period_start=; period_end=2023-03-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-06-28; accession=0001683168-23-004487; provenance=5e4e687345720625744705b7b5880140a918a894db75410a7c7bc79ee8edeb28\nLiabilities: value=2444731; unit=USD; form=10-K; fy=2023; fp=FY; period_start=; period_end=2023-03-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-06-28; accession=0001683168-23-004487; provenance=608616208ff3ee2b4c4791bd636ad1404cdf6b689745db61de187da4a7831876\nStockholdersEquity: value=15064209; unit=USD; form=10-K; fy=2023; fp=FY; period_start=; period_end=2023-03-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-06-28; accession=0001683168-23-004487; provenance=1439cd09df334c735d26a3a72ce010ef95f49f05609a2f93109037bd95736e96\nNetCashProvidedByUsedInOperatingActivities: value=-10505128; unit=USD; form=10-K; fy=2023; fp=FY; period_start=2022-04-01; period_end=2023-03-31; period_duration_days=365; period_duration_class=annual; filed_date=2023-06-28; accession=0001683168-23-004487; provenance=5a19201ee2d6ce8983263db2f5d7c719e84e4f147558d39a0559dca5c4b4bc72\nNetCashProvidedByUsedInInvestingActivities: value=-943109; unit=USD; form=10-K; fy=2023; fp=FY; period_start=2022-04-01; period_end=2023-03-31; period_duration_days=365; period_duration_class=annual; filed_date=2023-06-28; accession=0001683168-23-004487; provenance=192de9ff43b75d728ad2040e8e7be185e97d5ba31774ce1e72f4bbada994e521\nNetCashProvidedByUsedInFinancingActivities: value=8914718; unit=USD; form=10-K; fy=2023; fp=FY; period_start=2022-04-01; period_end=2023-03-31; period_duration_days=365; period_duration_class=annual; filed_date=2023-06-28; accession=0001683168-23-004487; provenance=42e84eafa55f7d1c99b0757c558e747ee8e5c2b554611f7e9aa30b33d8c0ddd2\n\n[TIME_SERIES]\nStatus: AVAILABLE\nThrough session: 2023-07-07\nSource: S&P500_time_series/aemd.csv\ncumulative_return_5d: 0.10000002384185791\ncumulative_return_20d: 0.22222228109100883\ncumulative_return_60d: 0.1578947764684624\nrealised_volatility_20d_annualised: 1.1387788034041126\nhigh_low_range_20d: 0.5624999767169361\ndrawdown_from_60d_peak: -0.27868849767917103\nrelative_volume_vs_20d_mean: 1.2612926218774347\nProvenance: 221ec4e7b7f91d85dc326bfff278d09a562c62a8f1f0be3637874bdaea702511\n\n[IMAGE]\nStatus: AVAILABLE\nChart period: 2023-H1\nInferred period end: 2023-06-30\nEvidence age (calendar days): 7\nSource: aemd_2023_H1_candlestick.png\nCanonical caption: {\"candlestick_structure\":\"mostly green and red, with some green and red in the middle\",\"confidence\":\"moderate\",\"momentum_visual\":\"mixed, with periods of strong momentum\",\"notable_gap_or_reversal\":\"a significant gap in early February, followed by a reversal\",\"other_visible_pattern\":\"no clear pattern beyond the candlestick structure\",\"support_resistance_visual\":\"support around 3.5, resistance around 7.5\",\"trend\":\"upward then downward then upward\",\"volatility_visual\":\"high volatility in early months, then moderate\",\"volume_visual\":\"not visible\"}\nCaption provenance: b638f57299c3f410de69e813f60248638dcbe533a3b86c1f1a2b84fed22e78f3\n=== END FINMULTITIME EVIDENCE ===\n",
+  "available_for_training": false,
+  "available_for_validation": true,
+  "case_id": "AEMD:2023-07-07",
+  "character_counts": {
+    "complete": 3572,
+    "fundamentals": 2059,
+    "market": 1267,
+    "news": 97
+  },
+  "contract_version": "M1-FINMULTITIME-v1.0.2",
+  "dataset_id": "m2_preformal_evidence_v1",
+  "decision_session": "2023-07-07",
+  "decision_time": "2023-07-07T20:00:00+00:00",
+  "engineering_only": false,
+  "m2_metadata": {
+    "available_for_training": false,
+    "available_for_validation": true,
+    "engineering_only": false,
+    "performance_for_selection": false,
+    "protected": false,
+    "role": "VALIDATION",
+    "tier_membership": {
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    }
+  },
+  "packet_sha256": "c31895c00be36d33593bea13fb1bff1ea38803f52ea512408809155fcad29ce4",
+  "packet_status": "FINAL_FROZEN",
+  "performance_for_selection": false,
+  "protected": false,
+  "record_type": "m1_finmultitime_evidence_packet",
+  "role": "VALIDATION",
+  "routed_projections": {
+    "fundamentals_analyst": {
+      "sections": [
+        "TABLE"
+      ],
+      "text": "Status: AVAILABLE\nSource: financial_reports/aemd/condensed_consolidated_balance_sheets.json;financial_reports/aemd/condensed_consolidated_statement_of_cash_flows.json\nAssets: value=17508940; unit=USD; form=10-K; fy=2023; fp=FY; period_start=; period_end=2023-03-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-06-28; accession=0001683168-23-004487; provenance=5e4e687345720625744705b7b5880140a918a894db75410a7c7bc79ee8edeb28\nLiabilities: value=2444731; unit=USD; form=10-K; fy=2023; fp=FY; period_start=; period_end=2023-03-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-06-28; accession=0001683168-23-004487; provenance=608616208ff3ee2b4c4791bd636ad1404cdf6b689745db61de187da4a7831876\nStockholdersEquity: value=15064209; unit=USD; form=10-K; fy=2023; fp=FY; period_start=; period_end=2023-03-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-06-28; accession=0001683168-23-004487; provenance=1439cd09df334c735d26a3a72ce010ef95f49f05609a2f93109037bd95736e96\nNetCashProvidedByUsedInOperatingActivities: value=-10505128; unit=USD; form=10-K; fy=2023; fp=FY; period_start=2022-04-01; period_end=2023-03-31; period_duration_days=365; period_duration_class=annual; filed_date=2023-06-28; accession=0001683168-23-004487; provenance=5a19201ee2d6ce8983263db2f5d7c719e84e4f147558d39a0559dca5c4b4bc72\nNetCashProvidedByUsedInInvestingActivities: value=-943109; unit=USD; form=10-K; fy=2023; fp=FY; period_start=2022-04-01; period_end=2023-03-31; period_duration_days=365; period_duration_class=annual; filed_date=2023-06-28; accession=0001683168-23-004487; provenance=192de9ff43b75d728ad2040e8e7be185e97d5ba31774ce1e72f4bbada994e521\nNetCashProvidedByUsedInFinancingActivities: value=8914718; unit=USD; form=10-K; fy=2023; fp=FY; period_start=2022-04-01; period_end=2023-03-31; period_duration_days=365; period_duration_class=annual; filed_date=2023-06-28; accession=0001683168-23-004487; provenance=42e84eafa55f7d1c99b0757c558e747ee8e5c2b554611f7e9aa30b33d8c0ddd2"
+    },
+    "market_analyst": {
+      "sections": [
+        "TIME_SERIES",
+        "IMAGE"
+      ],
+      "text": "Status: AVAILABLE\nThrough session: 2023-07-07\nSource: S&P500_time_series/aemd.csv\ncumulative_return_5d: 0.10000002384185791\ncumulative_return_20d: 0.22222228109100883\ncumulative_return_60d: 0.1578947764684624\nrealised_volatility_20d_annualised: 1.1387788034041126\nhigh_low_range_20d: 0.5624999767169361\ndrawdown_from_60d_peak: -0.27868849767917103\nrelative_volume_vs_20d_mean: 1.2612926218774347\nProvenance: 221ec4e7b7f91d85dc326bfff278d09a562c62a8f1f0be3637874bdaea702511\n\nStatus: AVAILABLE\nChart period: 2023-H1\nInferred period end: 2023-06-30\nEvidence age (calendar days): 7\nSource: aemd_2023_H1_candlestick.png\nCanonical caption: {\"candlestick_structure\":\"mostly green and red, with some green and red in the middle\",\"confidence\":\"moderate\",\"momentum_visual\":\"mixed, with periods of strong momentum\",\"notable_gap_or_reversal\":\"a significant gap in early February, followed by a reversal\",\"other_visible_pattern\":\"no clear pattern beyond the candlestick structure\",\"support_resistance_visual\":\"support around 3.5, resistance around 7.5\",\"trend\":\"upward then downward then upward\",\"volatility_visual\":\"high volatility in early months, then moderate\",\"volume_visual\":\"not visible\"}\nCaption provenance: b638f57299c3f410de69e813f60248638dcbe533a3b86c1f1a2b84fed22e78f3"
+    },
+    "news_analyst": {
+      "sections": [
+        "TEXT"
+      ],
+      "text": "Status: UNAVAILABLE\nMissingness reason: no PIT-safe article inside fixed 30-calendar-day lookback"
+    },
+    "social_analyst": {
+      "sections": [],
+      "text": ""
+    }
+  },
+  "routing": {
+    "modality_to_analyst": {
+      "IMAGE": "Market Analyst",
+      "TABLE": "Fundamentals Analyst",
+      "TEXT": "News Analyst",
+      "TIME_SERIES": "Market Analyst"
+    },
+    "raw_packet_direct_injection": false,
+    "social_analyst": "NO_FINMULTITIME_EVIDENCE"
+  },
+  "section_sha256": {
+    "IMAGE": "5e08e186c9462500b086baee7a9742ec8fd1e2e5585447ad301621c04d195726",
+    "TABLE": "f12bc5a421363b5108452db2204e1b006a7093f9fbd11eb263a6def8748fd4c9",
+    "TEXT": "3fcb2e6f6b79f584b454fb6b97a4c4c3cca183d183ea73fcc172e3b7a8cff067",
+    "TIME_SERIES": "ac536ae0d2c9f7286c07ca3a71c1e69f8fc45b9c45b3f2ecd7b2ec6deb910ed5"
+  },
+  "source_provenance": {
+    "pit_cutoff": "2023-07-07",
+    "task_id": "M2-06"
+  },
+  "symbol": "AEMD",
+  "tier_membership": {
+    "in_compact": true,
+    "in_maximum": true,
+    "in_standard": true
+  }
+}

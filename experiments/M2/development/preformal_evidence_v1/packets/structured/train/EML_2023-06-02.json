@@ -1,0 +1,251 @@
+{
+  "IMAGE": {
+    "canonical_caption": {
+      "candlestick_structure": "mostly green and red, with some white",
+      "confidence": "moderate",
+      "momentum_visual": "mixed, with periods of strong momentum",
+      "notable_gap_or_reversal": "a gap in early 2022, followed by a reversal",
+      "other_visible_pattern": "no clear pattern beyond the candlestick structure",
+      "support_resistance_visual": "support around 18-19, resistance around 22-23",
+      "trend": "upward then downward then upward",
+      "volatility_visual": "high volatility, especially in late 2022",
+      "volume_visual": "not visible"
+    },
+    "caption_sha256": "d953ffdbb16aadc95e81229de3fce18c9a224d0e22313eb08d5486bb0c175afb",
+    "caption_source": "NEW_QWEN_M2_06",
+    "caption_status": "GENERATED",
+    "chart_period": "2022-H2",
+    "evidence_age_calendar_days": 153,
+    "image_sha256": "9abcfa7abc8f5ae03c3c5375f7fab122e8a4ae5bfbed03249fe2598ea7044a69",
+    "inferred_period_end": "2022-12-31",
+    "provenance_hash_reference": "d953ffdbb16aadc95e81229de3fce18c9a224d0e22313eb08d5486bb0c175afb",
+    "reason": "",
+    "source_identity": "eml_2022_H2_candlestick.png",
+    "status": "AVAILABLE"
+  },
+  "TABLE": {
+    "facts": {
+      "Assets": {
+        "accession": "0001654954-23-006022",
+        "filed_date": "2023-05-09",
+        "form": "10-Q",
+        "fp": "Q1",
+        "fy": 2023,
+        "period_duration_class": "point_in_time",
+        "period_duration_days": null,
+        "period_end": "2023-04-01",
+        "period_start": "",
+        "provenance_hash_reference": "9c2977c840897ca07c236b798a7e3046ec9d4e14e0f123aea44a401893ccabe9",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 255751589
+      },
+      "Liabilities": {
+        "accession": "0001654954-23-006022",
+        "filed_date": "2023-05-09",
+        "form": "10-Q",
+        "fp": "Q1",
+        "fy": 2023,
+        "period_duration_class": "point_in_time",
+        "period_duration_days": null,
+        "period_end": "2023-04-01",
+        "period_start": "",
+        "provenance_hash_reference": "028122aa155b9288980f2fe03c29cdf6cd8e449b9fd3647cc0127d3e72bcfbc6",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 128951553
+      },
+      "NetCashProvidedByUsedInFinancingActivities": {
+        "accession": "0001654954-23-006022",
+        "filed_date": "2023-05-09",
+        "form": "10-Q",
+        "fp": "Q1",
+        "fy": 2023,
+        "period_duration_class": "quarterly",
+        "period_duration_days": 91,
+        "period_end": "2023-04-01",
+        "period_start": "2023-01-01",
+        "provenance_hash_reference": "99693a84f21127d09c259da212bdb8c3f5820e2091b1f3ea371d5f0f7bffb807",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": -5087288
+      },
+      "NetCashProvidedByUsedInInvestingActivities": {
+        "accession": "0001654954-23-006022",
+        "filed_date": "2023-05-09",
+        "form": "10-Q",
+        "fp": "Q1",
+        "fy": 2023,
+        "period_duration_class": "quarterly",
+        "period_duration_days": 91,
+        "period_end": "2023-04-01",
+        "period_start": "2023-01-01",
+        "provenance_hash_reference": "0f3326686c826471fff8dd1be67ade9a58015fbbf815cdc3fd11056e788cc1aa",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 1081987
+      },
+      "NetCashProvidedByUsedInOperatingActivities": {
+        "accession": "0001654954-23-006022",
+        "filed_date": "2023-05-09",
+        "form": "10-Q",
+        "fp": "Q1",
+        "fy": 2023,
+        "period_duration_class": "quarterly",
+        "period_duration_days": 91,
+        "period_end": "2023-04-01",
+        "period_start": "2023-01-01",
+        "provenance_hash_reference": "56a2501ace6526aef4da8bb50067fa360ddf6d7c4cac63570e244830f9edb3d2",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 6860258
+      },
+      "StockholdersEquity": {
+        "accession": "0001654954-23-006022",
+        "filed_date": "2023-05-09",
+        "form": "10-Q",
+        "fp": "Q1",
+        "fy": 2023,
+        "period_duration_class": "point_in_time",
+        "period_duration_days": null,
+        "period_end": "2023-04-01",
+        "period_start": "",
+        "provenance_hash_reference": "986602f7c3c2379f50e05a7de9506ea34ad5ef40dd22f18f5c222fce8eb95943",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 126800036
+      }
+    },
+    "provenance_hash_reference": "9f9b715790af9482e4929f64ebd338c603675d3d5117ab19e0fa9e80359b4682",
+    "reason": "",
+    "selection_rule": "frozen six-concept TABLE selection; filed_date < decision session",
+    "source_identity": "financial_reports/eml/condensed_consolidated_balance_sheets.json;financial_reports/eml/condensed_consolidated_statement_of_cash_flows.json",
+    "status": "AVAILABLE"
+  },
+  "TEXT": {
+    "evidence_age_calendar_days": 4,
+    "provenance_hash_reference": "82097c3f5fa3691a9c40d2040e2a13da363c75fb48221d1d963fc097983a188f",
+    "reason": "",
+    "records": [
+      {
+        "article_date": "2023-05-29",
+        "body": "By Ateeq Shariff May 29 (Reuters) - Stock markets in the Gulf ended in different directions on Monday after U.S. lawmakers reached a tentative agreement on the debt ceiling, while concerns about more Federal Reserve interest rate hikes weighed on sentiment. U.S. President Joe Biden and House Speaker Kevin McCarthy forged an agreement at the weekend to suspend the $31.4 trillion debt ceiling and cap government spending for two years. Both leaders expressed confidence that members of the Democratic and Republican parties would vote to support the deal. Dubai's main share index .DFMGI edged 0.1% higher, supported by a 1.2% rise in sharia-compliant lender Dubai Islamic Bank DISB.DU. In Abu Dhabi, the index .FTFADGI dropped 0.4%. The Abu Dhabi bourse remained on a downtrend as sentiment remained cautious and energy markets were under pressure, said Farah Mourad, senior market analyst at XTB …",
+        "provenance_hash_reference": "78019f50639a5df50e2d539577070f2ef85ddfde5f95c6a4a41117b8a9404f74",
+        "source": "https://www.nasdaq.com/articles/mideast-stocks-gulf-stock-markets-volatile-on-us-debt-deal-economic-worries",
+        "title": "MIDEAST STOCKS-Gulf stock markets volatile on US debt deal, economic worries"
+      },
+      {
+        "article_date": "2023-05-04",
+        "body": "By Anna Tong and Krystal Hu May 4 (Reuters) - Two prominent former Google GOOGL.O researchers who authored the groundbreaking paper that paved the way for the generative AI boom, have raised $8 million for their new startup Essential AI, four sources told Reuters. Thrive Capital had led the round in Essential AI, founded by Ashish Vaswani and Niki Parmar. The company is still in stealth mode and hasn't launched any product. Conviction and angel investor Elad Gil also participated in the round, one source close to the company added. Thrive Capital, founded by Joshua Kushner, is also an investor in Microsoft-backed OpenAI. Essential AI aims to build software for enterprises to use large language models, the core software of a new artificial intelligence system that has powered generative AI applications such as ChatGPT, sources said. Thrive Capital declined to comment. Vaswani and Parmar …",
+        "provenance_hash_reference": "3b468bf009be1150979eca857fc7906627a240793f646d939d12ac15460b8fca",
+        "source": "https://www.nasdaq.com/articles/top-ex-google-ai-researchers-raise-funding-from-thrive-capital-sources",
+        "title": "Top ex-Google AI researchers raise funding from Thrive Capital -sources"
+      }
+    ],
+    "selection_rule": "frozen bounded TEXT selection; Date < decision session; deterministic order",
+    "source_identity": "sp500_news/EML.jsonl",
+    "status": "AVAILABLE"
+  },
+  "TIME_SERIES": {
+    "provenance_hash_reference": "6326ba678a00947c08aedea138be6176ed38ba2dbc32eccb1f8452a41a0abdcc",
+    "reason": "",
+    "selection_rule": "frozen descriptive summaries from 61 completed source rows; session <= decision",
+    "source_identity": "S&P500_time_series/eml.csv",
+    "status": "AVAILABLE",
+    "summaries": {
+      "cumulative_return_20d": -0.020371543083619104,
+      "cumulative_return_5d": -0.018018039857688573,
+      "cumulative_return_60d": -0.24574892269225257,
+      "drawdown_from_60d_peak": -0.23452292973896682,
+      "high_low_range_20d": 0.11588122909466803,
+      "realised_volatility_20d_annualised": 0.2454740498153296,
+      "relative_volume_vs_20d_mean": 1.5771812080536913
+    },
+    "through_session": "2023-06-02"
+  },
+  "agent_text": "=== FINMULTITIME EVIDENCE ===\nSymbol: EML\nDecision session: 2023-06-02\n\n[TEXT]\nStatus: AVAILABLE\nEvidence age (calendar days): 4\nSource: sp500_news/EML.jsonl\nArticle 1 date: 2023-05-29\nArticle 1 title: MIDEAST STOCKS-Gulf stock markets volatile on US debt deal, economic worries\nArticle 1 source: https://www.nasdaq.com/articles/mideast-stocks-gulf-stock-markets-volatile-on-us-debt-deal-economic-worries\nArticle 1 text: By Ateeq Shariff May 29 (Reuters) - Stock markets in the Gulf ended in different directions on Monday after U.S. lawmakers reached a tentative agreement on the debt ceiling, while concerns about more Federal Reserve interest rate hikes weighed on sentiment. U.S. President Joe Biden and House Speaker Kevin McCarthy forged an agreement at the weekend to suspend the $31.4 trillion debt ceiling and cap government spending for two years. Both leaders expressed confidence that members of the Democratic and Republican parties would vote to support the deal. Dubai's main share index .DFMGI edged 0.1% higher, supported by a 1.2% rise in sharia-compliant lender Dubai Islamic Bank DISB.DU. In Abu Dhabi, the index .FTFADGI dropped 0.4%. The Abu Dhabi bourse remained on a downtrend as sentiment remained cautious and energy markets were under pressure, said Farah Mourad, senior market analyst at XTB …\nArticle 1 provenance: 78019f50639a5df50e2d539577070f2ef85ddfde5f95c6a4a41117b8a9404f74\nArticle 2 date: 2023-05-04\nArticle 2 title: Top ex-Google AI researchers raise funding from Thrive Capital -sources\nArticle 2 source: https://www.nasdaq.com/articles/top-ex-google-ai-researchers-raise-funding-from-thrive-capital-sources\nArticle 2 text: By Anna Tong and Krystal Hu May 4 (Reuters) - Two prominent former Google GOOGL.O researchers who authored the groundbreaking paper that paved the way for the generative AI boom, have raised $8 million for their new startup Essential AI, four sources told Reuters. Thrive Capital had led the round in Essential AI, founded by Ashish Vaswani and Niki Parmar. The company is still in stealth mode and hasn't launched any product. Conviction and angel investor Elad Gil also participated in the round, one source close to the company added. Thrive Capital, founded by Joshua Kushner, is also an investor in Microsoft-backed OpenAI. Essential AI aims to build software for enterprises to use large language models, the core software of a new artificial intelligence system that has powered generative AI applications such as ChatGPT, sources said. Thrive Capital declined to comment. Vaswani and Parmar …\nArticle 2 provenance: 3b468bf009be1150979eca857fc7906627a240793f646d939d12ac15460b8fca\n\n[TABLE]\nStatus: AVAILABLE\nSource: financial_reports/eml/condensed_consolidated_balance_sheets.json;financial_reports/eml/condensed_consolidated_statement_of_cash_flows.json\nAssets: value=255751589; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-04-01; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-05-09; accession=0001654954-23-006022; provenance=9c2977c840897ca07c236b798a7e3046ec9d4e14e0f123aea44a401893ccabe9\nLiabilities: value=128951553; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-04-01; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-05-09; accession=0001654954-23-006022; provenance=028122aa155b9288980f2fe03c29cdf6cd8e449b9fd3647cc0127d3e72bcfbc6\nStockholdersEquity: value=126800036; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-04-01; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-05-09; accession=0001654954-23-006022; provenance=986602f7c3c2379f50e05a7de9506ea34ad5ef40dd22f18f5c222fce8eb95943\nNetCashProvidedByUsedInOperatingActivities: value=6860258; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-04-01; period_duration_days=91; period_duration_class=quarterly; filed_date=2023-05-09; accession=0001654954-23-006022; provenance=56a2501ace6526aef4da8bb50067fa360ddf6d7c4cac63570e244830f9edb3d2\nNetCashProvidedByUsedInInvestingActivities: value=1081987; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-04-01; period_duration_days=91; period_duration_class=quarterly; filed_date=2023-05-09; accession=0001654954-23-006022; provenance=0f3326686c826471fff8dd1be67ade9a58015fbbf815cdc3fd11056e788cc1aa\nNetCashProvidedByUsedInFinancingActivities: value=-5087288; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-04-01; period_duration_days=91; period_duration_class=quarterly; filed_date=2023-05-09; accession=0001654954-23-006022; provenance=99693a84f21127d09c259da212bdb8c3f5820e2091b1f3ea371d5f0f7bffb807\n\n[TIME_SERIES]\nStatus: AVAILABLE\nThrough session: 2023-06-02\nSource: S&P500_time_series/eml.csv\ncumulative_return_5d: -0.018018039857688573\ncumulative_return_20d: -0.020371543083619104\ncumulative_return_60d: -0.24574892269225257\nrealised_volatility_20d_annualised: 0.2454740498153296\nhigh_low_range_20d: 0.11588122909466803\ndrawdown_from_60d_peak: -0.23452292973896682\nrelative_volume_vs_20d_mean: 1.5771812080536913\nProvenance: 6326ba678a00947c08aedea138be6176ed38ba2dbc32eccb1f8452a41a0abdcc\n\n[IMAGE]\nStatus: AVAILABLE\nChart period: 2022-H2\nInferred period end: 2022-12-31\nEvidence age (calendar days): 153\nSource: eml_2022_H2_candlestick.png\nCanonical caption: {\"candlestick_structure\":\"mostly green and red, with some white\",\"confidence\":\"moderate\",\"momentum_visual\":\"mixed, with periods of strong momentum\",\"notable_gap_or_reversal\":\"a gap in early 2022, followed by a reversal\",\"other_visible_pattern\":\"no clear pattern beyond the candlestick structure\",\"support_resistance_visual\":\"support around 18-19, resistance around 22-23\",\"trend\":\"upward then downward then upward\",\"volatility_visual\":\"high volatility, especially in late 2022\",\"volume_visual\":\"not visible\"}\nCaption provenance: d953ffdbb16aadc95e81229de3fce18c9a224d0e22313eb08d5486bb0c175afb\n=== END FINMULTITIME EVIDENCE ===\n",
+  "available_for_training": true,
+  "available_for_validation": false,
+  "case_id": "EML:2023-06-02",
+  "character_counts": {
+    "complete": 6018,
+    "fundamentals": 2066,
+    "market": 1234,
+    "news": 2570
+  },
+  "contract_version": "M1-FINMULTITIME-v1.0.2",
+  "dataset_id": "m2_preformal_evidence_v1",
+  "decision_session": "2023-06-02",
+  "decision_time": "2023-06-02T20:00:00+00:00",
+  "engineering_only": false,
+  "m2_metadata": {
+    "available_for_training": true,
+    "available_for_validation": false,
+    "engineering_only": false,
+    "performance_for_selection": false,
+    "protected": false,
+    "role": "TRAIN",
+    "tier_membership": {
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    }
+  },
+  "packet_sha256": "f573706073d2a4a1194f910e7f542647f06e040a5bfb1741b803d49a9cea7d5d",
+  "packet_status": "FINAL_FROZEN",
+  "performance_for_selection": false,
+  "protected": false,
+  "record_type": "m1_finmultitime_evidence_packet",
+  "role": "TRAIN",
+  "routed_projections": {
+    "fundamentals_analyst": {
+      "sections": [
+        "TABLE"
+      ],
+      "text": "Status: AVAILABLE\nSource: financial_reports/eml/condensed_consolidated_balance_sheets.json;financial_reports/eml/condensed_consolidated_statement_of_cash_flows.json\nAssets: value=255751589; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-04-01; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-05-09; accession=0001654954-23-006022; provenance=9c2977c840897ca07c236b798a7e3046ec9d4e14e0f123aea44a401893ccabe9\nLiabilities: value=128951553; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-04-01; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-05-09; accession=0001654954-23-006022; provenance=028122aa155b9288980f2fe03c29cdf6cd8e449b9fd3647cc0127d3e72bcfbc6\nStockholdersEquity: value=126800036; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-04-01; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-05-09; accession=0001654954-23-006022; provenance=986602f7c3c2379f50e05a7de9506ea34ad5ef40dd22f18f5c222fce8eb95943\nNetCashProvidedByUsedInOperatingActivities: value=6860258; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-04-01; period_duration_days=91; period_duration_class=quarterly; filed_date=2023-05-09; accession=0001654954-23-006022; provenance=56a2501ace6526aef4da8bb50067fa360ddf6d7c4cac63570e244830f9edb3d2\nNetCashProvidedByUsedInInvestingActivities: value=1081987; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-04-01; period_duration_days=91; period_duration_class=quarterly; filed_date=2023-05-09; accession=0001654954-23-006022; provenance=0f3326686c826471fff8dd1be67ade9a58015fbbf815cdc3fd11056e788cc1aa\nNetCashProvidedByUsedInFinancingActivities: value=-5087288; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-04-01; period_duration_days=91; period_duration_class=quarterly; filed_date=2023-05-09; accession=0001654954-23-006022; provenance=99693a84f21127d09c259da212bdb8c3f5820e2091b1f3ea371d5f0f7bffb807"
+    },
+    "market_analyst": {
+      "sections": [
+        "TIME_SERIES",
+        "IMAGE"
+      ],
+      "text": "Status: AVAILABLE\nThrough session: 2023-06-02\nSource: S&P500_time_series/eml.csv\ncumulative_return_5d: -0.018018039857688573\ncumulative_return_20d: -0.020371543083619104\ncumulative_return_60d: -0.24574892269225257\nrealised_volatility_20d_annualised: 0.2454740498153296\nhigh_low_range_20d: 0.11588122909466803\ndrawdown_from_60d_peak: -0.23452292973896682\nrelative_volume_vs_20d_mean: 1.5771812080536913\nProvenance: 6326ba678a00947c08aedea138be6176ed38ba2dbc32eccb1f8452a41a0abdcc\n\nStatus: AVAILABLE\nChart period: 2022-H2\nInferred period end: 2022-12-31\nEvidence age (calendar days): 153\nSource: eml_2022_H2_candlestick.png\nCanonical caption: {\"candlestick_structure\":\"mostly green and red, with some white\",\"confidence\":\"moderate\",\"momentum_visual\":\"mixed, with periods of strong momentum\",\"notable_gap_or_reversal\":\"a gap in early 2022, followed by a reversal\",\"other_visible_pattern\":\"no clear pattern beyond the candlestick structure\",\"support_resistance_visual\":\"support around 18-19, resistance around 22-23\",\"trend\":\"upward then downward then upward\",\"volatility_visual\":\"high volatility, especially in late 2022\",\"volume_visual\":\"not visible\"}\nCaption provenance: d953ffdbb16aadc95e81229de3fce18c9a224d0e22313eb08d5486bb0c175afb"
+    },
+    "news_analyst": {
+      "sections": [
+        "TEXT"
+      ],
+      "text": "Status: AVAILABLE\nEvidence age (calendar days): 4\nSource: sp500_news/EML.jsonl\nArticle 1 date: 2023-05-29\nArticle 1 title: MIDEAST STOCKS-Gulf stock markets volatile on US debt deal, economic worries\nArticle 1 source: https://www.nasdaq.com/articles/mideast-stocks-gulf-stock-markets-volatile-on-us-debt-deal-economic-worries\nArticle 1 text: By Ateeq Shariff May 29 (Reuters) - Stock markets in the Gulf ended in different directions on Monday after U.S. lawmakers reached a tentative agreement on the debt ceiling, while concerns about more Federal Reserve interest rate hikes weighed on sentiment. U.S. President Joe Biden and House Speaker Kevin McCarthy forged an agreement at the weekend to suspend the $31.4 trillion debt ceiling and cap government spending for two years. Both leaders expressed confidence that members of the Democratic and Republican parties would vote to support the deal. Dubai's main share index .DFMGI edged 0.1% higher, supported by a 1.2% rise in sharia-compliant lender Dubai Islamic Bank DISB.DU. In Abu Dhabi, the index .FTFADGI dropped 0.4%. The Abu Dhabi bourse remained on a downtrend as sentiment remained cautious and energy markets were under pressure, said Farah Mourad, senior market analyst at XTB …\nArticle 1 provenance: 78019f50639a5df50e2d539577070f2ef85ddfde5f95c6a4a41117b8a9404f74\nArticle 2 date: 2023-05-04\nArticle 2 title: Top ex-Google AI researchers raise funding from Thrive Capital -sources\nArticle 2 source: https://www.nasdaq.com/articles/top-ex-google-ai-researchers-raise-funding-from-thrive-capital-sources\nArticle 2 text: By Anna Tong and Krystal Hu May 4 (Reuters) - Two prominent former Google GOOGL.O researchers who authored the groundbreaking paper that paved the way for the generative AI boom, have raised $8 million for their new startup Essential AI, four sources told Reuters. Thrive Capital had led the round in Essential AI, founded by Ashish Vaswani and Niki Parmar. The company is still in stealth mode and hasn't launched any product. Conviction and angel investor Elad Gil also participated in the round, one source close to the company added. Thrive Capital, founded by Joshua Kushner, is also an investor in Microsoft-backed OpenAI. Essential AI aims to build software for enterprises to use large language models, the core software of a new artificial intelligence system that has powered generative AI applications such as ChatGPT, sources said. Thrive Capital declined to comment. Vaswani and Parmar …\nArticle 2 provenance: 3b468bf009be1150979eca857fc7906627a240793f646d939d12ac15460b8fca"
+    },
+    "social_analyst": {
+      "sections": [],
+      "text": ""
+    }
+  },
+  "routing": {
+    "modality_to_analyst": {
+      "IMAGE": "Market Analyst",
+      "TABLE": "Fundamentals Analyst",
+      "TEXT": "News Analyst",
+      "TIME_SERIES": "Market Analyst"
+    },
+    "raw_packet_direct_injection": false,
+    "social_analyst": "NO_FINMULTITIME_EVIDENCE"
+  },
+  "section_sha256": {
+    "IMAGE": "0aa29b267238d80bd8178d87d415f74d5fbb481aa577c816fd9a4ed25f832895",
+    "TABLE": "47462869f6e569107b09fc6bec084b356d4058e4544dc97fc7b906989be92121",
+    "TEXT": "061798abeae0f895c6cec30f1732feebf8c6ee9609783f494674b46f33eac88d",
+    "TIME_SERIES": "cd596b7bd1be75d7cd215d871adab2d1501e8b7480942175554e21f8694819f5"
+  },
+  "source_provenance": {
+    "pit_cutoff": "2023-06-02",
+    "task_id": "M2-06"
+  },
+  "symbol": "EML",
+  "tier_membership": {
+    "in_compact": true,
+    "in_maximum": true,
+    "in_standard": true
+  }
+}

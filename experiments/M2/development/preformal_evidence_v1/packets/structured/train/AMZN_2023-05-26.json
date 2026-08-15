@@ -1,0 +1,282 @@
+{
+  "IMAGE": {
+    "canonical_caption": {
+      "candlestick_structure": "mostly green and red, with some green and red",
+      "confidence": "moderate",
+      "momentum_visual": "generally increasing, then decreasing",
+      "notable_gap_or_reversal": "no significant gap or reversal",
+      "other_visible_pattern": "no other visible patterns",
+      "support_resistance_visual": "no clear support or resistance levels",
+      "trend": "upward to peak, then downward",
+      "volatility_visual": "high volatility, then decreasing",
+      "volume_visual": "no visible volume pattern"
+    },
+    "caption_sha256": "b4e2b78c71ab354b7177ebb2747ad14de8ec111c02747cf95d5a439782bdc7c9",
+    "caption_source": "NEW_QWEN_M2_06",
+    "caption_status": "GENERATED",
+    "chart_period": "2022-H2",
+    "evidence_age_calendar_days": 146,
+    "image_sha256": "f52b3a16034499f16b13eb1472ef9460cc5ea93f6b524e1e3683270c1debb2ae",
+    "inferred_period_end": "2022-12-31",
+    "provenance_hash_reference": "b4e2b78c71ab354b7177ebb2747ad14de8ec111c02747cf95d5a439782bdc7c9",
+    "reason": "",
+    "source_identity": "amzn_2022_H2_candlestick.png",
+    "status": "AVAILABLE"
+  },
+  "TABLE": {
+    "facts": {
+      "Assets": {
+        "accession": "0001018724-23-000008",
+        "filed_date": "2023-04-28",
+        "form": "10-Q",
+        "fp": "Q1",
+        "fy": 2023,
+        "period_duration_class": "point_in_time",
+        "period_duration_days": null,
+        "period_end": "2023-03-31",
+        "period_start": "",
+        "provenance_hash_reference": "83d3a69d48e18cf4802dad80c9d99f26d03d699c0ef5443e36fe42797aff3516",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 464378000000
+      },
+      "Liabilities": {
+        "reason": "no canonical PIT-safe selected fact",
+        "status": "UNAVAILABLE"
+      },
+      "NetCashProvidedByUsedInFinancingActivities": {
+        "accession": "0001018724-23-000008",
+        "filed_date": "2023-04-28",
+        "form": "10-Q",
+        "fp": "Q1",
+        "fy": 2023,
+        "period_duration_class": "quarterly",
+        "period_duration_days": 90,
+        "period_end": "2023-03-31",
+        "period_start": "2023-01-01",
+        "provenance_hash_reference": "547579fce07ab7f0145aea13264251fc03b4adeaa7afd2b6edfdd175109f4c25",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 6354000000
+      },
+      "NetCashProvidedByUsedInInvestingActivities": {
+        "accession": "0001018724-23-000008",
+        "filed_date": "2023-04-28",
+        "form": "10-Q",
+        "fp": "Q1",
+        "fy": 2023,
+        "period_duration_class": "quarterly",
+        "period_duration_days": 90,
+        "period_end": "2023-03-31",
+        "period_start": "2023-01-01",
+        "provenance_hash_reference": "6a1fabad46d1e8e9283aa1ce26dfa58ecb49d9df08518865bfe6a8780127dfe0",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": -15806000000
+      },
+      "NetCashProvidedByUsedInOperatingActivities": {
+        "accession": "0001018724-23-000008",
+        "filed_date": "2023-04-28",
+        "form": "10-Q",
+        "fp": "Q1",
+        "fy": 2023,
+        "period_duration_class": "quarterly",
+        "period_duration_days": 90,
+        "period_end": "2023-03-31",
+        "period_start": "2023-01-01",
+        "provenance_hash_reference": "2e10fadb5fb896172494ddedfe3d77cacfc60b47b3376320a6c4f6e087a71fed",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 4788000000
+      },
+      "StockholdersEquity": {
+        "accession": "0001018724-23-000008",
+        "filed_date": "2023-04-28",
+        "form": "10-Q",
+        "fp": "Q1",
+        "fy": 2023,
+        "period_duration_class": "point_in_time",
+        "period_duration_days": null,
+        "period_end": "2023-03-31",
+        "period_start": "",
+        "provenance_hash_reference": "c060b43c49bfed85aee694108f4c388e8a0d8607d57f7880cb65503d20376a2e",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 154526000000
+      }
+    },
+    "provenance_hash_reference": "ee295d0a5de8c29a47fc0dac2e3b115d9411539a63a2c90af51e827e6702a06d",
+    "reason": "",
+    "selection_rule": "frozen six-concept TABLE selection; filed_date < decision session",
+    "source_identity": "financial_reports/amzn/condensed_consolidated_balance_sheets.json;financial_reports/amzn/condensed_consolidated_statement_of_cash_flows.json",
+    "status": "AVAILABLE"
+  },
+  "TEXT": {
+    "evidence_age_calendar_days": 1,
+    "provenance_hash_reference": "f39035e6440bb9caa81d685c3b176f8a0e1ae879e6fb96fa9cf95d1bd0ead18e",
+    "reason": "",
+    "records": [
+      {
+        "article_date": "2023-05-25",
+        "body": "InvestorPlace - Stock Market News, Stock Advice & Trading Tips If we go back about five months ago, no one was looking for the next trillion-dollar companies. Apple (NASDAQ:AAPL) was making new 52-week lows at the start of 2023, while many mega-cap tech names were rolling over in late December and early January. It didn’t matter if it was a well-established tech giant or the top companies of the future; investors were selling these names left and right. Now, just a few months later and we’ve had a completely different situation. Just a handful of tech stocks have driven almost 90% of the gains in the S&P 500, while the Nasdaq is up more than 21% so far for the year. A few of these names have even doubled in price from the 2023 low. The robust price action has investors looking for the future trillion-dollar companies. There are already a few that have cleared this hurdle and the current…",
+        "provenance_hash_reference": "5d08efa04edc4edd3507fb9d3d90a1f665970315cf89917e835b1de37f8efb53",
+        "source": "https://www.nasdaq.com/articles/3-stocks-that-could-be-the-next-trillion-dollar-titans",
+        "title": "3 Stocks That Could Be the Next Trillion-Dollar Titans"
+      },
+      {
+        "article_date": "2023-05-25",
+        "body": "The NASDAQ 100 After Hours Indicator is up 6.54 to 13,945.07. The total After hours volume is currently 102,106,506 shares traded.  The following are the most active stocks for the after hours session:  Upwork Inc. (UPWK) is unchanged at $7.60, with 11,245,676 shares traded. As reported by Zacks, the current mean recommendation for UPWK is in the \"buy range\".  Xylem Inc. (XYL) is +0.11 at $99.00, with 6,792,307 shares traded. Over the last four weeks they have had 3 up revisions for the earnings forecast, for the fiscal quarter ending Jun 2023. The consensus EPS forecast is $0.81. XYL's current last sale is 82.5% of the target price of $120.  Apple Inc. (AAPL) is +0.09 at $173.08, with 4,801,485 shares traded. Over the last four weeks they have had 3 up revisions for the earnings forecast, for the fiscal quarter ending Jun 2023. The consensus EPS forecast is $1.18. As reported by Zacks,…",
+        "provenance_hash_reference": "4c447d9143f176357bf45cc1f4e0c72ac781e62628dab16bb09cf41dfc2912cd",
+        "source": "https://www.nasdaq.com/articles/after-hours-most-active-for-may-25-2023-%3A-upwk-xyl-aapl-t-mrvl-amzn-nvda-msft-tal-gps-dvn",
+        "title": "After Hours Most Active for May 25, 2023 : UPWK, XYL, AAPL, T, MRVL, AMZN, NVDA, MSFT, TAL, GPS, DVN, BAC"
+      },
+      {
+        "article_date": "2023-05-25",
+        "body": "In this piece, I evaluated two big tech stocks, Amazon (NASDAQ:AMZN) and Apple (NASDAQ:AAPL), using TipRanks' comparison tool to determine which is better. Of course, Amazon and Apple need no introduction. Amazon has exploded 34% year-to-date, bringing its one-year return to 3.5%. Meanwhile, Apple is up 38.7% year-to-date and 21% over the last year. Notably, Apple is trading close to its record high, while Amazon is significantly off its all-time high. Technology stocks have been broadly outperforming those in other sectors. Although tech names make up several of the highest-weighted names in the S&P 500 (SPX), it has gained about 8% year-to-date versus the tech-heavy Nasdaq's (NDX) 26% year-to-date gain. Thus, investors might be wondering whether there's any near-term upside left, so a closer look is in order. Amazon (NASDAQ:AMZN) Amazon has faced some issues recently that may be restr…",
+        "provenance_hash_reference": "b3ee498d57d99824bedab013e59a541d29957e121dfb5b57906583611071664b",
+        "source": "https://www.nasdaq.com/articles/amzn-vs.-aapl%3A-which-big-tech-stock-is-better",
+        "title": "AMZN vs. AAPL: Which Big Tech Stock is Better?"
+      },
+      {
+        "article_date": "2023-05-25",
+        "body": "As most retail - and a sizeable wholesale population - businesses struggled for years to compete against the goliath of industry, Amazon.com (NASDAQ: AMZN), a cleansing of inefficiencies and a spark of innovations has been taking over management conversations at the remaining operators. One resilient name in the industry, which continues to battle successfully against the 'race to zero,' is Best Buy (NYSE: BBY). Shares of Best Buy are rallying by as much as 5.8% in the pre-market hours of Thursday morning; bulls are advancing the price aggressively amid the company's results for the first quarter of 2023. Despite starting its press release with disappointing figures, Best Buy's shareholders are within their right to look at the big picture and the long-term potential the company is building momentum towards. As a widely followed vital performance indicator (KPI) for the retail industry,…",
+        "provenance_hash_reference": "80f2bce7b3bbf61ea83ccf6d352d9bbef2aa2badbf1e887c96b903b5abad6821",
+        "source": "https://www.nasdaq.com/articles/best-buys-comeback-is-still-at-play-earnings-call-for-patience",
+        "title": "Best Buy's Comeback Is Still At Play, Earnings Call For Patience"
+      },
+      {
+        "article_date": "2023-05-25",
+        "body": "Pandemic reopenings last year sent consumers to brick-and-mortar stores in droves. The e-commerce market took a hit that was then compounded when macroeconomic headwinds in 2022 led to a further reduction in online spending. As a result, market leaders like Amazon (NASDAQ: AMZN) and PayPal (NASDAQ: PYPL) experienced stock declines of 50% and 62% last year. However, inflation has eased for nine consecutive months, with the Consumer Price Index rising 4.9% in April after hitting a high of 9.1% in June 2022. The improvement has already allowed several consumer-reliant companies to begin recovering, with Amazon and PayPal well positioned to see their stocks surge over the next year. As a result, now is an excellent time to consider investing in these companies before it's too late. However, if you only have room for one in your portfolio, you'll need to know which is the better buy. So, let…",
+        "provenance_hash_reference": "92e1f8da379bbc1b22368ce04bf2e4f1a1bcf67a5ad10799f44590236394bb27",
+        "source": "https://www.nasdaq.com/articles/better-buy%3A-amazon-vs.-paypal",
+        "title": "Better Buy: Amazon vs. PayPal"
+      },
+      {
+        "article_date": "2023-05-25",
+        "body": "Consumer stocks were lower late Thursday, with the Consumer Staples Select Sector SPDR Fund (XLP) falling 0.8% and the Consumer Discretionary Select Sector SPDR Fund (XLY) easing 0.5%. In company news, Bunge (BG) is in talks to merge with its agricultural commodities rival Glencore-backed Viterra, Bloomberg reported, citing people with knowledge of the matter. Bunge shares were gaining 3.5%. DISH Network (DISH) is in talks with Amazon (AMZN) to sell wireless plans for its mobile phone service through Amazon's US website, The Wall Street Journal reported. DISH shares were gaining 6.7% while Amazon was down 1.3%. American Eagle Outfitters (AEO) shares fell past 11% after the company posted weaker fiscal Q1 earnings and lowered its guidance for annual fiscal revenue. e.l.f. Beauty (ELF) shares were up almost 20% after it posted forecast-beating fiscal Q4 results. The views and opinions exp…",
+        "provenance_hash_reference": "59bef9a6c9778ee5d6b47e66638eff64699ab030359b05ac81601f89996b0885",
+        "source": "https://www.nasdaq.com/articles/consumer-sector-update-for-05-25-2023%3A-bg-dish-aeo-elf-amzn",
+        "title": "Consumer Sector Update for 05/25/2023: BG, DISH, AEO, ELF, AMZN"
+      },
+      {
+        "article_date": "2023-05-25",
+        "body": "(Adds background in paragraph 2, requests for comment from Dish and Amazon in paragraph 4; updates shares) May 25 (Reuters) - Shares of Dish Network Corp surged over 15% on Thursday, after a report said the company was in talks to sell its wireless plans through Amazon.com Inc . The potential tie-up would open up a large sales channel for Dish Network, which has been investing to grow its wireless business. Details of the new phone plans sold through Amazon's U.S. website could be announced as soon as June, the Wall Street Journal reported, citing people familiar with the matter. Dish Network is a customer of Amazon's cloud-computing services. Both Dish and Amazon did not immediately respond to Reuters' requests for comment. (Reporting by Yuvraj Malik in Bengaluru; Editing by Varun H K) ((yuvraj.malik@thomsonreuters.com;)) Keywords: DISH NETWORK PARTNERSHIP/AMAZON (UPDATE 1) The views a…",
+        "provenance_hash_reference": "6f9f23d68c74a0dd233b4d6d9fff8bd4e6117d85577ceb073d06c2966b71ebe1",
+        "source": "https://www.nasdaq.com/articles/dish-network-surges-after-report-of-talks-to-sell-wireless-plans-via-amazon",
+        "title": "Dish Network surges after report of talks to sell wireless plans via Amazon"
+      },
+      {
+        "article_date": "2023-05-25",
+        "body": "May 25 (Reuters) - Dish Network Corp surged over 15% premarket on Thursday after a report said the company was in talks to sell its wireless plans through Amazon.com Inc . Details of the new phone plans sold through Amazon's U.S. website could be announced as soon as June, the Wall Street Journal reported, citing people familiar with the matter. (Reporting by Yuvraj Malik in Bengaluru; Editing by Varun H K) ((yuvraj.malik@thomsonreuters.com;)) Keywords: DISH NETWORK PARTNERSHIP/AMAZON (URGENT) The views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+        "provenance_hash_reference": "1baecc499a25f4d1e8ca7878054b04053beddef1835e5416b6de8abee25f3b7c",
+        "source": "https://www.nasdaq.com/articles/dish-network-surges-after-report-says-it-plans-to-sell-wireless-plans-via-amazon",
+        "title": "Dish Network surges after report says it plans to sell wireless plans via Amazon"
+      }
+    ],
+    "selection_rule": "frozen bounded TEXT selection; Date < decision session; deterministic order",
+    "source_identity": "sp500_news/AMZN.jsonl",
+    "status": "AVAILABLE"
+  },
+  "TIME_SERIES": {
+    "provenance_hash_reference": "7cc70e6ea8c4091cf5bb0995323f729c8da8406c60fcf6e70ae0c37bf8b9e315",
+    "reason": "",
+    "selection_rule": "frozen descriptive summaries from 61 completed source rows; session <= decision",
+    "source_identity": "S&P500_time_series/amzn.csv",
+    "status": "AVAILABLE",
+    "summaries": {
+      "cumulative_return_20d": 0.13902327251185143,
+      "cumulative_return_5d": 0.03320430632560489,
+      "cumulative_return_60d": 0.30370133714397296,
+      "drawdown_from_60d_peak": 0.0,
+      "high_low_range_20d": 0.20118633877543357,
+      "realised_volatility_20d_annualised": 0.2955791099797374,
+      "relative_volume_vs_20d_mean": 1.4558172618016576
+    },
+    "through_session": "2023-05-26"
+  },
+  "agent_text": "=== FINMULTITIME EVIDENCE ===\nSymbol: AMZN\nDecision session: 2023-05-26\n\n[TEXT]\nStatus: AVAILABLE\nEvidence age (calendar days): 1\nSource: sp500_news/AMZN.jsonl\nArticle 1 date: 2023-05-25\nArticle 1 title: 3 Stocks That Could Be the Next Trillion-Dollar Titans\nArticle 1 source: https://www.nasdaq.com/articles/3-stocks-that-could-be-the-next-trillion-dollar-titans\nArticle 1 text: InvestorPlace - Stock Market News, Stock Advice & Trading Tips If we go back about five months ago, no one was looking for the next trillion-dollar companies. Apple (NASDAQ:AAPL) was making new 52-week lows at the start of 2023, while many mega-cap tech names were rolling over in late December and early January. It didn’t matter if it was a well-established tech giant or the top companies of the future; investors were selling these names left and right. Now, just a few months later and we’ve had a completely different situation. Just a handful of tech stocks have driven almost 90% of the gains in the S&P 500, while the Nasdaq is up more than 21% so far for the year. A few of these names have even doubled in price from the 2023 low. The robust price action has investors looking for the future trillion-dollar companies. There are already a few that have cleared this hurdle and the current…\nArticle 1 provenance: 5d08efa04edc4edd3507fb9d3d90a1f665970315cf89917e835b1de37f8efb53\nArticle 2 date: 2023-05-25\nArticle 2 title: After Hours Most Active for May 25, 2023 : UPWK, XYL, AAPL, T, MRVL, AMZN, NVDA, MSFT, TAL, GPS, DVN, BAC\nArticle 2 source: https://www.nasdaq.com/articles/after-hours-most-active-for-may-25-2023-%3A-upwk-xyl-aapl-t-mrvl-amzn-nvda-msft-tal-gps-dvn\nArticle 2 text: The NASDAQ 100 After Hours Indicator is up 6.54 to 13,945.07. The total After hours volume is currently 102,106,506 shares traded.  The following are the most active stocks for the after hours session:  Upwork Inc. (UPWK) is unchanged at $7.60, with 11,245,676 shares traded. As reported by Zacks, the current mean recommendation for UPWK is in the \"buy range\".  Xylem Inc. (XYL) is +0.11 at $99.00, with 6,792,307 shares traded. Over the last four weeks they have had 3 up revisions for the earnings forecast, for the fiscal quarter ending Jun 2023. The consensus EPS forecast is $0.81. XYL's current last sale is 82.5% of the target price of $120.  Apple Inc. (AAPL) is +0.09 at $173.08, with 4,801,485 shares traded. Over the last four weeks they have had 3 up revisions for the earnings forecast, for the fiscal quarter ending Jun 2023. The consensus EPS forecast is $1.18. As reported by Zacks,…\nArticle 2 provenance: 4c447d9143f176357bf45cc1f4e0c72ac781e62628dab16bb09cf41dfc2912cd\nArticle 3 date: 2023-05-25\nArticle 3 title: AMZN vs. AAPL: Which Big Tech Stock is Better?\nArticle 3 source: https://www.nasdaq.com/articles/amzn-vs.-aapl%3A-which-big-tech-stock-is-better\nArticle 3 text: In this piece, I evaluated two big tech stocks, Amazon (NASDAQ:AMZN) and Apple (NASDAQ:AAPL), using TipRanks' comparison tool to determine which is better. Of course, Amazon and Apple need no introduction. Amazon has exploded 34% year-to-date, bringing its one-year return to 3.5%. Meanwhile, Apple is up 38.7% year-to-date and 21% over the last year. Notably, Apple is trading close to its record high, while Amazon is significantly off its all-time high. Technology stocks have been broadly outperforming those in other sectors. Although tech names make up several of the highest-weighted names in the S&P 500 (SPX), it has gained about 8% year-to-date versus the tech-heavy Nasdaq's (NDX) 26% year-to-date gain. Thus, investors might be wondering whether there's any near-term upside left, so a closer look is in order. Amazon (NASDAQ:AMZN) Amazon has faced some issues recently that may be restr…\nArticle 3 provenance: b3ee498d57d99824bedab013e59a541d29957e121dfb5b57906583611071664b\nArticle 4 date: 2023-05-25\nArticle 4 title: Best Buy's Comeback Is Still At Play, Earnings Call For Patience\nArticle 4 source: https://www.nasdaq.com/articles/best-buys-comeback-is-still-at-play-earnings-call-for-patience\nArticle 4 text: As most retail - and a sizeable wholesale population - businesses struggled for years to compete against the goliath of industry, Amazon.com (NASDAQ: AMZN), a cleansing of inefficiencies and a spark of innovations has been taking over management conversations at the remaining operators. One resilient name in the industry, which continues to battle successfully against the 'race to zero,' is Best Buy (NYSE: BBY). Shares of Best Buy are rallying by as much as 5.8% in the pre-market hours of Thursday morning; bulls are advancing the price aggressively amid the company's results for the first quarter of 2023. Despite starting its press release with disappointing figures, Best Buy's shareholders are within their right to look at the big picture and the long-term potential the company is building momentum towards. As a widely followed vital performance indicator (KPI) for the retail industry,…\nArticle 4 provenance: 80f2bce7b3bbf61ea83ccf6d352d9bbef2aa2badbf1e887c96b903b5abad6821\nArticle 5 date: 2023-05-25\nArticle 5 title: Better Buy: Amazon vs. PayPal\nArticle 5 source: https://www.nasdaq.com/articles/better-buy%3A-amazon-vs.-paypal\nArticle 5 text: Pandemic reopenings last year sent consumers to brick-and-mortar stores in droves. The e-commerce market took a hit that was then compounded when macroeconomic headwinds in 2022 led to a further reduction in online spending. As a result, market leaders like Amazon (NASDAQ: AMZN) and PayPal (NASDAQ: PYPL) experienced stock declines of 50% and 62% last year. However, inflation has eased for nine consecutive months, with the Consumer Price Index rising 4.9% in April after hitting a high of 9.1% in June 2022. The improvement has already allowed several consumer-reliant companies to begin recovering, with Amazon and PayPal well positioned to see their stocks surge over the next year. As a result, now is an excellent time to consider investing in these companies before it's too late. However, if you only have room for one in your portfolio, you'll need to know which is the better buy. So, let…\nArticle 5 provenance: 92e1f8da379bbc1b22368ce04bf2e4f1a1bcf67a5ad10799f44590236394bb27\nArticle 6 date: 2023-05-25\nArticle 6 title: Consumer Sector Update for 05/25/2023: BG, DISH, AEO, ELF, AMZN\nArticle 6 source: https://www.nasdaq.com/articles/consumer-sector-update-for-05-25-2023%3A-bg-dish-aeo-elf-amzn\nArticle 6 text: Consumer stocks were lower late Thursday, with the Consumer Staples Select Sector SPDR Fund (XLP) falling 0.8% and the Consumer Discretionary Select Sector SPDR Fund (XLY) easing 0.5%. In company news, Bunge (BG) is in talks to merge with its agricultural commodities rival Glencore-backed Viterra, Bloomberg reported, citing people with knowledge of the matter. Bunge shares were gaining 3.5%. DISH Network (DISH) is in talks with Amazon (AMZN) to sell wireless plans for its mobile phone service through Amazon's US website, The Wall Street Journal reported. DISH shares were gaining 6.7% while Amazon was down 1.3%. American Eagle Outfitters (AEO) shares fell past 11% after the company posted weaker fiscal Q1 earnings and lowered its guidance for annual fiscal revenue. e.l.f. Beauty (ELF) shares were up almost 20% after it posted forecast-beating fiscal Q4 results. The views and opinions exp…\nArticle 6 provenance: 59bef9a6c9778ee5d6b47e66638eff64699ab030359b05ac81601f89996b0885\nArticle 7 date: 2023-05-25\nArticle 7 title: Dish Network surges after report of talks to sell wireless plans via Amazon\nArticle 7 source: https://www.nasdaq.com/articles/dish-network-surges-after-report-of-talks-to-sell-wireless-plans-via-amazon\nArticle 7 text: (Adds background in paragraph 2, requests for comment from Dish and Amazon in paragraph 4; updates shares) May 25 (Reuters) - Shares of Dish Network Corp surged over 15% on Thursday, after a report said the company was in talks to sell its wireless plans through Amazon.com Inc . The potential tie-up would open up a large sales channel for Dish Network, which has been investing to grow its wireless business. Details of the new phone plans sold through Amazon's U.S. website could be announced as soon as June, the Wall Street Journal reported, citing people familiar with the matter. Dish Network is a customer of Amazon's cloud-computing services. Both Dish and Amazon did not immediately respond to Reuters' requests for comment. (Reporting by Yuvraj Malik in Bengaluru; Editing by Varun H K) ((yuvraj.malik@thomsonreuters.com;)) Keywords: DISH NETWORK PARTNERSHIP/AMAZON (UPDATE 1) The views a…\nArticle 7 provenance: 6f9f23d68c74a0dd233b4d6d9fff8bd4e6117d85577ceb073d06c2966b71ebe1\nArticle 8 date: 2023-05-25\nArticle 8 title: Dish Network surges after report says it plans to sell wireless plans via Amazon\nArticle 8 source: https://www.nasdaq.com/articles/dish-network-surges-after-report-says-it-plans-to-sell-wireless-plans-via-amazon\nArticle 8 text: May 25 (Reuters) - Dish Network Corp surged over 15% premarket on Thursday after a report said the company was in talks to sell its wireless plans through Amazon.com Inc . Details of the new phone plans sold through Amazon's U.S. website could be announced as soon as June, the Wall Street Journal reported, citing people familiar with the matter. (Reporting by Yuvraj Malik in Bengaluru; Editing by Varun H K) ((yuvraj.malik@thomsonreuters.com;)) Keywords: DISH NETWORK PARTNERSHIP/AMAZON (URGENT) The views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.\nArticle 8 provenance: 1baecc499a25f4d1e8ca7878054b04053beddef1835e5416b6de8abee25f3b7c\n\n[TABLE]\nStatus: AVAILABLE\nSource: financial_reports/amzn/condensed_consolidated_balance_sheets.json;financial_reports/amzn/condensed_consolidated_statement_of_cash_flows.json\nAssets: value=464378000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-03-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=83d3a69d48e18cf4802dad80c9d99f26d03d699c0ef5443e36fe42797aff3516\nLiabilities: UNAVAILABLE\nStockholdersEquity: value=154526000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-03-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=c060b43c49bfed85aee694108f4c388e8a0d8607d57f7880cb65503d20376a2e\nNetCashProvidedByUsedInOperatingActivities: value=4788000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-03-31; period_duration_days=90; period_duration_class=quarterly; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=2e10fadb5fb896172494ddedfe3d77cacfc60b47b3376320a6c4f6e087a71fed\nNetCashProvidedByUsedInInvestingActivities: value=-15806000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-03-31; period_duration_days=90; period_duration_class=quarterly; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=6a1fabad46d1e8e9283aa1ce26dfa58ecb49d9df08518865bfe6a8780127dfe0\nNetCashProvidedByUsedInFinancingActivities: value=6354000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-03-31; period_duration_days=90; period_duration_class=quarterly; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=547579fce07ab7f0145aea13264251fc03b4adeaa7afd2b6edfdd175109f4c25\n\n[TIME_SERIES]\nStatus: AVAILABLE\nThrough session: 2023-05-26\nSource: S&P500_time_series/amzn.csv\ncumulative_return_5d: 0.03320430632560489\ncumulative_return_20d: 0.13902327251185143\ncumulative_return_60d: 0.30370133714397296\nrealised_volatility_20d_annualised: 0.2955791099797374\nhigh_low_range_20d: 0.20118633877543357\ndrawdown_from_60d_peak: 0.0\nrelative_volume_vs_20d_mean: 1.4558172618016576\nProvenance: 7cc70e6ea8c4091cf5bb0995323f729c8da8406c60fcf6e70ae0c37bf8b9e315\n\n[IMAGE]\nStatus: AVAILABLE\nChart period: 2022-H2\nInferred period end: 2022-12-31\nEvidence age (calendar days): 146\nSource: amzn_2022_H2_candlestick.png\nCanonical caption: {\"candlestick_structure\":\"mostly green and red, with some green and red\",\"confidence\":\"moderate\",\"momentum_visual\":\"generally increasing, then decreasing\",\"notable_gap_or_reversal\":\"no significant gap or reversal\",\"other_visible_pattern\":\"no other visible patterns\",\"support_resistance_visual\":\"no clear support or resistance levels\",\"trend\":\"upward to peak, then downward\",\"volatility_visual\":\"high volatility, then decreasing\",\"volume_visual\":\"no visible volume pattern\"}\nCaption provenance: b4e2b78c71ab354b7177ebb2747ad14de8ec111c02747cf95d5a439782bdc7c9\n=== END FINMULTITIME EVIDENCE ===\n",
+  "available_for_training": true,
+  "available_for_validation": false,
+  "case_id": "AMZN:2023-05-26",
+  "character_counts": {
+    "complete": 12765,
+    "fundamentals": 1809,
+    "market": 1179,
+    "news": 9628
+  },
+  "contract_version": "M1-FINMULTITIME-v1.0.2",
+  "dataset_id": "m2_preformal_evidence_v1",
+  "decision_session": "2023-05-26",
+  "decision_time": "2023-05-26T20:00:00+00:00",
+  "engineering_only": false,
+  "m2_metadata": {
+    "available_for_training": true,
+    "available_for_validation": false,
+    "engineering_only": false,
+    "performance_for_selection": false,
+    "protected": false,
+    "role": "TRAIN",
+    "tier_membership": {
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    }
+  },
+  "packet_sha256": "82c479e659af8d3c44ad327c716b936e93be833fd2b5a9d7a437bf221ce40a55",
+  "packet_status": "FINAL_FROZEN",
+  "performance_for_selection": false,
+  "protected": false,
+  "record_type": "m1_finmultitime_evidence_packet",
+  "role": "TRAIN",
+  "routed_projections": {
+    "fundamentals_analyst": {
+      "sections": [
+        "TABLE"
+      ],
+      "text": "Status: AVAILABLE\nSource: financial_reports/amzn/condensed_consolidated_balance_sheets.json;financial_reports/amzn/condensed_consolidated_statement_of_cash_flows.json\nAssets: value=464378000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-03-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=83d3a69d48e18cf4802dad80c9d99f26d03d699c0ef5443e36fe42797aff3516\nLiabilities: UNAVAILABLE\nStockholdersEquity: value=154526000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-03-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=c060b43c49bfed85aee694108f4c388e8a0d8607d57f7880cb65503d20376a2e\nNetCashProvidedByUsedInOperatingActivities: value=4788000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-03-31; period_duration_days=90; period_duration_class=quarterly; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=2e10fadb5fb896172494ddedfe3d77cacfc60b47b3376320a6c4f6e087a71fed\nNetCashProvidedByUsedInInvestingActivities: value=-15806000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-03-31; period_duration_days=90; period_duration_class=quarterly; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=6a1fabad46d1e8e9283aa1ce26dfa58ecb49d9df08518865bfe6a8780127dfe0\nNetCashProvidedByUsedInFinancingActivities: value=6354000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-03-31; period_duration_days=90; period_duration_class=quarterly; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=547579fce07ab7f0145aea13264251fc03b4adeaa7afd2b6edfdd175109f4c25"
+    },
+    "market_analyst": {
+      "sections": [
+        "TIME_SERIES",
+        "IMAGE"
+      ],
+      "text": "Status: AVAILABLE\nThrough session: 2023-05-26\nSource: S&P500_time_series/amzn.csv\ncumulative_return_5d: 0.03320430632560489\ncumulative_return_20d: 0.13902327251185143\ncumulative_return_60d: 0.30370133714397296\nrealised_volatility_20d_annualised: 0.2955791099797374\nhigh_low_range_20d: 0.20118633877543357\ndrawdown_from_60d_peak: 0.0\nrelative_volume_vs_20d_mean: 1.4558172618016576\nProvenance: 7cc70e6ea8c4091cf5bb0995323f729c8da8406c60fcf6e70ae0c37bf8b9e315\n\nStatus: AVAILABLE\nChart period: 2022-H2\nInferred period end: 2022-12-31\nEvidence age (calendar days): 146\nSource: amzn_2022_H2_candlestick.png\nCanonical caption: {\"candlestick_structure\":\"mostly green and red, with some green and red\",\"confidence\":\"moderate\",\"momentum_visual\":\"generally increasing, then decreasing\",\"notable_gap_or_reversal\":\"no significant gap or reversal\",\"other_visible_pattern\":\"no other visible patterns\",\"support_resistance_visual\":\"no clear support or resistance levels\",\"trend\":\"upward to peak, then downward\",\"volatility_visual\":\"high volatility, then decreasing\",\"volume_visual\":\"no visible volume pattern\"}\nCaption provenance: b4e2b78c71ab354b7177ebb2747ad14de8ec111c02747cf95d5a439782bdc7c9"
+    },
+    "news_analyst": {
+      "sections": [
+        "TEXT"
+      ],
+      "text": "Status: AVAILABLE\nEvidence age (calendar days): 1\nSource: sp500_news/AMZN.jsonl\nArticle 1 date: 2023-05-25\nArticle 1 title: 3 Stocks That Could Be the Next Trillion-Dollar Titans\nArticle 1 source: https://www.nasdaq.com/articles/3-stocks-that-could-be-the-next-trillion-dollar-titans\nArticle 1 text: InvestorPlace - Stock Market News, Stock Advice & Trading Tips If we go back about five months ago, no one was looking for the next trillion-dollar companies. Apple (NASDAQ:AAPL) was making new 52-week lows at the start of 2023, while many mega-cap tech names were rolling over in late December and early January. It didn’t matter if it was a well-established tech giant or the top companies of the future; investors were selling these names left and right. Now, just a few months later and we’ve had a completely different situation. Just a handful of tech stocks have driven almost 90% of the gains in the S&P 500, while the Nasdaq is up more than 21% so far for the year. A few of these names have even doubled in price from the 2023 low. The robust price action has investors looking for the future trillion-dollar companies. There are already a few that have cleared this hurdle and the current…\nArticle 1 provenance: 5d08efa04edc4edd3507fb9d3d90a1f665970315cf89917e835b1de37f8efb53\nArticle 2 date: 2023-05-25\nArticle 2 title: After Hours Most Active for May 25, 2023 : UPWK, XYL, AAPL, T, MRVL, AMZN, NVDA, MSFT, TAL, GPS, DVN, BAC\nArticle 2 source: https://www.nasdaq.com/articles/after-hours-most-active-for-may-25-2023-%3A-upwk-xyl-aapl-t-mrvl-amzn-nvda-msft-tal-gps-dvn\nArticle 2 text: The NASDAQ 100 After Hours Indicator is up 6.54 to 13,945.07. The total After hours volume is currently 102,106,506 shares traded.  The following are the most active stocks for the after hours session:  Upwork Inc. (UPWK) is unchanged at $7.60, with 11,245,676 shares traded. As reported by Zacks, the current mean recommendation for UPWK is in the \"buy range\".  Xylem Inc. (XYL) is +0.11 at $99.00, with 6,792,307 shares traded. Over the last four weeks they have had 3 up revisions for the earnings forecast, for the fiscal quarter ending Jun 2023. The consensus EPS forecast is $0.81. XYL's current last sale is 82.5% of the target price of $120.  Apple Inc. (AAPL) is +0.09 at $173.08, with 4,801,485 shares traded. Over the last four weeks they have had 3 up revisions for the earnings forecast, for the fiscal quarter ending Jun 2023. The consensus EPS forecast is $1.18. As reported by Zacks,…\nArticle 2 provenance: 4c447d9143f176357bf45cc1f4e0c72ac781e62628dab16bb09cf41dfc2912cd\nArticle 3 date: 2023-05-25\nArticle 3 title: AMZN vs. AAPL: Which Big Tech Stock is Better?\nArticle 3 source: https://www.nasdaq.com/articles/amzn-vs.-aapl%3A-which-big-tech-stock-is-better\nArticle 3 text: In this piece, I evaluated two big tech stocks, Amazon (NASDAQ:AMZN) and Apple (NASDAQ:AAPL), using TipRanks' comparison tool to determine which is better. Of course, Amazon and Apple need no introduction. Amazon has exploded 34% year-to-date, bringing its one-year return to 3.5%. Meanwhile, Apple is up 38.7% year-to-date and 21% over the last year. Notably, Apple is trading close to its record high, while Amazon is significantly off its all-time high. Technology stocks have been broadly outperforming those in other sectors. Although tech names make up several of the highest-weighted names in the S&P 500 (SPX), it has gained about 8% year-to-date versus the tech-heavy Nasdaq's (NDX) 26% year-to-date gain. Thus, investors might be wondering whether there's any near-term upside left, so a closer look is in order. Amazon (NASDAQ:AMZN) Amazon has faced some issues recently that may be restr…\nArticle 3 provenance: b3ee498d57d99824bedab013e59a541d29957e121dfb5b57906583611071664b\nArticle 4 date: 2023-05-25\nArticle 4 title: Best Buy's Comeback Is Still At Play, Earnings Call For Patience\nArticle 4 source: https://www.nasdaq.com/articles/best-buys-comeback-is-still-at-play-earnings-call-for-patience\nArticle 4 text: As most retail - and a sizeable wholesale population - businesses struggled for years to compete against the goliath of industry, Amazon.com (NASDAQ: AMZN), a cleansing of inefficiencies and a spark of innovations has been taking over management conversations at the remaining operators. One resilient name in the industry, which continues to battle successfully against the 'race to zero,' is Best Buy (NYSE: BBY). Shares of Best Buy are rallying by as much as 5.8% in the pre-market hours of Thursday morning; bulls are advancing the price aggressively amid the company's results for the first quarter of 2023. Despite starting its press release with disappointing figures, Best Buy's shareholders are within their right to look at the big picture and the long-term potential the company is building momentum towards. As a widely followed vital performance indicator (KPI) for the retail industry,…\nArticle 4 provenance: 80f2bce7b3bbf61ea83ccf6d352d9bbef2aa2badbf1e887c96b903b5abad6821\nArticle 5 date: 2023-05-25\nArticle 5 title: Better Buy: Amazon vs. PayPal\nArticle 5 source: https://www.nasdaq.com/articles/better-buy%3A-amazon-vs.-paypal\nArticle 5 text: Pandemic reopenings last year sent consumers to brick-and-mortar stores in droves. The e-commerce market took a hit that was then compounded when macroeconomic headwinds in 2022 led to a further reduction in online spending. As a result, market leaders like Amazon (NASDAQ: AMZN) and PayPal (NASDAQ: PYPL) experienced stock declines of 50% and 62% last year. However, inflation has eased for nine consecutive months, with the Consumer Price Index rising 4.9% in April after hitting a high of 9.1% in June 2022. The improvement has already allowed several consumer-reliant companies to begin recovering, with Amazon and PayPal well positioned to see their stocks surge over the next year. As a result, now is an excellent time to consider investing in these companies before it's too late. However, if you only have room for one in your portfolio, you'll need to know which is the better buy. So, let…\nArticle 5 provenance: 92e1f8da379bbc1b22368ce04bf2e4f1a1bcf67a5ad10799f44590236394bb27\nArticle 6 date: 2023-05-25\nArticle 6 title: Consumer Sector Update for 05/25/2023: BG, DISH, AEO, ELF, AMZN\nArticle 6 source: https://www.nasdaq.com/articles/consumer-sector-update-for-05-25-2023%3A-bg-dish-aeo-elf-amzn\nArticle 6 text: Consumer stocks were lower late Thursday, with the Consumer Staples Select Sector SPDR Fund (XLP) falling 0.8% and the Consumer Discretionary Select Sector SPDR Fund (XLY) easing 0.5%. In company news, Bunge (BG) is in talks to merge with its agricultural commodities rival Glencore-backed Viterra, Bloomberg reported, citing people with knowledge of the matter. Bunge shares were gaining 3.5%. DISH Network (DISH) is in talks with Amazon (AMZN) to sell wireless plans for its mobile phone service through Amazon's US website, The Wall Street Journal reported. DISH shares were gaining 6.7% while Amazon was down 1.3%. American Eagle Outfitters (AEO) shares fell past 11% after the company posted weaker fiscal Q1 earnings and lowered its guidance for annual fiscal revenue. e.l.f. Beauty (ELF) shares were up almost 20% after it posted forecast-beating fiscal Q4 results. The views and opinions exp…\nArticle 6 provenance: 59bef9a6c9778ee5d6b47e66638eff64699ab030359b05ac81601f89996b0885\nArticle 7 date: 2023-05-25\nArticle 7 title: Dish Network surges after report of talks to sell wireless plans via Amazon\nArticle 7 source: https://www.nasdaq.com/articles/dish-network-surges-after-report-of-talks-to-sell-wireless-plans-via-amazon\nArticle 7 text: (Adds background in paragraph 2, requests for comment from Dish and Amazon in paragraph 4; updates shares) May 25 (Reuters) - Shares of Dish Network Corp surged over 15% on Thursday, after a report said the company was in talks to sell its wireless plans through Amazon.com Inc . The potential tie-up would open up a large sales channel for Dish Network, which has been investing to grow its wireless business. Details of the new phone plans sold through Amazon's U.S. website could be announced as soon as June, the Wall Street Journal reported, citing people familiar with the matter. Dish Network is a customer of Amazon's cloud-computing services. Both Dish and Amazon did not immediately respond to Reuters' requests for comment. (Reporting by Yuvraj Malik in Bengaluru; Editing by Varun H K) ((yuvraj.malik@thomsonreuters.com;)) Keywords: DISH NETWORK PARTNERSHIP/AMAZON (UPDATE 1) The views a…\nArticle 7 provenance: 6f9f23d68c74a0dd233b4d6d9fff8bd4e6117d85577ceb073d06c2966b71ebe1\nArticle 8 date: 2023-05-25\nArticle 8 title: Dish Network surges after report says it plans to sell wireless plans via Amazon\nArticle 8 source: https://www.nasdaq.com/articles/dish-network-surges-after-report-says-it-plans-to-sell-wireless-plans-via-amazon\nArticle 8 text: May 25 (Reuters) - Dish Network Corp surged over 15% premarket on Thursday after a report said the company was in talks to sell its wireless plans through Amazon.com Inc . Details of the new phone plans sold through Amazon's U.S. website could be announced as soon as June, the Wall Street Journal reported, citing people familiar with the matter. (Reporting by Yuvraj Malik in Bengaluru; Editing by Varun H K) ((yuvraj.malik@thomsonreuters.com;)) Keywords: DISH NETWORK PARTNERSHIP/AMAZON (URGENT) The views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.\nArticle 8 provenance: 1baecc499a25f4d1e8ca7878054b04053beddef1835e5416b6de8abee25f3b7c"
+    },
+    "social_analyst": {
+      "sections": [],
+      "text": ""
+    }
+  },
+  "routing": {
+    "modality_to_analyst": {
+      "IMAGE": "Market Analyst",
+      "TABLE": "Fundamentals Analyst",
+      "TEXT": "News Analyst",
+      "TIME_SERIES": "Market Analyst"
+    },
+    "raw_packet_direct_injection": false,
+    "social_analyst": "NO_FINMULTITIME_EVIDENCE"
+  },
+  "section_sha256": {
+    "IMAGE": "7fd39a94d62dcc05817db7f6add55a26518c89cdc861dc9559a2fcf66b84c0b7",
+    "TABLE": "101f58486f487d4bb9a2c2159ac9ebc0ca947bb0cf32054a820426b33abbc0a8",
+    "TEXT": "3908dde6b1f5a84d194ac19c09dbcf9fe765c32f3d44bd84d1fcf66279c074bd",
+    "TIME_SERIES": "a1a901cff558c71684ba8cf5045dafab2a2425b652c09cc8ff57ecf2b1134a39"
+  },
+  "source_provenance": {
+    "pit_cutoff": "2023-05-26",
+    "task_id": "M2-06"
+  },
+  "symbol": "AMZN",
+  "tier_membership": {
+    "in_compact": true,
+    "in_maximum": true,
+    "in_standard": true
+  }
+}

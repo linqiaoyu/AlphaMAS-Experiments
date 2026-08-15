@@ -1,0 +1,487 @@
+{
+  "cases": [
+    {
+      "case_id": "AAPL:2023-05-05",
+      "status": "PASS",
+      "total_chars": 2842
+    },
+    {
+      "case_id": "AAPL:2023-05-12",
+      "status": "PASS",
+      "total_chars": 2880
+    },
+    {
+      "case_id": "AAPL:2023-05-19",
+      "status": "PASS",
+      "total_chars": 2860
+    },
+    {
+      "case_id": "AAPL:2023-05-26",
+      "status": "PASS",
+      "total_chars": 2863
+    },
+    {
+      "case_id": "AAPL:2023-06-02",
+      "status": "PASS",
+      "total_chars": 2859
+    },
+    {
+      "case_id": "AAPL:2023-06-09",
+      "status": "PASS",
+      "total_chars": 2858
+    },
+    {
+      "case_id": "AAPL:2023-06-16",
+      "status": "PASS",
+      "total_chars": 2878
+    },
+    {
+      "case_id": "AAPL:2023-06-30",
+      "status": "PASS",
+      "total_chars": 2859
+    },
+    {
+      "case_id": "AAPL:2023-07-07",
+      "status": "PASS",
+      "total_chars": 2878
+    },
+    {
+      "case_id": "AAPL:2023-07-21",
+      "status": "PASS",
+      "total_chars": 2881
+    },
+    {
+      "case_id": "AAPL:2023-07-28",
+      "status": "PASS",
+      "total_chars": 2861
+    },
+    {
+      "case_id": "AAPL:2023-10-06",
+      "status": "PASS",
+      "total_chars": 2881
+    },
+    {
+      "case_id": "AEMD:2023-05-05",
+      "status": "PASS",
+      "total_chars": 3584
+    },
+    {
+      "case_id": "AEMD:2023-05-12",
+      "status": "PASS",
+      "total_chars": 3588
+    },
+    {
+      "case_id": "AEMD:2023-05-19",
+      "status": "PASS",
+      "total_chars": 3586
+    },
+    {
+      "case_id": "AEMD:2023-05-26",
+      "status": "PASS",
+      "total_chars": 3570
+    },
+    {
+      "case_id": "AEMD:2023-06-02",
+      "status": "PASS",
+      "total_chars": 3569
+    },
+    {
+      "case_id": "AEMD:2023-06-09",
+      "status": "PASS",
+      "total_chars": 3583
+    },
+    {
+      "case_id": "AEMD:2023-06-16",
+      "status": "PASS",
+      "total_chars": 3584
+    },
+    {
+      "case_id": "AEMD:2023-06-30",
+      "status": "PASS",
+      "total_chars": 3562
+    },
+    {
+      "case_id": "AEMD:2023-07-07",
+      "status": "PASS",
+      "total_chars": 3572
+    },
+    {
+      "case_id": "AEMD:2023-07-21",
+      "status": "PASS",
+      "total_chars": 3579
+    },
+    {
+      "case_id": "AEMD:2023-07-28",
+      "status": "PASS",
+      "total_chars": 3559
+    },
+    {
+      "case_id": "AEMD:2023-10-06",
+      "status": "PASS",
+      "total_chars": 3578
+    },
+    {
+      "case_id": "AGI:2023-05-05",
+      "status": "PASS",
+      "total_chars": 11316
+    },
+    {
+      "case_id": "AGI:2023-05-12",
+      "status": "PASS",
+      "total_chars": 11280
+    },
+    {
+      "case_id": "AGI:2023-05-19",
+      "status": "PASS",
+      "total_chars": 11313
+    },
+    {
+      "case_id": "AGI:2023-05-26",
+      "status": "PASS",
+      "total_chars": 11319
+    },
+    {
+      "case_id": "AGI:2023-06-02",
+      "status": "PASS",
+      "total_chars": 11219
+    },
+    {
+      "case_id": "AGI:2023-06-09",
+      "status": "PASS",
+      "total_chars": 11350
+    },
+    {
+      "case_id": "AGI:2023-06-16",
+      "status": "PASS",
+      "total_chars": 11443
+    },
+    {
+      "case_id": "AGI:2023-06-30",
+      "status": "PASS",
+      "total_chars": 11390
+    },
+    {
+      "case_id": "AGI:2023-07-07",
+      "status": "PASS",
+      "total_chars": 6749
+    },
+    {
+      "case_id": "AGI:2023-07-21",
+      "status": "PASS",
+      "total_chars": 5430
+    },
+    {
+      "case_id": "AGI:2023-07-28",
+      "status": "PASS",
+      "total_chars": 4270
+    },
+    {
+      "case_id": "AGI:2023-10-06",
+      "status": "PASS",
+      "total_chars": 11614
+    },
+    {
+      "case_id": "AMZN:2023-05-05",
+      "status": "PASS",
+      "total_chars": 12890
+    },
+    {
+      "case_id": "AMZN:2023-05-12",
+      "status": "PASS",
+      "total_chars": 12954
+    },
+    {
+      "case_id": "AMZN:2023-05-19",
+      "status": "PASS",
+      "total_chars": 13042
+    },
+    {
+      "case_id": "AMZN:2023-05-26",
+      "status": "PASS",
+      "total_chars": 12765
+    },
+    {
+      "case_id": "AMZN:2023-06-02",
+      "status": "PASS",
+      "total_chars": 13016
+    },
+    {
+      "case_id": "AMZN:2023-06-09",
+      "status": "PASS",
+      "total_chars": 12450
+    },
+    {
+      "case_id": "AMZN:2023-06-16",
+      "status": "PASS",
+      "total_chars": 12967
+    },
+    {
+      "case_id": "AMZN:2023-06-30",
+      "status": "PASS",
+      "total_chars": 12873
+    },
+    {
+      "case_id": "AMZN:2023-07-07",
+      "status": "PASS",
+      "total_chars": 12746
+    },
+    {
+      "case_id": "AMZN:2023-07-21",
+      "status": "PASS",
+      "total_chars": 12696
+    },
+    {
+      "case_id": "AMZN:2023-07-28",
+      "status": "PASS",
+      "total_chars": 12761
+    },
+    {
+      "case_id": "AMZN:2023-10-06",
+      "status": "PASS",
+      "total_chars": 12754
+    },
+    {
+      "case_id": "ARR:2023-05-05",
+      "status": "PASS",
+      "total_chars": 9767
+    },
+    {
+      "case_id": "ARR:2023-05-12",
+      "status": "PASS",
+      "total_chars": 7224
+    },
+    {
+      "case_id": "ARR:2023-05-19",
+      "status": "PASS",
+      "total_chars": 5964
+    },
+    {
+      "case_id": "ARR:2023-05-26",
+      "status": "PASS",
+      "total_chars": 4716
+    },
+    {
+      "case_id": "ARR:2023-06-02",
+      "status": "PASS",
+      "total_chars": 7182
+    },
+    {
+      "case_id": "ARR:2023-06-09",
+      "status": "PASS",
+      "total_chars": 8427
+    },
+    {
+      "case_id": "ARR:2023-06-16",
+      "status": "PASS",
+      "total_chars": 10967
+    },
+    {
+      "case_id": "ARR:2023-06-30",
+      "status": "PASS",
+      "total_chars": 12228
+    },
+    {
+      "case_id": "ARR:2023-07-07",
+      "status": "PASS",
+      "total_chars": 12267
+    },
+    {
+      "case_id": "ARR:2023-07-21",
+      "status": "PASS",
+      "total_chars": 12263
+    },
+    {
+      "case_id": "ARR:2023-07-28",
+      "status": "PASS",
+      "total_chars": 13522
+    },
+    {
+      "case_id": "ARR:2023-10-06",
+      "status": "PASS",
+      "total_chars": 13314
+    },
+    {
+      "case_id": "EML:2023-05-05",
+      "status": "PASS",
+      "total_chars": 7168
+    },
+    {
+      "case_id": "EML:2023-05-12",
+      "status": "PASS",
+      "total_chars": 7173
+    },
+    {
+      "case_id": "EML:2023-05-19",
+      "status": "PASS",
+      "total_chars": 5944
+    },
+    {
+      "case_id": "EML:2023-05-26",
+      "status": "PASS",
+      "total_chars": 5941
+    },
+    {
+      "case_id": "EML:2023-06-02",
+      "status": "PASS",
+      "total_chars": 6018
+    },
+    {
+      "case_id": "EML:2023-06-09",
+      "status": "PASS",
+      "total_chars": 4776
+    },
+    {
+      "case_id": "EML:2023-06-16",
+      "status": "PASS",
+      "total_chars": 4775
+    },
+    {
+      "case_id": "EML:2023-06-30",
+      "status": "PASS",
+      "total_chars": 3543
+    },
+    {
+      "case_id": "EML:2023-07-07",
+      "status": "PASS",
+      "total_chars": 3562
+    },
+    {
+      "case_id": "EML:2023-07-21",
+      "status": "PASS",
+      "total_chars": 3564
+    },
+    {
+      "case_id": "EML:2023-07-28",
+      "status": "PASS",
+      "total_chars": 4785
+    },
+    {
+      "case_id": "EML:2023-10-06",
+      "status": "PASS",
+      "total_chars": 3591
+    },
+    {
+      "case_id": "JBSS:2023-05-05",
+      "status": "PASS",
+      "total_chars": 3299
+    },
+    {
+      "case_id": "JBSS:2023-05-12",
+      "status": "PASS",
+      "total_chars": 3316
+    },
+    {
+      "case_id": "JBSS:2023-05-19",
+      "status": "PASS",
+      "total_chars": 3316
+    },
+    {
+      "case_id": "JBSS:2023-05-26",
+      "status": "PASS",
+      "total_chars": 3296
+    },
+    {
+      "case_id": "JBSS:2023-06-02",
+      "status": "PASS",
+      "total_chars": 3296
+    },
+    {
+      "case_id": "JBSS:2023-06-09",
+      "status": "PASS",
+      "total_chars": 3316
+    },
+    {
+      "case_id": "JBSS:2023-06-16",
+      "status": "PASS",
+      "total_chars": 3300
+    },
+    {
+      "case_id": "JBSS:2023-06-30",
+      "status": "PASS",
+      "total_chars": 3317
+    },
+    {
+      "case_id": "JBSS:2023-07-07",
+      "status": "PASS",
+      "total_chars": 3326
+    },
+    {
+      "case_id": "JBSS:2023-07-21",
+      "status": "PASS",
+      "total_chars": 3327
+    },
+    {
+      "case_id": "JBSS:2023-07-28",
+      "status": "PASS",
+      "total_chars": 3325
+    },
+    {
+      "case_id": "JBSS:2023-10-06",
+      "status": "PASS",
+      "total_chars": 3298
+    },
+    {
+      "case_id": "JPM:2023-05-05",
+      "status": "PASS",
+      "total_chars": 3311
+    },
+    {
+      "case_id": "JPM:2023-05-12",
+      "status": "PASS",
+      "total_chars": 3312
+    },
+    {
+      "case_id": "JPM:2023-05-19",
+      "status": "PASS",
+      "total_chars": 3312
+    },
+    {
+      "case_id": "JPM:2023-05-26",
+      "status": "PASS",
+      "total_chars": 3314
+    },
+    {
+      "case_id": "JPM:2023-06-02",
+      "status": "PASS",
+      "total_chars": 3312
+    },
+    {
+      "case_id": "JPM:2023-06-09",
+      "status": "PASS",
+      "total_chars": 3308
+    },
+    {
+      "case_id": "JPM:2023-06-16",
+      "status": "PASS",
+      "total_chars": 3295
+    },
+    {
+      "case_id": "JPM:2023-06-30",
+      "status": "PASS",
+      "total_chars": 3292
+    },
+    {
+      "case_id": "JPM:2023-07-07",
+      "status": "PASS",
+      "total_chars": 3534
+    },
+    {
+      "case_id": "JPM:2023-07-21",
+      "status": "PASS",
+      "total_chars": 3533
+    },
+    {
+      "case_id": "JPM:2023-07-28",
+      "status": "PASS",
+      "total_chars": 3535
+    },
+    {
+      "case_id": "JPM:2023-10-06",
+      "status": "PASS",
+      "total_chars": 3557
+    }
+  ],
+  "packet_bound_violations": 0,
+  "packet_count": 96,
+  "status": "PASS"
+}

@@ -1,0 +1,81 @@
+=== FINMULTITIME EVIDENCE ===
+Symbol: AMZN
+Decision session: 2023-06-16
+
+[TEXT]
+Status: AVAILABLE
+Evidence age (calendar days): 1
+Source: sp500_news/AMZN.jsonl
+Article 1 date: 2023-06-15
+Article 1 title: 1 Growth Stock Down 63% to Buy Right Now
+Article 1 source: https://www.nasdaq.com/articles/1-growth-stock-down-63-to-buy-right-now-0
+Article 1 text: Given the stock's massive meltdown during the first half of 2022, it would be easy to conclude Shopify (NYSE: SHOP) is just another tech stock bust. Investors were stoked by the premise in the midst of the coronavirus pandemic. With the major lockdowns over and businesses returning to normal, however, the luster of its online store-building schtick seems to be fading. Take a closer look though. While the COVID-19 pandemic may have put a spotlight on the company, Shopify was growing with or without the pandemic-prompted boost. That's not changed in the meantime. The only thing that's changed is the stock's price -- shares are much cheaper now than they were a year and a half ago. And that's your opportunity to jump in -- before the market corrects its mistake. Capitalizing on the inevitable opportunity Shopify provides would-be online merchants with the tools needed to build their own e-…
+Article 1 provenance: 59a78f59f7f9673449ec78c78574915e09fb8ecb11b43d3e7dcc1a825c89a5c1
+Article 2 date: 2023-06-15
+Article 2 title: 2 No-Brainer Stocks Up 50% This Year to Buy Before the Next Bull Market
+Article 2 source: https://www.nasdaq.com/articles/2-no-brainer-stocks-up-50-this-year-to-buy-before-the-next-bull-market
+Article 2 text: You're not alone as an investor if you struggled to maintain your focus while the volatility that rocked the markets in 2022 carried into 2023. But the current volatility in the market need not deter you, especially if you only invest in companies that you believe in, that you understand, that have strong underlying businesses, and that have demonstrated long-term competitive advantages. Oh, and it helps to keep a long-term mindset and hold the stocks for three to five years minimum. Two stocks, in particular, are no-brainer considerations right now. Both are trading up at least 50% this year and both still have long runways for further growth. If you are looking to add to your portfolio before the next bull market gets underway, here are two fantastic companies to consider. 1. Amazon Amazon (NASDAQ: AMZN) is a big tech name that dealt with particularly turbulent stock-trading waters ov…
+Article 2 provenance: 565ff5a729a96bca7987ed334478eb6bf3a665e463c1457ca9c8c6b8503255e7
+Article 3 date: 2023-06-15
+Article 3 title: 3 Patriotic Stocks to Buy for Financial Freedom
+Article 3 source: https://www.nasdaq.com/articles/3-patriotic-stocks-to-buy-for-financial-freedom
+Article 3 text: InvestorPlace - Stock Market News, Stock Advice & Trading Tips With the Fourth of July just around the corner, we wanted to take a quick look at some of the most patriotic stocks to buy. For reference, we typically rely on the Brand Keys annual survey of American brands that most embody patriotism. While we haven’t seen the 2023 list just yet, we’ll use the 2022 list for the time being. For 2022, the survey listed Jeep as No. 1 on the list, followed by Disney (NYSE:DIS), Amazon (NASDAQ:AMZN), Walmart (NYSE:WMT), Coca-Cola (NYSE:KO), American Express (NYSE:AXP), Ford Motor (NYSE:F), Apple (NASDAQ:AAPL), Molson Coors (NYSE:TAP), and Levi Strauss (NYSE:LEVI) as the top 10. Let’s take a quick look at some of the mentioned patriotic stocks to buy, and an interesting ETF. Symbol Company Price AMZN Amazon.com $127.19 KO Coca-Cola $61.21 YALL God Bless America ETF $26.32 Amazon (AMZN) Source: T…
+Article 3 provenance: 8e6dbef07761407e6bee0406cfbd1783746f4c13a7aba49462ca9a5d30926220
+Article 4 date: 2023-06-15
+Article 4 title: 3 Short-Squeeze Stocks Set for a June Rally
+Article 4 source: https://www.nasdaq.com/articles/3-short-squeeze-stocks-set-for-a-june-rally
+Article 4 text: InvestorPlace - Stock Market News, Stock Advice & Trading Tips In the dynamic stock market landscape, the rise of meme stocks has been a game-changer. Online platforms such as Reddit have empowered individual traders to congregate, discuss, and rally around unlikely wagers, often leading to an uptick in the best short-squeeze stocks. However, navigating this landscape calls for prudence. It’s imperative to understand that stocks under heavy short pressure have fundamental reasons for their precarious position. Although the contrarian attraction of these stocks can be enticing, the risk of a continued slide is always at the doorstep. Therefore, a balanced approach is critical in tracking upcoming short-squeeze stocks set for a June rally. That said, a few major examples of short-squeeze stocks promise both a potential squeeze and robust underlying fundamentals. These top short-squeeze st…
+Article 4 provenance: b01b77c2ae89fb491dbe57a5f2dddc047e1e36ba154a95b9b6336278daa097ff
+Article 5 date: 2023-06-15
+Article 5 title: 7 Stocks Forming the Next ‘Economic Supercluster’
+Article 5 source: https://www.nasdaq.com/articles/7-stocks-forming-the-next-economic-supercluster
+Article 5 text: InvestorPlace - Stock Market News, Stock Advice & Trading Tips The next group of stocks in economic supercluster already emerged in the form of the so-called ‘Magnificent 7’ stocks. That group includes Apple (NASDAQ:AAPL), Amazon (NASDAQ:AMZN), Alphabet (NASDAQ:GOOG GOOGL), Microsoft (NASDAQ:MSFT), Meta Platforms (NASDAQ:META), Nvidia (NASDAQ:NVDA), and Tesla (NASDAQ:TSLA). However, it’s also important to recognize that investors are beginning to pull back on those stocks on valuation concerns. Still, there are other stocks in economic supercluster we can also check out, including: AMD Advanced Micro Devices $124.24 AVGO Broadcom $883.43 ASML ASML. $738.69 PLTR Palantir $16.60 ALB Albemarle $230.91 F Ford Motor $14.45 SEDG SolarEdge $277.46 Stocks in Economic Supercluster: Advanced Micro Devices (AMD) Source: Pamela Marciano / Shutterstock.com Advanced Micro Devices (NASDAQ:AMD) is chie…
+Article 5 provenance: 4024383005fe1eeea5a555e6acb9c4e1b7b5afc4c991f98903d8e2c5b1dca787
+Article 6 date: 2023-06-15
+Article 6 title: After Hours Most Active for Jun 15, 2023 : AMZN, SPCE, QQQ, TEVA, AAPL, AZTA, VIPS, BABA, QQQE, GOOGL, VZ, HPE
+Article 6 source: https://www.nasdaq.com/articles/after-hours-most-active-for-jun-15-2023-%3A-amzn-spce-qqq-teva-aapl-azta-vips-baba-qqqe
+Article 6 text: The NASDAQ 100 After Hours Indicator is down -6.42 to 15,179.06. The total After hours volume is currently 102,313,091 shares traded.  The following are the most active stocks for the after hours session:  Amazon.com, Inc. (AMZN) is -0.15 at $126.96, with 3,546,567 shares traded. As reported by Zacks, the current mean recommendation for AMZN is in the "buy range".  Virgin Galactic Holdings, Inc. (SPCE) is +0.99 at $5.05, with 3,496,726 shares traded. SPCE's current last sale is 126.25% of the target price of $4.  Invesco QQQ Trust, Series 1 (QQQ) is -0.14 at $370.12, with 3,371,237 shares traded., following a 52-week high recorded in today's regular session.  Teva Pharmaceutical Industries Limited (TEVA) is -0.0599 at $7.52, with 3,065,270 shares traded. Over the last four weeks they have had 3 up revisions for the earnings forecast, for the fiscal quarter ending Dec 2023. The consensus…
+Article 6 provenance: e69f5168d37e1a0e320f1b987d9cd2dfe5a16d93c6127b67fca73100c0e56da4
+Article 7 date: 2023-06-15
+Article 7 title: Alphabet (GOOGL) Google Unveils Virtual Try-on Clothes Feature
+Article 7 source: https://www.nasdaq.com/articles/alphabet-googl-google-unveils-virtual-try-on-clothes-feature
+Article 7 text: In a bid to expand its presence in the generative AI space, Alphabet’s GOOGL Google is leaving no stone unturned to introduce advanced search features.  This is evident from the latest announcement of a generative AI-backed online shopping feature that lets users try on clothes virtually.  Notably, the feature is based on Google’s new image-based AI model.  With the new feature, a wide range of customers will be able to understand how an apparel item will look on them, as it will allow them to try clothes ranging from XXS to 4XL sizes.  Further, it is designed to generate lifelike images by considering how a fabric stretches and wrinkles when worn.  Initially, the company will roll out the try-on feature for women’s tops in partnership with retailers like Anthropologie and Everlane. Eventually, it will come up with the same in men’s clothing.  With the underlined feature, Google boosts …
+Article 7 provenance: 4ab7626b528f97e21b481421c26199d193967ee3bb9f04323b13fe6b6a674561
+Article 8 date: 2023-06-15
+Article 8 title: Amazon (AMZN) Gains But Lags Market: What You Should Know
+Article 8 source: https://www.nasdaq.com/articles/amazon-amzn-gains-but-lags-market%3A-what-you-should-know-3
+Article 8 text: Amazon (AMZN) closed the most recent trading day at $127.11, moving +0.55% from the previous trading session. The stock lagged the S&P 500's daily gain of 1.22%. Meanwhile, the Dow gained 1.26%, and the Nasdaq, a tech-heavy index, added 4.63%. Prior to today's trading, shares of the online retailer had gained 9.45% over the past month. This has outpaced the Retail-Wholesale sector's gain of 4.92% and the S&P 500's gain of 6.22% in that time. Investors will be hoping for strength from Amazon as it approaches its next earnings release. The company is expected to report EPS of $0.34, up 240% from the prior-year quarter. Meanwhile, the Zacks Consensus Estimate for revenue is projecting net sales of $131.51 billion, up 8.47% from the year-ago period. Looking at the full year, our Zacks Consensus Estimates suggest analysts are expecting earnings of $1.56 per share and revenue of $560.37 billi…
+Article 8 provenance: 16ec693b85568e5c0e9233db52d035b45d4daf8f82085363694b66a497eb2777
+
+[TABLE]
+Status: AVAILABLE
+Source: financial_reports/amzn/condensed_consolidated_balance_sheets.json;financial_reports/amzn/condensed_consolidated_statement_of_cash_flows.json
+Assets: value=464378000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-03-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=83d3a69d48e18cf4802dad80c9d99f26d03d699c0ef5443e36fe42797aff3516
+Liabilities: UNAVAILABLE
+StockholdersEquity: value=154526000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-03-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=c060b43c49bfed85aee694108f4c388e8a0d8607d57f7880cb65503d20376a2e
+NetCashProvidedByUsedInOperatingActivities: value=4788000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-03-31; period_duration_days=90; period_duration_class=quarterly; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=2e10fadb5fb896172494ddedfe3d77cacfc60b47b3376320a6c4f6e087a71fed
+NetCashProvidedByUsedInInvestingActivities: value=-15806000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-03-31; period_duration_days=90; period_duration_class=quarterly; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=6a1fabad46d1e8e9283aa1ce26dfa58ecb49d9df08518865bfe6a8780127dfe0
+NetCashProvidedByUsedInFinancingActivities: value=6354000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-03-31; period_duration_days=90; period_duration_class=quarterly; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=547579fce07ab7f0145aea13264251fc03b4adeaa7afd2b6edfdd175109f4c25
+
+[TIME_SERIES]
+Status: AVAILABLE
+Through session: 2023-06-16
+Source: S&P500_time_series/amzn.csv
+cumulative_return_5d: 0.01668960182695045
+cumulative_return_20d: 0.062124386314822866
+cumulative_return_60d: 0.27142858909687595
+realised_volatility_20d_annualised: 0.30069041960394605
+high_low_range_20d: 0.1285815173121143
+drawdown_from_60d_peak: -0.012744888197649074
+relative_volume_vs_20d_mean: 1.332581895724815
+Provenance: 9853953af3c7dbac9a07ff8a5e1461cb85b2ceb725087b7c5c432de0af6bd886
+
+[IMAGE]
+Status: AVAILABLE
+Chart period: 2022-H2
+Inferred period end: 2022-12-31
+Evidence age (calendar days): 167
+Source: amzn_2022_H2_candlestick.png
+Canonical caption: {"candlestick_structure":"mostly green and red, with some green and red","confidence":"moderate","momentum_visual":"generally increasing, then decreasing","notable_gap_or_reversal":"no significant gap or reversal","other_visible_pattern":"no other visible patterns","support_resistance_visual":"no clear support or resistance levels","trend":"upward to peak, then downward","volatility_visual":"high volatility, then decreasing","volume_visual":"no visible volume pattern"}
+Caption provenance: b4e2b78c71ab354b7177ebb2747ad14de8ec111c02747cf95d5a439782bdc7c9
+=== END FINMULTITIME EVIDENCE ===

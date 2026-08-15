@@ -1,0 +1,282 @@
+{
+  "IMAGE": {
+    "canonical_caption": {
+      "candlestick_structure": "mostly green and red, with some green and red",
+      "confidence": "moderate",
+      "momentum_visual": "generally increasing, then decreasing",
+      "notable_gap_or_reversal": "no significant gap or reversal",
+      "other_visible_pattern": "no other visible patterns",
+      "support_resistance_visual": "no clear support or resistance levels",
+      "trend": "upward to peak, then downward",
+      "volatility_visual": "high volatility, then decreasing",
+      "volume_visual": "no visible volume pattern"
+    },
+    "caption_sha256": "b4e2b78c71ab354b7177ebb2747ad14de8ec111c02747cf95d5a439782bdc7c9",
+    "caption_source": "NEW_QWEN_M2_06",
+    "caption_status": "GENERATED",
+    "chart_period": "2022-H2",
+    "evidence_age_calendar_days": 139,
+    "image_sha256": "f52b3a16034499f16b13eb1472ef9460cc5ea93f6b524e1e3683270c1debb2ae",
+    "inferred_period_end": "2022-12-31",
+    "provenance_hash_reference": "b4e2b78c71ab354b7177ebb2747ad14de8ec111c02747cf95d5a439782bdc7c9",
+    "reason": "",
+    "source_identity": "amzn_2022_H2_candlestick.png",
+    "status": "AVAILABLE"
+  },
+  "TABLE": {
+    "facts": {
+      "Assets": {
+        "accession": "0001018724-23-000008",
+        "filed_date": "2023-04-28",
+        "form": "10-Q",
+        "fp": "Q1",
+        "fy": 2023,
+        "period_duration_class": "point_in_time",
+        "period_duration_days": null,
+        "period_end": "2023-03-31",
+        "period_start": "",
+        "provenance_hash_reference": "83d3a69d48e18cf4802dad80c9d99f26d03d699c0ef5443e36fe42797aff3516",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 464378000000
+      },
+      "Liabilities": {
+        "reason": "no canonical PIT-safe selected fact",
+        "status": "UNAVAILABLE"
+      },
+      "NetCashProvidedByUsedInFinancingActivities": {
+        "accession": "0001018724-23-000008",
+        "filed_date": "2023-04-28",
+        "form": "10-Q",
+        "fp": "Q1",
+        "fy": 2023,
+        "period_duration_class": "quarterly",
+        "period_duration_days": 90,
+        "period_end": "2023-03-31",
+        "period_start": "2023-01-01",
+        "provenance_hash_reference": "547579fce07ab7f0145aea13264251fc03b4adeaa7afd2b6edfdd175109f4c25",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 6354000000
+      },
+      "NetCashProvidedByUsedInInvestingActivities": {
+        "accession": "0001018724-23-000008",
+        "filed_date": "2023-04-28",
+        "form": "10-Q",
+        "fp": "Q1",
+        "fy": 2023,
+        "period_duration_class": "quarterly",
+        "period_duration_days": 90,
+        "period_end": "2023-03-31",
+        "period_start": "2023-01-01",
+        "provenance_hash_reference": "6a1fabad46d1e8e9283aa1ce26dfa58ecb49d9df08518865bfe6a8780127dfe0",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": -15806000000
+      },
+      "NetCashProvidedByUsedInOperatingActivities": {
+        "accession": "0001018724-23-000008",
+        "filed_date": "2023-04-28",
+        "form": "10-Q",
+        "fp": "Q1",
+        "fy": 2023,
+        "period_duration_class": "quarterly",
+        "period_duration_days": 90,
+        "period_end": "2023-03-31",
+        "period_start": "2023-01-01",
+        "provenance_hash_reference": "2e10fadb5fb896172494ddedfe3d77cacfc60b47b3376320a6c4f6e087a71fed",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 4788000000
+      },
+      "StockholdersEquity": {
+        "accession": "0001018724-23-000008",
+        "filed_date": "2023-04-28",
+        "form": "10-Q",
+        "fp": "Q1",
+        "fy": 2023,
+        "period_duration_class": "point_in_time",
+        "period_duration_days": null,
+        "period_end": "2023-03-31",
+        "period_start": "",
+        "provenance_hash_reference": "c060b43c49bfed85aee694108f4c388e8a0d8607d57f7880cb65503d20376a2e",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 154526000000
+      }
+    },
+    "provenance_hash_reference": "ee295d0a5de8c29a47fc0dac2e3b115d9411539a63a2c90af51e827e6702a06d",
+    "reason": "",
+    "selection_rule": "frozen six-concept TABLE selection; filed_date < decision session",
+    "source_identity": "financial_reports/amzn/condensed_consolidated_balance_sheets.json;financial_reports/amzn/condensed_consolidated_statement_of_cash_flows.json",
+    "status": "AVAILABLE"
+  },
+  "TEXT": {
+    "evidence_age_calendar_days": 1,
+    "provenance_hash_reference": "c6df6c067aafae200c71496307244083088065cf0eaf56ef624f931c683a9093",
+    "reason": "",
+    "records": [
+      {
+        "article_date": "2023-05-18",
+        "body": "We’ve learned a lot from earnings season so far, primarily that we haven’t faced the ‘earnings apocalypse’ many foretold and warned us of.   Zacks Director of Research, Sheraz Mian, says “The picture emerging from the Q1 earnings season continues to be one of resilience and stability, with companies not only beating estimates but also providing a good-enough outlook in an uncertain macro environment.” With earnings season winding down, let’s take a look at two key themes from the 2023 Q1 cycle. Pricing Power There have been several big surprises from those in the Consumer Staples sector. We’ve seen various companies in the realm come out and post better-than-expected results, with pricing power helping lead the way. For example, several companies, including PepsiCo PEP, Kimberly-Clark KMB, and Procter & Gamble PG, all raised guidance following strong quarterly results. Impressively, all…",
+        "provenance_hash_reference": "fa487718764d3ab7d793b68198bdba511a2ae17d86cb63b46b19223ea750af33",
+        "source": "https://www.nasdaq.com/articles/2-key-themes-from-the-q1-earnings-season",
+        "title": "2 Key Themes From the Q1 Earnings Season"
+      },
+      {
+        "article_date": "2023-05-18",
+        "body": "InvestorPlace - Stock Market News, Stock Advice & Trading Tips One of the essential qualities to look for when investing in exchange-traded funds (ETFs) is high risk-adjusted returns. These low-risk ETFs are welcome additions to a portfolio because they factor in the risk taken for the fund to achieve its returns.  According to BlackRock, risk-adjusted return “is a calculation of the return (or potential return) on an investment such as a stock or corporate bond when compared to cash or equivalents.” Investors are wise to consider the risk of an investment because it will help them understand whether or not they can safely reach their long-term goals. For example, if you have $100,000 saved and want to retire with a million-dollar nest egg in five years, you’ll likely have to ratchet up your risk significantly to achieve your goal. You may realize it’s unrealistic if you have an aversio…",
+        "provenance_hash_reference": "8e718f122d0d89af50cb197d9f79c732bd3bb27dc7b908ca58976d803cef1a78",
+        "source": "https://www.nasdaq.com/articles/3-etfs-to-buy-now-for-high-returns-and-low-risk",
+        "title": "3 ETFs to Buy Now for High Returns and Low Risk"
+      },
+      {
+        "article_date": "2023-05-18",
+        "body": "It's never too early to start building a portfolio that may eventually make you a millionaire. You can get to work on this no matter what the market is doing because, at any point, the market offers you opportunities. In a bull market, you may pick up some of the safer stocks that investors are ignoring. And in today's difficult market, you can grab great deals on growth stocks. Today, many growth stocks are suffering, but in some cases, prospects over time remain bright. So right now is the perfect time to snap up these players at a bargain price and potentially benefit months or years down the road. Let's talk about three magnificent growth stocks that, as part of a portfolio of solid companies, could help you along the path to wealth 1. Amazon Amazon (NASDAQ: AMZN) was on an earnings roll, delivering gains in net income year after year -- until last year, when the company swung to a …",
+        "provenance_hash_reference": "44b6b85ea759e626429bef0a6e45e8b4288df449f4ef8cb80b701213e116b4ed",
+        "source": "https://www.nasdaq.com/articles/3-magnificent-growth-stocks-to-buy-to-help-build-a-millionaire-portfolio",
+        "title": "3 Magnificent Growth Stocks to Buy to Help Build a Millionaire Portfolio"
+      },
+      {
+        "article_date": "2023-05-18",
+        "body": "Retiring a millionaire is a goal for many investors, because it is a threshold many feel is necessary to retire comfortably. While it's possible to reach this status with market-tracking funds like ETFs, individual stocks can achieve this goal much faster by picking the correct ones. If that's more your speed, I've got three stocks that I think can supercharge your portfolio returns and help you retire a millionaire someday. CrowdStrike When assessing a company's growth potential, it's essential to consider the future operating environment and if the company could be disrupted. CrowdStrike (NASDAQ: CRWD) operates in the cybersecurity industry, which is slated to grow significantly over the coming years due to bad actors ramping up attacks. Another buzzword in the tech industry is artificial intelligence (AI), and companies that don't use it will likely be left in the dust. Fortunately f…",
+        "provenance_hash_reference": "b05da0f60e1aecce6b90990cf462fe7ce7f06dbf06cee13f765b00649e5a2897",
+        "source": "https://www.nasdaq.com/articles/3-stocks-that-could-help-you-retire-a-millionaire-8",
+        "title": "3 Stocks That Could Help You Retire a Millionaire"
+      },
+      {
+        "article_date": "2023-05-18",
+        "body": "To quote the great Warren Buffett: \"Be fearful when others are greedy, and greedy when others are fearful.\" I'm sure investors would prefer not to experience down periods, but they can bring good opportunities. Chaos in the madness, if you will. Stock market sell-offs can be a great chance to invest in great companies trading at a value. Here are three growth stocks investors should consider. 1. The Trade Desk The Trade Desk (NASDAQ: TTD) is an adtech company that specializes in programmatic advertising. Instead of companies bidding for digital ad space, The Trade Desk is the middleman connecting the companies with the digital ad space provider, similar to how a brokerage platform connects stock sellers and buyers. After losing more than half its value in 2022, The Trade Desk has picked up steam, up over 44% year to date (as of May 15). The company increased its Q1 2023 revenue by 21% y…",
+        "provenance_hash_reference": "5f2e95763a1d2c0bacdce9c6fc5d85fc5d5a97dfa5c04eb425680c7c884165d7",
+        "source": "https://www.nasdaq.com/articles/3-unstoppable-growth-stocks-to-buy-if-theres-a-stock-market-sell-off-8",
+        "title": "3 Unstoppable Growth Stocks to Buy If There's a Stock Market Sell-Off"
+      },
+      {
+        "article_date": "2023-05-18",
+        "body": "(RTTNews) - Tech giant Amazon.com's (AMZN) Amazon Web Services intends to invest $12.7 billion into India's cloud infrastructure by 2030, in a significant move aimed at addressing the escalating demand for cloud services in the country. The investment is projected to create about 131,700 full-time equivalent job opportunities annually across various Indian businesses. With this substantial commitment, AWS aims to cater to the evolving needs of customers in India and reinforce its position in the rapidly expanding cloud market. The newly allocated budget will involve investments in construction, server computers, and telecommunications infrastructure, according to a statement issued by the company. By 2030, AWS' total investment in India will reach $16.4 billion, following a previous infusion of $3.7 billion between 2016 and 2022, which has annually supported 39,500 full-time equivalent …",
+        "provenance_hash_reference": "92e8cac0b613a4df38c77c4e7ba9f456f3f9f040853c99024dba306cd5669c43",
+        "source": "https://www.nasdaq.com/articles/amazons-aws-commits-%2412.7-bln-to-bolster-indias-cloud-infrastructure-by-2030",
+        "title": "Amazon's AWS Commits $12.7 Bln To Bolster India's Cloud Infrastructure By 2030"
+      },
+      {
+        "article_date": "2023-05-18",
+        "body": "Shares of software project collaboration firm Atlassian (NASDAQ:TEAM) were one of the victims of the tech sell-off of 2022. Though the company can leverage generative artificial intelligence (AI) to help improve its platform, I'm not sure such innovations will save the stock as negative momentum picks up again. At writing, the stock is down around 69% from its 2021 all-time highs. Despite the painful plunge, it remains difficult to gauge how much value there is to be had in the Australian tech firm that's dominated the \"software development software\" niche for many years. Collaboration tools and productivity software are tough places to be in these days. Given the large number of uncertainties facing Atlassian's niche market, I remain neutral on the stock. Though I am impressed with management's track record and the firm's dominance among software development teams, I view AI as more of…",
+        "provenance_hash_reference": "9f55e74135cfab0140777cc1564ce85b0f1e4911d6f0b97fd3bb23d802bbe8e6",
+        "source": "https://www.nasdaq.com/articles/atlassian-nasdaq%3Ateam%3A-ai-may-not-save-the-stock",
+        "title": "Atlassian (NASDAQ:TEAM): AI May Not Save the Stock"
+      },
+      {
+        "article_date": "2023-05-18",
+        "body": "Google parent company Alphabet (NASDAQ: GOOG) (NASDAQ: GOOGL) is no stranger to artificial intelligence (AI). The technology giant made it a focus years ago, using AI to improve everything from its searches to its offerings to potential advertisers. And just last week, Alphabet wowed investors with its latest AI updates at its annual developer conference. But the company didn't stop there. In fact, Alphabet's announcement at another conference yesterday may signal a major step in a billion-dollar, high-growth part of the AI market. I'm talking about healthcare AI. Alphabet's Google Cloud announced two new solutions that could be game-changers for biotech and pharmaceutical companies. Here's what investors need to know. The key to drug discovery Google Cloud said its Target and Lead Identification Suite and the Multiomics Suite now are both available worldwide. The first product helps sc…",
+        "provenance_hash_reference": "df0a27979b50340951896bbcd7314f25e36c9ae6057ae5a4def8dd4c85cc7cf0",
+        "source": "https://www.nasdaq.com/articles/google-ups-the-ante-in-the-race-for-ai-dominance-with-2-new-products-heres-what-investors",
+        "title": "Google Ups the Ante in the Race for AI Dominance With 2 New Products -- Here's What Investors Should Know"
+      }
+    ],
+    "selection_rule": "frozen bounded TEXT selection; Date < decision session; deterministic order",
+    "source_identity": "sp500_news/AMZN.jsonl",
+    "status": "AVAILABLE"
+  },
+  "TIME_SERIES": {
+    "provenance_hash_reference": "b208c05dcf2425aa7769a5c36a4be59b318703c258b8a927937f8c2ea287ec4f",
+    "reason": "",
+    "selection_rule": "frozen descriptive summaries from 61 completed source rows; session <= decision",
+    "source_identity": "S&P500_time_series/amzn.csv",
+    "status": "AVAILABLE",
+    "summaries": {
+      "cumulative_return_20d": 0.08685490833064113,
+      "cumulative_return_5d": 0.054326117791732464,
+      "cumulative_return_60d": 0.2132122768758402,
+      "drawdown_from_60d_peak": -0.01608126535201726,
+      "high_low_range_20d": 0.17251603247655578,
+      "realised_volatility_20d_annualised": 0.3647212589148747,
+      "relative_volume_vs_20d_mean": 0.7577484109423213
+    },
+    "through_session": "2023-05-19"
+  },
+  "agent_text": "=== FINMULTITIME EVIDENCE ===\nSymbol: AMZN\nDecision session: 2023-05-19\n\n[TEXT]\nStatus: AVAILABLE\nEvidence age (calendar days): 1\nSource: sp500_news/AMZN.jsonl\nArticle 1 date: 2023-05-18\nArticle 1 title: 2 Key Themes From the Q1 Earnings Season\nArticle 1 source: https://www.nasdaq.com/articles/2-key-themes-from-the-q1-earnings-season\nArticle 1 text: We’ve learned a lot from earnings season so far, primarily that we haven’t faced the ‘earnings apocalypse’ many foretold and warned us of.   Zacks Director of Research, Sheraz Mian, says “The picture emerging from the Q1 earnings season continues to be one of resilience and stability, with companies not only beating estimates but also providing a good-enough outlook in an uncertain macro environment.” With earnings season winding down, let’s take a look at two key themes from the 2023 Q1 cycle. Pricing Power There have been several big surprises from those in the Consumer Staples sector. We’ve seen various companies in the realm come out and post better-than-expected results, with pricing power helping lead the way. For example, several companies, including PepsiCo PEP, Kimberly-Clark KMB, and Procter & Gamble PG, all raised guidance following strong quarterly results. Impressively, all…\nArticle 1 provenance: fa487718764d3ab7d793b68198bdba511a2ae17d86cb63b46b19223ea750af33\nArticle 2 date: 2023-05-18\nArticle 2 title: 3 ETFs to Buy Now for High Returns and Low Risk\nArticle 2 source: https://www.nasdaq.com/articles/3-etfs-to-buy-now-for-high-returns-and-low-risk\nArticle 2 text: InvestorPlace - Stock Market News, Stock Advice & Trading Tips One of the essential qualities to look for when investing in exchange-traded funds (ETFs) is high risk-adjusted returns. These low-risk ETFs are welcome additions to a portfolio because they factor in the risk taken for the fund to achieve its returns.  According to BlackRock, risk-adjusted return “is a calculation of the return (or potential return) on an investment such as a stock or corporate bond when compared to cash or equivalents.” Investors are wise to consider the risk of an investment because it will help them understand whether or not they can safely reach their long-term goals. For example, if you have $100,000 saved and want to retire with a million-dollar nest egg in five years, you’ll likely have to ratchet up your risk significantly to achieve your goal. You may realize it’s unrealistic if you have an aversio…\nArticle 2 provenance: 8e718f122d0d89af50cb197d9f79c732bd3bb27dc7b908ca58976d803cef1a78\nArticle 3 date: 2023-05-18\nArticle 3 title: 3 Magnificent Growth Stocks to Buy to Help Build a Millionaire Portfolio\nArticle 3 source: https://www.nasdaq.com/articles/3-magnificent-growth-stocks-to-buy-to-help-build-a-millionaire-portfolio\nArticle 3 text: It's never too early to start building a portfolio that may eventually make you a millionaire. You can get to work on this no matter what the market is doing because, at any point, the market offers you opportunities. In a bull market, you may pick up some of the safer stocks that investors are ignoring. And in today's difficult market, you can grab great deals on growth stocks. Today, many growth stocks are suffering, but in some cases, prospects over time remain bright. So right now is the perfect time to snap up these players at a bargain price and potentially benefit months or years down the road. Let's talk about three magnificent growth stocks that, as part of a portfolio of solid companies, could help you along the path to wealth 1. Amazon Amazon (NASDAQ: AMZN) was on an earnings roll, delivering gains in net income year after year -- until last year, when the company swung to a …\nArticle 3 provenance: 44b6b85ea759e626429bef0a6e45e8b4288df449f4ef8cb80b701213e116b4ed\nArticle 4 date: 2023-05-18\nArticle 4 title: 3 Stocks That Could Help You Retire a Millionaire\nArticle 4 source: https://www.nasdaq.com/articles/3-stocks-that-could-help-you-retire-a-millionaire-8\nArticle 4 text: Retiring a millionaire is a goal for many investors, because it is a threshold many feel is necessary to retire comfortably. While it's possible to reach this status with market-tracking funds like ETFs, individual stocks can achieve this goal much faster by picking the correct ones. If that's more your speed, I've got three stocks that I think can supercharge your portfolio returns and help you retire a millionaire someday. CrowdStrike When assessing a company's growth potential, it's essential to consider the future operating environment and if the company could be disrupted. CrowdStrike (NASDAQ: CRWD) operates in the cybersecurity industry, which is slated to grow significantly over the coming years due to bad actors ramping up attacks. Another buzzword in the tech industry is artificial intelligence (AI), and companies that don't use it will likely be left in the dust. Fortunately f…\nArticle 4 provenance: b05da0f60e1aecce6b90990cf462fe7ce7f06dbf06cee13f765b00649e5a2897\nArticle 5 date: 2023-05-18\nArticle 5 title: 3 Unstoppable Growth Stocks to Buy If There's a Stock Market Sell-Off\nArticle 5 source: https://www.nasdaq.com/articles/3-unstoppable-growth-stocks-to-buy-if-theres-a-stock-market-sell-off-8\nArticle 5 text: To quote the great Warren Buffett: \"Be fearful when others are greedy, and greedy when others are fearful.\" I'm sure investors would prefer not to experience down periods, but they can bring good opportunities. Chaos in the madness, if you will. Stock market sell-offs can be a great chance to invest in great companies trading at a value. Here are three growth stocks investors should consider. 1. The Trade Desk The Trade Desk (NASDAQ: TTD) is an adtech company that specializes in programmatic advertising. Instead of companies bidding for digital ad space, The Trade Desk is the middleman connecting the companies with the digital ad space provider, similar to how a brokerage platform connects stock sellers and buyers. After losing more than half its value in 2022, The Trade Desk has picked up steam, up over 44% year to date (as of May 15). The company increased its Q1 2023 revenue by 21% y…\nArticle 5 provenance: 5f2e95763a1d2c0bacdce9c6fc5d85fc5d5a97dfa5c04eb425680c7c884165d7\nArticle 6 date: 2023-05-18\nArticle 6 title: Amazon's AWS Commits $12.7 Bln To Bolster India's Cloud Infrastructure By 2030\nArticle 6 source: https://www.nasdaq.com/articles/amazons-aws-commits-%2412.7-bln-to-bolster-indias-cloud-infrastructure-by-2030\nArticle 6 text: (RTTNews) - Tech giant Amazon.com's (AMZN) Amazon Web Services intends to invest $12.7 billion into India's cloud infrastructure by 2030, in a significant move aimed at addressing the escalating demand for cloud services in the country. The investment is projected to create about 131,700 full-time equivalent job opportunities annually across various Indian businesses. With this substantial commitment, AWS aims to cater to the evolving needs of customers in India and reinforce its position in the rapidly expanding cloud market. The newly allocated budget will involve investments in construction, server computers, and telecommunications infrastructure, according to a statement issued by the company. By 2030, AWS' total investment in India will reach $16.4 billion, following a previous infusion of $3.7 billion between 2016 and 2022, which has annually supported 39,500 full-time equivalent …\nArticle 6 provenance: 92e8cac0b613a4df38c77c4e7ba9f456f3f9f040853c99024dba306cd5669c43\nArticle 7 date: 2023-05-18\nArticle 7 title: Atlassian (NASDAQ:TEAM): AI May Not Save the Stock\nArticle 7 source: https://www.nasdaq.com/articles/atlassian-nasdaq%3Ateam%3A-ai-may-not-save-the-stock\nArticle 7 text: Shares of software project collaboration firm Atlassian (NASDAQ:TEAM) were one of the victims of the tech sell-off of 2022. Though the company can leverage generative artificial intelligence (AI) to help improve its platform, I'm not sure such innovations will save the stock as negative momentum picks up again. At writing, the stock is down around 69% from its 2021 all-time highs. Despite the painful plunge, it remains difficult to gauge how much value there is to be had in the Australian tech firm that's dominated the \"software development software\" niche for many years. Collaboration tools and productivity software are tough places to be in these days. Given the large number of uncertainties facing Atlassian's niche market, I remain neutral on the stock. Though I am impressed with management's track record and the firm's dominance among software development teams, I view AI as more of…\nArticle 7 provenance: 9f55e74135cfab0140777cc1564ce85b0f1e4911d6f0b97fd3bb23d802bbe8e6\nArticle 8 date: 2023-05-18\nArticle 8 title: Google Ups the Ante in the Race for AI Dominance With 2 New Products -- Here's What Investors Should Know\nArticle 8 source: https://www.nasdaq.com/articles/google-ups-the-ante-in-the-race-for-ai-dominance-with-2-new-products-heres-what-investors\nArticle 8 text: Google parent company Alphabet (NASDAQ: GOOG) (NASDAQ: GOOGL) is no stranger to artificial intelligence (AI). The technology giant made it a focus years ago, using AI to improve everything from its searches to its offerings to potential advertisers. And just last week, Alphabet wowed investors with its latest AI updates at its annual developer conference. But the company didn't stop there. In fact, Alphabet's announcement at another conference yesterday may signal a major step in a billion-dollar, high-growth part of the AI market. I'm talking about healthcare AI. Alphabet's Google Cloud announced two new solutions that could be game-changers for biotech and pharmaceutical companies. Here's what investors need to know. The key to drug discovery Google Cloud said its Target and Lead Identification Suite and the Multiomics Suite now are both available worldwide. The first product helps sc…\nArticle 8 provenance: df0a27979b50340951896bbcd7314f25e36c9ae6057ae5a4def8dd4c85cc7cf0\n\n[TABLE]\nStatus: AVAILABLE\nSource: financial_reports/amzn/condensed_consolidated_balance_sheets.json;financial_reports/amzn/condensed_consolidated_statement_of_cash_flows.json\nAssets: value=464378000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-03-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=83d3a69d48e18cf4802dad80c9d99f26d03d699c0ef5443e36fe42797aff3516\nLiabilities: UNAVAILABLE\nStockholdersEquity: value=154526000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-03-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=c060b43c49bfed85aee694108f4c388e8a0d8607d57f7880cb65503d20376a2e\nNetCashProvidedByUsedInOperatingActivities: value=4788000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-03-31; period_duration_days=90; period_duration_class=quarterly; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=2e10fadb5fb896172494ddedfe3d77cacfc60b47b3376320a6c4f6e087a71fed\nNetCashProvidedByUsedInInvestingActivities: value=-15806000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-03-31; period_duration_days=90; period_duration_class=quarterly; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=6a1fabad46d1e8e9283aa1ce26dfa58ecb49d9df08518865bfe6a8780127dfe0\nNetCashProvidedByUsedInFinancingActivities: value=6354000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-03-31; period_duration_days=90; period_duration_class=quarterly; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=547579fce07ab7f0145aea13264251fc03b4adeaa7afd2b6edfdd175109f4c25\n\n[TIME_SERIES]\nStatus: AVAILABLE\nThrough session: 2023-05-19\nSource: S&P500_time_series/amzn.csv\ncumulative_return_5d: 0.054326117791732464\ncumulative_return_20d: 0.08685490833064113\ncumulative_return_60d: 0.2132122768758402\nrealised_volatility_20d_annualised: 0.3647212589148747\nhigh_low_range_20d: 0.17251603247655578\ndrawdown_from_60d_peak: -0.01608126535201726\nrelative_volume_vs_20d_mean: 0.7577484109423213\nProvenance: b208c05dcf2425aa7769a5c36a4be59b318703c258b8a927937f8c2ea287ec4f\n\n[IMAGE]\nStatus: AVAILABLE\nChart period: 2022-H2\nInferred period end: 2022-12-31\nEvidence age (calendar days): 139\nSource: amzn_2022_H2_candlestick.png\nCanonical caption: {\"candlestick_structure\":\"mostly green and red, with some green and red\",\"confidence\":\"moderate\",\"momentum_visual\":\"generally increasing, then decreasing\",\"notable_gap_or_reversal\":\"no significant gap or reversal\",\"other_visible_pattern\":\"no other visible patterns\",\"support_resistance_visual\":\"no clear support or resistance levels\",\"trend\":\"upward to peak, then downward\",\"volatility_visual\":\"high volatility, then decreasing\",\"volume_visual\":\"no visible volume pattern\"}\nCaption provenance: b4e2b78c71ab354b7177ebb2747ad14de8ec111c02747cf95d5a439782bdc7c9\n=== END FINMULTITIME EVIDENCE ===\n",
+  "available_for_training": true,
+  "available_for_validation": false,
+  "case_id": "AMZN:2023-05-19",
+  "character_counts": {
+    "complete": 13042,
+    "fundamentals": 1809,
+    "market": 1196,
+    "news": 9888
+  },
+  "contract_version": "M1-FINMULTITIME-v1.0.2",
+  "dataset_id": "m2_preformal_evidence_v1",
+  "decision_session": "2023-05-19",
+  "decision_time": "2023-05-19T20:00:00+00:00",
+  "engineering_only": false,
+  "m2_metadata": {
+    "available_for_training": true,
+    "available_for_validation": false,
+    "engineering_only": false,
+    "performance_for_selection": false,
+    "protected": false,
+    "role": "TRAIN",
+    "tier_membership": {
+      "in_compact": false,
+      "in_maximum": true,
+      "in_standard": true
+    }
+  },
+  "packet_sha256": "7ff7d1fea34fa4292198ea78cc0d8c801aa26db8bf0898ce9db6766477116602",
+  "packet_status": "FINAL_FROZEN",
+  "performance_for_selection": false,
+  "protected": false,
+  "record_type": "m1_finmultitime_evidence_packet",
+  "role": "TRAIN",
+  "routed_projections": {
+    "fundamentals_analyst": {
+      "sections": [
+        "TABLE"
+      ],
+      "text": "Status: AVAILABLE\nSource: financial_reports/amzn/condensed_consolidated_balance_sheets.json;financial_reports/amzn/condensed_consolidated_statement_of_cash_flows.json\nAssets: value=464378000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-03-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=83d3a69d48e18cf4802dad80c9d99f26d03d699c0ef5443e36fe42797aff3516\nLiabilities: UNAVAILABLE\nStockholdersEquity: value=154526000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-03-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=c060b43c49bfed85aee694108f4c388e8a0d8607d57f7880cb65503d20376a2e\nNetCashProvidedByUsedInOperatingActivities: value=4788000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-03-31; period_duration_days=90; period_duration_class=quarterly; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=2e10fadb5fb896172494ddedfe3d77cacfc60b47b3376320a6c4f6e087a71fed\nNetCashProvidedByUsedInInvestingActivities: value=-15806000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-03-31; period_duration_days=90; period_duration_class=quarterly; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=6a1fabad46d1e8e9283aa1ce26dfa58ecb49d9df08518865bfe6a8780127dfe0\nNetCashProvidedByUsedInFinancingActivities: value=6354000000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-03-31; period_duration_days=90; period_duration_class=quarterly; filed_date=2023-04-28; accession=0001018724-23-000008; provenance=547579fce07ab7f0145aea13264251fc03b4adeaa7afd2b6edfdd175109f4c25"
+    },
+    "market_analyst": {
+      "sections": [
+        "TIME_SERIES",
+        "IMAGE"
+      ],
+      "text": "Status: AVAILABLE\nThrough session: 2023-05-19\nSource: S&P500_time_series/amzn.csv\ncumulative_return_5d: 0.054326117791732464\ncumulative_return_20d: 0.08685490833064113\ncumulative_return_60d: 0.2132122768758402\nrealised_volatility_20d_annualised: 0.3647212589148747\nhigh_low_range_20d: 0.17251603247655578\ndrawdown_from_60d_peak: -0.01608126535201726\nrelative_volume_vs_20d_mean: 0.7577484109423213\nProvenance: b208c05dcf2425aa7769a5c36a4be59b318703c258b8a927937f8c2ea287ec4f\n\nStatus: AVAILABLE\nChart period: 2022-H2\nInferred period end: 2022-12-31\nEvidence age (calendar days): 139\nSource: amzn_2022_H2_candlestick.png\nCanonical caption: {\"candlestick_structure\":\"mostly green and red, with some green and red\",\"confidence\":\"moderate\",\"momentum_visual\":\"generally increasing, then decreasing\",\"notable_gap_or_reversal\":\"no significant gap or reversal\",\"other_visible_pattern\":\"no other visible patterns\",\"support_resistance_visual\":\"no clear support or resistance levels\",\"trend\":\"upward to peak, then downward\",\"volatility_visual\":\"high volatility, then decreasing\",\"volume_visual\":\"no visible volume pattern\"}\nCaption provenance: b4e2b78c71ab354b7177ebb2747ad14de8ec111c02747cf95d5a439782bdc7c9"
+    },
+    "news_analyst": {
+      "sections": [
+        "TEXT"
+      ],
+      "text": "Status: AVAILABLE\nEvidence age (calendar days): 1\nSource: sp500_news/AMZN.jsonl\nArticle 1 date: 2023-05-18\nArticle 1 title: 2 Key Themes From the Q1 Earnings Season\nArticle 1 source: https://www.nasdaq.com/articles/2-key-themes-from-the-q1-earnings-season\nArticle 1 text: We’ve learned a lot from earnings season so far, primarily that we haven’t faced the ‘earnings apocalypse’ many foretold and warned us of.   Zacks Director of Research, Sheraz Mian, says “The picture emerging from the Q1 earnings season continues to be one of resilience and stability, with companies not only beating estimates but also providing a good-enough outlook in an uncertain macro environment.” With earnings season winding down, let’s take a look at two key themes from the 2023 Q1 cycle. Pricing Power There have been several big surprises from those in the Consumer Staples sector. We’ve seen various companies in the realm come out and post better-than-expected results, with pricing power helping lead the way. For example, several companies, including PepsiCo PEP, Kimberly-Clark KMB, and Procter & Gamble PG, all raised guidance following strong quarterly results. Impressively, all…\nArticle 1 provenance: fa487718764d3ab7d793b68198bdba511a2ae17d86cb63b46b19223ea750af33\nArticle 2 date: 2023-05-18\nArticle 2 title: 3 ETFs to Buy Now for High Returns and Low Risk\nArticle 2 source: https://www.nasdaq.com/articles/3-etfs-to-buy-now-for-high-returns-and-low-risk\nArticle 2 text: InvestorPlace - Stock Market News, Stock Advice & Trading Tips One of the essential qualities to look for when investing in exchange-traded funds (ETFs) is high risk-adjusted returns. These low-risk ETFs are welcome additions to a portfolio because they factor in the risk taken for the fund to achieve its returns.  According to BlackRock, risk-adjusted return “is a calculation of the return (or potential return) on an investment such as a stock or corporate bond when compared to cash or equivalents.” Investors are wise to consider the risk of an investment because it will help them understand whether or not they can safely reach their long-term goals. For example, if you have $100,000 saved and want to retire with a million-dollar nest egg in five years, you’ll likely have to ratchet up your risk significantly to achieve your goal. You may realize it’s unrealistic if you have an aversio…\nArticle 2 provenance: 8e718f122d0d89af50cb197d9f79c732bd3bb27dc7b908ca58976d803cef1a78\nArticle 3 date: 2023-05-18\nArticle 3 title: 3 Magnificent Growth Stocks to Buy to Help Build a Millionaire Portfolio\nArticle 3 source: https://www.nasdaq.com/articles/3-magnificent-growth-stocks-to-buy-to-help-build-a-millionaire-portfolio\nArticle 3 text: It's never too early to start building a portfolio that may eventually make you a millionaire. You can get to work on this no matter what the market is doing because, at any point, the market offers you opportunities. In a bull market, you may pick up some of the safer stocks that investors are ignoring. And in today's difficult market, you can grab great deals on growth stocks. Today, many growth stocks are suffering, but in some cases, prospects over time remain bright. So right now is the perfect time to snap up these players at a bargain price and potentially benefit months or years down the road. Let's talk about three magnificent growth stocks that, as part of a portfolio of solid companies, could help you along the path to wealth 1. Amazon Amazon (NASDAQ: AMZN) was on an earnings roll, delivering gains in net income year after year -- until last year, when the company swung to a …\nArticle 3 provenance: 44b6b85ea759e626429bef0a6e45e8b4288df449f4ef8cb80b701213e116b4ed\nArticle 4 date: 2023-05-18\nArticle 4 title: 3 Stocks That Could Help You Retire a Millionaire\nArticle 4 source: https://www.nasdaq.com/articles/3-stocks-that-could-help-you-retire-a-millionaire-8\nArticle 4 text: Retiring a millionaire is a goal for many investors, because it is a threshold many feel is necessary to retire comfortably. While it's possible to reach this status with market-tracking funds like ETFs, individual stocks can achieve this goal much faster by picking the correct ones. If that's more your speed, I've got three stocks that I think can supercharge your portfolio returns and help you retire a millionaire someday. CrowdStrike When assessing a company's growth potential, it's essential to consider the future operating environment and if the company could be disrupted. CrowdStrike (NASDAQ: CRWD) operates in the cybersecurity industry, which is slated to grow significantly over the coming years due to bad actors ramping up attacks. Another buzzword in the tech industry is artificial intelligence (AI), and companies that don't use it will likely be left in the dust. Fortunately f…\nArticle 4 provenance: b05da0f60e1aecce6b90990cf462fe7ce7f06dbf06cee13f765b00649e5a2897\nArticle 5 date: 2023-05-18\nArticle 5 title: 3 Unstoppable Growth Stocks to Buy If There's a Stock Market Sell-Off\nArticle 5 source: https://www.nasdaq.com/articles/3-unstoppable-growth-stocks-to-buy-if-theres-a-stock-market-sell-off-8\nArticle 5 text: To quote the great Warren Buffett: \"Be fearful when others are greedy, and greedy when others are fearful.\" I'm sure investors would prefer not to experience down periods, but they can bring good opportunities. Chaos in the madness, if you will. Stock market sell-offs can be a great chance to invest in great companies trading at a value. Here are three growth stocks investors should consider. 1. The Trade Desk The Trade Desk (NASDAQ: TTD) is an adtech company that specializes in programmatic advertising. Instead of companies bidding for digital ad space, The Trade Desk is the middleman connecting the companies with the digital ad space provider, similar to how a brokerage platform connects stock sellers and buyers. After losing more than half its value in 2022, The Trade Desk has picked up steam, up over 44% year to date (as of May 15). The company increased its Q1 2023 revenue by 21% y…\nArticle 5 provenance: 5f2e95763a1d2c0bacdce9c6fc5d85fc5d5a97dfa5c04eb425680c7c884165d7\nArticle 6 date: 2023-05-18\nArticle 6 title: Amazon's AWS Commits $12.7 Bln To Bolster India's Cloud Infrastructure By 2030\nArticle 6 source: https://www.nasdaq.com/articles/amazons-aws-commits-%2412.7-bln-to-bolster-indias-cloud-infrastructure-by-2030\nArticle 6 text: (RTTNews) - Tech giant Amazon.com's (AMZN) Amazon Web Services intends to invest $12.7 billion into India's cloud infrastructure by 2030, in a significant move aimed at addressing the escalating demand for cloud services in the country. The investment is projected to create about 131,700 full-time equivalent job opportunities annually across various Indian businesses. With this substantial commitment, AWS aims to cater to the evolving needs of customers in India and reinforce its position in the rapidly expanding cloud market. The newly allocated budget will involve investments in construction, server computers, and telecommunications infrastructure, according to a statement issued by the company. By 2030, AWS' total investment in India will reach $16.4 billion, following a previous infusion of $3.7 billion between 2016 and 2022, which has annually supported 39,500 full-time equivalent …\nArticle 6 provenance: 92e8cac0b613a4df38c77c4e7ba9f456f3f9f040853c99024dba306cd5669c43\nArticle 7 date: 2023-05-18\nArticle 7 title: Atlassian (NASDAQ:TEAM): AI May Not Save the Stock\nArticle 7 source: https://www.nasdaq.com/articles/atlassian-nasdaq%3Ateam%3A-ai-may-not-save-the-stock\nArticle 7 text: Shares of software project collaboration firm Atlassian (NASDAQ:TEAM) were one of the victims of the tech sell-off of 2022. Though the company can leverage generative artificial intelligence (AI) to help improve its platform, I'm not sure such innovations will save the stock as negative momentum picks up again. At writing, the stock is down around 69% from its 2021 all-time highs. Despite the painful plunge, it remains difficult to gauge how much value there is to be had in the Australian tech firm that's dominated the \"software development software\" niche for many years. Collaboration tools and productivity software are tough places to be in these days. Given the large number of uncertainties facing Atlassian's niche market, I remain neutral on the stock. Though I am impressed with management's track record and the firm's dominance among software development teams, I view AI as more of…\nArticle 7 provenance: 9f55e74135cfab0140777cc1564ce85b0f1e4911d6f0b97fd3bb23d802bbe8e6\nArticle 8 date: 2023-05-18\nArticle 8 title: Google Ups the Ante in the Race for AI Dominance With 2 New Products -- Here's What Investors Should Know\nArticle 8 source: https://www.nasdaq.com/articles/google-ups-the-ante-in-the-race-for-ai-dominance-with-2-new-products-heres-what-investors\nArticle 8 text: Google parent company Alphabet (NASDAQ: GOOG) (NASDAQ: GOOGL) is no stranger to artificial intelligence (AI). The technology giant made it a focus years ago, using AI to improve everything from its searches to its offerings to potential advertisers. And just last week, Alphabet wowed investors with its latest AI updates at its annual developer conference. But the company didn't stop there. In fact, Alphabet's announcement at another conference yesterday may signal a major step in a billion-dollar, high-growth part of the AI market. I'm talking about healthcare AI. Alphabet's Google Cloud announced two new solutions that could be game-changers for biotech and pharmaceutical companies. Here's what investors need to know. The key to drug discovery Google Cloud said its Target and Lead Identification Suite and the Multiomics Suite now are both available worldwide. The first product helps sc…\nArticle 8 provenance: df0a27979b50340951896bbcd7314f25e36c9ae6057ae5a4def8dd4c85cc7cf0"
+    },
+    "social_analyst": {
+      "sections": [],
+      "text": ""
+    }
+  },
+  "routing": {
+    "modality_to_analyst": {
+      "IMAGE": "Market Analyst",
+      "TABLE": "Fundamentals Analyst",
+      "TEXT": "News Analyst",
+      "TIME_SERIES": "Market Analyst"
+    },
+    "raw_packet_direct_injection": false,
+    "social_analyst": "NO_FINMULTITIME_EVIDENCE"
+  },
+  "section_sha256": {
+    "IMAGE": "98bdbc6e397b20307686784b00ebe18d3a32811cf56837539d51f5a86c3f6252",
+    "TABLE": "101f58486f487d4bb9a2c2159ac9ebc0ca947bb0cf32054a820426b33abbc0a8",
+    "TEXT": "66e60ab50b7c8665f789b2ae02b97388855de0bd428bddd154027285c156218c",
+    "TIME_SERIES": "3b0f00433b7fb7ab341a3e29411751f1530ed9e65a18c7bd2a21fb82014d0623"
+  },
+  "source_provenance": {
+    "pit_cutoff": "2023-05-19",
+    "task_id": "M2-06"
+  },
+  "symbol": "AMZN",
+  "tier_membership": {
+    "in_compact": false,
+    "in_maximum": true,
+    "in_standard": true
+  }
+}

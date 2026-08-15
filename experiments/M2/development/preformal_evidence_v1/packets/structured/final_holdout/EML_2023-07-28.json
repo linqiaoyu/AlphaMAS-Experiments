@@ -1,0 +1,244 @@
+{
+  "IMAGE": {
+    "canonical_caption": {
+      "candlestick_structure": "mostly green and red, with a few green candles in the middle",
+      "confidence": "moderate",
+      "momentum_visual": "mixed, with periods of strength and weakness",
+      "notable_gap_or_reversal": "a significant drop around March 2023",
+      "other_visible_pattern": "a few small clusters of green and red candles",
+      "support_resistance_visual": "a clear support level around 19.5, resistance around 18.5",
+      "trend": "upward followed by downward",
+      "volatility_visual": "moderate, with some sharp fluctuations",
+      "volume_visual": "not visible"
+    },
+    "caption_sha256": "04b69af7c31b219af849850a1d259e5c069e44434feae6a02b5b2692bdca76ec",
+    "caption_source": "NEW_QWEN_M2_06",
+    "caption_status": "GENERATED",
+    "chart_period": "2023-H1",
+    "evidence_age_calendar_days": 28,
+    "image_sha256": "7b5992d42e2fb9edf4d265ec1c4c27d50b54d8f631659fb3d6db8b6b8580242f",
+    "inferred_period_end": "2023-06-30",
+    "provenance_hash_reference": "04b69af7c31b219af849850a1d259e5c069e44434feae6a02b5b2692bdca76ec",
+    "reason": "",
+    "source_identity": "eml_2023_H1_candlestick.png",
+    "status": "AVAILABLE"
+  },
+  "TABLE": {
+    "facts": {
+      "Assets": {
+        "accession": "0001654954-23-006022",
+        "filed_date": "2023-05-09",
+        "form": "10-Q",
+        "fp": "Q1",
+        "fy": 2023,
+        "period_duration_class": "point_in_time",
+        "period_duration_days": null,
+        "period_end": "2023-04-01",
+        "period_start": "",
+        "provenance_hash_reference": "9c2977c840897ca07c236b798a7e3046ec9d4e14e0f123aea44a401893ccabe9",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 255751589
+      },
+      "Liabilities": {
+        "accession": "0001654954-23-006022",
+        "filed_date": "2023-05-09",
+        "form": "10-Q",
+        "fp": "Q1",
+        "fy": 2023,
+        "period_duration_class": "point_in_time",
+        "period_duration_days": null,
+        "period_end": "2023-04-01",
+        "period_start": "",
+        "provenance_hash_reference": "028122aa155b9288980f2fe03c29cdf6cd8e449b9fd3647cc0127d3e72bcfbc6",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 128951553
+      },
+      "NetCashProvidedByUsedInFinancingActivities": {
+        "accession": "0001654954-23-006022",
+        "filed_date": "2023-05-09",
+        "form": "10-Q",
+        "fp": "Q1",
+        "fy": 2023,
+        "period_duration_class": "quarterly",
+        "period_duration_days": 91,
+        "period_end": "2023-04-01",
+        "period_start": "2023-01-01",
+        "provenance_hash_reference": "99693a84f21127d09c259da212bdb8c3f5820e2091b1f3ea371d5f0f7bffb807",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": -5087288
+      },
+      "NetCashProvidedByUsedInInvestingActivities": {
+        "accession": "0001654954-23-006022",
+        "filed_date": "2023-05-09",
+        "form": "10-Q",
+        "fp": "Q1",
+        "fy": 2023,
+        "period_duration_class": "quarterly",
+        "period_duration_days": 91,
+        "period_end": "2023-04-01",
+        "period_start": "2023-01-01",
+        "provenance_hash_reference": "0f3326686c826471fff8dd1be67ade9a58015fbbf815cdc3fd11056e788cc1aa",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 1081987
+      },
+      "NetCashProvidedByUsedInOperatingActivities": {
+        "accession": "0001654954-23-006022",
+        "filed_date": "2023-05-09",
+        "form": "10-Q",
+        "fp": "Q1",
+        "fy": 2023,
+        "period_duration_class": "quarterly",
+        "period_duration_days": 91,
+        "period_end": "2023-04-01",
+        "period_start": "2023-01-01",
+        "provenance_hash_reference": "56a2501ace6526aef4da8bb50067fa360ddf6d7c4cac63570e244830f9edb3d2",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 6860258
+      },
+      "StockholdersEquity": {
+        "accession": "0001654954-23-006022",
+        "filed_date": "2023-05-09",
+        "form": "10-Q",
+        "fp": "Q1",
+        "fy": 2023,
+        "period_duration_class": "point_in_time",
+        "period_duration_days": null,
+        "period_end": "2023-04-01",
+        "period_start": "",
+        "provenance_hash_reference": "986602f7c3c2379f50e05a7de9506ea34ad5ef40dd22f18f5c222fce8eb95943",
+        "status": "AVAILABLE",
+        "unit": "USD",
+        "value": 126800036
+      }
+    },
+    "provenance_hash_reference": "9f9b715790af9482e4929f64ebd338c603675d3d5117ab19e0fa9e80359b4682",
+    "reason": "",
+    "selection_rule": "frozen six-concept TABLE selection; filed_date < decision session",
+    "source_identity": "financial_reports/eml/condensed_consolidated_balance_sheets.json;financial_reports/eml/condensed_consolidated_statement_of_cash_flows.json",
+    "status": "AVAILABLE"
+  },
+  "TEXT": {
+    "evidence_age_calendar_days": 3,
+    "provenance_hash_reference": "916e8c89ce96c7dc0d02390a672c140aa22bb8e513504b4bc469c4cb602cd584",
+    "reason": "",
+    "records": [
+      {
+        "article_date": "2023-07-25",
+        "body": "By Ateeq Shariff July 25 (Reuters) - Most stock markets in the Gulf ended higher on Tuesday on the back of rising oil prices and corporate earnings, although gains were limited as focus shifted to the Federal Reserve's monetary policy decision due on Wednesday. Oil prices - a key catalyst for the Gulf's financial markets - were steady. They hovered near three-month highs as signs of tighter supplies and pledges by Chinese authorities to shore up the world's second-biggest economy lifted sentiment, while weaker Western economic data weighed. Saudi Arabia's benchmark index .TASI gained 0.7%, led by a 8.5% surge in Alinma Bank 1150.SE after it reported a sharp rise in quarterly earnings. The lender, which saw its biggest intraday gain in over three years, posted second-quarter net profit of 1.23 billion riyals ($327.97 million), up from 925.1 million riyals year ago. Dubai's main share ind…",
+        "provenance_hash_reference": "9bd19e3db1a7e778703e178b4fb6a1ee8571f92b24ff95a2705ae5fc299f05ad",
+        "source": "https://www.nasdaq.com/articles/mideast-stocks-most-gulf-markets-gain-on-oil-earnings-abu-dhabi-slips",
+        "title": "MIDEAST STOCKS-Most Gulf markets gain on oil, earnings; Abu Dhabi slips"
+      }
+    ],
+    "selection_rule": "frozen bounded TEXT selection; Date < decision session; deterministic order",
+    "source_identity": "sp500_news/EML.jsonl",
+    "status": "AVAILABLE"
+  },
+  "TIME_SERIES": {
+    "provenance_hash_reference": "890f9cb03734ed01e635302c1876ba69e472922b040ba8c8981091a710079fef",
+    "reason": "",
+    "selection_rule": "frozen descriptive summaries from 61 completed source rows; session <= decision",
+    "source_identity": "S&P500_time_series/eml.csv",
+    "status": "AVAILABLE",
+    "summaries": {
+      "cumulative_return_20d": 0.01834351906980003,
+      "cumulative_return_5d": -0.009729794162080974,
+      "cumulative_return_60d": 0.08666720077996115,
+      "drawdown_from_60d_peak": -0.06863244311910344,
+      "high_low_range_20d": 0.11059634982090749,
+      "realised_volatility_20d_annualised": 0.2110200681069634,
+      "relative_volume_vs_20d_mean": 1.2054794520547945
+    },
+    "through_session": "2023-07-28"
+  },
+  "agent_text": "=== FINMULTITIME EVIDENCE ===\nSymbol: EML\nDecision session: 2023-07-28\n\n[TEXT]\nStatus: AVAILABLE\nEvidence age (calendar days): 3\nSource: sp500_news/EML.jsonl\nArticle 1 date: 2023-07-25\nArticle 1 title: MIDEAST STOCKS-Most Gulf markets gain on oil, earnings; Abu Dhabi slips\nArticle 1 source: https://www.nasdaq.com/articles/mideast-stocks-most-gulf-markets-gain-on-oil-earnings-abu-dhabi-slips\nArticle 1 text: By Ateeq Shariff July 25 (Reuters) - Most stock markets in the Gulf ended higher on Tuesday on the back of rising oil prices and corporate earnings, although gains were limited as focus shifted to the Federal Reserve's monetary policy decision due on Wednesday. Oil prices - a key catalyst for the Gulf's financial markets - were steady. They hovered near three-month highs as signs of tighter supplies and pledges by Chinese authorities to shore up the world's second-biggest economy lifted sentiment, while weaker Western economic data weighed. Saudi Arabia's benchmark index .TASI gained 0.7%, led by a 8.5% surge in Alinma Bank 1150.SE after it reported a sharp rise in quarterly earnings. The lender, which saw its biggest intraday gain in over three years, posted second-quarter net profit of 1.23 billion riyals ($327.97 million), up from 925.1 million riyals year ago. Dubai's main share ind…\nArticle 1 provenance: 9bd19e3db1a7e778703e178b4fb6a1ee8571f92b24ff95a2705ae5fc299f05ad\n\n[TABLE]\nStatus: AVAILABLE\nSource: financial_reports/eml/condensed_consolidated_balance_sheets.json;financial_reports/eml/condensed_consolidated_statement_of_cash_flows.json\nAssets: value=255751589; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-04-01; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-05-09; accession=0001654954-23-006022; provenance=9c2977c840897ca07c236b798a7e3046ec9d4e14e0f123aea44a401893ccabe9\nLiabilities: value=128951553; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-04-01; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-05-09; accession=0001654954-23-006022; provenance=028122aa155b9288980f2fe03c29cdf6cd8e449b9fd3647cc0127d3e72bcfbc6\nStockholdersEquity: value=126800036; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-04-01; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-05-09; accession=0001654954-23-006022; provenance=986602f7c3c2379f50e05a7de9506ea34ad5ef40dd22f18f5c222fce8eb95943\nNetCashProvidedByUsedInOperatingActivities: value=6860258; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-04-01; period_duration_days=91; period_duration_class=quarterly; filed_date=2023-05-09; accession=0001654954-23-006022; provenance=56a2501ace6526aef4da8bb50067fa360ddf6d7c4cac63570e244830f9edb3d2\nNetCashProvidedByUsedInInvestingActivities: value=1081987; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-04-01; period_duration_days=91; period_duration_class=quarterly; filed_date=2023-05-09; accession=0001654954-23-006022; provenance=0f3326686c826471fff8dd1be67ade9a58015fbbf815cdc3fd11056e788cc1aa\nNetCashProvidedByUsedInFinancingActivities: value=-5087288; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-04-01; period_duration_days=91; period_duration_class=quarterly; filed_date=2023-05-09; accession=0001654954-23-006022; provenance=99693a84f21127d09c259da212bdb8c3f5820e2091b1f3ea371d5f0f7bffb807\n\n[TIME_SERIES]\nStatus: AVAILABLE\nThrough session: 2023-07-28\nSource: S&P500_time_series/eml.csv\ncumulative_return_5d: -0.009729794162080974\ncumulative_return_20d: 0.01834351906980003\ncumulative_return_60d: 0.08666720077996115\nrealised_volatility_20d_annualised: 0.2110200681069634\nhigh_low_range_20d: 0.11059634982090749\ndrawdown_from_60d_peak: -0.06863244311910344\nrelative_volume_vs_20d_mean: 1.2054794520547945\nProvenance: 890f9cb03734ed01e635302c1876ba69e472922b040ba8c8981091a710079fef\n\n[IMAGE]\nStatus: AVAILABLE\nChart period: 2023-H1\nInferred period end: 2023-06-30\nEvidence age (calendar days): 28\nSource: eml_2023_H1_candlestick.png\nCanonical caption: {\"candlestick_structure\":\"mostly green and red, with a few green candles in the middle\",\"confidence\":\"moderate\",\"momentum_visual\":\"mixed, with periods of strength and weakness\",\"notable_gap_or_reversal\":\"a significant drop around March 2023\",\"other_visible_pattern\":\"a few small clusters of green and red candles\",\"support_resistance_visual\":\"a clear support level around 19.5, resistance around 18.5\",\"trend\":\"upward followed by downward\",\"volatility_visual\":\"moderate, with some sharp fluctuations\",\"volume_visual\":\"not visible\"}\nCaption provenance: 04b69af7c31b219af849850a1d259e5c069e44434feae6a02b5b2692bdca76ec\n=== END FINMULTITIME EVIDENCE ===\n",
+  "available_for_training": false,
+  "available_for_validation": false,
+  "case_id": "EML:2023-07-28",
+  "character_counts": {
+    "complete": 4785,
+    "fundamentals": 2066,
+    "market": 1253,
+    "news": 1318
+  },
+  "contract_version": "M1-FINMULTITIME-v1.0.2",
+  "dataset_id": "m2_preformal_evidence_v1",
+  "decision_session": "2023-07-28",
+  "decision_time": "2023-07-28T20:00:00+00:00",
+  "engineering_only": false,
+  "m2_metadata": {
+    "available_for_training": false,
+    "available_for_validation": false,
+    "engineering_only": false,
+    "performance_for_selection": false,
+    "protected": true,
+    "role": "FINAL_HOLDOUT",
+    "tier_membership": {
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true
+    }
+  },
+  "packet_sha256": "6a7a94df766ccfc7645a302c4a606cf5282daa269b132c923c5d49d8028bb5e8",
+  "packet_status": "FINAL_FROZEN",
+  "performance_for_selection": false,
+  "protected": true,
+  "record_type": "m1_finmultitime_evidence_packet",
+  "role": "FINAL_HOLDOUT",
+  "routed_projections": {
+    "fundamentals_analyst": {
+      "sections": [
+        "TABLE"
+      ],
+      "text": "Status: AVAILABLE\nSource: financial_reports/eml/condensed_consolidated_balance_sheets.json;financial_reports/eml/condensed_consolidated_statement_of_cash_flows.json\nAssets: value=255751589; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-04-01; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-05-09; accession=0001654954-23-006022; provenance=9c2977c840897ca07c236b798a7e3046ec9d4e14e0f123aea44a401893ccabe9\nLiabilities: value=128951553; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-04-01; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-05-09; accession=0001654954-23-006022; provenance=028122aa155b9288980f2fe03c29cdf6cd8e449b9fd3647cc0127d3e72bcfbc6\nStockholdersEquity: value=126800036; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-04-01; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-05-09; accession=0001654954-23-006022; provenance=986602f7c3c2379f50e05a7de9506ea34ad5ef40dd22f18f5c222fce8eb95943\nNetCashProvidedByUsedInOperatingActivities: value=6860258; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-04-01; period_duration_days=91; period_duration_class=quarterly; filed_date=2023-05-09; accession=0001654954-23-006022; provenance=56a2501ace6526aef4da8bb50067fa360ddf6d7c4cac63570e244830f9edb3d2\nNetCashProvidedByUsedInInvestingActivities: value=1081987; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-04-01; period_duration_days=91; period_duration_class=quarterly; filed_date=2023-05-09; accession=0001654954-23-006022; provenance=0f3326686c826471fff8dd1be67ade9a58015fbbf815cdc3fd11056e788cc1aa\nNetCashProvidedByUsedInFinancingActivities: value=-5087288; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-04-01; period_duration_days=91; period_duration_class=quarterly; filed_date=2023-05-09; accession=0001654954-23-006022; provenance=99693a84f21127d09c259da212bdb8c3f5820e2091b1f3ea371d5f0f7bffb807"
+    },
+    "market_analyst": {
+      "sections": [
+        "TIME_SERIES",
+        "IMAGE"
+      ],
+      "text": "Status: AVAILABLE\nThrough session: 2023-07-28\nSource: S&P500_time_series/eml.csv\ncumulative_return_5d: -0.009729794162080974\ncumulative_return_20d: 0.01834351906980003\ncumulative_return_60d: 0.08666720077996115\nrealised_volatility_20d_annualised: 0.2110200681069634\nhigh_low_range_20d: 0.11059634982090749\ndrawdown_from_60d_peak: -0.06863244311910344\nrelative_volume_vs_20d_mean: 1.2054794520547945\nProvenance: 890f9cb03734ed01e635302c1876ba69e472922b040ba8c8981091a710079fef\n\nStatus: AVAILABLE\nChart period: 2023-H1\nInferred period end: 2023-06-30\nEvidence age (calendar days): 28\nSource: eml_2023_H1_candlestick.png\nCanonical caption: {\"candlestick_structure\":\"mostly green and red, with a few green candles in the middle\",\"confidence\":\"moderate\",\"momentum_visual\":\"mixed, with periods of strength and weakness\",\"notable_gap_or_reversal\":\"a significant drop around March 2023\",\"other_visible_pattern\":\"a few small clusters of green and red candles\",\"support_resistance_visual\":\"a clear support level around 19.5, resistance around 18.5\",\"trend\":\"upward followed by downward\",\"volatility_visual\":\"moderate, with some sharp fluctuations\",\"volume_visual\":\"not visible\"}\nCaption provenance: 04b69af7c31b219af849850a1d259e5c069e44434feae6a02b5b2692bdca76ec"
+    },
+    "news_analyst": {
+      "sections": [
+        "TEXT"
+      ],
+      "text": "Status: AVAILABLE\nEvidence age (calendar days): 3\nSource: sp500_news/EML.jsonl\nArticle 1 date: 2023-07-25\nArticle 1 title: MIDEAST STOCKS-Most Gulf markets gain on oil, earnings; Abu Dhabi slips\nArticle 1 source: https://www.nasdaq.com/articles/mideast-stocks-most-gulf-markets-gain-on-oil-earnings-abu-dhabi-slips\nArticle 1 text: By Ateeq Shariff July 25 (Reuters) - Most stock markets in the Gulf ended higher on Tuesday on the back of rising oil prices and corporate earnings, although gains were limited as focus shifted to the Federal Reserve's monetary policy decision due on Wednesday. Oil prices - a key catalyst for the Gulf's financial markets - were steady. They hovered near three-month highs as signs of tighter supplies and pledges by Chinese authorities to shore up the world's second-biggest economy lifted sentiment, while weaker Western economic data weighed. Saudi Arabia's benchmark index .TASI gained 0.7%, led by a 8.5% surge in Alinma Bank 1150.SE after it reported a sharp rise in quarterly earnings. The lender, which saw its biggest intraday gain in over three years, posted second-quarter net profit of 1.23 billion riyals ($327.97 million), up from 925.1 million riyals year ago. Dubai's main share ind…\nArticle 1 provenance: 9bd19e3db1a7e778703e178b4fb6a1ee8571f92b24ff95a2705ae5fc299f05ad"
+    },
+    "social_analyst": {
+      "sections": [],
+      "text": ""
+    }
+  },
+  "routing": {
+    "modality_to_analyst": {
+      "IMAGE": "Market Analyst",
+      "TABLE": "Fundamentals Analyst",
+      "TEXT": "News Analyst",
+      "TIME_SERIES": "Market Analyst"
+    },
+    "raw_packet_direct_injection": false,
+    "social_analyst": "NO_FINMULTITIME_EVIDENCE"
+  },
+  "section_sha256": {
+    "IMAGE": "9ad983a8bbce0e46a5bafc872e7a44944dd89579f9ee8cf99105cae4fcb9fe18",
+    "TABLE": "47462869f6e569107b09fc6bec084b356d4058e4544dc97fc7b906989be92121",
+    "TEXT": "0d82eab96822c9008c00695ba4c30605e44357299ca8566a4712eec0046d03ca",
+    "TIME_SERIES": "cdc5b5d303540d65a8fe90960b5a11247926ba8a8b3929cc4d0c5fd15fddccb5"
+  },
+  "source_provenance": {
+    "pit_cutoff": "2023-07-28",
+    "task_id": "M2-06"
+  },
+  "symbol": "EML",
+  "tier_membership": {
+    "in_compact": true,
+    "in_maximum": true,
+    "in_standard": true
+  }
+}

@@ -1,0 +1,56 @@
+=== FINMULTITIME EVIDENCE ===
+Symbol: ARR
+Decision session: 2023-05-12
+
+[TEXT]
+Status: AVAILABLE
+Evidence age (calendar days): 9
+Source: sp500_news/ARR.jsonl
+Article 1 date: 2023-05-03
+Article 1 title: These 10%+ Yields are Mystery Meats - Avoid!
+Article 1 source: https://www.nasdaq.com/articles/these-10-yields-are-mystery-meats-avoid
+Article 1 text: Hey kid, want some candy? Don't worry about the wrapper. It, um, came like that. No? No candy for you? You're sure? OK fine. Maybe you're not hungry, but how about this 31% dividend? Don't worry. The stock made its last dividend payment of $0.27 just fine. No? No 31% yield for you? You're sure? OK fine. And, honestly, smart move. I would imagine that January dividend payment is the last one we ever see from First Republic Bank (FRC). Fundamentally, FRC (and other banks, for this matter) are flawed, perhaps fatally so. They are not paying competitive rates. Check out this screenshot I took from FRC's website last Friday--just prior to the fire sale to JPMorgan Chase (JPM):  Wow, what a deal. We can open a savings account with a bank that is about to fail and receive a 1.29% interest rate. One point two nine percent. In a five percent world! The rates for big opening deposits of $500,000 …
+Article 1 provenance: 31a0b53e9c8472220db09960fab00bac22b34ad8d2c501f3a619d2b156cb5b13
+Article 2 date: 2023-04-19
+Article 2 title: Armour Residential REIT (ARR) Gains As Market Dips: What You Should Know
+Article 2 source: https://www.nasdaq.com/articles/armour-residential-reit-arr-gains-as-market-dips%3A-what-you-should-know-2
+Article 2 text: In the latest trading session, Armour Residential REIT (ARR) closed at $5.13, marking a +0.39% move from the previous day. This move outpaced the S&P 500's daily loss of 0.01%. At the same time, the Dow lost 0.23%, and the tech-heavy Nasdaq gained 0.97%. Prior to today's trading, shares of the real estate investment trust had gained 4.71% over the past month. This has lagged the Finance sector's gain of 6.87% and the S&P 500's gain of 6.23% in that time. Investors will be hoping for strength from Armour Residential REIT as it approaches its next earnings release. On that day, Armour Residential REIT is projected to report earnings of $0.25 per share, which would represent a year-over-year decline of 10.71%. Meanwhile, the Zacks Consensus Estimate for revenue is projecting net sales of $58.72 million, up 89.78% from the year-ago period. Looking at the full year, our Zacks Consensus Estim…
+Article 2 provenance: 8ce4b73a8792a1d228df3b545bfc76065732df87f5c76bb53602b8e59063dd6c
+Article 3 date: 2023-04-13
+Article 3 title: Armour Residential REIT (ARR) Stock Sinks As Market Gains: What You Should Know
+Article 3 source: https://www.nasdaq.com/articles/armour-residential-reit-arr-stock-sinks-as-market-gains%3A-what-you-should-know-4
+Article 3 text: Armour Residential REIT (ARR) closed at $5.25 in the latest trading session, marking a -1.32% move from the prior day. This change lagged the S&P 500's 1.33% gain on the day. Meanwhile, the Dow gained 1.14%, and the Nasdaq, a tech-heavy index, added 2.94%. Prior to today's trading, shares of the real estate investment trust had gained 5.98% over the past month. This has outpaced the Finance sector's gain of 0.75% and lagged the S&P 500's gain of 6.11% in that time. Investors will be hoping for strength from Armour Residential REIT as it approaches its next earnings release. In that report, analysts expect Armour Residential REIT to post earnings of $0.25 per share. This would mark a year-over-year decline of 10.71%. Meanwhile, the Zacks Consensus Estimate for revenue is projecting net sales of $58.72 million, up 89.78% from the year-ago period. ARR's full-year Zacks Consensus Estimates …
+Article 3 provenance: 5f98dbf05abdaafcf2b24211940a2d406824e7a8a86fe61d707350ba7fd7de10
+
+[TABLE]
+Status: AVAILABLE
+Source: financial_reports/arr/condensed_consolidated_balance_sheets.json;financial_reports/arr/condensed_consolidated_statement_of_cash_flows.json
+Assets: value=13249330000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-03-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-04-26; accession=0001428205-23-000094; provenance=d9876d0625bd81bc8b096eb444627d97a6ea2dd1d1db4bf138e5c02fa6260069
+Liabilities: value=12034197000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-03-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-04-26; accession=0001428205-23-000094; provenance=892363c383c9b9266098bfb4311d1a39292b85132d943469debdab9745e84347
+StockholdersEquity: value=1215133000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=; period_end=2023-03-31; period_duration_days=None; period_duration_class=point_in_time; filed_date=2023-04-26; accession=0001428205-23-000094; provenance=54811cb1b8cd733ab26ec5f12e414b61ac3d9652683c331be21abd5f9c575ede
+NetCashProvidedByUsedInOperatingActivities: value=54219000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-03-31; period_duration_days=90; period_duration_class=quarterly; filed_date=2023-04-26; accession=0001428205-23-000094; provenance=256fea318186a4526c7085f89639c0101d8a1ab1e9f60e5f4a465e048749bb27
+NetCashProvidedByUsedInInvestingActivities: value=-3926462000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-03-31; period_duration_days=90; period_duration_class=quarterly; filed_date=2023-04-26; accession=0001428205-23-000094; provenance=3c8588cd3125a69f5ed41da8d4385c6db7585772b33f40c07586852b908b23e3
+NetCashProvidedByUsedInFinancingActivities: value=4013480000; unit=USD; form=10-Q; fy=2023; fp=Q1; period_start=2023-01-01; period_end=2023-03-31; period_duration_days=90; period_duration_class=quarterly; filed_date=2023-04-26; accession=0001428205-23-000094; provenance=c80d16da5be47d02e606cde85f06c3592da9d7aca5b4a25d7e32b8622b94d70d
+
+[TIME_SERIES]
+Status: AVAILABLE
+Through session: 2023-05-12
+Source: S&P500_time_series/arr.csv
+cumulative_return_5d: -0.017933330693060023
+cumulative_return_20d: -0.025590514682116816
+cumulative_return_60d: -0.10163039413656416
+realised_volatility_20d_annualised: 0.25146447401554206
+high_low_range_20d: 0.09453815403319688
+drawdown_from_60d_peak: -0.12152604378485543
+relative_volume_vs_20d_mean: 0.8236269949880531
+Provenance: a674ea9f82325f5cac92309fbd4fe2a08632badfedfc967bcc86ce610be80f36
+
+[IMAGE]
+Status: AVAILABLE
+Chart period: 2022-H2
+Inferred period end: 2022-12-31
+Evidence age (calendar days): 132
+Source: arr_2022_H2_candlestick.png
+Canonical caption: {"candlestick_structure":"mostly green and red, with some green and red","confidence":"moderate","momentum_visual":"generally increasing then decreasing then increasing","notable_gap_or_reversal":"no significant gap or reversal","other_visible_pattern":"no other visible patterns","support_resistance_visual":"no clear support or resistance levels","trend":"upward then downward then upward","volatility_visual":"high volatility in early months, then decreasing","volume_visual":"no visible volume data"}
+Caption provenance: ecf45749d268e52ffcee3551fcd42727ba55ef9b389bbb4a1bde8859d1f940f6
+=== END FINMULTITIME EVIDENCE ===
