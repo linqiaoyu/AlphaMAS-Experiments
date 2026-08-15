@@ -1,0 +1,93 @@
+{
+  "cases": [
+    {
+      "case_id": "AAPL:2023-06-09",
+      "decision_session": "2023-06-09",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true,
+      "packet_bytes": 2858,
+      "packet_sha256": "b273de525eb697f1142007b0882f9053b1f78f3624fb0bd81aa845859b60ee4e",
+      "quantile_position": 0,
+      "role": "TRAIN",
+      "symbol": "AAPL"
+    },
+    {
+      "case_id": "JBSS:2023-06-02",
+      "decision_session": "2023-06-02",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true,
+      "packet_bytes": 3296,
+      "packet_sha256": "6e952e90b820c5f395216ffc2da246c11656091563d6f170c50226e0a1d9d62c",
+      "quantile_position": 6,
+      "role": "TRAIN",
+      "symbol": "JBSS"
+    },
+    {
+      "case_id": "AEMD:2023-06-02",
+      "decision_session": "2023-06-02",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true,
+      "packet_bytes": 3569,
+      "packet_sha256": "92c535ac40f3416c707182015c34da8d9d89fd932ebf40d4e44c0a41b139954b",
+      "quantile_position": 12,
+      "role": "TRAIN",
+      "symbol": "AEMD"
+    },
+    {
+      "case_id": "EML:2023-06-09",
+      "decision_session": "2023-06-09",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true,
+      "packet_bytes": 4778,
+      "packet_sha256": "6e3e8408812d4aa07f408b8214482c24b758d290a0fe706f6b9a3c26132d8370",
+      "quantile_position": 18,
+      "role": "TRAIN",
+      "symbol": "EML"
+    },
+    {
+      "case_id": "AGI:2023-06-02",
+      "decision_session": "2023-06-02",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true,
+      "packet_bytes": 11249,
+      "packet_sha256": "96a0fd89e4959e7d475d1c6d805b63995b13387ed4ba08602409c40fce6d6584",
+      "quantile_position": 24,
+      "role": "TRAIN",
+      "symbol": "AGI"
+    },
+    {
+      "case_id": "AMZN:2023-06-02",
+      "decision_session": "2023-06-02",
+      "in_compact": true,
+      "in_maximum": true,
+      "in_standard": true,
+      "packet_bytes": 13040,
+      "packet_sha256": "feb689864ca1ab89e9f0f15a983e5fa2a827b5f60f1ac8de510f90f8fe41ec7f",
+      "quantile_position": 31,
+      "role": "TRAIN",
+      "symbol": "AMZN"
+    }
+  ],
+  "compact_train_count": 32,
+  "corpus_identity_sha256": "3e9bb6e66fcd998c0b4deff30f7d5728c563126d3a1b976e21bbf034174e4420",
+  "outcome_fields_used": false,
+  "schema_version": "M2-SEMANTIC-COST-PROBE-MANIFEST-v1",
+  "selection_positions_zero_based": [
+    0,
+    6,
+    12,
+    18,
+    24,
+    31
+  ],
+  "selection_sort": [
+    "packet_bytes",
+    "case_id"
+  ],
+  "task_id": "M2-07"
+}
