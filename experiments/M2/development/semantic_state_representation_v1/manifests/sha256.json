@@ -1,0 +1,25 @@
+{
+  "algorithm": "SHA-256",
+  "files": {
+    "README.md": "392c532ff9d4c068354f832f2ed55ebaad8b5780836da01a7c365510e008e728",
+    "aws_usage.json": "aeb724082bb3e5234ffddbfe7fbc65e4045b07ecf50720dcd14152e08f982944",
+    "diagnostics/dimension_fidelity.csv": "d68a53087ac888f0715f8332a68fa2aeb2de8370b1700f98b54bcdd779a0a202",
+    "diagnostics/dimension_fidelity.json": "44e72ac24c851eab61393b35223a86fd769123dc09b70c5b2f97f4a711d58b9f",
+    "diagnostics/dimension_selection.json": "06e69209729ea59929dafca73bd3e3cffd403dd428f58a6b2c11b2985e495b2e",
+    "embeddings/prompt_trader_full_1024.npy": "6d7d42cebd4b98ec2962c42f195dbfb91eb2e835f2282ac7439a07854210a691",
+    "embeddings/prompt_trader_selected.npy": "7e7e6da0515fe9d742d096dd29ee35192b97e035a45e115897647b3bdb56d1a3",
+    "embeddings/research_manager_full_1024.npy": "b69ab9ebeb62d102d054e2c4a576c4992e5021a787e067efeed159c19b527447",
+    "embeddings/research_manager_selected.npy": "bebc735f082ebb4aac720226b6b22ab88399a1eb35ebc8a9aedf8613804b33d3",
+    "embeddings/semantic_base.npy": "4e39654da6c9e60fe78751861ceb285c3345f4d6669c64f4ed5860e021277250",
+    "encoder_environment.json": "e29f4183306903378f87fb2a8fa7cfe4ec4b06625ab517bf35a6b9e63f5fefa1",
+    "encoder_identity.json": "08efb7ee9c5c7cf2c2bd3c975d133ef08b44f428be189e8c3160e51e2d3780e8",
+    "manifests/row_index.json": "6a5a6b333fc226cdf699b10068dde8e86ff5878fff4b96b2456e22a7d1d6d796",
+    "manifests/semantic_state_manifest.json": "18618bc3b97cbfb2d199e634522ab758cd2253513d8a8df0db5811fc9d6a8909",
+    "model_snapshot_sha256.json": "0c23f3483a7560f5586e81e5b6283cc944dd0cb20a7fc11db905064bcfa03c14",
+    "representation_identity.json": "1d4b7f1cd9c53f2d21dc644e03c2cd6120682a859e40bde217401113b489bad1",
+    "representation_plan.json": "4695a01d2322fa1127ebcec10750eca938a6240a7411e2ba460941c8089c7f43",
+    "reproducibility_audit.json": "25be3f5beb853cf5510997c52f21573205b27863234a18a45a949e3ffb8fc9c8",
+    "runtime.json": "11788968b5ebd43b126319e2f44d6aa8a75ef2da4fde4a5c9b10ceb20a97082e",
+    "text_manifest.json": "05d1cbd464ffc6f26de3dc68ea02c0fa57a8da0997ada4569a3769fd6d50e2f8"
+  }
+}

@@ -1,0 +1,650 @@
+[
+  {
+    "case_id": "AAPL:2023-05-05",
+    "prompt_trader_text_sha256": "eba00d4021d656c53cb179b464ae71aca18e61b3e977b8ddc9d038d98e0d19d5",
+    "prompt_trader_token_count": 311,
+    "research_manager_text_sha256": "594dbebd7108ad43fbaab0847c1a9543fb36c40144e9b0a15e73609ad5b53619",
+    "research_manager_token_count": 1038,
+    "role": "TRAIN",
+    "row_index": 0
+  },
+  {
+    "case_id": "AAPL:2023-05-12",
+    "prompt_trader_text_sha256": "3837f0b80c495c5c3b62cb827be2e0e70be5fd14cd4830665aaad2b7cc7aa3c5",
+    "prompt_trader_token_count": 369,
+    "research_manager_text_sha256": "6891700ded6c1d7469cdef4ab19cc1fb6f96e3951f731aeef2d3d445dbe52098",
+    "research_manager_token_count": 1026,
+    "role": "TRAIN",
+    "row_index": 1
+  },
+  {
+    "case_id": "AAPL:2023-05-19",
+    "prompt_trader_text_sha256": "663ea69dfb7b9883b38e2239a3a99c52317c92757a3087630dfb684481286ae8",
+    "prompt_trader_token_count": 319,
+    "research_manager_text_sha256": "c891c95241a9965d42d2571b8bd65d3e47e46e35804308ea6400502d8e3efa17",
+    "research_manager_token_count": 758,
+    "role": "TRAIN",
+    "row_index": 2
+  },
+  {
+    "case_id": "AAPL:2023-05-26",
+    "prompt_trader_text_sha256": "e633e45fdd1b94694acd319d0bdf2399003ab28855e6493f98d044fdec380198",
+    "prompt_trader_token_count": 359,
+    "research_manager_text_sha256": "e975e01814ea2581bffc47bf00d78f3d19926d2905c1a2117c94467286eebdf9",
+    "research_manager_token_count": 825,
+    "role": "TRAIN",
+    "row_index": 3
+  },
+  {
+    "case_id": "AAPL:2023-06-02",
+    "prompt_trader_text_sha256": "27fe30a0b5b736088c50e50cfddc7c967ef49b5b975f38b175acbe7cd11f5fc3",
+    "prompt_trader_token_count": 292,
+    "research_manager_text_sha256": "39d5d217446211734e6f9142d6151e70d9c84c5653d0ddfd846955cfb4ce7857",
+    "research_manager_token_count": 861,
+    "role": "TRAIN",
+    "row_index": 4
+  },
+  {
+    "case_id": "AAPL:2023-06-09",
+    "prompt_trader_text_sha256": "1ff19ac47545711435eac7dcfab7f8138407398ff7b2e71cf38f78df293ca80f",
+    "prompt_trader_token_count": 411,
+    "research_manager_text_sha256": "aca239f47d2a028b620a8bd6addec04eb62ba61dec84a3d4274ab8c18c943176",
+    "research_manager_token_count": 971,
+    "role": "TRAIN",
+    "row_index": 5
+  },
+  {
+    "case_id": "AAPL:2023-06-16",
+    "prompt_trader_text_sha256": "4cce466837a46a191316ca610f2c6f9eae06dffa8f79fce1524c97a0adf1a5cb",
+    "prompt_trader_token_count": 282,
+    "research_manager_text_sha256": "5aa96e2bb17ff0021159d140d2c752dd50fc93b7ed5a9287c0bd078181e35e5d",
+    "research_manager_token_count": 1044,
+    "role": "TRAIN",
+    "row_index": 6
+  },
+  {
+    "case_id": "AMZN:2023-05-05",
+    "prompt_trader_text_sha256": "e8edf48355ddf551f9fb2913e0fde6b4080d535288c771187065248136f9cac6",
+    "prompt_trader_token_count": 284,
+    "research_manager_text_sha256": "ab4e947ab0248f370108411d46143b1379dc5a4e1c6da0a4dbef988956017a44",
+    "research_manager_token_count": 777,
+    "role": "TRAIN",
+    "row_index": 7
+  },
+  {
+    "case_id": "AMZN:2023-05-12",
+    "prompt_trader_text_sha256": "4b94cf28fe5e720a505921bc0d6b8c478c1fefb75e30cfb481a97271251df004",
+    "prompt_trader_token_count": 375,
+    "research_manager_text_sha256": "d83375ce059c465c765c5a25f33828637d1f2f311ceaa7a1c341e8aedfb5443a",
+    "research_manager_token_count": 843,
+    "role": "TRAIN",
+    "row_index": 8
+  },
+  {
+    "case_id": "AMZN:2023-05-19",
+    "prompt_trader_text_sha256": "0973a8a652fda1075043c5f07dfbafc455a8822a96356f7945882aa034a19afe",
+    "prompt_trader_token_count": 355,
+    "research_manager_text_sha256": "a7364576a01df874821c5579a64140e6d8eaf896ded696d0f4b88c42761f1a50",
+    "research_manager_token_count": 1134,
+    "role": "TRAIN",
+    "row_index": 9
+  },
+  {
+    "case_id": "AMZN:2023-05-26",
+    "prompt_trader_text_sha256": "8c9b15bfbf154c28bd7b6e9ea52fe70fc6c1040cb63f741c4a9e6fed29478aa8",
+    "prompt_trader_token_count": 330,
+    "research_manager_text_sha256": "cf9cde9716f3d53ec4ccf872c12c62bb0cb63c9fcb7aae2670d0181288ef283d",
+    "research_manager_token_count": 1006,
+    "role": "TRAIN",
+    "row_index": 10
+  },
+  {
+    "case_id": "AMZN:2023-06-02",
+    "prompt_trader_text_sha256": "0a418333fd3916ecfd01380db8490095e4363de7b5fc839770e13d21935d1fa5",
+    "prompt_trader_token_count": 365,
+    "research_manager_text_sha256": "e0aafd31f34d72e28292629dc419f3fa07633cd84ed7f9baf509d19e093ed2b7",
+    "research_manager_token_count": 890,
+    "role": "TRAIN",
+    "row_index": 11
+  },
+  {
+    "case_id": "AMZN:2023-06-09",
+    "prompt_trader_text_sha256": "b2b7339e65a7b0f5a781ad9e16421c3c43fbef2aa84d0657bad92bb612130ee9",
+    "prompt_trader_token_count": 301,
+    "research_manager_text_sha256": "93a3cc1c60c310116ffa5edad8ab420d5273995b50e7720d153196869293e06f",
+    "research_manager_token_count": 646,
+    "role": "TRAIN",
+    "row_index": 12
+  },
+  {
+    "case_id": "AMZN:2023-06-16",
+    "prompt_trader_text_sha256": "a7775e50d2a6ca8175838797731e958acf726e10886eebbd52e1017b300d18a6",
+    "prompt_trader_token_count": 279,
+    "research_manager_text_sha256": "225d00bfa86e08c571be21be91e63b00eef545bdb5538de1db0e8d96b49cafe5",
+    "research_manager_token_count": 974,
+    "role": "TRAIN",
+    "row_index": 13
+  },
+  {
+    "case_id": "JPM:2023-05-05",
+    "prompt_trader_text_sha256": "fe4d355c0e7f12620fc0ef81d8aaec9632a6d8a6eec178dfdfa62e8ded75ceec",
+    "prompt_trader_token_count": 307,
+    "research_manager_text_sha256": "31a98b240b6a800f4f94da1ce3fb877421dc0e39ab2492fe43ed557f5da406e9",
+    "research_manager_token_count": 835,
+    "role": "TRAIN",
+    "row_index": 14
+  },
+  {
+    "case_id": "JPM:2023-05-12",
+    "prompt_trader_text_sha256": "3cf9297af6e2a6826f51077ecddd76a22740a9af03e3b27f7aea30595ba090ef",
+    "prompt_trader_token_count": 337,
+    "research_manager_text_sha256": "7a3a389ed6d77a89ecec56e2fc91d398e020df4d6729b54216207120f2096e3a",
+    "research_manager_token_count": 942,
+    "role": "TRAIN",
+    "row_index": 15
+  },
+  {
+    "case_id": "JPM:2023-05-19",
+    "prompt_trader_text_sha256": "5a6cb88ff0bfaf57276974214b9e560fc1d3e3e9aef8ef9be52762f631207dfa",
+    "prompt_trader_token_count": 276,
+    "research_manager_text_sha256": "a922c0a9437f9dc7c4b0ca705e6074e17463869c404b6c048f1d2de77b0098b8",
+    "research_manager_token_count": 974,
+    "role": "TRAIN",
+    "row_index": 16
+  },
+  {
+    "case_id": "JPM:2023-05-26",
+    "prompt_trader_text_sha256": "1aec2c3f0825004b8fc9cc6fda4f9abd663f5e1271a7f4ff3c22818df308b1dd",
+    "prompt_trader_token_count": 335,
+    "research_manager_text_sha256": "bc475d8e201c4db031070ab96e9ff0b580fff82c46fe7fd8a54d24755c404473",
+    "research_manager_token_count": 1131,
+    "role": "TRAIN",
+    "row_index": 17
+  },
+  {
+    "case_id": "JPM:2023-06-02",
+    "prompt_trader_text_sha256": "ad094cda24d3dff09a6169d221d2b33b3b82d45e2341a5c0917624780e92a127",
+    "prompt_trader_token_count": 344,
+    "research_manager_text_sha256": "ccd889d4add667a9367feb8b2c6cb88d945fd79f50522f8dc97b514c22e126e8",
+    "research_manager_token_count": 1113,
+    "role": "TRAIN",
+    "row_index": 18
+  },
+  {
+    "case_id": "JPM:2023-06-09",
+    "prompt_trader_text_sha256": "f03469eab883e87bcc765f84459591c20942c966bf7c767fff89a3a332372fb9",
+    "prompt_trader_token_count": 309,
+    "research_manager_text_sha256": "5d0e84d132ec8c2478dae941a457b7e94872f07314f921c3e025b4d1a131d5ee",
+    "research_manager_token_count": 1132,
+    "role": "TRAIN",
+    "row_index": 19
+  },
+  {
+    "case_id": "JPM:2023-06-16",
+    "prompt_trader_text_sha256": "375ffdae6f50702c2b17ec06d9ce941bf27ad2e2edb04284eefc83ca4fc4b754",
+    "prompt_trader_token_count": 328,
+    "research_manager_text_sha256": "da9a4f5935a5cac13b8c0f7705efae8a4c5d77752565956ca2e15b8a88dcb3e7",
+    "research_manager_token_count": 925,
+    "role": "TRAIN",
+    "row_index": 20
+  },
+  {
+    "case_id": "JBSS:2023-05-05",
+    "prompt_trader_text_sha256": "68dc592e6efe198f960af8c5f0d86ef4d9b4e9257898cd786b466bb06ae1ec5b",
+    "prompt_trader_token_count": 319,
+    "research_manager_text_sha256": "53879ee4d240b22ce98c2458b4f32c489cebe24820ddfc7e57d60064f87f1021",
+    "research_manager_token_count": 939,
+    "role": "TRAIN",
+    "row_index": 21
+  },
+  {
+    "case_id": "JBSS:2023-05-12",
+    "prompt_trader_text_sha256": "09ab901fedbe3231704df664d3f9b4f572b04749527fd5dd42a7fa79adffafab",
+    "prompt_trader_token_count": 343,
+    "research_manager_text_sha256": "3c69cc0d08e7fbf6ccc2628ed587ceb45ee44539173c1b4367250b23fd6f8a96",
+    "research_manager_token_count": 1099,
+    "role": "TRAIN",
+    "row_index": 22
+  },
+  {
+    "case_id": "JBSS:2023-05-19",
+    "prompt_trader_text_sha256": "e9513ff7446997f5391bb61457605ff500c5a8a8b20bcf2a2de6723b506741f9",
+    "prompt_trader_token_count": 377,
+    "research_manager_text_sha256": "704b5319a9ce597618063cc2e1c6de729a94630e319f6fd3b29fbb7581008713",
+    "research_manager_token_count": 1010,
+    "role": "TRAIN",
+    "row_index": 23
+  },
+  {
+    "case_id": "JBSS:2023-05-26",
+    "prompt_trader_text_sha256": "a2b14259ec12d677d88569b553c2f4f779d99ae765b334a39691b58417359671",
+    "prompt_trader_token_count": 329,
+    "research_manager_text_sha256": "7f12f8674bac70d23fa3c7f7e61007ecca3634444ab48f91587446aa921a54e3",
+    "research_manager_token_count": 820,
+    "role": "TRAIN",
+    "row_index": 24
+  },
+  {
+    "case_id": "JBSS:2023-06-02",
+    "prompt_trader_text_sha256": "92f0c2fd296f49c1deeb2a290629ace9fc69c610833d2d8214f728ca117c1836",
+    "prompt_trader_token_count": 324,
+    "research_manager_text_sha256": "d58d090a617df43cac5e2e2fafd69767b9484b3682c34da5f65d78cc13e25df2",
+    "research_manager_token_count": 948,
+    "role": "TRAIN",
+    "row_index": 25
+  },
+  {
+    "case_id": "JBSS:2023-06-09",
+    "prompt_trader_text_sha256": "b6bbe29faa1fb9dc42aa853cf76157150174d6daa340505fb04f6cc7a1c9a398",
+    "prompt_trader_token_count": 299,
+    "research_manager_text_sha256": "a56eb1e9b3d3e303320a5970a577417cb2e2b91d47debbc6174c3948ad2647ce",
+    "research_manager_token_count": 916,
+    "role": "TRAIN",
+    "row_index": 26
+  },
+  {
+    "case_id": "JBSS:2023-06-16",
+    "prompt_trader_text_sha256": "3d7167c397f27c16adfd03be00a27e6793ccc79b1a0297e28ab938268a6f1380",
+    "prompt_trader_token_count": 331,
+    "research_manager_text_sha256": "1f6aba433120de0f2224ace20b6df9d508798e1be3ba5cb09e892bffd3627c55",
+    "research_manager_token_count": 1012,
+    "role": "TRAIN",
+    "row_index": 27
+  },
+  {
+    "case_id": "EML:2023-05-05",
+    "prompt_trader_text_sha256": "3eca15603830742f6fd59021e794270b5454ea2cb3833e292dfe1f35a36e004d",
+    "prompt_trader_token_count": 254,
+    "research_manager_text_sha256": "5b77ee41db43a1725dccac0a09ace8c8ad0213edae6d5f2f36680b6318cc0fd2",
+    "research_manager_token_count": 579,
+    "role": "TRAIN",
+    "row_index": 28
+  },
+  {
+    "case_id": "EML:2023-05-12",
+    "prompt_trader_text_sha256": "b6a944f9a2ded7dd8af2b0777bda7cc8022b487e733b2ab4f68ee3b90a234808",
+    "prompt_trader_token_count": 284,
+    "research_manager_text_sha256": "3d8ee36602a88694d4090fce7e47f9b2fa43189a55f410f84b1901535ea40a8f",
+    "research_manager_token_count": 1138,
+    "role": "TRAIN",
+    "row_index": 29
+  },
+  {
+    "case_id": "EML:2023-05-19",
+    "prompt_trader_text_sha256": "46bae12da44b11430c6b3d6589c1948ce6325df1cb78a645182e8c55efd5a340",
+    "prompt_trader_token_count": 279,
+    "research_manager_text_sha256": "66dc6db6e41ee2bca58f8d88925ae46d28430a758fef7e7941352d7f482e7b20",
+    "research_manager_token_count": 1125,
+    "role": "TRAIN",
+    "row_index": 30
+  },
+  {
+    "case_id": "EML:2023-05-26",
+    "prompt_trader_text_sha256": "a03bce436c5e0c2ed78e65c18b169a6ddb500f3e072b2f8e1336477dbf1e9195",
+    "prompt_trader_token_count": 377,
+    "research_manager_text_sha256": "58df24f8fde9f6bab4a37718baaf58b0e277a74f161151a8303a2ac73d9c68e6",
+    "research_manager_token_count": 1019,
+    "role": "TRAIN",
+    "row_index": 31
+  },
+  {
+    "case_id": "EML:2023-06-02",
+    "prompt_trader_text_sha256": "02261a1116fdc38226cae727fa89a3f135db1cfa494e76e2c3ae24200f596373",
+    "prompt_trader_token_count": 315,
+    "research_manager_text_sha256": "496de999427b416247a718ecb63aa84822afd232c2b55b1a9918c8cd7eab10c1",
+    "research_manager_token_count": 612,
+    "role": "TRAIN",
+    "row_index": 32
+  },
+  {
+    "case_id": "EML:2023-06-09",
+    "prompt_trader_text_sha256": "1da55caf6c16ab9359eb9ac7fb9c97cc9b4f6c274172f5a42f64b4222ee40e2a",
+    "prompt_trader_token_count": 232,
+    "research_manager_text_sha256": "373bba7a4f2deaf24e78d95457f571aa17c45fbe47e8af25cd88ccb9e68e2e10",
+    "research_manager_token_count": 1063,
+    "role": "TRAIN",
+    "row_index": 33
+  },
+  {
+    "case_id": "EML:2023-06-16",
+    "prompt_trader_text_sha256": "4a2edf18be3ecfa5a36bcfa33f344ff02cbb87a103f395380995b3d5ca161a8a",
+    "prompt_trader_token_count": 360,
+    "research_manager_text_sha256": "cdf463b4366455eff5f353a81520dedbea03d9bf494da574c3fd6250096ac53e",
+    "research_manager_token_count": 881,
+    "role": "TRAIN",
+    "row_index": 34
+  },
+  {
+    "case_id": "AGI:2023-05-05",
+    "prompt_trader_text_sha256": "a360ba0737b694560faa2ad7ed0c9b93ac5a84a70e1a5dc9ea692498f1f5edcc",
+    "prompt_trader_token_count": 301,
+    "research_manager_text_sha256": "fd0fb92da06b8c72252a4e06be9c64814db360b98976461db7bafc7f3aa9837d",
+    "research_manager_token_count": 1118,
+    "role": "TRAIN",
+    "row_index": 35
+  },
+  {
+    "case_id": "AGI:2023-05-12",
+    "prompt_trader_text_sha256": "68b493a5b6df137577ada758aa281fbfc15ea03cf0f9633558f61c4bb961056d",
+    "prompt_trader_token_count": 313,
+    "research_manager_text_sha256": "e1a7f1590805a4cb0ec9684d4b320d9bc683d5a08f4be0617415eec14053e4fb",
+    "research_manager_token_count": 1103,
+    "role": "TRAIN",
+    "row_index": 36
+  },
+  {
+    "case_id": "AGI:2023-05-19",
+    "prompt_trader_text_sha256": "e34dbee67d71147e41c3a397accbb881f04d02d88509d745aa32802807d0c1c1",
+    "prompt_trader_token_count": 324,
+    "research_manager_text_sha256": "94072a5ca9cba5fba6492105562c9c507a122d42624a94f0a601b9e0180c2c39",
+    "research_manager_token_count": 1178,
+    "role": "TRAIN",
+    "row_index": 37
+  },
+  {
+    "case_id": "AGI:2023-05-26",
+    "prompt_trader_text_sha256": "87d2a41297dbcfcb6af35ec9446b525ffb85c7892b949d58cfffb857c61fcfc1",
+    "prompt_trader_token_count": 388,
+    "research_manager_text_sha256": "4b2d360a989cdd84c5eb35f2878a72459b5c53e61a4f6a8bca3b1179097cfd5b",
+    "research_manager_token_count": 1129,
+    "role": "TRAIN",
+    "row_index": 38
+  },
+  {
+    "case_id": "AGI:2023-06-02",
+    "prompt_trader_text_sha256": "ed30e4740150bec9dae1fff896ac66382e549132b337520b6806b805c41f5c3e",
+    "prompt_trader_token_count": 311,
+    "research_manager_text_sha256": "d74e60c9fd4de46385e93c133993b37371b5822516d58a27d18e6bc443861dad",
+    "research_manager_token_count": 594,
+    "role": "TRAIN",
+    "row_index": 39
+  },
+  {
+    "case_id": "AGI:2023-06-09",
+    "prompt_trader_text_sha256": "8e34a8a0deec57eadfec456e0e52dc18bb545ca6f7fc46936a855ea60a431d29",
+    "prompt_trader_token_count": 357,
+    "research_manager_text_sha256": "be8c345f500de75782a777499cfc4fb28219e8e4e85c4a5aa643eed703a61da3",
+    "research_manager_token_count": 1065,
+    "role": "TRAIN",
+    "row_index": 40
+  },
+  {
+    "case_id": "AGI:2023-06-16",
+    "prompt_trader_text_sha256": "b488855726f416e4838e42facc76e5c661d98fa1bf495181553076f956362581",
+    "prompt_trader_token_count": 277,
+    "research_manager_text_sha256": "a908313f8edca2c4a9f60636c58d28ddafe7393e36cb9410480a7ef96d5364b9",
+    "research_manager_token_count": 1012,
+    "role": "TRAIN",
+    "row_index": 41
+  },
+  {
+    "case_id": "ARR:2023-05-05",
+    "prompt_trader_text_sha256": "d60a77f8be6428f0cdf0e9a11ff8e7458cc15a0d237e2adc8417cc976c389c4a",
+    "prompt_trader_token_count": 239,
+    "research_manager_text_sha256": "47e0a5e60f3f4427377a6198b35eab1bcf3941cb48cccb83592449412661a5a5",
+    "research_manager_token_count": 1040,
+    "role": "TRAIN",
+    "row_index": 42
+  },
+  {
+    "case_id": "ARR:2023-05-12",
+    "prompt_trader_text_sha256": "e4d96d9395851600862c61c265a78e1b8d31d086cf2f7dca98242dc131f306ea",
+    "prompt_trader_token_count": 317,
+    "research_manager_text_sha256": "17658bbb12378ff2547ddc6a94980a976951b19560e07845394163f2499a263d",
+    "research_manager_token_count": 954,
+    "role": "TRAIN",
+    "row_index": 43
+  },
+  {
+    "case_id": "ARR:2023-05-19",
+    "prompt_trader_text_sha256": "9788dbf78fd72b03b4819ac9f9dcfdd85633cf443eec5d80fbadb7cdc068c62e",
+    "prompt_trader_token_count": 275,
+    "research_manager_text_sha256": "f7189b57e3d08a3c0137bc73b392b622cba4bda4ba1e939475897a20ff3968e0",
+    "research_manager_token_count": 1166,
+    "role": "TRAIN",
+    "row_index": 44
+  },
+  {
+    "case_id": "ARR:2023-05-26",
+    "prompt_trader_text_sha256": "360aff66b14b83bbe8326616e43e2552414a847ba7463744b78e5310c42d61b1",
+    "prompt_trader_token_count": 326,
+    "research_manager_text_sha256": "4a77690f32174de4f32996f6884622db83ee21d2d5b50f1ac0ae1db44de5896f",
+    "research_manager_token_count": 1148,
+    "role": "TRAIN",
+    "row_index": 45
+  },
+  {
+    "case_id": "ARR:2023-06-02",
+    "prompt_trader_text_sha256": "7525ed97238d260b66f05ad2e1755b882fa09388a994f79f783571c9cd38b07d",
+    "prompt_trader_token_count": 297,
+    "research_manager_text_sha256": "aa090a9003318c200b1eba138dac0ce6c92efc13e157bea909ff6e55945a4a48",
+    "research_manager_token_count": 1045,
+    "role": "TRAIN",
+    "row_index": 46
+  },
+  {
+    "case_id": "ARR:2023-06-09",
+    "prompt_trader_text_sha256": "a96e060ae9b317766904a05214a328aeb50445764b51cc17f596fe9ed25dda6e",
+    "prompt_trader_token_count": 358,
+    "research_manager_text_sha256": "c5583ee45f70597350e8316d1330c08534788bb459d3c6813a67899e46df031a",
+    "research_manager_token_count": 708,
+    "role": "TRAIN",
+    "row_index": 47
+  },
+  {
+    "case_id": "ARR:2023-06-16",
+    "prompt_trader_text_sha256": "30a93eb8776cb411e941f56fce82bf3e70f38e83adf5ca68591605bfb8cbe303",
+    "prompt_trader_token_count": 315,
+    "research_manager_text_sha256": "42a978a6867fd4d2e384cdb9083b76ba49199a93875f2887f4db244bccddbd27",
+    "research_manager_token_count": 1007,
+    "role": "TRAIN",
+    "row_index": 48
+  },
+  {
+    "case_id": "AEMD:2023-05-05",
+    "prompt_trader_text_sha256": "5abe3f13379106990a2bb70391af05356552492e30f586670ad683077ab70268",
+    "prompt_trader_token_count": 331,
+    "research_manager_text_sha256": "8c4b134a819ab46be70a6e283d97cfaa28f80a0d6decc9f4fcda53fed4b9faad",
+    "research_manager_token_count": 904,
+    "role": "TRAIN",
+    "row_index": 49
+  },
+  {
+    "case_id": "AEMD:2023-05-12",
+    "prompt_trader_text_sha256": "a5fb347c3f2d87fa10308631a53b3ef199dcedf79e4b171e16ff5561def633bb",
+    "prompt_trader_token_count": 327,
+    "research_manager_text_sha256": "00c67b69a29f4debb7fed5702ebb6342ef241e6facc43b2afeac19dc4c649aa3",
+    "research_manager_token_count": 1148,
+    "role": "TRAIN",
+    "row_index": 50
+  },
+  {
+    "case_id": "AEMD:2023-05-19",
+    "prompt_trader_text_sha256": "94acfbad881252885e8145e276f7b1197498fe5e5a5b5f5ce32c7fbc4ca918bc",
+    "prompt_trader_token_count": 269,
+    "research_manager_text_sha256": "890f878cc4d417c6d6766d877781be4208a90b998d3317a7e74a6dbdc067d1c0",
+    "research_manager_token_count": 849,
+    "role": "TRAIN",
+    "row_index": 51
+  },
+  {
+    "case_id": "AEMD:2023-05-26",
+    "prompt_trader_text_sha256": "7a6e02f9ea5833f82de0ee53fd12570c0698f7b8bfc55bc9b495d226939124c0",
+    "prompt_trader_token_count": 247,
+    "research_manager_text_sha256": "8fb2fa1f9b3974b488950bf82da9c8eb264391552aef816a9ec4c5954e1d7531",
+    "research_manager_token_count": 908,
+    "role": "TRAIN",
+    "row_index": 52
+  },
+  {
+    "case_id": "AEMD:2023-06-02",
+    "prompt_trader_text_sha256": "1a7917a867f62f2901c0bd8324665457dfd5db852e695f0747896f52588e9450",
+    "prompt_trader_token_count": 257,
+    "research_manager_text_sha256": "1a02d50e3838f498dd803fa39257e43ffbd695ff2b13fd02bb04dcae24dc5414",
+    "research_manager_token_count": 1030,
+    "role": "TRAIN",
+    "row_index": 53
+  },
+  {
+    "case_id": "AEMD:2023-06-09",
+    "prompt_trader_text_sha256": "0442de1d8dde294f65f47fd9fc70041b8f4b03aa1da62fcd3d9b8262811a2b04",
+    "prompt_trader_token_count": 357,
+    "research_manager_text_sha256": "19bf6cce01a5f56d91d53f123581ffcaa41fde3137a5327d81321adc9ca66111",
+    "research_manager_token_count": 1148,
+    "role": "TRAIN",
+    "row_index": 54
+  },
+  {
+    "case_id": "AEMD:2023-06-16",
+    "prompt_trader_text_sha256": "d6279587b503efc844c7f136708a9a973fb5115ecd6b5e7f287700e898fdf4d7",
+    "prompt_trader_token_count": 286,
+    "research_manager_text_sha256": "5d9b90e2ba935d4b4bab9bb2d6d6cc6539ebbcdbeba1155cd3a7b1de434a0b8b",
+    "research_manager_token_count": 1126,
+    "role": "TRAIN",
+    "row_index": 55
+  },
+  {
+    "case_id": "AAPL:2023-06-30",
+    "prompt_trader_text_sha256": "4a465623dcdb7b70c89565e8d7373403385bed7679668c4eb7e314355530c0bd",
+    "prompt_trader_token_count": 390,
+    "research_manager_text_sha256": "8837f8f83cfd5f699d180b89f99cf87821648f4484cac996a81675a18b9a58b6",
+    "research_manager_token_count": 944,
+    "role": "VALIDATION",
+    "row_index": 56
+  },
+  {
+    "case_id": "AAPL:2023-07-07",
+    "prompt_trader_text_sha256": "0331931752f661413abace9cd63733d129f097fd412862e93e3eeff2c72c2a66",
+    "prompt_trader_token_count": 349,
+    "research_manager_text_sha256": "d6f937df4f2289bd9e715659e985add250eb19fbbb805d72f8b3e6cdee244cb4",
+    "research_manager_token_count": 994,
+    "role": "VALIDATION",
+    "row_index": 57
+  },
+  {
+    "case_id": "AMZN:2023-06-30",
+    "prompt_trader_text_sha256": "350bb11bc3597b6683dfc6a938e5d91843a57079e57ee04f51dc93c63525d664",
+    "prompt_trader_token_count": 340,
+    "research_manager_text_sha256": "50ee60e0378e4dc62e70720706d02e7e003857cdcabc262dd6a03b5ad4d0fe40",
+    "research_manager_token_count": 696,
+    "role": "VALIDATION",
+    "row_index": 58
+  },
+  {
+    "case_id": "AMZN:2023-07-07",
+    "prompt_trader_text_sha256": "7b069a83525874c93e549c4540aa994965592005fc4d66c58dc805e88db49701",
+    "prompt_trader_token_count": 319,
+    "research_manager_text_sha256": "db877be44e50b4b7c046c892c26fd55ea2cfb87130fd56be8c4d77f7ab3a03ab",
+    "research_manager_token_count": 1055,
+    "role": "VALIDATION",
+    "row_index": 59
+  },
+  {
+    "case_id": "JPM:2023-06-30",
+    "prompt_trader_text_sha256": "ebc217296de4b600d8842902a2265ec9a147888b4d7cf570543b3bece4eb91d8",
+    "prompt_trader_token_count": 366,
+    "research_manager_text_sha256": "41cb76910c59ea19a2cca85edfbc17c036f52188d40f0caad5b9dc17669703f2",
+    "research_manager_token_count": 1223,
+    "role": "VALIDATION",
+    "row_index": 60
+  },
+  {
+    "case_id": "JPM:2023-07-07",
+    "prompt_trader_text_sha256": "edf1eede60429d8f2abe67d6d5a0992639100c2291b403b4dd6ab8a4391a696c",
+    "prompt_trader_token_count": 402,
+    "research_manager_text_sha256": "c419a1bcb0de875894da416852670a080ad1640fe72e5a340c4e13340a2ac41e",
+    "research_manager_token_count": 650,
+    "role": "VALIDATION",
+    "row_index": 61
+  },
+  {
+    "case_id": "JBSS:2023-06-30",
+    "prompt_trader_text_sha256": "fec7032246788940eb8e8f4b324d1477f09f82770dbe621538be21afea3547e8",
+    "prompt_trader_token_count": 314,
+    "research_manager_text_sha256": "fd54e144cf70e4dfad7b022cac5963879f7c62d900311a5de401bfbfb1d7ecdc",
+    "research_manager_token_count": 967,
+    "role": "VALIDATION",
+    "row_index": 62
+  },
+  {
+    "case_id": "JBSS:2023-07-07",
+    "prompt_trader_text_sha256": "d3606d3b9f6aa5e1247164df4468119c42793c02c9de9763396ef4875dbda83a",
+    "prompt_trader_token_count": 382,
+    "research_manager_text_sha256": "5faeadef27b78f7446232fc171683aeeb7584ce73a9866779fc45113f6004905",
+    "research_manager_token_count": 751,
+    "role": "VALIDATION",
+    "row_index": 63
+  },
+  {
+    "case_id": "EML:2023-06-30",
+    "prompt_trader_text_sha256": "3d56f5177591b668056d7098ef3d64d24e9ac07f627d41bb0fc7083b29923291",
+    "prompt_trader_token_count": 277,
+    "research_manager_text_sha256": "aff6e40025a3f541028cbe2e5fd7d37fa090bf6eead279038788eb14abb2a45f",
+    "research_manager_token_count": 667,
+    "role": "VALIDATION",
+    "row_index": 64
+  },
+  {
+    "case_id": "EML:2023-07-07",
+    "prompt_trader_text_sha256": "0548c64ec7ffa31d3d300549983faa205e313b387b3e769545ca66ca8f313350",
+    "prompt_trader_token_count": 338,
+    "research_manager_text_sha256": "97233d804cb236cda25f80f9c800488ed52b8308af74831c0010b7d9ecd35cc1",
+    "research_manager_token_count": 898,
+    "role": "VALIDATION",
+    "row_index": 65
+  },
+  {
+    "case_id": "AGI:2023-06-30",
+    "prompt_trader_text_sha256": "776f3498f0c1ab2cb09002e7d89f1758dc13b92526013aba515cfed4848fb577",
+    "prompt_trader_token_count": 441,
+    "research_manager_text_sha256": "7c699c4212a28c54606677c0d2a6f51a30e08c245447dfcc2e0d4e6de2ace76e",
+    "research_manager_token_count": 1200,
+    "role": "VALIDATION",
+    "row_index": 66
+  },
+  {
+    "case_id": "AGI:2023-07-07",
+    "prompt_trader_text_sha256": "cbf0934ef21f2929fbbc6266401f768075b04b654b50a8fc4fb93687dd956058",
+    "prompt_trader_token_count": 313,
+    "research_manager_text_sha256": "6764c63c076412a46b8f650808eb812c2e69ebf68486fe165d6b8261c29532b2",
+    "research_manager_token_count": 720,
+    "role": "VALIDATION",
+    "row_index": 67
+  },
+  {
+    "case_id": "ARR:2023-06-30",
+    "prompt_trader_text_sha256": "c7b28a2578e45c092b2876c3e5338bd475419065fa5f46f251c9336162c40fc7",
+    "prompt_trader_token_count": 259,
+    "research_manager_text_sha256": "8909fad6534186a5b4ef398269e0ca48806debae7a7afc77dbb3fcd17aee5548",
+    "research_manager_token_count": 866,
+    "role": "VALIDATION",
+    "row_index": 68
+  },
+  {
+    "case_id": "ARR:2023-07-07",
+    "prompt_trader_text_sha256": "5677f3ba3e0c5c62e324fe9c6834e0882526e015af2578ce33738b54160d7d6c",
+    "prompt_trader_token_count": 349,
+    "research_manager_text_sha256": "97ed05cc9c4a0817d41a5a7f09a932e26a897288c992733e6ca96a1b2d3a628a",
+    "research_manager_token_count": 938,
+    "role": "VALIDATION",
+    "row_index": 69
+  },
+  {
+    "case_id": "AEMD:2023-06-30",
+    "prompt_trader_text_sha256": "5bd6b2b14d242c77937f111726177a980eb25f0dd6ed5d95410269557c0253aa",
+    "prompt_trader_token_count": 318,
+    "research_manager_text_sha256": "149d9255e96363d50907f001a79d8f1fbf8681c20d599227aef30978051e81cc",
+    "research_manager_token_count": 1143,
+    "role": "VALIDATION",
+    "row_index": 70
+  },
+  {
+    "case_id": "AEMD:2023-07-07",
+    "prompt_trader_text_sha256": "f6a2e10ceacfcf77f22865783a9436121230a585891b9723331b1cdd97062f45",
+    "prompt_trader_token_count": 387,
+    "research_manager_text_sha256": "2e735dffa9daad098a9361e13094f4262acafe3e7634e7e23c9ff62f2a5b6ddb",
+    "research_manager_token_count": 934,
+    "role": "VALIDATION",
+    "row_index": 71
+  }
+]

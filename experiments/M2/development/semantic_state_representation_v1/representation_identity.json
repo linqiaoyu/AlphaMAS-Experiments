@@ -1,0 +1,27 @@
+{
+  "bound_fields": {
+    "action_order": [
+      "BUY",
+      "HOLD",
+      "SELL"
+    ],
+    "contract": "M2-SEMANTIC-STATE-v1",
+    "encoder_repo": "Qwen/Qwen3-Embedding-0.6B",
+    "encoder_revision": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
+    "environment_identity": "89ef97b30e703f8d67d4510d269083d9aea568e4230040d92a454c6cf40ca892",
+    "manager_selected_sha256": "bebc735f082ebb4aac720226b6b22ab88399a1eb35ebc8a9aedf8613804b33d3",
+    "model_snapshot_identity": "1d7b1bddebe83694815066f5254c5b0c7a1d05febd4e2b9e2120f2ec3fe3c018",
+    "portfolio_features": [
+      "is_cash",
+      "is_long",
+      "entry_log_return",
+      "current_drawdown"
+    ],
+    "selected_dimension": 1024,
+    "selection_rule": "smallest passing [256,512,1024] on every TRAIN view",
+    "semantic_base_sha256": "4e39654da6c9e60fe78751861ceb285c3345f4d6669c64f4ed5860e021277250",
+    "source_corpus_identity": "cc1fea692489a5b5791cae1fd96386bfbcf1f0a07f2ea3e22637dd3c43533a43",
+    "trader_selected_sha256": "7e7e6da0515fe9d742d096dd29ee35192b97e035a45e115897647b3bdb56d1a3"
+  },
+  "semantic_state_representation_identity_sha256": "6e3b11863bc3ec214444326a269477e465101afb866f30e80698f37c7148d2fe"
+}

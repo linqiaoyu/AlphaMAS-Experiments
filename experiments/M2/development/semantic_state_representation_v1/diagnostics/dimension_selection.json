@@ -1,0 +1,76 @@
+{
+  "all_candidate_metrics": {
+    "1024": {
+      "joint": {
+        "cosine_mae": 0.0,
+        "pass": true,
+        "spearman": 1.0000000000000002,
+        "top5_overlap": 1.0
+      },
+      "manager": {
+        "cosine_mae": 0.0,
+        "pass": true,
+        "spearman": 1.0000000000000002,
+        "top5_overlap": 1.0
+      },
+      "trader": {
+        "cosine_mae": 0.0,
+        "pass": true,
+        "spearman": 1.0000000000000002,
+        "top5_overlap": 1.0
+      }
+    },
+    "256": {
+      "joint": {
+        "cosine_mae": 0.07046514734864703,
+        "pass": false,
+        "spearman": 0.9409056171718833,
+        "top5_overlap": 0.9214285714285714
+      },
+      "manager": {
+        "cosine_mae": 0.07837414360635112,
+        "pass": false,
+        "spearman": 0.9239673591256639,
+        "top5_overlap": 0.9357142857142857
+      },
+      "trader": {
+        "cosine_mae": 0.06262259563105219,
+        "pass": false,
+        "spearman": 0.9453284427976189,
+        "top5_overlap": 0.8714285714285713
+      }
+    },
+    "512": {
+      "joint": {
+        "cosine_mae": 0.03812026110529311,
+        "pass": false,
+        "spearman": 0.9747369689307599,
+        "top5_overlap": 0.9535714285714285
+      },
+      "manager": {
+        "cosine_mae": 0.042227913656971414,
+        "pass": false,
+        "spearman": 0.9656454667828009,
+        "top5_overlap": 0.9607142857142856
+      },
+      "trader": {
+        "cosine_mae": 0.034161609819094114,
+        "pass": false,
+        "spearman": 0.9785764104149297,
+        "top5_overlap": 0.9142857142857143
+      }
+    }
+  },
+  "candidate_order": [
+    256,
+    512,
+    1024
+  ],
+  "manual_override": false,
+  "performance_used": false,
+  "reward_used": false,
+  "schema_version": "M2-DIMENSION-SELECTION-v1",
+  "selected_dimension": 1024,
+  "selection_algorithm": "smallest candidate passing every threshold in every TRAIN view",
+  "validation_used_for_selection": false
+}

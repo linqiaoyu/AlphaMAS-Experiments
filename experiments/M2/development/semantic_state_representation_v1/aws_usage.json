@@ -1,0 +1,20 @@
+{
+  "aws_gpu_runtime_hours": 0.11555555555555555,
+  "aws_gpu_runtime_seconds": 416,
+  "encoder_runner_wall_seconds": 34.398,
+  "estimated_incremental_compute_cost_usd": 0.14758222222222222,
+  "existing_ec2_reused": true,
+  "final_ec2_state": "stopped",
+  "gpu": "NVIDIA A10G",
+  "instance_id": "i-0bd418f287ad0106f",
+  "instance_type": "g5.xlarge",
+  "launch_time_utc": "2026-08-15T23:30:45Z",
+  "new_ebs": 0,
+  "new_ec2": 0,
+  "new_s3": 0,
+  "on_demand_price_usd_per_hour": 1.277,
+  "region": "eu-west-2",
+  "running_alphamas_gpu_instances_after_stop": 0,
+  "schema_version": "M2-09-AWS-USAGE-v1",
+  "stop_request_time_utc": "2026-08-15T23:37:41Z"
+}

@@ -1,0 +1,578 @@
+[
+  {
+    "actor_state_sha256": "9525d1d2042ef9ad9056922857e333dc1bcca8042a69274521b047a5ad267004",
+    "case_id": "AAPL:2023-05-05",
+    "decision_session": "2023-05-05",
+    "role": "TRAIN",
+    "row_index": 0,
+    "symbol": "AAPL"
+  },
+  {
+    "actor_state_sha256": "33c2bd61cf887ef939dec6b4029674b4a4450f2b429ea369175f87f432dc95c9",
+    "case_id": "AAPL:2023-05-12",
+    "decision_session": "2023-05-12",
+    "role": "TRAIN",
+    "row_index": 1,
+    "symbol": "AAPL"
+  },
+  {
+    "actor_state_sha256": "094a2d797af358ce46695f3443db252540c0ca92c57f7745adc7f2d6503acb94",
+    "case_id": "AAPL:2023-05-19",
+    "decision_session": "2023-05-19",
+    "role": "TRAIN",
+    "row_index": 2,
+    "symbol": "AAPL"
+  },
+  {
+    "actor_state_sha256": "5b73163cf3b766b02ca96a100ec35b28af6e4d26b6aead685c83d2115bee3e6e",
+    "case_id": "AAPL:2023-05-26",
+    "decision_session": "2023-05-26",
+    "role": "TRAIN",
+    "row_index": 3,
+    "symbol": "AAPL"
+  },
+  {
+    "actor_state_sha256": "ddada7442b1db4c3541745386eb50f3fc73ccc933f46e1a1b54cc2a5c5a959c9",
+    "case_id": "AAPL:2023-06-02",
+    "decision_session": "2023-06-02",
+    "role": "TRAIN",
+    "row_index": 4,
+    "symbol": "AAPL"
+  },
+  {
+    "actor_state_sha256": "0a28e6e8bd3df77a77202d0d0043058c498d51934e702c2f4745a56b9e219fb2",
+    "case_id": "AAPL:2023-06-09",
+    "decision_session": "2023-06-09",
+    "role": "TRAIN",
+    "row_index": 5,
+    "symbol": "AAPL"
+  },
+  {
+    "actor_state_sha256": "914eea1139cb4980266b8bc68cbd5e4b1cb69fae996c3d2b74edaaedbbfe6b8e",
+    "case_id": "AAPL:2023-06-16",
+    "decision_session": "2023-06-16",
+    "role": "TRAIN",
+    "row_index": 6,
+    "symbol": "AAPL"
+  },
+  {
+    "actor_state_sha256": "56bc676c477203a49ee7702e36f4f859ff8124924580c3cf5eb072d8763bb573",
+    "case_id": "AMZN:2023-05-05",
+    "decision_session": "2023-05-05",
+    "role": "TRAIN",
+    "row_index": 7,
+    "symbol": "AMZN"
+  },
+  {
+    "actor_state_sha256": "1a15a17b837d1b623f417261761542d5fea1ae2d0632521719c636c8dc2cec3d",
+    "case_id": "AMZN:2023-05-12",
+    "decision_session": "2023-05-12",
+    "role": "TRAIN",
+    "row_index": 8,
+    "symbol": "AMZN"
+  },
+  {
+    "actor_state_sha256": "7d900d2c566c2c7ee9396133dd794ebc7f5d56da10cb80cdaab933fff1b91541",
+    "case_id": "AMZN:2023-05-19",
+    "decision_session": "2023-05-19",
+    "role": "TRAIN",
+    "row_index": 9,
+    "symbol": "AMZN"
+  },
+  {
+    "actor_state_sha256": "092808ff9aacaceaef77efb6ccf8efe6e3ac77a761e5eba61abd0ebe66fa27ab",
+    "case_id": "AMZN:2023-05-26",
+    "decision_session": "2023-05-26",
+    "role": "TRAIN",
+    "row_index": 10,
+    "symbol": "AMZN"
+  },
+  {
+    "actor_state_sha256": "88498771397137bd8867a2bf4fd96725f98598549495dabd13521a27a8c92d12",
+    "case_id": "AMZN:2023-06-02",
+    "decision_session": "2023-06-02",
+    "role": "TRAIN",
+    "row_index": 11,
+    "symbol": "AMZN"
+  },
+  {
+    "actor_state_sha256": "74f494b6f2dc69c40b6f9989e329e935c1e7ef19970a26a3a9bd84150f91de8e",
+    "case_id": "AMZN:2023-06-09",
+    "decision_session": "2023-06-09",
+    "role": "TRAIN",
+    "row_index": 12,
+    "symbol": "AMZN"
+  },
+  {
+    "actor_state_sha256": "4827eb95347ebbcde48ddb069282adcfb250a61990f5d213c273e4d9594a6659",
+    "case_id": "AMZN:2023-06-16",
+    "decision_session": "2023-06-16",
+    "role": "TRAIN",
+    "row_index": 13,
+    "symbol": "AMZN"
+  },
+  {
+    "actor_state_sha256": "76d004b4d63c00ad3eebbb9ff81f31794a87ceb4877afe00700fb32a7cf1eea8",
+    "case_id": "JPM:2023-05-05",
+    "decision_session": "2023-05-05",
+    "role": "TRAIN",
+    "row_index": 14,
+    "symbol": "JPM"
+  },
+  {
+    "actor_state_sha256": "8b14edeae20a11c0210dd67f59a7e2fd66c923e27d1358300089265955d33b7f",
+    "case_id": "JPM:2023-05-12",
+    "decision_session": "2023-05-12",
+    "role": "TRAIN",
+    "row_index": 15,
+    "symbol": "JPM"
+  },
+  {
+    "actor_state_sha256": "72da1abd8b013651b304e7aa07567cac4df7bc1a2e09256143c46c6923c73ab7",
+    "case_id": "JPM:2023-05-19",
+    "decision_session": "2023-05-19",
+    "role": "TRAIN",
+    "row_index": 16,
+    "symbol": "JPM"
+  },
+  {
+    "actor_state_sha256": "9a9f84dde86c9c677cecb171a12ccd7d878bcd35b2213c138427247925b33465",
+    "case_id": "JPM:2023-05-26",
+    "decision_session": "2023-05-26",
+    "role": "TRAIN",
+    "row_index": 17,
+    "symbol": "JPM"
+  },
+  {
+    "actor_state_sha256": "d777a353aced757e22ed45a97414b64728f28aa60b827a211d9c163daae9f780",
+    "case_id": "JPM:2023-06-02",
+    "decision_session": "2023-06-02",
+    "role": "TRAIN",
+    "row_index": 18,
+    "symbol": "JPM"
+  },
+  {
+    "actor_state_sha256": "14a9004f50f1fdbe11fdb440bbe05bbee74cecadc2591b21c31135486cce771a",
+    "case_id": "JPM:2023-06-09",
+    "decision_session": "2023-06-09",
+    "role": "TRAIN",
+    "row_index": 19,
+    "symbol": "JPM"
+  },
+  {
+    "actor_state_sha256": "331524ec4aaeeddd7b1436106f4079c73f9a2b6117e63a6787f695da652299f5",
+    "case_id": "JPM:2023-06-16",
+    "decision_session": "2023-06-16",
+    "role": "TRAIN",
+    "row_index": 20,
+    "symbol": "JPM"
+  },
+  {
+    "actor_state_sha256": "4a867f401809cd6750d89e50d18980a152e800936c6784c9cd53dbfe27edde19",
+    "case_id": "JBSS:2023-05-05",
+    "decision_session": "2023-05-05",
+    "role": "TRAIN",
+    "row_index": 21,
+    "symbol": "JBSS"
+  },
+  {
+    "actor_state_sha256": "d42a338d002a1520eaeafa4053ac5f739fb18899f8a7932e136bc43f60e9c8d3",
+    "case_id": "JBSS:2023-05-12",
+    "decision_session": "2023-05-12",
+    "role": "TRAIN",
+    "row_index": 22,
+    "symbol": "JBSS"
+  },
+  {
+    "actor_state_sha256": "828fb848a1150675baaf130f64e4ee068bfa5e7bcef2aae646190f6d892a0cf7",
+    "case_id": "JBSS:2023-05-19",
+    "decision_session": "2023-05-19",
+    "role": "TRAIN",
+    "row_index": 23,
+    "symbol": "JBSS"
+  },
+  {
+    "actor_state_sha256": "2be2374e3be94c48e045138614d2085a144d23958a97ba2ea53773c079441df7",
+    "case_id": "JBSS:2023-05-26",
+    "decision_session": "2023-05-26",
+    "role": "TRAIN",
+    "row_index": 24,
+    "symbol": "JBSS"
+  },
+  {
+    "actor_state_sha256": "06f96dcfed75d21ace2de1f71d5ba063c97ac3a703622461cd6d85db92528432",
+    "case_id": "JBSS:2023-06-02",
+    "decision_session": "2023-06-02",
+    "role": "TRAIN",
+    "row_index": 25,
+    "symbol": "JBSS"
+  },
+  {
+    "actor_state_sha256": "72f49af953c2217a36ddde59fcc0818cd17a3e8f08a17a8ef9e59f2e8720581a",
+    "case_id": "JBSS:2023-06-09",
+    "decision_session": "2023-06-09",
+    "role": "TRAIN",
+    "row_index": 26,
+    "symbol": "JBSS"
+  },
+  {
+    "actor_state_sha256": "f8d8156255082f81feff43417f4e593878313452fa09d25bf520db8f134649c3",
+    "case_id": "JBSS:2023-06-16",
+    "decision_session": "2023-06-16",
+    "role": "TRAIN",
+    "row_index": 27,
+    "symbol": "JBSS"
+  },
+  {
+    "actor_state_sha256": "8a3886ba6d434adddaf143ff233e987c4ca086b8c8011e1612ed0060da463438",
+    "case_id": "EML:2023-05-05",
+    "decision_session": "2023-05-05",
+    "role": "TRAIN",
+    "row_index": 28,
+    "symbol": "EML"
+  },
+  {
+    "actor_state_sha256": "a0e306962217a653c68383f10020d6c7ba75d7a5d386365aebddf6421d613def",
+    "case_id": "EML:2023-05-12",
+    "decision_session": "2023-05-12",
+    "role": "TRAIN",
+    "row_index": 29,
+    "symbol": "EML"
+  },
+  {
+    "actor_state_sha256": "5c053edf9267348b12ca7d348a0dc6fd1ce92c98f8c80647e6ea933e80a6c10b",
+    "case_id": "EML:2023-05-19",
+    "decision_session": "2023-05-19",
+    "role": "TRAIN",
+    "row_index": 30,
+    "symbol": "EML"
+  },
+  {
+    "actor_state_sha256": "f42af2b7d53439b972efcb6f6d66df9790ef64baf6c044ec21490e97d9df29f2",
+    "case_id": "EML:2023-05-26",
+    "decision_session": "2023-05-26",
+    "role": "TRAIN",
+    "row_index": 31,
+    "symbol": "EML"
+  },
+  {
+    "actor_state_sha256": "57ebec144866048ee92a00fb13bebb1b6f1eb64acf943ce9a0535668e5cdb970",
+    "case_id": "EML:2023-06-02",
+    "decision_session": "2023-06-02",
+    "role": "TRAIN",
+    "row_index": 32,
+    "symbol": "EML"
+  },
+  {
+    "actor_state_sha256": "8c2e86491ef6b4c5853d1ccf1b1ea220b832581313ccee8220ad4937ba383276",
+    "case_id": "EML:2023-06-09",
+    "decision_session": "2023-06-09",
+    "role": "TRAIN",
+    "row_index": 33,
+    "symbol": "EML"
+  },
+  {
+    "actor_state_sha256": "126995aa49f1d9106a4bb53d3baaa0739b7b42a21545da8064a5776d694190c6",
+    "case_id": "EML:2023-06-16",
+    "decision_session": "2023-06-16",
+    "role": "TRAIN",
+    "row_index": 34,
+    "symbol": "EML"
+  },
+  {
+    "actor_state_sha256": "a02a244942482631ad6039e1d793425c829bf2ed94a4f21b9f09ede340b43485",
+    "case_id": "AGI:2023-05-05",
+    "decision_session": "2023-05-05",
+    "role": "TRAIN",
+    "row_index": 35,
+    "symbol": "AGI"
+  },
+  {
+    "actor_state_sha256": "8f8f750fa547746a2e4084040f090428581c71da074fe3b983789cd5de0896f3",
+    "case_id": "AGI:2023-05-12",
+    "decision_session": "2023-05-12",
+    "role": "TRAIN",
+    "row_index": 36,
+    "symbol": "AGI"
+  },
+  {
+    "actor_state_sha256": "397e4544e26ddb5fb1f3105392271b899626a0675fbae6a2bd98b3c58b0986ba",
+    "case_id": "AGI:2023-05-19",
+    "decision_session": "2023-05-19",
+    "role": "TRAIN",
+    "row_index": 37,
+    "symbol": "AGI"
+  },
+  {
+    "actor_state_sha256": "06efd19a66c3384457539e35be14b58341a07f71634d18d8ec3285e44a4b7235",
+    "case_id": "AGI:2023-05-26",
+    "decision_session": "2023-05-26",
+    "role": "TRAIN",
+    "row_index": 38,
+    "symbol": "AGI"
+  },
+  {
+    "actor_state_sha256": "96b762d87f138d40c7662904eea2addd79a765656870dd8166341184337b8e9c",
+    "case_id": "AGI:2023-06-02",
+    "decision_session": "2023-06-02",
+    "role": "TRAIN",
+    "row_index": 39,
+    "symbol": "AGI"
+  },
+  {
+    "actor_state_sha256": "0afb33325eb32c2331ddde18bd3c8cc8a5be03c24ab93284bbd1b437ada31f8f",
+    "case_id": "AGI:2023-06-09",
+    "decision_session": "2023-06-09",
+    "role": "TRAIN",
+    "row_index": 40,
+    "symbol": "AGI"
+  },
+  {
+    "actor_state_sha256": "e09455613b9eeaa109f791b5d2cbf185b204250e916c7a7878c75d13188f25fa",
+    "case_id": "AGI:2023-06-16",
+    "decision_session": "2023-06-16",
+    "role": "TRAIN",
+    "row_index": 41,
+    "symbol": "AGI"
+  },
+  {
+    "actor_state_sha256": "e4fd1e781f259f710a3e1897f2333642fb482c6adc774008ed6bcb1c8aab44ca",
+    "case_id": "ARR:2023-05-05",
+    "decision_session": "2023-05-05",
+    "role": "TRAIN",
+    "row_index": 42,
+    "symbol": "ARR"
+  },
+  {
+    "actor_state_sha256": "c14df863fdf78e7245a7ce6e8e798c2f3b8c816b86dce53c0f9bb9e264a7476a",
+    "case_id": "ARR:2023-05-12",
+    "decision_session": "2023-05-12",
+    "role": "TRAIN",
+    "row_index": 43,
+    "symbol": "ARR"
+  },
+  {
+    "actor_state_sha256": "17af78dea4b2a10e5d3e2a9c9aa528a50125f3a2d8a0df2e57e6a7a41edb561d",
+    "case_id": "ARR:2023-05-19",
+    "decision_session": "2023-05-19",
+    "role": "TRAIN",
+    "row_index": 44,
+    "symbol": "ARR"
+  },
+  {
+    "actor_state_sha256": "bafd8af890573bc76f2a8fe8acff52041fa295dce0483528a0404e4351c66814",
+    "case_id": "ARR:2023-05-26",
+    "decision_session": "2023-05-26",
+    "role": "TRAIN",
+    "row_index": 45,
+    "symbol": "ARR"
+  },
+  {
+    "actor_state_sha256": "98d063efba2e4fe1418dd70aa88d24a09133847cb0052a518467c727962d32f9",
+    "case_id": "ARR:2023-06-02",
+    "decision_session": "2023-06-02",
+    "role": "TRAIN",
+    "row_index": 46,
+    "symbol": "ARR"
+  },
+  {
+    "actor_state_sha256": "a96c73618a650cfa8c4a066bad595d40512c02734652309dd19ee7404c9b52ce",
+    "case_id": "ARR:2023-06-09",
+    "decision_session": "2023-06-09",
+    "role": "TRAIN",
+    "row_index": 47,
+    "symbol": "ARR"
+  },
+  {
+    "actor_state_sha256": "e62118fab8b121c06c5be47bdcf332843c6868f03d5e65a87c5bb5d1eb3bb203",
+    "case_id": "ARR:2023-06-16",
+    "decision_session": "2023-06-16",
+    "role": "TRAIN",
+    "row_index": 48,
+    "symbol": "ARR"
+  },
+  {
+    "actor_state_sha256": "47c6391b649776560602aea249dfb4d5f41748ff64092747a2aa437a9e29a6a1",
+    "case_id": "AEMD:2023-05-05",
+    "decision_session": "2023-05-05",
+    "role": "TRAIN",
+    "row_index": 49,
+    "symbol": "AEMD"
+  },
+  {
+    "actor_state_sha256": "6f67d3922b10f2df378a5dec8cab88e535afe8c075e44f3ed952f761c3aac2a7",
+    "case_id": "AEMD:2023-05-12",
+    "decision_session": "2023-05-12",
+    "role": "TRAIN",
+    "row_index": 50,
+    "symbol": "AEMD"
+  },
+  {
+    "actor_state_sha256": "476ec99b976c3a29bb3ec67927b57485ecff3e3059c1fcab9eb5a7f350ca188e",
+    "case_id": "AEMD:2023-05-19",
+    "decision_session": "2023-05-19",
+    "role": "TRAIN",
+    "row_index": 51,
+    "symbol": "AEMD"
+  },
+  {
+    "actor_state_sha256": "98994c496df6aac354efc533648afc2283085ca2617aaae539ebcb0d3db60c4f",
+    "case_id": "AEMD:2023-05-26",
+    "decision_session": "2023-05-26",
+    "role": "TRAIN",
+    "row_index": 52,
+    "symbol": "AEMD"
+  },
+  {
+    "actor_state_sha256": "c0b7ebe1f691fbc09523db3e095cfcafe249394f70b79b0e279dfbd5c58663f8",
+    "case_id": "AEMD:2023-06-02",
+    "decision_session": "2023-06-02",
+    "role": "TRAIN",
+    "row_index": 53,
+    "symbol": "AEMD"
+  },
+  {
+    "actor_state_sha256": "c3c60f3cd90c35ffa68cdb9feea9b864d263f03506bd65e40866b3b2def33d7c",
+    "case_id": "AEMD:2023-06-09",
+    "decision_session": "2023-06-09",
+    "role": "TRAIN",
+    "row_index": 54,
+    "symbol": "AEMD"
+  },
+  {
+    "actor_state_sha256": "5ce39f27ba682d0b797726728f5ea35ca9ce07999030949aae11fd1158db5c13",
+    "case_id": "AEMD:2023-06-16",
+    "decision_session": "2023-06-16",
+    "role": "TRAIN",
+    "row_index": 55,
+    "symbol": "AEMD"
+  },
+  {
+    "actor_state_sha256": "5da2b7d79d603d7627182a87f4859857c49251a62161f665c37fd7f44e89d324",
+    "case_id": "AAPL:2023-06-30",
+    "decision_session": "2023-06-30",
+    "role": "VALIDATION",
+    "row_index": 56,
+    "symbol": "AAPL"
+  },
+  {
+    "actor_state_sha256": "812b2da01514c2a2f555ca129c1fe2770b75fa1f83a7800d501c0b3dd7f24031",
+    "case_id": "AAPL:2023-07-07",
+    "decision_session": "2023-07-07",
+    "role": "VALIDATION",
+    "row_index": 57,
+    "symbol": "AAPL"
+  },
+  {
+    "actor_state_sha256": "d296826cc63f326846e5533d89e7a7e9b1325a7dd09da9bc5e32926cb368b980",
+    "case_id": "AMZN:2023-06-30",
+    "decision_session": "2023-06-30",
+    "role": "VALIDATION",
+    "row_index": 58,
+    "symbol": "AMZN"
+  },
+  {
+    "actor_state_sha256": "3ed25d7ce190510ed2668e5f7994d856f3d009a991b8ad9787c8aa0ad9f1ab44",
+    "case_id": "AMZN:2023-07-07",
+    "decision_session": "2023-07-07",
+    "role": "VALIDATION",
+    "row_index": 59,
+    "symbol": "AMZN"
+  },
+  {
+    "actor_state_sha256": "4537b936e52d2271271e71ad139b21184bbc37955a6a9dfb9cd8db7eda49b027",
+    "case_id": "JPM:2023-06-30",
+    "decision_session": "2023-06-30",
+    "role": "VALIDATION",
+    "row_index": 60,
+    "symbol": "JPM"
+  },
+  {
+    "actor_state_sha256": "5ea1b00f3afbd73fc12e8599ae3e0ca925153c432a340f982479159f15c8b6f6",
+    "case_id": "JPM:2023-07-07",
+    "decision_session": "2023-07-07",
+    "role": "VALIDATION",
+    "row_index": 61,
+    "symbol": "JPM"
+  },
+  {
+    "actor_state_sha256": "d9529b77c33b4e44c98004b87238291173446790517b51d46f561b81164fe539",
+    "case_id": "JBSS:2023-06-30",
+    "decision_session": "2023-06-30",
+    "role": "VALIDATION",
+    "row_index": 62,
+    "symbol": "JBSS"
+  },
+  {
+    "actor_state_sha256": "82799788f276e4f935cf4ef8a3de92a8022ca4f0f9bb649dfe1f208086d2e017",
+    "case_id": "JBSS:2023-07-07",
+    "decision_session": "2023-07-07",
+    "role": "VALIDATION",
+    "row_index": 63,
+    "symbol": "JBSS"
+  },
+  {
+    "actor_state_sha256": "d68c72f2c3b368eb58dea2e86bcb4974ed736277f91ce400db1198b8f6e6924f",
+    "case_id": "EML:2023-06-30",
+    "decision_session": "2023-06-30",
+    "role": "VALIDATION",
+    "row_index": 64,
+    "symbol": "EML"
+  },
+  {
+    "actor_state_sha256": "f92fcd4d72b6ac29339dbb457e18da46599362cb790e609756ce13b0f3798f16",
+    "case_id": "EML:2023-07-07",
+    "decision_session": "2023-07-07",
+    "role": "VALIDATION",
+    "row_index": 65,
+    "symbol": "EML"
+  },
+  {
+    "actor_state_sha256": "4b225d17a8c4affa366db2c75d8c8ede59f8519ffc112d186987a6f9ccfd30ac",
+    "case_id": "AGI:2023-06-30",
+    "decision_session": "2023-06-30",
+    "role": "VALIDATION",
+    "row_index": 66,
+    "symbol": "AGI"
+  },
+  {
+    "actor_state_sha256": "8f54eb37695460cb8467ff1bc99da3fb44c301de8514f7cebb865dcd760e215b",
+    "case_id": "AGI:2023-07-07",
+    "decision_session": "2023-07-07",
+    "role": "VALIDATION",
+    "row_index": 67,
+    "symbol": "AGI"
+  },
+  {
+    "actor_state_sha256": "e229c7247ead5298ecc181df54b57c314e76698b02aa1d27c3cd90c26b50b75e",
+    "case_id": "ARR:2023-06-30",
+    "decision_session": "2023-06-30",
+    "role": "VALIDATION",
+    "row_index": 68,
+    "symbol": "ARR"
+  },
+  {
+    "actor_state_sha256": "a5e732005cdae59cc2ce32c1b958b463afc7da7db2ec70ff91ee6adf86d96979",
+    "case_id": "ARR:2023-07-07",
+    "decision_session": "2023-07-07",
+    "role": "VALIDATION",
+    "row_index": 69,
+    "symbol": "ARR"
+  },
+  {
+    "actor_state_sha256": "eb719e839533c39f0cbc83ef7df81f60cdb9c3ad36cdae0283a8fffe51dbc1b9",
+    "case_id": "AEMD:2023-06-30",
+    "decision_session": "2023-06-30",
+    "role": "VALIDATION",
+    "row_index": 70,
+    "symbol": "AEMD"
+  },
+  {
+    "actor_state_sha256": "3a33a39c7e83a3939f447005721616726051e85580344321a2c09cef98009d76",
+    "case_id": "AEMD:2023-07-07",
+    "decision_session": "2023-07-07",
+    "role": "VALIDATION",
+    "row_index": 71,
+    "symbol": "AEMD"
+  }
+]

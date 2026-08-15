@@ -1,0 +1,21 @@
+{
+  "allow_tf32": false,
+  "attention_implementation": "eager",
+  "batch_size": 1,
+  "cuda_available": true,
+  "cuda_runtime": "12.6",
+  "deterministic_algorithms": true,
+  "gpu": "NVIDIA A10G",
+  "huggingface_hub": "0.36.0",
+  "identity_sha256": "89ef97b30e703f8d67d4510d269083d9aea568e4230040d92a454c6cf40ca892",
+  "inference_dtype": "float32",
+  "max_sequence_length": 32768,
+  "numpy": "2.2.6",
+  "nvidia_driver": "595.91.07",
+  "padding_side": "left",
+  "python": "3.12.10",
+  "scipy": "1.15.3",
+  "sentence_transformers": "5.1.2",
+  "torch": "2.7.1+cu126",
+  "transformers": "4.57.6"
+}

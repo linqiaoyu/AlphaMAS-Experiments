@@ -1,0 +1,9 @@
+{
+  "custom_instruction": false,
+  "fine_tuned": false,
+  "frozen": true,
+  "model_snapshot_identity_sha256": "1d7b1bddebe83694815066f5254c5b0c7a1d05febd4e2b9e2120f2ec3fe3c018",
+  "repository": "Qwen/Qwen3-Embedding-0.6B",
+  "resolution_timestamp_utc": "2026-08-15T23:29:16Z",
+  "resolved_revision_sha": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3"
+}
