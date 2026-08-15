@@ -1,0 +1,36 @@
+{
+  "case_id": "EML:2023-06-09",
+  "context": {
+    "company_of_interest": "EML",
+    "decision_session": "2023-06-09",
+    "deterministic_temporal_context": {
+      "frozen_decision_time": "2023-06-09T20:00:00+00:00",
+      "historical_as_of": "2023-06-09T20:00:00+00:00",
+      "run_mode": "historical"
+    },
+    "instrument_context": "The instrument to analyze is `EML`. Use this exact ticker in every tool call, report, and recommendation, preserving any exchange suffix (e.g. `.TO`, `.L`, `.HK`, `.T`, `-USD`).",
+    "ticker": "EML"
+  },
+  "decision_session": "2023-06-09",
+  "evidence_packet_sha256": "6e3e8408812d4aa07f408b8214482c24b758d290a0fe706f6b9a3c26132d8370",
+  "prompt_trader": {
+    "normalized_action": "SELL",
+    "proposal_sha256": "1da55caf6c16ab9359eb9ac7fb9c97cc9b4f6c274172f5a42f64b4222ee40e2a",
+    "rendered_proposal": "**Action**: Sell\n\n**Reasoning**: The investment plan recommends an Underweight stance, calling for trimming existing EML positions by one-third to one-half. The stock remains below all declining major moving averages (50-SMA $16.34, 200-SMA $18.37), confirming a structural downtrend with no confirmed reversal. While momentum indicators (RSI 54.62, positive MACD histogram) have improved and the balance sheet shows positive operating cash flow, the thin liquidity (~3,400 shares/day), missing income statement data, and undefined downside below $15.31 make the risk-reward unfavorable at current levels. The plan explicitly advises against initiating new longs and recommends trimming exposure with a hard stop below $15.31.\n\n**Entry Price**: 16.11\n\n**Stop Loss**: 15.31\n\n**Position Sizing**: Trim existing positions by one-third to one-half; keep any residual position small (underweight) given thin liquidity and structural downtrend\n\nFINAL TRANSACTION PROPOSAL: **SELL**"
+  },
+  "provenance": {
+    "experiments_sha": "2bf79ffce2dedf15e157f48a5e3727eef611d0e9",
+    "model_configuration_identity": "f2e15ee388ee60297930ddd2eb4ed5d73c27ee297472d97bb7d73bc49d2cd420",
+    "model_id": "deepseek-v4-flash",
+    "run_identity": "c0f1fc3a17de8f02e06ea42e1a51ae0b2c84844febfde5d597cf2d40261d13a3",
+    "source_sha": "6d3c46b96b8935944e0f232b73020262d870d953"
+  },
+  "research_manager": {
+    "investment_plan": "**Recommendation**: Underweight\n\n**Rationale**: Let me weigh both sides of this debate carefully.\n\nThe bull makes a genuine point about improving momentum — RSI has moved from 36.7 to 54.62, the MACD histogram has turned positive at +0.10, and the 10-EMA has ticked up over the last four sessions. The stock has recovered 5.2% off its May 31 low, and the balance sheet data from the 10-Q (positive operating cash flow of $6.86M, 2:1 asset coverage, self-funding operations) does suggest a company that is not in financial distress. The debt ceiling resolution is a real macro tailwind that removes a systemic overhang.\n\nHowever, the bear's structural critique is more compelling on the evidence that matters most. The stock remains below ALL major moving averages — price at $16.11 is below the 50-SMA ($16.34) and well below the 200-SMA ($18.37), a 14% gap. Critically, both the 50-SMA and 200-SMA are DECLINING, which confirms a deteriorating long-term trend rather than a bottoming process. The 10-EMA, while up over four sessions, is still below where it was a month ago ($15.88 on May 10 vs $15.76 on June 9) — the full-month trajectory is down, not up. The MACD line remains negative at -0.13; a positive histogram is a reduction in bearish momentum, not a confirmed reversal.\n\nThe bear also correctly identifies critical data gaps. There is no income statement data — no revenue, net income, or EPS — so we cannot confirm profitability. The positive investing cash flow (+$1.08M) is ambiguous and could signal asset sales or capex reduction rather than growth. The financing outflow (-$5.09M) is of unknown purpose. The sentiment data is entirely unavailable across all three sources. And the volume of just 3,400 shares indicates a thin, illiquid, neglected name where price action is unreliable.\n\nOn risk-reward, the bull's 3:1 claim is overstated. The immediate upside to the first resistance ($16.34) is only 1.4%, and the path to the 200-SMA requires breaking through multiple resistance levels with no evidence of support between them. Meanwhile, the downside below $15.31 has no defined floor in the evidence. The realistic risk-reward is closer to 1:1, not 3:1.\n\nThe decisive factor is that the bull's case rests on leading momentum indicators that are still weak and unconfirmed, while the bear's case rests on a structural downtrend that is unambiguous and supported by declining moving averages, thin liquidity, missing fundamental data, and a macro backdrop that is at best neutral. The bull is asking us to buy before confirmation; the bear is asking us to respect the trend. Given the absence of a confirmed reversal, the missing income statement data, and the thin liquidity, initiating a new long position here is premature. However, the improving momentum and sound balance sheet argue against an outright SELL for existing holders. The balanced-but-cautious stance is to trim exposure and wait for confirmation.\n\n**Strategic Actions**: 1. For existing holders: Trim EML positions by roughly one-third to one-half to reduce exposure to the structural downtrend, given the stock remains below all declining major moving averages with no confirmed reversal.\n\n2. Do NOT initiate new long positions at current levels ($16.11). The risk-reward is not favorable — immediate upside to the 50-SMA resistance is only ~1.4%, while downside below the May 31 low of $15.31 has no defined floor in the evidence.\n\n3. If holding, place a hard stop below $15.31 (May 31 low) and respect it strictly. If that level breaks, the next support is $15.11 (lower Bollinger Band) with no defined support below that.\n\n4. Establish clear re-entry criteria before considering new longs: (a) a close above $16.34 (50-SMA) on meaningfully higher volume than the current ~3,400 shares/day, (b) a golden cross of the 10-EMA above the 50-SMA, (c) positive sentiment data or company-specific news, and (d) income statement data confirming profitability.\n\n5. Monitor the 10-Q and any subsequent filings for income statement data (revenue, net income, EPS) to resolve the fundamental ambiguity around the positive investing cash flow and the -$5.09M financing outflow.\n\n6. Position sizing: Any residual position should be kept small (underweight) given the thin liquidity and structural downtrend. Do not add on dips until the confirmation criteria above are met.",
+    "investment_plan_sha256": "373bba7a4f2deaf24e78d95457f571aa17c45fbe47e8af25cd88ccb9e68e2e10"
+  },
+  "reusable_for_M2_08": true,
+  "role": "TRAIN",
+  "schema_version": "M2-SEMANTIC-HANDOFF-v1",
+  "symbol": "EML"
+}

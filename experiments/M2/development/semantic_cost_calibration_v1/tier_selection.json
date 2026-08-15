@@ -1,0 +1,12 @@
+{
+  "budget_status": "TARGET_BUDGET",
+  "cost_summary_sha256": "2717e95dcde00d09560935e20dfaf01d417524e923fadc10e220682144ac62e3",
+  "performance_used": false,
+  "pricing_snapshot_sha256": "f27fd57a4e63fa415f0e799b57a29b64bfae8a39ef85240ecddb36d88b4be9f3",
+  "probe_manifest_sha256": "1e87f47bc8915fccafc3712930b27888721284dd070586366432b0fc7ab1be59",
+  "schema_version": "M2-SEMANTIC-TIER-SELECTION-v1",
+  "selected_case_count": 96,
+  "selected_tier": "MAXIMUM",
+  "selection_reason": "COST_ONLY",
+  "tier_identity_sha256": "68fbc780cbb454f78d0ae719f91665737ed6e04928eba91f4c9c0530745d601f"
+}

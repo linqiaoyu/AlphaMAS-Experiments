@@ -1,0 +1,36 @@
+{
+  "case_id": "JBSS:2023-06-02",
+  "context": {
+    "company_of_interest": "JBSS",
+    "decision_session": "2023-06-02",
+    "deterministic_temporal_context": {
+      "frozen_decision_time": "2023-06-02T20:00:00+00:00",
+      "historical_as_of": "2023-06-02T20:00:00+00:00",
+      "run_mode": "historical"
+    },
+    "instrument_context": "The instrument to analyze is `JBSS`. Use this exact ticker in every tool call, report, and recommendation, preserving any exchange suffix (e.g. `.TO`, `.L`, `.HK`, `.T`, `-USD`).",
+    "ticker": "JBSS"
+  },
+  "decision_session": "2023-06-02",
+  "evidence_packet_sha256": "6e952e90b820c5f395216ffc2da246c11656091563d6f170c50226e0a1d9d62c",
+  "prompt_trader": {
+    "normalized_action": "HOLD",
+    "proposal_sha256": "92f0c2fd296f49c1deeb2a290629ace9fc69c610833d2d8214f728ca117c1836",
+    "rendered_proposal": "**Action**: Hold\n\n**Reasoning**: The evidence supports maintaining the current JBSS position without adding or exiting. The bull case is anchored in verifiable technicals (35.7% above 200-day SMA, bullish MA alignment, MACD histogram just flipped positive) and a genuinely strong balance sheet (65.7% equity ratio, ~0.52x debt-to-equity, $72.4M operating cash flow). However, the bear's risk-management concerns are legitimate: RSI at 71.75 with bearish divergence, close above the upper Bollinger Band, 60 days without a drawdown, and critically, zero visibility into earnings/valuation since income statement data is unavailable in this historical run. The asymmetry of risk-reward at the 60-day peak ($106.52) with no margin of safety and no valuation data argues against adding, while the powerful trend and fortress balance sheet argue against selling. This is a balanced situation where neither side has decisively refuted the other, warranting a Hold.\n\n**Entry Price**: 102.86\n\n**Stop Loss**: 102.86\n\n**Position Sizing**: Maintain current exposure. If adding on a pullback toward the 10 EMA ($102.86) or 50 SMA ($94.29), size conservatively at 25-50% of a full position given the unresolved fundamental data gap.\n\nFINAL TRANSACTION PROPOSAL: **HOLD**"
+  },
+  "provenance": {
+    "experiments_sha": "2bf79ffce2dedf15e157f48a5e3727eef611d0e9",
+    "model_configuration_identity": "f2e15ee388ee60297930ddd2eb4ed5d73c27ee297472d97bb7d73bc49d2cd420",
+    "model_id": "deepseek-v4-flash",
+    "run_identity": "f3d46c1b638502153f148a88d58669e6f9236cbae810a337fa60735e581c1fac",
+    "source_sha": "6d3c46b96b8935944e0f232b73020262d870d953"
+  },
+  "research_manager": {
+    "investment_plan": "**Recommendation**: Hold\n\n**Rationale**: Let me weigh both sides of this debate carefully.\n\nThe bull makes a compelling case on the technicals: JBSS is in a powerful uptrend, trading 35.7% above its 200-day SMA, with all moving averages aligned bullishly and rising. The MACD histogram just flipped positive after a three-week correction, and the balance sheet is genuinely strong — 65.7% equity ratio, ~0.52x debt-to-equity, 2.91x asset coverage, and $72.4M in operating cash flow over nine months that self-funded both capex and capital returns. These are real, verifiable facts from the supplied evidence.\n\nThe bear, however, raises points that carry genuine weight. The RSI at 71.75 with a clear bearish divergence (lower RSI highs while price makes higher highs) is a legitimate warning signal. Price closed above the upper Bollinger Band, which is statistically a mean-reverting condition. The stock has gone 60 days without any drawdown — which cuts both ways, but the bear is right that no support has been tested. And critically, the income statement data is unavailable in this historical run, meaning we have zero visibility into earnings, margins, or valuation. The bull cannot tell us whether JBSS trades at 15x or 30x earnings.\n\nThe bear's strongest point is the asymmetry of risk-reward at $106.52. The stock is at its 60-day peak with no margin of safety. The bull's counter — that \"no evidence is not evidence of bad news\" — is technically correct, but the burden of proof for a BUY at a 60-day high with no valuation data is on the buyer, and the bull hasn't met it.\n\nHowever, I don't think a SELL is warranted either. The trend is genuinely powerful, the balance sheet is genuinely strong, and the bear's \"decelerating momentum\" argument relies on annualizing a 5-day return, which is statistically dubious. The bear also cannot point to any specific negative catalyst — his case is largely about the absence of data and the risk of mean reversion, not evidence of deterioration.\n\nThis is a genuinely balanced situation. The bull has strong technical and balance-sheet evidence; the bear has a legitimate risk-management case built on overbought conditions, a data gap on fundamentals, and unfavorable risk-reward at the peak. Neither side has decisively refuted the other. The honest assessment is that this is a Hold — maintain the position if you hold it, but do not add aggressively at the 60-day peak without fundamental data, and do not exit a strong uptrend with a fortress balance sheet based on a technical warning that hasn't yet resolved.\n\n**Strategic Actions**: 1. Maintain current JBSS position at current levels. Do not add new exposure at $106.52 given the overbought technicals (RSI 71.75 with bearish divergence, close above upper Bollinger Band) and the absence of income statement/valuation data in this historical run.\n\n2. If holding a position, place a protective stop below the 10 EMA at approximately $102.86 (roughly 3.4% below current price) to define downside risk. A break below this level would signal the trend is losing its near-term support.\n\n3. Consider adding to the position on a pullback toward the 10 EMA ($102.86) or the 50 SMA ($94.29) — these are defined entry points with better risk-reward than buying at the 60-day peak.\n\n4. Monitor for the MACD line making new highs above its May peak (4.02) as confirmation that momentum is genuinely re-accelerating rather than merely flickering. A sustained MACD line breakout would upgrade the thesis.\n\n5. Watch for RSI resetting below 60, which would clear the overbought condition and provide a healthier technical setup for accumulation.\n\n6. If income statement data becomes available, reassess valuation (P/E, margins, revenue growth) before any significant position increase. The balance sheet is strong, but valuation cannot be confirmed without earnings data.\n\n7. Position sizing: Given the Hold rating, maintain current exposure. If adding on a pullback, size additions conservatively (e.g., 25-50% of a full position) given the unresolved fundamental data gap.",
+    "investment_plan_sha256": "d58d090a617df43cac5e2e2fafd69767b9484b3682c34da5f65d78cc13e25df2"
+  },
+  "reusable_for_M2_08": true,
+  "role": "TRAIN",
+  "schema_version": "M2-SEMANTIC-HANDOFF-v1",
+  "symbol": "JBSS"
+}

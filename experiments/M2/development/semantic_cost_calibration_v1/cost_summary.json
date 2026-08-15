@@ -1,0 +1,80 @@
+{
+  "actual_probe_spend_cny": "0.95720644",
+  "failed_billed_attempt_count": 0,
+  "guard_cost_per_case_cny": "0.16803600",
+  "maximum_case_cost_cny": "0.16803600",
+  "mean_case_cost_cny": "0.1595344066666666666666666667",
+  "median_case_cost_cny": "0.15940002",
+  "minimum_case_cost_cny": "0.15289284",
+  "model": "deepseek-v4-flash",
+  "per_case_costs": [
+    {
+      "actor_visible_state_sha256": "0a28e6e8bd3df77a77202d0d0043058c498d51934e702c2f4745a56b9e219fb2",
+      "case_cost_cny": "0.16155720",
+      "case_id": "AAPL:2023-06-09",
+      "correctness_valid": true,
+      "input_tokens": 154028,
+      "output_tokens": 26971,
+      "reusable_for_M2_08": true,
+      "total_calls": 18
+    },
+    {
+      "actor_visible_state_sha256": "06f96dcfed75d21ace2de1f71d5ba063c97ac3a703622461cd6d85db92528432",
+      "case_cost_cny": "0.15724284",
+      "case_id": "JBSS:2023-06-02",
+      "correctness_valid": true,
+      "input_tokens": 150453,
+      "output_tokens": 26225,
+      "reusable_for_M2_08": true,
+      "total_calls": 18
+    },
+    {
+      "actor_visible_state_sha256": "c0b7ebe1f691fbc09523db3e095cfcafe249394f70b79b0e279dfbd5c58663f8",
+      "case_cost_cny": "0.16237524",
+      "case_id": "AEMD:2023-06-02",
+      "correctness_valid": true,
+      "input_tokens": 167587,
+      "output_tokens": 25869,
+      "reusable_for_M2_08": true,
+      "total_calls": 19
+    },
+    {
+      "actor_visible_state_sha256": "8c2e86491ef6b4c5853d1ccf1b1ea220b832581313ccee8220ad4937ba383276",
+      "case_cost_cny": "0.16803600",
+      "case_id": "EML:2023-06-09",
+      "correctness_valid": true,
+      "input_tokens": 165542,
+      "output_tokens": 27903,
+      "reusable_for_M2_08": true,
+      "total_calls": 19
+    },
+    {
+      "actor_visible_state_sha256": "96b762d87f138d40c7662904eea2addd79a765656870dd8166341184337b8e9c",
+      "case_cost_cny": "0.15289284",
+      "case_id": "AGI:2023-06-02",
+      "correctness_valid": true,
+      "input_tokens": 156339,
+      "output_tokens": 25811,
+      "reusable_for_M2_08": true,
+      "total_calls": 18
+    },
+    {
+      "actor_visible_state_sha256": "88498771397137bd8867a2bf4fd96725f98598549495dabd13521a27a8c92d12",
+      "case_cost_cny": "0.15510232",
+      "case_id": "AMZN:2023-06-02",
+      "correctness_valid": true,
+      "input_tokens": 166990,
+      "output_tokens": 25228,
+      "reusable_for_M2_08": true,
+      "total_calls": 18
+    }
+  ],
+  "pricing_snapshot_sha256": "f27fd57a4e63fa415f0e799b57a29b64bfae8a39ef85240ecddb36d88b4be9f3",
+  "schema_version": "M2-SEMANTIC-COST-SUMMARY-v1",
+  "sunk_failed_cost_cny": "0",
+  "task_id": "M2-07",
+  "total_input_tokens": 960939,
+  "total_llm_calls": 110,
+  "total_output_tokens": 158007,
+  "valid_probe_count": 6
+}

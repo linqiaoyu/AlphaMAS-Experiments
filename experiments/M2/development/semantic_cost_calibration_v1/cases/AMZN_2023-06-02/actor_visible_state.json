@@ -1,0 +1,36 @@
+{
+  "case_id": "AMZN:2023-06-02",
+  "context": {
+    "company_of_interest": "AMZN",
+    "decision_session": "2023-06-02",
+    "deterministic_temporal_context": {
+      "frozen_decision_time": "2023-06-02T20:00:00+00:00",
+      "historical_as_of": "2023-06-02T20:00:00+00:00",
+      "run_mode": "historical"
+    },
+    "instrument_context": "The instrument to analyze is `AMZN`. Use this exact ticker in every tool call, report, and recommendation, preserving any exchange suffix (e.g. `.TO`, `.L`, `.HK`, `.T`, `-USD`).",
+    "ticker": "AMZN"
+  },
+  "decision_session": "2023-06-02",
+  "evidence_packet_sha256": "feb689864ca1ab89e9f0f15a983e5fa2a827b5f60f1ac8de510f90f8fe41ec7f",
+  "prompt_trader": {
+    "normalized_action": "HOLD",
+    "proposal_sha256": "0a418333fd3916ecfd01380db8490095e4363de7b5fc839770e13d21935d1fa5",
+    "rendered_proposal": "**Action**: Hold\n\n**Reasoning**: The evidence is genuinely balanced for AMZN. The bull case is supported by supplied data: price above all key moving averages with a golden cross configuration, AWS's dominant 32% cloud share, positive $4.788B operating cash flow in Q1 2023, and constructive technical momentum (+32% 60-day return with zero drawdown). However, the bear case is also legitimate: RSI at 71.86 is overbought, price is 15.7% above the 50 SMA (statistically stretched), the rally runs on below-average relative volume (0.96x), and free cash flow was deeply negative at -$11.0B in Q1. With price at $124.25 and only ~5% to next resistance, the risk/reward does not justify chasing an entry here, but the structural quality of the franchise argues against selling. The prudent path is to maintain existing positions and wait for either a pullback toward the 10 EMA (~$119.30) or 50 SMA (~$107.42) for accumulation, or volume-confirmed breakout above resistance. A close below the 50 SMA would invalidate the uptrend and warrant reassessment.\n\n**Entry Price**: 119.3\n\n**Stop Loss**: 107.42\n\n**Position Sizing**: Neutral-to-core weight of 3-5% of portfolio, consistent with a Hold rating. Do not overweight until either a better entry (pullback toward 10 EMA/50 SMA) or volume-confirmed breakout occurs.\n\nFINAL TRANSACTION PROPOSAL: **HOLD**"
+  },
+  "provenance": {
+    "experiments_sha": "2bf79ffce2dedf15e157f48a5e3727eef611d0e9",
+    "model_configuration_identity": "f2e15ee388ee60297930ddd2eb4ed5d73c27ee297472d97bb7d73bc49d2cd420",
+    "model_id": "deepseek-v4-flash",
+    "run_identity": "228e7ed8748859c35a1200966eff718c917156df8ff31333475e6a86e0da7e56",
+    "source_sha": "6d3c46b96b8935944e0f232b73020262d870d953"
+  },
+  "research_manager": {
+    "investment_plan": "**Recommendation**: Hold\n\n**Rationale**: Let me weigh both sides of this debate carefully.\n\nThe bull makes a strong structural case: AMZN is in a clear uptrend (price above all key moving averages, golden cross configuration), AWS holds a dominant 32% cloud market share with a 9-point lead over Azure, advertising is a growing high-margin driver, and the company generated $4.788B in positive operating cash flow in Q1 2023 despite heavy reinvestment. The stock is still ~36% below its 2021 peak, suggesting room to run, and the technical momentum (MACD expanding, +32% 60-day return with zero drawdown) is genuinely constructive.\n\nThe bear raises legitimate near-term concerns that I cannot dismiss: RSI at 71.86 is overbought, price is 15.7% above the 50 SMA (statistically stretched), the rally is running on below-average relative volume (0.96x), free cash flow was deeply negative at -$11.0B in Q1, and the income statement data is unavailable so profitability cannot be verified. The iRobot regulatory decision on July 6 is a genuine near-term binary event.\n\nCritically, I must note that several of the bear's strongest claims rest on assertions not present in the supplied evidence — the \"70% probability of pullback\" statistic and the \"Azure growing faster\" claim are not in the data. Conversely, the bull's core technical and fundamental points ARE supported by the supplied evidence.\n\nHowever, the honest assessment is that the evidence is genuinely balanced here. The stock is in a strong uptrend with dominant competitive positions (bull), but it is technically extended with negative free cash flow, unverifiable profitability, and a near-term regulatory catalyst (bear). The risk/reward at $124.25 — 15.7% above the 50 SMA with only ~5% to the next resistance — is not compelling enough to justify initiating or aggressively adding at these levels, but the structural bull case is too strong to justify selling a dominant franchise in an uptrend.\n\nThis is a case where the strongest arguments on both sides are legitimate and the evidence does not clearly favor one side. I'm committing to Hold rather than forcing a directional call, because the technical extension argues against chasing here while the structural quality argues against exiting. The prudent path is to maintain existing positions and wait for either a pullback toward the 10 EMA/50 SMA (which would improve the entry) or confirmation that the trend can sustain at these levels.\n\n**Strategic Actions**: 1. Maintain current AMZN positions at current sizing — do not add at $124.25 given the 15.7% extension above the 50 SMA and RSI at 71.86.\n\n2. Establish a staged accumulation plan: add on any pullback toward the 10 EMA (~$119.30) with a first tranche, and a second tranche toward the 50 SMA (~$107.42) if that level is reached. This respects the bull's structural thesis while avoiding chasing an overbought entry.\n\n3. Set a disciplined stop/review level: if AMZN breaks and closes below the 50 SMA (~$107.42), reassess the thesis — that would invalidate the golden-cross uptrend and shift the balance toward the bear case.\n\n4. Monitor the iRobot regulatory decision (EU, expected July 6, 2023) as a near-term catalyst. Given it is ~0.4% of market cap, treat any sell-off from a block as a potential accumulation opportunity rather than a reason to exit.\n\n5. Watch for confirmation of the rally on volume: a move to new highs on expanding relative volume (>1.0x) would strengthen the bull case and justify upgrading to Overweight. Continued low-volume drift into resistance would support trimming into strength.\n\n6. Position sizing: keep AMZN at a neutral-to-core weight (e.g., 3-5% of portfolio) consistent with a Hold rating. Do not overweight until either a better entry (pullback) or volume-confirmed breakout occurs.",
+    "investment_plan_sha256": "e0aafd31f34d72e28292629dc419f3fa07633cd84ed7f9baf509d19e093ed2b7"
+  },
+  "reusable_for_M2_08": true,
+  "role": "TRAIN",
+  "schema_version": "M2-SEMANTIC-HANDOFF-v1",
+  "symbol": "AMZN"
+}

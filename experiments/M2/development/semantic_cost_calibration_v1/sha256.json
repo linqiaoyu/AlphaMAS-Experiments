@@ -1,0 +1,29 @@
+{
+  "algorithm": "SHA-256",
+  "files": {
+    "README.md": "2b506fb1ebca384faa42ecf0144c402b0b1d133071de5ac4414a56d16c98c07a",
+    "cases/AAPL_2023-06-09/actor_visible_state.json": "0a28e6e8bd3df77a77202d0d0043058c498d51934e702c2f4745a56b9e219fb2",
+    "cases/AAPL_2023-06-09/upstream_trace.json": "d7502303233c87a70e3866eeb8f195344d9f18d63832933212dd5fcb06e44c52",
+    "cases/AAPL_2023-06-09/usage.json": "ce97eee203443a8d8611ce72d90d31d4dc79eb4b991f026839d8ed0e3194dcff",
+    "cases/AEMD_2023-06-02/actor_visible_state.json": "c0b7ebe1f691fbc09523db3e095cfcafe249394f70b79b0e279dfbd5c58663f8",
+    "cases/AEMD_2023-06-02/upstream_trace.json": "700bff1a93589e8c0f1a10cb5a51c577c4ba92584936562919989386e869e2ef",
+    "cases/AEMD_2023-06-02/usage.json": "54db6c7b0a7581a9669cd99072cd2fe05c2f5dd8585df0028eae65921a214f2d",
+    "cases/AGI_2023-06-02/actor_visible_state.json": "96b762d87f138d40c7662904eea2addd79a765656870dd8166341184337b8e9c",
+    "cases/AGI_2023-06-02/upstream_trace.json": "4c9829111333f9c17e0ea4522d143a51c942e42b721e1090fdd48c94aa127086",
+    "cases/AGI_2023-06-02/usage.json": "337cabf2da52612faf14a091f85a7ce00e0a1c4cea7bfc4d6766742757ae08cd",
+    "cases/AMZN_2023-06-02/actor_visible_state.json": "88498771397137bd8867a2bf4fd96725f98598549495dabd13521a27a8c92d12",
+    "cases/AMZN_2023-06-02/upstream_trace.json": "77473da57a98e419175e04ff96a89658776dedf18fa242dfa26d79381c38c921",
+    "cases/AMZN_2023-06-02/usage.json": "89d80e10f9a49b3b3a29c6b503c63027c686d5f8208d2c628a06df6fa661e1e9",
+    "cases/EML_2023-06-09/actor_visible_state.json": "8c2e86491ef6b4c5853d1ccf1b1ea220b832581313ccee8220ad4937ba383276",
+    "cases/EML_2023-06-09/upstream_trace.json": "1f290acce9c097330900e07087fa935e43e953320c794d3edb25494676505833",
+    "cases/EML_2023-06-09/usage.json": "8ad66119f47f12361307468696a3c864cadc28098d80276a8d5d65f5a1b6e1b3",
+    "cases/JBSS_2023-06-02/actor_visible_state.json": "06f96dcfed75d21ace2de1f71d5ba063c97ac3a703622461cd6d85db92528432",
+    "cases/JBSS_2023-06-02/upstream_trace.json": "96dfe0c10f883c1e11104c59b78b9f46d7a106d9c2ece2231682564c3330243e",
+    "cases/JBSS_2023-06-02/usage.json": "bcdc87b0b031620c7646ad6e5e4d5aa27666242fff7367f06944c81a20c85eb3",
+    "cost_summary.json": "2717e95dcde00d09560935e20dfaf01d417524e923fadc10e220682144ac62e3",
+    "pricing_snapshot.json": "f27fd57a4e63fa415f0e799b57a29b64bfae8a39ef85240ecddb36d88b4be9f3",
+    "probe_manifest.json": "1e87f47bc8915fccafc3712930b27888721284dd070586366432b0fc7ab1be59",
+    "tier_projection.json": "b5c8cf5f19e1bf8f2d21c883bfd60b8167f2ca3c5cf6203dca079de9584b22d1",
+    "tier_selection.json": "febe1fa218398bc209f03dffcf001aa07c75c9865fa00a01220e391d1d19a22d"
+  }
+}

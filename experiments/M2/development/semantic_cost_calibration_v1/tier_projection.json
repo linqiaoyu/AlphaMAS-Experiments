@@ -1,0 +1,48 @@
+{
+  "failed_cost_accounting": "actual_probe_spend includes billed failed cost; sunk_failed_cost is disclosed but not double-counted",
+  "formula": "ACTUAL_PROBE_SPEND_CNY + (N - 6) * GUARD_COST_PER_CASE_CNY",
+  "performance_used": false,
+  "schema_version": "M2-SEMANTIC-TIER-PROJECTION-v1",
+  "task_id": "M2-07",
+  "tiers": [
+    {
+      "case_count": 72,
+      "guard_cost_per_case_cny": "0.16803600",
+      "probe_spend_cny": "0.95720644",
+      "projected_semantic_generation_cost_cny": "12.04758244",
+      "projected_with_reserve_cny": "16.04758244",
+      "remaining_case_count": 66,
+      "reserve_cny": "4.00",
+      "sunk_failed_cost_cny_included_in_probe_spend": "0",
+      "tier": "COMPACT",
+      "within_hard_50": true,
+      "within_target_40": true
+    },
+    {
+      "case_count": 80,
+      "guard_cost_per_case_cny": "0.16803600",
+      "probe_spend_cny": "0.95720644",
+      "projected_semantic_generation_cost_cny": "13.39187044",
+      "projected_with_reserve_cny": "17.39187044",
+      "remaining_case_count": 74,
+      "reserve_cny": "4.00",
+      "sunk_failed_cost_cny_included_in_probe_spend": "0",
+      "tier": "STANDARD",
+      "within_hard_50": true,
+      "within_target_40": true
+    },
+    {
+      "case_count": 96,
+      "guard_cost_per_case_cny": "0.16803600",
+      "probe_spend_cny": "0.95720644",
+      "projected_semantic_generation_cost_cny": "16.08044644",
+      "projected_with_reserve_cny": "20.08044644",
+      "remaining_case_count": 90,
+      "reserve_cny": "4.00",
+      "sunk_failed_cost_cny_included_in_probe_spend": "0",
+      "tier": "MAXIMUM",
+      "within_hard_50": true,
+      "within_target_40": true
+    }
+  ]
+}
