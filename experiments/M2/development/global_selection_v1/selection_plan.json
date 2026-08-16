@@ -1,0 +1,70 @@
+{
+  "actor_action_tie_tolerance": 1e-12,
+  "actor_observation": {
+    "dimension": 3080,
+    "dynamic_portfolio_state": ["is_cash", "is_long", "entry_log_return", "current_drawdown"],
+    "semantic_channels": "frozen M2-09 byte-for-byte"
+  },
+  "candidates": [
+    {"candidate_id": "C01", "candidate_parameter_sha": "9f2864a2ddc00937c55e777537762bee0c01b1a753cb2d81fe07311ba858ed89", "checkpoint_iteration": 25, "learning_rate": 0.0001},
+    {"candidate_id": "C02", "candidate_parameter_sha": "abb0813d118de86cb69202d32b74dc4e63e19b5397db48357f63c38288463a06", "checkpoint_iteration": 50, "learning_rate": 0.0001},
+    {"candidate_id": "C03", "candidate_parameter_sha": "57074b8b41ca79acc14f2bfb92c55da556c761cba868f54d946bce038e9eb16f", "checkpoint_iteration": 100, "learning_rate": 0.0001},
+    {"candidate_id": "C04", "candidate_parameter_sha": "9d093f23bf1baa90288e2d2e1526a946d0da1af45db5771bb2801afdabf32906", "checkpoint_iteration": 25, "learning_rate": 0.0003},
+    {"candidate_id": "C05", "candidate_parameter_sha": "3d05c96b2a25be08b44f01ee54d0098c2b6ffa2525df4440ce619a3cec044432", "checkpoint_iteration": 50, "learning_rate": 0.0003},
+    {"candidate_id": "C06", "candidate_parameter_sha": "3fc64d23a1633a599144e11219594bb347f708c866219464a0800e2d3547493e", "checkpoint_iteration": 100, "learning_rate": 0.0003},
+    {"candidate_id": "C07", "candidate_parameter_sha": "6daf39f0864306691377c971871b6ca560f0fdef21c1adf63fdc3a9055a71444", "checkpoint_iteration": 25, "learning_rate": 0.001},
+    {"candidate_id": "C08", "candidate_parameter_sha": "27ab73e5abee5810553ac84b33d7aea4fdd56e8ac5963e026eef966f2c5c28c1", "checkpoint_iteration": 50, "learning_rate": 0.001},
+    {"candidate_id": "C09", "candidate_parameter_sha": "6baafc03b0b63512b3a66a1ae8f1ce1ce7e774395787626b49905e7b72cd1841", "checkpoint_iteration": 100, "learning_rate": 0.001}
+  ],
+  "deterministic_action_rule": "argmax; if tied within 1e-12 prefer frozen Prompt action when tied, otherwise BUY/HOLD/SELL order",
+  "expected_outputs": {
+    "candidate_validation_scores.json": "9 correctness-valid candidate scores",
+    "selected_global_checkpoint": ["model.pt", "candidate_manifest.json", "manifest.json"],
+    "selection_audit.json": "AUDIT_ONLY deterministic replay",
+    "selection_result.json": "one mechanical selection and complete binding",
+    "validation_decisions.jsonl": "144 candidate-decision records"
+  },
+  "initial_portfolio": {
+    "cash_usd": 100000.0,
+    "commission_bps": 5.0,
+    "fractional_shares": true,
+    "leverage": false,
+    "long_only": true,
+    "quantity": 0.0,
+    "slippage_bps": 5.0,
+    "target_actions": {"BUY": "100% long", "HOLD": "preserve position", "SELL": "0% long"}
+  },
+  "market_snapshot_identity": "3afc723888666e0ca3a12219a57dc577d6cf3953717da731b774634f4aff1445",
+  "method_identity": "M2-PA-CTPPO-v2",
+  "m2_11_initial_parameter_sha": "60a0fec7b69ef2d0576a9c0894be09c377d573585db827c162279fb27483303e",
+  "m2_11_trainer_sha": "178746e23ff8cf0195529fc92adf5f7b533d24d3",
+  "m2_11_training_plan_sha": "00184248dbb0d51c06c27514bfb2abf4e913c345",
+  "online_adaptation": false,
+  "protected_access_prohibited": ["FINAL_HOLDOUT", "E2E_PILOT", "Formal 2024H1", "M1 performance", "M0 performance", "live market data", "raw FinMultiTime"],
+  "representation_identity": "6e3b11863bc3ec214444326a269477e465101afb866f30e80698f37c7148d2fe",
+  "reward_identity": "R3_HOLD_RELATIVE_DRAWDOWN_UTILITY",
+  "reward_maturity": "fifth subsequent XNYS close, decoupled from weekly child-state endpoint",
+  "schema_version": "M2-12-SELECTION-PLAN-v1",
+  "selection_rule": {
+    "primary_metric": "equal-weight mean sequential local R3 across all 16 VALIDATION decisions",
+    "tie_breaks": ["higher worst-symbol cumulative R3", "lower Prompt override rate", "smaller learning rate", "earlier checkpoint"],
+    "tie_tolerance": 1e-8
+  },
+  "selection_tie_tolerance": 1e-8,
+  "selector_source_sha": "e17fcd45a66cd46dc1904839039622bce333e37b",
+  "sequential_transition": "eight independent symbol portfolios; 2023-06-30 selected action changes the 2023-07-07 portfolio observation; no future reward enters child state",
+  "status": "PREREGISTERED — VALIDATION PERFORMANCE NOT YET INSPECTED",
+  "task_id": "M2-12",
+  "training_or_parameter_update": false,
+  "validation_cases": [
+    {"decision_session": "2023-06-30", "symbol": "AAPL"}, {"decision_session": "2023-07-07", "symbol": "AAPL"},
+    {"decision_session": "2023-06-30", "symbol": "AMZN"}, {"decision_session": "2023-07-07", "symbol": "AMZN"},
+    {"decision_session": "2023-06-30", "symbol": "JPM"}, {"decision_session": "2023-07-07", "symbol": "JPM"},
+    {"decision_session": "2023-06-30", "symbol": "JBSS"}, {"decision_session": "2023-07-07", "symbol": "JBSS"},
+    {"decision_session": "2023-06-30", "symbol": "EML"}, {"decision_session": "2023-07-07", "symbol": "EML"},
+    {"decision_session": "2023-06-30", "symbol": "AGI"}, {"decision_session": "2023-07-07", "symbol": "AGI"},
+    {"decision_session": "2023-06-30", "symbol": "ARR"}, {"decision_session": "2023-07-07", "symbol": "ARR"},
+    {"decision_session": "2023-06-30", "symbol": "AEMD"}, {"decision_session": "2023-07-07", "symbol": "AEMD"}
+  ],
+  "validation_population_identity": "3697d03bef9461a42f9ff1b10b0595d9fd95cedf8f4d7d2691851677df24322b"
+}
