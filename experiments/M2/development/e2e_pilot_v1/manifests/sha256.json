@@ -1,9 +1,9 @@
 {
   "algorithm": "SHA-256",
   "files": {
-    "README.md": "ab55d18dc637d5ff1c4e6fd4d678367f4e76f9447ad26ef78f339b52c2934949",
+    "README.md": "66b03f194a1705f49b4ea77f85fde596594420c82049dd85ab5db05df84e8ba1",
     "blocked_audit.json": "7093f03f387571d9b89c3f422f17fb9cf2b409b92dcfc420b07ac5cac27fb6a7",
-    "evidence_wiring_erratum.json": "6e8fd3b6790bcec40fd180751430707e8330dc92509a703750fcf082111751ab",
+    "evidence_wiring_erratum.json": "1013330b0b28c5324382c1f78263e3a0a6c6620eb3df4305f0f91f5d28a7ef16",
     "input_freeze/inputs/corporate_actions/AAPL.csv": "9316b6385578a132a07d4686ba939ec6e0011973b89f792dce76df0b5fe99c1b",
     "input_freeze/inputs/corporate_actions/AEMD.csv": "33d68451968a1c1818d47f6693291ce0e201bc7c6708be9fff3de796224b70a9",
     "input_freeze/inputs/corporate_actions/AGI.csv": "c570b23ac36b084fb7a4fef09371717efd25732008ffc938db5d3c1d3048c632",
@@ -23,6 +23,7 @@
     "input_freeze/inputs/market_data/JBSS.csv": "bcb20a202e81931791bb1c89795abb57a94ee773c6641a981ced247734de3a45",
     "input_freeze/inputs/market_data/JPM.csv": "281db258d6b2b293095b444557ea80167566f9ec001c200f0821a9f6dcf4d9b8",
     "input_freeze/inputs/market_data/SPY.csv": "9db8486bceaa506061586b75888bc95d0625e0a15150d97e8176c90e75f11eba",
-    "preflight.json": "ae27567704f5464b2bebc6961a74830ae7b9b6114a7b238457d9bd0ac36a137a"
+    "preflight.json": "ae27567704f5464b2bebc6961a74830ae7b9b6114a7b238457d9bd0ac36a137a",
+    "retry3_blocked_audit.json": "72507326754207b95e565e28cd0fb6b1a1adc4beda4c405806b6d502cf3cacb0"
   }
 }

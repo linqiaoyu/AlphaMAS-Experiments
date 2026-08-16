@@ -1,0 +1,66 @@
+{
+  "schema_version": "M2-14-RETRY3-BLOCKED-AUDIT-v1",
+  "task_id": "M2-14-Retry-3",
+  "created_at_utc": "2026-08-16T14:05:00Z",
+  "status": "BLOCKED",
+  "blocker": "Two E2E candidates silently restored the original Prompt Trader action after an authoritative M2 Actor override.",
+  "execution_source_sha": "1accde903b81f18edda8afa566382ee2f6979424",
+  "publication_fix_source_sha": "c7ca4de3a8ba4559338e532fd2111648a386330d",
+  "audit_record_source_sha": "e257317e6deb74d21dbe3bb2ba45c910125d3c2b",
+  "run_id": "20260816T131429511226Z_1accde90",
+  "memory_lineage_id": "20260816T122459032810Z_1accde90",
+  "candidate_trajectories_completed": 8,
+  "correctness_valid_cases": 6,
+  "invalid_cases": [
+    "ARR:2023-10-06",
+    "AEMD:2023-10-06"
+  ],
+  "authority_audit": {
+    "mismatch_count": 2,
+    "silent_prompt_restoration_count": 2,
+    "arr": {
+      "m2_override": true,
+      "final_equals_prompt": true,
+      "final_equals_m2": false,
+      "silent_prompt_restoration": true
+    },
+    "aemd": {
+      "m2_override": true,
+      "final_equals_prompt": true,
+      "final_equals_m2": false,
+      "silent_prompt_restoration": true
+    },
+    "performance_inspected": false
+  },
+  "publication_recovery": {
+    "status": "PASS",
+    "case_count": 8,
+    "memory_scope": "M2_E2E_PILOT",
+    "artifact_bundle_status": "passed",
+    "agent_reruns": 0,
+    "deepseek_calls": 0
+  },
+  "safe_resume": {
+    "completed_cache_hits_preserved": 3,
+    "unpublished_partial_case_rolled_back": "JBSS:2023-10-06",
+    "completed_cases_replaced": 0
+  },
+  "protected": {
+    "final_holdout_agent_executions": 0,
+    "final_holdout_outcome_inspection": false,
+    "formal_2024h1_agent_executions": 0,
+    "formal_2024h1_result_inspection": false
+  },
+  "cost": {
+    "aws_starts_retry3": 5,
+    "gpu_runtime_seconds_estimate": 6145,
+    "retry3_incremental_aws_usd_estimate": 2.179768,
+    "m2_14_cumulative_aws_usd_estimate": 2.971508,
+    "hard_ceiling_usd": 3.0,
+    "remaining_usd_estimate": 0.028492,
+    "another_corrective_execution_authorized_by_cost_gate": false
+  },
+  "completion_artifacts_created": false,
+  "preformal_environment_frozen": false,
+  "m2_15_started": false
+}
