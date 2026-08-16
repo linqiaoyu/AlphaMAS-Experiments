@@ -24,6 +24,8 @@
     "input_freeze/inputs/market_data/JPM.csv": "281db258d6b2b293095b444557ea80167566f9ec001c200f0821a9f6dcf4d9b8",
     "input_freeze/inputs/market_data/SPY.csv": "9db8486bceaa506061586b75888bc95d0625e0a15150d97e8176c90e75f11eba",
     "preflight.json": "ae27567704f5464b2bebc6961a74830ae7b9b6114a7b238457d9bd0ac36a137a",
-    "retry3_blocked_audit.json": "72507326754207b95e565e28cd0fb6b1a1adc4beda4c405806b6d502cf3cacb0"
+    "retry3_authority_audit_erratum.json": "e98296cbe7d4669772d2af0e3f67a6b2bce9bf71177f7ab2b6e506da2c22bc48",
+    "retry3_blocked_audit.json": "72507326754207b95e565e28cd0fb6b1a1adc4beda4c405806b6d502cf3cacb0",
+    "retry3_corrected_authority_audit.json": "69e23595ea3a3d7c9bcc6a94e4dc1e1b33de5b179ed3e871b5cf2badfd8cd101"
   }
 }

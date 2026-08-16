@@ -1,0 +1,7 @@
+{
+  "algorithm": "SHA-256",
+  "files": {
+    "README.md": "b5b8472bf4bf7da1c0c24f10354a7938b1007d0d18647c5a61ab6bf015cf67ef",
+    "preformal_environment_freeze.json": "06e160f70696dec6ff6ed98c31ace397c8dfd4d752679b0bd4de723244774082"
+  }
+}

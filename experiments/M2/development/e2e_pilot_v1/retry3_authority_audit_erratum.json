@@ -1,0 +1,50 @@
+{
+  "schema_version": "M2-14-RETRY3-AUTHORITY-AUDIT-ERRATUM-v1",
+  "task_id": "M2-14-Resolution",
+  "created_at_utc": "2026-08-16T14:30:17Z",
+  "classification": "AUDIT_SEMANTICS_CORRECTION",
+  "architecture_change": false,
+  "retry3_blocked_audit": {
+    "path": "retry3_blocked_audit.json",
+    "sha256": "72507326754207b95e565e28cd0fb6b1a1adc4beda4c405806b6d502cf3cacb0",
+    "bytes_modified": false,
+    "status": "HISTORICAL_SUPERSEDED_INTERPRETATION"
+  },
+  "original_interpretation": "An M2 override followed by a Portfolio Manager action equal to the Prompt action and unequal to the M2 action necessarily proves silent Prompt restoration.",
+  "corrected_interpretation": "The M2 Actor is authoritative only for the Trader-slot handoff. Portfolio Manager disagreement is valid when Risk and Portfolio Manager consumed the intact handoff and execution followed the Portfolio Manager final decision.",
+  "source_contract_evidence": {
+    "architecture_identity_sha256": "35c5a46616f654ce70b0badc01cd59fb0afd433dcdcd99e5e0b8f2419ec4d153",
+    "source_markdown_erratum_sha256": "3ddea44d4e70d715873b36f8b708db9536e68523e03ad3748dd8691ae97f052a",
+    "source_json_erratum_sha256": "adf903cf716b5b90402c13ee8debf464949aa392a5d6df8ebb81dbdab380997f",
+    "execution_source_sha": "1accde903b81f18edda8afa566382ee2f6979424",
+    "m2_actor_direct_portfolio_executor": false,
+    "portfolio_manager_final_policy_decision": true,
+    "portfolio_manager_may_differ_from_m2": true
+  },
+  "corrected_audit": {
+    "path": "retry3_corrected_authority_audit.json",
+    "sha256": "69e23595ea3a3d7c9bcc6a94e4dc1e1b33de5b179ed3e871b5cf2badfd8cd101",
+    "status": "PASS",
+    "structural_mismatches": 0,
+    "correctness_valid_cases": 8,
+    "total_cases": 8,
+    "arr": "CORRECTNESS_VALID",
+    "aemd": "CORRECTNESS_VALID"
+  },
+  "preservation": {
+    "existing_trajectories_reused": 8,
+    "agent_trajectories_regenerated": 0,
+    "trajectory_cherry_picking": false,
+    "performance_used": false,
+    "protected_results_inspected": false
+  },
+  "resolution_resource_use": {
+    "deepseek_calls": 0,
+    "qwen_calls": 0,
+    "aws_starts": 0,
+    "gpu_runtime_seconds": 0,
+    "incremental_aws_usd": 0,
+    "live_market_data_calls": 0,
+    "raw_finmultitime_access": false
+  }
+}

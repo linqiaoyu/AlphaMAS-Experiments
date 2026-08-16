@@ -1,0 +1,91 @@
+{
+  "schema_version": "M2-PREFORMAL-ENVIRONMENT-ARCHIVE-v1",
+  "task_id": "M2-14-Resolution",
+  "created_at_utc": "2026-08-16T14:30:17Z",
+  "status": "FROZEN_FOR_M2_15",
+  "starting_lineage": {
+    "source_sha": "e257317e6deb74d21dbe3bb2ba45c910125d3c2b",
+    "experiments_sha": "e31f804acb56b7df2975bf23342f8c501bdff37c"
+  },
+  "source_freeze": {
+    "markdown_path": "docs/m2/M2_PREFORMAL_ENVIRONMENT_FREEZE.md",
+    "markdown_sha256": "bea15335b67ef13c16bddb7403b1c515bb0a1a2a825e71271f3ef741b7ac625a",
+    "json_path": "docs/m2/m2_preformal_environment_freeze.json",
+    "json_sha256": "03e3b2f2c00311d079f62c9a2fa7ce2726fcf840875c6929f34103f5ac1eb35d"
+  },
+  "frozen_identities": {
+    "architecture": "35c5a46616f654ce70b0badc01cd59fb0afd433dcdcd99e5e0b8f2419ec4d153",
+    "m2_06_evidence": "3e9bb6e66fcd998c0b4deff30f7d5728c563126d3a1b976e21bbf034174e4420",
+    "m2_08_semantic_corpus": "cc1fea692489a5b5791cae1fd96386bfbcf1f0a07f2ea3e22637dd3c43533a43",
+    "m2_09_representation": "6e3b11863bc3ec214444326a269477e465101afb866f30e80698f37c7148d2fe",
+    "reward": "R3_HOLD_RELATIVE_DRAWDOWN_UTILITY",
+    "m2_10a_tree": "ff5e1bf21ef90b9eeec96d257c59e83656957f32ec4d2f94396a0a5d4bf1db13",
+    "c09_parameter": "6baafc03b0b63512b3a66a1ae8f1ce1ce7e774395787626b49905e7b72cd1841",
+    "c09_actor": "5af9a28baaf2dc25687e65a7bf8bbefb047fa1a9664b05257bfbf78d2ac5b14d",
+    "c09_critic": "e55f942699d47eeab16d92b8ad3ff7277306239a8d1ba7d542f14080c86d5416",
+    "c09_model_file": "56dc52128e1df9c9ddcf79fa6f7b293393bd61306ba4ef032f96cad6bf92126c",
+    "o08": "LR=1e-3; epochs=2; AdamW; weight_decay=1e-4; gradient_clip=0.5; seed=20260816; fast_parameters_per_symbol=165",
+    "a1_a2_preregistration": "e7e2cc8520f9033e57c442b04c882baffd7c51b497bbc9495b71098f64a83b0e"
+  },
+  "authority": {
+    "m2_actor_is_direct_portfolio_executor": false,
+    "portfolio_manager_remains_final_policy_decision": true,
+    "portfolio_manager_may_differ_from_m2_trader_action": true,
+    "architecture_change": false,
+    "source_erratum_markdown_sha256": "3ddea44d4e70d715873b36f8b708db9536e68523e03ad3748dd8691ae97f052a",
+    "source_erratum_json_sha256": "adf903cf716b5b90402c13ee8debf464949aa392a5d6df8ebb81dbdab380997f"
+  },
+  "e2e": {
+    "run_id": "20260816T131429511226Z_1accde90",
+    "memory_lineage_id": "20260816T122459032810Z_1accde90",
+    "trajectories_reused": 8,
+    "trajectories_regenerated": 0,
+    "correctness_valid_cases": 8,
+    "structural_mismatches": 0,
+    "corrected_audit_path": "../e2e_pilot_v1/retry3_corrected_authority_audit.json",
+    "corrected_audit_sha256": "69e23595ea3a3d7c9bcc6a94e4dc1e1b33de5b179ed3e871b5cf2badfd8cd101",
+    "supersession_path": "../e2e_pilot_v1/retry3_authority_audit_erratum.json",
+    "supersession_sha256": "e98296cbe7d4669772d2af0e3f67a6b2bce9bf71177f7ab2b6e506da2c22bc48",
+    "historical_blocked_audit_path": "../e2e_pilot_v1/retry3_blocked_audit.json",
+    "historical_blocked_audit_sha256": "72507326754207b95e565e28cd0fb6b1a1adc4beda4c405806b6d502cf3cacb0",
+    "historical_blocked_audit_bytes_modified": false,
+    "trajectory_cherry_picking": false,
+    "performance_used": false
+  },
+  "delayed_credit": {
+    "terminal_credit_per_case": 1,
+    "terminal_status": "ARCHIVED",
+    "post_horizon_updates": 0,
+    "duplicate_applications": 0,
+    "premature_applications": 0,
+    "cross_symbol_mutations": 0,
+    "global_backbone_mutations": 0
+  },
+  "safe_resume": {
+    "completed_cache_hits_preserved": 3,
+    "unpublished_partial_case_rolled_back": "JBSS:2023-10-06",
+    "completed_cases_replaced": 0,
+    "symbol_states_isolated": true,
+    "stale_downstream_state": false
+  },
+  "protected": {
+    "final_holdout_agent_executions": 0,
+    "final_holdout_deepseek_calls": 0,
+    "final_holdout_outcome_or_reward_inspected": false,
+    "formal_2024h1_agent_executions": 0,
+    "formal_2024h1_results_inspected": false,
+    "raw_finmultitime_access": false
+  },
+  "resource_gate": {
+    "resolution_deepseek_calls": 0,
+    "resolution_qwen_calls": 0,
+    "resolution_aws_starts": 0,
+    "resolution_gpu_runtime_seconds": 0,
+    "resolution_live_market_data_calls": 0,
+    "resolution_incremental_aws_usd": 0,
+    "m2_14_cumulative_aws_usd_estimate": 2.971508,
+    "required_final_ec2_state": "STOPPED",
+    "required_running_alphamas_g5_xlarge": 0
+  },
+  "research_invariance": "ALL FROZEN RESEARCH COMPONENTS UNCHANGED; ONLY AUTHORITY AUDIT INTERPRETATION CORRECTED"
+}
