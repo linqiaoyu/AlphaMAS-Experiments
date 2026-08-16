@@ -1,0 +1,79 @@
+{
+  "schema_version": "M2-E2E-PILOT-PREFLIGHT-v1",
+  "task_id": "M2-14",
+  "status": "PASS_BEFORE_FIRST_PAID_CALL",
+  "created_at_utc": "2026-08-16T03:26:05Z",
+  "phase_a": {
+    "source_sha": "daa0ea288e829ba4a1488846a4246717b47ced71",
+    "source_remote_verified": true,
+    "experiments_sha": "5250211e5107671ff1751ea70c8bbbafd68a4ba3",
+    "experiments_remote_verified": true
+  },
+  "architecture_identity": "35c5a46616f654ce70b0badc01cd59fb0afd433dcdcd99e5e0b8f2419ec4d153",
+  "ablation_preregistration_identity": "e7e2cc8520f9033e57c442b04c882baffd7c51b497bbc9495b71098f64a83b0e",
+  "c09": {
+    "parameter_sha256": "6baafc03b0b63512b3a66a1ae8f1ce1ce7e774395787626b49905e7b72cd1841",
+    "model_file_sha256": "56dc52128e1df9c9ddcf79fa6f7b293393bd61306ba4ef032f96cad6bf92126c"
+  },
+  "encoder": {
+    "repo": "Qwen/Qwen3-Embedding-0.6B",
+    "revision": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
+    "snapshot_identity": "1d7b1bddebe83694815066f5254c5b0c7a1d05febd4e2b9e2120f2ec3fe3c018",
+    "snapshot_manifest_sha256": "0c23f3483a7560f5586e81e5b6283cc944dd0cb20a7fc11db905064bcfa03c14"
+  },
+  "evidence": {
+    "corpus_identity": "3e9bb6e66fcd998c0b4deff30f7d5728c563126d3a1b976e21bbf034174e4420",
+    "corpus_manifest_sha256": "85f5c6421dcdfcc92436cda6ce7d4f7b3d36d27d3c2e346fcef9066a11e660ea",
+    "role": "E2E_PILOT",
+    "case_count": 8,
+    "raw_finmultitime_reads": 0,
+    "qwen3_vl_calls": 0
+  },
+  "market_snapshot": {
+    "provider_at_freeze": "yfinance",
+    "agent_prompt_evidence": false,
+    "first_session": "2022-10-05",
+    "last_session": "2023-10-13",
+    "rows_per_symbol": 258,
+    "symbols": ["AAPL", "AMZN", "JPM", "JBSS", "EML", "AGI", "ARR", "AEMD", "SPY"],
+    "canonical_file_mapping_identity_sha256": "54f50cb308b0ba3be4c80a088f1440374d5be09e64a30349a83867d3ac96c6b2",
+    "data_manifest_sha256": "93079cf0f994f467ad6cae6a3601bbdf38129ba64d09cc3d42230a38a6c69492",
+    "missing_sessions": 0
+  },
+  "deepseek_cost_guard": {
+    "currency": "CNY",
+    "pricing_snapshot_identity": "f27fd57a4e63fa415f0e799b57a29b64bfae8a39ef85240ecddb36d88b4be9f3",
+    "cache_miss_input_cny_per_million": 1.0,
+    "output_cny_per_million": 2.0,
+    "prior_max_first_decision_no_cache_cny": 0.399814,
+    "case_count": 8,
+    "base_projection_cny": 3.198512,
+    "reserve_multiplier": 2.0,
+    "conservative_projection_cny": 6.397024,
+    "hard_ceiling_cny": 10.0,
+    "pass": true
+  },
+  "aws_cost_guard": {
+    "catalog_checked_at_utc": "2026-08-16T03:26:05Z",
+    "instance_type": "g5.xlarge",
+    "region": "eu-west-2",
+    "on_demand_usd_per_hour": 1.277,
+    "auto_stop_minutes": 90,
+    "worst_case_auto_stop_compute_usd": 1.9155,
+    "hard_ceiling_usd": 3.0,
+    "pass": true
+  },
+  "aws_inventory": {
+    "canonical_instance_count": 1,
+    "canonical_instance_state": "stopped",
+    "gpu": "NVIDIA A10G",
+    "encrypted_attached_volume_sizes_gib": [64, 75],
+    "running_alphamas_tagged_gpu_instances": 0
+  },
+  "protected": {
+    "final_holdout_agent_execution": 0,
+    "final_holdout_outcome_inspection": false,
+    "formal_2024h1_agent_execution": 0,
+    "formal_result_inspection": false
+  }
+}

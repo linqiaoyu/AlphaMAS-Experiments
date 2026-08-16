@@ -1,0 +1,26 @@
+{
+  "algorithm": "SHA-256",
+  "files": {
+    "README.md": "ab55d18dc637d5ff1c4e6fd4d678367f4e76f9447ad26ef78f339b52c2934949",
+    "input_freeze/inputs/corporate_actions/AAPL.csv": "9316b6385578a132a07d4686ba939ec6e0011973b89f792dce76df0b5fe99c1b",
+    "input_freeze/inputs/corporate_actions/AEMD.csv": "33d68451968a1c1818d47f6693291ce0e201bc7c6708be9fff3de796224b70a9",
+    "input_freeze/inputs/corporate_actions/AGI.csv": "c570b23ac36b084fb7a4fef09371717efd25732008ffc938db5d3c1d3048c632",
+    "input_freeze/inputs/corporate_actions/AMZN.csv": "b3c37bf0140d4566853c233081c92e24a0a75b479ab8e2deb6f78d46a8602bd9",
+    "input_freeze/inputs/corporate_actions/ARR.csv": "e684c9b45d778a293ff01601ad8cb8807f4b084010bf97243768ac1975b916b7",
+    "input_freeze/inputs/corporate_actions/EML.csv": "d8fb0c1b2aeeb82e10f5967932e001d5127bc42fa30e4f6c7dfb0f996c8ae3f3",
+    "input_freeze/inputs/corporate_actions/JBSS.csv": "def6308e0444750a5764b208445904b8e3e3154f65a392353fca9324952d35a8",
+    "input_freeze/inputs/corporate_actions/JPM.csv": "67de4343ad0639f82ac12febe44de59a10fbb22a98777c6a9a30c2da2c9bc3ce",
+    "input_freeze/inputs/corporate_actions/SPY.csv": "1043dd03a3ccd8bfbd6545c40e58f957a1ed438207749881b8c0af6e7820deba",
+    "input_freeze/inputs/data_manifest.json": "93079cf0f994f467ad6cae6a3601bbdf38129ba64d09cc3d42230a38a6c69492",
+    "input_freeze/inputs/market_data/AAPL.csv": "1d154308137c8497b181a5481a0f3cef0127d191731fa5077701ae5f3050b679",
+    "input_freeze/inputs/market_data/AEMD.csv": "eb9ab13ccb746ca7d0984eab896ff7f358eba88c1b04c3ef69600bbe7e476986",
+    "input_freeze/inputs/market_data/AGI.csv": "02044e5bd0844388a90b0900f805dc5fa142a80fef61cbccf1cc21b22ae42b3b",
+    "input_freeze/inputs/market_data/AMZN.csv": "6bd91fed5ff32d9a66ea83d5371eac4b57fcfa72763fc949969432552e29fc70",
+    "input_freeze/inputs/market_data/ARR.csv": "3eda258b5a44caabb20b899589f3119c1531cd489952222040666182b7fd169e",
+    "input_freeze/inputs/market_data/EML.csv": "315cc5dbe277d24bb768058e75a52aea0ac95e8e3592e99ca6dbb7729c14e634",
+    "input_freeze/inputs/market_data/JBSS.csv": "bcb20a202e81931791bb1c89795abb57a94ee773c6641a981ced247734de3a45",
+    "input_freeze/inputs/market_data/JPM.csv": "281db258d6b2b293095b444557ea80167566f9ec001c200f0821a9f6dcf4d9b8",
+    "input_freeze/inputs/market_data/SPY.csv": "9db8486bceaa506061586b75888bc95d0625e0a15150d97e8176c90e75f11eba",
+    "preflight.json": "ae27567704f5464b2bebc6961a74830ae7b9b6114a7b238457d9bd0ac36a137a"
+  }
+}
