@@ -1,0 +1,26 @@
+{
+  "affected_depth_3_action_edges": 648,
+  "affected_depth_3_nodes": 216,
+  "blocked_method_runner": "f779069ab4b133b5421ff4d9b6a972e44f48712e",
+  "corrected_method": "M2-PA-CTPPO-v2",
+  "correctness_erratum": true,
+  "counterexample": {
+    "action_execution_session": "2023-05-30",
+    "child_decision_session": "2023-06-02",
+    "decision_session": "2023-05-26",
+    "reward_maturity_session": "2023-06-05"
+  },
+  "deepseek_calls": 0,
+  "defect": "next weekly state incorrectly tied to five-session R3 maturity",
+  "e2e_pilot_performance_used": false,
+  "final_holdout_inspected": false,
+  "formal_2024_performance_used": false,
+  "original_method": "M2-PA-CTPPO-v1",
+  "original_plan_commit": "89c84945e19a5a532b7afc042300e2ea17377a79",
+  "qwen_calls": 0,
+  "raw_finmultitime_accessed": false,
+  "schema_version": "M2-10A-CHRONOLOGY-ERRATUM-v1",
+  "task_id": "M2-10A",
+  "training_performed_before_detection": false,
+  "validation_performance_inspected": false
+}
