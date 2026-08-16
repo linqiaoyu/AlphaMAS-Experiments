@@ -3,7 +3,7 @@
   "files": {
     "README.md": "ab55d18dc637d5ff1c4e6fd4d678367f4e76f9447ad26ef78f339b52c2934949",
     "blocked_audit.json": "7093f03f387571d9b89c3f422f17fb9cf2b409b92dcfc420b07ac5cac27fb6a7",
-    "evidence_wiring_erratum.json": "c17b12c252fb8ddaa3699d8df5fb96ea983387d549a229c78fbeea497fb42147",
+    "evidence_wiring_erratum.json": "1309973532eee4641bbc637fa4bb44e50996280363c05bb49cfef441c829a8f2",
     "input_freeze/inputs/corporate_actions/AAPL.csv": "9316b6385578a132a07d4686ba939ec6e0011973b89f792dce76df0b5fe99c1b",
     "input_freeze/inputs/corporate_actions/AEMD.csv": "33d68451968a1c1818d47f6693291ce0e201bc7c6708be9fff3de796224b70a9",
     "input_freeze/inputs/corporate_actions/AGI.csv": "c570b23ac36b084fb7a4fef09371717efd25732008ffc938db5d3c1d3048c632",
