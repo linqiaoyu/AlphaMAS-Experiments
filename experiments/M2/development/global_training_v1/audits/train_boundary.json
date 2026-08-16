@@ -1,0 +1,10 @@
+{
+  "action_credits": 26232,
+  "e2e_pilot_nodes": 0,
+  "final_holdout_nodes": 0,
+  "roles_present": [
+    "TRAIN"
+  ],
+  "train_nodes": 8744,
+  "validation_optimisation_nodes": 0
+}

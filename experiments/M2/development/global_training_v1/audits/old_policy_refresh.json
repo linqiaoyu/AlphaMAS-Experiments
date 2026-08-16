@@ -1,0 +1,9 @@
+{
+  "canonical_iterations": 300,
+  "inside_block_violations": 0,
+  "old_policy_frozen_inside_four_epoch_blocks": true,
+  "old_policy_refreshed_between_iterations": true,
+  "outer_iterations_audited": 600,
+  "replay_iterations": 300,
+  "stale_policy_violations": 0
+}

@@ -1,0 +1,76 @@
+{
+  "action_credits": 26232,
+  "candidate_count": 9,
+  "canonical_training": [
+    {"correctness_valid": true, "iterations_completed": 100, "learning_rate": 0.0001, "nan_inf": 0, "safe_resumes": 0},
+    {"correctness_valid": true, "iterations_completed": 100, "learning_rate": 0.0003, "nan_inf": 0, "safe_resumes": 0},
+    {"correctness_valid": true, "iterations_completed": 100, "learning_rate": 0.001, "nan_inf": 0, "safe_resumes": 0}
+  ],
+  "deepseek_api_calls": 0,
+  "deepseek_cost_cny": 0,
+  "determinism": {
+    "audit_replay_lr_runs": 3,
+    "candidate_checkpoints_compared": 9,
+    "canonical_lr_runs": 3,
+    "parameter_sha_mismatches": 0,
+    "status": "PASS"
+  },
+  "e2e_pilot_nodes": 0,
+  "epochs_per_outer_iteration": 4,
+  "final_holdout_nodes": 0,
+  "full_batch": true,
+  "initial_parameter_sha": "60a0fec7b69ef2d0576a9c0894be09c377d573585db827c162279fb27483303e",
+  "method": "M2-PA-CTPPO-v2",
+  "numerical_invariants": {
+    "maximum_weighted_advantage_residual": 1.734723475976807e-17,
+    "nan_inf_count": 0,
+    "occupancy_depth_mass": "PASS",
+    "probabilities": "PASS"
+  },
+  "old_policy_chronology": {
+    "canonical_outer_iterations": 300,
+    "inside_block_violations": 0,
+    "old_policy_frozen_inside_four_epoch_blocks": true,
+    "old_policy_refreshed_between_iterations": true,
+    "replay_outer_iterations": 300,
+    "stale_policy_violations": 0
+  },
+  "protected_evaluation": {
+    "candidate_selection_performed": false,
+    "e2e_pilot_performance_inspected": false,
+    "final_holdout_accessed": false,
+    "formal_2024_result_used": false,
+    "validation_performance_inspected": false,
+    "validation_reward_used_for_optimisation": false
+  },
+  "qwen_calls": 0,
+  "raw_finmultitime_accessed": false,
+  "representation_identity": "6e3b11863bc3ec214444326a269477e465101afb866f30e80698f37c7148d2fe",
+  "research_invariance": {
+    "actor_critic_architecture_changed": false,
+    "formal_protocol_changed": false,
+    "m2_06_corpus_changed": false,
+    "m2_08_corpus_changed": false,
+    "m2_09_representation_changed": false,
+    "m2_10a_chronology_changed": false,
+    "m2_10a_tree_changed": false,
+    "pa_ctppo_v2_changed": false,
+    "prompt_prior_changed": false,
+    "r3_changed": false,
+    "train_membership_changed": false,
+    "validation_membership_changed": false,
+    "weekly_decision_schedule_changed": false
+  },
+  "reward": "R3_HOLD_RELATIVE_DRAWDOWN_UTILITY",
+  "schema_version": "M2-11-TRAINING-SUMMARY-v1",
+  "seed": 20260816,
+  "selected_candidate": null,
+  "selection_rule": "FROZEN",
+  "selection_status": "DEFERRED_TO_M2_12",
+  "task": "M2-11",
+  "train_nodes": 8744,
+  "trainer_sha": "178746e23ff8cf0195529fc92adf5f7b533d24d3",
+  "training_plan_sha": "00184248dbb0d51c06c27514bfb2abf4e913c345",
+  "tree_identity": "ff5e1bf21ef90b9eeec96d257c59e83656957f32ec4d2f94396a0a5d4bf1db13",
+  "validation_optimisation_nodes": 0
+}

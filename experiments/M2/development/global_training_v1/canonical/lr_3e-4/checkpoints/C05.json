@@ -1,0 +1,23 @@
+{
+  "actor_parameter_sha": "f68b1569e98123d7a1106dff9597c0e0cc2bbd12de1da837a448e6081212fa0d",
+  "candidate_id": "C05",
+  "candidate_parameter_sha": "3d05c96b2a25be08b44f01ee54d0098c2b6ffa2525df4440ce619a3cec044432",
+  "critic_parameter_sha": "2d0a617fb9e829f13672d3668f37b5e1d7fc6c072bc6d4bb43bb25af539879cc",
+  "initial_parameter_sha": "60a0fec7b69ef2d0576a9c0894be09c377d573585db827c162279fb27483303e",
+  "learning_rate": 0.0003,
+  "method_identity": "M2-PA-CTPPO-v2",
+  "outer_iteration": 50,
+  "parameter_count": 20197,
+  "replay_status": null,
+  "representation_identity": "6e3b11863bc3ec214444326a269477e465101afb866f30e80698f37c7148d2fe",
+  "reward_identity": "R3_HOLD_RELATIVE_DRAWDOWN_UTILITY",
+  "run_kind": "canonical",
+  "schema_version": "M2-11-CANDIDATE-CHECKPOINT-v1",
+  "seed": 20260816,
+  "selection_eligible": true,
+  "selection_status": "DEFERRED_TO_M2_12",
+  "trainer_sha": "178746e23ff8cf0195529fc92adf5f7b533d24d3",
+  "training_plan_sha": "00184248dbb0d51c06c27514bfb2abf4e913c345",
+  "training_trace_sha": "34a099e0ab4b37b8c4bd9ec6d6f605a648a8754b630218919f42cb46b727feb0",
+  "tree_identity": "ff5e1bf21ef90b9eeec96d257c59e83656957f32ec4d2f94396a0a5d4bf1db13"
+}

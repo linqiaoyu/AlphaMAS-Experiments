@@ -1,0 +1,7 @@
+{
+  "advantage_threshold": 1e-10,
+  "maximum_weighted_advantage_residual": 1.734723475976807e-17,
+  "nan_inf_count": 0,
+  "occupancy_depth_mass": "PASS",
+  "probabilities": "PASS"
+}

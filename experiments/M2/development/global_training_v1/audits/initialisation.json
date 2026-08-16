@@ -1,0 +1,25 @@
+{
+  "actor_parameter_sha": "d13b9344dba9440c46ff9f9d380913585f5b85cfed9dba8e75d9a79d82e1cc2a",
+  "critic_parameter_sha": "b640456f03ff5e33554583fac238ad368644c84d7c96780eb95ca5e22b31479f",
+  "e2e_pilot_nodes": 0,
+  "final_holdout_nodes": 0,
+  "inf_parameters": 0,
+  "initial_parameter_sha": "60a0fec7b69ef2d0576a9c0894be09c377d573585db827c162279fb27483303e",
+  "method": "M2-PA-CTPPO-v2",
+  "nan_parameters": 0,
+  "parameter_count": 20197,
+  "prompt_prior_max_abs_difference": 0.0,
+  "representation_identity": "6e3b11863bc3ec214444326a269477e465101afb866f30e80698f37c7148d2fe",
+  "reward": "R3_HOLD_RELATIVE_DRAWDOWN_UTILITY",
+  "roles_present": [
+    "TRAIN"
+  ],
+  "schema_version": "M2-11-INITIAL-CHECKPOINT-v1",
+  "seed": 20260816,
+  "source_sha": "178746e23ff8cf0195529fc92adf5f7b533d24d3",
+  "task": "M2-11",
+  "train_nodes": 8744,
+  "tree_identity": "ff5e1bf21ef90b9eeec96d257c59e83656957f32ec4d2f94396a0a5d4bf1db13",
+  "tree_ordering_sha": "763818459bf54a883348eba6d6db922084a364c06db8307304bbed2f7b8e55a4",
+  "validation_optimisation_nodes": 0
+}

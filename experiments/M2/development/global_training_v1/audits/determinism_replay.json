@@ -1,0 +1,63 @@
+{
+  "audit_replay_lr_runs": 3,
+  "candidate_checkpoints_compared": 9,
+  "canonical_lr_runs": 3,
+  "comparisons": [
+    {
+      "candidate_id": "C01",
+      "canonical_parameter_sha": "9f2864a2ddc00937c55e777537762bee0c01b1a753cb2d81fe07311ba858ed89",
+      "exact_match": true,
+      "replay_parameter_sha": "9f2864a2ddc00937c55e777537762bee0c01b1a753cb2d81fe07311ba858ed89"
+    },
+    {
+      "candidate_id": "C02",
+      "canonical_parameter_sha": "abb0813d118de86cb69202d32b74dc4e63e19b5397db48357f63c38288463a06",
+      "exact_match": true,
+      "replay_parameter_sha": "abb0813d118de86cb69202d32b74dc4e63e19b5397db48357f63c38288463a06"
+    },
+    {
+      "candidate_id": "C03",
+      "canonical_parameter_sha": "57074b8b41ca79acc14f2bfb92c55da556c761cba868f54d946bce038e9eb16f",
+      "exact_match": true,
+      "replay_parameter_sha": "57074b8b41ca79acc14f2bfb92c55da556c761cba868f54d946bce038e9eb16f"
+    },
+    {
+      "candidate_id": "C04",
+      "canonical_parameter_sha": "9d093f23bf1baa90288e2d2e1526a946d0da1af45db5771bb2801afdabf32906",
+      "exact_match": true,
+      "replay_parameter_sha": "9d093f23bf1baa90288e2d2e1526a946d0da1af45db5771bb2801afdabf32906"
+    },
+    {
+      "candidate_id": "C05",
+      "canonical_parameter_sha": "3d05c96b2a25be08b44f01ee54d0098c2b6ffa2525df4440ce619a3cec044432",
+      "exact_match": true,
+      "replay_parameter_sha": "3d05c96b2a25be08b44f01ee54d0098c2b6ffa2525df4440ce619a3cec044432"
+    },
+    {
+      "candidate_id": "C06",
+      "canonical_parameter_sha": "3fc64d23a1633a599144e11219594bb347f708c866219464a0800e2d3547493e",
+      "exact_match": true,
+      "replay_parameter_sha": "3fc64d23a1633a599144e11219594bb347f708c866219464a0800e2d3547493e"
+    },
+    {
+      "candidate_id": "C07",
+      "canonical_parameter_sha": "6daf39f0864306691377c971871b6ca560f0fdef21c1adf63fdc3a9055a71444",
+      "exact_match": true,
+      "replay_parameter_sha": "6daf39f0864306691377c971871b6ca560f0fdef21c1adf63fdc3a9055a71444"
+    },
+    {
+      "candidate_id": "C08",
+      "canonical_parameter_sha": "27ab73e5abee5810553ac84b33d7aea4fdd56e8ac5963e026eef966f2c5c28c1",
+      "exact_match": true,
+      "replay_parameter_sha": "27ab73e5abee5810553ac84b33d7aea4fdd56e8ac5963e026eef966f2c5c28c1"
+    },
+    {
+      "candidate_id": "C09",
+      "canonical_parameter_sha": "6baafc03b0b63512b3a66a1ae8f1ce1ce7e774395787626b49905e7b72cd1841",
+      "exact_match": true,
+      "replay_parameter_sha": "6baafc03b0b63512b3a66a1ae8f1ce1ce7e774395787626b49905e7b72cd1841"
+    }
+  ],
+  "determinism": "PASS",
+  "parameter_sha_mismatches": 0
+}

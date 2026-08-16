@@ -1,6 +1,7 @@
 # M2-11 TRAIN-only global PA-CTPPO-v2 training
 
-Status at this commit: preregistered; no real TRAIN optimisation has run.
+Status: complete and correctness-valid. The preregistration commit preceded all
+real TRAIN optimisation.
 
 This plan binds the exact frozen `M2-PA-CTPPO-v2` method, the canonical v2
 counterfactual tree, seed 20260816, one canonical initial checkpoint, three
@@ -32,3 +33,18 @@ and replay execution are split into separate bounded sessions if necessary.
 
 Candidate selection is not performed here. The frozen Validation selection rule
 remains dormant and selection is deferred to M2-12.
+
+## Completion
+
+All three canonical LR lineages and all three audit-only replay lineages completed
+100 outer iterations with four frozen-old-policy epochs per iteration. The audit
+covered 300 canonical and 300 replay outer iterations. All nine replay checkpoint
+parameter SHAs match their canonical counterparts exactly; stale-policy,
+within-block-refresh, NaN, Inf, occupancy, and parameter-count violations are zero.
+The maximum weighted counterfactual-advantage residual is
+`1.734723475976807e-17`.
+
+The archive contains exactly C01–C09. No candidate has been ranked, preferred,
+recommended, discarded, or selected. Validation performance, Final Holdout,
+E2E Pilot performance, and Formal 2024 results were not accessed. Replay
+checkpoints are audit-only and not selection-eligible.
