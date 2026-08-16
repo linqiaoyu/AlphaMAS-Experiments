@@ -1,0 +1,78 @@
+{
+  "schema_version": "M2-14-PHASE-A-ARCHIVE-v1",
+  "task_id": "M2-14",
+  "status": "FROZEN_BEFORE_E2E_PILOT",
+  "starting_lineage": {
+    "source_sha": "512e3d5657294d3357afcd15c3dba2fee8791de1",
+    "experiments_sha": "902d561d4acf85e62a3b94435c693896c39e3e4c"
+  },
+  "architecture": {
+    "id": "M2-FINAL-ARCHITECTURE-v1",
+    "identity_sha256": "35c5a46616f654ce70b0badc01cd59fb0afd433dcdcd99e5e0b8f2419ec4d153",
+    "integration": "PROMPT_TRADER_THEN_LOCAL_ACTOR_THEN_RISK",
+    "m1_input_bundle": "30596a54788101873f1c88bdf653df7f12ac3b4861a7058b6a36df0861274121",
+    "m2_08_corpus": "cc1fea692489a5b5791cae1fd96386bfbcf1f0a07f2ea3e22637dd3c43533a43",
+    "representation": "6e3b11863bc3ec214444326a269477e465101afb866f30e80698f37c7148d2fe",
+    "encoder_snapshot": "1d7b1bddebe83694815066f5254c5b0c7a1d05febd4e2b9e2120f2ec3fe3c018",
+    "method": "M2-PA-CTPPO-v2",
+    "train_tree": "ff5e1bf21ef90b9eeec96d257c59e83656957f32ec4d2f94396a0a5d4bf1db13",
+    "reward": "R3_HOLD_RELATIVE_DRAWDOWN_UTILITY",
+    "c09_parameter_sha256": "6baafc03b0b63512b3a66a1ae8f1ce1ce7e774395787626b49905e7b72cd1841",
+    "c09_model_file_sha256": "56dc52128e1df9c9ddcf79fa6f7b293393bd61306ba4ef032f96cad6bf92126c",
+    "online_candidate": "O08",
+    "online_rule": {
+      "learning_rate": 0.001,
+      "update_epochs": 2,
+      "optimiser": "AdamW",
+      "weight_decay": 0.0001,
+      "gradient_clip": 0.5,
+      "fast_parameter_count": 165
+    },
+    "credit_lifecycle": ["PENDING", "MATURED", "APPLIED"],
+    "terminal_credit_status": "ARCHIVED"
+  },
+  "ablation_preregistration": {
+    "id": "M2-ABLATION-PREREGISTRATION-v1",
+    "identity_sha256": "e7e2cc8520f9033e57c442b04c882baffd7c51b497bbc9495b71098f64a83b0e",
+    "selected_before_pilot": true,
+    "pilot_performance_used": false,
+    "formal_performance_used": false,
+    "branches_modified": false,
+    "A1_NO_ONLINE_ADAPTATION": {
+      "removed_mechanism": "delayed per-symbol online fast-parameter adaptation",
+      "initial_checkpoint": "C09",
+      "parameter_updates": false
+    },
+    "A2_NO_GLOBAL_PRETRAINING": {
+      "removed_mechanism": "global TRAIN-only PA-CTPPO-v2 pretraining",
+      "initial_parameter_sha256": "60a0fec7b69ef2d0576a9c0894be09c377d573585db827c162279fb27483303e",
+      "initial_model_file_sha256": "4d65dd2c1563b144aee8e79878171feb1ecd990a8bd8e2c584547eaa3a546c9f",
+      "online_candidate": "O08",
+      "retuned": false
+    }
+  },
+  "e2e_pilot_plan": {
+    "purpose": "integration and correctness validation only",
+    "cases": [
+      "AAPL:2023-10-06",
+      "AMZN:2023-10-06",
+      "JPM:2023-10-06",
+      "JBSS:2023-10-06",
+      "EML:2023-10-06",
+      "AGI:2023-10-06",
+      "ARR:2023-10-06",
+      "AEMD:2023-10-06"
+    ],
+    "first_correctness_valid_trajectory_is_official": true,
+    "performance_reruns": false,
+    "audit_replay_deepseek_calls": 0,
+    "deepseek_cny_hard_ceiling": 10,
+    "aws_incremental_usd_hard_ceiling": 3
+  },
+  "protected": {
+    "final_holdout_agent_execution": 0,
+    "final_holdout_outcome_inspection": false,
+    "formal_2024h1_agent_execution": 0,
+    "formal_result_inspection": false
+  }
+}
