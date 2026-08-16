@@ -1,0 +1,94 @@
+{
+  "action_edges": 26232,
+  "action_sampling": false,
+  "after_child_maturity_edges": 648,
+  "architecture": {
+    "actor_trunk": "Linear(56,32) + Tanh",
+    "compact_feature_dimension": 56,
+    "critic_trunk": "Linear(56,32) + Tanh",
+    "gate_head": "Linear(32,1)",
+    "residual_head": "Linear(32,3)",
+    "semantic_adapter": "Linear(1024,16,bias=False), shared",
+    "value_head": "Linear(32,1)"
+  },
+  "aws_gpu_hours": 0,
+  "bellman_bootstrap": false,
+  "blocked_method_runner_sha": "f779069ab4b133b5421ff4d9b6a972e44f48712e",
+  "correctness_erratum": true,
+  "counterfactual_advantage_equation": "A_cf(s,a) = R3(s,a) - V_cf(s)",
+  "counterfactual_value_equation": "V_cf(s) = sum_a pi_old(a|s) R3(s,a)",
+  "decision_nodes": 8744,
+  "deepseek_calls": 0,
+  "exact_action_expectation": true,
+  "fast_parameters_per_symbol": 165,
+  "final_holdout_used": false,
+  "formal_result_used": false,
+  "gae": false,
+  "gamma": null,
+  "local_credit": "R3_HOLD_RELATIVE_DRAWDOWN_UTILITY",
+  "method_id": "M2-PA-CTPPO-v2",
+  "method_identity_sha256": "4fe664557e880b59bd9a3dfb659f265117b52f36d533cd79eecba9023673d7d3",
+  "nonterminal_transitions": 8736,
+  "online_delayed_adaptation": {
+    "cross_symbol_sharing": false,
+    "enabled": true,
+    "fast_only": true,
+    "lifecycle": [
+      "PENDING",
+      "MATURED",
+      "APPLIED"
+    ],
+    "online_epochs": "DEFERRED",
+    "online_lr": "DEFERRED",
+    "retroactive_action_modification": false
+  },
+  "optimisation_contract": {
+    "candidate_checkpoints": [
+      25,
+      50,
+      100
+    ],
+    "global_lr_candidates": [
+      0.0001,
+      0.0003,
+      0.001
+    ],
+    "max_grad_norm": 0.5,
+    "optimiser": "AdamW",
+    "outer_iterations": 100,
+    "ppo_epochs_per_iteration": 4,
+    "seed": 20260816,
+    "weight_decay": 0.0001
+  },
+  "original_plan_sha": "89c84945e19a5a532b7afc042300e2ea17377a79",
+  "ppo_clip": 0.2,
+  "prompt_prior": {
+    "alternative_probability": 0.16666666666666666,
+    "residual_bound": "ln(4)",
+    "selected_probability": 0.6666666666666666
+  },
+  "qwen_calls": 0,
+  "representation_dimension": 3080,
+  "representation_identity": "6e3b11863bc3ec214444326a269477e465101afb866f30e80698f37c7148d2fe",
+  "reward_maturity": "fifth subsequent XNYS close",
+  "schema_version": "M2-AGENTIC-RL-METHOD-FREEZE-v2",
+  "state_reward_time_decoupled": true,
+  "superseded_method": "M2-PA-CTPPO-v1",
+  "task_id": "M2-10A",
+  "terminal_leaves": 17496,
+  "train_counterfactual_tree_v2_identity_sha256": "ff5e1bf21ef90b9eeec96d257c59e83656957f32ec4d2f94396a0a5d4bf1db13",
+  "trainable_parameters": 20197,
+  "tree_contract": "M2_TRAIN_COUNTERFACTUAL_TREE-v2",
+  "validation_performance_used": false,
+  "validation_selection": {
+    "primary_metric": "equal-weight mean sequential local R3 across 16 VALIDATION decisions",
+    "tie_break": [
+      "higher worst-symbol cumulative R3",
+      "lower override rate",
+      "smaller learning rate",
+      "earlier checkpoint"
+    ]
+  },
+  "value_loss_coefficient": 0.5,
+  "weekly_state_transition": "next frozen weekly decision close"
+}

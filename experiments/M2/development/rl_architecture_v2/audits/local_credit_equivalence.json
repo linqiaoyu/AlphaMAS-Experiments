@@ -1,0 +1,8 @@
+{
+  "action_edges_checked": 26232,
+  "pass": true,
+  "r3_mismatches": 0,
+  "reward_maturity_mismatches": 0,
+  "reward_simulator_modified": false,
+  "schema_version": "M2-10A-LOCAL-CREDIT-EQUIVALENCE-v1"
+}

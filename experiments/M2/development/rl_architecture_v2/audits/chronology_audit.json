@@ -1,0 +1,15 @@
+{
+  "after_child_maturity_edges": 648,
+  "child_states_using_post_child_market_bars": 0,
+  "descendant_action_contamination_of_parent_credit": 0,
+  "local_credit_edges": 26232,
+  "nonterminal_edges": 8736,
+  "overlap_counts": {
+    "credit_matures_after_child": 648,
+    "credit_matures_on_child": 8088,
+    "terminal_no_child": 17496
+  },
+  "pass": true,
+  "schema_version": "M2-10A-CHRONOLOGY-AUDIT-v1",
+  "validation_transitions": 0
+}

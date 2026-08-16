@@ -1,0 +1,15 @@
+{
+  "breakdown": {
+    "actor_trunk": 1824,
+    "critic_trunk": 1824,
+    "gate_head": 33,
+    "residual_head": 99,
+    "semantic_adapter": 16384,
+    "value_head": 33
+  },
+  "formal_fast_parameters_per_symbol": 165,
+  "method_id": "M2-PA-CTPPO-v2",
+  "pass": true,
+  "schema_version": "M2-10A-ARCHITECTURE-PARAMETERS-v1",
+  "trainable_parameters": 20197
+}

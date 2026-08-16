@@ -1,0 +1,49 @@
+{
+  "action_edges": 26232,
+  "all_local_r3_finite": true,
+  "child_states_using_post_child_information": 0,
+  "decision_nodes": 8744,
+  "decision_sessions": [
+    "2023-05-05",
+    "2023-05-12",
+    "2023-05-19",
+    "2023-05-26",
+    "2023-06-02",
+    "2023-06-09",
+    "2023-06-16"
+  ],
+  "depth_counts": {
+    "0": 8,
+    "1": 24,
+    "2": 72,
+    "3": 216,
+    "4": 648,
+    "5": 1944,
+    "6": 5832
+  },
+  "descendant_action_contamination": 0,
+  "final_holdout_accesses": 0,
+  "local_r3_credits": 26232,
+  "nonterminal_transitions": 8736,
+  "noop_credit_edges": 17488,
+  "overlap_counts": {
+    "credit_matures_after_child": 648,
+    "credit_matures_on_child": 8088,
+    "terminal_no_child": 17496
+  },
+  "schema_version": "M2_TRAIN_COUNTERFACTUAL_TREE-v2",
+  "semantic_train_decisions": 56,
+  "symbols": [
+    "AAPL",
+    "AMZN",
+    "JPM",
+    "JBSS",
+    "EML",
+    "AGI",
+    "ARR",
+    "AEMD"
+  ],
+  "terminal_leaves": 17496,
+  "train_counterfactual_tree_v2_identity_sha256": "ff5e1bf21ef90b9eeec96d257c59e83656957f32ec4d2f94396a0a5d4bf1db13",
+  "validation_transitions": 0
+}

@@ -1,0 +1,30 @@
+{
+  "actions": [
+    "BUY",
+    "HOLD",
+    "SELL"
+  ],
+  "bellman_bootstrap": false,
+  "contract": "M2_TRAIN_COUNTERFACTUAL_TREE-v2",
+  "edges_logical_sha256": "984f5aa7d606a4f574fc66566bd0e99a793a5c1446ee4ba9953b10850fdaf083",
+  "gamma": null,
+  "history_merging": false,
+  "nodes_logical_sha256": "036bb71b9e58d56ee29eff50ac678ecb05ccd7e94d0de80d24abb61f53900ae5",
+  "noop_branch_pruning": false,
+  "observation_storage": "SHA256 plus lossless reconstruction from frozen semantic row and weekly portfolio snapshot",
+  "plan_sha": "91deacd47a7ceb0e2da6283e1085b8b8f4b37c43",
+  "representation_identity": "6e3b11863bc3ec214444326a269477e465101afb866f30e80698f37c7148d2fe",
+  "reward_id": "R3_HOLD_RELATIVE_DRAWDOWN_UTILITY",
+  "reward_maturity_semantics": "independent fifth subsequent XNYS close",
+  "reward_snapshot_identity": "3afc723888666e0ca3a12219a57dc577d6cf3953717da731b774634f4aff1445",
+  "reward_window_sessions": 5,
+  "root_state": {
+    "cash": 100000.0,
+    "peak_equity": 100000.0,
+    "quantity": 0.0
+  },
+  "source_sha": "27fdaae2b9b9850d98292d28d7cd1723d913bcde",
+  "state_reward_time_decoupled": true,
+  "train_counterfactual_tree_v2_identity_sha256": "ff5e1bf21ef90b9eeec96d257c59e83656957f32ec4d2f94396a0a5d4bf1db13",
+  "weekly_transition_semantics": "execution open through next frozen decision close"
+}

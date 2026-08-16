@@ -1,0 +1,23 @@
+{
+  "action_sampling": false,
+  "bellman_bootstrap": false,
+  "exact_action_expectation": true,
+  "gae": false,
+  "gamma": null,
+  "identity_policy_surrogate": -2.795644442475844e-19,
+  "identity_total_loss": 2.795644442475844e-19,
+  "identity_value_loss": 0.0,
+  "maximum_local_advantage_residual": 6.938893903907228e-18,
+  "nodes_checked": 8744,
+  "occupancy_by_depth": {
+    "0": 1.0,
+    "1": 1.0,
+    "2": 1.0,
+    "3": 0.9999999999999998,
+    "4": 1.0,
+    "5": 1.0,
+    "6": 0.9999999999999998
+  },
+  "pass": true,
+  "schema_version": "M2-10A-OBJECTIVE-SANITY-v1"
+}

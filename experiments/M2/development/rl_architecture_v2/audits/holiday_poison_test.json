@@ -1,0 +1,11 @@
+{
+  "child_decision_session": "2023-06-02",
+  "decision_session": "2023-05-26",
+  "june_2_actor_observation_changed": false,
+  "june_2_child_state_changed": false,
+  "june_5_only_data_mutated": true,
+  "parent_credit_input_identity_changed": true,
+  "pass": true,
+  "reward_maturity_session": "2023-06-05",
+  "schema_version": "M2-10A-HOLIDAY-POISON-v1"
+}

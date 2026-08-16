@@ -1,0 +1,22 @@
+{
+  "files": {
+    "M2_10A_CHRONOLOGY_ERRATUM.md": "3b36a1d117959ee35df79184fb32f96e4617e5a144a654f43be990c753d938c8",
+    "README.md": "b9840f940eb63501315e7d91b7d8543229c6f019d1247b693f9bc14fd188a436",
+    "architecture_plan_v2.json": "29f831f3ea20839d1beb092b1f47fe2e8ef245a7fa9b9238be2633496f4fc7ef",
+    "audits/architecture_parameter_count.json": "fe1cddf90be3f06934f8cb5ec86b946bcd0b2f9c3da25ea60530299d14aa944a",
+    "audits/chronology_audit.json": "92967d1013096bd935db6d985323423cd79a7d1baa974eb5aba5292a0a954110",
+    "audits/descendant_action_independence.json": "26e41fffd05548778921133437cc86c32d0c00f9db7d285b6b95a0ca222e8531",
+    "audits/holiday_poison_test.json": "d7aa06ddbe65cd47ac1b2c920cb02a04815fd862ff3ac727212162cc23755d00",
+    "audits/local_credit_equivalence.json": "5f539780d0dac3d98d24236f02017c84e2fbde4247d4890fa863d78160a2577a",
+    "audits/objective_sanity.json": "8bdef3c31f3b53dc60b9bfb9149fcfb5b98b9a42b8760915e8c50f053f40a817",
+    "audits/state_transition_equivalence.json": "6f60c7b4a48de83cd47c1a2125046a563ddf0e38247d0d9c41719feca8400c99",
+    "m2_10a_chronology_erratum.json": "d8afbc453c4e4136c47cace543808ab493fbfd1624dded82fd4ababaeb4a45fb",
+    "method_contract.json": "70838799596c5867019f4013a80c3b34e59a5d9bd01de453b79b8320eb2fae48",
+    "train_environment/edges.jsonl.gz": "1bf6b6a7e3ebaa24edd3b8a08d61bfc1e8400f8439a3d8a12e8915d6ff78add4",
+    "train_environment/nodes.jsonl.gz": "b2cc54b56ea5968d303b04368950af51ec81e688af72b489e894df3831318368",
+    "train_environment/tree_manifest.json": "824cf77807f00c5868af669cf8c99d06c95f7d2837416a2e06368bd2f43c7638",
+    "train_environment/tree_sha256.json": "aa0c250fd15a69468f3f15e55b3dc514acd5073170a012b64afa6629e7623849",
+    "train_environment/tree_summary.json": "e33879a42a7d03705ad6ce2f623fc8584a1b73693b9654bff3cf24eb83dd2771"
+  },
+  "schema_version": "M2-10A-FINAL-SHA256-v1"
+}

@@ -1,0 +1,11 @@
+{
+  "descendant_actions_compared": [
+    "BUY",
+    "SELL"
+  ],
+  "parent_credit_input_identical": true,
+  "parent_r3_identical": true,
+  "parent_reward_maturity_identical": true,
+  "pass": true,
+  "schema_version": "M2-10A-DESCENDANT-INDEPENDENCE-v1"
+}

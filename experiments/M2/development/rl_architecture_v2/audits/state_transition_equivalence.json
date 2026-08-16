@@ -1,0 +1,12 @@
+{
+  "average_entry_mismatches": 0,
+  "cash_mismatches": 0,
+  "cost_mismatches": 0,
+  "drawdown_mismatches": 0,
+  "equity_mismatches": 0,
+  "pass": true,
+  "peak_equity_mismatches": 0,
+  "quantity_mismatches": 0,
+  "schema_version": "M2-10A-STATE-TRANSITION-EQUIVALENCE-v1",
+  "transitions_checked": 8736
+}

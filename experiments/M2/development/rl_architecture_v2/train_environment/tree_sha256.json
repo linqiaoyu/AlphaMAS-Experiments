@@ -1,0 +1,14 @@
+{
+  "edges.jsonl.gz": {
+    "compressed_bytes": 3621747,
+    "compressed_sha256": "1bf6b6a7e3ebaa24edd3b8a08d61bfc1e8400f8439a3d8a12e8915d6ff78add4",
+    "logical_bytes": 25510753,
+    "logical_sha256": "984f5aa7d606a4f574fc66566bd0e99a793a5c1446ee4ba9953b10850fdaf083"
+  },
+  "nodes.jsonl.gz": {
+    "compressed_bytes": 894049,
+    "compressed_sha256": "b2cc54b56ea5968d303b04368950af51ec81e688af72b489e894df3831318368",
+    "logical_bytes": 7560505,
+    "logical_sha256": "036bb71b9e58d56ee29eff50ac678ecb05ccd7e94d0de80d24abb61f53900ae5"
+  }
+}
