@@ -1,0 +1,13 @@
+{
+  "M2_GLOBAL_CANDIDATE_SELECTION_FREEZE.md": "f8e86d2c70fc6e3be3870df93f189d631089d429c16bf1942bf092748e9c733c",
+  "README.md": "a3d0e36d0e158e9ecae58a9d89cbe867a8f15d8e6243ca029037d6314e857833",
+  "candidate_validation_scores.json": "5df0c994ae91be3c843ae469d9660e600f29703fcdae28f76470ad4363233706",
+  "schema_version": "M2-12-FINAL-SHA256-v1",
+  "selected_global_checkpoint/candidate_manifest.json": "cea450c799aa58cfb0d87c1ab3a8cd9b7a482c2a02c036e1b9643c9c86373e6d",
+  "selected_global_checkpoint/manifest.json": "1549f4aa325a13bd72f9d4ad3fc4bd075ed1f27ee8104e1f9f0f6a3618b7b93e",
+  "selected_global_checkpoint/model.pt": "56dc52128e1df9c9ddcf79fa6f7b293393bd61306ba4ef032f96cad6bf92126c",
+  "selection_audit.json": "5ce71cd91213178aa5d30d31f0765c06e4ce16e4b972cb7ec111b9fb4950f9bb",
+  "selection_plan.json": "21f878d3f421fd491227b2cdccf9aa9a9f01f88fcc4a01d46fe0c1f714f7c256",
+  "selection_result.json": "819f5e077763985a3c161f3041b5337bf784694f31db9655e7e20afa35aa7bed",
+  "validation_decisions.jsonl": "74e8976f0b5898653a595380b75008d72fb0fa8ab45a6358c972173a3897f55f"
+}
