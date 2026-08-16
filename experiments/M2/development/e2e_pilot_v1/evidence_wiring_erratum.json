@@ -2,13 +2,14 @@
   "schema_version": "M2-E2E-EVIDENCE-WIRING-ERRATUM-v1",
   "task_id": "M2-14-Retry-3",
   "created_at_utc": "2026-08-16T12:04:48Z",
-  "classification": "PRE-AGENT RUNTIME EVIDENCE-WIRING CORRECTNESS FIX — NO RESEARCH-SEMANTIC CHANGE",
+  "classification": "RUNTIME/PUBLICATION EVIDENCE-WIRING CORRECTNESS FIX — NO RESEARCH-SEMANTIC CHANGE",
   "starting_lineage": {
     "source_sha": "daa0ea288e829ba4a1488846a4246717b47ced71",
     "experiments_sha": "62b590749a00723a62dd5047975d34cf9ce9a267"
   },
-  "post_fix_source_sha": "1accde903b81f18edda8afa566382ee2f6979424",
-  "source_erratum_sha256": "515e18e8f609f77b30adae0b6a3863e6c62d4be00b01c563f0e60c86afaf43a5",
+  "post_fix_source_sha": "c7ca4de3a8ba4559338e532fd2111648a386330d",
+  "e2e_execution_source_sha": "1accde903b81f18edda8afa566382ee2f6979424",
+  "source_erratum_sha256": "72b0f7394e5a702dccb3bad906e77f3dc9a572e6da02a1a9e753ef9520f3a542",
   "retry_2": {
     "status": "PRE_AGENT_RUNTIME_EVIDENCE_WIRING_FAILURE",
     "error_type": "FrozenEvidenceError",
@@ -41,6 +42,14 @@
     "official_empirical_run": false,
     "cause": "The shared experiment-Memory namespace allowlist omitted the frozen M2 store scope M2_E2E_PILOT.",
     "correction": "Admit exactly M2_E2E_PILOT while retaining fail-closed rejection of unknown scopes."
+  },
+  "post_trajectory_publication_correction": {
+    "status": "POST_VALIDATION_MEMORY_ARCHIVE_SCOPE_FAILURE",
+    "official_cases_completed_before_failure": 8,
+    "ordinary_run_validation_passed_before_failure": true,
+    "trajectories_rerun": false,
+    "cause": "The final Memory archiver and bundle validator used unchanged legacy M1 FORMAL config fields instead of the M2 E2E store identity selected by the Graph.",
+    "correction": "Resolve the effective Memory evidence identity centrally as M2_E2E_PILOT plus the frozen M2 corpus identity for E2E, while preserving FORMAL plus the frozen M1 Formal identity for Formal M2."
   },
   "fix": {
     "location": "tradingagents/backtesting/config.py",
