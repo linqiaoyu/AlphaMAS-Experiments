@@ -1,0 +1,58 @@
+{
+  "schema_version": "M2-E2E-PILOT-BLOCKED-AUDIT-v1",
+  "task_id": "M2-14",
+  "status": "BLOCKED_CREDENTIAL_TRANSPORT_ECHO",
+  "phase_a_source_sha": "daa0ea288e829ba4a1488846a4246717b47ced71",
+  "phase_a_experiments_sha": "5250211e5107671ff1751ea70c8bbbafd68a4ba3",
+  "operational_input_experiments_sha": "2a5ac07d1a42b99a1fdcc039ab55e40e19129849",
+  "architecture_identity": "35c5a46616f654ce70b0badc01cd59fb0afd433dcdcd99e5e0b8f2419ec4d153",
+  "ablation_preregistration_identity": "e7e2cc8520f9033e57c442b04c882baffd7c51b497bbc9495b71098f64a83b0e",
+  "incident": {
+    "description": "The local PTY transport echoed the streamed credential before the remote silent-read setting took effect.",
+    "secret_value_archived": false,
+    "secret_value_committed": false,
+    "secret_value_in_this_record": false,
+    "rotation_required_before_retry": true,
+    "session_terminated_immediately": true
+  },
+  "execution": {
+    "official_e2e_trajectory_started": false,
+    "output_root_created": false,
+    "agent_cases_started": 0,
+    "deepseek_requests": 0,
+    "deepseek_input_tokens": 0,
+    "deepseek_output_tokens": 0,
+    "deepseek_cost_cny": 0.0,
+    "qwen3_vl_calls": 0,
+    "qwen3_embedding_inference_calls": 0,
+    "audit_only_replay_started": false,
+    "pilot_performance_inspected": false
+  },
+  "aws": {
+    "instance_id_recorded_in_public_archive": false,
+    "ec2_starts": 2,
+    "estimated_running_seconds": 1316,
+    "estimated_gpu_hours": 0.3655555555555556,
+    "catalog_usd_per_hour": 1.277,
+    "estimated_incremental_compute_usd": 0.4668144444444444,
+    "hard_ceiling_usd": 3.0,
+    "final_instance_state": "stopped",
+    "running_alphamas_tagged_gpu_instances_at_completion": 0
+  },
+  "verified_before_block": {
+    "exact_detached_source_sha": true,
+    "exact_detached_experiments_sha": true,
+    "c09_model_file_sha256": "56dc52128e1df9c9ddcf79fa6f7b293393bd61306ba4ef032f96cad6bf92126c",
+    "encoder_snapshot_identity": "1d7b1bddebe83694815066f5254c5b0c7a1d05febd4e2b9e2120f2ec3fe3c018",
+    "encoder_snapshot_full_hash_verification": "PASS",
+    "aws_focused_tests": "80 passed, 0 skipped",
+    "auto_stop_timer": "ENABLED_AND_ACTIVE"
+  },
+  "protected": {
+    "final_holdout_agent_execution": 0,
+    "final_holdout_outcome_inspection": false,
+    "formal_2024h1_agent_execution": 0,
+    "formal_result_inspection": false
+  },
+  "next_action": "Revoke the exposed credential. A separately authorised retry must use a secure non-echoing transport and the already-frozen architecture and ablations without modification."
+}
