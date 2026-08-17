@@ -1,0 +1,17 @@
+{
+  "schema_version": "A1-01-PREFORMAL-ARCHIVE-v1",
+  "status": "FROZEN_FOR_A1_02",
+  "preregistration_identity": "e7e2cc8520f9033e57c442b04c882baffd7c51b497bbc9495b71098f64a83b0e",
+  "treatment": "A1_NO_ONLINE_ADAPTATION",
+  "definition": "Full frozen M2 with only delayed per-symbol online fast-parameter adaptation removed.",
+  "full_m2_base_sha": "6306ea4ea20cda501c6238db80c34d27bbc16bea",
+  "a1_preformal_source_sha": "11ae1ce4a3bac6245dbc39c073bcfc2ac0bba16b",
+  "formal_config_sha256": "503fb7c3294f2a1e25154d30e249f3d58241d2b29967cce09275c3b89d5b5498",
+  "online_parameter_updates_enabled": false,
+  "other_rl_components_changed": false,
+  "formal_a1_executed": false,
+  "formal_agent_decisions": 0,
+  "formal_2024h1_performance_accessed_for_design": false,
+  "first_complete_correctness_valid_a1_02_trajectory_is_official": true,
+  "verdict": "PASS"
+}

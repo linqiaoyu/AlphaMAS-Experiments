@@ -1,0 +1,42 @@
+{
+  "schema_version": "A1-FROZEN-RESEARCH-IDENTITIES-v1",
+  "m1_evidence_bundle": "30596a54788101873f1c88bdf653df7f12ac3b4861a7058b6a36df0861274121",
+  "representation": "6e3b11863bc3ec214444326a269477e465101afb866f30e80698f37c7148d2fe",
+  "encoder": "Qwen/Qwen3-Embedding-0.6B",
+  "encoder_revision": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
+  "observation_dimension": 3080,
+  "global_policy_parameter_sha256": "6baafc03b0b63512b3a66a1ae8f1ce1ce7e774395787626b49905e7b72cd1841",
+  "global_policy_model_file_sha256": "56dc52128e1df9c9ddcf79fa6f7b293393bd61306ba4ef032f96cad6bf92126c",
+  "method": "M2-PA-CTPPO-v2",
+  "reward": "R3_HOLD_RELATIVE_DRAWDOWN_UTILITY",
+  "online_candidate_provenance": {
+    "id": "O08",
+    "learning_rate": 0.001,
+    "epochs": 2,
+    "optimiser": "AdamW",
+    "weight_decay": 0.0001,
+    "gradient_clip": 0.5,
+    "fast_parameters": 165,
+    "active_for_parameter_updates_in_a1": false
+  },
+  "formal_protocol": {
+    "symbols": ["AAPL", "AMZN", "JPM"],
+    "calendar": "XNYS",
+    "decision_weeks_per_symbol": 26,
+    "total_decisions": 78,
+    "final_valuation_session": "2024-07-05",
+    "warmup_sessions": 252,
+    "initial_cash_per_symbol": 100000,
+    "commission_bps": 5,
+    "slippage_bps": 5,
+    "long_only": true,
+    "no_leverage": true,
+    "no_forced_terminal_liquidation": true
+  },
+  "formal_market_snapshot_sha256": {
+    "AAPL": "5428fc2c672f3b68c7c3e83b4a22bd5b7330c95a8b4194695762539d9d8a5af3",
+    "AMZN": "c4b5c747d75ba658c6f6833348783e3f8a8c571380c930de20cf9fb7dd6b1444",
+    "JPM": "74cf77b77b0a83ce8e6246578d4da30bf7622558e8973bda71344b99b9dfd6fc",
+    "SPY": "22e6996ebf963787f40d54bfc59e1ca088fa698cb82b639768504dbdbb2d25ac"
+  }
+}

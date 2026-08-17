@@ -1,0 +1,19 @@
+{
+  "schema_version": "A1-PARAMETER-IMMUTABILITY-AUDIT-v1",
+  "fixture_scope": "deterministic pre-2024 local CPU only",
+  "c09_parameter_sha256": "6baafc03b0b63512b3a66a1ae8f1ce1ce7e774395787626b49905e7b72cd1841",
+  "c09_model_file_sha256": "56dc52128e1df9c9ddcf79fa6f7b293393bd61306ba4ef032f96cad6bf92126c",
+  "initial_fast_parameter_sha256": "365d06abf2d30f9ef3c283fb383712b3bc1b7439851e3c828f25e9dd676df2ec",
+  "final_fast_parameter_sha256": "365d06abf2d30f9ef3c283fb383712b3bc1b7439851e3c828f25e9dd676df2ec",
+  "nonfast_global_parameter_sha256": "35dd8185eb04d9662531b81c571ba6df964805b8fa4af9281e414b0c1a3429bc",
+  "final_complete_policy_sha256": "6baafc03b0b63512b3a66a1ae8f1ce1ce7e774395787626b49905e7b72cd1841",
+  "matured_a1_credits_tested": 4,
+  "fast_identity_equal_at_every_checked_point": true,
+  "global_identity_equal_at_every_checked_point": true,
+  "optimiser_state_identity_equal_before_after_maturity": true,
+  "optimizer_step_calls": 0,
+  "parameter_mutating_updates": 0,
+  "global_mutations": 0,
+  "cross_symbol_mutation": false,
+  "verdict": "PASS"
+}

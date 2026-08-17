@@ -1,0 +1,19 @@
+{
+  "schema_version": "A1-CHRONOLOGY-RESUME-AUDIT-v1",
+  "fixture_scope": "pre-2024 XNYS sessions",
+  "outcome_horizon": "5 valid XNYS sessions",
+  "before_maturity_credit_status": "PENDING",
+  "reward_observed_before_maturity": false,
+  "same_close_action_issued_before_maturity_processing": true,
+  "maturity_lifecycle": "PENDING -> MATURED -> ARCHIVED",
+  "archive_reason": "ONLINE_UPDATE_DISABLED_BY_ABLATION",
+  "scored_exactly_once": true,
+  "resume_before_maturity": "PASS",
+  "resume_at_maturity": "PASS",
+  "resume_after_maturity": "PASS",
+  "duplicate_event_after_resume": false,
+  "changed_input_guard": "PASS",
+  "next_decision_deterministic": true,
+  "terminal_pending_credit_boundary": "PASS",
+  "verdict": "PASS"
+}

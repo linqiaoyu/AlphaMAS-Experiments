@@ -1,0 +1,30 @@
+{
+  "schema_version": "A1-REGRESSION-SUMMARY-v1",
+  "focused_command_scope": "A1, production M2 runtime, final architecture contract, Trader/Portfolio authority",
+  "focused_result": {
+    "passed": 34,
+    "failed": 0
+  },
+  "full_repository_result": {
+    "passed": 1112,
+    "skipped": 22,
+    "subtests_passed": 69,
+    "failed": 0,
+    "warnings": 19,
+    "elapsed_seconds": 125.67
+  },
+  "skips": {
+    "optional_langchain_aws_dependency_unavailable": 1,
+    "live_deepseek_test_deliberately_not_enabled": 1,
+    "documented_legacy_m1_or_pilot_archive_paths_unavailable": 20,
+    "replacement_fixtures_fabricated": false
+  },
+  "resources": {
+    "deepseek_calls": 0,
+    "qwen_calls": 0,
+    "aws_starts": 0,
+    "gpu_hours": 0,
+    "paid_cost": 0
+  },
+  "verdict": "PASS"
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": "A1-ISOLATION-AUDIT-v1",
+  "fixture_scope": "synthetic pre-2024 identity fixtures",
+  "cache": {
+    "a1_vs_full_m2_variant_distinct": true,
+    "a1_vs_full_m2_runtime_state_identity_distinct": true,
+    "a1_vs_full_m2_cache_key_distinct": true,
+    "m2_decision_cache_reused": false
+  },
+  "memory": {
+    "experiment_id_distinct": true,
+    "graph_config_sha_distinct": true,
+    "experiment_root_distinct": true,
+    "lineage_distinct": true,
+    "fresh_a1_namespace": true,
+    "m2_formal_prose_memory_inherited": false
+  },
+  "runtime": {
+    "m2_pending_credits_reused": false,
+    "m2_issued_actions_reused": false,
+    "m2_optimiser_state_reused": false,
+    "m2_runtime_state_reused": false
+  },
+  "verdict": "PASS"
+}

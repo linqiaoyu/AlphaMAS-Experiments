@@ -1,0 +1,20 @@
+{
+  "schema_version": "A1-SOURCE-DIFF-INVENTORY-v1",
+  "base_sha": "6306ea4ea20cda501c6238db80c34d27bbc16bea",
+  "final_source_sha": "11ae1ce4a3bac6245dbc39c073bcfc2ac0bba16b",
+  "files": [
+    {"path": "tradingagents/m2/runtime.py", "added": 125, "deleted": 10, "classification": "A1_VARIANT_DISABLE_AND_AUDIT"},
+    {"path": "tradingagents/backtesting/config.py", "added": 35, "deleted": 0, "classification": "A1_FORMAL_CONFIG_WIRING"},
+    {"path": "scripts/run_weekly_backtest.py", "added": 35, "deleted": 10, "classification": "A1_FORMAL_SAFETY_GATE_WIRING"},
+    {"path": "configs/backtest_a1_no_online_adaptation_2024h1.json", "added": 91, "deleted": 0, "classification": "A1_FORMAL_CONFIG"},
+    {"path": "tests/m2/test_a1_no_online_adaptation.py", "added": 389, "deleted": 0, "classification": "A1_TESTS"},
+    {"path": "docs/a1/A1_PREFORMAL_FREEZE.md", "added": 56, "deleted": 0, "classification": "A1_DOCUMENTATION"},
+    {"path": "docs/a1/a1_formal_config_diff.json", "added": 24, "deleted": 0, "classification": "A1_DOCUMENTATION"},
+    {"path": "docs/a1/a1_preformal_freeze.json", "added": 92, "deleted": 0, "classification": "A1_DOCUMENTATION"},
+    {"path": "docs/a1/a1_source_diff_inventory.json", "added": 57, "deleted": 0, "classification": "A1_DOCUMENTATION"}
+  ],
+  "protected_components_changed": [],
+  "unclassified_changes": [],
+  "unrelated_refactoring": false,
+  "verdict": "PASS"
+}
