@@ -1,0 +1,18 @@
+{
+  "schema_version": "A2-CHRONOLOGY-RESUME-AUDIT-v1",
+  "outcome_horizon_valid_xnys_sessions": 5,
+  "no_reward_visible_early": true,
+  "same_close_action_durable_before_maturity": true,
+  "same_close_update_affects_only_later_decision": true,
+  "pending_matured_applied_lifecycle": true,
+  "terminal_archival_rule_preserved": true,
+  "exactly_once": true,
+  "duplicate_application_impossible": true,
+  "resume_before_maturity": true,
+  "resume_at_maturity": true,
+  "resume_after_update": true,
+  "optimizer_moments_exact_after_reload": true,
+  "applied_event_id_exact_after_reload": true,
+  "changed_input_torn_publication_guard": true,
+  "fixtures_after_2023": false
+}

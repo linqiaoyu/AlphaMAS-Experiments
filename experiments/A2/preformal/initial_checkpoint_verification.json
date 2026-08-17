@@ -1,0 +1,13 @@
+{
+  "schema_version": "A2-INITIAL-CHECKPOINT-VERIFICATION-v1",
+  "archive_reference": "experiments/M2/development/global_training_v1/initial_checkpoint/model.pt",
+  "archived_file_sha256": "4d65dd2c1563b144aee8e79878171feb1ecd990a8bd8e2c584547eaa3a546c9f",
+  "canonical_parameter_sha256": "60a0fec7b69ef2d0576a9c0894be09c377d573585db827c162279fb27483303e",
+  "fast_sha256": "49380bb69ea6fb7682fe97a3ef5e1ccf2b2429b749d6f9f9971e40725271fcf9",
+  "fast_canonical_sha256": "859d91374903768e82c8d3621ca18ea6e8ba3b0002e9e915a579df13664e27d2",
+  "global_non_fast_canonical_sha256": "9b83aa1382d6b41c55981f2475eb0e236248affc5b5004a151a4b01651fa646e",
+  "initial_optimizer_state_sha256": "087df628de120d7e2271432fe99d2888097983c25a3cfc880ec60a51d3b4d623",
+  "prompt_anchor_probabilities": [0.6666666666666666, 0.16666666666666666, 0.16666666666666666],
+  "c09_loaded": false,
+  "exact_bytes_recovered_without_regeneration": true
+}

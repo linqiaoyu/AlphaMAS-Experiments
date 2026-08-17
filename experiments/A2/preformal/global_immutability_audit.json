@@ -1,0 +1,18 @@
+{
+  "schema_version": "A2-GLOBAL-IMMUTABILITY-AUDIT-v1",
+  "initial_global_sha256": "9b83aa1382d6b41c55981f2475eb0e236248affc5b5004a151a4b01651fa646e",
+  "global_sha256_after_three_updates": "9b83aa1382d6b41c55981f2475eb0e236248affc5b5004a151a4b01651fa646e",
+  "authorized_fast_parameter_names": [
+    "residual_head.weight",
+    "residual_head.bias",
+    "gate_head.weight",
+    "gate_head.bias",
+    "value_head.weight",
+    "value_head.bias"
+  ],
+  "authorized_fast_parameter_count": 165,
+  "mutated_parameter_value_count": 165,
+  "non_fast_global_mutation_count": 0,
+  "cross_symbol_mutation_count": 0,
+  "result": "PASS"
+}

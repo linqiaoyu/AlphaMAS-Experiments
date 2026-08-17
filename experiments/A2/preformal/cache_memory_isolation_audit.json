@@ -1,0 +1,15 @@
+{
+  "schema_version": "A2-CACHE-MEMORY-ISOLATION-AUDIT-v1",
+  "a2_graph_identity_distinct_from_full_m2": true,
+  "a2_graph_identity_distinct_from_a1": true,
+  "a2_decision_cache_identity_distinct_from_full_m2": true,
+  "a2_decision_cache_identity_distinct_from_a1": true,
+  "a2_memory_namespace_distinct": true,
+  "fresh_decision_cache_required": true,
+  "fresh_prose_memory_required": true,
+  "fresh_rl_runtime_state_required": true,
+  "fresh_optimizer_state_required": true,
+  "fresh_run_and_memory_lineage_required": true,
+  "m2_dynamic_state_reused": false,
+  "a1_dynamic_state_reused": false
+}

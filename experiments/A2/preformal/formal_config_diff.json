@@ -1,0 +1,11 @@
+{
+  "schema_version": "A2-FORMAL-CONFIG-DIFF-v1",
+  "formal_config_sha256": "d8982296be9d632be996d23836cfebb7fb2fb363b6fd496590056025251a07da",
+  "changed_fields": {
+    "experiment_id_template": "ADMINISTRATIVE_IDENTITY",
+    "m2_variant": "PREREGISTERED_A2_TREATMENT",
+    "m2_checkpoint_parameter_identity": "A2_TREATMENT_ARTIFACT_BINDING",
+    "m2_checkpoint_file_identity": "A2_TREATMENT_ARTIFACT_BINDING"
+  },
+  "unapproved_differences": []
+}

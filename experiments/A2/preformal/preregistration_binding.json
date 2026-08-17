@@ -1,0 +1,9 @@
+{
+  "schema_version": "A2-PREREGISTRATION-BINDING-v1",
+  "preregistration_identity_sha256": "e7e2cc8520f9033e57c442b04c882baffd7c51b497bbc9495b71098f64a83b0e",
+  "canonical_variant": "A2_NO_GLOBAL_PRETRAINING",
+  "formal_m2_performance_used_for_design": false,
+  "formal_a1_performance_used_for_design": false,
+  "post_hoc_tuning": false,
+  "global_training_work": 0
+}

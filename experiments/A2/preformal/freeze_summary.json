@@ -1,0 +1,10 @@
+{
+  "schema_version": "A2-PREFORMAL-ARCHIVE-v1",
+  "status": "PASS_FROZEN_READY_FOR_A2_02",
+  "variant": "A2_NO_GLOBAL_PRETRAINING",
+  "scientific_treatment": "Replace only C09 global-pretrained initialization with the exact frozen M2-11 initial model; retain O08 unchanged.",
+  "a2_preformal_source_sha": "ae0f36b16a17a1321c17c630fb6a52e10dd23fcd",
+  "formal_a2_decisions": 0,
+  "paid_cost": 0,
+  "a2_02_contract": "First complete correctness-valid Formal trajectory is the sole official A2 result."
+}

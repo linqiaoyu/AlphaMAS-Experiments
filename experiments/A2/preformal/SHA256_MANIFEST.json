@@ -1,0 +1,18 @@
+{
+  "schema_version": "A2-PREFORMAL-SHA256-MANIFEST-v1",
+  "algorithm": "SHA-256",
+  "files": {
+    "README.md": "607e18da03ca03c7d9dc3741cd4bb687f125f4398bfc88888402697d0cfe7d13",
+    "cache_memory_isolation_audit.json": "38754a3c8330bd6547b0285db09b72cacc353e53e03a2d2fc1f4333d88dda9f9",
+    "chronology_resume_audit.json": "a75226837e8f455ba354a260230504e9ebb72a2dcf46af7861e5df9568adbd01",
+    "formal_config_diff.json": "e1d50e69c2d02991b4f17948ed90bd2d4b47e8e3d7db232f63c6e3c29124a217",
+    "freeze_summary.json": "02661cf61581e92d7b6aa44f8746e9cb6f10800731896681a6e9f72ac84921b8",
+    "global_immutability_audit.json": "7099caaca8c5d60e372e5ca879847f0f813265dbfb65b460f53935bc5f29ab75",
+    "initial_checkpoint_verification.json": "050d809af8b58dc97eb4d1f07e6d2c8f13ac00bd56898342e52a1f41612daae2",
+    "online_update_audit.json": "605b2c2509cf17f55658d2c72897c07ab48f680b143e81be7dab1435c5e01fe5",
+    "preregistration_binding.json": "84c6542cc39800db86c9e34d51d00769cd41e071febd7a2e133944f82f1675e4",
+    "regression_summary.json": "9707bdd336d597825a8ba2d52d243b05d4b0a40589f395bb2ece80c374ec4a45",
+    "source_base_identities.json": "1bca9202d6788510d77005570760f80083ab83570e1a9b92bc5f46b449fe0920",
+    "source_diff_inventory.json": "86f5da8d20f6512cd82c138ddf14256653e7dc507fda0259b3edcd953aa1155e"
+  }
+}

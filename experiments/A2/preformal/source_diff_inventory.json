@@ -1,0 +1,23 @@
+{
+  "schema_version": "A2-SOURCE-DIFF-INVENTORY-v1",
+  "base_sha": "6306ea4ea20cda501c6238db80c34d27bbc16bea",
+  "source_sha": "ae0f36b16a17a1321c17c630fb6a52e10dd23fcd",
+  "changed_paths": [
+    "configs/backtest_a2_no_global_pretraining_2024h1.json",
+    "docs/a2/A2_PREFORMAL_FREEZE.md",
+    "docs/a2/a2_formal_config_diff.json",
+    "docs/a2/a2_preformal_freeze.json",
+    "docs/a2/a2_source_diff_inventory.json",
+    "scripts/run_weekly_backtest.py",
+    "tests/m2/test_a2_no_global_pretraining.py",
+    "tradingagents/backtesting/config.py"
+  ],
+  "runtime_implementation_changed": false,
+  "categories": [
+    "A2 Formal config",
+    "A2 Formal contract and entrypoint guards",
+    "A2 tests",
+    "A2 documentation"
+  ],
+  "unapproved_changes": []
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": "A2-ONLINE-UPDATE-AUDIT-v1",
+  "fixture_period": "2023-10-06 through 2023-10-27",
+  "matured_credits_tested": 3,
+  "applied_updates": 3,
+  "parameter_mutating_updates": 3,
+  "fast_sha_sequence": [
+    "49380bb69ea6fb7682fe97a3ef5e1ccf2b2429b749d6f9f9971e40725271fcf9",
+    "25e6bd6a6317ceb04816f7e43d671c116668c6c2d6329ea82d80a6ad75d3659a",
+    "b42fc8169e119302798bf7f7dd6fa25a91d1910483ec0dd78737c6eba8c6fcfd",
+    "ae204d1c1f43d59fb1b83c0a3721d207da073864592e5a5ffa7ac90b1ce68b4b"
+  ],
+  "optimizer_sha_after_three_updates": "965d0c43d35acbbceeb4fbf0d409898dfdf124cd5c2e179262713ebc78b4de49",
+  "application_ids": [
+    "5bd7a7c9b09ce411ba0c4b55962f0469fa9daf0a2d4a3e45638a2f61fcc89fed",
+    "c32afca16a5993fe1cd777d41702e87aded0354b8afa8690ee2e1d51864303a2",
+    "7d5c922a8ad577da0326484f0176f83841dc7700776b67ee2a7333aac4bd3a24"
+  ],
+  "o08": {
+    "learning_rate": 0.001,
+    "epochs": 2,
+    "optimizer": "AdamW",
+    "weight_decay": 0.0001,
+    "gradient_clip": 0.5,
+    "seed": 20260816,
+    "fast_parameter_count": 165,
+    "retuned": false
+  }
+}

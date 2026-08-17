@@ -1,0 +1,22 @@
+{
+  "schema_version": "A2-REGRESSION-SUMMARY-v1",
+  "focused_a2": {"passed": 10, "failed": 0},
+  "m2_and_backtesting": {"passed": 462, "failed": 0},
+  "complete_repository": {
+    "passed": 1129,
+    "failed": 0,
+    "skipped": 6,
+    "warnings": 19,
+    "subtests_passed": 69
+  },
+  "skip_justification": "One optional langchain_aws dependency, one opt-in live LLM test, and four unavailable M1 pilot-input archive cases; none is an A2 gate.",
+  "resources": {
+    "deepseek_calls": 0,
+    "qwen_calls": 0,
+    "new_embeddings": 0,
+    "aws_starts": 0,
+    "gpu_hours": 0,
+    "formal_a2_decisions": 0,
+    "paid_cost": 0
+  }
+}

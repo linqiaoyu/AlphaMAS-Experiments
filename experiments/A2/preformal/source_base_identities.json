@@ -1,0 +1,12 @@
+{
+  "schema_version": "A2-SOURCE-IDENTITIES-v1",
+  "full_m2_base_sha": "6306ea4ea20cda501c6238db80c34d27bbc16bea",
+  "baseline_m2_remote_sha": "6306ea4ea20cda501c6238db80c34d27bbc16bea",
+  "compare_with_adft_remote_sha": "6306ea4ea20cda501c6238db80c34d27bbc16bea",
+  "a1_remote_sha": "11ae1ce4a3bac6245dbc39c073bcfc2ac0bba16b",
+  "a2_preformal_source_sha": "ae0f36b16a17a1321c17c630fb6a52e10dd23fcd",
+  "a2_base_ahead": 1,
+  "a2_base_behind": 0,
+  "runtime_implementation_changed": false,
+  "a1_merged_or_cherry_picked": false
+}
