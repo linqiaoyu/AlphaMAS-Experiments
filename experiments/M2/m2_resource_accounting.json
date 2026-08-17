@@ -1,0 +1,97 @@
+{
+  "aws": {
+    "canonical_instance": {
+      "instance_id": "i-0bd418f287ad0106f",
+      "instance_type": "g5.xlarge",
+      "name": "alphamas-m2-gpu",
+      "region": "eu-west-2",
+      "state": "stopped"
+    },
+    "cloudtrail": {
+      "capacity_failure_api_events": 27,
+      "explanation": "Nine logical failed start commands produced 27 CloudTrail failure events because the AWS CLI retried each capacity error internally",
+      "logical_capacity_failed_starts": 9,
+      "successful_starts": 10
+    },
+    "cost_basis": {
+      "currency": "USD",
+      "on_demand_linux_g5_xlarge_usd_per_hour": 1.277,
+      "price_source": "AWS Price List API, EU (London), queried 2026-08-17"
+    },
+    "estimated_formal_usage": {
+      "estimated_incremental_usd": 13.59260083,
+      "gpu_hours": 10.64416667,
+      "method": "CloudTrail successful start times plus six preserved 90-minute instance auto-stop windows and four explicit bounded windows; stop-transition latency is not added",
+      "running_seconds": 38319
+    },
+    "final_resume_76_to_78": {
+      "estimated_incremental_usd": 1.15851806,
+      "gpu_hours": 0.90722222,
+      "running_seconds": 3266
+    },
+    "final_state_verified_at_utc": "2026-08-17T12:07:04Z",
+    "pending_alphamas_g5_xlarge": 0,
+    "running_alphamas_g5_xlarge": 0
+  },
+  "deepseek": {
+    "accepted_committed_cases": {
+      "completion_tokens": 3081864,
+      "cost_cny": "23.83332596",
+      "prompt_cache_hit_tokens": 7154048,
+      "prompt_cache_miss_tokens": 17526517,
+      "prompt_tokens": 24680565,
+      "requests": 2308,
+      "total_tokens": 27762429
+    },
+    "failed_partial_attempts_recovered": [
+      {
+        "case_id": "AAPL:2024-01-05",
+        "completion_tokens": 21445,
+        "cost_cny": "0.12032536",
+        "origin_run_id": "20260816T163401565852Z_6306ea4e",
+        "prompt_cache_hit_tokens": 64768,
+        "prompt_cache_miss_tokens": 76140,
+        "prompt_tokens": 140908,
+        "requests": 19,
+        "total_tokens": 162353
+      },
+      {
+        "case_id": "JPM:2024-05-03",
+        "completion_tokens": 23721,
+        "cost_cny": "0.12875464",
+        "origin_run_id": "20260817T002046302214Z_6306ea4e",
+        "prompt_cache_hit_tokens": 60032,
+        "prompt_cache_miss_tokens": 80112,
+        "prompt_tokens": 140144,
+        "requests": 18,
+        "total_tokens": 163865
+      }
+    ],
+    "final_resume_76_to_78": {
+      "completion_tokens": 70174,
+      "cost_cny": "0.53880224",
+      "prompt_cache_hit_tokens": 198912,
+      "prompt_cache_miss_tokens": 394476,
+      "prompt_tokens": 593388,
+      "requests": 58,
+      "total_tokens": 663562
+    },
+    "pricing_basis": "CNY per million tokens: cache-hit input 0.02, cache-miss input 1.00, output 2.00",
+    "recoverable_same_lineage_total": {
+      "completion_tokens": 3127030,
+      "cost_cny": "24.08240596",
+      "prompt_cache_hit_tokens": 7278848,
+      "prompt_cache_miss_tokens": 17682769,
+      "prompt_tokens": 24961617,
+      "requests": 2345,
+      "total_tokens": 28088647
+    },
+    "unrecoverable_usage": {
+      "known_missing_requests": null,
+      "status": "NOT_QUANTIFIABLE_IF_ANY",
+      "statement": "All preserved usage records, including two partial failed attempts, are included. An API request interrupted before its usage record was flushed cannot be proven absent and is not silently estimated."
+    }
+  },
+  "generated_at_utc": "2026-08-17T12:07:04Z",
+  "schema_version": "M2-16-RESOURCE-ACCOUNTING-v1"
+}

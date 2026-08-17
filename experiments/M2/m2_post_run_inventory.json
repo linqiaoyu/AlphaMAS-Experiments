@@ -1,0 +1,29 @@
+{
+  "actual_unlisted_files": [],
+  "archive_manifest_matches_actual_files": true,
+  "archive_path": "experiments/M2/formal/runs/20260817T101217082243Z_6306ea4e",
+  "case_inventory": {
+    "AAPL": 26,
+    "AMZN": 26,
+    "JPM": 26,
+    "duplicates": 0,
+    "expected_total": 78,
+    "extra": 0,
+    "missing": 0,
+    "observed_total": 78
+  },
+  "excluded_from_archive_inventory": [
+    "formal_result_manifest.json",
+    "sha256_inventory.json"
+  ],
+  "generated_at_utc": "2026-08-17T12:07:04Z",
+  "inventory_file_count": 12058,
+  "inventory_mismatches": [],
+  "inventory_sha256": "a783f1a940ab69700bb5612642885ba040c94edfa13fb9d8ab2b448cdf87dd77",
+  "invalid_json_documents": [],
+  "json_documents_parsed": 4364,
+  "listed_missing_files": [],
+  "required_agent_case_reports_missing": [],
+  "schema_version": "M2-16-POST-RUN-INVENTORY-v1",
+  "status": "PASS"
+}

@@ -1,0 +1,142 @@
+{
+  "ablation_preregistration": {
+    "A1_NO_ONLINE_ADAPTATION": {
+      "definition": "Full M2 minus delayed per-symbol online fast-parameter adaptation",
+      "disabled_mechanism_only": "parameter updates from matured online credits",
+      "initial_branch": "ablation/a1-no-online-adaptation",
+      "initial_branch_sha": "6306ea4ea20cda501c6238db80c34d27bbc16bea",
+      "preserved": [
+        "exact C09",
+        "full M2 Actor/Critic",
+        "R3",
+        "Prompt prior",
+        "semantic representation",
+        "M1 information",
+        "Risk Debate",
+        "Portfolio Manager",
+        "execution",
+        "Formal protocol"
+      ],
+      "record_and_score_credits_for_audit": true,
+      "retuning_permitted": false
+    },
+    "A2_NO_GLOBAL_PRETRAINING": {
+      "definition": "Full M2 minus global C09 pretraining",
+      "initial_branch": "ablation/a2-no-global-pretraining",
+      "initial_branch_sha": "6306ea4ea20cda501c6238db80c34d27bbc16bea",
+      "initial_model_parameter_sha256": "60a0fec7b69ef2d0576a9c0894be09c377d573585db827c162279fb27483303e",
+      "preserved": [
+        "O08 without retuning",
+        "semantic representation",
+        "R3",
+        "Prompt prior",
+        "online chronology",
+        "Risk Debate",
+        "Portfolio Manager",
+        "execution",
+        "Formal protocol"
+      ],
+      "retuning_permitted": false
+    },
+    "identity": "e7e2cc8520f9033e57c442b04c882baffd7c51b497bbc9495b71098f64a83b0e",
+    "legacy_branches_unchanged": [
+      "ablation/no-memory",
+      "ablation/reward-pnl-only"
+    ],
+    "performance_used_to_redefine_ablations": false
+  },
+  "archive": {
+    "archive_commit": "63b2ed2d98d954b4eaa7815c08f1e9fdef8aa4e0",
+    "archive_inventory_identity": "a783f1a940ab69700bb5612642885ba040c94edfa13fb9d8ab2b448cdf87dd77",
+    "archive_path": "experiments/M2/formal/runs/20260817T101217082243Z_6306ea4e",
+    "formal_source_sha": "6306ea4ea20cda501c6238db80c34d27bbc16bea",
+    "official_run_id": "20260817T101217082243Z_6306ea4e",
+    "post_run_audit_identity": "2806edebcc2103f4c8a5f2efe5b9f0c3b027eecc79fc888f380a354713e00691",
+    "post_run_inventory_identity": "6360174ca4e27a572e8c2a8a59c2713a727d18500bd01c72be0cd080da19af30",
+    "resource_accounting_identity": "b8f1017f7cd039d294761fea09068cba1f7a1076ba47b50d9464fa6870ec0fa9"
+  },
+  "branch_freeze": {
+    "ablation/a1-no-online-adaptation": "6306ea4ea20cda501c6238db80c34d27bbc16bea",
+    "ablation/a2-no-global-pretraining": "6306ea4ea20cda501c6238db80c34d27bbc16bea",
+    "baseline-m2": "6306ea4ea20cda501c6238db80c34d27bbc16bea",
+    "remote_verified": true,
+    "zero_initial_ablation_delta": true
+  },
+  "final_ec2": {
+    "canonical_g5_xlarge_state": "stopped",
+    "pending_alphamas_g5_xlarge": 0,
+    "running_alphamas_g5_xlarge": 0,
+    "verified_at_utc": "2026-08-17T12:07:04Z"
+  },
+  "frozen_research_identities": {
+    "counterfactual_tree_contract": "M2_TRAIN_COUNTERFACTUAL_TREE-v2",
+    "global_policy": {
+      "candidate": "C09",
+      "model_sha256": "56dc52128e1df9c9ddcf79fa6f7b293393bd61306ba4ef032f96cad6bf92126c",
+      "parameter_sha256": "6baafc03b0b63512b3a66a1ae8f1ce1ce7e774395787626b49905e7b72cd1841"
+    },
+    "m1_bundle": "30596a54788101873f1c88bdf653df7f12ac3b4861a7058b6a36df0861274121",
+    "method": "M2-PA-CTPPO-v2",
+    "online_adaptation": {
+      "candidate": "O08",
+      "epochs_per_matured_credit": 2,
+      "fast_parameters_per_symbol": 165,
+      "gradient_clip": 0.5,
+      "learning_rate": 0.001,
+      "optimiser": "AdamW",
+      "weight_decay": 0.0001
+    },
+    "representation": "6e3b11863bc3ec214444326a269477e465101afb866f30e80698f37c7148d2fe",
+    "reward": "R3_HOLD_RELATIVE_DRAWDOWN_UTILITY"
+  },
+  "next_route": [
+    "A1-01 — implement and pre-Formal freeze A1_NO_ONLINE_ADAPTATION",
+    "A1-02 — Formal A1 + Post-run Audit + research freeze",
+    "A2-01 — implement and pre-Formal freeze A2_NO_GLOBAL_PRETRAINING",
+    "A2-02 — Formal A2 + Post-run Audit + research freeze",
+    "ARMA-01 — frozen ARMA(1,1) benchmark",
+    "COMPARE-01 — final controlled comparative analysis"
+  ],
+  "official_result": {
+    "decision_failures": 0,
+    "decisions": {
+      "AAPL": 26,
+      "AMZN": 26,
+      "JPM": 26,
+      "total": 78
+    },
+    "experiment_id": "M2_agentic_rl_2024H1",
+    "final_validation_verdict": "PASSED",
+    "research_frozen": true,
+    "same_lineage": true
+  },
+  "resource_summary": {
+    "aws_estimated_formal_gpu_hours": 10.64416667,
+    "aws_estimated_incremental_usd": 13.59260083,
+    "aws_running_seconds": 38319,
+    "deepseek_completion_tokens": 3127030,
+    "deepseek_cost_cny": "24.08240596",
+    "deepseek_prompt_tokens": 24961617,
+    "deepseek_requests": 2345,
+    "deepseek_total_tokens": 28088647,
+    "unrecoverable_usage": "not quantifiable if an interrupted request failed before its usage record was flushed; no silent estimate added"
+  },
+  "same_lineage_recovery": {
+    "committed_cases_regenerated": 0,
+    "committed_cases_replaced": 0,
+    "final_formal_lineage": "20260817T101217082243Z_6306ea4e",
+    "final_memory_lineage": "20260816T150158003630Z_6306ea4e",
+    "operational_interruptions": 10,
+    "safe_resumes": 10,
+    "torn_states_recovered_to_exact_pre_case_boundaries": true
+  },
+  "schema_version": "M2-16-RESEARCH-FREEZE-v1",
+  "statements": [
+    "Full M2 official result is permanently frozen.",
+    "Formal M2 must never be rerun because of performance.",
+    "Observed M2 performance did not modify RL design, ablations, hyperparameters, reward, representation, checkpoint, prompts, Agent graph, Formal configuration, or the official trajectory.",
+    "Final M0/M1/M2/A1/A2 comparative interpretation is deferred to COMPARE-01."
+  ],
+  "timestamp_utc": "2026-08-17T12:07:04Z",
+  "verdict": "PASS"
+}

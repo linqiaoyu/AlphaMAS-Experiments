@@ -1,0 +1,175 @@
+{
+  "archive": {
+    "archive_commit": "63b2ed2d98d954b4eaa7815c08f1e9fdef8aa4e0",
+    "archive_path": "experiments/M2/formal/runs/20260817T101217082243Z_6306ea4e",
+    "inventory_file_count": 12058,
+    "inventory_sha256": "a783f1a940ab69700bb5612642885ba040c94edfa13fb9d8ab2b448cdf87dd77",
+    "json_documents_parsed": 4364,
+    "remote_equality_verified_before_audit": true
+  },
+  "artifact_completeness": {
+    "agent_case_artifacts_complete": true,
+    "decision_cache_cases": 78,
+    "duplicate_cases": 0,
+    "equity_metrics_orders_and_fills_complete": true,
+    "expected_cases": 78,
+    "extra_cases": 0,
+    "invalid_json_documents": 0,
+    "memory_records_complete": true,
+    "missing_cases": 0,
+    "prompt_trader_provenance_complete": true,
+    "risk_debate_provenance_complete": true,
+    "portfolio_manager_provenance_complete": true,
+    "frozen_m2_actor_provenance_complete": true,
+    "usage_records_complete_for_committed_cases": true,
+    "validation_files_complete": true
+  },
+  "correctness": {
+    "decision_cache": "PASS",
+    "execution_timing": {
+      "first_execution": "2024-01-08",
+      "last_execution": "2024-07-01",
+      "next_valid_session_open": true,
+      "no_same_bar_execution": true,
+      "status": "PASS"
+    },
+    "memory": {
+      "final_memory_lineage_id": "20260816T150158003630Z_6306ea4e",
+      "logs_per_symbol": 26,
+      "no_future_memory_visible": true,
+      "status": "PASS"
+    },
+    "pit": {
+      "final_holdout_leak_files": 0,
+      "future_source_events": 0,
+      "future_rewards_applied_early": 0,
+      "live_only_sources_blocked_in_historical_mode": true,
+      "live_data_substitution": false,
+      "raw_finmultitime_regeneration": false,
+      "status": "PASS"
+    },
+    "portfolio": {
+      "buy_target_weight": 1.0,
+      "commission_bps": 5,
+      "daily_mark_to_market": true,
+      "force_terminal_liquidation": false,
+      "fractional_shares": true,
+      "hold_mapping": "preserve",
+      "initial_cash_per_symbol_usd": 100000,
+      "leverage": false,
+      "long_only": true,
+      "negative_cash_observations": 0,
+      "negative_share_observations": 0,
+      "sell_target_weight": 0.0,
+      "short_selling": false,
+      "slippage_bps": 5,
+      "status": "PASS"
+    },
+    "rl_chronology": {
+      "AAPL": {
+        "APPLIED": 23,
+        "ARCHIVED": 2,
+        "PENDING": 1,
+        "issued_actions": 26,
+        "state_identity": "d7d369b36cf276c11b7cd6c41b7c982da9ff59ee52be33d6eaad6f34fe803a8b",
+        "update_records": 23
+      },
+      "AMZN": {
+        "APPLIED": 23,
+        "ARCHIVED": 2,
+        "PENDING": 1,
+        "issued_actions": 26,
+        "state_identity": "131bf5aa7fd7db0f7b0c185438396e6fc933c62f3e504ca63b31a620930df1be",
+        "update_records": 23
+      },
+      "JPM": {
+        "APPLIED": 23,
+        "ARCHIVED": 2,
+        "PENDING": 1,
+        "issued_actions": 26,
+        "state_identity": "f230a7dd75efd0fc7e0a608c754a8b7e58a88c743aa2c8bc2fde4b152e889751",
+        "update_records": 23
+      },
+      "cross_symbol_application_ids": 0,
+      "duplicate_applications": 0,
+      "orphan_updates": 0,
+      "partial_policy_mutation_after_failed_case": false,
+      "terminal_pending": "AAPL, AMZN, and JPM 2024-06-28 credits mature on 2024-07-08, after the frozen 2024-07-05 market horizon, and remain PENDING",
+      "transition": "PENDING -> MATURED -> APPLIED/ARCHIVED",
+      "status": "PASS"
+    },
+    "schedule": {
+      "calendar": "XNYS",
+      "decision_sessions_per_symbol": 26,
+      "final_valuation": "2024-07-05",
+      "good_friday_week_decision": "2024-03-28",
+      "status": "PASS"
+    }
+  },
+  "frozen_identities": {
+    "ablation_preregistration": "e7e2cc8520f9033e57c442b04c882baffd7c51b497bbc9495b71098f64a83b0e",
+    "counterfactual_tree_contract": "M2_TRAIN_COUNTERFACTUAL_TREE-v2",
+    "c09_model_sha256": "56dc52128e1df9c9ddcf79fa6f7b293393bd61306ba4ef032f96cad6bf92126c",
+    "c09_parameter_sha256": "6baafc03b0b63512b3a66a1ae8f1ce1ce7e774395787626b49905e7b72cd1841",
+    "global_candidate": "C09",
+    "m1_bundle": "30596a54788101873f1c88bdf653df7f12ac3b4861a7058b6a36df0861274121",
+    "method": "M2-PA-CTPPO-v2",
+    "online_candidate": "O08",
+    "online_epochs_per_matured_credit": 2,
+    "online_fast_parameters_per_symbol": 165,
+    "online_gradient_clip": 0.5,
+    "online_learning_rate": 0.001,
+    "online_optimiser": "AdamW",
+    "online_weight_decay": 0.0001,
+    "representation": "6e3b11863bc3ec214444326a269477e465101afb866f30e80698f37c7148d2fe",
+    "reward": "R3_HOLD_RELATIVE_DRAWDOWN_UTILITY"
+  },
+  "generated_at_utc": "2026-08-17T12:07:04Z",
+  "lineage": {
+    "committed_cases_regenerated": 0,
+    "committed_cases_replaced": 0,
+    "competing_official_trajectories": 0,
+    "final_formal_lineage": "20260817T101217082243Z_6306ea4e",
+    "final_memory_lineage": "20260816T150158003630Z_6306ea4e",
+    "operational_interruptions": 10,
+    "preserved_attempts": 11,
+    "safe_resumes": 10,
+    "same_lineage": true,
+    "torn_states_recovered_to_exact_pre_case_boundaries": true
+  },
+  "official_result": {
+    "decisions": {
+      "AAPL": 26,
+      "AMZN": 26,
+      "JPM": 26,
+      "total": 78
+    },
+    "experiment_id": "M2_agentic_rl_2024H1",
+    "failures": 0,
+    "official_run_id": "20260817T101217082243Z_6306ea4e",
+    "research_frozen": true,
+    "source_sha": "6306ea4ea20cda501c6238db80c34d27bbc16bea",
+    "validation": "PASSED"
+  },
+  "regression": {
+    "formal_bundle_validator": "PASS",
+    "relevant_tests_passed": 542,
+    "skipped": 1,
+    "skipped_reason": "legacy M1 pilot-only fixture path is not present; frozen Formal M1 inputs and all selected Formal contracts were exercised",
+    "status": "PASS"
+  },
+  "schema_version": "M2-16-POST-RUN-AUDIT-v1",
+  "secret_scan": {
+    "aws_access_key_pattern_files": 0,
+    "credential_value_archived": false,
+    "credential_value_committed": false,
+    "credential_value_printed_in_research_artifact": false,
+    "known_deepseek_value_current_matches": 0,
+    "known_deepseek_value_history_matches": 0,
+    "private_key_pattern_files": 0,
+    "provider_token_pattern_files": 0,
+    "status": "PASS",
+    "tracked_files_scanned": 17499
+  },
+  "verdict": "PASSED"
+}
