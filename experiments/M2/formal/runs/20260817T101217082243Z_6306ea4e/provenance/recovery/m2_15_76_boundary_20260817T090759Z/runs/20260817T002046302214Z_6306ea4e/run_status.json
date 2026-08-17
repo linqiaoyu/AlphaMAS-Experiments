@@ -1,0 +1,13 @@
+{
+  "experiment_id": "M2_agentic_rl_2024H1",
+  "run_id": "20260817T002046302214Z_6306ea4e",
+  "status": "failed",
+  "started_at": "2026-08-17T00:20:46.311957+00:00",
+  "completed_at": "2026-08-17T00:24:30.743682+00:00",
+  "memory_lineage_id": "20260816T150158003630Z_6306ea4e",
+  "memory_lifecycle": "resume",
+  "memory_resumed_from_run_id": "20260816T224437449900Z_6306ea4e",
+  "error_type": "ChronologicalDecisionFailure",
+  "error_message": "TradingAgents decision failed at JPM:2024-05-03: RuntimeError: safe resume encountered changed M2 decision input",
+  "traceback": "Traceback (most recent call last):\n  File \"/mnt/alphamas/repos/AlphaMAS/scripts/run_weekly_backtest.py\", line 880, in execute\n    results = run_accounts(\n              ^^^^^^^^^^^^^\n  File \"/mnt/alphamas/repos/AlphaMAS/scripts/run_weekly_backtest.py\", line 302, in run_accounts\n    result = engine(provider, schedule, config).run(\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/alphamas/repos/AlphaMAS/tradingagents/backtesting/engine.py\", line 266, in run\n    raise ChronologicalDecisionFailure(decision)\ntradingagents.backtesting.engine.ChronologicalDecisionFailure: TradingAgents decision failed at JPM:2024-05-03: RuntimeError: safe resume encountered changed M2 decision input\n"
+}

@@ -1,0 +1,15 @@
+{
+  "completion_tokens": 70174,
+  "cost_cny": "0.53880224",
+  "live_cases": [
+    "JPM:2024-06-21",
+    "JPM:2024-06-28"
+  ],
+  "live_requests": 58,
+  "pricing_basis": "DeepSeek CNY per million tokens: cache-hit input 0.02, cache-miss input 1.00, output 2.00",
+  "prompt_cache_hit_tokens": 198912,
+  "prompt_cache_miss_tokens": 394476,
+  "prompt_tokens": 593388,
+  "schema_version": "M2-formal-usage-cost-v1",
+  "total_tokens": 663562
+}

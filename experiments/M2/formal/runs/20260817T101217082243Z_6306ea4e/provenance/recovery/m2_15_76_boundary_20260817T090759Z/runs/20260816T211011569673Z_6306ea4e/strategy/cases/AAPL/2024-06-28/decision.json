@@ -1,0 +1,173 @@
+{
+  "symbol": "AAPL",
+  "decision_session": "2024-06-28",
+  "decision_time_utc": "2024-06-28T20:00:00+00:00",
+  "action": "HOLD",
+  "target_weight": 0.0,
+  "status": "cached",
+  "reason": "exact cache hit",
+  "strategy_id": "tradingagents",
+  "experiment_id": "M2_agentic_rl_2024H1",
+  "raw_signal": "HOLD",
+  "metadata": {
+    "wall_clock_seconds": 0.01924542999999801,
+    "run_context": {
+      "mode": "historical",
+      "as_of": "2024-06-28T20:00:00+00:00"
+    },
+    "market_history_visibility": {
+      "first_session": "2023-01-04",
+      "last_session": "2024-06-28",
+      "last_observation_time_utc": "2024-06-28T20:00:00+00:00",
+      "row_count": 373,
+      "sha256": "ef7d206e1287b016b134c29bd3a821d5b9d1a55acdcdbf809e87ce0922f11a5f"
+    },
+    "report_path": "strategy/cases/AAPL/2024-06-28/reports",
+    "source_audit_path": "strategy/cases/AAPL/2024-06-28/source_audit.json",
+    "cache_key": "59938160113f7204584a644cb8a6b01d648e007596fcd75d61037e1f851e33d2",
+    "cache_status": "hit",
+    "model_config": {
+      "llm_provider": "deepseek",
+      "quick_think_llm": "deepseek-v4-flash",
+      "deep_think_llm": "deepseek-v4-flash",
+      "backend_url": null,
+      "deepseek_thinking": "disabled",
+      "temperature": 0.0,
+      "llm_max_retries": null,
+      "selected_analysts": [
+        "market",
+        "social",
+        "news",
+        "fundamentals"
+      ],
+      "output_language": "English",
+      "research_depth": "medium",
+      "max_debate_rounds": 3,
+      "max_risk_discuss_rounds": 3,
+      "max_recur_limit": 100,
+      "news_article_limit": 20,
+      "global_news_article_limit": 10,
+      "global_news_lookback_days": 7,
+      "global_news_queries": [
+        "Federal Reserve interest rates inflation",
+        "S&P 500 earnings GDP economic outlook",
+        "geopolitical risk trade war sanctions",
+        "ECB Bank of England BOJ central bank policy",
+        "oil commodities supply chain energy"
+      ],
+      "data_vendors": {
+        "core_stock_apis": "yfinance",
+        "technical_indicators": "yfinance",
+        "fundamental_data": "yfinance",
+        "news_data": "yfinance",
+        "macro_data": "fred",
+        "prediction_markets": "polymarket"
+      },
+      "tool_vendors": {},
+      "benchmark_ticker": null,
+      "benchmark_map": {
+        ".NS": "^NSEI",
+        ".BO": "^BSESN",
+        ".T": "^N225",
+        ".HK": "^HSI",
+        ".L": "^FTSE",
+        ".TO": "^GSPTSE",
+        ".AX": "^AXJO",
+        ".SS": "000001.SS",
+        ".SZ": "399001.SZ",
+        "": "SPY"
+      },
+      "memory_mode": "experiment",
+      "memory_log_max_entries": null,
+      "memory_holding_horizon_sessions": 5,
+      "memory_outcome_price_mode": "adjusted_close",
+      "checkpoint_enabled": false,
+      "point_in_time": true,
+      "execution_data_source": "snapshot",
+      "finmultitime_evidence_enabled": true,
+      "finmultitime_expected_contract_version": "M1-FINMULTITIME-v1.0.2",
+      "finmultitime_expected_contract_sha256": "46f6a05f12a7c402936178748c55dab099c8754d99fa1a0c41faf525cd37ae08",
+      "finmultitime_expected_packet_manifest_sha256": "05f10129b430475bad3d5dee9dfceffba463f8a99cdd3f087ff4b755a869d63d",
+      "finmultitime_expected_input_bundle_identity": "30596a54788101873f1c88bdf653df7f12ac3b4861a7058b6a36df0861274121",
+      "finmultitime_bundle_scope": "FORMAL",
+      "finmultitime_archive_commit": "3750fa50224ba46ab1d4bf5511cb5e8fa514445b",
+      "finmultitime_verify_full_bundle_on_start": true,
+      "m2_trader_enabled": true,
+      "m2_variant": "FULL_M2",
+      "m2_method_id": "M2-PA-CTPPO-v2",
+      "m2_representation_identity": "6e3b11863bc3ec214444326a269477e465101afb866f30e80698f37c7148d2fe",
+      "m2_checkpoint_parameter_identity": "6baafc03b0b63512b3a66a1ae8f1ce1ce7e774395787626b49905e7b72cd1841",
+      "m2_checkpoint_file_identity": "56dc52128e1df9c9ddcf79fa6f7b293393bd61306ba4ef032f96cad6bf92126c",
+      "m2_online_candidate_id": "O08",
+      "m2_online_learning_rate": 0.001,
+      "m2_online_update_epochs": 2,
+      "m2_online_weight_decay": 0.0001,
+      "m2_online_gradient_clip": 0.5,
+      "m2_preformal_evidence_enabled": false,
+      "m2_preformal_evidence_identity": "3e9bb6e66fcd998c0b4deff30f7d5728c563126d3a1b976e21bbf034174e4420",
+      "m2_preformal_evidence_role": "E2E_PILOT",
+      "graph_config_sha256": "2fb23245ec9ef29b546819454de81b85ffeb064c8c7f8a7de722545d4bb9f5ae"
+    },
+    "decision_prefix_sha256": "506980a0816f095dc82d5440dafdee5d1fd652d9c196cdfe7dd76cf18c4d4e97",
+    "m2_trader_handoff": {
+      "schema_version": "M2-TRADER-HANDOFF-v1",
+      "authoritative_action": "HOLD",
+      "action_source": "FROZEN_M2_ACTOR",
+      "prompt_action": "HOLD",
+      "override": false,
+      "prompt_trader_proposal_sha256": "9f54d89d41b197b40a509b23d372b4d461b9521391eba5892849e70b5191bffb",
+      "research_manager_plan_sha256": "7993d869340bb4baf230cbdb85d4942aed9b01066ef689fe06f21606ad021e40",
+      "semantic_state_identity": "f8544625c1700d2eecbf5b6d4a9bae999c0a03c8cd985ad7a0bc5b989f89dcae",
+      "actor_observation_identity": "f2cd90a49adcc7f7c6b17be5c2bca6238ab647400f7789677c0e978a30820399",
+      "actor_observation_dimension": 3080,
+      "portfolio_state": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pre_decision_fast_parameter_identity": "3e1a43afd957fe0cd05bccf0607aa643c28e99e3692e23c5bb4b200a22a7eb8f",
+      "actor_logits": [
+        -2.9670190811157227,
+        0.9224345088005066,
+        -0.6228766441345215
+      ],
+      "actor_probabilities": [
+        0.01658140867948532,
+        0.8105684518814087,
+        0.17285007238388062
+      ],
+      "event_id": "690cda06d07a2d4a22d3b9cfdaae0fd984601518b3b5fcac173f0de7ece41da9",
+      "expected_maturity_session": "2024-07-08",
+      "checkpoint_parameter_identity": "6baafc03b0b63512b3a66a1ae8f1ce1ce7e774395787626b49905e7b72cd1841",
+      "checkpoint_file_identity": "56dc52128e1df9c9ddcf79fa6f7b293393bd61306ba4ef032f96cad6bf92126c",
+      "representation_identity": "6e3b11863bc3ec214444326a269477e465101afb866f30e80698f37c7148d2fe",
+      "encoder_repo": "Qwen/Qwen3-Embedding-0.6B",
+      "encoder_revision": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
+      "no_second_llm_call": true
+    },
+    "m2_prompt_trader_proposal_original": "**Action**: Hold\n\n**Reasoning**: The research plan concludes with a genuine Hold recommendation, and the evidence supports this balanced view. On the bullish side, AAPL trades 14.9% above its 200 SMA with a golden cross intact, +24.32% over 60 days, shallow -2.79% drawdown, and $62.6B operating cash flow in six months \u2014 all verifiable trend and fundamental strength. On the bearish side, momentum is deteriorating: MACD histogram deepening for five consecutive sessions (-0.17 to -0.43), RSI falling from 78+ to 61.70, relative volume at 0.93 (below average), and poor risk-reward at $208.63 (limited upside to $214.62 high vs. ~9.5% downside to the 50 SMA at $188.81). The AI catalyst is unverifiable in this historical window, and the income statement is unavailable, so growth cannot be confirmed. Neither the bull nor bear case decisively wins; the confirmed uptrend and cash generation justify maintaining existing positions, while the deteriorating momentum and poor entry risk-reward argue against adding new exposure at current levels. I will maintain current positioning per the plan, with stop-loss discipline at $188.81 and monitoring triggers for either a break above $214.62 on strong volume or a pullback to the $200-203 support zone with momentum stabilization.\n\n**Entry Price**: 200.0\n\n**Stop Loss**: 188.81\n\n**Position Sizing**: Maintain existing positions; no new exposure at current levels. If adding on a confirmed trigger, size at roughly half of a full position.\n\nFINAL TRANSACTION PROPOSAL: **HOLD**",
+    "m2_maturity_events_after_action": [
+      {
+        "event_id": "77da1e5b336eca094c7157ed787982badb70dec5d7c1e9b4bc94647439ca586c",
+        "status": "ARCHIVED",
+        "maturity_input_identity": "76c4552e5b3e6c5df64b8264a840db52699e6c2787e72df1c3a5a41f0b1d3f59",
+        "counterfactual_r3": [
+          -0.0691088258736432,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "event_id": "e0f69b8e967cb9c72fd32b2ed328dfe03feafdd6bdc6428199b70272c934eccf",
+        "status": "ARCHIVED",
+        "maturity_input_identity": "077096743bb8b312c852dd9e6f6f214595942931e981ef2a9ccce3ea29776973",
+        "counterfactual_r3": [
+          -0.0035229215478160773,
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  }
+}

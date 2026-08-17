@@ -1,0 +1,13 @@
+{
+  "experiment_id": "M2_agentic_rl_2024H1",
+  "run_id": "20260816T163401565852Z_6306ea4e",
+  "status": "failed",
+  "started_at": "2026-08-16T16:34:01.573856+00:00",
+  "completed_at": "2026-08-16T16:37:22.167653+00:00",
+  "memory_lineage_id": "20260816T150158003630Z_6306ea4e",
+  "memory_lifecycle": "resume",
+  "memory_resumed_from_run_id": "20260816T150352922856Z_6306ea4e",
+  "error_type": "ChronologicalDecisionFailure",
+  "error_message": "TradingAgents decision failed at AAPL:2024-01-05: RuntimeError: Deterministic behavior was enabled with either `torch.use_deterministic_algorithms(True)` or `at::Context::setDeterministicAlgorithms(true)`, but this operation is not deterministic because it uses CuBLAS and you have CUDA >= 10.2. To enable deterministic behavior in this case, you must set an environment variable before running your PyTorch application: CUBLAS_WORKSPACE_CONFIG=:4096:8 or CUBLAS_WORKSPACE_CONFIG=:16:8. For more information, go to https://docs.nvidia.com/cuda/cublas/index.html#results-reproducibility",
+  "traceback": "Traceback (most recent call last):\n  File \"/mnt/alphamas/repos/AlphaMAS/scripts/run_weekly_backtest.py\", line 880, in execute\n    results = run_accounts(\n              ^^^^^^^^^^^^^\n  File \"/mnt/alphamas/repos/AlphaMAS/scripts/run_weekly_backtest.py\", line 302, in run_accounts\n    result = engine(provider, schedule, config).run(\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/alphamas/repos/AlphaMAS/tradingagents/backtesting/engine.py\", line 266, in run\n    raise ChronologicalDecisionFailure(decision)\ntradingagents.backtesting.engine.ChronologicalDecisionFailure: TradingAgents decision failed at AAPL:2024-01-05: RuntimeError: Deterministic behavior was enabled with either `torch.use_deterministic_algorithms(True)` or `at::Context::setDeterministicAlgorithms(true)`, but this operation is not deterministic because it uses CuBLAS and you have CUDA >= 10.2. To enable deterministic behavior in this case, you must set an environment variable before running your PyTorch application: CUBLAS_WORKSPACE_CONFIG=:4096:8 or CUBLAS_WORKSPACE_CONFIG=:16:8. For more information, go to https://docs.nvidia.com/cuda/cublas/index.html#results-reproducibility\n"
+}

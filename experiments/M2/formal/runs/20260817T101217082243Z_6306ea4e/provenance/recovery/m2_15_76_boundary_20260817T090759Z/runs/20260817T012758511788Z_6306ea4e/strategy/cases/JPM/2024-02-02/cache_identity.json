@@ -1,0 +1,58 @@
+{
+  "cache_key": "7842623eec9da55d78127b0236a7641224c01766fd7d86aa021ca3087e98423f",
+  "identity": {
+    "experiment_id": "M2_agentic_rl_2024H1",
+    "symbol": "JPM",
+    "decision_time_utc": "2024-02-02T21:00:00+00:00",
+    "strategy_id": "tradingagents",
+    "selected_analysts": [
+      "market",
+      "social",
+      "news",
+      "fundamentals"
+    ],
+    "research_depth": "medium",
+    "debate_rounds": 3,
+    "risk_rounds": 3,
+    "quick_model": "deepseek-v4-flash",
+    "deep_model": "deepseek-v4-flash",
+    "provider": "deepseek",
+    "thinking_mode": "disabled",
+    "temperature": 0.0,
+    "output_language": "English",
+    "data_vendor_config": {
+      "core_stock_apis": "yfinance",
+      "technical_indicators": "yfinance",
+      "fundamental_data": "yfinance",
+      "news_data": "yfinance",
+      "macro_data": "fred",
+      "prediction_markets": "polymarket"
+    },
+    "tool_vendor_config": {},
+    "point_in_time": true,
+    "memory_mode": "experiment",
+    "memory_lineage_id": "20260816T150158003630Z_6306ea4e",
+    "holding_horizon_sessions": 5,
+    "graph_config_sha256": "2fb23245ec9ef29b546819454de81b85ffeb064c8c7f8a7de722545d4bb9f5ae",
+    "git_commit_sha": "6306ea4ea20cda501c6238db80c34d27bbc16bea",
+    "prompt_config_version": "weekly-backtest-v1",
+    "portfolio_state_hash": "3ae4de4b204be2a64b1f43ac9167e9f5cb1dacfcfbf1b8f905911e25a9bf81ac",
+    "market_history_sha256": "a09b5c613fba35c66fcc85e1a03c5ef311fd8a9a3e7117f7783a06b8eec08839",
+    "memory_namespace_version": "experiment-v3-run-lineage",
+    "finmultitime_evidence_enabled": true,
+    "finmultitime_bundle_scope": "FORMAL",
+    "finmultitime_input_bundle_identity": "30596a54788101873f1c88bdf653df7f12ac3b4861a7058b6a36df0861274121",
+    "finmultitime_contract_sha256": "46f6a05f12a7c402936178748c55dab099c8754d99fa1a0c41faf525cd37ae08",
+    "finmultitime_case_id": "JPM:2024-02-02",
+    "finmultitime_packet_json_sha256": "20bbcf6d235c3a7fd009245d8119adf9cb79c3ad5f0bd93a3b7cc2fff01a2be0",
+    "finmultitime_route_sha256": {
+      "news": "4af0fa82ef7ef2da6f34d1fad468ef636881884749a45f28bd389cf2459a01ef",
+      "fundamentals": "6e7550b60f8a847ffa1f7f4a3810b3f871e2e1d0477fe264afc0912f9046f6d6",
+      "market": "4204d6705bbcbe0afb3631da7acc021596dbc27af640fad77926365094f98286"
+    },
+    "decision_prefix_sha256": "6307c914ce2b5955019b92f3f7f8685772cf6bd2b5f9d064d3e1a64e8f36472e",
+    "m2_trader_enabled": true,
+    "m2_variant": "FULL_M2",
+    "m2_runtime_state_identity": "b63122aaafda20c93cd1b79b18de04c620da41899c199bc35e4a8b6046ded9de"
+  }
+}

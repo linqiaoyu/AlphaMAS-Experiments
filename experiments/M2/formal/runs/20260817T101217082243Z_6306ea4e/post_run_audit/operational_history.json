@@ -1,0 +1,32 @@
+{
+  "capacity_events": {
+    "insufficient_capacity_failures_this_resume": 2,
+    "start_attempts_this_resume": 3,
+    "successful_starts_this_resume": 1
+  },
+  "credential": {
+    "remote_runtime_received": true,
+    "secret_committed": false,
+    "secret_printed": false,
+    "source_path": "/Users/yulinqiao/Desktop/FTIPFinal/AlphaMAS/.env",
+    "source_type": "existing local .env"
+  },
+  "current_run_id": "20260817T101217082243Z_6306ea4e",
+  "memory_lineage_id": "20260816T150158003630Z_6306ea4e",
+  "memory_resumed_from_run_id": "20260817T012758511788Z_6306ea4e",
+  "preserved_prior_runs": [
+    "20260816T150158003630Z_6306ea4e",
+    "20260816T150352922856Z_6306ea4e",
+    "20260816T163401565852Z_6306ea4e",
+    "20260816T164035970154Z_6306ea4e",
+    "20260816T180213491623Z_6306ea4e",
+    "20260816T193519179697Z_6306ea4e",
+    "20260816T211011569673Z_6306ea4e",
+    "20260816T224437449900Z_6306ea4e",
+    "20260817T002046302214Z_6306ea4e",
+    "20260817T012758511788Z_6306ea4e"
+  ],
+  "recovery_backup": "provenance/recovery/m2_15_76_boundary_20260817T090759Z",
+  "same_lineage": true,
+  "schema_version": "M2-formal-operational-history-v1"
+}

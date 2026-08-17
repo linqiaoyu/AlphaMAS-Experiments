@@ -1,0 +1,71 @@
+{
+  "archive_path": "experiments/M2/formal/runs/20260817T101217082243Z_6306ea4e",
+  "checksum_inventory": {
+    "excluded_from_inventory": [
+      "formal_result_manifest.json",
+      "sha256_inventory.json"
+    ],
+    "file_count": 12058,
+    "path": "sha256_inventory.json",
+    "sha256": "a783f1a940ab69700bb5612642885ba040c94edfa13fb9d8ab2b448cdf87dd77"
+  },
+  "experiment_id": "M2_agentic_rl_2024H1",
+  "inputs": {
+    "c09_model_sha": "56dc52128e1df9c9ddcf79fa6f7b293393bd61306ba4ef032f96cad6bf92126c",
+    "c09_parameter_sha": "6baafc03b0b63512b3a66a1ae8f1ce1ce7e774395787626b49905e7b72cd1841",
+    "m1_frozen_bundle_identity": "30596a54788101873f1c88bdf653df7f12ac3b4861a7058b6a36df0861274121",
+    "o08": {
+      "epochs_per_matured_credit": 2,
+      "gradient_clip": 0.5,
+      "learning_rate": 0.001,
+      "weight_decay": 0.0001
+    },
+    "representation_identity": "6e3b11863bc3ec214444326a269477e465101afb866f30e80698f37c7148d2fe"
+  },
+  "lineage": {
+    "memory_lineage_id": "20260816T150158003630Z_6306ea4e",
+    "memory_resumed_from_run_id": "20260817T012758511788Z_6306ea4e",
+    "preserved_prior_runs": 10,
+    "same_lineage": true
+  },
+  "official_run_id": "20260817T101217082243Z_6306ea4e",
+  "preservation": {
+    "committed_cases_regenerated": 0,
+    "committed_cases_replaced": 0,
+    "credential_archived": false
+  },
+  "protocol": {
+    "backtest_protocol_sha256": "3a45aa255dd3a97c2c0164ef188331913e6b76233b49b50ba644e68a366107c6",
+    "config_sha256": "36bdf07ac8a1553caaf22af437efb2489d260986797138034e5b283cfe41e896",
+    "graph_config_sha256": "e6da2a19de4b5b14bf51602f6f6db8cca42e2b7e30e2f7f03baa130c5c7f3987",
+    "market_input_identity": {
+      "AAPL": "5428fc2c672f3b68c7c3e83b4a22bd5b7330c95a8b4194695762539d9d8a5af3",
+      "AMZN": "c4b5c747d75ba658c6f6833348783e3f8a8c571380c930de20cf9fb7dd6b1444",
+      "JPM": "74cf77b77b0a83ce8e6246578d4da30bf7622558e8973bda71344b99b9dfd6fc",
+      "SPY": "22e6996ebf963787f40d54bfc59e1ca088fa698cb82b639768504dbdbb2d25ac"
+    }
+  },
+  "provenance": {
+    "operational_history": "post_run_audit/operational_history.json",
+    "post_run_audit": "post_run_audit/formal_correctness_gate.json",
+    "recovery_backup": "provenance/recovery/m2_15_76_boundary_20260817T090759Z",
+    "validation_report": "validation/validation_report.json"
+  },
+  "research_frozen": true,
+  "result": {
+    "decision_count": 78,
+    "decision_failures": 0,
+    "decisions_per_symbol": {
+      "AAPL": 26,
+      "AMZN": 26,
+      "JPM": 26
+    },
+    "final_valuation_date": "2024-07-05"
+  },
+  "schema_version": "M2-formal-result-manifest-v1",
+  "source": {
+    "alpha_mas_experiments_sha": "d68f0115cc8dc2d7fc6c7f98c119ee1dc1d8e54e",
+    "alpha_mas_sha": "6306ea4ea20cda501c6238db80c34d27bbc16bea"
+  },
+  "verdict": "PASSED"
+}

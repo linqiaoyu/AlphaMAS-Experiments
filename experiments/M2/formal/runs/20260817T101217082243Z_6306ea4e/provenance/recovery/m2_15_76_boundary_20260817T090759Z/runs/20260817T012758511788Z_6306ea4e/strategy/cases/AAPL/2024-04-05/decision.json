@@ -1,0 +1,173 @@
+{
+  "symbol": "AAPL",
+  "decision_session": "2024-04-05",
+  "decision_time_utc": "2024-04-05T20:00:00+00:00",
+  "action": "HOLD",
+  "target_weight": 0.0,
+  "status": "cached",
+  "reason": "exact cache hit",
+  "strategy_id": "tradingagents",
+  "experiment_id": "M2_agentic_rl_2024H1",
+  "raw_signal": "HOLD",
+  "metadata": {
+    "wall_clock_seconds": 0.007313304000035714,
+    "run_context": {
+      "mode": "historical",
+      "as_of": "2024-04-05T20:00:00+00:00"
+    },
+    "market_history_visibility": {
+      "first_session": "2023-01-04",
+      "last_session": "2024-04-05",
+      "last_observation_time_utc": "2024-04-05T20:00:00+00:00",
+      "row_count": 315,
+      "sha256": "9233690b3b1d1c7dac74228ce7251f12b44b7a6af4edd80dfd8502b0ffc9f820"
+    },
+    "report_path": "strategy/cases/AAPL/2024-04-05/reports",
+    "source_audit_path": "strategy/cases/AAPL/2024-04-05/source_audit.json",
+    "cache_key": "eed76441c25b5985f325905a07a17461f9723a75b60182b1b50ead4364cdb0ce",
+    "cache_status": "hit",
+    "model_config": {
+      "llm_provider": "deepseek",
+      "quick_think_llm": "deepseek-v4-flash",
+      "deep_think_llm": "deepseek-v4-flash",
+      "backend_url": null,
+      "deepseek_thinking": "disabled",
+      "temperature": 0.0,
+      "llm_max_retries": null,
+      "selected_analysts": [
+        "market",
+        "social",
+        "news",
+        "fundamentals"
+      ],
+      "output_language": "English",
+      "research_depth": "medium",
+      "max_debate_rounds": 3,
+      "max_risk_discuss_rounds": 3,
+      "max_recur_limit": 100,
+      "news_article_limit": 20,
+      "global_news_article_limit": 10,
+      "global_news_lookback_days": 7,
+      "global_news_queries": [
+        "Federal Reserve interest rates inflation",
+        "S&P 500 earnings GDP economic outlook",
+        "geopolitical risk trade war sanctions",
+        "ECB Bank of England BOJ central bank policy",
+        "oil commodities supply chain energy"
+      ],
+      "data_vendors": {
+        "core_stock_apis": "yfinance",
+        "technical_indicators": "yfinance",
+        "fundamental_data": "yfinance",
+        "news_data": "yfinance",
+        "macro_data": "fred",
+        "prediction_markets": "polymarket"
+      },
+      "tool_vendors": {},
+      "benchmark_ticker": null,
+      "benchmark_map": {
+        ".NS": "^NSEI",
+        ".BO": "^BSESN",
+        ".T": "^N225",
+        ".HK": "^HSI",
+        ".L": "^FTSE",
+        ".TO": "^GSPTSE",
+        ".AX": "^AXJO",
+        ".SS": "000001.SS",
+        ".SZ": "399001.SZ",
+        "": "SPY"
+      },
+      "memory_mode": "experiment",
+      "memory_log_max_entries": null,
+      "memory_holding_horizon_sessions": 5,
+      "memory_outcome_price_mode": "adjusted_close",
+      "checkpoint_enabled": false,
+      "point_in_time": true,
+      "execution_data_source": "snapshot",
+      "finmultitime_evidence_enabled": true,
+      "finmultitime_expected_contract_version": "M1-FINMULTITIME-v1.0.2",
+      "finmultitime_expected_contract_sha256": "46f6a05f12a7c402936178748c55dab099c8754d99fa1a0c41faf525cd37ae08",
+      "finmultitime_expected_packet_manifest_sha256": "05f10129b430475bad3d5dee9dfceffba463f8a99cdd3f087ff4b755a869d63d",
+      "finmultitime_expected_input_bundle_identity": "30596a54788101873f1c88bdf653df7f12ac3b4861a7058b6a36df0861274121",
+      "finmultitime_bundle_scope": "FORMAL",
+      "finmultitime_archive_commit": "3750fa50224ba46ab1d4bf5511cb5e8fa514445b",
+      "finmultitime_verify_full_bundle_on_start": true,
+      "m2_trader_enabled": true,
+      "m2_variant": "FULL_M2",
+      "m2_method_id": "M2-PA-CTPPO-v2",
+      "m2_representation_identity": "6e3b11863bc3ec214444326a269477e465101afb866f30e80698f37c7148d2fe",
+      "m2_checkpoint_parameter_identity": "6baafc03b0b63512b3a66a1ae8f1ce1ce7e774395787626b49905e7b72cd1841",
+      "m2_checkpoint_file_identity": "56dc52128e1df9c9ddcf79fa6f7b293393bd61306ba4ef032f96cad6bf92126c",
+      "m2_online_candidate_id": "O08",
+      "m2_online_learning_rate": 0.001,
+      "m2_online_update_epochs": 2,
+      "m2_online_weight_decay": 0.0001,
+      "m2_online_gradient_clip": 0.5,
+      "m2_preformal_evidence_enabled": false,
+      "m2_preformal_evidence_identity": "3e9bb6e66fcd998c0b4deff30f7d5728c563126d3a1b976e21bbf034174e4420",
+      "m2_preformal_evidence_role": "E2E_PILOT",
+      "graph_config_sha256": "2fb23245ec9ef29b546819454de81b85ffeb064c8c7f8a7de722545d4bb9f5ae"
+    },
+    "decision_prefix_sha256": "af1cfc43810d21512a5921570c74ea4d7e1f61531d1ebb8bfc7868cd4e56342d",
+    "m2_trader_handoff": {
+      "schema_version": "M2-TRADER-HANDOFF-v1",
+      "authoritative_action": "HOLD",
+      "action_source": "FROZEN_M2_ACTOR",
+      "prompt_action": "HOLD",
+      "override": false,
+      "prompt_trader_proposal_sha256": "81c54dc2fd7ce320127a78820e9b2af8b591dc0f0050908edcd13183097dae9a",
+      "research_manager_plan_sha256": "c7b0bbc58193d45f0e327151bfd3aa87838db1e10a17b2a5fc7d33808d732632",
+      "semantic_state_identity": "ffa785c26f986849986e4c8c9f20adeb4173fa0ff968e5b629503dfd10c9c1fb",
+      "actor_observation_identity": "ec2e85d0bbebd08a82b9013a8e8a12f74d559895402a7f9db7ea4dfa40fdc895",
+      "actor_observation_dimension": 3080,
+      "portfolio_state": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pre_decision_fast_parameter_identity": "c99abf601de095f6e8cfdce485270eb381f766c8725baadb980ebb5533250ddb",
+      "actor_logits": [
+        -3.1347203254699707,
+        0.9586623311042786,
+        -0.43710100650787354
+      ],
+      "actor_probabilities": [
+        0.013194930739700794,
+        0.7909348011016846,
+        0.19587019085884094
+      ],
+      "event_id": "c6f62e4365cf8245195633e5d05cdec89c31d70c1fffd22309e53bd16fcdbbf1",
+      "expected_maturity_session": "2024-04-12",
+      "checkpoint_parameter_identity": "6baafc03b0b63512b3a66a1ae8f1ce1ce7e774395787626b49905e7b72cd1841",
+      "checkpoint_file_identity": "56dc52128e1df9c9ddcf79fa6f7b293393bd61306ba4ef032f96cad6bf92126c",
+      "representation_identity": "6e3b11863bc3ec214444326a269477e465101afb866f30e80698f37c7148d2fe",
+      "encoder_repo": "Qwen/Qwen3-Embedding-0.6B",
+      "encoder_revision": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
+      "no_second_llm_call": true
+    },
+    "m2_prompt_trader_proposal_original": "**Action**: Hold\n\n**Reasoning**: The investment plan recommends Hold, and the evidence supports this balanced assessment. Apple's fundamentals are strong \u2014 $39.9B quarterly operating cash flow, $11.2B net cash accretion, and a $74.1B equity cushion \u2014 but the technical picture remains bearish with the stock trading below all major moving averages (10 EMA at $168.68, 50 SMA at $176.96, 200 SMA at $180.81), a death cross in place, and a -8.29% 60-day return. The MACD histogram is turning positive and RSI has recovered from 22 to 41, suggesting improving momentum, but there is no confirmed reversal catalyst. The risk/reward is roughly symmetric (downside ~1.5% to $165 lower Bollinger Band, upside ~5.5% to $177 50 SMA), and sentiment data is unavailable. Maintaining the current position while waiting for a reclaim of the 50 SMA on strong volume (to add) or a decisive break below $167 (to trim) is the prudent course.\n\n**Entry Price**: 167.75\n\n**Stop Loss**: 167.0\n\n**Position Sizing**: Maintain current position weight; no new exposure until technical triggers confirm direction.\n\nFINAL TRANSACTION PROPOSAL: **HOLD**",
+    "m2_maturity_events_after_action": [
+      {
+        "event_id": "bead4540ccd5ceadb6b65de73ff25a9cb7cbcc0554978cbaaadeb716117a9989",
+        "status": "APPLIED",
+        "maturity_input_identity": "b785b8a98b56c541efc11da8107fb3022b3daed7d154598b0b96154c5c8dcc68",
+        "counterfactual_r3": [
+          -0.02327767712339422,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "event_id": "ff48f4b4f7e9e764f92f2582cab3dc19c2c0768a321ef8079155ddd1f0426bc6",
+        "status": "APPLIED",
+        "maturity_input_identity": "3b8d2e68d01a16e42a8aab6eaa1ce60907be1eb5fd50927883e964eaf64e5a16",
+        "counterfactual_r3": [
+          -0.024389975408485486,
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "experiment_id": "M2_agentic_rl_2024H1",
+  "run_id": "20260816T150158003630Z_6306ea4e",
+  "status": "failed",
+  "started_at": "2026-08-16T15:01:58.011754+00:00",
+  "completed_at": "2026-08-16T15:01:58.210703+00:00",
+  "memory_lineage_id": "20260816T150158003630Z_6306ea4e",
+  "memory_lifecycle": "independent_fresh",
+  "memory_resumed_from_run_id": null,
+  "error_type": "ModuleNotFoundError",
+  "error_message": "No module named 'torch'",
+  "traceback": "Traceback (most recent call last):\n  File \"/mnt/alphamas/repos/AlphaMAS/scripts/run_weekly_backtest.py\", line 880, in execute\n    results = run_accounts(\n              ^^^^^^^^^^^^^\n  File \"/mnt/alphamas/repos/AlphaMAS/scripts/run_weekly_backtest.py\", line 297, in run_accounts\n    strategy = strategy_factory(\n               ^^^^^^^^^^^^^^^^^\n  File \"/mnt/alphamas/repos/AlphaMAS/scripts/run_weekly_backtest.py\", line 179, in strategy_factory\n    from tradingagents.graph.trading_graph import TradingAgentsGraph\n  File \"/mnt/alphamas/repos/AlphaMAS/tradingagents/graph/__init__.py\", line 6, in <module>\n    from .setup import GraphSetup\n  File \"/mnt/alphamas/repos/AlphaMAS/tradingagents/graph/setup.py\", line 25, in <module>\n    from tradingagents.m2.runtime import M2ProductionTraderRuntime, create_m2_trader_node\n  File \"/mnt/alphamas/repos/AlphaMAS/tradingagents/m2/__init__.py\", line 3, in <module>\n    from tradingagents.m2.runtime import (\n  File \"/mnt/alphamas/repos/AlphaMAS/tradingagents/m2/runtime.py\", line 24, in <module>\n    import torch\nModuleNotFoundError: No module named 'torch'\n"
+}

@@ -1,0 +1,163 @@
+{
+  "symbol": "JPM",
+  "decision_session": "2024-04-26",
+  "decision_time_utc": "2024-04-26T20:00:00+00:00",
+  "action": "HOLD",
+  "target_weight": 0.0,
+  "status": "cached",
+  "reason": "exact cache hit",
+  "strategy_id": "tradingagents",
+  "experiment_id": "M2_agentic_rl_2024H1",
+  "raw_signal": "HOLD",
+  "metadata": {
+    "wall_clock_seconds": 0.025782068999973262,
+    "run_context": {
+      "mode": "historical",
+      "as_of": "2024-04-26T20:00:00+00:00"
+    },
+    "market_history_visibility": {
+      "first_session": "2023-01-04",
+      "last_session": "2024-04-26",
+      "last_observation_time_utc": "2024-04-26T20:00:00+00:00",
+      "row_count": 330,
+      "sha256": "a3f490b10bb56773db417036c906a2bc4133892aeceed62e92ae6b01d1400edf"
+    },
+    "report_path": "strategy/cases/JPM/2024-04-26/reports",
+    "source_audit_path": "strategy/cases/JPM/2024-04-26/source_audit.json",
+    "cache_key": "9abf15fb716b9ff99020275aeac1dcc4014340ca4334b6ecdc46a360fc0297e2",
+    "cache_status": "hit",
+    "model_config": {
+      "llm_provider": "deepseek",
+      "quick_think_llm": "deepseek-v4-flash",
+      "deep_think_llm": "deepseek-v4-flash",
+      "backend_url": null,
+      "deepseek_thinking": "disabled",
+      "temperature": 0.0,
+      "llm_max_retries": null,
+      "selected_analysts": [
+        "market",
+        "social",
+        "news",
+        "fundamentals"
+      ],
+      "output_language": "English",
+      "research_depth": "medium",
+      "max_debate_rounds": 3,
+      "max_risk_discuss_rounds": 3,
+      "max_recur_limit": 100,
+      "news_article_limit": 20,
+      "global_news_article_limit": 10,
+      "global_news_lookback_days": 7,
+      "global_news_queries": [
+        "Federal Reserve interest rates inflation",
+        "S&P 500 earnings GDP economic outlook",
+        "geopolitical risk trade war sanctions",
+        "ECB Bank of England BOJ central bank policy",
+        "oil commodities supply chain energy"
+      ],
+      "data_vendors": {
+        "core_stock_apis": "yfinance",
+        "technical_indicators": "yfinance",
+        "fundamental_data": "yfinance",
+        "news_data": "yfinance",
+        "macro_data": "fred",
+        "prediction_markets": "polymarket"
+      },
+      "tool_vendors": {},
+      "benchmark_ticker": null,
+      "benchmark_map": {
+        ".NS": "^NSEI",
+        ".BO": "^BSESN",
+        ".T": "^N225",
+        ".HK": "^HSI",
+        ".L": "^FTSE",
+        ".TO": "^GSPTSE",
+        ".AX": "^AXJO",
+        ".SS": "000001.SS",
+        ".SZ": "399001.SZ",
+        "": "SPY"
+      },
+      "memory_mode": "experiment",
+      "memory_log_max_entries": null,
+      "memory_holding_horizon_sessions": 5,
+      "memory_outcome_price_mode": "adjusted_close",
+      "checkpoint_enabled": false,
+      "point_in_time": true,
+      "execution_data_source": "snapshot",
+      "finmultitime_evidence_enabled": true,
+      "finmultitime_expected_contract_version": "M1-FINMULTITIME-v1.0.2",
+      "finmultitime_expected_contract_sha256": "46f6a05f12a7c402936178748c55dab099c8754d99fa1a0c41faf525cd37ae08",
+      "finmultitime_expected_packet_manifest_sha256": "05f10129b430475bad3d5dee9dfceffba463f8a99cdd3f087ff4b755a869d63d",
+      "finmultitime_expected_input_bundle_identity": "30596a54788101873f1c88bdf653df7f12ac3b4861a7058b6a36df0861274121",
+      "finmultitime_bundle_scope": "FORMAL",
+      "finmultitime_archive_commit": "3750fa50224ba46ab1d4bf5511cb5e8fa514445b",
+      "finmultitime_verify_full_bundle_on_start": true,
+      "m2_trader_enabled": true,
+      "m2_variant": "FULL_M2",
+      "m2_method_id": "M2-PA-CTPPO-v2",
+      "m2_representation_identity": "6e3b11863bc3ec214444326a269477e465101afb866f30e80698f37c7148d2fe",
+      "m2_checkpoint_parameter_identity": "6baafc03b0b63512b3a66a1ae8f1ce1ce7e774395787626b49905e7b72cd1841",
+      "m2_checkpoint_file_identity": "56dc52128e1df9c9ddcf79fa6f7b293393bd61306ba4ef032f96cad6bf92126c",
+      "m2_online_candidate_id": "O08",
+      "m2_online_learning_rate": 0.001,
+      "m2_online_update_epochs": 2,
+      "m2_online_weight_decay": 0.0001,
+      "m2_online_gradient_clip": 0.5,
+      "m2_preformal_evidence_enabled": false,
+      "m2_preformal_evidence_identity": "3e9bb6e66fcd998c0b4deff30f7d5728c563126d3a1b976e21bbf034174e4420",
+      "m2_preformal_evidence_role": "E2E_PILOT",
+      "graph_config_sha256": "2fb23245ec9ef29b546819454de81b85ffeb064c8c7f8a7de722545d4bb9f5ae"
+    },
+    "decision_prefix_sha256": "ac375604e37afdefd9890b4c01c9136816e0edb403fa67f0053f227cc2b82e29",
+    "m2_trader_handoff": {
+      "schema_version": "M2-TRADER-HANDOFF-v1",
+      "authoritative_action": "HOLD",
+      "action_source": "FROZEN_M2_ACTOR",
+      "prompt_action": "HOLD",
+      "override": false,
+      "prompt_trader_proposal_sha256": "b5d15917024e77bfc77b711e3919b5b62418090b61ee1bacbfed3c15d7e631e6",
+      "research_manager_plan_sha256": "d695789b0065afcf3a589f11c73e09ae5804c82dea1ad068d752b5a3477b81ad",
+      "semantic_state_identity": "3059006a7896996ffa41d7cff4ecf2ffa901388c417e29c7c9e9681a3493be66",
+      "actor_observation_identity": "75eedfebcb4de2e5a415e0f0534994bdfd32555d1b9a199c2556bc2193394099",
+      "actor_observation_dimension": 3080,
+      "portfolio_state": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pre_decision_fast_parameter_identity": "e21e9d009f524de8741f777502d9eddac812274d5582c6a465c558c52f2adf0f",
+      "actor_logits": [
+        -3.155851364135742,
+        0.964033305644989,
+        -0.4232456684112549
+      ],
+      "actor_probabilities": [
+        0.012832848355174065,
+        0.7898891568183899,
+        0.19727793335914612
+      ],
+      "event_id": "87a6c15b15da98b6b08939aca0c175841a9d613ce0474cedbb80e3d76cb92dc1",
+      "expected_maturity_session": "2024-05-03",
+      "checkpoint_parameter_identity": "6baafc03b0b63512b3a66a1ae8f1ce1ce7e774395787626b49905e7b72cd1841",
+      "checkpoint_file_identity": "56dc52128e1df9c9ddcf79fa6f7b293393bd61306ba4ef032f96cad6bf92126c",
+      "representation_identity": "6e3b11863bc3ec214444326a269477e465101afb866f30e80698f37c7148d2fe",
+      "encoder_repo": "Qwen/Qwen3-Embedding-0.6B",
+      "encoder_revision": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
+      "no_second_llm_call": true
+    },
+    "m2_prompt_trader_proposal_original": "**Action**: Hold\n\n**Reasoning**: The investment plan presents a genuinely balanced situation for JPM. The bull case rests on verified technicals (price above all key moving averages, fresh MACD bullish crossover, RSI at 56.95) and a fortress balance sheet with a $25.6B capital return program. However, the bear's caution is equally valid: the stock just ripped 7.4% in nine days on below-average relative volume (0.60 vs 20-day mean), sits 19% above its 200-day SMA, and faces overhead resistance at $188.88\u2013$190.06 with no news, sentiment, or macro catalyst to confirm the move. The 20-day return remains negative (-2.84%), indicating the medium-term trend is not yet confirmed. With the downside (50-day SMA at $180.59) closer than the upside (April high), the risk/reward at current levels (~$184.66) is not compelling for adding, but the strong fundamentals and absence of deterioration do not warrant a sell. Maintaining a neutral, benchmark-weight position is the appropriate action.\n\n**Entry Price**: 180.59\n\n**Stop Loss**: 180.0\n\n**Position Sizing**: Neutral, benchmark-weight allocation. Do not concentrate. Consider trimming into strength at $188.88\u2013$190.06 resistance zone.\n\nFINAL TRANSACTION PROPOSAL: **HOLD**",
+    "m2_maturity_events_after_action": [
+      {
+        "event_id": "712b96e574a8ca45405114b218f5cd9393539c0fef24f3833af27d4170974a3c",
+        "status": "APPLIED",
+        "maturity_input_identity": "b3ffeaf4131d18f1d68d9c35ac186bf0b5b18defd47fc85acd5df972002165b4",
+        "counterfactual_r3": [
+          0.038533171491259274,
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  }
+}

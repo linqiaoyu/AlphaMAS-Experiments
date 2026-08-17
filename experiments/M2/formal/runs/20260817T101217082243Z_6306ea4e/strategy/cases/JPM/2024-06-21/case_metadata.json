@@ -1,0 +1,8 @@
+{
+  "case_id": "JPM:2024-06-21",
+  "cache_key": "4d2ce7e8c1407a0752bc754d029a40a62095fbcc3c93a8999e02f1f1cbc10f7c",
+  "cache_status": "miss",
+  "wall_clock_seconds": 315.34421287200007,
+  "report_path": "strategy/cases/JPM/2024-06-21/reports",
+  "source_audit_path": "strategy/cases/JPM/2024-06-21/source_audit.json"
+}

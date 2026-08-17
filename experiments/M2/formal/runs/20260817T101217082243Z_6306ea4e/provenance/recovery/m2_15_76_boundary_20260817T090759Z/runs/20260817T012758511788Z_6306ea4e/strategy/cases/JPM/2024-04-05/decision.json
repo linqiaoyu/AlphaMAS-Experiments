@@ -1,0 +1,173 @@
+{
+  "symbol": "JPM",
+  "decision_session": "2024-04-05",
+  "decision_time_utc": "2024-04-05T20:00:00+00:00",
+  "action": "HOLD",
+  "target_weight": 0.0,
+  "status": "cached",
+  "reason": "exact cache hit",
+  "strategy_id": "tradingagents",
+  "experiment_id": "M2_agentic_rl_2024H1",
+  "raw_signal": "HOLD",
+  "metadata": {
+    "wall_clock_seconds": 0.007520297999690229,
+    "run_context": {
+      "mode": "historical",
+      "as_of": "2024-04-05T20:00:00+00:00"
+    },
+    "market_history_visibility": {
+      "first_session": "2023-01-04",
+      "last_session": "2024-04-05",
+      "last_observation_time_utc": "2024-04-05T20:00:00+00:00",
+      "row_count": 315,
+      "sha256": "8d38bf250d9f0624d5f2982b2de6e136644831a737a5a830909c8d42be7ac6b0"
+    },
+    "report_path": "strategy/cases/JPM/2024-04-05/reports",
+    "source_audit_path": "strategy/cases/JPM/2024-04-05/source_audit.json",
+    "cache_key": "38a92fc8650216de9c1939858017b922d2d1d5a10642da7fe0ea3f2d6377590e",
+    "cache_status": "hit",
+    "model_config": {
+      "llm_provider": "deepseek",
+      "quick_think_llm": "deepseek-v4-flash",
+      "deep_think_llm": "deepseek-v4-flash",
+      "backend_url": null,
+      "deepseek_thinking": "disabled",
+      "temperature": 0.0,
+      "llm_max_retries": null,
+      "selected_analysts": [
+        "market",
+        "social",
+        "news",
+        "fundamentals"
+      ],
+      "output_language": "English",
+      "research_depth": "medium",
+      "max_debate_rounds": 3,
+      "max_risk_discuss_rounds": 3,
+      "max_recur_limit": 100,
+      "news_article_limit": 20,
+      "global_news_article_limit": 10,
+      "global_news_lookback_days": 7,
+      "global_news_queries": [
+        "Federal Reserve interest rates inflation",
+        "S&P 500 earnings GDP economic outlook",
+        "geopolitical risk trade war sanctions",
+        "ECB Bank of England BOJ central bank policy",
+        "oil commodities supply chain energy"
+      ],
+      "data_vendors": {
+        "core_stock_apis": "yfinance",
+        "technical_indicators": "yfinance",
+        "fundamental_data": "yfinance",
+        "news_data": "yfinance",
+        "macro_data": "fred",
+        "prediction_markets": "polymarket"
+      },
+      "tool_vendors": {},
+      "benchmark_ticker": null,
+      "benchmark_map": {
+        ".NS": "^NSEI",
+        ".BO": "^BSESN",
+        ".T": "^N225",
+        ".HK": "^HSI",
+        ".L": "^FTSE",
+        ".TO": "^GSPTSE",
+        ".AX": "^AXJO",
+        ".SS": "000001.SS",
+        ".SZ": "399001.SZ",
+        "": "SPY"
+      },
+      "memory_mode": "experiment",
+      "memory_log_max_entries": null,
+      "memory_holding_horizon_sessions": 5,
+      "memory_outcome_price_mode": "adjusted_close",
+      "checkpoint_enabled": false,
+      "point_in_time": true,
+      "execution_data_source": "snapshot",
+      "finmultitime_evidence_enabled": true,
+      "finmultitime_expected_contract_version": "M1-FINMULTITIME-v1.0.2",
+      "finmultitime_expected_contract_sha256": "46f6a05f12a7c402936178748c55dab099c8754d99fa1a0c41faf525cd37ae08",
+      "finmultitime_expected_packet_manifest_sha256": "05f10129b430475bad3d5dee9dfceffba463f8a99cdd3f087ff4b755a869d63d",
+      "finmultitime_expected_input_bundle_identity": "30596a54788101873f1c88bdf653df7f12ac3b4861a7058b6a36df0861274121",
+      "finmultitime_bundle_scope": "FORMAL",
+      "finmultitime_archive_commit": "3750fa50224ba46ab1d4bf5511cb5e8fa514445b",
+      "finmultitime_verify_full_bundle_on_start": true,
+      "m2_trader_enabled": true,
+      "m2_variant": "FULL_M2",
+      "m2_method_id": "M2-PA-CTPPO-v2",
+      "m2_representation_identity": "6e3b11863bc3ec214444326a269477e465101afb866f30e80698f37c7148d2fe",
+      "m2_checkpoint_parameter_identity": "6baafc03b0b63512b3a66a1ae8f1ce1ce7e774395787626b49905e7b72cd1841",
+      "m2_checkpoint_file_identity": "56dc52128e1df9c9ddcf79fa6f7b293393bd61306ba4ef032f96cad6bf92126c",
+      "m2_online_candidate_id": "O08",
+      "m2_online_learning_rate": 0.001,
+      "m2_online_update_epochs": 2,
+      "m2_online_weight_decay": 0.0001,
+      "m2_online_gradient_clip": 0.5,
+      "m2_preformal_evidence_enabled": false,
+      "m2_preformal_evidence_identity": "3e9bb6e66fcd998c0b4deff30f7d5728c563126d3a1b976e21bbf034174e4420",
+      "m2_preformal_evidence_role": "E2E_PILOT",
+      "graph_config_sha256": "2fb23245ec9ef29b546819454de81b85ffeb064c8c7f8a7de722545d4bb9f5ae"
+    },
+    "decision_prefix_sha256": "d0bc4b2db56be191df5371eaa3a8ade42ba06f27feecb746a4e4114ebe046bad",
+    "m2_trader_handoff": {
+      "schema_version": "M2-TRADER-HANDOFF-v1",
+      "authoritative_action": "HOLD",
+      "action_source": "FROZEN_M2_ACTOR",
+      "prompt_action": "HOLD",
+      "override": false,
+      "prompt_trader_proposal_sha256": "09d178a7df94b73c289adc04f9c0ed6b804eabef8d7f589322019befd9e24d49",
+      "research_manager_plan_sha256": "8bc6b0334e3b303e0b6e85c506556af7cd599fd3aef0658c9352c6eb1af4c0e8",
+      "semantic_state_identity": "4f30f3dd8144165846bbd4a02563198d9bedae28ed4383e50bc8600935aa8749",
+      "actor_observation_identity": "6601ba78b92b6ea86ec28c56bd3484ba7c5cd83934af017ad687a1d7639d467e",
+      "actor_observation_dimension": 3080,
+      "portfolio_state": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pre_decision_fast_parameter_identity": "a9cdfd37233edeed0e3071ece77658b1b61f72cdcd3d4c28fae84b7eb9cd53ed",
+      "actor_logits": [
+        -3.138483762741089,
+        0.9596042037010193,
+        -0.4345529079437256
+      ],
+      "actor_probabilities": [
+        0.013129674829542637,
+        0.7907348871231079,
+        0.19613546133041382
+      ],
+      "event_id": "639cd129a3c7da143ea97223af809c329eed9220d98533d86310b96187f85a4d",
+      "expected_maturity_session": "2024-04-12",
+      "checkpoint_parameter_identity": "6baafc03b0b63512b3a66a1ae8f1ce1ce7e774395787626b49905e7b72cd1841",
+      "checkpoint_file_identity": "56dc52128e1df9c9ddcf79fa6f7b293393bd61306ba4ef032f96cad6bf92126c",
+      "representation_identity": "6e3b11863bc3ec214444326a269477e465101afb866f30e80698f37c7148d2fe",
+      "encoder_repo": "Qwen/Qwen3-Embedding-0.6B",
+      "encoder_revision": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
+      "no_second_llm_call": true
+    },
+    "m2_prompt_trader_proposal_original": "**Action**: Hold\n\n**Reasoning**: The investment plan calls for a Hold rating on JPM, and the evidence supports this balanced stance. The stock is in a confirmed uptrend (above 10 EMA, 50 SMA, and 200 SMA) with a fortress balance sheet, but momentum is deteriorating as evidenced by a declining MACD histogram that has turned negative (-0.34) and RSI lower highs (80.33 \u2192 79.41 \u2192 65.02) while price made marginal new highs. At $188.44, JPM sits just 1.1% below resistance at $190.57 and 24.5% above the 200-day SMA, making the risk-reward contested at current levels. There is no verifiable near-term catalyst in the supplied evidence to drive the next leg up. I maintain existing positions but do not add at current levels, waiting for either a confirmed breakout above $190.57 on strong volume or a pullback toward the $176\u2013$180 support zone for a more favorable entry.\n\n**Entry Price**: 188.44\n\n**Stop Loss**: 176.03\n\n**Position Sizing**: Neutral/benchmark weight. Any adds should be incremental (no more than 25-33% of a full position) and only on breakout above $190.57 or pullback to $176-180.\n\nFINAL TRANSACTION PROPOSAL: **HOLD**",
+    "m2_maturity_events_after_action": [
+      {
+        "event_id": "3591d666a90437b4878e03366486242223efd290b218dfa6e066ce382764d964",
+        "status": "APPLIED",
+        "maturity_input_identity": "6ab4e7f18a6750b5af16f2abf31ba098c363e4ddb75ad0d78da551e136010b35",
+        "counterfactual_r3": [
+          0.0017371490371338172,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "event_id": "7f835b83360010155e693cb30899aba222be5b3fb9bf9bc196566713248915ed",
+        "status": "APPLIED",
+        "maturity_input_identity": "7c35dfce809366a404dfec0a30880cfc5427331a69e8651d5c5093b4c38779cb",
+        "counterfactual_r3": [
+          -0.024053846058016408,
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  }
+}

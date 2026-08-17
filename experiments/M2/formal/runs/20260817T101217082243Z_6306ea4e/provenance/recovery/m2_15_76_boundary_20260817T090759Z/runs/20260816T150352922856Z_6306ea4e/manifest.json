@@ -1,0 +1,311 @@
+{
+  "experiment_id": "M2_agentic_rl_2024H1",
+  "symbols": [
+    "AAPL",
+    "AMZN",
+    "JPM"
+  ],
+  "protocol_mode": "formal_m2",
+  "decision_sessions": 26,
+  "decision_weeks": 26,
+  "expected_paid_agent_cases": 78,
+  "estimated_cases": 78,
+  "planned_cases": 78,
+  "requires_llm": true,
+  "data_source": "snapshot",
+  "snapshot_required": true,
+  "snapshot_dir_supplied": true,
+  "snapshot_requirement": "snapshot required for execution",
+  "research_depth": "medium",
+  "debate_rounds": 3,
+  "risk_rounds": 3,
+  "llm_provider": "deepseek",
+  "quick_model": "deepseek-v4-flash",
+  "deep_model": "deepseek-v4-flash",
+  "thinking_mode": "disabled",
+  "temperature": 0.0,
+  "selected_analysts": [
+    "market",
+    "social",
+    "news",
+    "fundamentals"
+  ],
+  "key_dates": {
+    "first_decision": "2024-01-05",
+    "good_friday_week_decision": "2024-03-28",
+    "last_decision": "2024-06-28",
+    "first_execution": "2024-01-08",
+    "last_execution": "2024-07-01",
+    "final_valuation": "2024-07-05"
+  },
+  "warmup": {
+    "configured_warmup_sessions": 252,
+    "actual_warmup_sessions": 252,
+    "warmup_first_session": "2023-01-04",
+    "warmup_last_session": "2024-01-04",
+    "first_decision_session": "2024-01-05"
+  },
+  "will_execute": null,
+  "do_not_execute_paid_agent_cases": false,
+  "output_path": "/mnt/alphamas/results/backtests/M2_agentic_rl_2024H1",
+  "schedule": [
+    {
+      "week_start": "2024-01-01",
+      "decision_session": "2024-01-05",
+      "decision_close_utc": "2024-01-05T21:00:00+00:00",
+      "decision_close_ny": "2024-01-05T16:00:00-05:00",
+      "execution_session": "2024-01-08",
+      "execution_open_utc": "2024-01-08T14:30:00+00:00",
+      "execution_open_ny": "2024-01-08T09:30:00-05:00"
+    },
+    {
+      "week_start": "2024-01-08",
+      "decision_session": "2024-01-12",
+      "decision_close_utc": "2024-01-12T21:00:00+00:00",
+      "decision_close_ny": "2024-01-12T16:00:00-05:00",
+      "execution_session": "2024-01-16",
+      "execution_open_utc": "2024-01-16T14:30:00+00:00",
+      "execution_open_ny": "2024-01-16T09:30:00-05:00"
+    },
+    {
+      "week_start": "2024-01-15",
+      "decision_session": "2024-01-19",
+      "decision_close_utc": "2024-01-19T21:00:00+00:00",
+      "decision_close_ny": "2024-01-19T16:00:00-05:00",
+      "execution_session": "2024-01-22",
+      "execution_open_utc": "2024-01-22T14:30:00+00:00",
+      "execution_open_ny": "2024-01-22T09:30:00-05:00"
+    },
+    {
+      "week_start": "2024-01-22",
+      "decision_session": "2024-01-26",
+      "decision_close_utc": "2024-01-26T21:00:00+00:00",
+      "decision_close_ny": "2024-01-26T16:00:00-05:00",
+      "execution_session": "2024-01-29",
+      "execution_open_utc": "2024-01-29T14:30:00+00:00",
+      "execution_open_ny": "2024-01-29T09:30:00-05:00"
+    },
+    {
+      "week_start": "2024-01-29",
+      "decision_session": "2024-02-02",
+      "decision_close_utc": "2024-02-02T21:00:00+00:00",
+      "decision_close_ny": "2024-02-02T16:00:00-05:00",
+      "execution_session": "2024-02-05",
+      "execution_open_utc": "2024-02-05T14:30:00+00:00",
+      "execution_open_ny": "2024-02-05T09:30:00-05:00"
+    },
+    {
+      "week_start": "2024-02-05",
+      "decision_session": "2024-02-09",
+      "decision_close_utc": "2024-02-09T21:00:00+00:00",
+      "decision_close_ny": "2024-02-09T16:00:00-05:00",
+      "execution_session": "2024-02-12",
+      "execution_open_utc": "2024-02-12T14:30:00+00:00",
+      "execution_open_ny": "2024-02-12T09:30:00-05:00"
+    },
+    {
+      "week_start": "2024-02-12",
+      "decision_session": "2024-02-16",
+      "decision_close_utc": "2024-02-16T21:00:00+00:00",
+      "decision_close_ny": "2024-02-16T16:00:00-05:00",
+      "execution_session": "2024-02-20",
+      "execution_open_utc": "2024-02-20T14:30:00+00:00",
+      "execution_open_ny": "2024-02-20T09:30:00-05:00"
+    },
+    {
+      "week_start": "2024-02-19",
+      "decision_session": "2024-02-23",
+      "decision_close_utc": "2024-02-23T21:00:00+00:00",
+      "decision_close_ny": "2024-02-23T16:00:00-05:00",
+      "execution_session": "2024-02-26",
+      "execution_open_utc": "2024-02-26T14:30:00+00:00",
+      "execution_open_ny": "2024-02-26T09:30:00-05:00"
+    },
+    {
+      "week_start": "2024-02-26",
+      "decision_session": "2024-03-01",
+      "decision_close_utc": "2024-03-01T21:00:00+00:00",
+      "decision_close_ny": "2024-03-01T16:00:00-05:00",
+      "execution_session": "2024-03-04",
+      "execution_open_utc": "2024-03-04T14:30:00+00:00",
+      "execution_open_ny": "2024-03-04T09:30:00-05:00"
+    },
+    {
+      "week_start": "2024-03-04",
+      "decision_session": "2024-03-08",
+      "decision_close_utc": "2024-03-08T21:00:00+00:00",
+      "decision_close_ny": "2024-03-08T16:00:00-05:00",
+      "execution_session": "2024-03-11",
+      "execution_open_utc": "2024-03-11T13:30:00+00:00",
+      "execution_open_ny": "2024-03-11T09:30:00-04:00"
+    },
+    {
+      "week_start": "2024-03-11",
+      "decision_session": "2024-03-15",
+      "decision_close_utc": "2024-03-15T20:00:00+00:00",
+      "decision_close_ny": "2024-03-15T16:00:00-04:00",
+      "execution_session": "2024-03-18",
+      "execution_open_utc": "2024-03-18T13:30:00+00:00",
+      "execution_open_ny": "2024-03-18T09:30:00-04:00"
+    },
+    {
+      "week_start": "2024-03-18",
+      "decision_session": "2024-03-22",
+      "decision_close_utc": "2024-03-22T20:00:00+00:00",
+      "decision_close_ny": "2024-03-22T16:00:00-04:00",
+      "execution_session": "2024-03-25",
+      "execution_open_utc": "2024-03-25T13:30:00+00:00",
+      "execution_open_ny": "2024-03-25T09:30:00-04:00"
+    },
+    {
+      "week_start": "2024-03-25",
+      "decision_session": "2024-03-28",
+      "decision_close_utc": "2024-03-28T20:00:00+00:00",
+      "decision_close_ny": "2024-03-28T16:00:00-04:00",
+      "execution_session": "2024-04-01",
+      "execution_open_utc": "2024-04-01T13:30:00+00:00",
+      "execution_open_ny": "2024-04-01T09:30:00-04:00"
+    },
+    {
+      "week_start": "2024-04-01",
+      "decision_session": "2024-04-05",
+      "decision_close_utc": "2024-04-05T20:00:00+00:00",
+      "decision_close_ny": "2024-04-05T16:00:00-04:00",
+      "execution_session": "2024-04-08",
+      "execution_open_utc": "2024-04-08T13:30:00+00:00",
+      "execution_open_ny": "2024-04-08T09:30:00-04:00"
+    },
+    {
+      "week_start": "2024-04-08",
+      "decision_session": "2024-04-12",
+      "decision_close_utc": "2024-04-12T20:00:00+00:00",
+      "decision_close_ny": "2024-04-12T16:00:00-04:00",
+      "execution_session": "2024-04-15",
+      "execution_open_utc": "2024-04-15T13:30:00+00:00",
+      "execution_open_ny": "2024-04-15T09:30:00-04:00"
+    },
+    {
+      "week_start": "2024-04-15",
+      "decision_session": "2024-04-19",
+      "decision_close_utc": "2024-04-19T20:00:00+00:00",
+      "decision_close_ny": "2024-04-19T16:00:00-04:00",
+      "execution_session": "2024-04-22",
+      "execution_open_utc": "2024-04-22T13:30:00+00:00",
+      "execution_open_ny": "2024-04-22T09:30:00-04:00"
+    },
+    {
+      "week_start": "2024-04-22",
+      "decision_session": "2024-04-26",
+      "decision_close_utc": "2024-04-26T20:00:00+00:00",
+      "decision_close_ny": "2024-04-26T16:00:00-04:00",
+      "execution_session": "2024-04-29",
+      "execution_open_utc": "2024-04-29T13:30:00+00:00",
+      "execution_open_ny": "2024-04-29T09:30:00-04:00"
+    },
+    {
+      "week_start": "2024-04-29",
+      "decision_session": "2024-05-03",
+      "decision_close_utc": "2024-05-03T20:00:00+00:00",
+      "decision_close_ny": "2024-05-03T16:00:00-04:00",
+      "execution_session": "2024-05-06",
+      "execution_open_utc": "2024-05-06T13:30:00+00:00",
+      "execution_open_ny": "2024-05-06T09:30:00-04:00"
+    },
+    {
+      "week_start": "2024-05-06",
+      "decision_session": "2024-05-10",
+      "decision_close_utc": "2024-05-10T20:00:00+00:00",
+      "decision_close_ny": "2024-05-10T16:00:00-04:00",
+      "execution_session": "2024-05-13",
+      "execution_open_utc": "2024-05-13T13:30:00+00:00",
+      "execution_open_ny": "2024-05-13T09:30:00-04:00"
+    },
+    {
+      "week_start": "2024-05-13",
+      "decision_session": "2024-05-17",
+      "decision_close_utc": "2024-05-17T20:00:00+00:00",
+      "decision_close_ny": "2024-05-17T16:00:00-04:00",
+      "execution_session": "2024-05-20",
+      "execution_open_utc": "2024-05-20T13:30:00+00:00",
+      "execution_open_ny": "2024-05-20T09:30:00-04:00"
+    },
+    {
+      "week_start": "2024-05-20",
+      "decision_session": "2024-05-24",
+      "decision_close_utc": "2024-05-24T20:00:00+00:00",
+      "decision_close_ny": "2024-05-24T16:00:00-04:00",
+      "execution_session": "2024-05-28",
+      "execution_open_utc": "2024-05-28T13:30:00+00:00",
+      "execution_open_ny": "2024-05-28T09:30:00-04:00"
+    },
+    {
+      "week_start": "2024-05-27",
+      "decision_session": "2024-05-31",
+      "decision_close_utc": "2024-05-31T20:00:00+00:00",
+      "decision_close_ny": "2024-05-31T16:00:00-04:00",
+      "execution_session": "2024-06-03",
+      "execution_open_utc": "2024-06-03T13:30:00+00:00",
+      "execution_open_ny": "2024-06-03T09:30:00-04:00"
+    },
+    {
+      "week_start": "2024-06-03",
+      "decision_session": "2024-06-07",
+      "decision_close_utc": "2024-06-07T20:00:00+00:00",
+      "decision_close_ny": "2024-06-07T16:00:00-04:00",
+      "execution_session": "2024-06-10",
+      "execution_open_utc": "2024-06-10T13:30:00+00:00",
+      "execution_open_ny": "2024-06-10T09:30:00-04:00"
+    },
+    {
+      "week_start": "2024-06-10",
+      "decision_session": "2024-06-14",
+      "decision_close_utc": "2024-06-14T20:00:00+00:00",
+      "decision_close_ny": "2024-06-14T16:00:00-04:00",
+      "execution_session": "2024-06-17",
+      "execution_open_utc": "2024-06-17T13:30:00+00:00",
+      "execution_open_ny": "2024-06-17T09:30:00-04:00"
+    },
+    {
+      "week_start": "2024-06-17",
+      "decision_session": "2024-06-21",
+      "decision_close_utc": "2024-06-21T20:00:00+00:00",
+      "decision_close_ny": "2024-06-21T16:00:00-04:00",
+      "execution_session": "2024-06-24",
+      "execution_open_utc": "2024-06-24T13:30:00+00:00",
+      "execution_open_ny": "2024-06-24T09:30:00-04:00"
+    },
+    {
+      "week_start": "2024-06-24",
+      "decision_session": "2024-06-28",
+      "decision_close_utc": "2024-06-28T20:00:00+00:00",
+      "decision_close_ny": "2024-06-28T16:00:00-04:00",
+      "execution_session": "2024-07-01",
+      "execution_open_utc": "2024-07-01T13:30:00+00:00",
+      "execution_open_ny": "2024-07-01T09:30:00-04:00"
+    }
+  ],
+  "formal_execution_workers": 1,
+  "parallel_symbol_runners": 0,
+  "finmultitime_input_root_supplied": true,
+  "run_id": "20260816T150352922856Z_6306ea4e",
+  "git_sha": "6306ea4ea20cda501c6238db80c34d27bbc16bea",
+  "started_at": "2026-08-16T15:03:52.928863+00:00",
+  "artifact_schema_version": "1.3",
+  "graph_config_sha256": "2fb23245ec9ef29b546819454de81b85ffeb064c8c7f8a7de722545d4bb9f5ae",
+  "backtest_protocol_sha256": "3a45aa255dd3a97c2c0164ef188331913e6b76233b49b50ba644e68a366107c6",
+  "implementation_identity": "6306ea4ea20cda501c6238db80c34d27bbc16bea",
+  "market_input_identity": {
+    "AAPL": "5428fc2c672f3b68c7c3e83b4a22bd5b7330c95a8b4194695762539d9d8a5af3",
+    "AMZN": "c4b5c747d75ba658c6f6833348783e3f8a8c571380c930de20cf9fb7dd6b1444",
+    "JPM": "74cf77b77b0a83ce8e6246578d4da30bf7622558e8973bda71344b99b9dfd6fc",
+    "SPY": "22e6996ebf963787f40d54bfc59e1ca088fa698cb82b639768504dbdbb2d25ac"
+  },
+  "memory_lineage_id": "20260816T150158003630Z_6306ea4e",
+  "memory_lifecycle": "resume",
+  "memory_resumed_from_run_id": "20260816T150158003630Z_6306ea4e",
+  "resume_semantics": "replay from the latest incomplete run using its exact memory lineage and lineage-scoped DecisionCache identity",
+  "runtime_paths": {
+    "decision_cache": "/mnt/alphamas/results/backtests/M2_agentic_rl_2024H1/runtime/decision_cache",
+    "memory": "/mnt/alphamas/results/backtests/M2_agentic_rl_2024H1/runtime/memory"
+  }
+}
