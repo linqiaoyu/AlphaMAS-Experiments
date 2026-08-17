@@ -1,0 +1,55 @@
+{
+  "schema_version": "A1-02-POST-RUN-INVENTORY-v1",
+  "generated_at_utc": "2026-08-17T23:11:18Z",
+  "archive_path": "experiments/A1/formal",
+  "formal_run_path": "experiments/A1/formal/runs/20260817T221009081674Z_11ae1ce4",
+  "official_lineage": "20260817T132343821395Z_11ae1ce4",
+  "final_operational_run": "20260817T221009081674Z_11ae1ce4",
+  "source_sha": "11ae1ce4a3bac6245dbc39c073bcfc2ac0bba16b",
+  "source_branch": "ablation/a1-no-online-adaptation",
+  "experiment_id": "A1_no_online_adaptation_2024H1",
+  "case_inventory": {
+    "AAPL": 26,
+    "AMZN": 26,
+    "JPM": 26,
+    "expected_total": 78,
+    "observed_total": 78,
+    "missing": 0,
+    "duplicates": 0,
+    "extra": 0
+  },
+  "artifact_completeness": {
+    "decision_json": 78,
+    "nonempty_case_directories": 78,
+    "source_audit_files": 78,
+    "empty_case_directories": 0,
+    "final_run_file_count": 1735,
+    "final_run_bytes": 36708005,
+    "invalid_json_documents": 0,
+    "archive_manifest_matches_actual_files": true
+  },
+  "archive_file_count": 5893,
+  "inventory_line_count": 5891,
+  "final_ec2_state": "stopped",
+  "decision_statuses": {
+    "cached": 69,
+    "success": 9,
+    "failures": 0
+  },
+  "integrity_checks": {
+    "pit_violations": 0,
+    "policy_identity_mismatches": 0,
+    "fast_identity_mismatches": 0,
+    "online_adaptation_true_records": 0,
+    "source_audit_missing": 0,
+    "remote_bundle_equality_verified": true
+  },
+  "remote_bundle": {
+    "s3_uri": "s3://alphamas-m2-eu-west-2-c9f1eaf2-671/a1/formal/20260817T221009081674Z_11ae1ce4/a1_formal_bundle.tar.gz",
+    "sha256": "c41f3e19654be2074d7ef3405de35575c41d360572b2838288fb434a3213e464",
+    "bytes": 31540932,
+    "server_side_encryption": "AES256",
+    "contains_env": false
+  },
+  "status": "PASS"
+}

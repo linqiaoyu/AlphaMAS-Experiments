@@ -1,0 +1,38 @@
+{
+  "schema_version": "A1-02-RESOURCE-ACCOUNTING-v1",
+  "generated_at_utc": "2026-08-17T23:11:18Z",
+  "deepseek": {
+    "pricing_basis": "CNY per million tokens: cache-hit input 0.02, cache-miss input 1.00, output 2.00",
+    "same_lineage_requests": 2321,
+    "committed_case_requests": 2302,
+    "partial_attempt_requests": 19,
+    "prompt_tokens": 24829381,
+    "prompt_cache_hit_tokens": 7928960,
+    "prompt_cache_miss_tokens": 16900421,
+    "completion_tokens": 3103952,
+    "total_tokens": 27933333,
+    "cost_cny": "23.26690420",
+    "unrecoverable_usage": "An API request interrupted before its usage record flushed cannot be proven absent and is not silently estimated."
+  },
+  "aws": {
+    "instance_id": "i-0bd418f287ad0106f",
+    "instance_type": "g5.xlarge",
+    "region": "eu-west-2",
+    "on_demand_price_usd_per_hour": "1.277",
+    "successful_starts_after_initial_preexisting_boot": 5,
+    "initial_process_preexisting_running_instance": true,
+    "capacity_failure_api_events": 12,
+    "other_start_failures": {
+      "Client.VcpuLimitExceeded": 1
+    },
+    "running_windows_observed": 6,
+    "running_seconds": 30887,
+    "gpu_hours": "8.57972222",
+    "estimated_usd": "10.95630528",
+    "method": "Systemd 90-minute auto-stop boundaries plus the final explicit stop; stop-transition latency is not added."
+  },
+  "aws_login_attempts_counted_as_formal": false,
+  "final_ec2_state": "stopped",
+  "running_alphamas_g5_xlarge": 0,
+  "pending_alphamas_g5_xlarge": 0
+}

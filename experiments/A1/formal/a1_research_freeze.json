@@ -1,0 +1,61 @@
+{
+  "schema_version": "A1-02-RESEARCH-FREEZE-v1",
+  "timestamp_utc": "2026-08-17T23:11:18Z",
+  "treatment": {
+    "id": "A1_NO_ONLINE_ADAPTATION",
+    "definition": "Full M2 with delayed per-symbol online fast-parameter updates disabled",
+    "archive_reason": "ONLINE_UPDATE_DISABLED_BY_ABLATION",
+    "retuning_permitted": false
+  },
+  "lineage": {
+    "official_memory_lineage": "20260817T132343821395Z_11ae1ce4",
+    "final_operational_run": "20260817T221009081674Z_11ae1ce4",
+    "committed_cases_regenerated": 0,
+    "committed_cases_replaced": 0,
+    "competing_official_trajectories": 0
+  },
+  "source": {
+    "branch": "ablation/a1-no-online-adaptation",
+    "sha": "11ae1ce4a3bac6245dbc39c073bcfc2ac0bba16b",
+    "config_sha256": "503fb7c3294f2a1e25154d30e249f3d58241d2b29967cce09275c3b89d5b5498",
+    "preregistration_sha256": "e7e2cc8520f9033e57c442b04c882baffd7c51b497bbc9495b71098f64a83b0e"
+  },
+  "result": {
+    "AAPL": 26,
+    "AMZN": 26,
+    "JPM": 26,
+    "total": 78,
+    "failures": 0,
+    "validation": "PASS"
+  },
+  "immutability": {
+    "policy_initial_sha256": "6baafc03b0b63512b3a66a1ae8f1ce1ce7e774395787626b49905e7b72cd1841",
+    "policy_final_sha256": "6baafc03b0b63512b3a66a1ae8f1ce1ce7e774395787626b49905e7b72cd1841",
+    "fast_initial_sha256": "365d06abf2d30f9ef3c283fb383712b3bc1b7439851e3c828f25e9dd676df2ec",
+    "fast_final_sha256": "365d06abf2d30f9ef3c283fb383712b3bc1b7439851e3c828f25e9dd676df2ec",
+    "optimiser_steps": 0,
+    "parameter_mutating_updates": 0,
+    "global_mutations": 0,
+    "cross_symbol_mutations": 0
+  },
+  "archive": {
+    "path": "experiments/A1/formal",
+    "inventory_sha256": "recorded in final handoff",
+    "post_run_audit_sha256": "recorded in final handoff",
+    "resource_accounting_sha256": "recorded in final handoff",
+    "remote_bundle_sha256": "c41f3e19654be2074d7ef3405de35575c41d360572b2838288fb434a3213e464"
+  },
+  "final_ec2": {
+    "instance_id": "i-0bd418f287ad0106f",
+    "state": "stopped",
+    "running_alphamas_g5_xlarge": 0,
+    "pending_alphamas_g5_xlarge": 0,
+    "persistent_ebs_preserved": true
+  },
+  "research_policy": [
+    "A1 Formal output is permanently frozen.",
+    "No A2, ARMA, or COMPARE execution is included in this archive.",
+    "Performance must not redefine the frozen A1 treatment, source, input, or trajectory."
+  ],
+  "verdict": "PASS"
+}

@@ -1,0 +1,22 @@
+**Recommendation**: Hold
+
+**Rationale**: Let me weigh both sides of this debate carefully.
+
+The bull makes a strong case on the long-term trend structure: price ($179.62) sits above the 10 EMA ($178.79), 50 SMA ($177.78), and a rising 200 SMA ($150.90), with the stock 19% above that 200-day line. The 60-day return of +15.73% confirms a solid medium-term uptrend, and the fundamentals show a genuine cash-generating machine: $84.9B operating cash flow, ~$35B implied free cash flow, and $201.9B in equity. The April 26 bounce off the Bollinger lower band and the recovery of RSI from ~40 to 50.57 are legitimate signs of stabilization.
+
+However, the bear's short-term concerns are also well-grounded in the supplied evidence. The MACD is negative (-0.22) and well below the signal line (0.87) with no confirmed bullish crossover. Price is below the VWMA ($180.75), the 20-day return is negative (-0.42%), and the stock has been declining for two weeks from its April 11 peak. Critically, the sentiment and news data are entirely unavailable—there are zero confirmed catalysts, zero confirmed sentiment, and zero confirmed news. The bear is correct that the bull fills this void with post-hoc narrative about AWS leadership and e-commerce dominance that is not in the supplied evidence, which violates the historical-run constraint.
+
+The decisive factor here is the balance of evidence. The long-term trend is genuinely intact and the fundamentals are strong, which argues against a Sell or Underweight. But the short-term momentum is genuinely negative (MACD below zero, price below VWMA, negative 20-day return), there is no confirmed reversal signal, and there are no catalysts to drive near-term upside. The bull's case for immediate accumulation rests heavily on a single green candle and a lagging moving-average stack, while the bear's case for waiting for confirmation is disciplined and consistent with the evidence.
+
+This is a case where the evidence on both sides is genuinely balanced: a strong long-term uptrend and cash flow engine versus a short-term downtrend with no confirmed reversal and no catalysts. The bull's own recommendation to "accumulate on dips" rather than buy at market implicitly concedes that the near-term path is uncertain. Given the absence of confirmed momentum reversal and the complete lack of sentiment/news catalysts, I do not believe the evidence supports initiating or growing a position at $179.62 right now. But the intact long-term trend and strong fundamentals do not justify trimming or exiting either. This warrants a Hold—maintain the current position, wait for confirmation of a reversal (bullish MACD crossover, break above $181.49 on strong volume, or any positive catalyst) before adding.
+
+**Strategic Actions**: Maintain the current AMZN position at current levels (~$179.62) without adding or trimming. Do not initiate new positions at market price given the unresolved short-term downtrend (MACD negative at -0.22, price below VWMA at $180.75, negative 20-day return of -0.42%) and the complete absence of confirmed sentiment or news catalysts in the supplied evidence.
+
+For existing holders: hold the position. The long-term trend structure (price above rising 200 SMA at $150.90, 60-day return +15.73%) and strong fundamentals ($84.9B operating cash flow, ~$35B implied FCF) support maintaining exposure.
+
+For adding exposure, wait for confirmation triggers before scaling in:
+1. A confirmed bullish MACD crossover (MACD crossing above the signal line at 0.87)
+2. A break and hold above the $181.49 Bollinger middle band on volume meaningfully above the 20-day average (ideally >1.5x)
+3. Any positive AMZN-specific sentiment or news catalyst from supplied evidence
+
+Risk management: define a clear downside line at the $173.32–$173.67 support zone (Bollinger lower band / April 25 low). A decisive break below this level on elevated volume would invalidate the constructive long-term thesis and warrant reducing exposure, as the next meaningful support is the 200 SMA at $150.90 (~16% below current price). Position sizing should remain moderate given the unresolved short-term momentum and lack of catalysts; do not concentrate new capital until a confirmed reversal signal appears.

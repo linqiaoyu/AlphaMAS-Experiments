@@ -1,0 +1,13 @@
+{
+  "python_version": "3.12.10",
+  "platform": "Linux-6.8.0-1061-aws-x86_64-with-glibc2.35",
+  "git_sha": "11ae1ce4a3bac6245dbc39c073bcfc2ac0bba16b",
+  "git_dirty": false,
+  "dependency_versions": {
+    "pandas": "2.3.3",
+    "numpy": "2.5.2",
+    "exchange-calendars": "4.13.2",
+    "yfinance": "1.5.2",
+    "tradingagents": "0.3.1"
+  }
+}

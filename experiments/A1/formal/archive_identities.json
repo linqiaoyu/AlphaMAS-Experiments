@@ -1,0 +1,16 @@
+{
+  "schema_version": "A1-02-ARCHIVE-IDENTITIES-v1",
+  "formal_archive": "experiments/A1/formal",
+  "remote_bundle_sha256": "c41f3e19654be2074d7ef3405de35575c41d360572b2838288fb434a3213e464",
+  "documents": {
+    "a1_post_run_audit.json": "2ffd4b016e8b2cf5ed1e1795360bbfa831433a56b2e99cd514084ca15ce22ab8",
+    "a1_research_freeze.json": "05be959aaf7f2e5f70d262a7bf62dcba38fb10730cf3493b81ad66d389a2e1dd",
+    "a1_resource_accounting.json": "a7f1ab25c22f6029627a5fe463a44394eefa0633edae4a20e790cbbfbd6ab024",
+    "a1_post_run_inventory.json": "593c7c1d8ebf651869d724d6538dc415ea93e52d637674fb8fc0cdda484f23ae",
+    "operational_history.json": "058ff0b681a363fa4f54b8d42c2f94275d67165cb1273e63e6adc349b3d04a15"
+  },
+  "inventory": {
+    "file": "SHA256SUMS",
+    "identity": "computed after this identity record is finalized"
+  }
+}

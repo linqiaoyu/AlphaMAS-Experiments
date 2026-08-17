@@ -1,0 +1,50 @@
+{
+  "schema_version": "A1-02-OPERATIONAL-HISTORY-v1",
+  "authentication": {
+    "original_failure": "LOCALHOST_OAUTH_CALLBACK_REFUSED",
+    "configured_mechanism": "IAM user console login_session profile",
+    "remote_flow": "aws login --profile alphamas --region eu-west-2 --remote",
+    "authentication_restored": true,
+    "sts_get_caller_identity": "PASS",
+    "secret_exposed": false,
+    "short_lived_authorization_code_archived": false
+  },
+  "ec2": {
+    "instance_id": "i-0bd418f287ad0106f",
+    "instance_type": "g5.xlarge",
+    "region": "eu-west-2",
+    "original_process_found_running": true,
+    "original_process_continued_beyond_observed_54": true,
+    "initial_boundary_prefix": {"AAPL": 26, "AMZN": 26, "JPM": 17, "total": 69},
+    "final_state": "stopped"
+  },
+  "boundary": {
+    "classification": "CLEAN_UNSTARTED",
+    "last_committed_case": "JPM:2024-04-26",
+    "first_unresolved_case": "JPM:2024-05-03",
+    "torn_side_effect": false,
+    "exact_rollback_required": false,
+    "exact_pre_state_identity_proof": "N/A"
+  },
+  "same_lineage": "20260817T132343821395Z_11ae1ce4",
+  "operational_runs": [
+    "20260817T132343821395Z_11ae1ce4",
+    "20260817T132628183871Z_11ae1ce4",
+    "20260817T133126525309Z_11ae1ce4",
+    "20260817T145236623278Z_11ae1ce4",
+    "20260817T173300768567Z_11ae1ce4",
+    "20260817T185835518203Z_11ae1ce4",
+    "20260817T203245170838Z_11ae1ce4",
+    "20260817T221009081674Z_11ae1ce4"
+  ],
+  "lineage_invariants": {
+    "committed_cases_regenerated": 0,
+    "committed_cases_replaced": 0,
+    "competing_official_trajectories": 0,
+    "new_official_experiment_created": false,
+    "force_resume_used": false,
+    "a2_started": false,
+    "arma_started": false,
+    "compare_started": false
+  }
+}

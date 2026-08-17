@@ -1,0 +1,8 @@
+{
+  "case_id": "AMZN:2024-02-16",
+  "cache_key": "63bf5f8ba931c86e545370a0d9893baebb03dbba605eab5430cdd8725fdd2118",
+  "cache_status": "hit",
+  "wall_clock_seconds": 0.006864869999986922,
+  "report_path": "strategy/cases/AMZN/2024-02-16/reports",
+  "source_audit_path": "strategy/cases/AMZN/2024-02-16/source_audit.json"
+}

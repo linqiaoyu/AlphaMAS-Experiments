@@ -1,0 +1,2 @@
+fill_id,order_id,symbol,execution_time,raw_open_price,slippage_bps,fill_price,quantity,notional,commission,cash_after,position_after,slippage_cost,total_transaction_cost
+5a1b677ea0534028abd872eaa7af0df7,33043294b9c0193b9c01306f24f63424,AMZN,2024-01-22T14:30:00+00:00,156.8899994,5.0,156.9684443997,636.7523445221661,99950.02498750624,49.97501249375312,0.0,636.7523445221661,49.950037475013545,99.92504996876667

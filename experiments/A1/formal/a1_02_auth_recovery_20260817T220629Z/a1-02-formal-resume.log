@@ -1,0 +1,34 @@
+Traceback (most recent call last):
+  File "/mnt/alphamas/repos/AlphaMAS/scripts/run_weekly_backtest.py", line 1088, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/mnt/alphamas/repos/AlphaMAS/scripts/run_weekly_backtest.py", line 1082, in main
+    run_dir, status = execute(parse_args())
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/alphamas/repos/AlphaMAS/scripts/run_weekly_backtest.py", line 905, in execute
+    results = run_accounts(
+              ^^^^^^^^^^^^^
+  File "/mnt/alphamas/repos/AlphaMAS/scripts/run_weekly_backtest.py", line 303, in run_accounts
+    result = engine(provider, schedule, config).run(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/alphamas/repos/AlphaMAS/tradingagents/backtesting/engine.py", line 266, in run
+    raise ChronologicalDecisionFailure(decision)
+tradingagents.backtesting.engine.ChronologicalDecisionFailure: TradingAgents decision failed at AAPL:2024-01-05: ModuleNotFoundError: No module named 'transformers'
+`torch_dtype` is deprecated! Use `dtype` instead!
+Traceback (most recent call last):
+  File "/mnt/alphamas/repos/AlphaMAS/scripts/run_weekly_backtest.py", line 1088, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/mnt/alphamas/repos/AlphaMAS/scripts/run_weekly_backtest.py", line 1082, in main
+    run_dir, status = execute(parse_args())
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/alphamas/repos/AlphaMAS/scripts/run_weekly_backtest.py", line 825, in execute
+    memory_lineage = select_memory_lineage(
+                     ^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/alphamas/repos/AlphaMAS/tradingagents/backtesting/memory_lineage.py", line 172, in select_memory_lineage
+    raise ValueError("cannot resume: prior backtest protocol is incompatible")
+ValueError: cannot resume: prior backtest protocol is incompatible
+`torch_dtype` is deprecated! Use `dtype` instead!
+`torch_dtype` is deprecated! Use `dtype` instead!
+`torch_dtype` is deprecated! Use `dtype` instead!
+`torch_dtype` is deprecated! Use `dtype` instead!
