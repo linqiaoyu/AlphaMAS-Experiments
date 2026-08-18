@@ -1,0 +1,40 @@
+{
+  "freeze_identity": "ARMA11_RESEARCH_FREEZE_V1",
+  "statement": "The official ARMA(1,1) benchmark result is permanently frozen.",
+  "frozen_at": "2026-08-18T23:44:23.468397+00:00",
+  "branch": "compare-with-adft",
+  "source_sha": "d6c2b11cc4646dc06c435fe10a027d8f867e2791",
+  "experiments_audit_commit": "f5e167fe886562a4358049af1ae7d10a41b7d5c9",
+  "model_config_sha256": "fa193e253716faeb4a3235c0a1ff51dc9f75f95bf01564153ccec7a3e5eb1fc5",
+  "library_versions": {
+    "statsmodels": "0.14.5",
+    "numpy": "2.5.2",
+    "scipy": "1.18.0",
+    "pandas": "2.3.3",
+    "exchange-calendars": "4.13.2"
+  },
+  "market_snapshot_sha256": {
+    "AAPL": "5428fc2c672f3b68c7c3e83b4a22bd5b7330c95a8b4194695762539d9d8a5af3",
+    "AMZN": "c4b5c747d75ba658c6f6833348783e3f8a8c571380c930de20cf9fb7dd6b1444",
+    "JPM": "74cf77b77b0a83ce8e6246578d4da30bf7622558e8973bda71344b99b9dfd6fc",
+    "SPY": "22e6996ebf963787f40d54bfc59e1ca088fa698cb82b639768504dbdbb2d25ac"
+  },
+  "input_return_contract": {
+    "return_convention": "daily_simple_pit_total_return",
+    "return_formula": "(Close_t * split_factor_t + Dividend_t) / Close_(t-1) - 1",
+    "return_observations": 252,
+    "price_observations": 253,
+    "source": "frozen raw OHLCV plus session-local corporate actions",
+    "vendor_adjusted_close_used": false
+  },
+  "official_run_identity": "ARMA11_2024H1",
+  "case_count": 78,
+  "model_failure_count": 0,
+  "per_stock_metrics_sha256": "5faa219d145a684713398efd76a987e365d3fd7f788e7447f949da29c1e44f31",
+  "aggregate_metrics_sha256": "211870b15f15fb3117bb90db88f7f4f3004957b91bc741352a17a0c9ce1565e2",
+  "post_run_audit_sha256": "4e418d6fabe74c93bf0b1b3c886da22cffd6c06cc7262cfd8271c6bab606b1b1",
+  "bound_inventory": "SHA256SUMS.pre_research_freeze",
+  "bound_inventory_sha256": "2e847035e8be4284029dc93d161fb67e1deaf5891faf275e1f8834b328bec9ec",
+  "rerun_due_to_performance": "permanently forbidden",
+  "compare_01_started": false
+}
