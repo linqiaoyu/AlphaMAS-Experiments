@@ -1,0 +1,9 @@
+{
+  "branch": "compare-with-adft",
+  "arma_preformal_source_sha": "d33bf08a90f9cb5bb6f4511e66fda8babd9d65e0",
+  "freeze_record_source_sha": "c4592b915ea3e08760b0142b738e560139e32456",
+  "parent_frozen_m2_sha": "6306ea4ea20cda501c6238db80c34d27bbc16bea",
+  "baseline_m2_ahead": 0,
+  "baseline_m2_behind": 0,
+  "initial_source_diff": 0
+}

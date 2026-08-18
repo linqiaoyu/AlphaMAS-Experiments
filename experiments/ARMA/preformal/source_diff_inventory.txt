@@ -1,0 +1,13 @@
+A	configs/backtest_arma11_2024h1.json
+A	docs/benchmark/ARMA11_PREFORMAL_FREEZE.json
+A	docs/benchmark/ARMA11_PREFORMAL_FREEZE.md
+M	pyproject.toml
+M	requirements.txt
+A	scripts/arma/archive_arma11.py
+A	scripts/arma/audit_arma11_windows.py
+A	scripts/arma/run_arma11_benchmark.py
+A	tests/backtesting/test_arma11.py
+A	tradingagents/backtesting/arma11.py
+M	tradingagents/backtesting/artifacts.py
+M	tradingagents/backtesting/engine.py
+M	uv.lock

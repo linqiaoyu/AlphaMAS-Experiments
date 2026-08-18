@@ -1,0 +1,6 @@
+{
+  "command": "/tmp/alphamas-arma-venv.lBenbl/bin/pytest -q tests/backtesting/test_arma11.py tests/backtesting/test_analysis_artifacts.py tests/backtesting/test_artifacts.py tests/backtesting/test_cache.py tests/backtesting/test_calendar.py tests/backtesting/test_corporate_actions.py tests/backtesting/test_data_snapshot.py tests/backtesting/test_engine.py tests/backtesting/test_execution.py tests/backtesting/test_failure_resume.py tests/backtesting/test_llm_usage.py tests/backtesting/test_metrics.py tests/backtesting/test_weekly_backtest_integration.py",
+  "tests_passed": 109,
+  "status": "passed",
+  "formal_performance_computed": false
+}
