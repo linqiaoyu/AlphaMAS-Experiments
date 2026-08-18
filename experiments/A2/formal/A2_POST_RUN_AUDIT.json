@@ -48,7 +48,7 @@
     "JPM": 26,
     "total": 78,
     "failures": 0,
-    "decision_cache_cases": 0
+    "decision_cache_cases": 78
   },
   "validation": {
     "status": "passed",

@@ -65,7 +65,16 @@
     "inventory_sha256": "0106e17ddba6bde6687ee0ea5cd5f3ac06210f466c028b40033bac78615adcc3",
     "inventory_entries": 7631,
     "post_run_audit_md_sha256": "5bee1519be416e32ec6b0a8e8ebbe131ac2cd51fd66dc401677447379246e8b6",
-    "post_run_audit_json_sha256": "5c2db701c2b446bebcb749304fd6d904f38cae1c6d862dc20487782fcedce5ce"
+    "post_run_audit_json_sha256": "52d44876c5c5f655bfb9ba70ec2f3695b5113dbf9fae257407ad2d47086f35dd"
+  },
+  "post_freeze_metadata_correction": {
+    "type": "AUDIT_METADATA_ONLY",
+    "original_freeze_commit": "1609e606307db94f333fd81d83c839316066417c",
+    "record_path": "experiments/A2/formal/A2_POST_FREEZE_METADATA_CORRECTION.json",
+    "record_sha256": "35119f7a124d54662ddbef4d241e705fb0d9911e6ff1e23525feba53d0ac3321",
+    "metadata_inventory_sha256": "d6268414aa1cba28753895dd703ebcc15eb56c20414ed2dd706b4f9b05123b11",
+    "official_result_changed": false,
+    "formal_trajectory_changed": false
   },
   "final_validation": {
     "pit": true,

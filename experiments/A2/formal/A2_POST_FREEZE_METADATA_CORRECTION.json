@@ -1,0 +1,78 @@
+{
+  "schema_version": "A2-POST-FREEZE-METADATA-CORRECTION-v1",
+  "original_freeze_commit": "1609e606307db94f333fd81d83c839316066417c",
+  "correction": {
+    "affected_file": "experiments/A2/formal/A2_POST_RUN_AUDIT.json",
+    "field": "population.decision_cache_cases",
+    "original_value": 0,
+    "corrected_value": 78,
+    "reason": "AUDIT_METADATA_COUNTING_ERROR"
+  },
+  "mechanical_counting_method": {
+    "root": "experiments/A2/formal/official_bundle/A2_no_global_pretraining_2024H1/runtime/decision_cache",
+    "method": "Traverse content-addressed case directories and count only entries accepted by the repository DecisionCache loader with required artifacts and usage, a successful run status and decision status, and a cache key matching the directory key; then require unique symbol/session pairs and exact reconciliation to the complete Formal case artifacts.",
+    "successful_decision_cache_cases": {
+      "AAPL": 26,
+      "AMZN": 26,
+      "JPM": 26,
+      "total": 78
+    }
+  },
+  "evidence": {
+    "decision_cache_status_records": 78,
+    "decision_cache_entries_failing_completeness_checks": 0,
+    "duplicate_decision_cache_symbol_session_pairs": 0,
+    "complete_formal_case_artifacts": 78,
+    "formal_source_audit_files": 78,
+    "missing_formal_cases": 0,
+    "duplicate_formal_cases": 0,
+    "invalid_formal_cases": 0,
+    "cache_pairs_absent_from_formal": 0,
+    "formal_pairs_absent_from_cache": 0,
+    "archive_validator": "PASS",
+    "archive_inventory_entries_verified": 7631,
+    "archive_inventory_hash_mismatch": 0,
+    "same_lineage_committed_cases_regenerated": 0,
+    "same_lineage_committed_cases_replaced": 0
+  },
+  "classification_excludes": [
+    "MISSING_RUNTIME_DATA",
+    "MISSING_CACHE",
+    "CORRUPTED_FORMAL_RUN",
+    "SOURCE_BUG",
+    "EXPERIMENT_CORRECTNESS_FAILURE"
+  ],
+  "research_invariance": {
+    "official_trajectory_changed": false,
+    "formal_decision_changed": false,
+    "metric_changed": false,
+    "memory_changed": false,
+    "rl_state_changed": false,
+    "source_changed": false,
+    "archive_official_bundle_changed": false,
+    "rerun_performed": false
+  },
+  "task_resources": {
+    "deepseek_calls": 0,
+    "qwen_calls": 0,
+    "aws_starts": 0,
+    "gpu_hours": 0,
+    "formal_decisions": 0,
+    "paid_cost": 0
+  },
+  "identities": {
+    "official_bundle_sha256": "6ee493f233b3635f682b0a08a697986a6169717330a0d5a1577c95f46f6ed149",
+    "official_bundle_inventory_sha256": "0106e17ddba6bde6687ee0ea5cd5f3ac06210f466c028b40033bac78615adcc3",
+    "corrected_post_run_audit_sha256": "52d44876c5c5f655bfb9ba70ec2f3695b5113dbf9fae257407ad2d47086f35dd",
+    "correction_markdown_sha256": "4178b79856021a055dec8a1e78919388ac5bd44f8a3152c41293e36c47a944c5",
+    "metadata_inventory": {
+      "scope": [
+        "experiments/A2/formal/A2_POST_RUN_AUDIT.json",
+        "experiments/A2/formal/A2_POST_FREEZE_METADATA_CORRECTION.md"
+      ],
+      "sha256": "d6268414aa1cba28753895dd703ebcc15eb56c20414ed2dd706b4f9b05123b11",
+      "self_referential_files_excluded": true
+    }
+  },
+  "statement": "This correction changes audit metadata only. It does not alter the frozen A2 Formal trajectory, results, treatment, source, runtime state, or research interpretation."
+}
