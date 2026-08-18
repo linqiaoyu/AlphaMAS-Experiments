@@ -1,0 +1,4 @@
+symbol,buy_count,hold_count,sell_count,failed_count,no_op_count,actual_trades,time_in_market
+AAPL,2,23,1,0,23,3,0.952
+AMZN,2,23,1,0,23,3,0.952
+JPM,1,25,0,0,25,1,0.992

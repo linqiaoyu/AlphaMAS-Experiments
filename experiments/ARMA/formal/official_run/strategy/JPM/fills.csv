@@ -1,0 +1,2 @@
+fill_id,order_id,symbol,execution_time,raw_open_price,slippage_bps,fill_price,quantity,notional,commission,cash_after,position_after,slippage_cost,total_transaction_cost
+372ddb5ca287b42240ca9b17a912a178,8765cb0552542de10b62a48cc5543739,JPM,2024-01-08T14:30:00+00:00,172.0200043,5.0,172.10601430215002,580.7468460226705,99950.02498750624,49.97501249375312,0.0,580.7468460226705,49.95003747501825,99.92504996877136

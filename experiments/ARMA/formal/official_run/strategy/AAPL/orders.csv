@@ -1,0 +1,4 @@
+order_id,symbol,created_at,intended_execution_session,target_weight,current_weight,side,status,reason
+e66d76f669f82b88bfe350400f423026,AAPL,2024-01-05T21:00:00+00:00,2024-01-08,1.0,0.0,BUY,filled,target weight changed
+1767626ac3fb3b37e3e72f9a0d5e2932,AAPL,2024-04-19T20:00:00+00:00,2024-04-22,0.0,0.9985475671750181,SELL,filled,target weight changed
+bff8d955c613420f363f92ca4b264510,AAPL,2024-04-26T20:00:00+00:00,2024-04-29,1.0,0.0,BUY,filled,target weight changed

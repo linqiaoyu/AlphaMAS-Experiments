@@ -1,0 +1,36 @@
+{
+  "symbols": [
+    {
+      "symbol": "AAPL",
+      "sha256": "5428fc2c672f3b68c7c3e83b4a22bd5b7330c95a8b4194695762539d9d8a5af3",
+      "source": "frozen M0 formal raw-price snapshot",
+      "row_count": 377,
+      "first_session": "2023-01-04",
+      "last_session": "2024-07-05"
+    },
+    {
+      "symbol": "AMZN",
+      "sha256": "c4b5c747d75ba658c6f6833348783e3f8a8c571380c930de20cf9fb7dd6b1444",
+      "source": "frozen M0 formal raw-price snapshot",
+      "row_count": 377,
+      "first_session": "2023-01-04",
+      "last_session": "2024-07-05"
+    },
+    {
+      "symbol": "JPM",
+      "sha256": "74cf77b77b0a83ce8e6246578d4da30bf7622558e8973bda71344b99b9dfd6fc",
+      "source": "frozen M0 formal raw-price snapshot",
+      "row_count": 377,
+      "first_session": "2023-01-04",
+      "last_session": "2024-07-05"
+    },
+    {
+      "symbol": "SPY",
+      "sha256": "22e6996ebf963787f40d54bfc59e1ca088fa698cb82b639768504dbdbb2d25ac",
+      "source": "frozen M0 formal raw-price snapshot",
+      "row_count": 377,
+      "first_session": "2023-01-04",
+      "last_session": "2024-07-05"
+    }
+  ]
+}

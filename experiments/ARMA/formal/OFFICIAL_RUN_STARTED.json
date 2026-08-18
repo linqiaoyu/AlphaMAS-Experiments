@@ -1,0 +1,9 @@
+{
+  "experiment_id": "ARMA11_2024H1",
+  "status": "completed",
+  "started_at": "2026-08-18T23:43:20.081096+00:00",
+  "source_sha": "d6c2b11cc4646dc06c435fe10a027d8f867e2791",
+  "rerun_policy": "forbidden unless a proven correctness failure invalidates this run",
+  "completed_at": "2026-08-18T23:43:23.874471+00:00",
+  "official_run_path": "official_run"
+}

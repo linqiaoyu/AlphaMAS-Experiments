@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "checks": {
+    "snapshot_identities_exact": true,
+    "population_78": true,
+    "population_per_symbol": true,
+    "schedule_population_exact": true,
+    "no_duplicate_cases": true,
+    "exact_252_model_inputs": true,
+    "no_future_model_inputs": true,
+    "exact_five_step_forecasts": true,
+    "analysis_ready_forecast_rows": true,
+    "execution_protocol": true,
+    "accounting_protocol": true,
+    "no_paid_model_usage": true,
+    "no_finmultitime_or_mas_runtime": true,
+    "no_forced_final_close": true
+  },
+  "case_count": 78,
+  "decisions_per_symbol": {
+    "AAPL": 26,
+    "AMZN": 26,
+    "JPM": 26
+  },
+  "duplicate_cases": 0,
+  "model_failure_count": 0,
+  "future_input_violations": 0,
+  "wrong_input_window_count": 0,
+  "malformed_forecasts": 0,
+  "execution_errors": [],
+  "accounting_errors": [],
+  "preformal_audit_sha256": "6967098e5ab8633e683e0d89fa81cabe43e70d7c459ad4a08ab9e022d546ce84",
+  "source_sha": "d6c2b11cc4646dc06c435fe10a027d8f867e2791",
+  "config_sha256": "fa193e253716faeb4a3235c0a1ff51dc9f75f95bf01564153ccec7a3e5eb1fc5"
+}

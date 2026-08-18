@@ -1,0 +1,2 @@
+fill_id,order_id,symbol,execution_time,raw_open_price,slippage_bps,fill_price,quantity,notional,commission,cash_after,position_after,slippage_cost,total_transaction_cost
+1f2d4df81a2a5d49acb0840d50b53f0b,0f939e58eb236401488ad87f45f27304,SPY,2024-01-08T14:30:00+00:00,468.4299927,5.0,468.66420769635,213.26575263512422,99950.02498750626,49.97501249375313,0.0,213.26575263512422,49.950037475010596,99.92504996876372

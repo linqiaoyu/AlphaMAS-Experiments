@@ -1,0 +1,1 @@
+experiment_id,run_id,case_id,symbol,decision_session,usage_source,origin_run_id,agent_node,provider,model,thinking_mode,prompt_tokens,prompt_cache_hit_tokens,prompt_cache_miss_tokens,completion_tokens,reasoning_tokens,total_tokens,latency_seconds

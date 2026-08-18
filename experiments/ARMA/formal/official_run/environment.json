@@ -1,0 +1,18 @@
+{
+  "python_version": "3.12.10",
+  "platform": "macOS-26.6.1-arm64-arm-64bit",
+  "source_sha": "d6c2b11cc4646dc06c435fe10a027d8f867e2791",
+  "dependency_versions": {
+    "statsmodels": "0.14.5",
+    "numpy": "2.5.2",
+    "scipy": "1.18.0",
+    "pandas": "2.3.3",
+    "exchange-calendars": "4.13.2"
+  },
+  "deepseek_calls": 0,
+  "qwen_calls": 0,
+  "aws_ec2_starts": 0,
+  "gpu_hours": 0,
+  "llm_cost": 0,
+  "cpu_wall_clock_seconds": 3.2256954169715755
+}

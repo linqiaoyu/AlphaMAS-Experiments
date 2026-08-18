@@ -1,0 +1,37 @@
+{
+  "experiment_id": "ARMA11_2024H1",
+  "benchmark_identity": "ARMA11_FIXED_V1",
+  "official_run": true,
+  "first_complete_correctness_valid_run": true,
+  "started_at": "2026-08-18T23:43:20.081096+00:00",
+  "completed_at": "2026-08-18T23:43:23.874471+00:00",
+  "source_sha": "d6c2b11cc4646dc06c435fe10a027d8f867e2791",
+  "config_sha256": "fa193e253716faeb4a3235c0a1ff51dc9f75f95bf01564153ccec7a3e5eb1fc5",
+  "market_snapshot_sha256": {
+    "AAPL": "5428fc2c672f3b68c7c3e83b4a22bd5b7330c95a8b4194695762539d9d8a5af3",
+    "AMZN": "c4b5c747d75ba658c6f6833348783e3f8a8c571380c930de20cf9fb7dd6b1444",
+    "JPM": "74cf77b77b0a83ce8e6246578d4da30bf7622558e8973bda71344b99b9dfd6fc",
+    "SPY": "22e6996ebf963787f40d54bfc59e1ca088fa698cb82b639768504dbdbb2d25ac"
+  },
+  "case_count": 78,
+  "model_failure_count": 0,
+  "cpu_wall_clock_seconds": 3.2256954169715755,
+  "paid_compute": {
+    "python_version": "3.12.10",
+    "platform": "macOS-26.6.1-arm64-arm-64bit",
+    "source_sha": "d6c2b11cc4646dc06c435fe10a027d8f867e2791",
+    "dependency_versions": {
+      "statsmodels": "0.14.5",
+      "numpy": "2.5.2",
+      "scipy": "1.18.0",
+      "pandas": "2.3.3",
+      "exchange-calendars": "4.13.2"
+    },
+    "deepseek_calls": 0,
+    "qwen_calls": 0,
+    "aws_ec2_starts": 0,
+    "gpu_hours": 0,
+    "llm_cost": 0,
+    "cpu_wall_clock_seconds": 3.2256954169715755
+  }
+}
