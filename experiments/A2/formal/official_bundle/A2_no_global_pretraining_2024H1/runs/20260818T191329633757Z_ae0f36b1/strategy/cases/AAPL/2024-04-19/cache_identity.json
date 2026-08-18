@@ -1,0 +1,58 @@
+{
+  "cache_key": "f5b569ac24daac6903e913260dc379a1a71b4a3044353ce2abc476bfc6ce5c95",
+  "identity": {
+    "experiment_id": "A2_no_global_pretraining_2024H1",
+    "symbol": "AAPL",
+    "decision_time_utc": "2024-04-19T20:00:00+00:00",
+    "strategy_id": "tradingagents",
+    "selected_analysts": [
+      "market",
+      "social",
+      "news",
+      "fundamentals"
+    ],
+    "research_depth": "medium",
+    "debate_rounds": 3,
+    "risk_rounds": 3,
+    "quick_model": "deepseek-v4-flash",
+    "deep_model": "deepseek-v4-flash",
+    "provider": "deepseek",
+    "thinking_mode": "disabled",
+    "temperature": 0.0,
+    "output_language": "English",
+    "data_vendor_config": {
+      "core_stock_apis": "yfinance",
+      "technical_indicators": "yfinance",
+      "fundamental_data": "yfinance",
+      "news_data": "yfinance",
+      "macro_data": "fred",
+      "prediction_markets": "polymarket"
+    },
+    "tool_vendor_config": {},
+    "point_in_time": true,
+    "memory_mode": "experiment",
+    "memory_lineage_id": "20260818T130800804933Z_ae0f36b1",
+    "holding_horizon_sessions": 5,
+    "graph_config_sha256": "22d339e831a055b914932618de279fb72da9327b9bb875fecc86a02c20f0b0a8",
+    "git_commit_sha": "ae0f36b16a17a1321c17c630fb6a52e10dd23fcd",
+    "prompt_config_version": "weekly-backtest-v1",
+    "portfolio_state_hash": "43b45ec1dcaf7264c2c964d18b1327b99d1e4dfd698d9e988060c09388a0a04e",
+    "market_history_sha256": "9753fdeed5dee67680ad4218837ee75ec6c48acf99e2c3d24e311369b9a7a92d",
+    "memory_namespace_version": "experiment-v3-run-lineage",
+    "finmultitime_evidence_enabled": true,
+    "finmultitime_bundle_scope": "FORMAL",
+    "finmultitime_input_bundle_identity": "30596a54788101873f1c88bdf653df7f12ac3b4861a7058b6a36df0861274121",
+    "finmultitime_contract_sha256": "46f6a05f12a7c402936178748c55dab099c8754d99fa1a0c41faf525cd37ae08",
+    "finmultitime_case_id": "AAPL:2024-04-19",
+    "finmultitime_packet_json_sha256": "93cc7bbf6f03eb889ccffd2c03859bcfe08f9bfc8789c0ba3b1069732344f0dd",
+    "finmultitime_route_sha256": {
+      "news": "fd7b94722bb5b7383fe50de8554482d09565a568d665c7d1dcecfcb041c49954",
+      "fundamentals": "089c9bfc2ec4fea4d5f7c711828248c6af16f6c90960066a6729afc4b392c02a",
+      "market": "1a14dc7d30a9264b6e5ce60cbaa738a96109cf7ca7c66c4385d6ab2874d8e8d1"
+    },
+    "decision_prefix_sha256": "06b3565ff1d82276f02dda63adba24e79570188c46fba11d655da098f1881780",
+    "m2_trader_enabled": true,
+    "m2_variant": "A2_NO_GLOBAL_PRETRAINING",
+    "m2_runtime_state_identity": "17d088b009a7d081f0e21afb135d7ea3fda82c669be3fa1a55fb758a0a7ccd04"
+  }
+}

@@ -1,0 +1,17 @@
+**Recommendation**: Overweight
+
+**Rationale**: This debate came down to a genuine tension between short-term technical weakness and a strong long-term fundamental and trend story. The bear made a compelling case on the near-term setup: momentum is decisively negative (MACD histogram expanding at -1.23, RSI below the 50 midline), price is below the 10 EMA, VWMA, and Bollinger middle band, and the stock is perched just $0.60 above the 50-day SMA with a break below $143.55 opening the door to $140 or lower. The bear also correctly flagged that our data is incomplete — we have no income statement, no sentiment data, and macro data frozen at December 16th — which legitimately caps conviction.
+
+However, the bull won the argument on the structural picture. The long-term trend is intact: price sits 12.9% above the 200-day SMA with a golden cross structure, the 60-day return is still +12.17%, and the pullback came on below-average volume, which is more consistent with profit-taking than distribution. The fundamentals we do have are constructive — $42.5B in operating cash flow over nine months, retail returned to profitability in 2023, and AWS is well-positioned for AI infrastructure demand. November retail sales beat expectations, supporting the e-commerce engine.
+
+The decisive factor is that the bear's thesis is essentially "the stock might go down more in the short term," while the bull's thesis rests on a durable uptrend with improving fundamentals. The short-term risk is real but bounded — support at the 50 SMA/Bollinger confluence is a legitimate accumulation zone. Given the incomplete data picture, I'm not comfortable with a full Buy, but the evidence clearly favors building exposure rather than sitting out or trimming. Overweight captures the constructive long-term view while respecting the near-term technical risk and data gaps.
+
+**Strategic Actions**: 1. Establish or add to an AMZN position in tranches rather than all at once, given the unresolved short-term technical weakness. Initiate a starter position at current levels (~$145.24) and add on confirmation of support holding or on a reclaim of the 10-day EMA (~$149.10).
+
+2. Position sizing: target a moderate overweight allocation (e.g., 1.25-1.5x benchmark weight). Do not deploy full intended size until either (a) price holds the $143.55-144.64 support zone and shows a MACD histogram contraction, or (b) price reclaims $149-151 resistance (10 EMA/VWMA/Bollinger middle band cluster).
+
+3. Risk management: place a hard stop below the $143.55 Bollinger lower band / $143.00 level. A decisive daily close below this invalidates the accumulation thesis and would trigger a reassessment toward Underweight. If the position is entered, keep the stop tight given the precarious perch above the 50 SMA.
+
+4. Upside targets: first target the December high at $154.07, then $160. Trail stops up as price reclaims the $149-151 resistance cluster.
+
+5. Data watch: monitor for the next earnings release and any fresh macro/sentiment data to fill the current gaps. If income statement data confirms margin expansion and profitability, consider upgrading toward Buy. If the stock breaks $143.55 on volume or fresh data reveals consumer/margin deterioration, reduce exposure.

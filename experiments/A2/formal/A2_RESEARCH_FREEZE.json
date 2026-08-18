@@ -1,0 +1,121 @@
+{
+  "schema_version": "A2-RESEARCH-FREEZE-v1",
+  "statement": "Full A2 official result is permanently frozen.",
+  "official_result_frozen": true,
+  "rerun_due_to_performance": false,
+  "identity": {
+    "branch": "ablation/a2-no-global-pretraining",
+    "source_sha": "ae0f36b16a17a1321c17c630fb6a52e10dd23fcd",
+    "config_sha": "d8982296be9d632be996d23836cfebb7fb2fb363b6fd496590056025251a07da",
+    "preregistration_sha": "e7e2cc8520f9033e57c442b04c882baffd7c51b497bbc9495b71098f64a83b0e",
+    "experiment_id": "A2_no_global_pretraining_2024H1",
+    "official_run_id": "20260818T204749061036Z_ae0f36b1",
+    "first_run_id": "20260818T130800804933Z_ae0f36b1",
+    "memory_lineage_id": "20260818T130800804933Z_ae0f36b1",
+    "representation_sha": "6e3b11863bc3ec214444326a269477e465101afb866f30e80698f37c7148d2fe",
+    "reward": "R3_HOLD_RELATIVE_DRAWDOWN_UTILITY",
+    "method": "M2-PA-CTPPO-v2",
+    "m1_bundle_sha": "30596a54788101873f1c88bdf653df7f12ac3b4861a7058b6a36df0861274121",
+    "encoder": "Qwen/Qwen3-Embedding-0.6B",
+    "encoder_revision": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3"
+  },
+  "checkpoint": {
+    "file_sha": "4d65dd2c1563b144aee8e79878171feb1ecd990a8bd8e2c584547eaa3a546c9f",
+    "parameter_sha": "60a0fec7b69ef2d0576a9c0894be09c377d573585db827c162279fb27483303e",
+    "initial_fast_sha": "49380bb69ea6fb7682fe97a3ef5e1ccf2b2429b749d6f9f9971e40725271fcf9",
+    "initial_global_sha": "9b83aa1382d6b41c55981f2475eb0e236248affc5b5004a151a4b01651fa646e",
+    "initial_optimizer_sha": "087df628de120d7e2271432fe99d2888097983c25a3cfc880ec60a51d3b4d623",
+    "c09_loaded": false
+  },
+  "online_adaptation": {
+    "candidate": "O08",
+    "learning_rate": 0.001,
+    "epochs": 2,
+    "optimizer": "AdamW",
+    "weight_decay": 0.0001,
+    "gradient_clip": 0.5,
+    "seed": 20260816,
+    "fast_parameter_count": 165,
+    "authorized_tensors": [
+      "residual_head.weight",
+      "residual_head.bias",
+      "gate_head.weight",
+      "gate_head.bias",
+      "value_head.weight",
+      "value_head.bias"
+    ],
+    "global_mutations": 0,
+    "unauthorized_mutations": 0,
+    "cross_symbol_mutations": 0,
+    "duplicate_updates": 0
+  },
+  "completion": {
+    "AAPL": 26,
+    "AMZN": 26,
+    "JPM": 26,
+    "total": 78,
+    "failures": 0,
+    "validation_status": "passed"
+  },
+  "artifacts": {
+    "archive_path": "experiments/A2/formal/official_bundle/A2_no_global_pretraining_2024H1",
+    "bundle_sha256": "6ee493f233b3635f682b0a08a697986a6169717330a0d5a1577c95f46f6ed149",
+    "s3_uri": "s3://alphamas-m2-eu-west-2-c9f1eaf2-671/a2/formal/20260818T204749061036Z_ae0f36b1/a2_formal_bundle.tar.gz",
+    "inventory_path": "experiments/A2/formal/A2_SHA256SUMS",
+    "inventory_sha256": "0106e17ddba6bde6687ee0ea5cd5f3ac06210f466c028b40033bac78615adcc3",
+    "inventory_entries": 7631,
+    "post_run_audit_md_sha256": "5bee1519be416e32ec6b0a8e8ebbe131ac2cd51fd66dc401677447379246e8b6",
+    "post_run_audit_json_sha256": "5c2db701c2b446bebcb749304fd6d904f38cae1c6d862dc20487782fcedce5ce"
+  },
+  "final_validation": {
+    "pit": true,
+    "evidence": true,
+    "market_snapshots": true,
+    "execution": true,
+    "memory_isolation": true,
+    "cache_isolation": true,
+    "runtime_lineage": true,
+    "accounting": true,
+    "global_immutable": true,
+    "fast_only": true,
+    "exactly_once_updates": true,
+    "symbol_isolation": true,
+    "missing_cases": 0,
+    "duplicate_cases": 0,
+    "invalid_json": 0,
+    "hash_mismatch": 0,
+    "source_config_identity_mismatch": 0
+  },
+  "recovery": {
+    "operational_instance_stop_interruptions": 5,
+    "safe_resumes": 5,
+    "committed_cases_regenerated": 0,
+    "committed_cases_replaced": 0,
+    "competing_trajectories": 0
+  },
+  "resources": {
+    "deepseek_request_records": 2298,
+    "deepseek_live_requests": 234,
+    "deepseek_cache_origin_records": 2064,
+    "deepseek_input_tokens": 24501677,
+    "deepseek_output_tokens": 3053112,
+    "deepseek_total_tokens": 27554789,
+    "deepseek_cost_cny": "22.87189076",
+    "aws_instance_id": "i-0bd418f287ad0106f",
+    "aws_instance_type": "g5.xlarge",
+    "aws_region": "eu-west-2",
+    "aws_successful_starts": 6,
+    "aws_capacity_failures": 0,
+    "aws_running_seconds": 30724,
+    "aws_gpu_hours": 8.53444444,
+    "aws_estimated_usd": 10.89848556,
+    "aws_final_state": "stopped",
+    "running_alphamas_g5_xlarge": 0,
+    "pending_alphamas_g5_xlarge": 0
+  },
+  "exclusions": {
+    "arma_started": false,
+    "compare_01_started": false,
+    "performance_based_rerun": false
+  }
+}

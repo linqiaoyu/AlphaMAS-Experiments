@@ -1,0 +1,2 @@
+order_id,symbol,created_at,intended_execution_session,target_weight,current_weight,side,status,reason
+4d5d726a19866dd29650aec90d460dbb,SPY,2024-01-05T21:00:00+00:00,2024-01-08,1.0,0.0,BUY,filled,target weight changed

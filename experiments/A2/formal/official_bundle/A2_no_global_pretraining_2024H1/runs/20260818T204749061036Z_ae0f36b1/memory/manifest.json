@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "final_experiment_memory",
+  "artifact_role": "read_only_research_artifact",
+  "runtime_consumed": false,
+  "experiment_id": "A2_no_global_pretraining_2024H1",
+  "run_id": "20260818T204749061036Z_ae0f36b1",
+  "memory_lineage_id": "20260818T130800804933Z_ae0f36b1",
+  "memory_lifecycle": "resume",
+  "memory_resumed_from_run_id": "20260818T191329633757Z_ae0f36b1",
+  "graph_config_sha256": "22d339e831a055b914932618de279fb72da9327b9bb875fecc86a02c20f0b0a8",
+  "runtime_namespace": {
+    "storage_role": "operational_runtime_only",
+    "layout_version": "historical-memory-v1",
+    "experiment_id": "A2_no_global_pretraining_2024H1",
+    "memory_lineage_id": "20260818T130800804933Z_ae0f36b1",
+    "graph_config_sha256": "22d339e831a055b914932618de279fb72da9327b9bb875fecc86a02c20f0b0a8",
+    "finmultitime_evidence_enabled": true,
+    "bundle_scope": "FORMAL",
+    "bundle_identity": "30596a54788101873f1c88bdf653df7f12ac3b4861a7058b6a36df0861274121",
+    "namespace_component": "finmultitime-formal-30596a5478810187"
+  },
+  "symbols": [
+    {
+      "symbol": "AAPL",
+      "path": "memory/symbols/AAPL.md",
+      "format": "trading-memory-log-markdown-v1",
+      "size_bytes": 94074,
+      "sha256": "9ebb0ef88ddc0aef70b5656066854e0dc2174e1eb5c811e534997c66f19f08a3"
+    },
+    {
+      "symbol": "AMZN",
+      "path": "memory/symbols/AMZN.md",
+      "format": "trading-memory-log-markdown-v1",
+      "size_bytes": 94475,
+      "sha256": "b55bc2c32421c7372d00dcacd7593152305b4e21a7c396ae353b62e47a61a731"
+    },
+    {
+      "symbol": "JPM",
+      "path": "memory/symbols/JPM.md",
+      "format": "trading-memory-log-markdown-v1",
+      "size_bytes": 95947,
+      "sha256": "833c5b517065bad44cd22949464822d313d61f7c738cb048f9f2baa13e92c079"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "experiment_id": "A2_no_global_pretraining_2024H1",
+  "run_id": "20260818T130800804933Z_ae0f36b1",
+  "status": "running",
+  "started_at": "2026-08-18T13:08:00.814149+00:00",
+  "memory_lineage_id": "20260818T130800804933Z_ae0f36b1",
+  "memory_lifecycle": "independent_fresh",
+  "memory_resumed_from_run_id": null
+}

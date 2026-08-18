@@ -1,0 +1,163 @@
+{
+  "symbol": "AMZN",
+  "decision_session": "2024-05-03",
+  "decision_time_utc": "2024-05-03T20:00:00+00:00",
+  "action": "HOLD",
+  "target_weight": 1.0,
+  "status": "cached",
+  "reason": "exact cache hit",
+  "strategy_id": "tradingagents",
+  "experiment_id": "A2_no_global_pretraining_2024H1",
+  "raw_signal": "HOLD",
+  "metadata": {
+    "wall_clock_seconds": 0.017955354000008583,
+    "run_context": {
+      "mode": "historical",
+      "as_of": "2024-05-03T20:00:00+00:00"
+    },
+    "market_history_visibility": {
+      "first_session": "2023-01-04",
+      "last_session": "2024-05-03",
+      "last_observation_time_utc": "2024-05-03T20:00:00+00:00",
+      "row_count": 335,
+      "sha256": "068604d7f8a456acddd6096a7b77bcdf127b711fa52a7440eab26bdec0815e1f"
+    },
+    "report_path": "strategy/cases/AMZN/2024-05-03/reports",
+    "source_audit_path": "strategy/cases/AMZN/2024-05-03/source_audit.json",
+    "cache_key": "a44049e3dbe11b2af1dd03e6075b756b7ae283ad3d3c74f07ff414db3c41e3f9",
+    "cache_status": "hit",
+    "model_config": {
+      "llm_provider": "deepseek",
+      "quick_think_llm": "deepseek-v4-flash",
+      "deep_think_llm": "deepseek-v4-flash",
+      "backend_url": null,
+      "deepseek_thinking": "disabled",
+      "temperature": 0.0,
+      "llm_max_retries": null,
+      "selected_analysts": [
+        "market",
+        "social",
+        "news",
+        "fundamentals"
+      ],
+      "output_language": "English",
+      "research_depth": "medium",
+      "max_debate_rounds": 3,
+      "max_risk_discuss_rounds": 3,
+      "max_recur_limit": 100,
+      "news_article_limit": 20,
+      "global_news_article_limit": 10,
+      "global_news_lookback_days": 7,
+      "global_news_queries": [
+        "Federal Reserve interest rates inflation",
+        "S&P 500 earnings GDP economic outlook",
+        "geopolitical risk trade war sanctions",
+        "ECB Bank of England BOJ central bank policy",
+        "oil commodities supply chain energy"
+      ],
+      "data_vendors": {
+        "core_stock_apis": "yfinance",
+        "technical_indicators": "yfinance",
+        "fundamental_data": "yfinance",
+        "news_data": "yfinance",
+        "macro_data": "fred",
+        "prediction_markets": "polymarket"
+      },
+      "tool_vendors": {},
+      "benchmark_ticker": null,
+      "benchmark_map": {
+        ".NS": "^NSEI",
+        ".BO": "^BSESN",
+        ".T": "^N225",
+        ".HK": "^HSI",
+        ".L": "^FTSE",
+        ".TO": "^GSPTSE",
+        ".AX": "^AXJO",
+        ".SS": "000001.SS",
+        ".SZ": "399001.SZ",
+        "": "SPY"
+      },
+      "memory_mode": "experiment",
+      "memory_log_max_entries": null,
+      "memory_holding_horizon_sessions": 5,
+      "memory_outcome_price_mode": "adjusted_close",
+      "checkpoint_enabled": false,
+      "point_in_time": true,
+      "execution_data_source": "snapshot",
+      "finmultitime_evidence_enabled": true,
+      "finmultitime_expected_contract_version": "M1-FINMULTITIME-v1.0.2",
+      "finmultitime_expected_contract_sha256": "46f6a05f12a7c402936178748c55dab099c8754d99fa1a0c41faf525cd37ae08",
+      "finmultitime_expected_packet_manifest_sha256": "05f10129b430475bad3d5dee9dfceffba463f8a99cdd3f087ff4b755a869d63d",
+      "finmultitime_expected_input_bundle_identity": "30596a54788101873f1c88bdf653df7f12ac3b4861a7058b6a36df0861274121",
+      "finmultitime_bundle_scope": "FORMAL",
+      "finmultitime_archive_commit": "3750fa50224ba46ab1d4bf5511cb5e8fa514445b",
+      "finmultitime_verify_full_bundle_on_start": true,
+      "m2_trader_enabled": true,
+      "m2_variant": "A2_NO_GLOBAL_PRETRAINING",
+      "m2_method_id": "M2-PA-CTPPO-v2",
+      "m2_representation_identity": "6e3b11863bc3ec214444326a269477e465101afb866f30e80698f37c7148d2fe",
+      "m2_checkpoint_parameter_identity": "60a0fec7b69ef2d0576a9c0894be09c377d573585db827c162279fb27483303e",
+      "m2_checkpoint_file_identity": "4d65dd2c1563b144aee8e79878171feb1ecd990a8bd8e2c584547eaa3a546c9f",
+      "m2_online_candidate_id": "O08",
+      "m2_online_learning_rate": 0.001,
+      "m2_online_update_epochs": 2,
+      "m2_online_weight_decay": 0.0001,
+      "m2_online_gradient_clip": 0.5,
+      "m2_preformal_evidence_enabled": false,
+      "m2_preformal_evidence_identity": "3e9bb6e66fcd998c0b4deff30f7d5728c563126d3a1b976e21bbf034174e4420",
+      "m2_preformal_evidence_role": "E2E_PILOT",
+      "graph_config_sha256": "22d339e831a055b914932618de279fb72da9327b9bb875fecc86a02c20f0b0a8"
+    },
+    "decision_prefix_sha256": "ad9fc6d04590c93ff6f20b8f15a3a5fb2784bb8e6f3c652f69e304753ff3b827",
+    "m2_trader_handoff": {
+      "schema_version": "M2-TRADER-HANDOFF-v1",
+      "authoritative_action": "HOLD",
+      "action_source": "FROZEN_M2_ACTOR",
+      "prompt_action": "HOLD",
+      "override": false,
+      "prompt_trader_proposal_sha256": "84df12ac2b877635fe27477801451d72911812ce4cd264dfdf5ba79c32adf1f3",
+      "research_manager_plan_sha256": "1c2501fe72c9335633f3ab63b982f0b1133a8e446dcff34e03155ef627bf106d",
+      "semantic_state_identity": "eb89ba71d87e9bc2746c62a4a454d192d2b8d5fede09866f14170945d7f256ac",
+      "actor_observation_identity": "008461d131bf472c68ab464df7ffb52fc140467b16a305a5996b0873347737bf",
+      "actor_observation_dimension": 3080,
+      "portfolio_state": [
+        0.0,
+        1.0,
+        0.23771287500858307,
+        -0.01502246130257845
+      ],
+      "pre_decision_fast_parameter_identity": "3db108ff44091e08ded3f4726f132e24193b19d7a6c0b394c30798073c012682",
+      "actor_logits": [
+        -1.76238214969635,
+        -0.37369585037231445,
+        -1.8459384441375732
+      ],
+      "actor_probabilities": [
+        0.16865059733390808,
+        0.6762179136276245,
+        0.15513144433498383
+      ],
+      "event_id": "d6961c854511d109dbf4eabe96c09efd2dffbc928e8f5afac4116ffabad89b1b",
+      "expected_maturity_session": "2024-05-10",
+      "checkpoint_parameter_identity": "60a0fec7b69ef2d0576a9c0894be09c377d573585db827c162279fb27483303e",
+      "checkpoint_file_identity": "4d65dd2c1563b144aee8e79878171feb1ecd990a8bd8e2c584547eaa3a546c9f",
+      "representation_identity": "6e3b11863bc3ec214444326a269477e465101afb866f30e80698f37c7148d2fe",
+      "encoder_repo": "Qwen/Qwen3-Embedding-0.6B",
+      "encoder_revision": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
+      "no_second_llm_call": true
+    },
+    "m2_prompt_trader_proposal_original": "**Action**: Hold\n\n**Reasoning**: The technical trend for AMZN is genuinely constructive \u2014 price sits above the 10 EMA ($180.85), 50 SMA ($178.91), and 200 SMA ($152.07), with a bullish MACD cross on May 3 and RSI at 58.59 leaving room before overbought. However, the stock is trading at $186.21, just 1.5% below the April 11 high of $189.05 where it previously failed, creating an unfavorable near-term risk/reward (roughly 3% downside to the 10 EMA vs. 2% upside to resistance). Critically, there is zero visibility into fundamental data (no revenue, margins, or EPS) and the sentiment report explicitly reflects an absence of data rather than an absence of sentiment. The balanced evidence supports maintaining the position without adding exposure at resistance, waiting for either a confirmed close above $190 on volume or a pullback to the 50 SMA near $178.91 for a better entry.\n\n**Entry Price**: 178.91\n\n**Stop Loss**: 178.0\n\n**Position Sizing**: Neutral-to-slightly-constructive weight; do not overweight until breakout above $190 confirms or a pullback to ~$179 offers better risk/reward.\n\nFINAL TRANSACTION PROPOSAL: **HOLD**",
+    "m2_maturity_events_after_action": [
+      {
+        "event_id": "f85e5907b986bcde7c54e99f2cf8bce3b40a93471b5256bc9994d60987fe2ec8",
+        "status": "APPLIED",
+        "maturity_input_identity": "e04cb931ad577d5fbdddbbc67de7674c72a0a6c3da558ee739e0737055699f2d",
+        "counterfactual_r3": [
+          0.0,
+          0.0,
+          -0.01975625652802899
+        ]
+      }
+    ]
+  }
+}

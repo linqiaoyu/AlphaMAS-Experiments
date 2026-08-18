@@ -1,0 +1,2 @@
+order_id,symbol,created_at,intended_execution_session,target_weight,current_weight,side,status,reason
+7b49bc9569277888d2ea702fb5a465ee,AMZN,2024-01-05T21:00:00+00:00,2024-01-08,1.0,0.0,BUY,filled,target weight changed

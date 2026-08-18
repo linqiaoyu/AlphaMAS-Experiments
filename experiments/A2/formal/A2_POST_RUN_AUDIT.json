@@ -1,0 +1,960 @@
+{
+  "identity": {
+    "branch": "ablation/a2-no-global-pretraining",
+    "source_sha": "ae0f36b16a17a1321c17c630fb6a52e10dd23fcd",
+    "full_m2_base_sha": "6306ea4ea20cda501c6238db80c34d27bbc16bea",
+    "a1_sha": "11ae1ce4a3bac6245dbc39c073bcfc2ac0bba16b",
+    "preregistration_sha": "e7e2cc8520f9033e57c442b04c882baffd7c51b497bbc9495b71098f64a83b0e",
+    "config_sha": "d8982296be9d632be996d23836cfebb7fb2fb363b6fd496590056025251a07da",
+    "config_resolved_sha": "ed9e25555e2d41c116785eaa89fd580ec41d12d1dcfee6e8f9f15be9e4f99e3e",
+    "graph_config_sha": "22d339e831a055b914932618de279fb72da9327b9bb875fecc86a02c20f0b0a8",
+    "experiment_id": "A2_no_global_pretraining_2024H1",
+    "official_run_id": "20260818T204749061036Z_ae0f36b1",
+    "first_run_id": "20260818T130800804933Z_ae0f36b1",
+    "memory_lineage_id": "20260818T130800804933Z_ae0f36b1",
+    "memory_manifest_sha": "be1dd85e152ec1381320e723aa7732949926e631141a09a387e505de8b8e51cd"
+  },
+  "initial_checkpoint": {
+    "schema_version": "A2-INITIAL-CHECKPOINT-VERIFICATION-v1",
+    "archive_reference": "experiments/M2/development/global_training_v1/initial_checkpoint/model.pt",
+    "archived_file_sha256": "4d65dd2c1563b144aee8e79878171feb1ecd990a8bd8e2c584547eaa3a546c9f",
+    "canonical_parameter_sha256": "60a0fec7b69ef2d0576a9c0894be09c377d573585db827c162279fb27483303e",
+    "fast_sha256": "49380bb69ea6fb7682fe97a3ef5e1ccf2b2429b749d6f9f9971e40725271fcf9",
+    "fast_canonical_sha256": "859d91374903768e82c8d3621ca18ea6e8ba3b0002e9e915a579df13664e27d2",
+    "global_non_fast_canonical_sha256": "9b83aa1382d6b41c55981f2475eb0e236248affc5b5004a151a4b01651fa646e",
+    "initial_optimizer_state_sha256": "087df628de120d7e2271432fe99d2888097983c25a3cfc880ec60a51d3b4d623",
+    "prompt_anchor_probabilities": [
+      0.6666666666666666,
+      0.16666666666666666,
+      0.16666666666666666
+    ],
+    "c09_loaded": false,
+    "exact_bytes_recovered_without_regeneration": true
+  },
+  "config_diff": {
+    "schema_version": "A2-FORMAL-CONFIG-DIFF-v1",
+    "formal_config_sha256": "d8982296be9d632be996d23836cfebb7fb2fb363b6fd496590056025251a07da",
+    "changed_fields": {
+      "experiment_id_template": "ADMINISTRATIVE_IDENTITY",
+      "m2_variant": "PREREGISTERED_A2_TREATMENT",
+      "m2_checkpoint_parameter_identity": "A2_TREATMENT_ARTIFACT_BINDING",
+      "m2_checkpoint_file_identity": "A2_TREATMENT_ARTIFACT_BINDING"
+    },
+    "unapproved_differences": []
+  },
+  "population": {
+    "AAPL": 26,
+    "AMZN": 26,
+    "JPM": 26,
+    "total": 78,
+    "failures": 0,
+    "decision_cache_cases": 0
+  },
+  "validation": {
+    "status": "passed",
+    "checks": {
+      "first_decision_is_2024_01_05": true,
+      "good_friday_week_is_2024_03_28": true,
+      "last_decision_is_2024_06_28": true,
+      "first_execution_is_2024_01_08": true,
+      "last_execution_is_2024_07_01": true,
+      "final_valuation_is_2024_07_05": true,
+      "decision_count": true,
+      "decisions_per_symbol": {
+        "AAPL": 26,
+        "AMZN": 26,
+        "JPM": 26
+      },
+      "no_same_bar_execution": true,
+      "no_future_market_data_visible": true,
+      "no_negative_cash": true,
+      "no_short_position": true,
+      "no_duplicate_fill": true,
+      "daily_equity_complete": true,
+      "benchmark_sessions_aligned": true,
+      "aggregate_sessions_aligned": true,
+      "dividend_accounting_consistent": true,
+      "portfolio_pnl_identity": true,
+      "split_accounting_tested_offline": true,
+      "metrics_finite_or_null": true,
+      "artifact_input_checksums_valid": true,
+      "configured_warmup_sessions_honored": true,
+      "agent_decisions_successful": true,
+      "no_paid_llm_call": null,
+      "snapshot_replay_deterministic": null
+    },
+    "market_history_visibility_errors": [],
+    "portfolio_pnl_identity_errors": [],
+    "tolerance": {
+      "floating_point": 1e-12,
+      "portfolio_pnl_identity_absolute": 1e-8
+    },
+    "snapshot_hashes": {
+      "AAPL": "5428fc2c672f3b68c7c3e83b4a22bd5b7330c95a8b4194695762539d9d8a5af3",
+      "AMZN": "c4b5c747d75ba658c6f6833348783e3f8a8c571380c930de20cf9fb7dd6b1444",
+      "JPM": "74cf77b77b0a83ce8e6246578d4da30bf7622558e8973bda71344b99b9dfd6fc",
+      "SPY": "22e6996ebf963787f40d54bfc59e1ca088fa698cb82b639768504dbdbb2d25ac"
+    },
+    "result_hashes": {
+      "AAPL": {
+        "decisions.csv": "b4f7e492e9643a7d79f976c5722fd3c87eead3f2a71c0702c787eda59597a39b",
+        "orders.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "fills.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "daily_equity.csv": "507d1a7dae47422567b376061a1ab7da5ffad57d748b56ab2552232b841cce54",
+        "corporate_action_events.csv": "2648781384eced0fbb62c5917147bea2fff23f0dce51ae0d0f2dd1bf04187057",
+        "metrics.json": "fe846e58a3b90886d84fcd06a7070c0c2f252edd1665faa16c3ec692b78a94b4"
+      },
+      "AMZN": {
+        "decisions.csv": "503f1f9789b4832eea93b7a51115ae0133a0f3f47d370fdbf07bc7dfa5e9de47",
+        "orders.csv": "270d81ef3bb90b6d0dafe883279923e6659984bb75f9cf3fccf1d504a5d99ad6",
+        "fills.csv": "a677d37e80deef94424b80eca46ebddcc9d8848d169b3f3d997a0006d02b4995",
+        "daily_equity.csv": "686c92cef1db683df76902792d1dbf2947595175d8a464c915df2d1992abd705",
+        "corporate_action_events.csv": "9fba46b23dd6301e627b91675edcb5148fb42fd27026720608fdefa2c05dcaa0",
+        "metrics.json": "61ae333f54317b7751e66814c102c399bb9248efa7dc3305174ce649e7a2c91a"
+      },
+      "JPM": {
+        "decisions.csv": "051ebf640938442820d7f43ae2cac5086a1583357ad7a17302c6be9985ed4046",
+        "orders.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "fills.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "daily_equity.csv": "ff06c0edc052427444c26bf2514218d5795fcf39a6990347cc0f5537f9b0dc71",
+        "corporate_action_events.csv": "e2db576a9e2e2820ea6f106b743a667f32922eaa16e792592ca152072d6ffdd1",
+        "metrics.json": "5dd3f27fcd6af10669ad87c3c01658ff3cabc3b2ea9d93d48347d30db411c3a0"
+      }
+    },
+    "replay_result_hashes": null,
+    "artifact_bundle": {
+      "status": "passed",
+      "artifact_schema_version": "1.3",
+      "checks": {
+        "required_files_exist": true,
+        "json_documents_valid": true,
+        "artifact_metadata_valid": true,
+        "analysis_ready_schemas_valid": true,
+        "market_snapshot_sha256_valid": true,
+        "graph_config_sha256_present_and_consistent": true,
+        "memory_lineage_provenance_consistent": true,
+        "final_memory_archive_complete_and_valid": true,
+        "agent_case_artifacts_complete": true,
+        "validation_report_passed": true,
+        "run_status_valid": true
+      },
+      "missing_files": [],
+      "invalid_json": [],
+      "schema_errors": [],
+      "checksum_errors": [],
+      "lineage_errors": [],
+      "memory_archive_errors": [],
+      "memory_archive_checksum_errors": [],
+      "agent_artifact_errors": []
+    }
+  },
+  "final_state": {
+    "AAPL": {
+      "state_identity": "6e013e8d686f4f755d3f51b1c0e52e63f5a280f7a511730a8fbb64213ac70d0d",
+      "checkpoint_parameter_identity": "60a0fec7b69ef2d0576a9c0894be09c377d573585db827c162279fb27483303e",
+      "checkpoint_file_identity": "4d65dd2c1563b144aee8e79878171feb1ecd990a8bd8e2c584547eaa3a546c9f",
+      "online_adaptation_enabled": true,
+      "online_candidate_id": "O08",
+      "online_learning_rate": 0.001,
+      "online_update_epochs": 2,
+      "weight_decay": 0.0001,
+      "gradient_clipping": 0.5,
+      "issued_actions": 26,
+      "credits": 26,
+      "applied_updates": 23,
+      "applied_event_ids": 23,
+      "credit_status_counts": {
+        "APPLIED": 23,
+        "ARCHIVED": 2,
+        "PENDING": 1,
+        "MATURED": 0
+      },
+      "initial_fast_sha": "49380bb69ea6fb7682fe97a3ef5e1ccf2b2429b749d6f9f9971e40725271fcf9",
+      "final_fast_sha": "bf1fd7555093781b94053883c47a8a1104361085cf85e174e86728546fa9d4af",
+      "final_optimiser_sha": "7577bca35d1d0a991ef27fea9fb85c93dde342355ce4e97ba3bbe1ab5e96edb4",
+      "updates": [
+        {
+          "application_id": "de0d3381e4b4d3f6ec0c58261667ffbfa8235dd7f502341855c233d8a6684d3f",
+          "event_id": "505974eece3cdb389fb53984d2cc4bdc7c91c0b2b8486bc19a4ef1bfbe8cac9e",
+          "pre_fast_sha": "49380bb69ea6fb7682fe97a3ef5e1ccf2b2429b749d6f9f9971e40725271fcf9",
+          "post_fast_sha": "120a7a54c0694bba630ef5654114675d268ee5b127bfa671f7cf2eb82d76417b"
+        },
+        {
+          "application_id": "275f21d7810d8eec3bf4c4613e9ef056e24e841bea4db308bed250aea8db221e",
+          "event_id": "223f84b60a1d838b773a9f82b9fb70e62b7ff1183821e470a888e08c9780dc1f",
+          "pre_fast_sha": "120a7a54c0694bba630ef5654114675d268ee5b127bfa671f7cf2eb82d76417b",
+          "post_fast_sha": "2164e436ba5c02b78410c41c86b937940521e780835f0ab82fed4906f12547ae"
+        },
+        {
+          "application_id": "d970d5c21eec50bb6e76f08c1748dc30075d05257dbe834b9763e64e3d463272",
+          "event_id": "ce38804866aad7933d8c479e34702ab4e23f6bac7929fab06f17de631be7773c",
+          "pre_fast_sha": "2164e436ba5c02b78410c41c86b937940521e780835f0ab82fed4906f12547ae",
+          "post_fast_sha": "ef887cf9ea2874733f3d749c423d2bd49e3f58989c26a9a1d839f4de71f4e741"
+        },
+        {
+          "application_id": "8f39b4e1dcd5b1e471397d55312c26e5f77656bb924bab8b9ad80074428781be",
+          "event_id": "0122b384e405b36a0c434dd7fff560b1b22a57d8de65b8f6be314d26cf8c6aea",
+          "pre_fast_sha": "ef887cf9ea2874733f3d749c423d2bd49e3f58989c26a9a1d839f4de71f4e741",
+          "post_fast_sha": "5b7f6b20d6b6ed97af27b38057f4a89a00b0a7c9662ebb45d50309fc041b4254"
+        },
+        {
+          "application_id": "a1064950b0f304e70a4a026cee4e33b4025ce8456e955ec9f796ea79ee645ad4",
+          "event_id": "efecc8b7f131fdd243d7eaa2bede5004a47428c239573ead545f777c92a7dcbe",
+          "pre_fast_sha": "5b7f6b20d6b6ed97af27b38057f4a89a00b0a7c9662ebb45d50309fc041b4254",
+          "post_fast_sha": "a369b0adf0cca7ddd014103b302e49d5d26dcd47bc13db9ef3fe25d66fff9ffd"
+        },
+        {
+          "application_id": "d0b97ba1414c318f37da284a2dba5217db5f30fa8825f5525365a6ebed7b0da3",
+          "event_id": "4cb8a288ce4028924a6a4147f2470222932735328ba8794a36d84d8bb30fe373",
+          "pre_fast_sha": "a369b0adf0cca7ddd014103b302e49d5d26dcd47bc13db9ef3fe25d66fff9ffd",
+          "post_fast_sha": "7aa177f48d57104db13bc630ef27f45787490d0f18638806d3c3199ea4d5fc56"
+        },
+        {
+          "application_id": "976e7d1c9ac99d3e77b583a19c0d91e74ca2fe324f83464976218c3b954271fc",
+          "event_id": "e5c8cede2786290509d722db5602a068c8bb256024b2037461086ed8bc8b53f0",
+          "pre_fast_sha": "7aa177f48d57104db13bc630ef27f45787490d0f18638806d3c3199ea4d5fc56",
+          "post_fast_sha": "23b7a6aaa00c7b22c6b546eee216fbf82c303f9090131af4090a4ac063ead000"
+        },
+        {
+          "application_id": "7bd4feacdeea6b56f39faa0eab31461d43fffeca713ade708b9dc36fa1063496",
+          "event_id": "f140be4c133af4f37cb66eaa758917b4641b7c054ff6e094598b32b4b318df20",
+          "pre_fast_sha": "23b7a6aaa00c7b22c6b546eee216fbf82c303f9090131af4090a4ac063ead000",
+          "post_fast_sha": "38665ce377b0a7f5cbb3e6316eaf9c3d2d76a3d4f112b416cc670e8c5c0c9a1c"
+        },
+        {
+          "application_id": "e0992020964da9276fec244ecd7eef68a3ee8a75a3465780bc58be6997468f48",
+          "event_id": "ab2bc5ae60ec96f704e1cad6bdb567a836ec394da11ab76f08b955046b4472fe",
+          "pre_fast_sha": "38665ce377b0a7f5cbb3e6316eaf9c3d2d76a3d4f112b416cc670e8c5c0c9a1c",
+          "post_fast_sha": "a52fb0f6b0e6bb8ad96d615783a63282a7a296727b3fd36055b7ca3e0d920eca"
+        },
+        {
+          "application_id": "7e75c97113ba6490009f4d80e108f7603719cd4c70071428a97325f9e5f6ecc6",
+          "event_id": "9f548e428dae9d247cab08d0db7a7088d2a92919c42fbfb7f49da25bfac50713",
+          "pre_fast_sha": "a52fb0f6b0e6bb8ad96d615783a63282a7a296727b3fd36055b7ca3e0d920eca",
+          "post_fast_sha": "1a14abbaa287604ae898f14e82f23ce341918e17fe25835434e26ccf36b33eea"
+        },
+        {
+          "application_id": "b8c092119e82ec3154714aca217fc763188dea489fea7a77641519775df1e85e",
+          "event_id": "cc93064f8cf02a1ac4be7816aeca7502051fea6d27a0fd84be534dec3c10d70f",
+          "pre_fast_sha": "1a14abbaa287604ae898f14e82f23ce341918e17fe25835434e26ccf36b33eea",
+          "post_fast_sha": "25624427c016ea7398eda8b8637af28a2aa051f449fec04a5324279d34d050a0"
+        },
+        {
+          "application_id": "289565645335dfe0fcc6778ca9edde78d36915c10071dcb9e0fc10525ab72243",
+          "event_id": "25a091a39bfb8df5e7342376e439df640334df55997c673957f068a8858c0955",
+          "pre_fast_sha": "25624427c016ea7398eda8b8637af28a2aa051f449fec04a5324279d34d050a0",
+          "post_fast_sha": "fe81d9ffeea8d232ec0496b749cdeb4be4296e7c9fefee7fc30f6b2b8661b722"
+        },
+        {
+          "application_id": "7e89df24b0e1778ac1267da79ddf425249b728dfe15909b2708be1b13458ead6",
+          "event_id": "6fcdd53e9698e84792f69a55c2ccf141edad7450a6a8d44b21a7d94fecfa6c7f",
+          "pre_fast_sha": "fe81d9ffeea8d232ec0496b749cdeb4be4296e7c9fefee7fc30f6b2b8661b722",
+          "post_fast_sha": "990fa65e720d7d633750754df17065947bb07ce9844a73e57b25867ddb0e199d"
+        },
+        {
+          "application_id": "544fcff744c3dfea2c70811aaf9a8f7bf03e49d2d824faf380c55264da0beb2e",
+          "event_id": "f9543ff8d5b5a94369ff6a6f2c74d407961968b73a4cc67f6a83fbe44117796e",
+          "pre_fast_sha": "990fa65e720d7d633750754df17065947bb07ce9844a73e57b25867ddb0e199d",
+          "post_fast_sha": "c9fa0b57a1a2210bb769b3c5c216bbd853e1629c58b17a6fe2362769b08b3c8c"
+        },
+        {
+          "application_id": "e37fcfba183d5215ce97b1edc73d23bd55564efe4cd78a25a910bfedea6d5a64",
+          "event_id": "ee3dedad99c741168b841630140a8110fd8df97c25876a340bf2b9725df60da0",
+          "pre_fast_sha": "c9fa0b57a1a2210bb769b3c5c216bbd853e1629c58b17a6fe2362769b08b3c8c",
+          "post_fast_sha": "b4d69ae92636a9787963400dfaa963969d37879fbb6ba6ea37469f2d87369ec2"
+        },
+        {
+          "application_id": "e6ada01025c1e35717e77bbfac7d0705347e4fd9f8030276814ec63fafabff99",
+          "event_id": "aa45306bc11ba64b959fc028a644b012167ad14090ecb2415b960194928dc8f8",
+          "pre_fast_sha": "b4d69ae92636a9787963400dfaa963969d37879fbb6ba6ea37469f2d87369ec2",
+          "post_fast_sha": "a60e57fdbfbf598c56d1ee804fee6f2e61d2c770232270f644606bbb771dfed6"
+        },
+        {
+          "application_id": "f4cea226eda19b790ed5c0b63f3f9c1845b2adf8b3b4325cbb90b428a2d2b393",
+          "event_id": "34fda8c38e342702fd9dc6b4130378aa5051e77a823542ddfcad13ff80f66cbd",
+          "pre_fast_sha": "a60e57fdbfbf598c56d1ee804fee6f2e61d2c770232270f644606bbb771dfed6",
+          "post_fast_sha": "f727d4d77ef2e0c4dda2e52dbdad8cb3fcda49a7acf5d3ced6119fea0cd145eb"
+        },
+        {
+          "application_id": "d6025941265480328362bb6fe012a26ac1ed68431e74081ac567ddf1e4510e0a",
+          "event_id": "d5f8be046ed86ff377b66fb4aa6f0b19366f7959422682cb08e4a32675373e19",
+          "pre_fast_sha": "f727d4d77ef2e0c4dda2e52dbdad8cb3fcda49a7acf5d3ced6119fea0cd145eb",
+          "post_fast_sha": "f0953f185721e8aa73a98bdb681c705d8bbb17f98abdc825f1c644678365f1c6"
+        },
+        {
+          "application_id": "b32339aca4efd009857f4995bf024f18dfc19bba50ff7591c17d39139ab90301",
+          "event_id": "b5d48cf495fc9d8cc3b8fd1fcec8d1926910e48b7f1d73d9be3f02d0800250f4",
+          "pre_fast_sha": "f0953f185721e8aa73a98bdb681c705d8bbb17f98abdc825f1c644678365f1c6",
+          "post_fast_sha": "d0453a62d5edde481d6eaf43a85712c142e345444b0807936b670665885b2847"
+        },
+        {
+          "application_id": "bab910fa2dfaff68bc50cdb9bb155d2153ab53a648840be5fc9861853f671c03",
+          "event_id": "728936cbf41f28bac6551d9ba60426bb5a5b376e2ab9abbd5dc08eec4661b7d4",
+          "pre_fast_sha": "d0453a62d5edde481d6eaf43a85712c142e345444b0807936b670665885b2847",
+          "post_fast_sha": "bf08c85702b390bb5783615825e4471ece41f7e376c93084bf1a512df0044e5d"
+        },
+        {
+          "application_id": "2b5bbc913bd9eb82151735a012f86d1e26e0f5431814b66d9b815772aa35c750",
+          "event_id": "819bb3aef9cbb1cc8c3f6fd3ffaa81138ceea01b8907380fe0487839c9818d71",
+          "pre_fast_sha": "bf08c85702b390bb5783615825e4471ece41f7e376c93084bf1a512df0044e5d",
+          "post_fast_sha": "a73713f2325c9a10b808715cc4dd7e1ec68fc712a55d40e8d23589f79f9d88d8"
+        },
+        {
+          "application_id": "68ccecf753b8f196edf720711ba7e119c9c33f603d55f385490c6a7aedb7d73c",
+          "event_id": "be5cc1c5d2314c722f930e270cea7388241993e88308f325d003c6afed678204",
+          "pre_fast_sha": "a73713f2325c9a10b808715cc4dd7e1ec68fc712a55d40e8d23589f79f9d88d8",
+          "post_fast_sha": "8c39ec4af9da2422818f402cf7bc487681c70e1948585799056c72fe195709ed"
+        },
+        {
+          "application_id": "2958eac8661a121b1c03d3184754ebd2a5a40eef477b675696caad3742b6876d",
+          "event_id": "8fc6b1011e3ba79295a1a398ea79ea64eab586be2cca4b45ce0422c7511be7cd",
+          "pre_fast_sha": "8c39ec4af9da2422818f402cf7bc487681c70e1948585799056c72fe195709ed",
+          "post_fast_sha": "bf1fd7555093781b94053883c47a8a1104361085cf85e174e86728546fa9d4af"
+        }
+      ]
+    },
+    "AMZN": {
+      "state_identity": "ec1428b2463f398b1e3a0f39b152d6879106be37e2e59bd85249422761c29721",
+      "checkpoint_parameter_identity": "60a0fec7b69ef2d0576a9c0894be09c377d573585db827c162279fb27483303e",
+      "checkpoint_file_identity": "4d65dd2c1563b144aee8e79878171feb1ecd990a8bd8e2c584547eaa3a546c9f",
+      "online_adaptation_enabled": true,
+      "online_candidate_id": "O08",
+      "online_learning_rate": 0.001,
+      "online_update_epochs": 2,
+      "weight_decay": 0.0001,
+      "gradient_clipping": 0.5,
+      "issued_actions": 26,
+      "credits": 26,
+      "applied_updates": 23,
+      "applied_event_ids": 23,
+      "credit_status_counts": {
+        "APPLIED": 23,
+        "ARCHIVED": 2,
+        "PENDING": 1,
+        "MATURED": 0
+      },
+      "initial_fast_sha": "49380bb69ea6fb7682fe97a3ef5e1ccf2b2429b749d6f9f9971e40725271fcf9",
+      "final_fast_sha": "3ee6338239854c27d236915440d4602955a7ecfcaf29bc22e0ae1e6fb94438e8",
+      "final_optimiser_sha": "065284c80ed1b877974f8dc670532559b78031b549c687f178ba91a2296af3fa",
+      "updates": [
+        {
+          "application_id": "739df4f5d9a67c7badb4abf69334cdd43f87383ddec924fae78a1cfe8543fadb",
+          "event_id": "d29b0a0505a7bacd4847175548325a2053705a1ac5626a73c0f742eaffa57288",
+          "pre_fast_sha": "49380bb69ea6fb7682fe97a3ef5e1ccf2b2429b749d6f9f9971e40725271fcf9",
+          "post_fast_sha": "1b95e15ec3996652a118359ff275b72d8dfbc91676d3dbc06f64cb48247a105e"
+        },
+        {
+          "application_id": "d8b8a0b8455a2b76afdb81bf3e2a9fa5d6397806444c40102de11a9526c41b55",
+          "event_id": "366546c253d8ea587bc9979720c03dca94c752ad0f9ab9e82b26c42648ad587a",
+          "pre_fast_sha": "1b95e15ec3996652a118359ff275b72d8dfbc91676d3dbc06f64cb48247a105e",
+          "post_fast_sha": "c1b966f9b419d2cc24c2d01e5cbded691ec8307b4dee358eb6987d12a9afb970"
+        },
+        {
+          "application_id": "94c9892ab8c264a9ad61b6374f5b7fea314e47e47b730b42167b2d5511c25ad9",
+          "event_id": "f886889e1a7bfa1f0436c62a7c1301c17e6bd7b7d2de23c7d190a9285e49c21a",
+          "pre_fast_sha": "c1b966f9b419d2cc24c2d01e5cbded691ec8307b4dee358eb6987d12a9afb970",
+          "post_fast_sha": "6bfdb2dd8b5b96167b8bd174e1ddc239115bef16f8733ae6a374b82abae5407c"
+        },
+        {
+          "application_id": "061470d11c900c75d8e2e5758e185fe9fc8e177a2339d16bd0829c8216cf5ca2",
+          "event_id": "eb09b5286a24eaec2af7853d70b1fb5944461c54156cf961f4723e16fc1fb1c3",
+          "pre_fast_sha": "6bfdb2dd8b5b96167b8bd174e1ddc239115bef16f8733ae6a374b82abae5407c",
+          "post_fast_sha": "3bd933b099f093ba65fc4139f7207c85772b2be1f1b23f823872e787c38f3695"
+        },
+        {
+          "application_id": "b40be6ed4b62ce486bacb34efa267a032949b146e15d30958f01afed18f5455c",
+          "event_id": "51736ed47215790bf82b62b58c7070c3541d5fb84c8df71e439f439df41b1bbd",
+          "pre_fast_sha": "3bd933b099f093ba65fc4139f7207c85772b2be1f1b23f823872e787c38f3695",
+          "post_fast_sha": "e19b0684addd181f5510c1a5d73c3850140f1f0641c80d4d1502173c62356137"
+        },
+        {
+          "application_id": "920eec3bca6fa4316faafef1acac8969bc36590e62be76409712a738d4cf2d7e",
+          "event_id": "447492325715f769e8e3f6180fcb07af78bb02c44dff533dd7bccfb61e06c6a0",
+          "pre_fast_sha": "e19b0684addd181f5510c1a5d73c3850140f1f0641c80d4d1502173c62356137",
+          "post_fast_sha": "4b2f297875dace3c4744a951762e342f8d271e0758f72583bf85affbe37416a4"
+        },
+        {
+          "application_id": "c56723575978ea5e5b44fdee87381335435cfaf56d078304ef6cd9e228a8f4a7",
+          "event_id": "ae9fefbb268cd1c0f95f71fef41c1edd8f21d2715a174fde940330031f6209ba",
+          "pre_fast_sha": "4b2f297875dace3c4744a951762e342f8d271e0758f72583bf85affbe37416a4",
+          "post_fast_sha": "4edf64b77a8f581f52886793b77718ef1614a0f9ffb591fa9134a4c6a7cf7873"
+        },
+        {
+          "application_id": "0e12044268f0fc4d1f1e772e6e70ab8696dd14b31ded41edca4f59d37c393333",
+          "event_id": "21634b9ad279348e5763538c44cf6b1d4fc04c81d9a3955a474439c7573c366d",
+          "pre_fast_sha": "4edf64b77a8f581f52886793b77718ef1614a0f9ffb591fa9134a4c6a7cf7873",
+          "post_fast_sha": "be65084d25de2c4af501135e92c25b87c24a9b145d5c76b3478cb826de578f6f"
+        },
+        {
+          "application_id": "04f8110a7a0924e7df60d94736e92e35ea19247f02c4b11c3cef596b462d071a",
+          "event_id": "7fd388c8aea2b7c7ae08d982cae7b6732259329caf2746d4668b61fe609a4718",
+          "pre_fast_sha": "be65084d25de2c4af501135e92c25b87c24a9b145d5c76b3478cb826de578f6f",
+          "post_fast_sha": "dd258269ede5d0ede2d658d8f4c2a8c505c654f3785979b85568b902ce722ed1"
+        },
+        {
+          "application_id": "da4ad2cf1d3a1d095fb4b98f30d6111e05e849e8a111947725189d534c2ddeb6",
+          "event_id": "fc75502226d8de31110ffa6e0a49959bb5086b3318b3e235944bb5057bb07ef9",
+          "pre_fast_sha": "dd258269ede5d0ede2d658d8f4c2a8c505c654f3785979b85568b902ce722ed1",
+          "post_fast_sha": "13f86dc14b3de25f69f1d26166df97dffaff7dc34c46c9e5ae7e24c0994d4c95"
+        },
+        {
+          "application_id": "47bcf6cbc994ffab0de53f65ee5779539ef58a714ebbca875777c02f74aed176",
+          "event_id": "0f08080cb50224335421b7beb675f4d0d4eb234cd535a0cb39c8afe8d10a8d16",
+          "pre_fast_sha": "13f86dc14b3de25f69f1d26166df97dffaff7dc34c46c9e5ae7e24c0994d4c95",
+          "post_fast_sha": "04a1949bb02db0a03923e9fceb387abbb7a001229f7c57e2fd55656bb3ed1c4c"
+        },
+        {
+          "application_id": "8de472edd07131dceafb67241e4ace82d5913f331e1bccb0e764857a877d4da0",
+          "event_id": "01e09d3680e0ef17153847b124410a4a5884c5fee02e40b8c9a3bd9a457d498a",
+          "pre_fast_sha": "04a1949bb02db0a03923e9fceb387abbb7a001229f7c57e2fd55656bb3ed1c4c",
+          "post_fast_sha": "26b3916a14abc83fc879cd6de5535e31a612eb572b815d5ec4061d022af27fe1"
+        },
+        {
+          "application_id": "28e4c8ffa8acf7a29e5c7026ec7031452f3c395bd2e4bd1e103b722b0729f935",
+          "event_id": "f2a6c261b4d1739742b3b478cb27cb4b20878996bcf607bc4c756670f07cb7a8",
+          "pre_fast_sha": "26b3916a14abc83fc879cd6de5535e31a612eb572b815d5ec4061d022af27fe1",
+          "post_fast_sha": "f98fa3e36d8268a4bbd307776074aac5f42f3807a03661cb41798c28f97e2c1a"
+        },
+        {
+          "application_id": "018e8b4f758bbfb24a2c06f32c20e6a9c3c4f0c54dfb7f41c56997d90862deaf",
+          "event_id": "ba867fd97386d87397d7c128247169be34513432d179f1b4cf2fdc194067b4a7",
+          "pre_fast_sha": "f98fa3e36d8268a4bbd307776074aac5f42f3807a03661cb41798c28f97e2c1a",
+          "post_fast_sha": "7c88d45e002f03e18e62c9481ed3f5bffdd93746e0347dd6f8d32c0375e66703"
+        },
+        {
+          "application_id": "8921763f6fe52a11b70c2677706aa4f5a4e950dc0bf5cee6407496a80e8b6aba",
+          "event_id": "a7595bf50e22a1573b3a5d642ce5b0420a9a908b182af867a2accf3f9a615b71",
+          "pre_fast_sha": "7c88d45e002f03e18e62c9481ed3f5bffdd93746e0347dd6f8d32c0375e66703",
+          "post_fast_sha": "4e26bc4bd625aa66e86c57be86d90bd7a8559316c36c9879b0c45e5a78ff047a"
+        },
+        {
+          "application_id": "668a3402b4536fc9c1e5631bf0378d77fa99c9ac988538e8134f9c4b03c662e7",
+          "event_id": "0fd07d9214c727e8dd13650589016fb808b2b8739e027719209fc383a1e2018c",
+          "pre_fast_sha": "4e26bc4bd625aa66e86c57be86d90bd7a8559316c36c9879b0c45e5a78ff047a",
+          "post_fast_sha": "3db108ff44091e08ded3f4726f132e24193b19d7a6c0b394c30798073c012682"
+        },
+        {
+          "application_id": "d57f782ef3e350705ac0b03b3834ad76acfe08245c03bb533811c34787fdc620",
+          "event_id": "f85e5907b986bcde7c54e99f2cf8bce3b40a93471b5256bc9994d60987fe2ec8",
+          "pre_fast_sha": "3db108ff44091e08ded3f4726f132e24193b19d7a6c0b394c30798073c012682",
+          "post_fast_sha": "a5795f6aa6467bcacbb4fd5fa9fd9eacb236695b33d8ac3bf96bc468b3cd8da4"
+        },
+        {
+          "application_id": "3279e4781fbee2b491e20398c814994e3bb0dc1e9a0b501387547e8201067501",
+          "event_id": "d6961c854511d109dbf4eabe96c09efd2dffbc928e8f5afac4116ffabad89b1b",
+          "pre_fast_sha": "a5795f6aa6467bcacbb4fd5fa9fd9eacb236695b33d8ac3bf96bc468b3cd8da4",
+          "post_fast_sha": "053c60519a6994f6b36ea13c580d2f05a6f2c2c4627fae454f93adaca835ed2b"
+        },
+        {
+          "application_id": "0fd13c6d6c9fab2619cffd3ee24be6a75f054d5979cfeffaecd742a344ba760d",
+          "event_id": "5158e1ad8dd968f9e5c70cdf5e92de424785d086d87a6bf228ca4aee39d37964",
+          "pre_fast_sha": "053c60519a6994f6b36ea13c580d2f05a6f2c2c4627fae454f93adaca835ed2b",
+          "post_fast_sha": "98e68b936cb85780a249959ac842d04f326f01698016be441564b7ea789978fb"
+        },
+        {
+          "application_id": "c88f03d405d5494e79ffdc1f51d52caf150fa0d4b0947f78246a26749c6f77f5",
+          "event_id": "d1e542629f2576caf6ad93b186305c62b7fe07a4d21aca3fe4f021fe72c2303d",
+          "pre_fast_sha": "98e68b936cb85780a249959ac842d04f326f01698016be441564b7ea789978fb",
+          "post_fast_sha": "d17f3c7a0e441be56dab63959e4f01becda2d51a9b46290d1751f16769316e4d"
+        },
+        {
+          "application_id": "e5c38b6ab19e4462d227e1e0960b5031c0ab40af2b6f1defa057a0c5ab981367",
+          "event_id": "26b9c700ccccdf7f0dcb2aff0e4fd491cefa3e34cc0a0e041a1c9f931546e91d",
+          "pre_fast_sha": "d17f3c7a0e441be56dab63959e4f01becda2d51a9b46290d1751f16769316e4d",
+          "post_fast_sha": "86573b60a16eb6e1e2c6be9811775c88b3e2e543bdb9e3d2fd68368a1d5ef42a"
+        },
+        {
+          "application_id": "df8a636e0ff5e351d0a97294e3d0f38452199c9e49be2a7de0ed45a8bef3d63d",
+          "event_id": "cb59430327bd90921bd27179ea27cb4c51d6b615222d7b7a1320f3ad0642052b",
+          "pre_fast_sha": "86573b60a16eb6e1e2c6be9811775c88b3e2e543bdb9e3d2fd68368a1d5ef42a",
+          "post_fast_sha": "6ef067a934daacaa58f2e0f8b4cfd22badb51412d67d125efbd323ccac1f2c96"
+        },
+        {
+          "application_id": "5fa17fd2f01ad1eac223b18d1f9b5a80875e0da2e169b377aa300bb4e7f4c551",
+          "event_id": "1d24d96a2078e985d1b9bef7cc18ef5b237ad7b9e87a84e29afe09d838b91429",
+          "pre_fast_sha": "6ef067a934daacaa58f2e0f8b4cfd22badb51412d67d125efbd323ccac1f2c96",
+          "post_fast_sha": "3ee6338239854c27d236915440d4602955a7ecfcaf29bc22e0ae1e6fb94438e8"
+        }
+      ]
+    },
+    "JPM": {
+      "state_identity": "4caa0a5b3bfdf1545420b5f05a436e919303992032a37fbfbdb44f963e3a8c31",
+      "checkpoint_parameter_identity": "60a0fec7b69ef2d0576a9c0894be09c377d573585db827c162279fb27483303e",
+      "checkpoint_file_identity": "4d65dd2c1563b144aee8e79878171feb1ecd990a8bd8e2c584547eaa3a546c9f",
+      "online_adaptation_enabled": true,
+      "online_candidate_id": "O08",
+      "online_learning_rate": 0.001,
+      "online_update_epochs": 2,
+      "weight_decay": 0.0001,
+      "gradient_clipping": 0.5,
+      "issued_actions": 26,
+      "credits": 26,
+      "applied_updates": 23,
+      "applied_event_ids": 23,
+      "credit_status_counts": {
+        "APPLIED": 23,
+        "ARCHIVED": 2,
+        "PENDING": 1,
+        "MATURED": 0
+      },
+      "initial_fast_sha": "49380bb69ea6fb7682fe97a3ef5e1ccf2b2429b749d6f9f9971e40725271fcf9",
+      "final_fast_sha": "0fc22f9c4d112c932524b74e328c2e3efbad1f690ac3691fb7a307bceca23135",
+      "final_optimiser_sha": "5c46b84a03d7e31e34c3b7810975f74a393483438950d45125d42c7d1d3ece9f",
+      "updates": [
+        {
+          "application_id": "7b9e56ff321cfae3c7bc721553a614d3f5d834862fa908be7262bdd1cd1e1b2f",
+          "event_id": "22976c8d15119ca275306f0f9dd851e441f7d54d814086f18e194dd8263e1255",
+          "pre_fast_sha": "49380bb69ea6fb7682fe97a3ef5e1ccf2b2429b749d6f9f9971e40725271fcf9",
+          "post_fast_sha": "7c18d0cc30e2ab4888e66dd6e2a3a00ffdd594d900cb1cdbc88fccd0432f8a84"
+        },
+        {
+          "application_id": "bf7c656536da9e3056b78861329ad20db956b5a219f3912cc28974858bfdb871",
+          "event_id": "7d5fc0c273a368e88d3e1448f1920923602f9fd1a36e7b460d95d4a44b28a350",
+          "pre_fast_sha": "7c18d0cc30e2ab4888e66dd6e2a3a00ffdd594d900cb1cdbc88fccd0432f8a84",
+          "post_fast_sha": "60cbd53b8da2e4ba096d9b93e2e57da4836abbc8644ae0e111749d7ef19d48ab"
+        },
+        {
+          "application_id": "bdee94a94a3e83f5b796ca6c21d6c28c4207568ce372fc4ee530abd95e27606a",
+          "event_id": "340d40afc40e52a5a15022f82db6d81581eb889fa2bdd46498d368a08a8c901b",
+          "pre_fast_sha": "60cbd53b8da2e4ba096d9b93e2e57da4836abbc8644ae0e111749d7ef19d48ab",
+          "post_fast_sha": "ab1ece19265c4e02b5efe64a58af59ebbf246958cf218e4123c90f5fd87b6060"
+        },
+        {
+          "application_id": "d13055213aca9065e609a231e5614b3a3fa12ae0babd91a2fe6ff7a75d361b92",
+          "event_id": "51cb3ebc3d9cc0772861ab52be6966c502e4ca67c85d5e69b3916a642b5cf9db",
+          "pre_fast_sha": "ab1ece19265c4e02b5efe64a58af59ebbf246958cf218e4123c90f5fd87b6060",
+          "post_fast_sha": "bf180c680972fbfcce708fd6fa4fe588ccc296a7e0b96f00ce0106dcfe79cdc3"
+        },
+        {
+          "application_id": "be8a20651e9b94188505a4ed704ad1355950e193a1e0a5430c673800f220ff58",
+          "event_id": "66b662dd5b4110fadbc2f07f7ee43f55823c67498f42d3ff7fd9732e13bbe135",
+          "pre_fast_sha": "bf180c680972fbfcce708fd6fa4fe588ccc296a7e0b96f00ce0106dcfe79cdc3",
+          "post_fast_sha": "53c2d568ae1fabe545ebfc387f4ca8057a509c555e4845eb72c5912e3e24f66c"
+        },
+        {
+          "application_id": "d27de6b6a444d2eb6f5bf65254d3984b971809dc5a6e37876930fcde02c0f5ab",
+          "event_id": "91a5f3104c3125a9abd4fec0419a64972187da1167e9433662bf02238bf6e16d",
+          "pre_fast_sha": "53c2d568ae1fabe545ebfc387f4ca8057a509c555e4845eb72c5912e3e24f66c",
+          "post_fast_sha": "49f99a091c7eb1830b607c74470ee9c940e2138e65473c097cffea3eb19e36e5"
+        },
+        {
+          "application_id": "0f176921d95cc56894219706160ef16b8a358e7bf2adf45d448af325055631a7",
+          "event_id": "427ca1b4cb9e01046c9fee7a8b819c63012dd661b2e5a822f14c06b56d5a10f0",
+          "pre_fast_sha": "49f99a091c7eb1830b607c74470ee9c940e2138e65473c097cffea3eb19e36e5",
+          "post_fast_sha": "73aa32364c8621249497cf34a03cf5fd69d98307f345b18c80cbc5444768e393"
+        },
+        {
+          "application_id": "9cd9fed611d224d76be90af13ea2f66b27d5318c4f2112c3d73daf818abf3e87",
+          "event_id": "41e7f1341f1d4b284f94d42e5bd0ba34dff7ceed4f8eb1c68f903f109ff8a34a",
+          "pre_fast_sha": "73aa32364c8621249497cf34a03cf5fd69d98307f345b18c80cbc5444768e393",
+          "post_fast_sha": "7c77b13402da08269d6047f6f77590eeaedddf91ef0d27641036d79e4511b978"
+        },
+        {
+          "application_id": "377cd7e3c030ac712c357afe4f14d23d5b4c8e3384ba6cbd40fe479ab6f89fcf",
+          "event_id": "c08de94f83066806eeb8f0d9c0e1b4dbe1fac8f78f2e98f1fef76d12b866ed66",
+          "pre_fast_sha": "7c77b13402da08269d6047f6f77590eeaedddf91ef0d27641036d79e4511b978",
+          "post_fast_sha": "c409d4932e9de7677a4e61be1ef248a048279aa8379213e598dd83e9e923ee75"
+        },
+        {
+          "application_id": "28cd0371bc7ab59d353ce9b9569e65f0534dc725b73898fcde746b763ed44d0c",
+          "event_id": "8937f6018c66419b958f8b04fbdd83e7b7b85802b70f2bc8fb3f740b1199d814",
+          "pre_fast_sha": "c409d4932e9de7677a4e61be1ef248a048279aa8379213e598dd83e9e923ee75",
+          "post_fast_sha": "8773c4b927998d0cf091d320d1762dfcaafacefc5c446f3742008b7a61120da2"
+        },
+        {
+          "application_id": "30727a503263c7c4c153f3a4b654c0cb2209e0d4fa22cc094d2fd48211f52908",
+          "event_id": "87d4ad3a703dde6df1a0e467aa7163f67a77958c00301683fc96d23a44458e38",
+          "pre_fast_sha": "8773c4b927998d0cf091d320d1762dfcaafacefc5c446f3742008b7a61120da2",
+          "post_fast_sha": "64bf0f280c8aabbb9eedb8e7bb576ac87ac2a9be2bdb0fd644e0c9aa4c604317"
+        },
+        {
+          "application_id": "0118dfc9a35d36f035c14c6c4559ba05e46bb61656000d98876e8d28c1c7d4fb",
+          "event_id": "7654bdb50e04d3695ba15ed03ed644b5c51f943505ce870907a40fe70478763d",
+          "pre_fast_sha": "64bf0f280c8aabbb9eedb8e7bb576ac87ac2a9be2bdb0fd644e0c9aa4c604317",
+          "post_fast_sha": "74917218f3cff8a85d5ec81f03768aee2d59efd1a27c3856229b901bb1afd39c"
+        },
+        {
+          "application_id": "068a62b1958cb7a7916ae505ae25c87e273e25939d3f20958f77db9054b17287",
+          "event_id": "5813298886e099a42ea3763800394dfe13dfc9865462a224c3c06eef99a6657a",
+          "pre_fast_sha": "74917218f3cff8a85d5ec81f03768aee2d59efd1a27c3856229b901bb1afd39c",
+          "post_fast_sha": "f863cb89bc8b90dca8528d4d753520a33ac6b8e6b02565b7045b38fd592d1754"
+        },
+        {
+          "application_id": "d5a990b53ea4140fc62ae9c581736f5176884141a5b341c61301faf9155256bb",
+          "event_id": "40289e44973a184390a3e53db54e224b9e48e731ddf291115ca8ed564bce6d5c",
+          "pre_fast_sha": "f863cb89bc8b90dca8528d4d753520a33ac6b8e6b02565b7045b38fd592d1754",
+          "post_fast_sha": "4a5554d9ccfe51a9b0458752787e5d9f8a4e44b2a35b6b7eeef992328b9994da"
+        },
+        {
+          "application_id": "c6f0017f4bf677572c13244c9821d5a18f7b6ad70c6d02f8337f7efa3ab90c65",
+          "event_id": "c58f432114fc543d388b634840e709c4858a065d1dfefbd18286543f6e17e06d",
+          "pre_fast_sha": "4a5554d9ccfe51a9b0458752787e5d9f8a4e44b2a35b6b7eeef992328b9994da",
+          "post_fast_sha": "37db3ac8b3d31dca8d85022230c5ccdefd1e3ee2148504773ccab7344595c768"
+        },
+        {
+          "application_id": "6c37da9c3622d0f1b6a57b475e21095fbb3773f85693784022fe0639304c957a",
+          "event_id": "54cd5fad4ac7e77fbe11a787e965b9f25d2310876fcc0a1a3a6fe50b32f116b4",
+          "pre_fast_sha": "37db3ac8b3d31dca8d85022230c5ccdefd1e3ee2148504773ccab7344595c768",
+          "post_fast_sha": "5e2f26b42bde21d274e6b4e5291e93a028de0a26c931dd7b44824c4f73081acd"
+        },
+        {
+          "application_id": "f022c46dc195f436fc7c859cf17d17d12666e8cd4bb4f72e340fe2184939a9aa",
+          "event_id": "4179337306870d170e2261091bdda8544455e19062aad544b1f813bc33470472",
+          "pre_fast_sha": "5e2f26b42bde21d274e6b4e5291e93a028de0a26c931dd7b44824c4f73081acd",
+          "post_fast_sha": "a3b9658b54c4aebba7d1995552c5e84778687a778d1267888544065d55929acf"
+        },
+        {
+          "application_id": "f6a288feaaa89be2aad387f5ad5ce4f43af44f1ca55fc683039c579290b71441",
+          "event_id": "de8bd30501bd92100c739095ed33bb56c325e53d7e0666ed9097646696f3efff",
+          "pre_fast_sha": "a3b9658b54c4aebba7d1995552c5e84778687a778d1267888544065d55929acf",
+          "post_fast_sha": "5ef9d16b834996e8d84379e87b9e5094a5d3f32aec7f75a816caa70e5e811fb5"
+        },
+        {
+          "application_id": "cbe81ff2141c9013924cdcac3c4456bdeb43016ea2f4f26165786635afe9f2fd",
+          "event_id": "a62dccfda158d5a30244675cd57204f2284020f648f61f3425eedeac992d8a2a",
+          "pre_fast_sha": "5ef9d16b834996e8d84379e87b9e5094a5d3f32aec7f75a816caa70e5e811fb5",
+          "post_fast_sha": "1e791e9429240a0942c2a3c1f5b9b7c97a179ca82a28b688344bfe1da633352d"
+        },
+        {
+          "application_id": "da61a77d38c7c7fb7eb1515a055fee977200ae9d030ab4919a63376b381eea97",
+          "event_id": "76f62213f9461d2ac8f3c9692e32786d349020df5765fdd6e0f2d794c4400609",
+          "pre_fast_sha": "1e791e9429240a0942c2a3c1f5b9b7c97a179ca82a28b688344bfe1da633352d",
+          "post_fast_sha": "f773f89ee0219327e77dc0a8a3f444b725ce1514859fca193c3d33f1c4645976"
+        },
+        {
+          "application_id": "6378423f2d421dbdeb6cd598dab2b14d883a1fe003d5f17bec114f9d1e54978a",
+          "event_id": "d1351e625440599efb2beec7b7b8d447c9ae0b14f6190891452ade814a08b24e",
+          "pre_fast_sha": "f773f89ee0219327e77dc0a8a3f444b725ce1514859fca193c3d33f1c4645976",
+          "post_fast_sha": "a46bd08fce2d06a15ac091e7f10d964fa05958e0420e8f0ae4330843225eaaf9"
+        },
+        {
+          "application_id": "327472e709d8f432031e7ac3578159b226e28b7c0bc83da4197320f93c6ba3db",
+          "event_id": "1a10ccc8112526e3e12aa09cfeff3fbfdee859225bf9d2bc29cbde3c10733cc4",
+          "pre_fast_sha": "a46bd08fce2d06a15ac091e7f10d964fa05958e0420e8f0ae4330843225eaaf9",
+          "post_fast_sha": "b0b5ac61b76d52dc241b99531e60d08036bd814d706e4c26c20ab6dcee996846"
+        },
+        {
+          "application_id": "69df333c3e3a22c6b040526165727e392e6b1a37fa4b60e1e6e81bb8f3d77bbd",
+          "event_id": "86e259979154608a5b86a21f50413bd0c83552ea5907e7277b0838e36fdb5ab9",
+          "pre_fast_sha": "b0b5ac61b76d52dc241b99531e60d08036bd814d706e4c26c20ab6dcee996846",
+          "post_fast_sha": "0fc22f9c4d112c932524b74e328c2e3efbad1f690ac3691fb7a307bceca23135"
+        }
+      ]
+    }
+  },
+  "metrics": {
+    "AAPL": {
+      "cumulative_return": 0,
+      "excess_return_vs_same_stock_buy_and_hold": -0.24445791046925902,
+      "sharpe_ratio": null,
+      "maximum_drawdown": 0,
+      "calmar_ratio": null,
+      "annualized_return": 0,
+      "annualized_volatility": 0,
+      "sortino_ratio": null,
+      "turnover": 0,
+      "total_commission_cost": 0,
+      "total_slippage_cost": 0,
+      "total_transaction_cost": 0,
+      "average_exposure": 0,
+      "time_in_market": 0,
+      "trade_count": 0,
+      "buy_decision_count": 0,
+      "hold_decision_count": 21,
+      "sell_decision_count": 5,
+      "noop_rebalance_count": 26,
+      "decision_failure_rate": 0
+    },
+    "AMZN": {
+      "cumulative_return": 0.3615929018079702,
+      "excess_return_vs_same_stock_buy_and_hold": 0,
+      "sharpe_ratio": 2.6664859598691377,
+      "maximum_drawdown": 0.08135416370167725,
+      "calmar_ratio": 10.724544656628112,
+      "annualized_return": 0.8724863616212715,
+      "annualized_volatility": 0.24672274554633106,
+      "sortino_ratio": 4.857451490870816,
+      "turnover": 0.830046977574194,
+      "total_commission_cost": 49.97501249375312,
+      "total_slippage_cost": 49.95003747500349,
+      "total_transaction_cost": 99.92504996875661,
+      "average_exposure": 0.992,
+      "time_in_market": 0.992,
+      "trade_count": 1,
+      "buy_decision_count": 6,
+      "hold_decision_count": 20,
+      "sell_decision_count": 0,
+      "noop_rebalance_count": 25,
+      "decision_failure_rate": 0
+    },
+    "JPM": {
+      "cumulative_return": 0,
+      "excess_return_vs_same_stock_buy_and_hold": -0.2026686045183097,
+      "sharpe_ratio": null,
+      "maximum_drawdown": 0,
+      "calmar_ratio": null,
+      "annualized_return": 0,
+      "annualized_volatility": 0,
+      "sortino_ratio": null,
+      "turnover": 0,
+      "total_commission_cost": 0,
+      "total_slippage_cost": 0,
+      "total_transaction_cost": 0,
+      "average_exposure": 0,
+      "time_in_market": 0,
+      "trade_count": 0,
+      "buy_decision_count": 0,
+      "hold_decision_count": 25,
+      "sell_decision_count": 1,
+      "noop_rebalance_count": 26,
+      "decision_failure_rate": 0
+    },
+    "equal_weight_aggregate": {
+      "cumulative_return": 0.12053096726932355,
+      "sharpe_ratio": 2.571745099212974,
+      "maximum_drawdown": 0.03185429613604163,
+      "calmar_ratio": 8.168676993720208,
+      "annualized_return": 0.26020745599763373,
+      "annualized_volatility": 0.091582071988534,
+      "sortino_ratio": 4.592006218877395,
+      "turnover": 0.31193937779170794,
+      "total_commission_cost": 49.97501249375312,
+      "total_slippage_cost": 49.95003747500349,
+      "total_transaction_cost": 99.92504996875661,
+      "average_exposure": 0.33066666666666666,
+      "time_in_market": 0.33066666666666666,
+      "trade_count": 1,
+      "buy_decision_count": 6,
+      "hold_decision_count": 66,
+      "sell_decision_count": 6,
+      "noop_rebalance_count": 77,
+      "decision_failure_rate": 0,
+      "excess_return_vs_equal_weight_buy_and_hold": -0.14904217166252276
+    }
+  },
+  "usage": {
+    "all": {
+      "requests": 2298,
+      "input_tokens": 24501677,
+      "prompt_cache_hit_tokens": 7893888,
+      "prompt_cache_miss_tokens": 16607789,
+      "output_tokens": 3053112,
+      "total_tokens": 27554789,
+      "cost_cny": "22.87189076"
+    },
+    "live_request": {
+      "requests": 234,
+      "input_tokens": 2581189,
+      "prompt_cache_hit_tokens": 833536,
+      "prompt_cache_miss_tokens": 1747653,
+      "output_tokens": 322114,
+      "total_tokens": 2903303,
+      "cost_cny": "2.40855172"
+    },
+    "cache_origin": {
+      "requests": 2064,
+      "input_tokens": 21920488,
+      "prompt_cache_hit_tokens": 7060352,
+      "prompt_cache_miss_tokens": 14860136,
+      "output_tokens": 2730998,
+      "total_tokens": 24651486,
+      "cost_cny": "20.46333904"
+    }
+  },
+  "run_chain": [
+    {
+      "run_id": "20260818T130800804933Z_ae0f36b1",
+      "committed_cases": 13,
+      "raw_status": "running",
+      "memory_lineage_id": "20260818T130800804933Z_ae0f36b1",
+      "memory_lifecycle": "independent_fresh",
+      "memory_resumed_from_run_id": null
+    },
+    {
+      "run_id": "20260818T143047519674Z_ae0f36b1",
+      "committed_cases": 28,
+      "raw_status": "running",
+      "memory_lineage_id": "20260818T130800804933Z_ae0f36b1",
+      "memory_lifecycle": "resume",
+      "memory_resumed_from_run_id": "20260818T130800804933Z_ae0f36b1"
+    },
+    {
+      "run_id": "20260818T162220214988Z_ae0f36b1",
+      "committed_cases": 40,
+      "raw_status": "running",
+      "memory_lineage_id": "20260818T130800804933Z_ae0f36b1",
+      "memory_lifecycle": "resume",
+      "memory_resumed_from_run_id": "20260818T143047519674Z_ae0f36b1"
+    },
+    {
+      "run_id": "20260818T174040697992Z_ae0f36b1",
+      "committed_cases": 55,
+      "raw_status": "running",
+      "memory_lineage_id": "20260818T130800804933Z_ae0f36b1",
+      "memory_lifecycle": "resume",
+      "memory_resumed_from_run_id": "20260818T162220214988Z_ae0f36b1"
+    },
+    {
+      "run_id": "20260818T191329633757Z_ae0f36b1",
+      "committed_cases": 70,
+      "raw_status": "running",
+      "memory_lineage_id": "20260818T130800804933Z_ae0f36b1",
+      "memory_lifecycle": "resume",
+      "memory_resumed_from_run_id": "20260818T174040697992Z_ae0f36b1"
+    },
+    {
+      "run_id": "20260818T204749061036Z_ae0f36b1",
+      "committed_cases": 78,
+      "raw_status": "success",
+      "memory_lineage_id": "20260818T130800804933Z_ae0f36b1",
+      "memory_lifecycle": "resume",
+      "memory_resumed_from_run_id": "20260818T191329633757Z_ae0f36b1"
+    }
+  ],
+  "recovery": {
+    "operational_instance_stop_interruptions": 5,
+    "same_lineage_safe_resumes": 5,
+    "committed_cases_regenerated": 0,
+    "committed_cases_replaced": 0,
+    "competing_trajectories": 0,
+    "torn_state_rollbacks": 0,
+    "unstarted_boundaries": [
+      "AAPL:2024-04-05",
+      "AMZN:2024-01-19",
+      "AMZN:2024-04-12",
+      "JPM:2024-01-26",
+      "JPM:2024-05-10"
+    ],
+    "launch_handoff_retries_without_run": 4
+  },
+  "immutability": {
+    "initial_global_sha": "9b83aa1382d6b41c55981f2475eb0e236248affc5b5004a151a4b01651fa646e",
+    "final_global_sha": "9b83aa1382d6b41c55981f2475eb0e236248affc5b5004a151a4b01651fa646e",
+    "non_fast_global_mutation_count": 0,
+    "unauthorised_parameter_mutations": 0,
+    "cross_symbol_mutations": 0,
+    "duplicate_updates": 0,
+    "authorized_fast_parameter_count": 165,
+    "authorized_fast_parameter_names": [
+      "residual_head.weight",
+      "residual_head.bias",
+      "gate_head.weight",
+      "gate_head.bias",
+      "value_head.weight",
+      "value_head.bias"
+    ]
+  },
+  "archive": {
+    "archive_path": "experiments/A2/formal/official_bundle/A2_no_global_pretraining_2024H1",
+    "s3_uri": "s3://alphamas-m2-eu-west-2-c9f1eaf2-671/a2/formal/20260818T204749061036Z_ae0f36b1/a2_formal_bundle.tar.gz",
+    "bundle_sha256": "6ee493f233b3635f682b0a08a697986a6169717330a0d5a1577c95f46f6ed149",
+    "bundle_size_bytes": 37726472,
+    "inventory_path": "experiments/A2/formal/A2_SHA256SUMS",
+    "inventory_sha256": "0106e17ddba6bde6687ee0ea5cd5f3ac06210f466c028b40033bac78615adcc3",
+    "inventory_entries": 7631,
+    "json_files": 2796,
+    "invalid_json": 0,
+    "case_decisions": 78,
+    "unique_case_ids": 78,
+    "duplicate_case_ids": 0,
+    "source_audit_files": 78,
+    "hash_mismatch": 0,
+    "missing": 0,
+    "secret_deepseek_credential_archived": false,
+    "secret_aws_credential_archived": false,
+    "env_included": false,
+    "private_key_pattern_matches": 0
+  },
+  "aws": {
+    "instance_id": "i-0bd418f287ad0106f",
+    "instance_type": "g5.xlarge",
+    "region": "eu-west-2",
+    "availability_zone": "eu-west-2a",
+    "successful_starts": 6,
+    "capacity_failures": 0,
+    "running_seconds_estimated": 30724,
+    "gpu_hours_estimated": 8.534444444444444,
+    "usd_per_hour": 1.277,
+    "estimated_usd": 10.898485555555554,
+    "stop_event_utc": "2026-08-18T21:48:15Z",
+    "state_expected": "stopped",
+    "running_alphamas_g5_xlarge": 0,
+    "pending_alphamas_g5_xlarge": 0
+  },
+  "o08": {
+    "candidate": "O08",
+    "learning_rate": 0.001,
+    "update_epochs": 2,
+    "optimizer": "AdamW",
+    "weight_decay": 0.0001,
+    "gradient_clip": 0.5,
+    "seed": 20260816,
+    "fast_parameter_count": 165,
+    "retuned": false
+  },
+  "inputs": {
+    "m1_bundle_sha": "30596a54788101873f1c88bdf653df7f12ac3b4861a7058b6a36df0861274121",
+    "representation_sha": "6e3b11863bc3ec214444326a269477e465101afb866f30e80698f37c7148d2fe",
+    "encoder": "Qwen/Qwen3-Embedding-0.6B",
+    "encoder_revision": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
+    "observation_dimension": 3080,
+    "reward": "R3_HOLD_RELATIVE_DRAWDOWN_UTILITY",
+    "method": "M2-PA-CTPPO-v2",
+    "market_snapshots": {
+      "AAPL": "5428fc2c672f3b68c7c3e83b4a22bd5b7330c95a8b4194695762539d9d8a5af3",
+      "AMZN": "c4b5c747d75ba658c6f6833348783e3f8a8c571380c930de20cf9fb7dd6b1444",
+      "JPM": "74cf77b77b0a83ce8e6246578d4da30bf7622558e8973bda71344b99b9dfd6fc",
+      "SPY": "22e6996ebf963787f40d54bfc59e1ca088fa698cb82b639768504dbdbb2d25ac"
+    },
+    "o08_unchanged": true
+  },
+  "security": {
+    "c09_parameter_sha": "6baafc03b0b63512b3a66a1ae8f1ce1ce7e774395787626b49905e7b72cd1841",
+    "c09_file_sha": "56dc52128e1df9c9ddcf79fa6f7b293393bd61306ba4ef032f96cad6bf92126c",
+    "c09_loaded": false,
+    "a2_checkpoint_equals_c09": false,
+    "a2_checkpoint_equals_frozen_m2_11": true,
+    "credential_archived": false
+  },
+  "lineage": {
+    "a2_graph_distinct_from_m2": true,
+    "a2_graph_distinct_from_a1": true,
+    "fresh_decision_cache": true,
+    "fresh_memory": true,
+    "fresh_rl_state": true,
+    "fresh_optimizer_state": true,
+    "m2_dynamic_state_reused": false,
+    "a1_dynamic_state_reused": false,
+    "no_competing_trajectory": true
+  },
+  "credit_chronology": {
+    "per_symbol_issued": 26,
+    "per_symbol_credits": 26,
+    "per_symbol_applied": 23,
+    "per_symbol_archived": 2,
+    "per_symbol_pending": 1,
+    "same_close_action_first": true,
+    "no_early_maturity": true,
+    "five_subsequent_xnys_sessions": true,
+    "terminal_2024_06_28_credit_pending": true,
+    "exactly_once": true
+  },
+  "checks": {
+    "pit": true,
+    "evidence_frozen_m1": true,
+    "market_snapshot_only": true,
+    "execution_next_open": true,
+    "no_same_bar_execution": true,
+    "long_only": true,
+    "no_leverage": true,
+    "no_negative_cash": true,
+    "pnl_identity": true,
+    "memory_isolation": true,
+    "cache_isolation": true,
+    "state_lineage": true,
+    "accounting": true,
+    "source_config_identity_mismatch": 0,
+    "hash_mismatch": 0
+  }
+}
+
