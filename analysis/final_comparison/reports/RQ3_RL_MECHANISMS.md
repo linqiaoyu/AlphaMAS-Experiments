@@ -4,7 +4,7 @@ Canonical treatments: `M2 = global pretraining + online adaptation`; `A1 = globa
 
 ## Aggregate comparison
 
-A1 exceeded M2 return by 13.91% and A2 exceeded M2 by 10.14%. A1 also had much higher exposure (59.90%) than M2 (27.73%), whereas A2 exposure was 33.07%. A1 and A2 each incurred fewer trades and lower costs than M2. A1 exceeded A2 return by 3.77%, but A2 had the lower MDD.
+A1 exceeded M2 return by 13.91 percentage points and A2 exceeded M2 by 10.14 percentage points. A1 also had much higher exposure (59.90%) than M2 (27.73%), whereas A2 exposure was 33.07%. A1 and A2 each incurred fewer trades and lower costs than M2. A1 exceeded A2 return by 3.77 percentage points, but A2 had the lower MDD.
 
 ## Asset mechanisms
 

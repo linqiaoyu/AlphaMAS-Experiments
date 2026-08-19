@@ -1,0 +1,54 @@
+{
+  "average_exposure": {
+    "level_display": "percent",
+    "storage": "decimal_fraction"
+  },
+  "calmar_delta": {
+    "display": "absolute_ratio_difference",
+    "storage": "ratio"
+  },
+  "controlled_deltas.delta": {
+    "display": "see_row_display_unit",
+    "storage": "metric_native"
+  },
+  "cumulative_return": {
+    "level_display": "percent",
+    "storage": "decimal_fraction"
+  },
+  "excess_return": {
+    "display": "percentage_points",
+    "storage": "decimal_fraction"
+  },
+  "excess_vs_ew_bh": {
+    "display": "percentage_points",
+    "storage": "decimal_fraction"
+  },
+  "excess_vs_stock_bh": {
+    "display": "percentage_points",
+    "storage": "decimal_fraction"
+  },
+  "exposure_delta": {
+    "display": "percentage_points",
+    "storage": "decimal_fraction"
+  },
+  "maximum_drawdown": {
+    "level_display": "percent",
+    "storage": "decimal_fraction"
+  },
+  "mdd_delta": {
+    "display": "percentage_points",
+    "storage": "decimal_fraction"
+  },
+  "return_delta": {
+    "display": "percentage_points",
+    "storage": "decimal_fraction"
+  },
+  "sharpe_delta": {
+    "display": "absolute_ratio_difference",
+    "storage": "ratio"
+  },
+  "time_in_market": {
+    "level_display": "percent",
+    "storage": "decimal_fraction"
+  }
+}

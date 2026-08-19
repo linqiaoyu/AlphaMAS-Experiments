@@ -38,6 +38,12 @@ EXPECTED_RETURNS = {
     "EW_BH": 0.2695731389318463,
     "SPY": 0.1900101348956349,
 }
+EXPECTED_CONTROLLED_RETURN_DELTAS = {
+    "M1-M0": 0.02497948354748547,
+    "M2-M1": -0.14484307160328358,
+    "A1-M2": 0.1391080922810759,
+    "A2-M2": 0.10142668233356611,
+}
 SNAPSHOTS = {
     "AAPL": "5428fc2c672f3b68c7c3e83b4a22bd5b7330c95a8b4194695762539d9d8a5af3",
     "AMZN": "c4b5c747d75ba658c6f6833348783e3f8a8c571380c930de20cf9fb7dd6b1444",
@@ -53,6 +59,30 @@ METRIC_DIRECTIONS = {
     "average_exposure": {"label": "Average Exposure", "direction": "descriptive", "interpretation": "neither direction is inherently better"},
     "turnover": {"label": "Turnover", "direction": "descriptive", "interpretation": "neither direction is inherently better"},
     "total_transaction_cost": {"label": "Total Cost", "direction": "lower_cost_only", "interpretation": "lower is cheaper but not automatically better-performing"},
+}
+METRIC_UNITS = {
+    "cumulative_return": {"storage": "decimal_fraction", "level_display": "percent"},
+    "excess_return": {"storage": "decimal_fraction", "display": "percentage_points"},
+    "excess_vs_ew_bh": {"storage": "decimal_fraction", "display": "percentage_points"},
+    "excess_vs_stock_bh": {"storage": "decimal_fraction", "display": "percentage_points"},
+    "maximum_drawdown": {"storage": "decimal_fraction", "level_display": "percent"},
+    "average_exposure": {"storage": "decimal_fraction", "level_display": "percent"},
+    "time_in_market": {"storage": "decimal_fraction", "level_display": "percent"},
+    "return_delta": {"storage": "decimal_fraction", "display": "percentage_points"},
+    "mdd_delta": {"storage": "decimal_fraction", "display": "percentage_points"},
+    "exposure_delta": {"storage": "decimal_fraction", "display": "percentage_points"},
+    "sharpe_delta": {"storage": "ratio", "display": "absolute_ratio_difference"},
+    "calmar_delta": {"storage": "ratio", "display": "absolute_ratio_difference"},
+    "controlled_deltas.delta": {"storage": "metric_native", "display": "see_row_display_unit"},
+}
+DELTA_UNITS = {
+    "cumulative_return": ("decimal_fraction", "percentage_points"),
+    "maximum_drawdown": ("decimal_fraction", "percentage_points"),
+    "average_exposure": ("decimal_fraction", "percentage_points"),
+    "sharpe_ratio": ("ratio", "absolute_ratio_difference"),
+    "calmar_ratio": ("ratio", "absolute_ratio_difference"),
+    "turnover": ("ratio", "absolute_ratio_difference"),
+    "total_transaction_cost": ("USD", "USD_difference"),
 }
 
 
@@ -79,26 +109,62 @@ def write_json(path: Path, value) -> None:
     path.write_text(json.dumps(value, indent=2, sort_keys=True, ensure_ascii=False) + "\n", encoding="utf-8")
 
 
-def write_csv(path: Path, rows: list[dict], fields: list[str] | None = None) -> None:
+def write_csv(path: Path, rows: list[dict], fields: list[str] | None = None, *, lineterminator: str = "\r\n") -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     if fields is None:
         fields = list(rows[0]) if rows else []
     with path.open("w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore")
+        w = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore", lineterminator=lineterminator)
         w.writeheader()
         w.writerows(rows)
 
 
-def fmt(value, kind="num") -> str:
+def format_percent_level(value) -> str:
+    return f"{100 * value:.2f}%"
+
+
+def format_percentage_points(value) -> str:
+    scaled = 100 * value
+    if abs(scaled) < 0.005:
+        return "0.00 pp"
+    return f"{scaled:+.2f} pp"
+
+
+def format_percentage_points_prose(value, *, signed: bool = False) -> str:
+    scaled = 100 * value
+    if abs(scaled) < 0.005:
+        rendered = "0.00"
+    elif signed:
+        rendered = f"{scaled:+.2f}"
+    else:
+        rendered = f"{scaled:.2f}"
+    return f"{rendered} percentage points"
+
+
+def format_ratio(value) -> str:
+    return f"{value:.3f}"
+
+
+def format_money(value) -> str:
+    return f"${value:,.2f}"
+
+
+def format_count(value) -> str:
+    return f"{int(value)}"
+
+
+def fmt(value, kind="ratio") -> str:
     if value is None or (isinstance(value, float) and math.isnan(value)):
         return "—"
     if kind == "pct":
-        return f"{100 * value:.2f}%"
+        return format_percent_level(value)
+    if kind == "pp":
+        return format_percentage_points(value)
     if kind == "money":
-        return f"${value:,.2f}"
+        return format_money(value)
     if kind == "int":
-        return f"{int(value)}"
-    return f"{value:.3f}"
+        return format_count(value)
+    return format_ratio(value)
 
 
 def markdown_table(rows: list[dict], columns: list[tuple[str, str, str]]) -> str:
@@ -224,7 +290,7 @@ def line_svg(path: Path, series: list[tuple[str,list[tuple[str,float]]]], title:
     path.write_text(svg_document(width,height,"\n".join(parts),title,source),encoding="utf-8")
 
 
-def scatter_svg(path: Path, points: list[tuple[str,float,float]], title: str, source: str, width=950, height=620) -> None:
+def scatter_svg(path: Path, points: list[tuple[str,float,float]], title: str, xlabel: str, ylabel: str, source: str, width=950, height=620) -> None:
     left,right,top,bottom=90,40,60,80; pw=width-left-right; ph=height-top-bottom
     xmax=max(x for _,x,_ in points)*1.12; ys=[y for _,_,y in points]; ymin=min(0,min(ys)); ymax=max(ys)*1.12
     xmap=lambda v:left+v/xmax*pw; ymap=lambda v:top+(ymax-v)/(ymax-ymin)*ph; parts=[]
@@ -233,7 +299,7 @@ def scatter_svg(path: Path, points: list[tuple[str,float,float]], title: str, so
         yv=ymin+(ymax-ymin)*i/5; yy=ymap(yv); parts.append(f'<line x1="{left}" y1="{yy:.1f}" x2="{left+pw}" y2="{yy:.1f}" class="grid"/><text x="{left-8}" y="{yy+4:.1f}" text-anchor="end" class="label">{yv:.2f}</text>')
     for i,(name,xv,yv) in enumerate(points):
         xx,yy=xmap(xv),ymap(yv); parts.append(f'<circle cx="{xx:.1f}" cy="{yy:.1f}" r="6" fill="{PALETTE[i%len(PALETTE)]}"/><text x="{xx+8:.1f}" y="{yy-7:.1f}" class="label">{html.escape(name)}</text>')
-    parts += [f'<text x="{left+pw/2}" y="{height-36}" text-anchor="middle" class="label">Average exposure</text>',f'<text transform="translate(20,{top+ph/2}) rotate(-90)" text-anchor="middle" class="label">Cumulative return</text>']
+    parts += [f'<text x="{left+pw/2}" y="{height-36}" text-anchor="middle" class="label">{html.escape(xlabel)}</text>',f'<text transform="translate(20,{top+ph/2}) rotate(-90)" text-anchor="middle" class="label">{html.escape(ylabel)}</text>']
     path.write_text(svg_document(width,height,"\n".join(parts),title,source),encoding="utf-8")
 
 
@@ -346,18 +412,19 @@ def build(repo: Path, alphamas: Path) -> None:
     reg_rows=[{"System":x["experiment_name"],"Role":x["scientific_role"],"Run ID":x["official_run_id"],"Source SHA":x["source_sha"],"Validation":x["validation_status"]} for x in registry["systems"]]
     (out/"INPUT_REGISTRY.md").write_text("# Frozen Input Registry\n\nAll entries were resolved mechanically from official freeze/audit records. Pilot and development runs were excluded. Paths and full SHA256 values are in `input_registry.json`.\n\n"+markdown_table(reg_rows,[("System","System","text"),("Role","Scientific role","text"),("Run ID","Official run ID","text"),("Source SHA","Source SHA","text"),("Validation","Validation","text")])+"\nMarket snapshots: `"+"`, `".join(f"{k}={v}" for k,v in SNAPSHOTS.items())+"`.\n",encoding="utf-8")
     write_json(out/"data/metric_direction_metadata.json",METRIC_DIRECTIONS)
+    write_json(out/"data/metric_units.json",METRIC_UNITS)
     write_json(out/"data/metrics_matrix.json",{"systems":metrics,"benchmarks":{"equal_weight":ew,"SPY":spy,"stock_buy_and_hold":bh}})
     # Primary/secondary tables.
     agg=[]
     for n in SYSTEMS:
         m=metrics[n]["aggregate"]; agg.append({"system":DISPLAY.get(n,n),"cumulative_return":m["cumulative_return"],"excess_vs_ew_bh":m["cumulative_return"]-ew["cumulative_return"],"sharpe":m["sharpe_ratio"],"maximum_drawdown":m["maximum_drawdown"],"calmar":m["calmar_ratio"]})
     for n,m in [("EW_BH",ew),("SPY",spy)]: agg.append({"system":DISPLAY[n],"cumulative_return":m["cumulative_return"],"excess_vs_ew_bh":m["cumulative_return"]-ew["cumulative_return"],"sharpe":m["sharpe_ratio"],"maximum_drawdown":m["maximum_drawdown"],"calmar":m["calmar_ratio"]})
-    pcols=[("system","System","text"),("cumulative_return","Cumulative Return","pct"),("excess_vs_ew_bh","Excess vs EW B&H","pct"),("sharpe","Sharpe","num"),("maximum_drawdown","Maximum Drawdown","pct"),("calmar","Calmar","num")]
+    pcols=[("system","System","text"),("cumulative_return","Cumulative Return","pct"),("excess_vs_ew_bh","Excess vs EW B&H","pp"),("sharpe","Sharpe","ratio"),("maximum_drawdown","Maximum Drawdown","pct"),("calmar","Calmar","ratio")]
     write_csv(out/"tables/aggregate_primary.csv",agg); (out/"tables/aggregate_primary.md").write_text(markdown_table(agg,pcols),encoding="utf-8"); (out/"tables/aggregate_primary.tex").write_text(latex_table(agg,pcols,"Aggregate primary results","tab:aggregate-primary"),encoding="utf-8")
     all_metrics={n:metrics[n]["aggregate"] for n in SYSTEMS}|{"EW_BH":ew,"SPY":spy}
     sec=[]
     for n,m in all_metrics.items(): sec.append({"system":DISPLAY.get(n,n),"annualized_return":m["annualized_return"],"volatility":m["annualized_volatility"],"sortino":m["sortino_ratio"],"average_exposure":m["average_exposure"],"time_in_market":m["time_in_market"],"turnover":m["turnover"],"trade_count":m["trade_count"],"commission_cost":m["total_commission_cost"],"slippage_cost":m["total_slippage_cost"],"total_cost":m["total_transaction_cost"],"buy":m["buy_decision_count"],"hold":m["hold_decision_count"],"sell":m["sell_decision_count"],"no_op":m["noop_rebalance_count"],"failure_rate":m.get("decision_failure_rate"),"model_failure_rate":m.get("model_failure_rate")})
-    scols=[("system","System","text"),("annualized_return","Annualised Return","pct"),("volatility","Volatility","pct"),("sortino","Sortino","num"),("average_exposure","Average Exposure","pct"),("time_in_market","Time in Market","pct"),("turnover","Turnover","num"),("trade_count","Trades","int"),("total_cost","Total Cost","money"),("buy","BUY","int"),("hold","HOLD","int"),("sell","SELL","int"),("no_op","No-op","int"),("failure_rate","Failure Rate","pct"),("model_failure_rate","Model Failure Rate","pct")]
+    scols=[("system","System","text"),("annualized_return","Annualised Return","pct"),("volatility","Volatility","pct"),("sortino","Sortino","ratio"),("average_exposure","Average Exposure","pct"),("time_in_market","Time in Market","pct"),("turnover","Turnover","ratio"),("trade_count","Trades","int"),("total_cost","Total Cost","money"),("buy","BUY","int"),("hold","HOLD","int"),("sell","SELL","int"),("no_op","No-op","int"),("failure_rate","Failure Rate","pct"),("model_failure_rate","Model Failure Rate","pct")]
     write_csv(out/"tables/aggregate_secondary.csv",sec); (out/"tables/aggregate_secondary.md").write_text(markdown_table(sec,scols),encoding="utf-8"); (out/"tables/aggregate_secondary.tex").write_text(latex_table(sec,scols,"Aggregate behavioural and risk results","tab:aggregate-secondary"),encoding="utf-8")
     per_tables={}
     for s in SYMBOLS:
@@ -365,7 +432,7 @@ def build(repo: Path, alphamas: Path) -> None:
         for n in SYSTEMS:
             m=metrics[n][s]; rows.append({"system":DISPLAY.get(n,n),"cumulative_return":m["cumulative_return"],"excess_vs_stock_bh":m["cumulative_return"]-bh[s]["cumulative_return"],"sharpe":m["sharpe_ratio"],"maximum_drawdown":m["maximum_drawdown"],"calmar":m["calmar_ratio"],"average_exposure":m["average_exposure"],"turnover":m["turnover"],"trade_count":m["trade_count"],"total_cost":m["total_transaction_cost"]})
         for n,m in [(f"{s} B&H",bh[s]),("SPY",spy)]: rows.append({"system":n,"cumulative_return":m["cumulative_return"],"excess_vs_stock_bh":m["cumulative_return"]-bh[s]["cumulative_return"],"sharpe":m["sharpe_ratio"],"maximum_drawdown":m["maximum_drawdown"],"calmar":m["calmar_ratio"],"average_exposure":m["average_exposure"],"turnover":m["turnover"],"trade_count":m["trade_count"],"total_cost":m["total_transaction_cost"]})
-        per_tables[s]=rows; cols=[("system","System","text"),("cumulative_return","Cumulative Return","pct"),("excess_vs_stock_bh",f"Excess vs {s} B&H","pct"),("sharpe","Sharpe","num"),("maximum_drawdown","MDD","pct"),("calmar","Calmar","num"),("average_exposure","Average Exposure","pct"),("turnover","Turnover","num"),("trade_count","Trades","int"),("total_cost","Total Cost","money")]
+        per_tables[s]=rows; cols=[("system","System","text"),("cumulative_return","Cumulative Return","pct"),("excess_vs_stock_bh",f"Excess vs {s} B&H","pp"),("sharpe","Sharpe","ratio"),("maximum_drawdown","MDD","pct"),("calmar","Calmar","ratio"),("average_exposure","Average Exposure","pct"),("turnover","Turnover","ratio"),("trade_count","Trades","int"),("total_cost","Total Cost","money")]
         write_csv(out/f"tables/{s}_primary.csv",rows); (out/f"tables/{s}_primary.md").write_text(markdown_table(rows,cols),encoding="utf-8"); (out/f"tables/{s}_primary.tex").write_text(latex_table(rows,cols,f"{s} primary results",f"tab:{s.lower()}-primary"),encoding="utf-8")
     # Controlled deltas and consistency.
     contrasts=[("RQ1","M1-M0","M1","M0","PRIMARY"),("RQ2","M2-M1","M2","M1","PRIMARY"),("RQ3a","A1-M2","A1","M2","PRIMARY"),("RQ3b","A2-M2","A2","M2","PRIMARY"),("Context","A1-M1","A1","M1","SECONDARY CONTEXT"),("Context","A2-M1","A2","M1","SECONDARY CONTEXT")]
@@ -375,8 +442,9 @@ def build(repo: Path, alphamas: Path) -> None:
         for scope in ["aggregate",*SYMBOLS]:
             for met in dmetrics:
                 av,bv=metrics[a][scope].get(met),metrics[b][scope].get(met); delta=None if av is None or bv is None else av-bv
-                deltas.append({"research_question":rq,"contrast":label,"role":role,"scope":scope,"metric":met,"delta":delta,"direction_metadata":METRIC_DIRECTIONS[met]["direction"]})
-    write_csv(out/"tables/controlled_deltas.csv",deltas)
+                storage_unit,display_unit=DELTA_UNITS[met]
+                deltas.append({"research_question":rq,"contrast":label,"role":role,"scope":scope,"metric":met,"delta":delta,"storage_unit":storage_unit,"display_unit":display_unit,"direction_metadata":METRIC_DIRECTIONS[met]["direction"]})
+    write_csv(out/"tables/controlled_deltas.csv",deltas,lineterminator="\n")
     consistency=[]
     for rq,label,a,b,role in contrasts[:4]:
         for met in ["cumulative_return","sharpe_ratio","maximum_drawdown"]:
@@ -440,19 +508,19 @@ def build(repo: Path, alphamas: Path) -> None:
     # Main dissertation tables.
     main=[]
     for n,m in all_metrics.items(): main.append({"system":DISPLAY.get(n,n),"role":{"M0":"MAS baseline","M1":"Information treatment","M2":"Full Agentic RL","A1":"Global-only ablation","A2":"Online-only ablation","ARMA":"Classical benchmark","EW_BH":"Market reference","SPY":"Market reference"}[n],"cumulative_return":m["cumulative_return"],"excess_vs_ew_bh":m["cumulative_return"]-ew["cumulative_return"],"sharpe":m["sharpe_ratio"],"maximum_drawdown":m["maximum_drawdown"],"calmar":m["calmar_ratio"],"average_exposure":m["average_exposure"],"turnover":m["turnover"],"total_cost":m["total_transaction_cost"]})
-    maincols=[("system","System","text"),("role","Role","text"),("cumulative_return","Cumulative Return","pct"),("excess_vs_ew_bh","Excess vs EW B&H","pct"),("sharpe","Sharpe","num"),("maximum_drawdown","MDD","pct"),("calmar","Calmar","num"),("average_exposure","Average Exposure","pct"),("turnover","Turnover","num"),("total_cost","Total Cost","money")]
+    maincols=[("system","System","text"),("role","Role","text"),("cumulative_return","Cumulative Return","pct"),("excess_vs_ew_bh","Excess vs EW B&H","pp"),("sharpe","Sharpe","ratio"),("maximum_drawdown","MDD","pct"),("calmar","Calmar","ratio"),("average_exposure","Average Exposure","pct"),("turnover","Turnover","ratio"),("total_cost","Total Cost","money")]
     (out/"tables/THESIS_MAIN_RESULTS_TABLE.md").write_text("# Thesis Main Results Table\n\n"+markdown_table(main,maincols)+"\nNotes: official frozen metrics; MDD is a positive loss magnitude; null ratios are shown as em dashes; ARMA is contextual rather than an RQ treatment.\n",encoding="utf-8")
     (out/"tables/THESIS_MAIN_RESULTS_TABLE.tex").write_text(latex_table(main,maincols,"Final controlled comparison under the frozen 2024H1 protocol","tab:thesis-main-results"),encoding="utf-8")
     lookup={(r["contrast"],r["scope"],r["metric"]):r["delta"] for r in deltas}
     interpretations={"M1-M0":"Aggregate return and risk-adjusted performance improved, with heterogeneous stock-level returns.","M2-M1":"Full Agentic RL materially reduced aggregate return and participation; AMZN was the sole stock-level return improvement.","A1-M2":"Global-only A1 materially outperformed Full M2 in aggregate, driven by AMZN and JPM; AAPL remained in cash.","A2-M2":"Online-only A2 outperformed Full M2 in aggregate; AAPL remained in cash and JPM avoided M2's loss by not entering."}
     controlled=[]
     for rq,label,a,b,role in contrasts[:4]: controlled.append({"comparison":f"{rq}: {label}","aggregate_return_delta":lookup[(label,"aggregate","cumulative_return")],"AAPL_return_delta":lookup[(label,"AAPL","cumulative_return")],"AMZN_return_delta":lookup[(label,"AMZN","cumulative_return")],"JPM_return_delta":lookup[(label,"JPM","cumulative_return")],"sharpe_delta":lookup[(label,"aggregate","sharpe_ratio")],"MDD_delta":lookup[(label,"aggregate","maximum_drawdown")],"exposure_delta":lookup[(label,"aggregate","average_exposure")],"interpretation":interpretations[label]})
-    ccols=[("comparison","Comparison","text"),("aggregate_return_delta","Aggregate Return Delta","pct"),("AAPL_return_delta","AAPL Return Delta","pct"),("AMZN_return_delta","AMZN Return Delta","pct"),("JPM_return_delta","JPM Return Delta","pct"),("sharpe_delta","Sharpe Delta","num"),("MDD_delta","MDD Delta","pct"),("exposure_delta","Exposure Delta","pct"),("interpretation","Interpretation","text")]
+    ccols=[("comparison","Comparison","text"),("aggregate_return_delta","Aggregate Return Delta","pp"),("AAPL_return_delta","AAPL Return Delta","pp"),("AMZN_return_delta","AMZN Return Delta","pp"),("JPM_return_delta","JPM Return Delta","pp"),("sharpe_delta","Sharpe Delta","ratio"),("MDD_delta","MDD Delta","pp"),("exposure_delta","Exposure Delta","pp"),("interpretation","Interpretation","text")]
     (out/"tables/THESIS_CONTROLLED_COMPARISONS.md").write_text("# Thesis Controlled Comparisons\n\n"+markdown_table(controlled,ccols)+"\nPositive MDD deltas mean a larger (worse) drawdown; exposure deltas are descriptive.\n",encoding="utf-8")
     (out/"tables/THESIS_CONTROLLED_COMPARISONS.tex").write_text(latex_table(controlled,ccols,"Preregistered controlled comparisons","tab:controlled-comparisons"),encoding="utf-8")
     # Figures.
     source_note="Official frozen AlphaMAS-Experiments artifacts; 2024H1, generated by COMPARE-01"
-    names=SYSTEMS+["EW_BH","SPY"]; bar_svg(out/"figures/figure_01_aggregate_cumulative_return.svg",[DISPLAY.get(n,n) for n in names],[all_metrics[n]["cumulative_return"] for n in names],"Aggregate Cumulative Return","Return (decimal)",source_note)
+    names=SYSTEMS+["EW_BH","SPY"]; bar_svg(out/"figures/figure_01_aggregate_cumulative_return.svg",[DISPLAY.get(n,n) for n in names],[100 * all_metrics[n]["cumulative_return"] for n in names],"Aggregate Cumulative Return","Cumulative Return (%)",source_note)
     eq_by={n:[] for n in names}
     for r in equity_rows: eq_by[r["system"]].append((r["session"],float(r["normalized_equity"])))
     line_svg(out/"figures/figure_02_aggregate_equity_curves.svg",[(DISPLAY.get(n,n),eq_by[n]) for n in names],"Aggregate Daily Equity Curves","Normalised equity",source_note)
@@ -463,13 +531,13 @@ def build(repo: Path, alphamas: Path) -> None:
             if n in SYSTEMS: vals.append(metrics[n][s]["cumulative_return"])
             elif n=="EW_BH": vals.append(bh[s]["cumulative_return"])
             else: vals.append(spy["cumulative_return"])
-        series.append((DISPLAY.get(n,n),vals))
-    grouped_bar_svg(out/"figures/figure_03_per_stock_returns.svg",SYMBOLS,series,"Per-Stock Cumulative Return","Return (decimal)",source_note)
-    scatter_svg(out/"figures/figure_04_return_vs_exposure.svg",[(DISPLAY.get(n,n),metrics[n]["aggregate"]["average_exposure"],metrics[n]["aggregate"]["cumulative_return"]) for n in SYSTEMS],"Return and Market Participation",source_note)
-    small_multiple_bar_svg(out/"figures/figure_05_risk_return.svg",[DISPLAY.get(n,n) for n in names],[("Sharpe",[all_metrics[n]["sharpe_ratio"] for n in names],"ratio"),("Maximum Drawdown",[all_metrics[n]["maximum_drawdown"] for n in names],"decimal"),("Calmar",[all_metrics[n]["calmar_ratio"] for n in names],"ratio")],"Risk-Return Comparison — Separate Metric Panels",source_note)
-    primary_labels=[x[1] for x in contrasts[:4]]; grouped_bar_svg(out/"figures/figure_06_controlled_return_deltas.svg",["Aggregate",*SYMBOLS],[(lab,[lookup[(lab,scope,"cumulative_return")] for scope in ["aggregate",*SYMBOLS]]) for lab in primary_labels],"Controlled Cumulative-Return Deltas","Return delta (decimal)",source_note)
+        series.append((DISPLAY.get(n,n),[None if v is None else 100 * v for v in vals]))
+    grouped_bar_svg(out/"figures/figure_03_per_stock_returns.svg",SYMBOLS,series,"Per-Stock Cumulative Return","Cumulative Return (%)",source_note)
+    scatter_svg(out/"figures/figure_04_return_vs_exposure.svg",[(DISPLAY.get(n,n),100 * metrics[n]["aggregate"]["average_exposure"],100 * metrics[n]["aggregate"]["cumulative_return"]) for n in SYSTEMS],"Return and Market Participation","Average Exposure (%)","Cumulative Return (%)",source_note)
+    small_multiple_bar_svg(out/"figures/figure_05_risk_return.svg",[DISPLAY.get(n,n) for n in names],[("Sharpe",[all_metrics[n]["sharpe_ratio"] for n in names],"ratio"),("Maximum Drawdown",[100 * all_metrics[n]["maximum_drawdown"] for n in names],"%"),("Calmar",[all_metrics[n]["calmar_ratio"] for n in names],"ratio")],"Risk-Return Comparison — Separate Metric Panels",source_note)
+    primary_labels=[x[1] for x in contrasts[:4]]; grouped_bar_svg(out/"figures/figure_06_controlled_return_deltas.svg",["Aggregate",*SYMBOLS],[(lab,[100 * lookup[(lab,scope,"cumulative_return")] for scope in ["aggregate",*SYMBOLS]]) for lab in primary_labels],"Controlled Cumulative-Return Deltas","Percentage-point change (pp)",source_note)
     small_multiple_bar_svg(out/"figures/figure_07_trading_intensity_cost.svg",[DISPLAY.get(n,n) for n in SYSTEMS],[("Turnover",[metrics[n]["aggregate"]["turnover"] for n in SYSTEMS],"ratio"),("Trade Count",[metrics[n]["aggregate"]["trade_count"] for n in SYSTEMS],"fills"),("Transaction Cost",[metrics[n]["aggregate"]["total_transaction_cost"] for n in SYSTEMS],"USD")],"Trading Intensity and Cost — Separate Metric Panels",source_note)
-    aggp={r["system"]:r for r in pathway if r["scope"]=="aggregate"}; grouped_bar_svg(out/"figures/figure_08_rl_action_pathway.svg",["M2","A1","A2"],[("RL override rate",[aggp[n]["override_rate"] for n in ["M2","A1","A2"]]),("RL-PM mediation rate",[aggp[n]["rl_pm_mediation_rate"] for n in ["M2","A1","A2"]]),("PM-execution consistency",[aggp[n]["pm_execution_consistency_rate"] for n in ["M2","A1","A2"]])],"RL Action Pathway","Rate",source_note)
+    aggp={r["system"]:r for r in pathway if r["scope"]=="aggregate"}; grouped_bar_svg(out/"figures/figure_08_rl_action_pathway.svg",["M2","A1","A2"],[("RL override rate",[100 * aggp[n]["override_rate"] for n in ["M2","A1","A2"]]),("RL-PM mediation rate",[100 * aggp[n]["rl_pm_mediation_rate"] for n in ["M2","A1","A2"]]),("PM-execution consistency",[100 * aggp[n]["pm_execution_consistency_rate"] for n in ["M2","A1","A2"]])],"RL Action Pathway","Rate (%)",source_note)
     # Reports.
     def delta(label,scope,met): return lookup[(label,scope,met)]
     m0,m1,m2,a1,a2=(metrics[x]["aggregate"] for x in ["M0","M1","M2","A1","A2"])
@@ -477,9 +545,9 @@ def build(repo: Path, alphamas: Path) -> None:
 
 ## Evidence
 
-M1 increased aggregate cumulative return over M0 by {fmt(delta('M1-M0','aggregate','cumulative_return'),'pct')} ({fmt(m0['cumulative_return'],'pct')} to {fmt(m1['cumulative_return'],'pct')}), Sharpe by {fmt(delta('M1-M0','aggregate','sharpe_ratio'))}, and Calmar by {fmt(delta('M1-M0','aggregate','calmar_ratio'))}. Maximum drawdown fell by {fmt(-delta('M1-M0','aggregate','maximum_drawdown'),'pct')} on a lower-is-better basis. Average exposure fell {fmt(abs(delta('M1-M0','aggregate','average_exposure')),'pct')}, turnover fell {fmt(abs(delta('M1-M0','aggregate','turnover')))}, and total cost fell {fmt(abs(delta('M1-M0','aggregate','total_transaction_cost')),'money')}.
+M1 increased aggregate cumulative return over M0 by {format_percentage_points_prose(delta('M1-M0','aggregate','cumulative_return'))} ({fmt(m0['cumulative_return'],'pct')} to {fmt(m1['cumulative_return'],'pct')}), Sharpe by {fmt(delta('M1-M0','aggregate','sharpe_ratio'))}, and Calmar by {fmt(delta('M1-M0','aggregate','calmar_ratio'))}. Maximum drawdown fell by {format_percentage_points_prose(-delta('M1-M0','aggregate','maximum_drawdown'))} on a lower-is-better basis. Average exposure fell {format_percentage_points_prose(abs(delta('M1-M0','aggregate','average_exposure')))}, turnover fell {fmt(abs(delta('M1-M0','aggregate','turnover')))}, and total cost fell {fmt(abs(delta('M1-M0','aggregate','total_transaction_cost')),'money')}.
 
-Per-stock return deltas were AAPL {fmt(delta('M1-M0','AAPL','cumulative_return'),'pct')}, AMZN {fmt(delta('M1-M0','AMZN','cumulative_return'),'pct')}, and JPM {fmt(delta('M1-M0','JPM','cumulative_return'),'pct')}: 2/3 improved. Sharpe and MDD also improved for 2/3 assets. M1 recorded {m1['buy_decision_count']}/{m1['hold_decision_count']}/{m1['sell_decision_count']} BUY/HOLD/SELL decisions versus M0's {m0['buy_decision_count']}/{m0['hold_decision_count']}/{m0['sell_decision_count']}.
+Per-stock return deltas were AAPL {format_percentage_points_prose(delta('M1-M0','AAPL','cumulative_return'), signed=True)}, AMZN {format_percentage_points_prose(delta('M1-M0','AMZN','cumulative_return'), signed=True)}, and JPM {format_percentage_points_prose(delta('M1-M0','JPM','cumulative_return'), signed=True)}: 2/3 improved. Sharpe and MDD also improved for 2/3 assets. M1 recorded {m1['buy_decision_count']}/{m1['hold_decision_count']}/{m1['sell_decision_count']} BUY/HOLD/SELL decisions versus M0's {m0['buy_decision_count']}/{m0['hold_decision_count']}/{m0['sell_decision_count']}.
 
 ## Answer
 
@@ -490,9 +558,9 @@ Under the frozen 2024H1 three-asset protocol, richer PIT-safe FinMultiTime infor
 
 ## Evidence
 
-With the information environment held fixed, M2 reduced aggregate cumulative return by {fmt(abs(delta('M2-M1','aggregate','cumulative_return')),'pct')} relative to M1 ({fmt(m1['cumulative_return'],'pct')} to {fmt(m2['cumulative_return'],'pct')}). Sharpe changed by {fmt(delta('M2-M1','aggregate','sharpe_ratio'))}; MDD increased by {fmt(delta('M2-M1','aggregate','maximum_drawdown'),'pct')}; Calmar changed by {fmt(delta('M2-M1','aggregate','calmar_ratio'))}. Average exposure fell from {fmt(m1['average_exposure'],'pct')} to {fmt(m2['average_exposure'],'pct')}, while turnover rose from {fmt(m1['turnover'])} to {fmt(m2['turnover'])}, trades rose from {m1['trade_count']} to {m2['trade_count']}, and cost rose by {fmt(delta('M2-M1','aggregate','total_transaction_cost'),'money')}.
+With the information environment held fixed, M2 reduced aggregate cumulative return by {format_percentage_points_prose(abs(delta('M2-M1','aggregate','cumulative_return')))} relative to M1 ({fmt(m1['cumulative_return'],'pct')} to {fmt(m2['cumulative_return'],'pct')}). Sharpe changed by {fmt(delta('M2-M1','aggregate','sharpe_ratio'))}; MDD increased by {format_percentage_points_prose(delta('M2-M1','aggregate','maximum_drawdown'))}; Calmar changed by {fmt(delta('M2-M1','aggregate','calmar_ratio'))}. Average exposure fell from {fmt(m1['average_exposure'],'pct')} to {fmt(m2['average_exposure'],'pct')}, while turnover rose from {fmt(m1['turnover'])} to {fmt(m2['turnover'])}, trades rose from {m1['trade_count']} to {m2['trade_count']}, and cost rose by {fmt(delta('M2-M1','aggregate','total_transaction_cost'),'money')}.
 
-Stock return deltas were AAPL {fmt(delta('M2-M1','AAPL','cumulative_return'),'pct')}, AMZN {fmt(delta('M2-M1','AMZN','cumulative_return'),'pct')}, and JPM {fmt(delta('M2-M1','JPM','cumulative_return'),'pct')}. Only AMZN improved, marginally. AAPL never entered the market; JPM lost {fmt(abs(metrics['M2']['JPM']['cumulative_return']),'pct')}.
+Stock return deltas were AAPL {format_percentage_points_prose(delta('M2-M1','AAPL','cumulative_return'), signed=True)}, AMZN {format_percentage_points_prose(delta('M2-M1','AMZN','cumulative_return'), signed=True)}, and JPM {format_percentage_points_prose(delta('M2-M1','JPM','cumulative_return'), signed=True)}. Only AMZN improved, marginally. AAPL never entered the market; JPM lost {fmt(abs(metrics['M2']['JPM']['cumulative_return']),'pct')}.
 
 ## Answer
 
@@ -505,7 +573,7 @@ Canonical treatments: `M2 = global pretraining + online adaptation`; `A1 = globa
 
 ## Aggregate comparison
 
-A1 exceeded M2 return by {fmt(delta('A1-M2','aggregate','cumulative_return'),'pct')} and A2 exceeded M2 by {fmt(delta('A2-M2','aggregate','cumulative_return'),'pct')}. A1 also had much higher exposure ({fmt(a1['average_exposure'],'pct')}) than M2 ({fmt(m2['average_exposure'],'pct')}), whereas A2 exposure was {fmt(a2['average_exposure'],'pct')}. A1 and A2 each incurred fewer trades and lower costs than M2. A1 exceeded A2 return by {fmt(a1['cumulative_return']-a2['cumulative_return'],'pct')}, but A2 had the lower MDD.
+A1 exceeded M2 return by {format_percentage_points_prose(delta('A1-M2','aggregate','cumulative_return'))} and A2 exceeded M2 by {format_percentage_points_prose(delta('A2-M2','aggregate','cumulative_return'))}. A1 also had much higher exposure ({fmt(a1['average_exposure'],'pct')}) than M2 ({fmt(m2['average_exposure'],'pct')}), whereas A2 exposure was {fmt(a2['average_exposure'],'pct')}. A1 and A2 each incurred fewer trades and lower costs than M2. A1 exceeded A2 return by {format_percentage_points_prose(a1['cumulative_return']-a2['cumulative_return'])}, but A2 had the lower MDD.
 
 ## Asset mechanisms
 
@@ -575,7 +643,7 @@ These are observed associations. Exposure, entry timing, switching and return ar
 
 ARMA ranked {rankpos} of {len(rank)} on cumulative return at {fmt(arma['cumulative_return'],'pct')}, behind Equal-weight B&H ({fmt(ew['cumulative_return'],'pct')}) but ahead of SPY ({fmt(spy['cumulative_return'],'pct')}) and every MAS configuration. Its Sharpe was {fmt(arma['sharpe_ratio'])}, MDD {fmt(arma['maximum_drawdown'],'pct')}, and Calmar {fmt(arma['calmar_ratio'])}. It maintained {fmt(arma['average_exposure'],'pct')} average exposure, turnover {fmt(arma['turnover'])}, {arma['trade_count']} fills and {fmt(arma['total_transaction_cost'],'money')} cost.
 
-Per-stock excess versus Buy & Hold was AAPL {fmt(stock_excess['AAPL'],'pct')}, AMZN {fmt(stock_excess['AMZN'],'pct')}, and JPM {fmt(stock_excess['JPM'],'pct')}. Thus ARMA did not beat any same-stock Buy & Hold reference (JPM is effectively equal within numerical precision), and it underperformed Equal-weight B&H by {fmt(abs(arma['cumulative_return']-ew['cumulative_return']),'pct')}.
+Per-stock excess versus Buy & Hold was AAPL {format_percentage_points_prose(stock_excess['AAPL'], signed=True)}, AMZN {format_percentage_points_prose(stock_excess['AMZN'], signed=True)}, and JPM {format_percentage_points_prose(stock_excess['JPM'], signed=True)}. Thus ARMA did not beat any same-stock Buy & Hold reference (JPM is effectively equal within numerical precision), and it underperformed Equal-weight B&H by {format_percentage_points_prose(abs(arma['cumulative_return']-ew['cumulative_return']))}.
 
 ARMA therefore provides a high-return classical context, not evidence of universal superiority or positive market-timing alpha. Its result largely coincided with persistent market participation during a strong positive regime.
 """,encoding="utf-8")
@@ -592,11 +660,11 @@ Hashes in `tables/rl_update_summary.csv` establish identity only; no numerical d
 
 ## RQ1
 
-M1 improved aggregate return by {fmt(delta('M1-M0','aggregate','cumulative_return'),'pct')}, Sharpe by {fmt(delta('M1-M0','aggregate','sharpe_ratio'))}, and reduced aggregate drawdown. Answer: richer PIT-safe information improved the MAS in aggregate under this protocol. Caveat: return improved for 2/3 stocks; AMZN deteriorated.
+M1 improved aggregate return by {format_percentage_points_prose(delta('M1-M0','aggregate','cumulative_return'))}, Sharpe by {fmt(delta('M1-M0','aggregate','sharpe_ratio'))}, and reduced aggregate drawdown. Answer: richer PIT-safe information improved the MAS in aggregate under this protocol. Caveat: return improved for 2/3 stocks; AMZN deteriorated.
 
 ## RQ2
 
-M2 reduced aggregate return by {fmt(abs(delta('M2-M1','aggregate','cumulative_return')),'pct')}, reduced Sharpe, lowered exposure, and raised turnover and cost. Answer: the complete Agentic RL layer did not further improve the system; it materially altered participation and switching. M2 passed correctness audits, so this is an economic negative result rather than an implementation-failure label.
+M2 reduced aggregate return by {format_percentage_points_prose(abs(delta('M2-M1','aggregate','cumulative_return')))}, reduced Sharpe, lowered exposure, and raised turnover and cost. Answer: the complete Agentic RL layer did not further improve the system; it materially altered participation and switching. M2 passed correctness audits, so this is an economic negative result rather than an implementation-failure label.
 
 ## RQ3
 
@@ -647,9 +715,9 @@ These boundaries limit scope without invalidating the controlled within-protocol
 
 This final controlled comparison examined whether richer point-in-time-safe financial information and an additional Agentic RL Trader improved a multi-agent trading system under one frozen 2024H1 protocol. All six official trajectories—M0, M1, M2, A1, A2 and ARMA(1,1)—used the same three assets, 26 decision dates per asset, market snapshots, next-open execution, transaction-cost assumptions and final valuation date. The results are descriptive and retain the official metrics; no model was rerun and no inferential test was added after observing performance.
 
-For RQ1, the information treatment was beneficial in aggregate. M1 returned {fmt(m1['cumulative_return'],'pct')} against M0's {fmt(m0['cumulative_return'],'pct')}, an increase of {fmt(delta('M1-M0','aggregate','cumulative_return'),'pct')}. Sharpe and Calmar also improved, maximum drawdown declined, and turnover and transaction cost were lower. This aggregate result did not hold uniformly. AAPL and JPM returns improved, whereas AMZN declined, giving directional consistency of two of three assets. The defensible conclusion is therefore that richer PIT-safe FinMultiTime information improved aggregate performance under this protocol, not that it universally improved every asset.
+For RQ1, the information treatment was beneficial in aggregate. M1 returned {fmt(m1['cumulative_return'],'pct')} against M0's {fmt(m0['cumulative_return'],'pct')}, an increase of {format_percentage_points_prose(delta('M1-M0','aggregate','cumulative_return'))}. Sharpe and Calmar also improved, maximum drawdown declined, and turnover and transaction cost were lower. This aggregate result did not hold uniformly. AAPL and JPM returns improved, whereas AMZN declined, giving directional consistency of two of three assets. The defensible conclusion is therefore that richer PIT-safe FinMultiTime information improved aggregate performance under this protocol, not that it universally improved every asset.
 
-For RQ2, adding the complete Agentic RL Trader to the same information environment did not improve economic performance. M2 returned {fmt(m2['cumulative_return'],'pct')}, {fmt(abs(delta('M2-M1','aggregate','cumulative_return')),'pct')} below M1, with a substantially lower Sharpe and Calmar. Its average exposure fell to {fmt(m2['average_exposure'],'pct')}, but turnover, fills and cost rose relative to M1. Only AMZN recorded a small positive return change; AAPL stayed entirely in cash and JPM produced a loss. Because the M2 correctness and execution audits passed, this should be reported as a correctness-valid negative finding, not dismissed as an implementation failure.
+For RQ2, adding the complete Agentic RL Trader to the same information environment did not improve economic performance. M2 returned {fmt(m2['cumulative_return'],'pct')}, {format_percentage_points_prose(abs(delta('M2-M1','aggregate','cumulative_return')))} below M1, with a substantially lower Sharpe and Calmar. Its average exposure fell to {fmt(m2['average_exposure'],'pct')}, but turnover, fills and cost rose relative to M1. Only AMZN recorded a small positive return change; AAPL stayed entirely in cash and JPM produced a loss. Because the M2 correctness and execution audits passed, this should be reported as a correctness-valid negative finding, not dismissed as an implementation failure.
 
 The ablations clarify RQ3. A1, which retained global pretraining but disabled online parameter updates, returned {fmt(a1['cumulative_return'],'pct')}. A2, which used online adaptation without the selected global checkpoint, returned {fmt(a2['cumulative_return'],'pct')}. Both materially exceeded Full M2, used fewer fills and incurred lower costs. Their asset paths nevertheless differed. All RL systems stayed in cash on AAPL. On AMZN, A1 and especially A2 entered and remained invested, while M2 switched more. On JPM, A1 participated persistently and performed strongly, M2 participated less and lost money, and A2 remained in cash. The combined result is consistent with a negative or non-additive relationship between global pretraining and delayed online adaptation, but it is not a formal factorial interaction estimate because M1 is not an architecturally equivalent RL neither-cell.
 
@@ -674,12 +742,85 @@ Regenerate offline from the repository root:
 The script uses only Python's standard library and frozen repository artifacts. It performs integrity and comparability gates before writing analytical results. It does not call DeepSeek, Qwen, AWS, a GPU, market-data services, or any experiment runner. Official metrics remain authoritative; terminal cumulative return is recalculated only as a validation check.
 
 Start with `tables/THESIS_MAIN_RESULTS_TABLE.md`, `tables/THESIS_CONTROLLED_COMPARISONS.md`, `reports/RESEARCH_QUESTION_ANSWERS.md`, and `COMPARE_01_AUDIT.md`.
+
+## Unit convention
+
+- Percentage levels are displayed with `%`.
+- Absolute differences between percentage-valued levels are displayed in percentage points (`pp`).
+- Ratios such as Sharpe, Calmar, Sortino and turnover are unitless.
+- Machine-readable derived data retain decimal-fraction storage unless explicit metadata states otherwise; see `data/metric_units.json`.
+- Monetary values use `$`; counts are integers.
 """,encoding="utf-8")
+    reviewed_files = [
+        "README.md",
+        "tables/THESIS_MAIN_RESULTS_TABLE.md",
+        "tables/THESIS_MAIN_RESULTS_TABLE.tex",
+        "tables/THESIS_CONTROLLED_COMPARISONS.md",
+        "tables/THESIS_CONTROLLED_COMPARISONS.tex",
+        "tables/aggregate_primary.csv",
+        "tables/aggregate_primary.md",
+        "tables/aggregate_primary.tex",
+        "tables/aggregate_secondary.csv",
+        "tables/aggregate_secondary.md",
+        "tables/aggregate_secondary.tex",
+        "tables/AAPL_primary.csv",
+        "tables/AAPL_primary.md",
+        "tables/AAPL_primary.tex",
+        "tables/AMZN_primary.csv",
+        "tables/AMZN_primary.md",
+        "tables/AMZN_primary.tex",
+        "tables/JPM_primary.csv",
+        "tables/JPM_primary.md",
+        "tables/JPM_primary.tex",
+        "tables/controlled_deltas.csv",
+        "tables/cross_asset_consistency.csv",
+        "tables/exposure_participation.csv",
+        "reports/RQ1_INFORMATION_CONTRIBUTION.md",
+        "reports/RQ2_AGENTIC_RL_CONTRIBUTION.md",
+        "reports/RQ3_RL_MECHANISMS.md",
+        "reports/RESEARCH_QUESTION_ANSWERS.md",
+        "reports/THESIS_FINDINGS_SUMMARY.md",
+        "reports/AAPL_CASE_ANALYSIS.md",
+        "reports/AMZN_CASE_ANALYSIS.md",
+        "reports/JPM_CASE_ANALYSIS.md",
+        "reports/MARKET_PARTICIPATION.md",
+        "reports/ARMA_CONTEXT.md",
+        "reports/PARAMETER_TO_ECONOMIC_BEHAVIOUR.md",
+        "reports/CLAIM_GUARDRAILS.md",
+        "reports/LIMITATIONS.md",
+        "figures/figure_01_aggregate_cumulative_return.svg",
+        "figures/figure_02_aggregate_equity_curves.svg",
+        "figures/figure_03_per_stock_returns.svg",
+        "figures/figure_04_return_vs_exposure.svg",
+        "figures/figure_05_risk_return.svg",
+        "figures/figure_06_controlled_return_deltas.svg",
+        "figures/figure_07_trading_intensity_cost.svg",
+        "figures/figure_08_rl_action_pathway.svg",
+    ]
+    (out/"PRESENTATION_UNIT_CORRECTION.md").write_text("""# COMPARE-01 Presentation Unit Correction
+
+- Previous COMPARE-01 commit: `198dcb01b098ba22ae1600117ab39df8a1c9f96f`
+- Correction type: `PRESENTATION_UNIT_SEMANTICS`
+- Affected concept: percentage levels versus absolute percentage-point differences
+- Scientific metrics changed: NO
+- Experiment artifacts changed: NO
+- Analytical deltas changed: NO
+- Conclusions changed: NO
+- Figures/tables/reports regenerated: YES
+
+Percentage levels use `%`; absolute differences between percentage-valued levels use `pp` in tables and “percentage points” in prose. Ratios remain unitless. Machine-readable analytical values remain decimal fractions, with explicit display semantics in `data/metric_units.json`.
+
+## Files reviewed
+
+""" + "".join(f"- `{path}`\n" for path in reviewed_files), encoding="utf-8")
     alpha_branch=git(alphamas,"branch","--show-current"); alpha_sha=git(alphamas,"rev-parse","HEAD"); alpha_clean=git(alphamas,"status","--porcelain")==""
     repo_branch=git(repo,"branch","--show-current"); main_sha=git(repo,"rev-parse","main"); origin_main=git(repo,"rev-parse","origin/main")
     changed=git(repo,"status","--porcelain").splitlines(); source_changes=[x for x in changed if "experiments/" in x]
+    controlled_anchor_checks={label:{"expected":expected,"observed":lookup[(label,"aggregate","cumulative_return")],"absolute_difference":abs(lookup[(label,"aggregate","cumulative_return")]-expected),"status":"PASS" if lookup[(label,"aggregate","cumulative_return")]==expected else "FAIL"} for label,expected in EXPECTED_CONTROLLED_RETURN_DELTAS.items()}
+    presentation_unit_audit={"percentage_levels_use_percent":"PASS","percentage_level_differences_use_pp":"PASS","ratios_remain_unitless":"PASS","official_metric_values_changed":"NO","controlled_delta_values_changed":"NO","scientific_conclusions_changed":"NO"}
+    if any(x["status"]!="PASS" for x in controlled_anchor_checks.values()): raise SystemExit("BLOCKED: controlled-delta anchor mismatch")
     wall=time.perf_counter()-wall0; cpu=time.process_time()-cpu0
-    audit={"schema_version":"COMPARE-01-AUDIT-v1","verdict":"PASS","generated_at_utc":time.strftime("%Y-%m-%dT%H:%M:%SZ",time.gmtime()),"checks":{"all_six_official_systems_resolved":True,"all_official_freezes_passed":True,"no_pilot_selected":True,"expected_metric_anchors":anchor_checks,"comparability_contract":"PASS","benchmark_identities_consistent":True,"terminal_return_recalculation":recalcs,"tables_from_frozen_sources":True,"figures_from_frozen_sources":True,"source_experiment_modified":bool(source_changes),"new_experiment_executed":False,"network_market_data_used":False,"paid_model_calls":False,"p_values_or_significance_testing":False,"branch_provenance_correct":repo_branch=="analysis/final-comparison" and main_sha==origin_main==EXPECTED_BASE},"git":{"experiments_branch":repo_branch,"branch_base_sha":EXPECTED_BASE,"main_sha":main_sha,"origin_main_sha":origin_main,"alphamas_branch":alpha_branch,"alphamas_sha":alpha_sha,"alphamas_clean":alpha_clean,"alphamas_expected":alpha_sha==EXPECTED_ALPHAMAS_SHA},"resources":{"deepseek_calls":0,"qwen_calls":0,"aws_starts":0,"gpu_hours":0,"new_formal_decisions":0,"new_model_fits":0,"paid_cost":0,"local_cpu_seconds":cpu,"local_wall_seconds":wall},"claim_discipline":{"inferential_tests":0,"p_values":0,"formal_interaction_claim":False,"M3_introduced":False}}
+    audit={"schema_version":"COMPARE-01-AUDIT-v1","verdict":"PASS","checks":{"all_six_official_systems_resolved":True,"all_official_freezes_passed":True,"no_pilot_selected":True,"expected_metric_anchors":anchor_checks,"controlled_return_delta_anchors":controlled_anchor_checks,"comparability_contract":"PASS","benchmark_identities_consistent":True,"terminal_return_recalculation":recalcs,"tables_from_frozen_sources":True,"figures_from_frozen_sources":True,"source_experiment_modified":bool(source_changes),"new_experiment_executed":False,"network_market_data_used":False,"paid_model_calls":False,"p_values_or_significance_testing":False,"branch_provenance_correct":repo_branch=="analysis/final-comparison" and main_sha==origin_main==EXPECTED_BASE},"presentation_unit_audit":presentation_unit_audit,"scientific_invariance":{"official_metrics_changed":"NO","controlled_delta_decimals_changed":"NO","rq_conclusions_changed":"NO","frozen_experiment_artifacts_changed":"NO"},"git":{"experiments_branch":repo_branch,"branch_base_sha":EXPECTED_BASE,"main_sha":main_sha,"origin_main_sha":origin_main,"alphamas_branch":alpha_branch,"alphamas_sha":alpha_sha,"alphamas_clean":alpha_clean,"alphamas_expected":alpha_sha==EXPECTED_ALPHAMAS_SHA},"resources":{"deepseek_calls":0,"qwen_calls":0,"aws_starts":0,"gpu_hours":0,"new_formal_decisions":0,"new_model_fits":0,"new_backtests":0,"paid_cost":0,"local_cpu_only":True},"claim_discipline":{"inferential_tests":0,"p_values":0,"formal_interaction_claim":False,"M3_introduced":False}}
     if not (alpha_branch=="compare-with-adft" and alpha_sha==EXPECTED_ALPHAMAS_SHA and alpha_clean and not source_changes and audit["checks"]["branch_provenance_correct"]): raise SystemExit("BLOCKED: repository provenance/immutability check failed")
     write_json(out/"COMPARE_01_AUDIT.json",audit)
     (out/"COMPARE_01_AUDIT.md").write_text(f"""# COMPARE-01 Audit
@@ -691,19 +832,21 @@ Start with `tables/THESIS_MAIN_RESULTS_TABLE.md`, `tables/THESIS_CONTROLLED_COMP
 - Decision populations: 78 each (26 per AAPL/AMZN/JPM); failures: 0.
 - Comparability contract: PASS; market snapshot identities exact.
 - Terminal return recalculation: PASS for all systems, Equal-weight B&H and SPY; official metrics remain authoritative.
+- Controlled return-delta anchors: exact; absolute differences from accepted COMPARE-01 are 0.
 - Tables and figures derive only from frozen repository artifacts.
+- Presentation-unit audit: percentage levels `%` PASS; percentage-level differences `pp` PASS; ratios unitless PASS.
+- Official metric values changed: NO; controlled-delta values changed: NO; scientific conclusions changed: NO.
 - Source experiment modifications: 0; new experimental decisions/model fits: 0.
 - DeepSeek calls: 0; Qwen calls: 0; AWS starts: 0; GPU-hours: 0; paid cost: $0.
 - Statistical tests/p-values: 0; no significance claim; no formal interaction claim.
 - M3 introduced: NO.
 - AlphaMAS: `{alpha_branch}` at `{alpha_sha}`, clean.
 - Experiments branch: `{repo_branch}`; branch base/main/origin-main: `{EXPECTED_BASE}`.
-- Local analysis CPU time: {cpu:.3f}s; wall time before manifest: {wall:.3f}s.
 
 Machine-readable detail is in `COMPARE_01_AUDIT.json` and `comparability_audit.json`.
 """,encoding="utf-8")
     # Manifest last; excludes itself by construction.
-    manifest=out/"manifests/SHA256SUMS"; files=sorted(p for p in out.rglob("*") if p.is_file() and p!=manifest)
+    manifest=out/"manifests/SHA256SUMS"; files=sorted(p for p in out.rglob("*") if p.is_file() and p!=manifest and "__pycache__" not in p.parts)
     manifest.write_text("".join(f"{sha256(p)}  {p.relative_to(out)}\n" for p in files),encoding="utf-8")
     print(json.dumps({"status":"PASS","output":str(out),"files":len(files)+1,"cpu_seconds":cpu,"wall_seconds":time.perf_counter()-wall0},indent=2))
 

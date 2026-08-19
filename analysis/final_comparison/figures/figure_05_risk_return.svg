@@ -25,11 +25,11 @@
 <rect x="360.6" y="146.3" width="26.4" height="388.7" fill="#262626"/>
 <text transform="translate(373.8,553) rotate(-40)" text-anchor="end" class="small">SPY</text>
 <line x1="430.0" y1="535.0" x2="770.0" y2="535.0" class="grid"/><text x="425.0" y="539.0" text-anchor="end" class="small">0.00</text>
-<line x1="430.0" y1="420.0" x2="770.0" y2="420.0" class="grid"/><text x="425.0" y="424.0" text-anchor="end" class="small">0.02</text>
-<line x1="430.0" y1="305.0" x2="770.0" y2="305.0" class="grid"/><text x="425.0" y="309.0" text-anchor="end" class="small">0.04</text>
-<line x1="430.0" y1="190.0" x2="770.0" y2="190.0" class="grid"/><text x="425.0" y="194.0" text-anchor="end" class="small">0.05</text>
-<line x1="430.0" y1="75.0" x2="770.0" y2="75.0" class="grid"/><text x="425.0" y="79.0" text-anchor="end" class="small">0.07</text>
-<text x="600.0" y="58" text-anchor="middle" style="font-size:15px;font-weight:700">Maximum Drawdown (decimal)</text>
+<line x1="430.0" y1="420.0" x2="770.0" y2="420.0" class="grid"/><text x="425.0" y="424.0" text-anchor="end" class="small">1.77</text>
+<line x1="430.0" y1="305.0" x2="770.0" y2="305.0" class="grid"/><text x="425.0" y="309.0" text-anchor="end" class="small">3.55</text>
+<line x1="430.0" y1="190.0" x2="770.0" y2="190.0" class="grid"/><text x="425.0" y="194.0" text-anchor="end" class="small">5.32</text>
+<line x1="430.0" y1="75.0" x2="770.0" y2="75.0" class="grid"/><text x="425.0" y="79.0" text-anchor="end" class="small">7.10</text>
+<text x="600.0" y="58" text-anchor="middle" style="font-size:15px;font-weight:700">Maximum Drawdown (%)</text>
 <rect x="438.1" y="210.3" width="26.4" height="324.7" fill="#1f4e79"/>
 <text transform="translate(451.2,553) rotate(-40)" text-anchor="end" class="small">M0</text>
 <rect x="480.6" y="248.2" width="26.4" height="286.8" fill="#2e75b6"/>

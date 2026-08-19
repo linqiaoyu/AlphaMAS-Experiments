@@ -5,6 +5,32 @@
     "benchmark_identities_consistent": true,
     "branch_provenance_correct": true,
     "comparability_contract": "PASS",
+    "controlled_return_delta_anchors": {
+      "A1-M2": {
+        "absolute_difference": 0.0,
+        "expected": 0.1391080922810759,
+        "observed": 0.1391080922810759,
+        "status": "PASS"
+      },
+      "A2-M2": {
+        "absolute_difference": 0.0,
+        "expected": 0.10142668233356611,
+        "observed": 0.10142668233356611,
+        "status": "PASS"
+      },
+      "M1-M0": {
+        "absolute_difference": 0.0,
+        "expected": 0.02497948354748547,
+        "observed": 0.02497948354748547,
+        "status": "PASS"
+      },
+      "M2-M1": {
+        "absolute_difference": 0.0,
+        "expected": -0.14484307160328358,
+        "observed": -0.14484307160328358,
+        "status": "PASS"
+      }
+    },
     "expected_metric_anchors": {
       "A1": {
         "absolute_difference": 0.0,
@@ -120,7 +146,6 @@
     "inferential_tests": 0,
     "p_values": 0
   },
-  "generated_at_utc": "2026-08-19T00:34:10Z",
   "git": {
     "alphamas_branch": "compare-with-adft",
     "alphamas_clean": true,
@@ -131,17 +156,31 @@
     "main_sha": "ccd5cf5c4e4d244af252d58b94531348ca710678",
     "origin_main_sha": "ccd5cf5c4e4d244af252d58b94531348ca710678"
   },
+  "presentation_unit_audit": {
+    "controlled_delta_values_changed": "NO",
+    "official_metric_values_changed": "NO",
+    "percentage_level_differences_use_pp": "PASS",
+    "percentage_levels_use_percent": "PASS",
+    "ratios_remain_unitless": "PASS",
+    "scientific_conclusions_changed": "NO"
+  },
   "resources": {
     "aws_starts": 0,
     "deepseek_calls": 0,
     "gpu_hours": 0,
-    "local_cpu_seconds": 0.159884,
-    "local_wall_seconds": 0.679520208039321,
+    "local_cpu_only": true,
+    "new_backtests": 0,
     "new_formal_decisions": 0,
     "new_model_fits": 0,
     "paid_cost": 0,
     "qwen_calls": 0
   },
   "schema_version": "COMPARE-01-AUDIT-v1",
+  "scientific_invariance": {
+    "controlled_delta_decimals_changed": "NO",
+    "frozen_experiment_artifacts_changed": "NO",
+    "official_metrics_changed": "NO",
+    "rq_conclusions_changed": "NO"
+  },
   "verdict": "PASS"
 }

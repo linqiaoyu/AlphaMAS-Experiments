@@ -2,11 +2,11 @@
 
 ## RQ1
 
-M1 improved aggregate return by 2.50%, Sharpe by 0.546, and reduced aggregate drawdown. Answer: richer PIT-safe information improved the MAS in aggregate under this protocol. Caveat: return improved for 2/3 stocks; AMZN deteriorated.
+M1 improved aggregate return by 2.50 percentage points, Sharpe by 0.546, and reduced aggregate drawdown. Answer: richer PIT-safe information improved the MAS in aggregate under this protocol. Caveat: return improved for 2/3 stocks; AMZN deteriorated.
 
 ## RQ2
 
-M2 reduced aggregate return by 14.48%, reduced Sharpe, lowered exposure, and raised turnover and cost. Answer: the complete Agentic RL layer did not further improve the system; it materially altered participation and switching. M2 passed correctness audits, so this is an economic negative result rather than an implementation-failure label.
+M2 reduced aggregate return by 14.48 percentage points, reduced Sharpe, lowered exposure, and raised turnover and cost. Answer: the complete Agentic RL layer did not further improve the system; it materially altered participation and switching. M2 passed correctness audits, so this is an economic negative result rather than an implementation-failure label.
 
 ## RQ3
 
