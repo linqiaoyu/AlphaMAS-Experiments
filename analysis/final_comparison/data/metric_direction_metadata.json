@@ -1,0 +1,42 @@
+{
+  "average_exposure": {
+    "direction": "descriptive",
+    "interpretation": "neither direction is inherently better",
+    "label": "Average Exposure"
+  },
+  "calmar_ratio": {
+    "direction": "higher",
+    "interpretation": "higher is conventionally better",
+    "label": "Calmar"
+  },
+  "cumulative_return": {
+    "direction": "higher",
+    "interpretation": "higher is conventionally better",
+    "label": "Cumulative Return"
+  },
+  "excess_return": {
+    "direction": "higher",
+    "interpretation": "higher is conventionally better",
+    "label": "Excess vs benchmark"
+  },
+  "maximum_drawdown": {
+    "direction": "lower",
+    "interpretation": "lower drawdown magnitude is conventionally better",
+    "label": "Maximum Drawdown"
+  },
+  "sharpe_ratio": {
+    "direction": "higher",
+    "interpretation": "higher is conventionally better",
+    "label": "Sharpe"
+  },
+  "total_transaction_cost": {
+    "direction": "lower_cost_only",
+    "interpretation": "lower is cheaper but not automatically better-performing",
+    "label": "Total Cost"
+  },
+  "turnover": {
+    "direction": "descriptive",
+    "interpretation": "neither direction is inherently better",
+    "label": "Turnover"
+  }
+}

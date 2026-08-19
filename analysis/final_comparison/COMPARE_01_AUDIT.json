@@ -1,0 +1,147 @@
+{
+  "checks": {
+    "all_official_freezes_passed": true,
+    "all_six_official_systems_resolved": true,
+    "benchmark_identities_consistent": true,
+    "branch_provenance_correct": true,
+    "comparability_contract": "PASS",
+    "expected_metric_anchors": {
+      "A1": {
+        "absolute_difference": 0.0,
+        "expected": 0.15821237721683334,
+        "observed": 0.15821237721683334,
+        "status": "PASS"
+      },
+      "A2": {
+        "absolute_difference": 0.0,
+        "expected": 0.12053096726932355,
+        "observed": 0.12053096726932355,
+        "status": "PASS"
+      },
+      "ARMA": {
+        "absolute_difference": 0.0,
+        "expected": 0.23732742150375263,
+        "observed": 0.23732742150375263,
+        "status": "PASS"
+      },
+      "EW_BH": {
+        "absolute_difference": 0.0,
+        "expected": 0.2695731389318463,
+        "observed": 0.2695731389318463,
+        "status": "PASS"
+      },
+      "M0": {
+        "absolute_difference": 0.0,
+        "expected": 0.13896787299155555,
+        "observed": 0.13896787299155555,
+        "status": "PASS"
+      },
+      "M1": {
+        "absolute_difference": 0.0,
+        "expected": 0.16394735653904102,
+        "observed": 0.16394735653904102,
+        "status": "PASS"
+      },
+      "M2": {
+        "absolute_difference": 0.0,
+        "expected": 0.019104284935757443,
+        "observed": 0.019104284935757443,
+        "status": "PASS"
+      },
+      "SPY": {
+        "absolute_difference": 0.0,
+        "expected": 0.1900101348956349,
+        "observed": 0.1900101348956349,
+        "status": "PASS"
+      }
+    },
+    "figures_from_frozen_sources": true,
+    "network_market_data_used": false,
+    "new_experiment_executed": false,
+    "no_pilot_selected": true,
+    "p_values_or_significance_testing": false,
+    "paid_model_calls": false,
+    "source_experiment_modified": false,
+    "tables_from_frozen_sources": true,
+    "terminal_return_recalculation": {
+      "A1": {
+        "absolute_difference": 0.0,
+        "official": 0.15821237721683334,
+        "recalculated": 0.15821237721683334,
+        "status": "PASS"
+      },
+      "A2": {
+        "absolute_difference": 0.0,
+        "official": 0.12053096726932355,
+        "recalculated": 0.12053096726932355,
+        "status": "PASS"
+      },
+      "ARMA": {
+        "absolute_difference": 0.0,
+        "official": 0.23732742150375263,
+        "recalculated": 0.23732742150375263,
+        "status": "PASS"
+      },
+      "EW_BH": {
+        "absolute_difference": 0.0,
+        "official": 0.2695731389318463,
+        "recalculated": 0.2695731389318463,
+        "status": "PASS"
+      },
+      "M0": {
+        "absolute_difference": 0.0,
+        "official": 0.13896787299155555,
+        "recalculated": 0.13896787299155555,
+        "status": "PASS"
+      },
+      "M1": {
+        "absolute_difference": 0.0,
+        "official": 0.16394735653904102,
+        "recalculated": 0.16394735653904102,
+        "status": "PASS"
+      },
+      "M2": {
+        "absolute_difference": 0.0,
+        "official": 0.019104284935757443,
+        "recalculated": 0.019104284935757443,
+        "status": "PASS"
+      },
+      "SPY": {
+        "absolute_difference": 0.0,
+        "official": 0.1900101348956349,
+        "recalculated": 0.1900101348956349,
+        "status": "PASS"
+      }
+    }
+  },
+  "claim_discipline": {
+    "M3_introduced": false,
+    "formal_interaction_claim": false,
+    "inferential_tests": 0,
+    "p_values": 0
+  },
+  "generated_at_utc": "2026-08-19T00:34:10Z",
+  "git": {
+    "alphamas_branch": "compare-with-adft",
+    "alphamas_clean": true,
+    "alphamas_expected": true,
+    "alphamas_sha": "d6c2b11cc4646dc06c435fe10a027d8f867e2791",
+    "branch_base_sha": "ccd5cf5c4e4d244af252d58b94531348ca710678",
+    "experiments_branch": "analysis/final-comparison",
+    "main_sha": "ccd5cf5c4e4d244af252d58b94531348ca710678",
+    "origin_main_sha": "ccd5cf5c4e4d244af252d58b94531348ca710678"
+  },
+  "resources": {
+    "aws_starts": 0,
+    "deepseek_calls": 0,
+    "gpu_hours": 0,
+    "local_cpu_seconds": 0.159884,
+    "local_wall_seconds": 0.679520208039321,
+    "new_formal_decisions": 0,
+    "new_model_fits": 0,
+    "paid_cost": 0,
+    "qwen_calls": 0
+  },
+  "schema_version": "COMPARE-01-AUDIT-v1",
+  "verdict": "PASS"
+}

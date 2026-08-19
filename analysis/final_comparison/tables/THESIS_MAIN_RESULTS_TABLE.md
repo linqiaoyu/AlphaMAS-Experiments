@@ -1,0 +1,14 @@
+# Thesis Main Results Table
+
+| System | Role | Cumulative Return | Excess vs EW B&H | Sharpe | MDD | Calmar | Average Exposure | Turnover | Total Cost |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| M0 | MAS baseline | 13.90% | -13.06% | 2.789 | 5.01% | 6.043 | 46.66% | 1.984 | $622.89 |
+| M1 | Information treatment | 16.39% | -10.56% | 3.334 | 4.42% | 8.170 | 40.52% | 1.320 | $412.70 |
+| M2 | Full Agentic RL | 1.91% | -25.05% | 0.671 | 4.47% | 0.877 | 27.73% | 1.664 | $497.90 |
+| A1 | Global-only ablation | 15.82% | -11.14% | 2.836 | 4.42% | 7.876 | 59.90% | 0.619 | $199.85 |
+| A2 | Online-only ablation | 12.05% | -14.90% | 2.572 | 3.19% | 8.169 | 33.07% | 0.312 | $99.93 |
+| ARMA(1,1) | Classical benchmark | 23.73% | -3.22% | 3.168 | 6.15% | 8.800 | 96.40% | 2.176 | $712.86 |
+| Equal-weight B&H | Market reference | 26.96% | 0.00% | 3.509 | 6.17% | 10.118 | 99.05% | 0.906 | $299.78 |
+| SPY | Market reference | 19.00% | -7.96% | 3.410 | 5.34% | 7.945 | 98.99% | 0.911 | $99.93 |
+
+Notes: official frozen metrics; MDD is a positive loss magnitude; null ratios are shown as em dashes; ARMA is contextual rather than an RQ treatment.

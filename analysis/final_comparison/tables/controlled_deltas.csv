@@ -1,0 +1,169 @@
+research_question,contrast,role,scope,metric,delta,direction_metadata
+RQ1,M1-M0,PRIMARY,aggregate,cumulative_return,0.02497948354748547,higher
+RQ1,M1-M0,PRIMARY,aggregate,sharpe_ratio,0.5455082119948722,higher
+RQ1,M1-M0,PRIMARY,aggregate,maximum_drawdown,-0.0058544985569281005,lower
+RQ1,M1-M0,PRIMARY,aggregate,calmar_ratio,2.1272211634529015,higher
+RQ1,M1-M0,PRIMARY,aggregate,average_exposure,-0.06138085009780836,descriptive
+RQ1,M1-M0,PRIMARY,aggregate,turnover,-0.6635045108005697,descriptive
+RQ1,M1-M0,PRIMARY,aggregate,total_transaction_cost,-210.1885506813278,lower_cost_only
+RQ1,M1-M0,PRIMARY,AAPL,cumulative_return,0.11016125221419637,higher
+RQ1,M1-M0,PRIMARY,AAPL,sharpe_ratio,0.4236869204940903,higher
+RQ1,M1-M0,PRIMARY,AAPL,maximum_drawdown,0.017650141076196113,lower
+RQ1,M1-M0,PRIMARY,AAPL,calmar_ratio,1.8542877574234033,higher
+RQ1,M1-M0,PRIMARY,AAPL,average_exposure,0.2396213627327146,descriptive
+RQ1,M1-M0,PRIMARY,AAPL,turnover,-0.02469079088790338,descriptive
+RQ1,M1-M0,PRIMARY,AAPL,total_transaction_cost,-3.979039320256561e-13,lower_cost_only
+RQ1,M1-M0,PRIMARY,AMZN,cumulative_return,-0.08327291332910258,higher
+RQ1,M1-M0,PRIMARY,AMZN,sharpe_ratio,-0.6909160180117524,higher
+RQ1,M1-M0,PRIMARY,AMZN,maximum_drawdown,-0.007014224123361723,lower
+RQ1,M1-M0,PRIMARY,AMZN,calmar_ratio,-2.1508589389070814,higher
+RQ1,M1-M0,PRIMARY,AMZN,average_exposure,-0.26399999999999996,descriptive
+RQ1,M1-M0,PRIMARY,AMZN,turnover,-2.010033045926008,descriptive
+RQ1,M1-M0,PRIMARY,AMZN,total_transaction_cost,-215.01383888657503,lower_cost_only
+RQ1,M1-M0,PRIMARY,JPM,cumulative_return,0.04805011175736196,higher
+RQ1,M1-M0,PRIMARY,JPM,sharpe_ratio,1.877304358569408,higher
+RQ1,M1-M0,PRIMARY,JPM,maximum_drawdown,-0.060377469389620186,lower
+RQ1,M1-M0,PRIMARY,JPM,calmar_ratio,11.51798508859069,higher
+RQ1,M1-M0,PRIMARY,JPM,average_exposure,-0.15976391302613968,descriptive
+RQ1,M1-M0,PRIMARY,JPM,turnover,0.024261651326924927,descriptive
+RQ1,M1-M0,PRIMARY,JPM,total_transaction_cost,4.825288205247659,lower_cost_only
+RQ2,M2-M1,PRIMARY,aggregate,cumulative_return,-0.14484307160328358,higher
+RQ2,M2-M1,PRIMARY,aggregate,sharpe_ratio,-2.6636462361475077,higher
+RQ2,M2-M1,PRIMARY,aggregate,maximum_drawdown,0.0004692696644739147,lower
+RQ2,M2-M1,PRIMARY,aggregate,calmar_ratio,-7.293348782270974,higher
+RQ2,M2-M1,PRIMARY,aggregate,average_exposure,-0.1278427634977245,descriptive
+RQ2,M2-M1,PRIMARY,aggregate,turnover,0.34371063454271633,descriptive
+RQ2,M2-M1,PRIMARY,aggregate,total_transaction_cost,85.20316346818493,lower_cost_only
+RQ2,M2-M1,PRIMARY,AAPL,cumulative_return,-0.29085068064816744,higher
+RQ2,M2-M1,PRIMARY,AAPL,sharpe_ratio,,higher
+RQ2,M2-M1,PRIMARY,AAPL,maximum_drawdown,-0.060018686681325484,lower
+RQ2,M2-M1,PRIMARY,AAPL,calmar_ratio,,higher
+RQ2,M2-M1,PRIMARY,AAPL,average_exposure,-0.4556213627327146,descriptive
+RQ2,M2-M1,PRIMARY,AAPL,turnover,-0.9587305999274173,descriptive
+RQ2,M2-M1,PRIMARY,AAPL,total_transaction_cost,-99.9250499687671,lower_cost_only
+RQ2,M2-M1,PRIMARY,AMZN,cumulative_return,0.0008804469471930254,higher
+RQ2,M2-M1,PRIMARY,AMZN,sharpe_ratio,0.028024862387973415,higher
+RQ2,M2-M1,PRIMARY,AMZN,maximum_drawdown,0.04092837841352481,lower
+RQ2,M2-M1,PRIMARY,AMZN,calmar_ratio,-0.6458791619372939,higher
+RQ2,M2-M1,PRIMARY,AMZN,average_exposure,0.15199999999999997,descriptive
+RQ2,M2-M1,PRIMARY,AMZN,turnover,1.9807160362449117,descriptive
+RQ2,M2-M1,PRIMARY,AMZN,total_transaction_cost,198.93715484352103,lower_cost_only
+RQ2,M2-M1,PRIMARY,JPM,cumulative_return,-0.144558981108876,higher
+RQ2,M2-M1,PRIMARY,JPM,sharpe_ratio,-3.3505247601972816,higher
+RQ2,M2-M1,PRIMARY,JPM,maximum_drawdown,0.042555249295402886,lower
+RQ2,M2-M1,PRIMARY,JPM,calmar_ratio,-14.081361520458524,higher
+RQ2,M2-M1,PRIMARY,JPM,average_exposure,-0.07990692776045902,descriptive
+RQ2,M2-M1,PRIMARY,JPM,turnover,0.05560250098327546,descriptive
+RQ2,M2-M1,PRIMARY,JPM,total_transaction_cost,-13.808941406569033,lower_cost_only
+RQ3a,A1-M2,PRIMARY,aggregate,cumulative_return,0.1391080922810759,higher
+RQ3a,A1-M2,PRIMARY,aggregate,sharpe_ratio,2.1654827808844472,higher
+RQ3a,A1-M2,PRIMARY,aggregate,maximum_drawdown,-0.0005437129579962674,lower
+RQ3a,A1-M2,PRIMARY,aggregate,calmar_ratio,6.999213516555537,higher
+RQ3a,A1-M2,PRIMARY,aggregate,average_exposure,0.32165578915380666,descriptive
+RQ3a,A1-M2,PRIMARY,aggregate,turnover,-1.0449027254096068,descriptive
+RQ3a,A1-M2,PRIMARY,aggregate,total_transaction_cost,-298.05484631568004,lower_cost_only
+RQ3a,A1-M2,PRIMARY,AAPL,cumulative_return,0.0,higher
+RQ3a,A1-M2,PRIMARY,AAPL,sharpe_ratio,,higher
+RQ3a,A1-M2,PRIMARY,AAPL,maximum_drawdown,0.0,lower
+RQ3a,A1-M2,PRIMARY,AAPL,calmar_ratio,,higher
+RQ3a,A1-M2,PRIMARY,AAPL,average_exposure,0.0,descriptive
+RQ3a,A1-M2,PRIMARY,AAPL,turnover,0.0,descriptive
+RQ3a,A1-M2,PRIMARY,AAPL,total_transaction_cost,0.0,lower_cost_only
+RQ3a,A1-M2,PRIMARY,AMZN,cumulative_return,0.20662542823674457,higher
+RQ3a,A1-M2,PRIMARY,AMZN,sharpe_ratio,1.2385632147484733,higher
+RQ3a,A1-M2,PRIMARY,AMZN,maximum_drawdown,-0.03391415429016309,lower
+RQ3a,A1-M2,PRIMARY,AMZN,calmar_ratio,6.579527385528333,higher
+RQ3a,A1-M2,PRIMARY,AMZN,average_exposure,0.31200000000000006,descriptive
+RQ3a,A1-M2,PRIMARY,AMZN,turnover,-2.1017715177029235,descriptive
+RQ3a,A1-M2,PRIMARY,AMZN,total_transaction_cost,-198.9371548435241,lower_cost_only
+RQ3a,A1-M2,PRIMARY,JPM,cumulative_return,0.2106988486064828,higher
+RQ3a,A1-M2,PRIMARY,JPM,sharpe_ratio,2.2356027717324056,higher
+RQ3a,A1-M2,PRIMARY,JPM,maximum_drawdown,0.03135188289031343,lower
+RQ3a,A1-M2,PRIMARY,JPM,calmar_ratio,5.04286604932355,higher
+RQ3a,A1-M2,PRIMARY,JPM,average_exposure,0.65296736746142,descriptive
+RQ3a,A1-M2,PRIMARY,JPM,turnover,-1.0985415300876142,descriptive
+RQ3a,A1-M2,PRIMARY,JPM,total_transaction_cost,-99.11769147215597,lower_cost_only
+RQ3b,A2-M2,PRIMARY,aggregate,cumulative_return,0.10142668233356611,higher
+RQ3b,A2-M2,PRIMARY,aggregate,sharpe_ratio,1.9010019142857142,higher
+RQ3b,A2-M2,PRIMARY,aggregate,maximum_drawdown,-0.012850937392431039,lower
+RQ3b,A2-M2,PRIMARY,aggregate,calmar_ratio,7.291649050319056,higher
+RQ3b,A2-M2,PRIMARY,aggregate,average_exposure,0.053333333333333344,descriptive
+RQ3b,A2-M2,PRIMARY,aggregate,turnover,-1.3517833961596473,descriptive
+RQ3b,A2-M2,PRIMARY,aggregate,total_transaction_cost,-397.979896284455,lower_cost_only
+RQ3b,A2-M2,PRIMARY,AAPL,cumulative_return,0.0,higher
+RQ3b,A2-M2,PRIMARY,AAPL,sharpe_ratio,,higher
+RQ3b,A2-M2,PRIMARY,AAPL,maximum_drawdown,0.0,lower
+RQ3b,A2-M2,PRIMARY,AAPL,calmar_ratio,,higher
+RQ3b,A2-M2,PRIMARY,AAPL,average_exposure,0.0,descriptive
+RQ3b,A2-M2,PRIMARY,AAPL,turnover,0.0,descriptive
+RQ3b,A2-M2,PRIMARY,AAPL,total_transaction_cost,0.0,lower_cost_only
+RQ3b,A2-M2,PRIMARY,AMZN,cumulative_return,0.29471364100038255,higher
+RQ3b,A2-M2,PRIMARY,AMZN,sharpe_ratio,1.7664975658677147,higher
+RQ3b,A2-M2,PRIMARY,AMZN,maximum_drawdown,-0.03391415429016309,lower
+RQ3b,A2-M2,PRIMARY,AMZN,calmar_ratio,9.50468797374936,higher
+RQ3b,A2-M2,PRIMARY,AMZN,average_exposure,0.384,descriptive
+RQ3b,A2-M2,PRIMARY,AMZN,turnover,-2.157348291448673,descriptive
+RQ3b,A2-M2,PRIMARY,AMZN,total_transaction_cost,-198.93715484353416,lower_cost_only
+RQ3b,A2-M2,PRIMARY,JPM,cumulative_return,0.009566406000315442,higher
+RQ3b,A2-M2,PRIMARY,JPM,sharpe_ratio,,higher
+RQ3b,A2-M2,PRIMARY,JPM,maximum_drawdown,-0.06385531134262568,lower
+RQ3b,A2-M2,PRIMARY,JPM,calmar_ratio,,higher
+RQ3b,A2-M2,PRIMARY,JPM,average_exposure,-0.224,descriptive
+RQ3b,A2-M2,PRIMARY,JPM,turnover,-2.005727622283981,descriptive
+RQ3b,A2-M2,PRIMARY,JPM,total_transaction_cost,-199.04274144092085,lower_cost_only
+Context,A1-M1,SECONDARY CONTEXT,aggregate,cumulative_return,-0.005734979322207678,higher
+Context,A1-M1,SECONDARY CONTEXT,aggregate,sharpe_ratio,-0.4981634552630605,higher
+Context,A1-M1,SECONDARY CONTEXT,aggregate,maximum_drawdown,-7.444329352235268e-05,lower
+Context,A1-M1,SECONDARY CONTEXT,aggregate,calmar_ratio,-0.294135265715437,higher
+Context,A1-M1,SECONDARY CONTEXT,aggregate,average_exposure,0.19381302565608216,descriptive
+Context,A1-M1,SECONDARY CONTEXT,aggregate,turnover,-0.7011920908668905,descriptive
+Context,A1-M1,SECONDARY CONTEXT,aggregate,total_transaction_cost,-212.85168284749514,lower_cost_only
+Context,A1-M1,SECONDARY CONTEXT,AAPL,cumulative_return,-0.29085068064816744,higher
+Context,A1-M1,SECONDARY CONTEXT,AAPL,sharpe_ratio,,higher
+Context,A1-M1,SECONDARY CONTEXT,AAPL,maximum_drawdown,-0.060018686681325484,lower
+Context,A1-M1,SECONDARY CONTEXT,AAPL,calmar_ratio,,higher
+Context,A1-M1,SECONDARY CONTEXT,AAPL,average_exposure,-0.4556213627327146,descriptive
+Context,A1-M1,SECONDARY CONTEXT,AAPL,turnover,-0.9587305999274173,descriptive
+Context,A1-M1,SECONDARY CONTEXT,AAPL,total_transaction_cost,-99.9250499687671,lower_cost_only
+Context,A1-M1,SECONDARY CONTEXT,AMZN,cumulative_return,0.2075058751839376,higher
+Context,A1-M1,SECONDARY CONTEXT,AMZN,sharpe_ratio,1.2665880771364468,higher
+Context,A1-M1,SECONDARY CONTEXT,AMZN,maximum_drawdown,0.007014224123361723,lower
+Context,A1-M1,SECONDARY CONTEXT,AMZN,calmar_ratio,5.933648223591039,higher
+Context,A1-M1,SECONDARY CONTEXT,AMZN,average_exposure,0.464,descriptive
+Context,A1-M1,SECONDARY CONTEXT,AMZN,turnover,-0.12105548145801193,descriptive
+Context,A1-M1,SECONDARY CONTEXT,AMZN,total_transaction_cost,-3.069544618483633e-12,lower_cost_only
+Context,A1-M1,SECONDARY CONTEXT,JPM,cumulative_return,0.06613986749760681,higher
+Context,A1-M1,SECONDARY CONTEXT,JPM,sharpe_ratio,-1.114921988464876,higher
+Context,A1-M1,SECONDARY CONTEXT,JPM,maximum_drawdown,0.07390713218571632,lower
+Context,A1-M1,SECONDARY CONTEXT,JPM,calmar_ratio,-9.038495471134972,higher
+Context,A1-M1,SECONDARY CONTEXT,JPM,average_exposure,0.573060439700961,descriptive
+Context,A1-M1,SECONDARY CONTEXT,JPM,turnover,-1.0429390291043386,descriptive
+Context,A1-M1,SECONDARY CONTEXT,JPM,total_transaction_cost,-112.926632878725,lower_cost_only
+Context,A2-M1,SECONDARY CONTEXT,aggregate,cumulative_return,-0.04341638926971747,higher
+Context,A2-M1,SECONDARY CONTEXT,aggregate,sharpe_ratio,-0.7626443218617935,higher
+Context,A2-M1,SECONDARY CONTEXT,aggregate,maximum_drawdown,-0.012381667727957124,lower
+Context,A2-M1,SECONDARY CONTEXT,aggregate,calmar_ratio,-0.001699731951918082,higher
+Context,A2-M1,SECONDARY CONTEXT,aggregate,average_exposure,-0.07450943016439115,descriptive
+Context,A2-M1,SECONDARY CONTEXT,aggregate,turnover,-1.008072761616931,descriptive
+Context,A2-M1,SECONDARY CONTEXT,aggregate,total_transaction_cost,-312.77673281627006,lower_cost_only
+Context,A2-M1,SECONDARY CONTEXT,AAPL,cumulative_return,-0.29085068064816744,higher
+Context,A2-M1,SECONDARY CONTEXT,AAPL,sharpe_ratio,,higher
+Context,A2-M1,SECONDARY CONTEXT,AAPL,maximum_drawdown,-0.060018686681325484,lower
+Context,A2-M1,SECONDARY CONTEXT,AAPL,calmar_ratio,,higher
+Context,A2-M1,SECONDARY CONTEXT,AAPL,average_exposure,-0.4556213627327146,descriptive
+Context,A2-M1,SECONDARY CONTEXT,AAPL,turnover,-0.9587305999274173,descriptive
+Context,A2-M1,SECONDARY CONTEXT,AAPL,total_transaction_cost,-99.9250499687671,lower_cost_only
+Context,A2-M1,SECONDARY CONTEXT,AMZN,cumulative_return,0.2955940879475756,higher
+Context,A2-M1,SECONDARY CONTEXT,AMZN,sharpe_ratio,1.7945224282556882,higher
+Context,A2-M1,SECONDARY CONTEXT,AMZN,maximum_drawdown,0.007014224123361723,lower
+Context,A2-M1,SECONDARY CONTEXT,AMZN,calmar_ratio,8.858808811812066,higher
+Context,A2-M1,SECONDARY CONTEXT,AMZN,average_exposure,0.536,descriptive
+Context,A2-M1,SECONDARY CONTEXT,AMZN,turnover,-0.17663225520376125,descriptive
+Context,A2-M1,SECONDARY CONTEXT,AMZN,total_transaction_cost,-1.3130829756846651e-11,lower_cost_only
+Context,A2-M1,SECONDARY CONTEXT,JPM,cumulative_return,-0.13499257510856055,higher
+Context,A2-M1,SECONDARY CONTEXT,JPM,sharpe_ratio,,higher
+Context,A2-M1,SECONDARY CONTEXT,JPM,maximum_drawdown,-0.02130006204722279,lower
+Context,A2-M1,SECONDARY CONTEXT,JPM,calmar_ratio,,higher
+Context,A2-M1,SECONDARY CONTEXT,JPM,average_exposure,-0.303906927760459,descriptive
+Context,A2-M1,SECONDARY CONTEXT,JPM,turnover,-1.9501251213007056,descriptive
+Context,A2-M1,SECONDARY CONTEXT,JPM,total_transaction_cost,-212.85168284748988,lower_cost_only

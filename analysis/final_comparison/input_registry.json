@@ -1,0 +1,539 @@
+{
+  "market_benchmarks": {
+    "SPY": {
+      "metrics_path": "experiments/M0/benchmarks/SPY_buy_and_hold/metrics.json",
+      "sha256": "f791340f6aa4f8c6ca409e7586d19760730d42ed04e92a88788ac6268d2aa1c4"
+    },
+    "authority": "M0 frozen benchmark artifacts; identical snapshot identities across all official systems",
+    "equal_weight_buy_and_hold": {
+      "metrics_path": "experiments/M0/benchmarks/equal_weight_buy_and_hold_metrics.json",
+      "sha256": "5b5f7c0858820859ef687e58ea86fa586449bbaf49afa644aa2e91d804337984"
+    },
+    "snapshots": {
+      "AAPL": "5428fc2c672f3b68c7c3e83b4a22bd5b7330c95a8b4194695762539d9d8a5af3",
+      "AMZN": "c4b5c747d75ba658c6f6833348783e3f8a8c571380c930de20cf9fb7dd6b1444",
+      "JPM": "74cf77b77b0a83ce8e6246578d4da30bf7622558e8973bda71344b99b9dfd6fc",
+      "SPY": "22e6996ebf963787f40d54bfc59e1ca088fa698cb82b639768504dbdbb2d25ac"
+    },
+    "stock_buy_and_hold": [
+      {
+        "metrics_path": "experiments/M0/benchmarks/AAPL_buy_and_hold/metrics.json",
+        "sha256": "c20a5840a49df3ec25dcc6e78e82317eb3cc36c6f7e1e27315781c80eab90264",
+        "symbol": "AAPL"
+      },
+      {
+        "metrics_path": "experiments/M0/benchmarks/AMZN_buy_and_hold/metrics.json",
+        "sha256": "5a0d8b10d359a25f129704dbcbeefb0c66fa75d5c5c1b9baa2db015f973bfd88",
+        "symbol": "AMZN"
+      },
+      {
+        "metrics_path": "experiments/M0/benchmarks/JPM_buy_and_hold/metrics.json",
+        "sha256": "c7006083d709be06881218d13bbd38ffd2f58ec4c9b8347682d1b267019e78dd",
+        "symbol": "JPM"
+      }
+    ]
+  },
+  "schema_version": "COMPARE-01-INPUT-REGISTRY-v1",
+  "selection_policy": "Official research-freeze/audit identities only; pilot and development runs excluded.",
+  "systems": [
+    {
+      "aggregate_metrics": {
+        "path": "experiments/M0/aggregate/equal_weight_metrics.json",
+        "sha256": "00a8115569fc6c642eb3e1ace46d0875b718489654e57c1ac40bc20c35761663"
+      },
+      "decision_action_paths": [
+        {
+          "path": "experiments/M0/analysis_ready/decision_timeline.csv",
+          "sha256": "907ddbf1a7d19107e4b0209dd8b49a74133f542f6558401351236806e3045663"
+        },
+        {
+          "path": "experiments/M0/analysis_ready/action_summary.csv",
+          "sha256": "4b769d0e2338ec85efe8bea423074292e1f7f63871ec0f099659494ee38647e5"
+        },
+        {
+          "path": "experiments/M0/trading/AAPL/decisions.csv",
+          "sha256": "c11e1545d8afe437dbde8a43fae937b4d3b64c04dadf191a487b82dbebcc5f6d"
+        },
+        {
+          "path": "experiments/M0/trading/AMZN/decisions.csv",
+          "sha256": "7b5fde72a40bcb308ffbe6ee1d9273d870e4a018b0450ce79990e9db240eaf49"
+        },
+        {
+          "path": "experiments/M0/trading/JPM/decisions.csv",
+          "sha256": "a92934b9314acb9e8c1584ba8e6d19d265f6b1e39befce0c19c2e91bf1c709ed"
+        }
+      ],
+      "equity_paths": [
+        {
+          "path": "experiments/M0/aggregate/equal_weight_equity.csv",
+          "sha256": "14bcff607bfe02e255c30eb3755e31b12827b3b79dc878b5c99497958fe8019b"
+        },
+        {
+          "path": "experiments/M0/trading/AAPL/daily_equity.csv",
+          "sha256": "f2966f2bbb982eccea8c6a6dbee220202177ff190a3e64944dd9c50b163c09a5"
+        },
+        {
+          "path": "experiments/M0/trading/AMZN/daily_equity.csv",
+          "sha256": "6d8f359faf9eb324da16ab4803879ec3d953c6754f2926ba5ca0c8e7d93cef8f"
+        },
+        {
+          "path": "experiments/M0/trading/JPM/daily_equity.csv",
+          "sha256": "47677c42abdd399fb4789377b377bfadc639dc6e8cc8c60717c9c47327945023"
+        }
+      ],
+      "experiment_name": "M0",
+      "formal_config": {
+        "path": "experiments/M0/provenance/success_config.resolved.json",
+        "sha256": "776a7132d0e35a8f02e3aa4f4662172e01da7f5375790cbc4ad991c03ce173ab"
+      },
+      "frozen_market_snapshots": {
+        "AAPL": "5428fc2c672f3b68c7c3e83b4a22bd5b7330c95a8b4194695762539d9d8a5af3",
+        "AMZN": "c4b5c747d75ba658c6f6833348783e3f8a8c571380c930de20cf9fb7dd6b1444",
+        "JPM": "74cf77b77b0a83ce8e6246578d4da30bf7622558e8973bda71344b99b9dfd6fc",
+        "SPY": "22e6996ebf963787f40d54bfc59e1ca088fa698cb82b639768504dbdbb2d25ac"
+      },
+      "official_run_id": "20260812T082530978211Z_2535896c",
+      "per_stock_metrics": [
+        {
+          "path": "experiments/M0/trading/AAPL/metrics.json",
+          "sha256": "6f6e90fe63ff3f9e5299637b3a81a3f9b829a79ab0332a2076d9a757d151b4ec"
+        },
+        {
+          "path": "experiments/M0/trading/AMZN/metrics.json",
+          "sha256": "386735e66b394cd8975831049c4d23aa5576d06b9342ad1b276aed8acc937d72"
+        },
+        {
+          "path": "experiments/M0/trading/JPM/metrics.json",
+          "sha256": "58e657998e6c35e82e509692d1f825b56301f3ab4e2d0b383014337f32aed84f"
+        }
+      ],
+      "provenance_paths": [
+        "experiments/M0/provenance",
+        "experiments/M0/validation/validation_report.json"
+      ],
+      "research_freeze_file": {
+        "path": "experiments/M0/M0_POSTRUN_AUDIT.json",
+        "sha256": "d6031cd25a92b3860da4e77a4fd04f14d18b75c83300ab1f610e912756663bc9"
+      },
+      "scientific_role": "Historical-safe Prompt Trader baseline",
+      "source_sha": "2535896c8b1070b19c06fa6a936663babb4356f7",
+      "validation_status": "PASS"
+    },
+    {
+      "aggregate_metrics": {
+        "path": "experiments/M1/formal/runs/20260814T015553499023Z_ac0d1b00/aggregate/equal_weight_metrics.json",
+        "sha256": "2d33e97c2f89ac183f1976efc5e4e7fba1167cd266d4c0b1dc3484e1cefc29d0"
+      },
+      "decision_action_paths": [
+        {
+          "path": "experiments/M1/formal/runs/20260814T015553499023Z_ac0d1b00/analysis_ready/decision_timeline.csv",
+          "sha256": "c089bb3f78067229ffb48d8095cd993af9e875dda9efe7c1ad93fc22bb87e548"
+        },
+        {
+          "path": "experiments/M1/formal/runs/20260814T015553499023Z_ac0d1b00/analysis_ready/action_summary.csv",
+          "sha256": "cbba5ea83e336b8a170de7b91392b131a906650aa671820fe7da97f05970c5c4"
+        },
+        {
+          "path": "experiments/M1/formal/runs/20260814T015553499023Z_ac0d1b00/strategy/AAPL/decisions.csv",
+          "sha256": "fff1464e83292267eaee33853f086410bf2608c42c07f88f3749afc572e7892b"
+        },
+        {
+          "path": "experiments/M1/formal/runs/20260814T015553499023Z_ac0d1b00/strategy/AMZN/decisions.csv",
+          "sha256": "20d81e059b788cf8bf03c9cf19abd5b6d019963912d59ca3d2ab246189eec98e"
+        },
+        {
+          "path": "experiments/M1/formal/runs/20260814T015553499023Z_ac0d1b00/strategy/JPM/decisions.csv",
+          "sha256": "08e968971d1c5b173fce0bd4712bef596f3fd4d9d8ad0088febd8d2b7c1f30e4"
+        }
+      ],
+      "equity_paths": [
+        {
+          "path": "experiments/M1/formal/runs/20260814T015553499023Z_ac0d1b00/aggregate/equal_weight_equity.csv",
+          "sha256": "4117bd8895705eb7458f8a8de60a35308994b58441aba1ce2e8225ea2610e908"
+        },
+        {
+          "path": "experiments/M1/formal/runs/20260814T015553499023Z_ac0d1b00/strategy/AAPL/daily_equity.csv",
+          "sha256": "5789d6252ad929a51c67d2ad45823cda0a1e525ce79eca30763777b520c2ed44"
+        },
+        {
+          "path": "experiments/M1/formal/runs/20260814T015553499023Z_ac0d1b00/strategy/AMZN/daily_equity.csv",
+          "sha256": "3b101c1cad6a579fcf0297220d68514731cb23437dedfe2290b5290787235e21"
+        },
+        {
+          "path": "experiments/M1/formal/runs/20260814T015553499023Z_ac0d1b00/strategy/JPM/daily_equity.csv",
+          "sha256": "f638caf4c8861a059d161dab68073bdb20110b4c3e71fa1e615e9d997d453c92"
+        }
+      ],
+      "experiment_name": "M1",
+      "formal_config": {
+        "path": "experiments/M1/formal/runs/20260814T015553499023Z_ac0d1b00/config.resolved.json",
+        "sha256": "b34e840604e3e5d20cb374c5a5506d3db2412a54432d3c20ec5be45b9034e339"
+      },
+      "frozen_market_snapshots": {
+        "AAPL": "5428fc2c672f3b68c7c3e83b4a22bd5b7330c95a8b4194695762539d9d8a5af3",
+        "AMZN": "c4b5c747d75ba658c6f6833348783e3f8a8c571380c930de20cf9fb7dd6b1444",
+        "JPM": "74cf77b77b0a83ce8e6246578d4da30bf7622558e8973bda71344b99b9dfd6fc",
+        "SPY": "22e6996ebf963787f40d54bfc59e1ca088fa698cb82b639768504dbdbb2d25ac"
+      },
+      "official_run_id": "20260814T015553499023Z_ac0d1b00",
+      "per_stock_metrics": [
+        {
+          "path": "experiments/M1/formal/runs/20260814T015553499023Z_ac0d1b00/strategy/AAPL/metrics.json",
+          "sha256": "3e11e74adfc6128a7ae066edcae84fe993ad732b8628ecc8cf3a236af14d0680"
+        },
+        {
+          "path": "experiments/M1/formal/runs/20260814T015553499023Z_ac0d1b00/strategy/AMZN/metrics.json",
+          "sha256": "8cf740ee49a7180985f561ca7979756bdeaa5c4a985a5ade9fdfd748a4a47049"
+        },
+        {
+          "path": "experiments/M1/formal/runs/20260814T015553499023Z_ac0d1b00/strategy/JPM/metrics.json",
+          "sha256": "c7d89358039d7bffe8c51d529947bac98191771b0469a85187c59f475454ff65"
+        }
+      ],
+      "provenance_paths": [
+        "experiments/M1/formal/runs/20260814T015553499023Z_ac0d1b00/provenance",
+        "experiments/M1/formal/runs/20260814T015553499023Z_ac0d1b00/post_run_audit"
+      ],
+      "research_freeze_file": {
+        "path": "experiments/M1/formal/runs/20260814T015553499023Z_ac0d1b00/post_run_audit/post_run_audit_report.json",
+        "sha256": "b6168312932dcb580ac3c42c49e4061254431892e1915f177f256a74382f7311"
+      },
+      "scientific_role": "PIT-safe FinMultiTime information treatment",
+      "source_sha": "ac0d1b006d8019748702fda38399a4316befb9b0",
+      "validation_status": "PASS"
+    },
+    {
+      "aggregate_metrics": {
+        "path": "experiments/M2/formal/runs/20260817T101217082243Z_6306ea4e/aggregate/equal_weight_metrics.json",
+        "sha256": "803f5b598dba69b4a0fbc35b99a927cc945320f85b69ccd8044211bb91a5df0c"
+      },
+      "decision_action_paths": [
+        {
+          "path": "experiments/M2/formal/runs/20260817T101217082243Z_6306ea4e/analysis_ready/decision_timeline.csv",
+          "sha256": "aaf184c46d2347a0f3ded05abf6c7dd719c702493233999a3fec03c674938ac6"
+        },
+        {
+          "path": "experiments/M2/formal/runs/20260817T101217082243Z_6306ea4e/analysis_ready/action_summary.csv",
+          "sha256": "94cce7a862bac290f65ab029ca38a418f0f9b36955df662f12a92f7fbe99ada8"
+        },
+        {
+          "path": "experiments/M2/formal/runs/20260817T101217082243Z_6306ea4e/strategy/AAPL/decisions.csv",
+          "sha256": "318b267c433a048954ce388d9bfe2a988c9994e97c511fb709f623139eb92770"
+        },
+        {
+          "path": "experiments/M2/formal/runs/20260817T101217082243Z_6306ea4e/strategy/AMZN/decisions.csv",
+          "sha256": "b67918d76c9588a13c4910f0bd4d5edd67994541ce629d1a87d84787e164f547"
+        },
+        {
+          "path": "experiments/M2/formal/runs/20260817T101217082243Z_6306ea4e/strategy/JPM/decisions.csv",
+          "sha256": "5088b4c8952d39c1d3ae8faece09a958a9530e3f1c702ca0dce67e644b69b174"
+        }
+      ],
+      "equity_paths": [
+        {
+          "path": "experiments/M2/formal/runs/20260817T101217082243Z_6306ea4e/aggregate/equal_weight_equity.csv",
+          "sha256": "95c9ca02cd7f67917e6add4357fbf5898bced3b0c8463c42235045f55e8e94d9"
+        },
+        {
+          "path": "experiments/M2/formal/runs/20260817T101217082243Z_6306ea4e/strategy/AAPL/daily_equity.csv",
+          "sha256": "67a84c9c6336fb2f6805ed12be2bd2387e703db1c611e82d4952e63523ab85c2"
+        },
+        {
+          "path": "experiments/M2/formal/runs/20260817T101217082243Z_6306ea4e/strategy/AMZN/daily_equity.csv",
+          "sha256": "9da5718ac670979d07452c80d9d921b9443f5375d41cb72a6e4db68f6263a98d"
+        },
+        {
+          "path": "experiments/M2/formal/runs/20260817T101217082243Z_6306ea4e/strategy/JPM/daily_equity.csv",
+          "sha256": "a572fc8909e552ff77c5800d73fd5470d69c77e7c7b04875348debf784ec5290"
+        }
+      ],
+      "experiment_name": "M2",
+      "formal_config": {
+        "path": "experiments/M2/formal/runs/20260817T101217082243Z_6306ea4e/config.resolved.json",
+        "sha256": "36bdf07ac8a1553caaf22af437efb2489d260986797138034e5b283cfe41e896"
+      },
+      "frozen_market_snapshots": {
+        "AAPL": "5428fc2c672f3b68c7c3e83b4a22bd5b7330c95a8b4194695762539d9d8a5af3",
+        "AMZN": "c4b5c747d75ba658c6f6833348783e3f8a8c571380c930de20cf9fb7dd6b1444",
+        "JPM": "74cf77b77b0a83ce8e6246578d4da30bf7622558e8973bda71344b99b9dfd6fc",
+        "SPY": "22e6996ebf963787f40d54bfc59e1ca088fa698cb82b639768504dbdbb2d25ac"
+      },
+      "official_run_id": "20260817T101217082243Z_6306ea4e",
+      "per_stock_metrics": [
+        {
+          "path": "experiments/M2/formal/runs/20260817T101217082243Z_6306ea4e/strategy/AAPL/metrics.json",
+          "sha256": "c34c6d12714df02dc4a10ed45d4b39e8cef6f31327826d5716611f2c6e408068"
+        },
+        {
+          "path": "experiments/M2/formal/runs/20260817T101217082243Z_6306ea4e/strategy/AMZN/metrics.json",
+          "sha256": "70cb62056acc99c3355519454098a431ee77e466409947b780aedaaef124d9df"
+        },
+        {
+          "path": "experiments/M2/formal/runs/20260817T101217082243Z_6306ea4e/strategy/JPM/metrics.json",
+          "sha256": "809e1847595afed3c5168c00513965b9f0015dc430f76e6625188e576b2589bf"
+        }
+      ],
+      "provenance_paths": [
+        "experiments/M2/formal/runs/20260817T101217082243Z_6306ea4e/provenance",
+        "experiments/M2/m2_post_run_audit.json"
+      ],
+      "research_freeze_file": {
+        "path": "experiments/M2/m2_research_freeze.json",
+        "sha256": "11b07d15fc4ed80bc9f37ce5c7e86e22727cbf3114ca3c95b67b5e02dab2e727"
+      },
+      "scientific_role": "Full Agentic RL: global pretraining plus online adaptation",
+      "source_sha": "6306ea4ea20cda501c6238db80c34d27bbc16bea",
+      "validation_status": "PASS"
+    },
+    {
+      "aggregate_metrics": {
+        "path": "experiments/A1/formal/runs/20260817T221009081674Z_11ae1ce4/aggregate/equal_weight_metrics.json",
+        "sha256": "4a00f39c6a3fab2c116f998182c27165dfbc188a6f62f86c1afede594e60ce4b"
+      },
+      "decision_action_paths": [
+        {
+          "path": "experiments/A1/formal/runs/20260817T221009081674Z_11ae1ce4/analysis_ready/decision_timeline.csv",
+          "sha256": "57d598aa5657dfa52c225ecf53a2604b1b44e39886275b20f616467724b8fe2e"
+        },
+        {
+          "path": "experiments/A1/formal/runs/20260817T221009081674Z_11ae1ce4/analysis_ready/action_summary.csv",
+          "sha256": "834e0facccb61f55418578ac8ea6c3e0edac80e0b595bb1a0cc03be782eca39f"
+        },
+        {
+          "path": "experiments/A1/formal/runs/20260817T221009081674Z_11ae1ce4/strategy/AAPL/decisions.csv",
+          "sha256": "804a2c48d771b4d7f797d0dc413f429f2d707c5d4ad6d59c11f6d062b15cb3d9"
+        },
+        {
+          "path": "experiments/A1/formal/runs/20260817T221009081674Z_11ae1ce4/strategy/AMZN/decisions.csv",
+          "sha256": "db1d6ed2b5e2adb645a7cec68f04f4802a0caceb4d22cf037d02f8c4bfcfd2c6"
+        },
+        {
+          "path": "experiments/A1/formal/runs/20260817T221009081674Z_11ae1ce4/strategy/JPM/decisions.csv",
+          "sha256": "cd388d7be6bcfcf68da5bef6812c5a5f5c5dea6a20cdd2f8be709c198c5a09d2"
+        }
+      ],
+      "equity_paths": [
+        {
+          "path": "experiments/A1/formal/runs/20260817T221009081674Z_11ae1ce4/aggregate/equal_weight_equity.csv",
+          "sha256": "6aad52b38790a5ffc5f72167a2ecfda669fc787b80f5e9adf00615fa15a5c778"
+        },
+        {
+          "path": "experiments/A1/formal/runs/20260817T221009081674Z_11ae1ce4/strategy/AAPL/daily_equity.csv",
+          "sha256": "67a84c9c6336fb2f6805ed12be2bd2387e703db1c611e82d4952e63523ab85c2"
+        },
+        {
+          "path": "experiments/A1/formal/runs/20260817T221009081674Z_11ae1ce4/strategy/AMZN/daily_equity.csv",
+          "sha256": "a0ab1dab2b3a2da224fbb72f73d76fffa8e0fb7396a9791ce3b1c920ad7246a3"
+        },
+        {
+          "path": "experiments/A1/formal/runs/20260817T221009081674Z_11ae1ce4/strategy/JPM/daily_equity.csv",
+          "sha256": "cd8af1156663b606dd569c8fdfa2431d2344ff395390030e1d6790dd6965445c"
+        }
+      ],
+      "experiment_name": "A1",
+      "formal_config": {
+        "path": "experiments/A1/formal/runs/20260817T221009081674Z_11ae1ce4/config.resolved.json",
+        "sha256": "1d49b3c3f14dcd5fe1743e4356433638d0e4a1842db30cca6674a71f86a374bc"
+      },
+      "frozen_market_snapshots": {
+        "AAPL": "5428fc2c672f3b68c7c3e83b4a22bd5b7330c95a8b4194695762539d9d8a5af3",
+        "AMZN": "c4b5c747d75ba658c6f6833348783e3f8a8c571380c930de20cf9fb7dd6b1444",
+        "JPM": "74cf77b77b0a83ce8e6246578d4da30bf7622558e8973bda71344b99b9dfd6fc",
+        "SPY": "22e6996ebf963787f40d54bfc59e1ca088fa698cb82b639768504dbdbb2d25ac"
+      },
+      "official_run_id": "20260817T221009081674Z_11ae1ce4",
+      "per_stock_metrics": [
+        {
+          "path": "experiments/A1/formal/runs/20260817T221009081674Z_11ae1ce4/strategy/AAPL/metrics.json",
+          "sha256": "8215f752ad2b7e1a13cc542d12de7fa14ee59943d3fdf15b76f2b08eed2c1ee5"
+        },
+        {
+          "path": "experiments/A1/formal/runs/20260817T221009081674Z_11ae1ce4/strategy/AMZN/metrics.json",
+          "sha256": "230016ade2af6f9829e860acb6a8533c0f0b0550ea1309d47dbb95a6c13139a5"
+        },
+        {
+          "path": "experiments/A1/formal/runs/20260817T221009081674Z_11ae1ce4/strategy/JPM/metrics.json",
+          "sha256": "957090a79f8ca255b269f8002e55156ca2bd4355d336f65f0a47bd371d272e35"
+        }
+      ],
+      "provenance_paths": [
+        "experiments/A1/formal/a1_post_run_audit.json",
+        "experiments/A1/formal/runtime/m2_state"
+      ],
+      "research_freeze_file": {
+        "path": "experiments/A1/formal/a1_research_freeze.json",
+        "sha256": "05be959aaf7f2e5f70d262a7bf62dcba38fb10730cf3493b81ad66d389a2e1dd"
+      },
+      "scientific_role": "Ablation: global pretraining only",
+      "source_sha": "11ae1ce4a3bac6245dbc39c073bcfc2ac0bba16b",
+      "validation_status": "PASS"
+    },
+    {
+      "aggregate_metrics": {
+        "path": "experiments/A2/formal/official_bundle/A2_no_global_pretraining_2024H1/runs/20260818T204749061036Z_ae0f36b1/aggregate/equal_weight_metrics.json",
+        "sha256": "79d40c1058620f99c77f520c5c7d6031e8f483dda35ce5f1faea39ed46acc670"
+      },
+      "decision_action_paths": [
+        {
+          "path": "experiments/A2/formal/official_bundle/A2_no_global_pretraining_2024H1/runs/20260818T204749061036Z_ae0f36b1/analysis_ready/decision_timeline.csv",
+          "sha256": "6d24d746771e45ecb2076c3a58adffdb61f76bd502329714d5c62c125e4fd023"
+        },
+        {
+          "path": "experiments/A2/formal/official_bundle/A2_no_global_pretraining_2024H1/runs/20260818T204749061036Z_ae0f36b1/analysis_ready/action_summary.csv",
+          "sha256": "fcbeb35c36b8862103343c5cc21b0aeb403ce0706f444b756152d2fa6d7e540a"
+        },
+        {
+          "path": "experiments/A2/formal/official_bundle/A2_no_global_pretraining_2024H1/runs/20260818T204749061036Z_ae0f36b1/strategy/AAPL/decisions.csv",
+          "sha256": "3ccf8f7d165d4b569f4aad4eb4827ee9d3f5df03835ab2e0c1dc19502278e9e2"
+        },
+        {
+          "path": "experiments/A2/formal/official_bundle/A2_no_global_pretraining_2024H1/runs/20260818T204749061036Z_ae0f36b1/strategy/AMZN/decisions.csv",
+          "sha256": "2d23ec813161686749e75cedc762efad38ed5fd414a6f827cb81ff272c0676bc"
+        },
+        {
+          "path": "experiments/A2/formal/official_bundle/A2_no_global_pretraining_2024H1/runs/20260818T204749061036Z_ae0f36b1/strategy/JPM/decisions.csv",
+          "sha256": "94fe685c9604e6804386e63d63dd09b2b840fd099a3dec50082f0b783afb2a13"
+        }
+      ],
+      "equity_paths": [
+        {
+          "path": "experiments/A2/formal/official_bundle/A2_no_global_pretraining_2024H1/runs/20260818T204749061036Z_ae0f36b1/aggregate/equal_weight_equity.csv",
+          "sha256": "818904683f386b2af943457babecf1108fdf19e3dac1dfb8c794c6eaddf655f2"
+        },
+        {
+          "path": "experiments/A2/formal/official_bundle/A2_no_global_pretraining_2024H1/runs/20260818T204749061036Z_ae0f36b1/strategy/AAPL/daily_equity.csv",
+          "sha256": "67a84c9c6336fb2f6805ed12be2bd2387e703db1c611e82d4952e63523ab85c2"
+        },
+        {
+          "path": "experiments/A2/formal/official_bundle/A2_no_global_pretraining_2024H1/runs/20260818T204749061036Z_ae0f36b1/strategy/AMZN/daily_equity.csv",
+          "sha256": "fb402a5b28dd89db83a1647e9d71809ef739abf7ad554071aa6dc3489bdd6707"
+        },
+        {
+          "path": "experiments/A2/formal/official_bundle/A2_no_global_pretraining_2024H1/runs/20260818T204749061036Z_ae0f36b1/strategy/JPM/daily_equity.csv",
+          "sha256": "e72c024d04ebe3c92243e336883d106710ebe3095ef4d56e72449feb94c7f59e"
+        }
+      ],
+      "experiment_name": "A2",
+      "formal_config": {
+        "path": "experiments/A2/formal/official_bundle/A2_no_global_pretraining_2024H1/runs/20260818T204749061036Z_ae0f36b1/config.resolved.json",
+        "sha256": "ed9e25555e2d41c116785eaa89fd580ec41d12d1dcfee6e8f9f15be9e4f99e3e"
+      },
+      "frozen_market_snapshots": {
+        "AAPL": "5428fc2c672f3b68c7c3e83b4a22bd5b7330c95a8b4194695762539d9d8a5af3",
+        "AMZN": "c4b5c747d75ba658c6f6833348783e3f8a8c571380c930de20cf9fb7dd6b1444",
+        "JPM": "74cf77b77b0a83ce8e6246578d4da30bf7622558e8973bda71344b99b9dfd6fc",
+        "SPY": "22e6996ebf963787f40d54bfc59e1ca088fa698cb82b639768504dbdbb2d25ac"
+      },
+      "official_run_id": "20260818T204749061036Z_ae0f36b1",
+      "per_stock_metrics": [
+        {
+          "path": "experiments/A2/formal/official_bundle/A2_no_global_pretraining_2024H1/runs/20260818T204749061036Z_ae0f36b1/strategy/AAPL/metrics.json",
+          "sha256": "274eaf7b9be2d2c29ff26a73d071321fc615e7f913d9d02d3af9f097f9f3c733"
+        },
+        {
+          "path": "experiments/A2/formal/official_bundle/A2_no_global_pretraining_2024H1/runs/20260818T204749061036Z_ae0f36b1/strategy/AMZN/metrics.json",
+          "sha256": "8e422fec4835a3b4e90381680d21d0f7e8fcc2de411d204d285450105f389c1f"
+        },
+        {
+          "path": "experiments/A2/formal/official_bundle/A2_no_global_pretraining_2024H1/runs/20260818T204749061036Z_ae0f36b1/strategy/JPM/metrics.json",
+          "sha256": "2fdf226d210423da6c8bc50e3d851b601499e0f0fa130d43ef6593cd2f14ddcb"
+        }
+      ],
+      "provenance_paths": [
+        "experiments/A2/formal/A2_POST_RUN_AUDIT.json",
+        "experiments/A2/formal/official_bundle/A2_no_global_pretraining_2024H1/runs/20260818T204749061036Z_ae0f36b1/provenance"
+      ],
+      "research_freeze_file": {
+        "path": "experiments/A2/formal/A2_RESEARCH_FREEZE.json",
+        "sha256": "b88be35af456ecba77028cfe2128c869f1f02c60c75b9a27285fabebe912c953"
+      },
+      "scientific_role": "Ablation: online adaptation only",
+      "source_sha": "ae0f36b16a17a1321c17c630fb6a52e10dd23fcd",
+      "validation_status": "PASS"
+    },
+    {
+      "aggregate_metrics": {
+        "path": "experiments/ARMA/formal/official_run/aggregate/equal_weight_metrics.json",
+        "sha256": "211870b15f15fb3117bb90db88f7f4f3004957b91bc741352a17a0c9ce1565e2"
+      },
+      "decision_action_paths": [
+        {
+          "path": "experiments/ARMA/formal/official_run/analysis_ready/decision_timeline.csv",
+          "sha256": "014d179dacd6e727fd1792637cda4f5f2ceb57ab52157e9a1754510fabeaafbe"
+        },
+        {
+          "path": "experiments/ARMA/formal/official_run/analysis_ready/action_summary.csv",
+          "sha256": "5bc230552360c8bbc27eaf7bcf11e873baa9e3c2ecea9a795d6b5e7c348a7f0a"
+        },
+        {
+          "path": "experiments/ARMA/formal/official_run/strategy/AAPL/decisions.csv",
+          "sha256": "88f4b17549e717578372f055536087053d6b6a7ead95355be36a5f22cb83a30e"
+        },
+        {
+          "path": "experiments/ARMA/formal/official_run/strategy/AMZN/decisions.csv",
+          "sha256": "b934cfbe53972d535957d5a6f10d0899ff3d55e196436c9838d6550ff1330884"
+        },
+        {
+          "path": "experiments/ARMA/formal/official_run/strategy/JPM/decisions.csv",
+          "sha256": "139ed02ae5066c612320033cf1768837d5b55738e4d1c783f541f9b0299bfafc"
+        }
+      ],
+      "equity_paths": [
+        {
+          "path": "experiments/ARMA/formal/official_run/aggregate/equal_weight_equity.csv",
+          "sha256": "efa73176a00cc03a8ba84710546ce7124de182df17b1955a8d5cf97b5f56338b"
+        },
+        {
+          "path": "experiments/ARMA/formal/official_run/strategy/AAPL/daily_equity.csv",
+          "sha256": "b3851552af6b2e1da4b62e4d0556818c74626d211888dbba0397c116d3926f66"
+        },
+        {
+          "path": "experiments/ARMA/formal/official_run/strategy/AMZN/daily_equity.csv",
+          "sha256": "0e9cf19d4b236a664543b1349f7c9e09430e123c3d91b73e3b18285f7ee1e25a"
+        },
+        {
+          "path": "experiments/ARMA/formal/official_run/strategy/JPM/daily_equity.csv",
+          "sha256": "29a29208608a433a299ea8e42a315383a6210121a5cd24df122ac5ae92208956"
+        }
+      ],
+      "experiment_name": "ARMA",
+      "formal_config": {
+        "path": "experiments/ARMA/formal/official_run/config.resolved.json",
+        "sha256": "ba4382aff73f7fe1d3bdfb44e92d0907d6a55de69d9cd1720acab1f6c325d9b4"
+      },
+      "frozen_market_snapshots": {
+        "AAPL": "5428fc2c672f3b68c7c3e83b4a22bd5b7330c95a8b4194695762539d9d8a5af3",
+        "AMZN": "c4b5c747d75ba658c6f6833348783e3f8a8c571380c930de20cf9fb7dd6b1444",
+        "JPM": "74cf77b77b0a83ce8e6246578d4da30bf7622558e8973bda71344b99b9dfd6fc",
+        "SPY": "22e6996ebf963787f40d54bfc59e1ca088fa698cb82b639768504dbdbb2d25ac"
+      },
+      "official_run_id": "ARMA11_2024H1",
+      "per_stock_metrics": [
+        {
+          "path": "experiments/ARMA/formal/official_run/strategy/AAPL/metrics.json",
+          "sha256": "5de7fefd8a80b241974ac318e4da6d0a3b5963da453fbbf95071b58bae2c19d3"
+        },
+        {
+          "path": "experiments/ARMA/formal/official_run/strategy/AMZN/metrics.json",
+          "sha256": "09e7157eec7a83c0c42a58d6b43f4746fb82a84793554fc091ba4290f77fad29"
+        },
+        {
+          "path": "experiments/ARMA/formal/official_run/strategy/JPM/metrics.json",
+          "sha256": "03ad7058a47da11c346e0e6d86e81f74d1ee5201d06554277e6a1e09d8ce9c8c"
+        }
+      ],
+      "provenance_paths": [
+        "experiments/ARMA/formal/ARMA_POST_RUN_AUDIT.json",
+        "experiments/ARMA/formal/official_run/provenance/decision_provenance.jsonl"
+      ],
+      "research_freeze_file": {
+        "path": "experiments/ARMA/formal/ARMA_RESEARCH_FREEZE.json",
+        "sha256": "07e84823b22dcb1a6119cae3c27473a9c39fa04697eb65e3dad4397adf7e0505"
+      },
+      "scientific_role": "Contextual classical ARMA(1,1) benchmark",
+      "source_sha": "d6c2b11cc4646dc06c435fe10a027d8f867e2791",
+      "validation_status": "PASS"
+    }
+  ],
+  "validation": "PASS"
+}

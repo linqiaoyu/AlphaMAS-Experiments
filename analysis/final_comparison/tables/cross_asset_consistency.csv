@@ -1,0 +1,13 @@
+research_question,contrast,metric,AAPL,AMZN,JPM,improved_count,equal_count,worsened_count,comparable_asset_count,direction_consistent
+RQ1,M1-M0,cumulative_return,improved,worsened,improved,2,0,1,3,False
+RQ1,M1-M0,sharpe_ratio,improved,worsened,improved,2,0,1,3,False
+RQ1,M1-M0,maximum_drawdown,worsened,improved,improved,2,0,1,3,False
+RQ2,M2-M1,cumulative_return,worsened,improved,worsened,1,0,2,3,False
+RQ2,M2-M1,sharpe_ratio,not comparable,improved,worsened,1,0,1,2,False
+RQ2,M2-M1,maximum_drawdown,improved,worsened,worsened,1,0,2,3,False
+RQ3a,A1-M2,cumulative_return,equal,improved,improved,2,1,0,3,False
+RQ3a,A1-M2,sharpe_ratio,not comparable,improved,improved,2,0,0,2,True
+RQ3a,A1-M2,maximum_drawdown,equal,improved,worsened,1,1,1,3,False
+RQ3b,A2-M2,cumulative_return,equal,improved,improved,2,1,0,3,False
+RQ3b,A2-M2,sharpe_ratio,not comparable,improved,not comparable,1,0,0,1,True
+RQ3b,A2-M2,maximum_drawdown,equal,improved,improved,2,1,0,3,False

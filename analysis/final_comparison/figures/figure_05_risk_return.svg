@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#17202a} .title{font-size:22px;font-weight:700} .axis{stroke:#566573;stroke-width:1} .grid{stroke:#d5d8dc;stroke-width:1} .label{font-size:12px} .small{font-size:10px;fill:#566573}</style>
+<text x="600.0" y="30" text-anchor="middle" class="title">Risk-Return Comparison — Separate Metric Panels</text>
+<line x1="55.0" y1="535.0" x2="395.0" y2="535.0" class="grid"/><text x="50.0" y="539.0" text-anchor="end" class="small">0.00</text>
+<line x1="55.0" y1="420.0" x2="395.0" y2="420.0" class="grid"/><text x="50.0" y="424.0" text-anchor="end" class="small">1.01</text>
+<line x1="55.0" y1="305.0" x2="395.0" y2="305.0" class="grid"/><text x="50.0" y="309.0" text-anchor="end" class="small">2.02</text>
+<line x1="55.0" y1="190.0" x2="395.0" y2="190.0" class="grid"/><text x="50.0" y="194.0" text-anchor="end" class="small">3.03</text>
+<line x1="55.0" y1="75.0" x2="395.0" y2="75.0" class="grid"/><text x="50.0" y="79.0" text-anchor="end" class="small">4.04</text>
+<text x="225.0" y="58" text-anchor="middle" style="font-size:15px;font-weight:700">Sharpe (ratio)</text>
+<rect x="63.1" y="217.1" width="26.4" height="317.9" fill="#1f4e79"/>
+<text transform="translate(76.2,553) rotate(-40)" text-anchor="end" class="small">M0</text>
+<rect x="105.6" y="154.9" width="26.4" height="380.1" fill="#2e75b6"/>
+<text transform="translate(118.8,553) rotate(-40)" text-anchor="end" class="small">M1</text>
+<rect x="148.1" y="458.5" width="26.4" height="76.5" fill="#c00000"/>
+<text transform="translate(161.2,553) rotate(-40)" text-anchor="end" class="small">M2</text>
+<rect x="190.6" y="211.7" width="26.4" height="323.3" fill="#70ad47"/>
+<text transform="translate(203.8,553) rotate(-40)" text-anchor="end" class="small">A1</text>
+<rect x="233.1" y="241.8" width="26.4" height="293.2" fill="#ed7d31"/>
+<text transform="translate(246.2,553) rotate(-40)" text-anchor="end" class="small">A2</text>
+<rect x="275.6" y="173.9" width="26.4" height="361.1" fill="#7030a0"/>
+<text transform="translate(288.8,553) rotate(-40)" text-anchor="end" class="small">ARMA(1,1)</text>
+<rect x="318.1" y="135.0" width="26.4" height="400.0" fill="#7f8c8d"/>
+<text transform="translate(331.2,553) rotate(-40)" text-anchor="end" class="small">Equal-weight B&amp;H</text>
+<rect x="360.6" y="146.3" width="26.4" height="388.7" fill="#262626"/>
+<text transform="translate(373.8,553) rotate(-40)" text-anchor="end" class="small">SPY</text>
+<line x1="430.0" y1="535.0" x2="770.0" y2="535.0" class="grid"/><text x="425.0" y="539.0" text-anchor="end" class="small">0.00</text>
+<line x1="430.0" y1="420.0" x2="770.0" y2="420.0" class="grid"/><text x="425.0" y="424.0" text-anchor="end" class="small">0.02</text>
+<line x1="430.0" y1="305.0" x2="770.0" y2="305.0" class="grid"/><text x="425.0" y="309.0" text-anchor="end" class="small">0.04</text>
+<line x1="430.0" y1="190.0" x2="770.0" y2="190.0" class="grid"/><text x="425.0" y="194.0" text-anchor="end" class="small">0.05</text>
+<line x1="430.0" y1="75.0" x2="770.0" y2="75.0" class="grid"/><text x="425.0" y="79.0" text-anchor="end" class="small">0.07</text>
+<text x="600.0" y="58" text-anchor="middle" style="font-size:15px;font-weight:700">Maximum Drawdown (decimal)</text>
+<rect x="438.1" y="210.3" width="26.4" height="324.7" fill="#1f4e79"/>
+<text transform="translate(451.2,553) rotate(-40)" text-anchor="end" class="small">M0</text>
+<rect x="480.6" y="248.2" width="26.4" height="286.8" fill="#2e75b6"/>
+<text transform="translate(493.8,553) rotate(-40)" text-anchor="end" class="small">M1</text>
+<rect x="523.1" y="245.2" width="26.4" height="289.8" fill="#c00000"/>
+<text transform="translate(536.2,553) rotate(-40)" text-anchor="end" class="small">M2</text>
+<rect x="565.6" y="248.7" width="26.4" height="286.3" fill="#70ad47"/>
+<text transform="translate(578.8,553) rotate(-40)" text-anchor="end" class="small">A1</text>
+<rect x="608.1" y="328.5" width="26.4" height="206.5" fill="#ed7d31"/>
+<text transform="translate(621.2,553) rotate(-40)" text-anchor="end" class="small">A2</text>
+<rect x="650.6" y="136.0" width="26.4" height="399.0" fill="#7030a0"/>
+<text transform="translate(663.8,553) rotate(-40)" text-anchor="end" class="small">ARMA(1,1)</text>
+<rect x="693.1" y="135.0" width="26.4" height="400.0" fill="#7f8c8d"/>
+<text transform="translate(706.2,553) rotate(-40)" text-anchor="end" class="small">Equal-weight B&amp;H</text>
+<rect x="735.6" y="189.0" width="26.4" height="346.0" fill="#262626"/>
+<text transform="translate(748.8,553) rotate(-40)" text-anchor="end" class="small">SPY</text>
+<line x1="805.0" y1="535.0" x2="1145.0" y2="535.0" class="grid"/><text x="800.0" y="539.0" text-anchor="end" class="small">0.00</text>
+<line x1="805.0" y1="420.0" x2="1145.0" y2="420.0" class="grid"/><text x="800.0" y="424.0" text-anchor="end" class="small">2.91</text>
+<line x1="805.0" y1="305.0" x2="1145.0" y2="305.0" class="grid"/><text x="800.0" y="309.0" text-anchor="end" class="small">5.82</text>
+<line x1="805.0" y1="190.0" x2="1145.0" y2="190.0" class="grid"/><text x="800.0" y="194.0" text-anchor="end" class="small">8.73</text>
+<line x1="805.0" y1="75.0" x2="1145.0" y2="75.0" class="grid"/><text x="800.0" y="79.0" text-anchor="end" class="small">11.64</text>
+<text x="975.0" y="58" text-anchor="middle" style="font-size:15px;font-weight:700">Calmar (ratio)</text>
+<rect x="813.1" y="296.1" width="26.4" height="238.9" fill="#1f4e79"/>
+<text transform="translate(826.2,553) rotate(-40)" text-anchor="end" class="small">M0</text>
+<rect x="855.6" y="212.0" width="26.4" height="323.0" fill="#2e75b6"/>
+<text transform="translate(868.8,553) rotate(-40)" text-anchor="end" class="small">M1</text>
+<rect x="898.1" y="500.3" width="26.4" height="34.7" fill="#c00000"/>
+<text transform="translate(911.2,553) rotate(-40)" text-anchor="end" class="small">M2</text>
+<rect x="940.6" y="223.6" width="26.4" height="311.4" fill="#70ad47"/>
+<text transform="translate(953.8,553) rotate(-40)" text-anchor="end" class="small">A1</text>
+<rect x="983.1" y="212.1" width="26.4" height="322.9" fill="#ed7d31"/>
+<text transform="translate(996.2,553) rotate(-40)" text-anchor="end" class="small">A2</text>
+<rect x="1025.6" y="187.1" width="26.4" height="347.9" fill="#7030a0"/>
+<text transform="translate(1038.8,553) rotate(-40)" text-anchor="end" class="small">ARMA(1,1)</text>
+<rect x="1068.1" y="135.0" width="26.4" height="400.0" fill="#7f8c8d"/>
+<text transform="translate(1081.2,553) rotate(-40)" text-anchor="end" class="small">Equal-weight B&amp;H</text>
+<rect x="1110.6" y="220.9" width="26.4" height="314.1" fill="#262626"/>
+<text transform="translate(1123.8,553) rotate(-40)" text-anchor="end" class="small">SPY</text>
+<text x="16" y="628" class="small">Source: Official frozen AlphaMAS-Experiments artifacts; 2024H1, generated by COMPARE-01</text>
+</svg>

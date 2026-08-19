@@ -1,0 +1,10 @@
+# Thesis Controlled Comparisons
+
+| Comparison | Aggregate Return Delta | AAPL Return Delta | AMZN Return Delta | JPM Return Delta | Sharpe Delta | MDD Delta | Exposure Delta | Interpretation |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| RQ1: M1-M0 | 2.50% | 11.02% | -8.33% | 4.81% | 0.546 | -0.59% | -6.14% | Aggregate return and risk-adjusted performance improved, with heterogeneous stock-level returns. |
+| RQ2: M2-M1 | -14.48% | -29.09% | 0.09% | -14.46% | -2.664 | 0.05% | -12.78% | Full Agentic RL materially reduced aggregate return and participation; AMZN was the sole stock-level return improvement. |
+| RQ3a: A1-M2 | 13.91% | 0.00% | 20.66% | 21.07% | 2.165 | -0.05% | 32.17% | Global-only A1 materially outperformed Full M2 in aggregate, driven by AMZN and JPM; AAPL remained in cash. |
+| RQ3b: A2-M2 | 10.14% | 0.00% | 29.47% | 0.96% | 1.901 | -1.29% | 5.33% | Online-only A2 outperformed Full M2 in aggregate; AAPL remained in cash and JPM avoided M2's loss by not entering. |
+
+Positive MDD deltas mean a larger (worse) drawdown; exposure deltas are descriptive.

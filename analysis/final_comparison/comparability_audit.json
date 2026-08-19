@@ -1,0 +1,355 @@
+{
+  "contract_checks": [
+    {
+      "expected": [
+        "AAPL",
+        "AMZN",
+        "JPM"
+      ],
+      "field": "symbols",
+      "status": "PASS",
+      "values": {
+        "A1": [
+          "AAPL",
+          "AMZN",
+          "JPM"
+        ],
+        "A2": [
+          "AAPL",
+          "AMZN",
+          "JPM"
+        ],
+        "ARMA": [
+          "AAPL",
+          "AMZN",
+          "JPM"
+        ],
+        "M0": [
+          "AAPL",
+          "AMZN",
+          "JPM"
+        ],
+        "M1": [
+          "AAPL",
+          "AMZN",
+          "JPM"
+        ],
+        "M2": [
+          "AAPL",
+          "AMZN",
+          "JPM"
+        ]
+      }
+    },
+    {
+      "expected": "XNYS",
+      "field": "calendar",
+      "status": "PASS",
+      "values": {
+        "A1": "XNYS",
+        "A2": "XNYS",
+        "ARMA": "XNYS",
+        "M0": "XNYS",
+        "M1": "XNYS",
+        "M2": "XNYS"
+      }
+    },
+    {
+      "expected": "2024-07-05",
+      "field": "final_valuation_session",
+      "status": "PASS",
+      "values": {
+        "A1": "2024-07-05",
+        "A2": "2024-07-05",
+        "ARMA": "2024-07-05",
+        "M0": "2024-07-05",
+        "M1": "2024-07-05",
+        "M2": "2024-07-05"
+      }
+    },
+    {
+      "expected": 100000,
+      "field": "initial_cash",
+      "status": "PASS",
+      "values": {
+        "A1": 100000,
+        "A2": 100000,
+        "ARMA": 100000,
+        "M0": 100000,
+        "M1": 100000,
+        "M2": 100000
+      }
+    },
+    {
+      "expected": true,
+      "field": "fractional_shares",
+      "status": "PASS",
+      "values": {
+        "A1": true,
+        "A2": true,
+        "ARMA": true,
+        "M0": true,
+        "M1": true,
+        "M2": true
+      }
+    },
+    {
+      "expected": true,
+      "field": "long_only",
+      "status": "PASS",
+      "values": {
+        "A1": true,
+        "A2": true,
+        "ARMA": true,
+        "M0": true,
+        "M1": true,
+        "M2": true
+      }
+    },
+    {
+      "expected": false,
+      "field": "short_selling",
+      "status": "PASS",
+      "values": {
+        "A1": false,
+        "A2": false,
+        "ARMA": false,
+        "M0": false,
+        "M1": false,
+        "M2": false
+      }
+    },
+    {
+      "expected": false,
+      "field": "leverage",
+      "status": "PASS",
+      "values": {
+        "A1": false,
+        "A2": false,
+        "ARMA": false,
+        "M0": false,
+        "M1": false,
+        "M2": false
+      }
+    },
+    {
+      "expected": 5,
+      "field": "commission_bps",
+      "status": "PASS",
+      "values": {
+        "A1": 5,
+        "A2": 5,
+        "ARMA": 5,
+        "M0": 5,
+        "M1": 5,
+        "M2": 5
+      }
+    },
+    {
+      "expected": 5,
+      "field": "slippage_bps",
+      "status": "PASS",
+      "values": {
+        "A1": 5,
+        "A2": 5,
+        "ARMA": 5,
+        "M0": 5,
+        "M1": 5,
+        "M2": 5
+      }
+    },
+    {
+      "expected": false,
+      "field": "force_liquidate_at_end",
+      "status": "PASS",
+      "values": {
+        "A1": false,
+        "A2": false,
+        "ARMA": false,
+        "M0": false,
+        "M1": false,
+        "M2": false
+      }
+    },
+    {
+      "expected": 0.0,
+      "field": "risk_free_rate",
+      "status": "PASS",
+      "values": {
+        "A1": 0.0,
+        "A2": 0.0,
+        "ARMA": 0.0,
+        "M0": 0.0,
+        "M1": 0.0,
+        "M2": 0.0
+      }
+    },
+    {
+      "expected": 252,
+      "field": "annualization",
+      "status": "PASS",
+      "values": {
+        "A1": 252,
+        "A2": 252,
+        "ARMA": 252,
+        "M0": 252,
+        "M1": 252,
+        "M2": 252
+      }
+    },
+    {
+      "expected": {
+        "AAPL": "5428fc2c672f3b68c7c3e83b4a22bd5b7330c95a8b4194695762539d9d8a5af3",
+        "AMZN": "c4b5c747d75ba658c6f6833348783e3f8a8c571380c930de20cf9fb7dd6b1444",
+        "JPM": "74cf77b77b0a83ce8e6246578d4da30bf7622558e8973bda71344b99b9dfd6fc",
+        "SPY": "22e6996ebf963787f40d54bfc59e1ca088fa698cb82b639768504dbdbb2d25ac"
+      },
+      "field": "market_snapshots:M0",
+      "status": "PASS",
+      "values": {
+        "AAPL": "5428fc2c672f3b68c7c3e83b4a22bd5b7330c95a8b4194695762539d9d8a5af3",
+        "AMZN": "c4b5c747d75ba658c6f6833348783e3f8a8c571380c930de20cf9fb7dd6b1444",
+        "JPM": "74cf77b77b0a83ce8e6246578d4da30bf7622558e8973bda71344b99b9dfd6fc",
+        "SPY": "22e6996ebf963787f40d54bfc59e1ca088fa698cb82b639768504dbdbb2d25ac"
+      }
+    },
+    {
+      "expected": 78,
+      "field": "decision_population:M0",
+      "status": "PASS",
+      "values": 78
+    },
+    {
+      "expected": {
+        "AAPL": "5428fc2c672f3b68c7c3e83b4a22bd5b7330c95a8b4194695762539d9d8a5af3",
+        "AMZN": "c4b5c747d75ba658c6f6833348783e3f8a8c571380c930de20cf9fb7dd6b1444",
+        "JPM": "74cf77b77b0a83ce8e6246578d4da30bf7622558e8973bda71344b99b9dfd6fc",
+        "SPY": "22e6996ebf963787f40d54bfc59e1ca088fa698cb82b639768504dbdbb2d25ac"
+      },
+      "field": "market_snapshots:M1",
+      "status": "PASS",
+      "values": {
+        "AAPL": "5428fc2c672f3b68c7c3e83b4a22bd5b7330c95a8b4194695762539d9d8a5af3",
+        "AMZN": "c4b5c747d75ba658c6f6833348783e3f8a8c571380c930de20cf9fb7dd6b1444",
+        "JPM": "74cf77b77b0a83ce8e6246578d4da30bf7622558e8973bda71344b99b9dfd6fc",
+        "SPY": "22e6996ebf963787f40d54bfc59e1ca088fa698cb82b639768504dbdbb2d25ac"
+      }
+    },
+    {
+      "expected": 78,
+      "field": "decision_population:M1",
+      "status": "PASS",
+      "values": 78
+    },
+    {
+      "expected": {
+        "AAPL": "5428fc2c672f3b68c7c3e83b4a22bd5b7330c95a8b4194695762539d9d8a5af3",
+        "AMZN": "c4b5c747d75ba658c6f6833348783e3f8a8c571380c930de20cf9fb7dd6b1444",
+        "JPM": "74cf77b77b0a83ce8e6246578d4da30bf7622558e8973bda71344b99b9dfd6fc",
+        "SPY": "22e6996ebf963787f40d54bfc59e1ca088fa698cb82b639768504dbdbb2d25ac"
+      },
+      "field": "market_snapshots:M2",
+      "status": "PASS",
+      "values": {
+        "AAPL": "5428fc2c672f3b68c7c3e83b4a22bd5b7330c95a8b4194695762539d9d8a5af3",
+        "AMZN": "c4b5c747d75ba658c6f6833348783e3f8a8c571380c930de20cf9fb7dd6b1444",
+        "JPM": "74cf77b77b0a83ce8e6246578d4da30bf7622558e8973bda71344b99b9dfd6fc",
+        "SPY": "22e6996ebf963787f40d54bfc59e1ca088fa698cb82b639768504dbdbb2d25ac"
+      }
+    },
+    {
+      "expected": 78,
+      "field": "decision_population:M2",
+      "status": "PASS",
+      "values": 78
+    },
+    {
+      "expected": {
+        "AAPL": "5428fc2c672f3b68c7c3e83b4a22bd5b7330c95a8b4194695762539d9d8a5af3",
+        "AMZN": "c4b5c747d75ba658c6f6833348783e3f8a8c571380c930de20cf9fb7dd6b1444",
+        "JPM": "74cf77b77b0a83ce8e6246578d4da30bf7622558e8973bda71344b99b9dfd6fc",
+        "SPY": "22e6996ebf963787f40d54bfc59e1ca088fa698cb82b639768504dbdbb2d25ac"
+      },
+      "field": "market_snapshots:A1",
+      "status": "PASS",
+      "values": {
+        "AAPL": "5428fc2c672f3b68c7c3e83b4a22bd5b7330c95a8b4194695762539d9d8a5af3",
+        "AMZN": "c4b5c747d75ba658c6f6833348783e3f8a8c571380c930de20cf9fb7dd6b1444",
+        "JPM": "74cf77b77b0a83ce8e6246578d4da30bf7622558e8973bda71344b99b9dfd6fc",
+        "SPY": "22e6996ebf963787f40d54bfc59e1ca088fa698cb82b639768504dbdbb2d25ac"
+      }
+    },
+    {
+      "expected": 78,
+      "field": "decision_population:A1",
+      "status": "PASS",
+      "values": 78
+    },
+    {
+      "expected": {
+        "AAPL": "5428fc2c672f3b68c7c3e83b4a22bd5b7330c95a8b4194695762539d9d8a5af3",
+        "AMZN": "c4b5c747d75ba658c6f6833348783e3f8a8c571380c930de20cf9fb7dd6b1444",
+        "JPM": "74cf77b77b0a83ce8e6246578d4da30bf7622558e8973bda71344b99b9dfd6fc",
+        "SPY": "22e6996ebf963787f40d54bfc59e1ca088fa698cb82b639768504dbdbb2d25ac"
+      },
+      "field": "market_snapshots:A2",
+      "status": "PASS",
+      "values": {
+        "AAPL": "5428fc2c672f3b68c7c3e83b4a22bd5b7330c95a8b4194695762539d9d8a5af3",
+        "AMZN": "c4b5c747d75ba658c6f6833348783e3f8a8c571380c930de20cf9fb7dd6b1444",
+        "JPM": "74cf77b77b0a83ce8e6246578d4da30bf7622558e8973bda71344b99b9dfd6fc",
+        "SPY": "22e6996ebf963787f40d54bfc59e1ca088fa698cb82b639768504dbdbb2d25ac"
+      }
+    },
+    {
+      "expected": 78,
+      "field": "decision_population:A2",
+      "status": "PASS",
+      "values": 78
+    },
+    {
+      "expected": {
+        "AAPL": "5428fc2c672f3b68c7c3e83b4a22bd5b7330c95a8b4194695762539d9d8a5af3",
+        "AMZN": "c4b5c747d75ba658c6f6833348783e3f8a8c571380c930de20cf9fb7dd6b1444",
+        "JPM": "74cf77b77b0a83ce8e6246578d4da30bf7622558e8973bda71344b99b9dfd6fc",
+        "SPY": "22e6996ebf963787f40d54bfc59e1ca088fa698cb82b639768504dbdbb2d25ac"
+      },
+      "field": "market_snapshots:ARMA",
+      "status": "PASS",
+      "values": {
+        "AAPL": "5428fc2c672f3b68c7c3e83b4a22bd5b7330c95a8b4194695762539d9d8a5af3",
+        "AMZN": "c4b5c747d75ba658c6f6833348783e3f8a8c571380c930de20cf9fb7dd6b1444",
+        "JPM": "74cf77b77b0a83ce8e6246578d4da30bf7622558e8973bda71344b99b9dfd6fc",
+        "SPY": "22e6996ebf963787f40d54bfc59e1ca088fa698cb82b639768504dbdbb2d25ac"
+      }
+    },
+    {
+      "expected": 78,
+      "field": "decision_population:ARMA",
+      "status": "PASS",
+      "values": 78
+    },
+    {
+      "expected": "2024H1; 26 decisions per stock",
+      "field": "evaluation_period",
+      "status": "PASS",
+      "values": "2024-01-05 through 2024-06-28"
+    },
+    {
+      "expected": true,
+      "field": "next_open_execution",
+      "status": "PASS",
+      "values": "decision/execution schedules plus no_same_bar_execution validation"
+    },
+    {
+      "expected": true,
+      "field": "daily_mark_to_market",
+      "status": "PASS",
+      "values": "complete aligned daily_equity artifacts and validation"
+    }
+  ],
+  "interpretation": "Protocol equality is required for comparison; treatment-specific implementation and information differences are intentional.",
+  "material_mismatches": [],
+  "schema_version": "COMPARE-01-COMPARABILITY-v1",
+  "status": "PASS"
+}
